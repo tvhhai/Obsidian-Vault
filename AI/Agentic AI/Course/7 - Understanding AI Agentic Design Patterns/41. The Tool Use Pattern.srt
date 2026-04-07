@@ -1,0 +1,559 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f8f8f8">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,304
+<font color="#ececec">We are going to learn</font>
+
+3
+00:00:02,560 --> 00:00:03,584
+<font color="#828282">The tool used Pat</font>
+
+4
+00:00:04,352 --> 00:00:05,888
+<font color="#f9f9f9">If you look at the typical agent</font>
+
+5
+00:00:06,144 --> 00:00:06,656
+<font color="#9f9f9f">Another</font>
+
+6
+00:00:06,912 --> 00:00:07,936
+<font color="#f1f1f1">Is the brain of the</font>
+
+7
+00:00:09,216 --> 00:00:11,520
+<font color="#d4d4d4">Set another alarm is just a brain in a jar</font>
+
+8
+00:00:12,032 --> 00:00:12,800
+<font color="#cccccc">You can't think</font>
+
+9
+00:00:13,056 --> 00:00:13,824
+<font color="#cbcbcb">But it cannot Act</font>
+
+10
+00:00:14,336 --> 00:00:16,896
+<font color="#c6c6c6">The tool used pattern is the architectural blueprint</font>
+
+11
+00:00:17,408 --> 00:00:18,688
+<font color="#c8c8c8">For giving that brain</font>
+
+12
+00:00:19,200 --> 00:00:20,224
+<font color="#d9d9d9">To interact with the</font>
+
+13
+00:00:20,992 --> 00:00:22,272
+<font color="#bbbbbb">Do you understand this button</font>
+
+14
+00:00:22,528 --> 00:00:24,576
+<font color="#ebebeb">You must first appreciate the core problem</font>
+
+15
+00:00:25,088 --> 00:00:26,624
+<font color="#e5e5e5">A large language model</font>
+
+16
+00:00:27,392 --> 00:00:28,672
+<font color="#b2b2b2">Is a text in text</font>
+
+17
+00:00:29,696 --> 00:00:31,744
+<font color="#efefef">It is effectively locked in a box</font>
+
+18
+00:00:32,512 --> 00:00:33,536
+<font color="#bababa">It cannot produce</font>
+
+19
+00:00:33,792 --> 00:00:36,352
+<font color="#d3d3d3">It cannot clear your companies in Metro database</font>
+
+20
+00:00:36,864 --> 00:00:39,168
+<font color="#e7e7e7">You cannot even tell you the current date or</font>
+
+21
+00:00:39,680 --> 00:00:42,496
+<font color="#cfcfcf">It is entire reality is the text we</font>
+
+22
+00:00:43,264 --> 00:00:44,288
+<font color="#f0f0f0">So the fundamental</font>
+
+23
+00:00:44,800 --> 00:00:45,312
+<font color="#949494">What's the question is</font>
+
+24
+00:00:45,568 --> 00:00:46,592
+<font color="#f6f6f6">How do we connect</font>
+
+25
+00:00:46,848 --> 00:00:47,616
+<font color="#aeaeae">Is this powerful brain</font>
+
+26
+00:00:47,872 --> 00:00:49,664
+<font color="#bababa">Do a real world cup and data</font>
+
+27
+00:00:49,920 --> 00:00:51,968
+<font color="#b9b9b9">The answer is the tallest</font>
+
+28
+00:00:52,480 --> 00:00:55,296
+<font color="#d0d0d0">Which we will also hear referred as a function call</font>
+
+29
+00:00:55,808 --> 00:00:58,624
+<font color="#a0a0a0">The tool used pattern is a three-part architect</font>
+
+30
+00:00:59,136 --> 00:01:01,184
+<font color="#f5f5f5">It is not just one thing it is a system</font>
+
+31
+00:01:02,208 --> 00:01:03,232
+<font color="#848484">First we need a Sikkim</font>
+
+32
+00:01:03,488 --> 00:01:04,000
+<font color="#f5f5f5">This</font>
+
+33
+00:01:04,256 --> 00:01:07,072
+<font color="#c4c4c4">A special machine readable description of Art</font>
+
+34
+00:01:07,584 --> 00:01:08,096
+<font color="#cdcdcd">It is</font>
+
+35
+00:01:08,352 --> 00:01:08,864
+<font color="#f7f7f7">What is</font>
+
+36
+00:01:09,120 --> 00:01:10,144
+<font color="#a9a9a9">On what parameters</font>
+
+37
+00:01:11,424 --> 00:01:13,216
+<font color="#bababa">Second behavioral alarm itself</font>
+
+38
+00:01:13,472 --> 00:01:15,008
+<font color="#afafaf">Which X is the chooser</font>
+
+39
+00:01:15,264 --> 00:01:16,800
+<font color="#c4c4c4">Based on the user score</font>
+
+40
+00:01:17,056 --> 00:01:18,848
+<font color="#afafaf">The alarm be the reason and decide</font>
+
+41
+00:01:19,104 --> 00:01:19,872
+<font color="#eaeaea">To answer</font>
+
+42
+00:01:21,152 --> 00:01:21,920
+<font color="#ababab">The gate weather</font>
+
+43
+00:01:22,688 --> 00:01:24,480
+<font color="#c1c1c1">On the third one we have the orchestrator</font>
+
+44
+00:01:24,736 --> 00:01:27,296
+<font color="#c1c1c1">This is our own code that manage this Pro</font>
+
+45
+00:01:28,064 --> 00:01:29,600
+<font color="#d9d9d9">It takes the alarms decision</font>
+
+46
+00:01:29,856 --> 00:01:31,648
+<font color="#e9e9e9">Execute the actual python function</font>
+
+47
+00:01:31,904 --> 00:01:32,928
+<font color="#b5b5b5">Get the result</font>
+
+48
+00:01:33,184 --> 00:01:33,696
+<font color="#3c3c3c">On</font>
+
+49
+00:01:33,952 --> 00:01:36,000
+<font color="#b8b8b8">What's the status back to the alarm for</font>
+
+50
+00:01:37,024 --> 00:01:38,816
+<font color="#bbbbbb">Did you cancel the image on the slide</font>
+
+51
+00:01:39,840 --> 00:01:41,376
+<font color="#7b7b7b">Sigma alarm and orkest</font>
+
+52
+00:01:42,144 --> 00:01:43,680
+<font color="#dddddd">We are listening to</font>
+
+53
+00:01:43,936 --> 00:01:44,960
+<font color="#6b6b6b">Who's the Jason responds</font>
+
+54
+00:01:45,472 --> 00:01:46,496
+<font color="#909090">And in the Atlanta</font>
+
+55
+00:01:46,752 --> 00:01:47,520
+<font color="#adadad">We selected</font>
+
+56
+00:01:47,776 --> 00:01:49,056
+<font color="#9f9f9f">Who's going to Define and reasoning</font>
+
+57
+00:01:49,568 --> 00:01:50,080
+<font color="#cccccc">I need the</font>
+
+58
+00:01:50,336 --> 00:01:50,848
+<font color="#474747">Is 330</font>
+
+59
+00:01:51,104 --> 00:01:52,384
+<font color="#a3a3a3">Musically execute the function</font>
+
+60
+00:01:52,640 --> 00:01:53,664
+<font color="#bcbcbc">Listen and get the result</font>
+
+61
+00:01:53,920 --> 00:01:56,736
+<font color="#cfcfcf">Return back to the alarm to generate a particular resp</font>
+
+62
+00:01:56,992 --> 00:01:59,808
+<font color="#e7e7e7">So now let's look at the each mechanism one by</font>
+
+63
+00:02:00,576 --> 00:02:03,136
+<font color="#f4f4f4">The first and the most important part of this pattern</font>
+
+64
+00:02:04,160 --> 00:02:08,000
+<font color="#dadada">You must make our quote visible to the alarm in a language it understand</font>
+
+65
+00:02:08,512 --> 00:02:10,048
+<font color="#e8e8e8">We do this by defining</font>
+
+66
+00:02:10,816 --> 00:02:12,096
+<font color="#aaaaaa">Open the Json object</font>
+
+67
+00:02:12,352 --> 00:02:13,888
+<font color="#b7b7b7">It is passed to the alarm</font>
+
+68
+00:02:14,400 --> 00:02:14,912
+<font color="#303030">Assistant prom</font>
+
+69
+00:02:15,168 --> 00:02:17,216
+<font color="#a7a7a7">DC camo mask contain three</font>
+
+70
+00:02:17,728 --> 00:02:19,008
+<font color="#e3e3e3">First is the function name</font>
+
+71
+00:02:19,264 --> 00:02:20,288
+<font color="#727272">Stream like a weather</font>
+
+72
+00:02:20,544 --> 00:02:21,824
+<font color="#b4b4b4">2nd a description</font>
+
+73
+00:02:22,080 --> 00:02:23,616
+<font color="#efefef">This is the most critical piece</font>
+
+74
+00:02:24,640 --> 00:02:25,408
+<font color="#a2a2a2">A crystal</font>
+
+75
+00:02:25,664 --> 00:02:27,712
+<font color="#f1f1f1">Natural language description of</font>
+
+76
+00:02:27,968 --> 00:02:28,736
+<font color="#cfcfcf">What the</font>
+
+77
+00:02:29,248 --> 00:02:32,064
+<font color="#d2d2d2">Description is what the alarm uses to decide</font>
+
+78
+00:02:32,320 --> 00:02:33,600
+<font color="#f1f1f1">If this tool is useful</font>
+
+79
+00:02:34,112 --> 00:02:36,416
+<font color="#e5e5e5">On the third one is a list of parameters</font>
+
+80
+00:02:36,672 --> 00:02:38,720
+<font color="#cecece">Including today's type and description</font>
+
+81
+00:02:39,232 --> 00:02:40,768
+<font color="#dfdfdf">This Sigma is essential</font>
+
+82
+00:02:41,024 --> 00:02:42,304
+<font color="#898989">Are two for the alarm</font>
+
+83
+00:02:42,816 --> 00:02:43,328
+<font color="#c9c9c9">Now</font>
+
+84
+00:02:43,584 --> 00:02:44,352
+<font color="#686868">Let's look at the part</font>
+
+85
+00:02:44,608 --> 00:02:45,632
+<font color="#cacaca">Which is the LSU</font>
+
+86
+00:02:46,144 --> 00:02:48,704
+<font color="#939393">The alarm at 6:30 or router</font>
+
+87
+00:02:49,728 --> 00:02:50,752
+<font color="#bababa">Is internal thought</font>
+
+88
+00:02:51,776 --> 00:02:53,056
+<font color="#dedede">It receives the user</font>
+
+89
+00:02:53,312 --> 00:02:54,592
+<font color="#fcfcfc">What is the weather in London</font>
+
+90
+00:02:55,104 --> 00:02:55,616
+<font color="#c2c2c2">Second</font>
+
+91
+00:02:55,872 --> 00:02:56,896
+<font color="#aeaeae">What's a candle list of the</font>
+
+92
+00:02:57,152 --> 00:02:58,176
+<font color="#c3c3c3">Mickey Mouse we provided</font>
+
+93
+00:02:58,432 --> 00:02:59,456
+<font color="#333333">33</font>
+
+94
+00:02:59,968 --> 00:03:00,480
+<font color="#e3e3e3">It</font>
+
+95
+00:03:00,736 --> 00:03:02,272
+<font color="#c1c1c1">Do you say school is about</font>
+
+96
+00:03:02,528 --> 00:03:04,576
+<font color="#a4a4a4">I see a tool called gate weather</font>
+
+97
+00:03:04,832 --> 00:03:05,856
+<font color="#cdcdcd">Whose description</font>
+
+98
+00:03:06,368 --> 00:03:07,904
+<font color="#b5b5b5">It is for this exact Purp</font>
+
+99
+00:03:08,416 --> 00:03:09,440
+<font color="#505050">Deadpool record</font>
+
+100
+00:03:09,696 --> 00:03:10,464
+<font color="#757575">Is City paramet</font>
+
+101
+00:03:10,720 --> 00:03:12,512
+<font color="#6d6d6d">Do you just call Merchant lond</font>
+
+102
+00:03:13,024 --> 00:03:13,792
+<font color="#dadada">Therefore I</font>
+
+103
+00:03:14,048 --> 00:03:14,560
+<font color="#989898">How cold is</font>
+
+104
+00:03:15,328 --> 00:03:16,352
+<font color="#eeeeee">So this is the</font>
+
+105
+00:03:16,608 --> 00:03:17,120
+<font color="#636363">What time is action</font>
+
+106
+00:03:17,888 --> 00:03:18,656
+<font color="#e5e5e5">And this is the key</font>
+
+107
+00:03:18,912 --> 00:03:20,704
+<font color="#f9f9f9">It doesn't respond to the user</font>
+
+108
+00:03:21,728 --> 00:03:23,776
+<font color="#a2a2a2">It's action is to out</font>
+
+109
+00:03:24,032 --> 00:03:25,056
+<font color="#a5a5a5">Play special Json object</font>
+
+110
+00:03:25,312 --> 00:03:27,104
+<font color="#b7b7b7">That represent it is decision</font>
+
+111
+00:03:27,360 --> 00:03:29,920
+<font color="#c0c0c0">Here you can find example of Jason</font>
+
+112
+00:03:30,176 --> 00:03:32,736
+<font color="#c6c6c6">Including the function name and the argument</font>
+
+113
+00:03:33,248 --> 00:03:36,320
+<font color="#d6d6d6">This is the function called behaving talking about from the alarm</font>
+
+114
+00:03:37,088 --> 00:03:40,160
+<font color="#d7d7d7">So the last part is orchestrated role or we can</font>
+
+115
+00:03:40,416 --> 00:03:40,928
+<font color="#595959">Executor</font>
+
+116
+00:03:41,440 --> 00:03:42,976
+<font color="#dddddd">Which is the final part of the pat</font>
+
+117
+00:03:43,232 --> 00:03:44,256
+<font color="#d2d2d2">Is the orchestrator</font>
+
+118
+00:03:44,512 --> 00:03:47,328
+<font color="#f2f2f2">And this is the code we are responsible for writing</font>
+
+119
+00:03:47,840 --> 00:03:50,400
+<font color="#c5c5c5">The orchestrators job is simple but critical</font>
+
+120
+00:03:50,912 --> 00:03:54,496
+<font color="#b1b1b1">First it received that structure Jason to call from the alarm</font>
+
+121
+00:03:55,520 --> 00:03:58,848
+<font color="#bcbcbc">Is it supposed to Jason to get the tools name and its arguments</font>
+
+122
+00:03:59,104 --> 00:04:03,968
+<font color="#cbcbcb">Turn it maps that name to actual real python function we have defined in our code</font>
+
+123
+00:04:04,224 --> 00:04:06,016
+<font color="#969696">What is executive function</font>
+
+124
+00:04:06,272 --> 00:04:10,368
+<font color="#c6c6c6">For example it calls or get rid of function with the argument as a lond</font>
+
+125
+00:04:10,880 --> 00:04:14,208
+<font color="#e1e1e1">Finally it takes the return value from that function</font>
+
+126
+00:04:15,232 --> 00:04:18,559
+<font color="#d5d5d5">Let's eat big to the alarm is the input for the next reasoning group</font>
+
+127
+00:04:19,071 --> 00:04:21,887
+<font color="#939393">The Island Building perceive Disney information</font>
+
+128
+00:04:22,143 --> 00:04:24,447
+<font color="#c9c9c9">And formulate the final answer to the US</font>
+
+129
+00:04:25,471 --> 00:04:27,007
+<font color="#e8e8e8">Is there somebody we can say that</font>
+
+130
+00:04:27,519 --> 00:04:30,847
+<font color="#a7a7a7">Please put on including Sigma 11 and orchestrator</font>
+
+131
+00:04:31,103 --> 00:04:34,431
+<font color="#e4e4e4">And this pattern has major architectural indication for us</font>
+
+132
+00:04:34,943 --> 00:04:37,759
+<font color="#d2d2d2">First the description field in your two Sigma</font>
+
+133
+00:04:38,015 --> 00:04:39,551
+<font color="#b6b6b6">Is a form of front engine</font>
+
+134
+00:04:40,319 --> 00:04:42,111
+<font color="#b1b1b1">ABC design description</font>
+
+135
+00:04:42,367 --> 00:04:44,415
+<font color="#bebebe">When is the 11 will fail to use your</font>
+
+136
+00:04:44,927 --> 00:04:46,463
+<font color="#d9d9d9">Second is the security</font>
+
+137
+00:04:46,719 --> 00:04:49,791
+<font color="#aeaeae">Dorchester must be a security gate that will</font>
+
+138
+00:04:50,047 --> 00:04:52,351
+<font color="#b8b8b8">Is all parameters coming from the non Dieter</font>
+
+139
+00:04:53,631 --> 00:04:55,935
+<font color="#d2d2d2">Finally error handling is a part of the</font>
+
+140
+00:04:57,215 --> 00:05:00,031
+<font color="#c7c7c7">Should return descriptive error messages as a set</font>

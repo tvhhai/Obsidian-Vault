@@ -1,0 +1,495 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#e5e5e5">In this section</font>
+
+2
+00:00:01,536 --> 00:00:02,816
+<font color="#e0e0e0">We are going to understand</font>
+
+3
+00:00:03,072 --> 00:00:04,352
+<font color="#f4f4f4">Agentic design</font>
+
+4
+00:00:05,120 --> 00:00:06,144
+<font color="#d3d3d3">This section will cover</font>
+
+5
+00:00:07,936 --> 00:00:08,704
+<font color="#7b7b7b">Reflection Pat</font>
+
+6
+00:00:09,216 --> 00:00:10,496
+<font color="#5d5d5d">Real composition</font>
+
+7
+00:00:10,752 --> 00:00:14,592
+<font color="#c4c4c4">An introduction to multi-agent patterns including the router special</font>
+
+8
+00:00:14,848 --> 00:00:15,360
+<font color="#676767">Is</font>
+
+9
+00:00:15,616 --> 00:00:16,640
+<font color="#737373">Group chat today</font>
+
+10
+00:00:16,896 --> 00:00:18,688
+<font color="#969696">Suburban and human interlude</font>
+
+11
+00:00:20,480 --> 00:00:23,552
+<font color="#b7b7b7">Music play we will understand the way of the agent examples</font>
+
+12
+00:00:24,064 --> 00:00:25,600
+<font color="#a9a9a9">And they have learned The Agency Group</font>
+
+13
+00:00:25,856 --> 00:00:27,648
+<font color="#d1d1d1">Explore the system level architecture</font>
+
+14
+00:00:27,904 --> 00:00:30,720
+<font color="#b5b5b5">I'm just completed a deep dive into major framework</font>
+
+15
+00:00:31,232 --> 00:00:33,280
+<font color="#c0c0c0">Also we have mastered tattoos</font>
+
+16
+00:00:33,536 --> 00:00:35,328
+<font color="#c9c9c9">Which is the home of boiling agent</font>
+
+17
+00:00:35,840 --> 00:00:39,680
+<font color="#e7e7e7">Love you must Elevate our thinking from a developer to an architect</font>
+
+18
+00:00:40,192 --> 00:00:41,728
+<font color="#dedede">It is time to learn the bullet</font>
+
+19
+00:00:42,752 --> 00:00:44,800
+<font color="#dfdfdf">What and why of agent design</font>
+
+20
+00:00:45,312 --> 00:00:48,128
+<font color="#b3b3b3">This section is the game of 4:48</font>
+
+21
+00:00:48,640 --> 00:00:49,920
+<font color="#d1d1d1">And we are here to</font>
+
+22
+00:00:50,176 --> 00:00:50,688
+<font color="#686868">A form</font>
+
+23
+00:00:52,224 --> 00:00:53,504
+<font color="#a1a1a1">Play for Designing global</font>
+
+24
+00:00:53,760 --> 00:00:54,272
+<font color="#3c3c3c">Security</font>
+
+25
+00:00:54,528 --> 00:00:56,064
+<font color="#828282">Unusual agent system</font>
+
+26
+00:00:56,832 --> 00:00:57,856
+<font color="#dfdfdf">For the last few</font>
+
+27
+00:00:58,368 --> 00:01:00,416
+<font color="#c7c7c7">The focus has been on prompt engine</font>
+
+28
+00:01:00,928 --> 00:01:01,952
+<font color="#9f9f9f">This is a</font>
+
+29
+00:01:02,720 --> 00:01:03,744
+<font color="#cecece">But it is a tact</font>
+
+30
+00:01:04,256 --> 00:01:06,048
+<font color="#dfdfdf">It is about crafting the perfect</font>
+
+31
+00:01:06,304 --> 00:01:07,072
+<font color="#a3a3a3">Clever</font>
+
+32
+00:01:07,328 --> 00:01:08,096
+<font color="#cacaca">Put a single</font>
+
+33
+00:01:08,608 --> 00:01:09,376
+<font color="#fbfbfb">The problem</font>
+
+34
+00:01:09,632 --> 00:01:11,168
+<font color="#989898">Is this approach is frag</font>
+
+35
+00:01:11,680 --> 00:01:16,032
+<font color="#dddddd">Is Architects we cannot build an enterprise system on a clever prom</font>
+
+36
+00:01:16,288 --> 00:01:17,824
+<font color="#7e7e7e">The most beautiful is a straight</font>
+
+37
+00:01:18,848 --> 00:01:20,640
+<font color="#cacaca">Design a robot system of component</font>
+
+38
+00:01:21,408 --> 00:01:23,200
+<font color="#e1e1e1">Agentic design patterns are</font>
+
+39
+00:01:23,712 --> 00:01:26,016
+<font color="#cdcdcd">They are the standard Bruins strategies</font>
+
+40
+00:01:26,272 --> 00:01:27,808
+<font color="#e5e5e5">For Building agentic Systems</font>
+
+41
+00:01:28,064 --> 00:01:29,856
+<font color="#b4b4b4">Detachable testable</font>
+
+42
+00:01:30,112 --> 00:01:30,880
+<font color="#979797">Unspeakable</font>
+
+43
+00:01:31,136 --> 00:01:32,928
+<font color="#b9b9b9">Moving cars from the front engine</font>
+
+44
+00:01:35,744 --> 00:01:37,792
+<font color="#f5f5f5">So now let's understand the</font>
+
+45
+00:01:38,048 --> 00:01:38,816
+<font color="#c8c8c8">Why</font>
+
+46
+00:01:39,072 --> 00:01:40,352
+<font color="#878787">Who's the Supreme Court versus batam</font>
+
+47
+00:01:40,864 --> 00:01:43,424
+<font color="#f9f9f9">This is the most critical concept to understand in this</font>
+
+48
+00:01:43,936 --> 00:01:47,264
+<font color="#f5f5f5">What is the difference between the Frameworks we have just learned</font>
+
+49
+00:01:47,520 --> 00:01:49,312
+<font color="#c8c8c8">And the patterns we are about to learn</font>
+
+50
+00:01:49,824 --> 00:01:51,104
+<font color="#969696">If it is a to</font>
+
+51
+00:01:51,616 --> 00:01:52,384
+<font color="#efefef">It is the</font>
+
+52
+00:01:52,896 --> 00:01:54,688
+<font color="#e8e8e8">It is a concrete library of</font>
+
+53
+00:01:54,944 --> 00:01:56,992
+<font color="#afafaf">Including Lion King landcraft</font>
+
+54
+00:01:57,248 --> 00:01:58,016
+<font color="#949494">Microsoft agent frame</font>
+
+55
+00:01:58,528 --> 00:01:59,552
+<font color="#f9f9f9">These are your</font>
+
+56
+00:01:59,808 --> 00:02:00,320
+<font color="#343434">Where is empower</font>
+
+57
+00:02:01,344 --> 00:02:02,624
+<font color="#d5d5d5">Appleton on the other</font>
+
+58
+00:02:02,880 --> 00:02:03,648
+<font color="#d6d6d6">Is a blueprint</font>
+
+59
+00:02:04,160 --> 00:02:04,928
+<font color="#f0f0f0">It is the</font>
+
+60
+00:02:05,184 --> 00:02:05,696
+<font color="#999999">And</font>
+
+61
+00:02:06,208 --> 00:02:09,024
+<font color="#f5f5f5">It is a conceptual reusable idea for solving</font>
+
+62
+00:02:09,280 --> 00:02:09,792
+<font color="#e8e8e8">A common problem</font>
+
+63
+00:02:10,560 --> 00:02:12,096
+<font color="#d5d5d5">For example the reflection pattern</font>
+
+64
+00:02:12,352 --> 00:02:15,168
+<font color="#e5e5e5">Which is the idea of an agent critique</font>
+
+65
+00:02:15,424 --> 00:02:15,936
+<font color="#bdbdbd">It's on</font>
+
+66
+00:02:16,192 --> 00:02:16,960
+<font color="#232323">Isabella</font>
+
+67
+00:02:17,216 --> 00:02:20,288
+<font color="#d3d3d3">You can Implement that bully print using any frame</font>
+
+68
+00:02:21,312 --> 00:02:22,592
+<font color="#969696">When is all the framework agnostic</font>
+
+69
+00:02:23,104 --> 00:02:25,152
+<font color="#d8d8d8">They are the pure architectural knowledge</font>
+
+70
+00:02:25,408 --> 00:02:28,736
+<font color="#dfdfdf">So now let's understand the volume of agentic design Pat</font>
+
+71
+00:02:29,504 --> 00:02:32,064
+<font color="#f7f7f7">So why do we dedicate an entire section to this</font>
+
+72
+00:02:32,576 --> 00:02:34,368
+<font color="#acacac">Portrait specific high volume</font>
+
+73
+00:02:34,880 --> 00:02:35,392
+<font color="#d8d8d8">First one</font>
+
+74
+00:02:35,648 --> 00:02:37,696
+<font color="#9c9c9c">Please put on give us a common VOC</font>
+
+75
+00:02:38,208 --> 00:02:39,744
+<font color="#cacaca">This is essential for our</font>
+
+76
+00:02:40,256 --> 00:02:42,560
+<font color="#ededed">When I am in a design meeting and say</font>
+
+77
+00:02:42,816 --> 00:02:43,328
+<font color="#cecece">We</font>
+
+78
+00:02:43,584 --> 00:02:46,912
+<font color="#afafaf">Use a water pattern to delegate to 3 specialist agents</font>
+
+79
+00:02:47,168 --> 00:02:49,728
+<font color="#f9f9f9">You will know exactly what that architecture is</font>
+
+80
+00:02:50,496 --> 00:02:51,776
+<font color="#adadad">Second these are pro</font>
+
+81
+00:02:52,032 --> 00:02:52,800
+<font color="#2b2b2b">Tested soul</font>
+
+82
+00:02:53,312 --> 00:02:56,384
+<font color="#e4e4e4">You don't have to guess how to make an agent crit</font>
+
+83
+00:02:56,896 --> 00:02:57,408
+<font color="#d3d3d3">It's on work</font>
+
+84
+00:02:57,664 --> 00:02:58,688
+<font color="#696969">Reflection Pat</font>
+
+85
+00:02:58,944 --> 00:02:59,456
+<font color="#8e8e8e">Is it</font>
+
+86
+00:02:59,712 --> 00:03:00,992
+<font color="#a1a1a1">Proven bulletins for this</font>
+
+87
+00:03:01,504 --> 00:03:02,272
+<font color="#ebebeb">And finally</font>
+
+88
+00:03:02,528 --> 00:03:03,808
+<font color="#818181">They are reusable bullet</font>
+
+89
+00:03:04,320 --> 00:03:07,392
+<font color="#e7e7e7">Don't know that you gain here is not tied to one Library</font>
+
+90
+00:03:07,648 --> 00:03:11,488
+<font color="#e3e3e3">You will be able to design and Implement these patterns in any framework</font>
+
+91
+00:03:11,744 --> 00:03:13,280
+<font color="#f5f5f5">Making your architectural</font>
+
+92
+00:03:13,536 --> 00:03:14,304
+<font color="#e7e7e7">Is too really portable</font>
+
+93
+00:03:15,584 --> 00:03:17,888
+<font color="#d7d7d7">Let's understand our pattern catalog</font>
+
+94
+00:03:18,144 --> 00:03:19,168
+<font color="#cdcdcd">Which is all Road</font>
+
+95
+00:03:19,424 --> 00:03:20,704
+<font color="#e2e2e2">In order to guide us</font>
+
+96
+00:03:20,960 --> 00:03:23,008
+<font color="#cecece">I have organized this entire section</font>
+
+97
+00:03:23,264 --> 00:03:24,800
+<font color="#c6c6c6">Is a formal pattern catalog</font>
+
+98
+00:03:25,056 --> 00:03:26,080
+<font color="#d5d5d5">Which we will explore</font>
+
+99
+00:03:26,336 --> 00:03:27,104
+<font color="#686868">Lecture by Le</font>
+
+100
+00:03:28,128 --> 00:03:28,896
+<font color="#7e7e7e">What's in the part 1</font>
+
+101
+00:03:29,152 --> 00:03:33,504
+<font color="#d3d3d3">We will establish the foundations by learning to call agentic Design principles</font>
+
+102
+00:03:33,760 --> 00:03:35,040
+<font color="#6e6e6e">Did Governor old Pat</font>
+
+103
+00:03:35,552 --> 00:03:36,832
+<font color="#b2b2b2">Done in the part</font>
+
+104
+00:03:37,088 --> 00:03:39,136
+<font color="#d1d1d1">We will Master the core agent</font>
+
+105
+00:03:39,648 --> 00:03:40,928
+<font color="#cbcbcb">The blueprints that Define</font>
+
+106
+00:03:41,184 --> 00:03:43,232
+<font color="#cacaca">When have a single agent thinks and</font>
+
+107
+00:03:43,744 --> 00:03:44,512
+<font color="#595959">Vevo DED</font>
+
+108
+00:03:44,768 --> 00:03:46,304
+<font color="#d2d2d2">A full lecture to each one</font>
+
+109
+00:03:47,840 --> 00:03:48,608
+<font color="#d0d0d0">Reflection</font>
+
+110
+00:03:48,864 --> 00:03:50,400
+<font color="#a8a8a8">Andrea compound pattern</font>
+
+111
+00:03:50,912 --> 00:03:52,448
+<font color="#e2e2e2">So after that in the party</font>
+
+112
+00:03:52,704 --> 00:03:55,008
+<font color="#767676">Play music scale up to Malta agent pattern</font>
+
+113
+00:03:55,264 --> 00:03:59,104
+<font color="#d8d8d8">Analyzing to blueprints for building teams of collaborating Agents</font>
+
+114
+00:03:59,616 --> 00:04:01,408
+<font color="#e3e3e3">We will cover delegation patterns</font>
+
+115
+00:04:01,664 --> 00:04:02,688
+<font color="#878787">Like rotten special</font>
+
+116
+00:04:03,968 --> 00:04:06,272
+<font color="#b6b6b6">As well as the advanced collaboration patterns like</font>
+
+117
+00:04:06,528 --> 00:04:08,064
+<font color="#878787">Group chat and Suburban Pat</font>
+
+118
+00:04:08,576 --> 00:04:09,856
+<font color="#b8b8b8">Done in the password</font>
+
+119
+00:04:10,112 --> 00:04:12,160
+<font color="#cbcbcb">We will cover what is for Arch</font>
+
+120
+00:04:12,416 --> 00:04:13,696
+<font color="#f4f4f4">The most critical group</font>
+
+121
+00:04:13,952 --> 00:04:15,488
+<font color="#cdcdcd">The control and safety</font>
+
+122
+00:04:16,256 --> 00:04:19,583
+<font color="#e3e3e3">This is what we will learn how to make non-deterministic agents</font>
+
+123
+00:04:19,839 --> 00:04:21,119
+<font color="#d7d7d7">Say for production</font>
+
+124
+00:04:21,375 --> 00:04:22,911
+<font color="#b3b3b3">Focusing on women in the loop</font>

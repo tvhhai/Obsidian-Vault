@@ -1,0 +1,679 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f7f7f7">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,304
+<font color="#f5f5f5">We are going to learn</font>
+
+3
+00:00:02,560 --> 00:00:04,096
+<font color="#929292">How agentic AI work</font>
+
+4
+00:00:04,352 --> 00:00:05,888
+<font color="#c7c7c7">In a system level architectures</font>
+
+5
+00:00:06,656 --> 00:00:10,496
+<font color="#d8d8d8">How do we actually design a system where multiple autonomous agent</font>
+
+6
+00:00:10,752 --> 00:00:12,544
+<font color="#d5d5d5">Can work together effectively</font>
+
+7
+00:00:13,056 --> 00:00:15,104
+<font color="#e0e0e0">We will answer this by exploring</font>
+
+8
+00:00:15,360 --> 00:00:19,200
+<font color="#cdcdcd">The two primary architectural pattern that enable agent Cooper</font>
+
+9
+00:00:19,712 --> 00:00:22,272
+<font color="#d2d2d2">So now let's remember our core problem</font>
+
+10
+00:00:22,784 --> 00:00:24,320
+<font color="#c0c0c0">We have multiple autonom</font>
+
+11
+00:00:25,600 --> 00:00:26,368
+<font color="#ededed">On each one is</font>
+
+12
+00:00:26,624 --> 00:00:27,904
+<font color="#c7c7c7">Is capable of perceiving</font>
+
+13
+00:00:28,160 --> 00:00:30,464
+<font color="#dddddd">Reasoning and acting independently</font>
+
+14
+00:00:30,720 --> 00:00:32,768
+<font color="#8d8d8d">And it is almost</font>
+
+15
+00:00:33,280 --> 00:00:34,304
+<font color="#f1f1f1">So the challenge</font>
+
+16
+00:00:34,816 --> 00:00:37,120
+<font color="#d2d2d2">How do we prevent this from becoming call</font>
+
+17
+00:00:37,376 --> 00:00:38,656
+<font color="#b2b2b2">And how do you answer</font>
+
+18
+00:00:38,912 --> 00:00:40,192
+<font color="#777777">These independent Act</font>
+
+19
+00:00:40,448 --> 00:00:41,216
+<font color="#e7e7e7">Work together</font>
+
+20
+00:00:41,728 --> 00:00:45,568
+<font color="#e8e8e8">So we need a defined mechanism for decomposing the main</font>
+
+21
+00:00:45,824 --> 00:00:47,104
+<font color="#999999">Is Sonic the sub</font>
+
+22
+00:00:47,616 --> 00:00:48,640
+<font color="#acacac">Communicating to Pro</font>
+
+23
+00:00:49,152 --> 00:00:50,688
+<font color="#959595">And synchronizing the action</font>
+
+24
+00:00:51,456 --> 00:00:54,272
+<font color="#efefef">So there are two primary architectural patterns we</font>
+
+25
+00:00:54,528 --> 00:00:56,064
+<font color="#9d9d9d">Who's the oldest coordination problem</font>
+
+26
+00:00:56,320 --> 00:00:58,112
+<font color="#ececec">The first one is orchestration</font>
+
+27
+00:00:58,880 --> 00:01:00,672
+<font color="#939393">Is centralized top down the</font>
+
+28
+00:01:00,928 --> 00:01:03,744
+<font color="#ededed">Similar to having a manager or a conductor</font>
+
+29
+00:01:04,256 --> 00:01:04,768
+<font color="#f2f2f2">The second</font>
+
+30
+00:01:05,024 --> 00:01:05,792
+<font color="#9d9d9d">What is choreography</font>
+
+31
+00:01:06,560 --> 00:01:07,328
+<font color="#797979">Is a decentral</font>
+
+32
+00:01:07,584 --> 00:01:08,608
+<font color="#9e9e9e">Is bottom-up approach</font>
+
+33
+00:01:08,864 --> 00:01:11,936
+<font color="#d3d3d3">More like dancers reacting to music or AG</font>
+
+34
+00:01:12,192 --> 00:01:13,216
+<font color="#5b5b5b">Reacting to</font>
+
+35
+00:01:13,472 --> 00:01:14,752
+<font color="#7d7d7d">What's on the shared message bus</font>
+
+36
+00:01:15,264 --> 00:01:18,080
+<font color="#bdbdbd">These patterns represent fundamental different way</font>
+
+37
+00:01:18,592 --> 00:01:19,872
+<font color="#bdbdbd">To structure the interaction</font>
+
+38
+00:01:20,128 --> 00:01:21,920
+<font color="#9f9f9f">Is between our agentic AI system</font>
+
+39
+00:01:22,432 --> 00:01:23,200
+<font color="#8c8c8c">Let's an</font>
+
+40
+00:01:23,456 --> 00:01:23,968
+<font color="#b0b0b0">What is each one</font>
+
+41
+00:01:24,480 --> 00:01:25,248
+<font color="#fcfcfc">The first one</font>
+
+42
+00:01:25,504 --> 00:01:26,272
+<font color="#b6b6b6">Is orchestration</font>
+
+43
+00:01:27,040 --> 00:01:29,088
+<font color="#c3c3c3">This is often more intuitive</font>
+
+44
+00:01:29,856 --> 00:01:30,880
+<font color="#cdcdcd">The core principle is</font>
+
+45
+00:01:31,136 --> 00:01:31,904
+<font color="#a7a7a7">Centralization</font>
+
+46
+00:01:32,416 --> 00:01:33,440
+<font color="#f1f1f1">One agent is</font>
+
+47
+00:01:33,696 --> 00:01:36,512
+<font color="#e9e9e9">Is designated as the orchestrator OR manager</font>
+
+48
+00:01:37,024 --> 00:01:38,048
+<font color="#bdbdbd">This agent</font>
+
+49
+00:01:38,304 --> 00:01:40,864
+<font color="#e0e0e0">Is the Hollywood complex called from the user</font>
+
+50
+00:01:41,376 --> 00:01:43,424
+<font color="#e0e0e0">It is job is not to execute</font>
+
+51
+00:01:44,448 --> 00:01:45,728
+<font color="#9a9a9a">What two minutes to work</font>
+
+52
+00:01:46,496 --> 00:01:47,008
+<font color="#8c8c8c">It us</font>
+
+53
+00:01:47,264 --> 00:01:48,288
+<font color="#626262">What does it's spinning mod</font>
+
+54
+00:01:48,544 --> 00:01:51,360
+<font color="#d9d9d9">To decompose the goal into a sequence of sub</font>
+
+55
+00:01:51,872 --> 00:01:52,640
+<font color="#6e6e6e">Ethan dele</font>
+
+56
+00:01:52,896 --> 00:01:54,688
+<font color="#b2b2b2">Each other to the appreciate</font>
+
+57
+00:01:54,944 --> 00:01:55,968
+<font color="#7d7d7d">Specialist AG</font>
+
+58
+00:01:56,224 --> 00:01:56,992
+<font color="#e6e6e6">For example</font>
+
+59
+00:01:57,248 --> 00:01:59,296
+<font color="#d7d7d7">Telling the inventory agent to check</font>
+
+60
+00:01:59,808 --> 00:02:02,112
+<font color="#d5d5d5">Done telling to billing agent to process payment</font>
+
+61
+00:02:02,880 --> 00:02:03,904
+<font color="#bcbcbc">The orchestrated</font>
+
+62
+00:02:04,160 --> 00:02:04,672
+<font color="#bebebe">It's</font>
+
+63
+00:02:04,928 --> 00:02:05,440
+<font color="#b2b2b2">Special</font>
+
+64
+00:02:05,696 --> 00:02:06,464
+<font color="#e8e8e8">To report</font>
+
+65
+00:02:06,720 --> 00:02:08,000
+<font color="#797979">Synthesizes the results</font>
+
+66
+00:02:08,256 --> 00:02:09,536
+<font color="#c4c4c4">And then decide</font>
+
+67
+00:02:09,792 --> 00:02:10,560
+<font color="#f1f1f1">Next step in the plan</font>
+
+68
+00:02:11,072 --> 00:02:12,608
+<font color="#cacaca">It is a classic top-down</font>
+
+69
+00:02:12,864 --> 00:02:14,400
+<font color="#c7c7c7">Command and control structure</font>
+
+70
+00:02:14,912 --> 00:02:15,936
+<font color="#c6c6c6">A project manager</font>
+
+71
+00:02:16,192 --> 00:02:16,960
+<font color="#bcbcbc">Is signing</font>
+
+72
+00:02:17,216 --> 00:02:17,984
+<font color="#c9c9c9">Ask the team members</font>
+
+73
+00:02:19,008 --> 00:02:21,568
+<font color="#f1f1f1">No let's see an example of the orchestrated</font>
+
+74
+00:02:21,824 --> 00:02:23,360
+<font color="#d9d9d9">The customer service agent</font>
+
+75
+00:02:23,872 --> 00:02:25,152
+<font color="#f3f3f3">A customer service system</font>
+
+76
+00:02:25,920 --> 00:02:27,200
+<font color="#cdcdcd">Perfect example of the orcust</font>
+
+77
+00:02:27,968 --> 00:02:30,784
+<font color="#c9c9c9">Do you still ask a complex two-part question</font>
+
+78
+00:02:31,296 --> 00:02:32,064
+<font color="#d5d5d5">User goal</font>
+
+79
+00:02:32,320 --> 00:02:34,624
+<font color="#fcfcfc">What is the status of my recent order</font>
+
+80
+00:02:35,136 --> 00:02:36,160
+<font color="#dedede">And can I add</font>
+
+81
+00:02:37,440 --> 00:02:38,976
+<font color="#c9c9c9">So the customer service AG</font>
+
+82
+00:02:39,232 --> 00:02:41,024
+<font color="#ababab">Acting is the orchestrator</font>
+
+83
+00:02:41,280 --> 00:02:42,048
+<font color="#e4e4e4">Receive this</font>
+
+84
+00:02:42,560 --> 00:02:43,328
+<font color="#d4d4d4">And it</font>
+
+85
+00:02:43,584 --> 00:02:44,352
+<font color="#a6a6a6">What's 50 planning</font>
+
+86
+00:02:44,608 --> 00:02:46,912
+<font color="#d3d3d3">And eat plants the two steps needed</font>
+
+87
+00:02:47,424 --> 00:02:48,192
+<font color="#f7f7f7">The first step is</font>
+
+88
+00:02:48,448 --> 00:02:50,752
+<font color="#bfbfbf">Interrogate Step 1 by making</font>
+
+89
+00:02:51,264 --> 00:02:51,776
+<font color="#5d5d5d">Is the struct</font>
+
+90
+00:02:52,032 --> 00:02:54,080
+<font color="#bdbdbd">828 call to the order agent</font>
+
+91
+00:02:54,592 --> 00:02:55,872
+<font color="#919191">It waits for the resp</font>
+
+92
+00:02:56,384 --> 00:02:57,408
+<font color="#616161">Done it all</font>
+
+93
+00:02:57,664 --> 00:02:58,176
+<font color="#c1c1c1">Make the step</font>
+
+94
+00:02:58,432 --> 00:03:00,224
+<font color="#979797">By calling to shipping AG</font>
+
+95
+00:03:00,480 --> 00:03:01,504
+<font color="#a6a6a6">Eat weights again</font>
+
+96
+00:03:02,016 --> 00:03:05,600
+<font color="#c5c5c5">And finally it's synthesizes the results from</font>
+
+97
+00:03:05,856 --> 00:03:08,160
+<font color="#cbcbcb">Specialist and formulates the final answer</font>
+
+98
+00:03:08,416 --> 00:03:08,928
+<font color="#909090">Search for the</font>
+
+99
+00:03:09,696 --> 00:03:10,464
+<font color="#f6f6f6">You can notice that</font>
+
+100
+00:03:10,720 --> 00:03:12,000
+<font color="#e0e0e0">How's the service agent</font>
+
+101
+00:03:12,768 --> 00:03:13,280
+<font color="#898989">Music the control</font>
+
+102
+00:03:13,536 --> 00:03:14,048
+<font color="#a9a9a9">Who's the</font>
+
+103
+00:03:14,304 --> 00:03:14,816
+<font color="#2b2b2b">Where is UNF</font>
+
+104
+00:03:15,584 --> 00:03:17,120
+<font color="#f4f4f4">So now we can go to the next</font>
+
+105
+00:03:17,888 --> 00:03:18,912
+<font color="#e5e5e5">Which is the choreography</font>
+
+106
+00:03:19,936 --> 00:03:21,984
+<font color="#9b9b9b">Is a decentralized event room</font>
+
+107
+00:03:22,496 --> 00:03:23,776
+<font color="#e7e7e7">There is no Central manager</font>
+
+108
+00:03:24,032 --> 00:03:25,568
+<font color="#a3a3a3">Does all agents RPS</font>
+
+109
+00:03:26,080 --> 00:03:27,104
+<font color="#e1e1e1">How do they coordinate</font>
+
+110
+00:03:27,360 --> 00:03:28,128
+<font color="#818181">The internet</font>
+
+111
+00:03:29,408 --> 00:03:31,200
+<font color="#bfbfbf">One agent performs an action</font>
+
+112
+00:03:31,456 --> 00:03:37,088
+<font color="#bdbdbd">And this action is the Polish an event to a shared message bus like Kafka or reputation</font>
+
+113
+00:03:38,624 --> 00:03:40,160
+<font color="#4e4e4e">What time is area code initiative</font>
+
+114
+00:03:40,672 --> 00:03:42,720
+<font color="#f7f7f7">Other agents in the system are</font>
+
+115
+00:03:42,976 --> 00:03:44,512
+<font color="#e1e1e1">Independently listening for</font>
+
+116
+00:03:44,768 --> 00:03:45,536
+<font color="#979797">Specific event</font>
+
+117
+00:03:46,304 --> 00:03:46,816
+<font color="#b2b2b2">State</font>
+
+118
+00:03:47,072 --> 00:03:48,352
+<font color="#a4a4a4">Data related to them</font>
+
+119
+00:03:48,864 --> 00:03:50,912
+<font color="#d4d4d4">When they hear something interesting</font>
+
+120
+00:03:52,960 --> 00:03:54,752
+<font color="#a4a4a4">Play performing tears on action</font>
+
+121
+00:03:55,008 --> 00:03:57,568
+<font color="#a4a4a4">Which in turn my telegram yet another AG</font>
+
+122
+00:03:58,336 --> 00:03:59,616
+<font color="#e7e7e7">It is a chain reaction</font>
+
+123
+00:03:59,872 --> 00:04:00,640
+<font color="#f1f1f1">Like</font>
+
+124
+00:04:00,896 --> 00:04:01,920
+<font color="#b3b3b3">What does responding to the music</font>
+
+125
+00:04:02,688 --> 00:04:03,456
+<font color="#d2d2d2">Each other's</font>
+
+126
+00:04:04,992 --> 00:04:07,040
+<font color="#c7c7c7">Let's see an example about the choreograph</font>
+
+127
+00:04:07,552 --> 00:04:10,880
+<font color="#e3e3e3">Is supply chain is a classical example of the choreography</font>
+
+128
+00:04:11,136 --> 00:04:14,208
+<font color="#dadada">Goal is the fulfill any customer order</font>
+
+129
+00:04:14,464 --> 00:04:17,791
+<font color="#e6e6e6">There's no single manager agent coordinating the whole process</font>
+
+130
+00:04:19,071 --> 00:04:20,095
+<font color="#bebebe">Did the order agent</font>
+
+131
+00:04:20,351 --> 00:04:22,143
+<font color="#757575">60 / 6 in order</font>
+
+132
+00:04:23,167 --> 00:04:24,191
+<font color="#787878">Next by confirming</font>
+
+133
+00:04:24,447 --> 00:04:25,215
+<font color="#3b3b3b">Publish</font>
+
+134
+00:04:25,471 --> 00:04:26,751
+<font color="#bfbfbf">An older confirmed event</font>
+
+135
+00:04:27,519 --> 00:04:28,543
+<font color="#b5b5b5">The inventory event</font>
+
+136
+00:04:28,799 --> 00:04:31,359
+<font color="#efefef">Which is independently listening for that event</font>
+
+137
+00:04:32,127 --> 00:04:34,687
+<font color="#a6a6a6">Books by the Romantic stock and Publishing</font>
+
+138
+00:04:34,943 --> 00:04:35,455
+<font color="#aaaaaa">It's only</font>
+
+139
+00:04:35,967 --> 00:04:36,735
+<font color="#f0f0f0">After</font>
+
+140
+00:04:36,991 --> 00:04:39,295
+<font color="#eaeaea">The shipping event listening for that event</font>
+
+141
+00:04:39,807 --> 00:04:41,599
+<font color="#636363">Relaxation by deliver</font>
+
+142
+00:04:42,367 --> 00:04:43,135
+<font color="#f6f6f6">Each</font>
+
+143
+00:04:43,391 --> 00:04:46,719
+<font color="#eaeaea">And only knows about its own small part of the process</font>
+
+144
+00:04:47,743 --> 00:04:48,255
+<font color="#9e9e9e">Next to the</font>
+
+145
+00:04:48,511 --> 00:04:49,279
+<font color="#909090">It's care about</font>
+
+146
+00:04:49,791 --> 00:04:54,399
+<font color="#efefef">The overall fulfillment happens emergently from these independent interactions</font>
+
+147
+00:04:55,167 --> 00:04:56,703
+<font color="#f2f2f2">So now let's understand</font>
+
+148
+00:04:56,959 --> 00:04:59,007
+<font color="#c1c1c1">Turn off the choose the right pattern</font>
+
+149
+00:04:59,519 --> 00:05:01,311
+<font color="#f3f3f3">So which pattern should you</font>
+
+150
+00:05:01,567 --> 00:05:03,359
+<font color="#ededed">As always in architecture</font>
+
+151
+00:05:03,615 --> 00:05:05,151
+<font color="#c5c5c5">It depends on the trade-off</font>
+
+152
+00:05:05,663 --> 00:05:06,687
+<font color="#b9b9b9">Orchestration is</font>
+
+153
+00:05:06,943 --> 00:05:09,503
+<font color="#e7e7e7">Is generally simpler to design and understand</font>
+
+154
+00:05:09,759 --> 00:05:11,039
+<font color="#bcbcbc">The entire world</font>
+
+155
+00:05:11,295 --> 00:05:12,319
+<font color="#e7e7e7">Is in one place</font>
+
+156
+00:05:12,575 --> 00:05:14,111
+<font color="#e7e7e7">Making it easier to debug</font>
+
+157
+00:05:14,367 --> 00:05:14,879
+<font color="#e0e0e0">However</font>
+
+158
+00:05:15,135 --> 00:05:17,183
+<font color="#f5f5f5">It creates a single point of failure</font>
+
+159
+00:05:17,439 --> 00:05:18,975
+<font color="#cacaca">And can become a button</font>
+
+160
+00:05:19,487 --> 00:05:21,279
+<font color="#f8f8f8">It is also less flexible</font>
+
+161
+00:05:21,535 --> 00:05:25,375
+<font color="#d5d5d5">Adding any step requires modifying to Central orchestrator</font>
+
+162
+00:05:25,887 --> 00:05:28,191
+<font color="#f0f0f0">Choreography is far more flexible</font>
+
+163
+00:05:28,447 --> 00:05:29,727
+<font color="#a5a5a5">Skill level and resilient</font>
+
+164
+00:05:30,239 --> 00:05:31,775
+<font color="#f4f4f4">There is no single point of failure</font>
+
+165
+00:05:32,031 --> 00:05:34,079
+<font color="#adadad">And you can easily add new AG</font>
+
+166
+00:05:34,335 --> 00:05:34,847
+<font color="#6c6c6c">Listen</font>
+
+167
+00:05:35,103 --> 00:05:36,895
+<font color="#cfcfcf">Does without changing the existing</font>
+
+168
+00:05:38,175 --> 00:05:40,223
+<font color="#d3d3d3">It is much harder to Monitor and Deb</font>
+
+169
+00:05:40,479 --> 00:05:42,783
+<font color="#d8d8d8">The overall system behavior is emergent</font>
+
+170
+00:05:43,039 --> 00:05:45,855
+<font color="#efefef">Making it difficult to trace a single request</font>

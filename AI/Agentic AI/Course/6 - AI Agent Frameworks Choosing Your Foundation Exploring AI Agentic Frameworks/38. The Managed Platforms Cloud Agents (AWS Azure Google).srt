@@ -1,0 +1,863 @@
+﻿1
+00:00:00,256 --> 00:00:02,304
+<font color="#f3f3f3">In this video we are going to learn</font>
+
+2
+00:00:02,560 --> 00:00:03,584
+<font color="#979797">The minutes platform</font>
+
+3
+00:00:04,096 --> 00:00:06,144
+<font color="#c3c3c3">As you can see that we are at the Third</font>
+
+4
+00:00:06,656 --> 00:00:07,424
+<font color="#e7e7e7">And we are going to learn</font>
+
+5
+00:00:07,680 --> 00:00:08,704
+<font color="#7f7f7f">Turn the clock AG</font>
+
+6
+00:00:09,216 --> 00:00:10,496
+<font color="#e5e5e5">In the previous lectures</font>
+
+7
+00:00:10,752 --> 00:00:12,544
+<font color="#b7b7b7">We have learned the code first frame</font>
+
+8
+00:00:12,800 --> 00:00:13,824
+<font color="#969696">Looks like 19</font>
+
+9
+00:00:14,080 --> 00:00:14,592
+<font color="#777777">Llama</font>
+
+10
+00:00:15,104 --> 00:00:16,384
+<font color="#c7c7c7">On the Microsoft agent frame</font>
+
+11
+00:00:17,152 --> 00:00:18,688
+<font color="#dddddd">These are the toolkits you use</font>
+
+12
+00:00:18,944 --> 00:00:19,712
+<font color="#e7e7e7">Then you need</font>
+
+13
+00:00:19,968 --> 00:00:23,808
+<font color="#d3d3d3">Maximum power flexibility and control over your agents architect</font>
+
+14
+00:00:24,576 --> 00:00:25,344
+<font color="#c9c9c9">No</font>
+
+15
+00:00:25,600 --> 00:00:27,136
+<font color="#dadada">Ask other critical question</font>
+
+16
+00:00:27,392 --> 00:00:28,672
+<font color="#b5b5b5">Did Ariel Arctic</font>
+
+17
+00:00:29,184 --> 00:00:30,208
+<font color="#c6c6c6">Should we breathe</font>
+
+18
+00:00:30,464 --> 00:00:31,488
+<font color="#dbdbdb">What should we buy</font>
+
+19
+00:00:32,000 --> 00:00:33,024
+<font color="#cacaca">This being</font>
+
+20
+00:00:33,280 --> 00:00:34,048
+<font color="#8e8e8e">Minutes platform</font>
+
+21
+00:00:34,304 --> 00:00:36,608
+<font color="#f2f2f2">This is the agent as a service model</font>
+
+22
+00:00:36,864 --> 00:00:39,424
+<font color="#d5d5d5">Over it by the Victory Club providers</font>
+
+23
+00:00:39,680 --> 00:00:40,960
+<font color="#f6f6f6">Including the Amazon</font>
+
+24
+00:00:41,216 --> 00:00:42,240
+<font color="#e9e9e9">Microsoft and Google</font>
+
+25
+00:00:42,752 --> 00:00:44,288
+<font color="#cecece">This is the by decision</font>
+
+26
+00:00:44,544 --> 00:00:46,336
+<font color="#939393">Anita's profound architect</font>
+
+27
+00:00:46,592 --> 00:00:47,104
+<font color="#939393">Spell implications</font>
+
+28
+00:00:47,872 --> 00:00:49,408
+<font color="#f5f5f5">So now let's understand</font>
+
+29
+00:00:49,664 --> 00:00:51,968
+<font color="#ededed">What is the agent as a service model</font>
+
+30
+00:00:52,224 --> 00:00:54,784
+<font color="#f4f4f4">And what do you mean by agent as a service</font>
+
+31
+00:00:55,296 --> 00:00:56,064
+<font color="#414141">Architect</font>
+
+32
+00:00:56,320 --> 00:00:59,904
+<font color="#ebebeb">Play this means you are no longer responsible for writing or managing</font>
+
+33
+00:01:00,416 --> 00:01:01,440
+<font color="#d7d7d7">The aliens execution</font>
+
+34
+00:01:01,952 --> 00:01:04,000
+<font color="#d9d9d9">You don't put a Minecraft state</font>
+
+35
+00:01:04,256 --> 00:01:06,304
+<font color="#d1d1d1">You don't manage to python runtime</font>
+
+36
+00:01:06,560 --> 00:01:08,608
+<font color="#dadada">You don't worry about the state persist</font>
+
+37
+00:01:09,376 --> 00:01:10,400
+<font color="#a6a6a6">The cloth provider</font>
+
+38
+00:01:10,656 --> 00:01:11,680
+<font color="#a2a2a2">Host and</font>
+
+39
+00:01:11,936 --> 00:01:12,704
+<font color="#efefef">The entire</font>
+
+40
+00:01:13,984 --> 00:01:15,264
+<font color="#a7a7a7">Your role as an R</font>
+
+41
+00:01:15,776 --> 00:01:17,312
+<font color="#b3b3b3">Shift from wheeler to configurator</font>
+
+42
+00:01:17,824 --> 00:01:21,152
+<font color="#dcdcdc">You declare what the agent should be you provide the to</font>
+
+43
+00:01:21,408 --> 00:01:21,920
+<font color="#c5c5c5">Play it can use</font>
+
+44
+00:01:22,176 --> 00:01:24,480
+<font color="#eaeaea">Typically by uploading to open API</font>
+
+45
+00:01:25,760 --> 00:01:27,552
+<font color="#dedede">And you write the high level instructions</font>
+
+46
+00:01:28,064 --> 00:01:30,112
+<font color="#9f9f9f">Do Platform done automatically Jenner</font>
+
+47
+00:01:31,136 --> 00:01:31,904
+<font color="#505050">Ask</font>
+
+48
+00:01:32,160 --> 00:01:33,440
+<font color="#ededed">Is Agent for you</font>
+
+49
+00:01:33,696 --> 00:01:34,720
+<font color="#d7d7d7">Simple API on</font>
+
+50
+00:01:35,232 --> 00:01:38,304
+<font color="#d6d6d6">So now let's see this Victory manage platform</font>
+
+51
+00:01:38,560 --> 00:01:39,840
+<font color="#979797">Is you would expect</font>
+
+52
+00:01:40,096 --> 00:01:42,144
+<font color="#d2d2d2">Each of these big three Cloud providers</font>
+
+53
+00:01:42,400 --> 00:01:44,960
+<font color="#c0c0c0">Is a major first party opening in this</font>
+
+54
+00:01:45,728 --> 00:01:47,776
+<font color="#b3b3b3">Amazon offers Amazon Bedrock AG</font>
+
+55
+00:01:48,288 --> 00:01:49,568
+<font color="#e1e1e1">Which is designed for</font>
+
+56
+00:01:49,824 --> 00:01:52,384
+<font color="#e0e0e0">Native integration with the AWS ecosystem</font>
+
+57
+00:01:53,152 --> 00:01:55,712
+<font color="#d9d9d9">You can give an agent a lot of function as a tool</font>
+
+58
+00:01:55,968 --> 00:01:56,736
+<font color="#828282">An Italian</font>
+
+59
+00:01:56,992 --> 00:01:57,760
+<font color="#b3b3b3">What's all the permissions</font>
+
+60
+00:01:58,016 --> 00:01:58,528
+<font color="#b1b1b1">What is an execution</font>
+
+61
+00:01:59,552 --> 00:02:00,576
+<font color="#f0f0f0">Second is Microsoft</font>
+
+62
+00:02:00,832 --> 00:02:02,624
+<font color="#aaaaaa">Microsoft Office azure</font>
+
+63
+00:02:02,880 --> 00:02:03,392
+<font color="#4a4a4a">Next video</font>
+
+64
+00:02:03,648 --> 00:02:05,696
+<font color="#828282">Names of the other are Foundry</font>
+
+65
+00:02:05,952 --> 00:02:06,464
+<font color="#f2f2f2">Which is</font>
+
+66
+00:02:06,720 --> 00:02:08,000
+<font color="#dadada">It's next Generation platform</font>
+
+67
+00:02:08,256 --> 00:02:09,536
+<font color="#dbdbdb">For building and managing</font>
+
+68
+00:02:11,072 --> 00:02:12,096
+<font color="#a6a6a6">Including the agent</font>
+
+69
+00:02:12,608 --> 00:02:16,192
+<font color="#cdcdcd">It is the minute counterpart to the built solution we discuss</font>
+
+70
+00:02:16,960 --> 00:02:17,984
+<font color="#a0a0a0">Microsoft agent frame</font>
+
+71
+00:02:18,752 --> 00:02:19,776
+<font color="#b7b7b7">And the third one is Google</font>
+
+72
+00:02:20,032 --> 00:02:21,312
+<font color="#b3b3b3">Google Cloud also off</font>
+
+73
+00:02:21,568 --> 00:02:22,848
+<font color="#9f9f9f">It is Agent build</font>
+
+74
+00:02:23,104 --> 00:02:24,640
+<font color="#d2d2d2">On the vertex AI platform</font>
+
+75
+00:02:25,152 --> 00:02:25,664
+<font color="#7c7c7c">Which Prov</font>
+
+76
+00:02:25,920 --> 00:02:27,712
+<font color="#c3c3c3">What a unified way to build agent</font>
+
+77
+00:02:27,968 --> 00:02:31,040
+<font color="#f1f1f1">That can tap into the full power of the Google services</font>
+
+78
+00:02:31,808 --> 00:02:33,600
+<font color="#a8a8a8">Did architectural goal is sing</font>
+
+79
+00:02:33,856 --> 00:02:36,160
+<font color="#f7f7f7">To make it incredibly easy to</font>
+
+80
+00:02:36,416 --> 00:02:37,696
+<font color="#acacac">Is it an agent that uses</font>
+
+81
+00:02:37,952 --> 00:02:39,488
+<font color="#a4a4a4">Delete all the cloud services</font>
+
+82
+00:02:40,000 --> 00:02:42,304
+<font color="#adadad">No I'm going to show you how do I find</font>
+
+83
+00:02:42,560 --> 00:02:43,328
+<font color="#f6f6f6">But before</font>
+
+84
+00:02:43,584 --> 00:02:45,632
+<font color="#f1f1f1">Let me show you the simple agent plan</font>
+
+85
+00:02:45,888 --> 00:02:47,680
+<font color="#bbbbbb">Did we have seen in the last section</font>
+
+86
+00:02:48,192 --> 00:02:50,240
+<font color="#cdcdcd">So basically we have a research AG</font>
+
+87
+00:02:50,496 --> 00:02:52,544
+<font color="#9a9a9a">Memory and to</font>
+
+88
+00:02:52,800 --> 00:02:53,824
+<font color="#f5f5f5">In the first step</font>
+
+89
+00:02:54,080 --> 00:02:55,360
+<font color="#909090">Be injected system</font>
+
+90
+00:02:55,616 --> 00:02:58,432
+<font color="#c5c5c5">And after that we have to find the llm which is our</font>
+
+91
+00:02:58,944 --> 00:03:03,552
+<font color="#dfdfdf">And after that we have to find the tools including the Integrations about the other systems</font>
+
+92
+00:03:04,064 --> 00:03:04,576
+<font color="#1a1a1a">Un</font>
+
+93
+00:03:04,832 --> 00:03:06,368
+<font color="#d4d4d4">Long-term and short-term memory</font>
+
+94
+00:03:07,392 --> 00:03:08,672
+<font color="#b2b2b2">Reasoning about this Pro</font>
+
+95
+00:03:09,440 --> 00:03:10,976
+<font color="#f1f1f1">So let me show you all</font>
+
+96
+00:03:13,792 --> 00:03:15,072
+<font color="#c0c0c0">If you go to the other air fund</font>
+
+97
+00:03:15,328 --> 00:03:16,352
+<font color="#898989">Play ungrate any agent</font>
+
+98
+00:03:16,608 --> 00:03:18,656
+<font color="#d0d0d0">In our case I have created a travel agent</font>
+
+99
+00:03:18,912 --> 00:03:20,192
+<font color="#eeeeee">You can see that first of all</font>
+
+100
+00:03:20,448 --> 00:03:21,472
+<font color="#b0b0b0">We select another</font>
+
+101
+00:03:21,984 --> 00:03:22,752
+<font color="#f5f5f5">Which is our</font>
+
+102
+00:03:23,264 --> 00:03:23,776
+<font color="#b7b7b7">And after</font>
+
+103
+00:03:24,032 --> 00:03:26,080
+<font color="#dadada">We are injecting our instructions</font>
+
+104
+00:03:26,848 --> 00:03:27,616
+<font color="#6a6a6a">Assistant interaction</font>
+
+105
+00:03:27,872 --> 00:03:29,152
+<font color="#b3b3b3">Represent our agent</font>
+
+106
+00:03:29,664 --> 00:03:31,200
+<font color="#dddddd">And after that you can see that</font>
+
+107
+00:03:31,456 --> 00:03:32,736
+<font color="#e6e6e6">The other steps and</font>
+
+108
+00:03:32,992 --> 00:03:35,296
+<font color="#9a9a9a">What is including one we are defining energy</font>
+
+109
+00:03:35,552 --> 00:03:36,064
+<font color="#c2c2c2">Under the</font>
+
+110
+00:03:36,320 --> 00:03:36,832
+<font color="#969696">Microsoft phone</font>
+
+111
+00:03:37,344 --> 00:03:39,392
+<font color="#aaaaaa">Did you cancel that I had to find a</font>
+
+112
+00:03:39,904 --> 00:03:41,440
+<font color="#f1f1f1">Adding items for different</font>
+
+113
+00:03:41,696 --> 00:03:42,976
+<font color="#9b9b9b">Who's including the fire</font>
+
+114
+00:03:43,232 --> 00:03:44,256
+<font color="#cccccc">Search</font>
+
+115
+00:03:44,512 --> 00:03:46,560
+<font color="#cfcfcf">Web search computer use and so</font>
+
+116
+00:03:47,072 --> 00:03:47,584
+<font color="#e9e9e9">Enough</font>
+
+117
+00:03:47,840 --> 00:03:49,888
+<font color="#949494">Play Weeknd inject knowledge and mem</font>
+
+118
+00:03:50,144 --> 00:03:51,168
+<font color="#a3a3a3">Play these are represent</font>
+
+119
+00:03:51,424 --> 00:03:52,960
+<font color="#909090">Short-term and long-term mem</font>
+
+120
+00:03:53,472 --> 00:03:54,240
+<font color="#e6e6e6">For example</font>
+
+121
+00:03:54,496 --> 00:03:55,264
+<font color="#434343">Turn on Eden</font>
+
+122
+00:03:55,520 --> 00:03:56,288
+<font color="#eeeeee">Connect to</font>
+
+123
+00:03:56,544 --> 00:03:57,312
+<font color="#929292">Foundry I</font>
+
+124
+00:03:57,824 --> 00:03:59,104
+<font color="#fdfdfd">Which is the local</font>
+
+125
+00:03:59,360 --> 00:03:59,872
+<font color="#c1c1c1">Enterprise</font>
+
+126
+00:04:00,896 --> 00:04:02,432
+<font color="#f2f2f2">And you can inject a memory</font>
+
+127
+00:04:02,688 --> 00:04:04,224
+<font color="#d3d3d3">You can add a memory to your AG</font>
+
+128
+00:04:04,736 --> 00:04:05,248
+<font color="#4b4b4b">I</font>
+
+129
+00:04:05,504 --> 00:04:06,272
+<font color="#979797">Play we have a guard</font>
+
+130
+00:04:06,784 --> 00:04:08,064
+<font color="#bbbbbb">You can Define the guardian</font>
+
+131
+00:04:08,320 --> 00:04:09,088
+<font color="#f4f4f4">In order to Define</font>
+
+132
+00:04:09,344 --> 00:04:10,368
+<font color="#c3c3c3">Find the security and</font>
+
+133
+00:04:10,880 --> 00:04:12,672
+<font color="#f8f8f8">This is a simple interface</font>
+
+134
+00:04:12,928 --> 00:04:14,208
+<font color="#d9d9d9">That you can't find</font>
+
+135
+00:04:14,464 --> 00:04:16,512
+<font color="#a2a2a2">Since with using the clock minute services</font>
+
+136
+00:04:16,768 --> 00:04:18,047
+<font color="#c7c7c7">Which is Microsoft found</font>
+
+137
+00:04:18,559 --> 00:04:21,631
+<font color="#d5d5d5">So now let's understand the architectural trade</font>
+
+138
+00:04:21,887 --> 00:04:23,167
+<font color="#d2d2d2">Benefits and drawback</font>
+
+139
+00:04:23,679 --> 00:04:24,959
+<font color="#f6f6f6">If you look at the benefits</font>
+
+140
+00:04:25,215 --> 00:04:26,751
+<font color="#f7f7f7">Number one advantage is</font>
+
+141
+00:04:27,007 --> 00:04:29,311
+<font color="#e9e9e9">These agents are fully managed and</font>
+
+142
+00:04:30,335 --> 00:04:32,127
+<font color="#eaeaea">You have zero infrastructure overhead</font>
+
+143
+00:04:32,383 --> 00:04:33,919
+<font color="#f4f4f4">The technical Advantage is</font>
+
+144
+00:04:34,175 --> 00:04:35,199
+<font color="#acacac">The Deep Club integ</font>
+
+145
+00:04:35,967 --> 00:04:37,503
+<font color="#dedede">Giving a quote First agent</font>
+
+146
+00:04:37,759 --> 00:04:39,807
+<font color="#c1c1c1">Secure access to your history buck</font>
+
+147
+00:04:40,063 --> 00:04:41,855
+<font color="#aeaeae">What is specific School dat</font>
+
+148
+00:04:42,879 --> 00:04:45,183
+<font color="#b7b7b7">Is managing the keys rules and permissions</font>
+
+149
+00:04:45,695 --> 00:04:49,279
+<font color="#b9b9b9">A picture of agent for example can be given and I am role</font>
+
+150
+00:04:49,535 --> 00:04:51,327
+<font color="#b8b8b8">Just like any other AWS</font>
+
+151
+00:04:52,095 --> 00:04:53,119
+<font color="#dcdcdc">The platform handle</font>
+
+152
+00:04:53,375 --> 00:04:53,887
+<font color="#777777">The cred</font>
+
+153
+00:04:54,143 --> 00:04:55,423
+<font color="#b8b8b8">Executed for you</font>
+
+154
+00:04:55,935 --> 00:04:57,471
+<font color="#a4a4a4">This leads to incredibly</font>
+
+155
+00:04:57,727 --> 00:04:59,519
+<font color="#c8c8c8">Repeat the market for simple task</font>
+
+156
+00:05:00,031 --> 00:05:02,335
+<font color="#b6b6b6">And a building security and complies</font>
+
+157
+00:05:02,847 --> 00:05:03,359
+<font color="#e8e8e8">That is</font>
+
+158
+00:05:03,615 --> 00:05:04,639
+<font color="#d7d7d7">Is it difficult to replicate from</font>
+
+159
+00:05:05,407 --> 00:05:05,919
+<font color="#a2a2a2">How</font>
+
+160
+00:05:06,175 --> 00:05:06,943
+<font color="#1a1a1a">Discontent</font>
+
+161
+00:05:07,711 --> 00:05:09,503
+<font color="#e4e4e4">Architectural price</font>
+
+162
+00:05:09,759 --> 00:05:11,295
+<font color="#dddddd">Now let's see the drawback</font>
+
+163
+00:05:11,807 --> 00:05:14,367
+<font color="#efefef">The single most critical drawback is the black</font>
+
+164
+00:05:15,391 --> 00:05:17,439
+<font color="#e1e1e1">You have no control over the agent</font>
+
+165
+00:05:17,695 --> 00:05:18,719
+<font color="#b8b8b8">Is internal reasoning</font>
+
+166
+00:05:18,975 --> 00:05:20,767
+<font color="#c3c3c3">You can't see it is metal prom</font>
+
+167
+00:05:21,023 --> 00:05:22,047
+<font color="#adadad">You can't custom</font>
+
+168
+00:05:22,303 --> 00:05:23,327
+<font color="#818181">What is error hunting</font>
+
+169
+00:05:23,583 --> 00:05:24,351
+<font color="#f0f0f0">For example</font>
+
+170
+00:05:24,607 --> 00:05:25,631
+<font color="#fafafa">If the agent</font>
+
+171
+00:05:25,887 --> 00:05:26,655
+<font color="#656565">What's the stock</font>
+
+172
+00:05:27,423 --> 00:05:28,447
+<font color="#5a5a5a">Use a tool correct</font>
+
+173
+00:05:28,703 --> 00:05:29,215
+<font color="#909090">The book</font>
+
+174
+00:05:29,471 --> 00:05:31,775
+<font color="#d8d8d8">I think it is an exercise in frustration</font>
+
+175
+00:05:32,031 --> 00:05:33,823
+<font color="#fefefe">You can only change the instructions</font>
+
+176
+00:05:34,079 --> 00:05:34,591
+<font color="#575757">Turn on Hope</font>
+
+177
+00:05:35,103 --> 00:05:36,639
+<font color="#f1f1f1">Second this is the definition of</font>
+
+178
+00:05:36,895 --> 00:05:37,407
+<font color="#909090">Off the EXT</font>
+
+179
+00:05:37,663 --> 00:05:38,175
+<font color="#3e3e3e">Weather</font>
+
+180
+00:05:38,687 --> 00:05:39,711
+<font color="#f8f8f8">Your agent is</font>
+
+181
+00:05:39,967 --> 00:05:41,247
+<font color="#979797">Play proprietary API</font>
+
+182
+00:05:41,503 --> 00:05:44,575
+<font color="#e7e7e7">You cannot move it to another club or on premises</font>
+
+183
+00:05:45,087 --> 00:05:45,855
+<font color="#ececec">And finally</font>
+
+184
+00:05:46,111 --> 00:05:47,647
+<font color="#ebebeb">You have limited flexibility</font>
+
+185
+00:05:47,903 --> 00:05:50,975
+<font color="#b2b2b2">Play all those powerful custom workflow patterns we design</font>
+
+186
+00:05:51,487 --> 00:05:52,511
+<font color="#b9b9b9">The group chat button</font>
+
+187
+00:05:52,767 --> 00:05:53,535
+<font color="#e7e7e7">The reflection</font>
+
+188
+00:05:53,791 --> 00:05:54,815
+<font color="#bababa">You can't put</font>
+
+189
+00:05:55,071 --> 00:05:58,655
+<font color="#e0e0e0">You are limited to the simple package single agent model</font>
+
+190
+00:05:58,911 --> 00:06:01,471
+<font color="#d2d2d2">The old is bringing us to the final decision</font>
+
+191
+00:06:01,727 --> 00:06:03,007
+<font color="#949494">How do we is Arch</font>
+
+192
+00:06:03,519 --> 00:06:04,799
+<font color="#b6b6b6">Choose buy or build</font>
+
+193
+00:06:05,311 --> 00:06:08,127
+<font color="#ececec">You should choose to buy and use a minute platform</font>
+
+194
+00:06:08,383 --> 00:06:11,711
+<font color="#a8a8a8">When you're talking simple well-defined an internal facing</font>
+
+195
+00:06:12,223 --> 00:06:15,039
+<font color="#dfdfdf">The primary value you are seeking is not normal reasoning</font>
+
+196
+00:06:15,295 --> 00:06:18,111
+<font color="#e0e0e0">But simple integration between existing cloud services</font>
+
+197
+00:06:18,623 --> 00:06:20,927
+<font color="#c0c0c0">I need you to create an internal database</font>
+
+198
+00:06:21,183 --> 00:06:22,463
+<font color="#d4d4d4">Is it perfect example</font>
+
+199
+00:06:23,231 --> 00:06:25,535
+<font color="#d9d9d9">And you must choose to be with the framework</font>
+
+200
+00:06:25,791 --> 00:06:26,303
+<font color="#505050">When your</font>
+
+201
+00:06:26,559 --> 00:06:27,071
+<font color="#b4b4b4">Huskies complex</font>
+
+202
+00:06:27,327 --> 00:06:28,863
+<font color="#888888">Custom or non Dieter</font>
+
+203
+00:06:29,631 --> 00:06:30,399
+<font color="#e9e9e9">You choose</font>
+
+204
+00:06:30,655 --> 00:06:31,167
+<font color="#5d5d5d">Why</font>
+
+205
+00:06:31,423 --> 00:06:34,495
+<font color="#b8b8b8">Did any of the advanced multi-agent platforms behave disc</font>
+
+206
+00:06:35,007 --> 00:06:36,799
+<font color="#828282">What about the agents recently log</font>
+
+207
+00:06:37,055 --> 00:06:37,823
+<font color="#b5b5b5">Itself</font>
+
+208
+00:06:38,079 --> 00:06:39,615
+<font color="#f3f3f3">Is your intellectual property</font>
+
+209
+00:06:40,127 --> 00:06:42,175
+<font color="#eaeaea">If you need a random natural solution</font>
+
+210
+00:06:42,431 --> 00:06:43,711
+<font color="#dbdbdb">What is your own opinion</font>
+
+211
+00:06:44,223 --> 00:06:47,295
+<font color="#dcdcdc">So as you can see that we have all seen these three Kate</font>
+
+212
+00:06:47,551 --> 00:06:48,831
+<font color="#a9a9a9">Is When developing our AG</font>
+
+213
+00:06:49,343 --> 00:06:50,111
+<font color="#646464">The lion</font>
+
+214
+00:06:50,367 --> 00:06:52,415
+<font color="#bdbdbd">Loma index Microsoft agent frame</font>
+
+215
+00:06:52,671 --> 00:06:53,951
+<font color="#919191">Look for code first Airport</font>
+
+216
+00:06:54,207 --> 00:06:55,231
+<font color="#4e4e4e">Unmanaged platform</font>

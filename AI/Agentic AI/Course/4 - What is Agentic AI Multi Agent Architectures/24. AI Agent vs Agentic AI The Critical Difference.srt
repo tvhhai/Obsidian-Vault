@@ -1,0 +1,231 @@
+﻿1
+00:00:01,536 --> 00:00:02,304
+<font color="#eaeaea">We are going to learn</font>
+
+2
+00:00:02,560 --> 00:00:04,096
+<font color="#f2f2f2">The critical differences of</font>
+
+3
+00:00:04,352 --> 00:00:06,656
+<font color="#cbcbcb">A agent versus agentic AI</font>
+
+4
+00:00:07,936 --> 00:00:11,264
+<font color="#e2e2e2">First Define the AI agent based on everything we have learned so far</font>
+
+5
+00:00:12,032 --> 00:00:15,104
+<font color="#f1f1f1">The best example for a single AI agent is</font>
+
+6
+00:00:15,360 --> 00:00:16,896
+<font color="#bbbbbb">Security Lance developer</font>
+
+7
+00:00:17,408 --> 00:00:19,968
+<font color="#e0e0e0">The soup is that of a single component</font>
+
+8
+00:00:20,480 --> 00:00:21,248
+<font color="#b2b2b2">When you</font>
+
+9
+00:00:21,504 --> 00:00:22,016
+<font color="#585858">Play if you didn't</font>
+
+10
+00:00:22,528 --> 00:00:25,344
+<font color="#c9c9c9">You are concerned with their Anatomy or their</font>
+
+11
+00:00:26,112 --> 00:00:27,392
+<font color="#eaeaea">Do they have a good brain</font>
+
+12
+00:00:27,648 --> 00:00:29,952
+<font color="#eeeeee">Do they have a good memory and a toolbox</font>
+
+13
+00:00:30,464 --> 00:00:31,488
+<font color="#fafafa">Can they do the job</font>
+
+14
+00:00:31,744 --> 00:00:33,792
+<font color="#eaeaea">Therefore the primary engineering</font>
+
+15
+00:00:34,048 --> 00:00:35,584
+<font color="#dadada">Switch off a single agent is</font>
+
+16
+00:00:38,144 --> 00:00:38,912
+<font color="#adadad">Give me this</font>
+
+17
+00:00:39,168 --> 00:00:40,960
+<font color="#e5e5e5">Can this one agent use</font>
+
+18
+00:00:41,728 --> 00:00:43,008
+<font color="#f6f6f6">To produce the correct</font>
+
+19
+00:00:43,520 --> 00:00:46,080
+<font color="#f7f7f7">This is the entire focus of our previous</font>
+
+20
+00:00:46,848 --> 00:00:48,896
+<font color="#f1f1f1">So now let's understand the</font>
+
+21
+00:00:49,152 --> 00:00:49,664
+<font color="#bcbcbc">Authentic AI</font>
+
+22
+00:00:50,176 --> 00:00:51,200
+<font color="#f9f9f9">The example here is</font>
+
+23
+00:00:51,456 --> 00:00:52,992
+<font color="#d3d3d3">Is not a single freelancer</font>
+
+24
+00:00:53,248 --> 00:00:55,040
+<font color="#d1d1d1">But the entire software company</font>
+
+25
+00:00:55,296 --> 00:00:56,064
+<font color="#4b4b4b">Did employ</font>
+
+26
+00:00:56,320 --> 00:00:56,832
+<font color="#bcbcbc">Is a team</font>
+
+27
+00:00:57,088 --> 00:00:58,112
+<font color="#b3b3b3">Mitsubishi lights 50</font>
+
+28
+00:00:58,880 --> 00:01:00,160
+<font color="#bbbbbb">The ZIP code is that</font>
+
+29
+00:01:01,440 --> 00:01:04,000
+<font color="#dadada">When you breed a company you are no longer Focus</font>
+
+30
+00:01:04,256 --> 00:01:05,536
+<font color="#acacac">Who's on one person</font>
+
+31
+00:01:06,048 --> 00:01:08,608
+<font color="#d6d6d6">You are focused on the companies architecture</font>
+
+32
+00:01:09,120 --> 00:01:10,144
+<font color="#f3f3f3">How does the team</font>
+
+33
+00:01:10,400 --> 00:01:10,912
+<font color="#c2c2c2">Direction together</font>
+
+34
+00:01:11,168 --> 00:01:13,216
+<font color="#dadada">What is the communication protocol</font>
+
+35
+00:01:13,472 --> 00:01:16,288
+<font color="#e0e0e0">Is it select email or for us mCP</font>
+
+36
+00:01:16,544 --> 00:01:18,336
+<font color="#b4b4b4">What is the air coordination pattern</font>
+
+37
+00:01:18,592 --> 00:01:20,128
+<font color="#d1d1d1">Is there any project man</font>
+
+38
+00:01:20,384 --> 00:01:22,432
+<font color="#b1b1b1">Play or we can call an orchestrated AG</font>
+
+39
+00:01:22,944 --> 00:01:24,992
+<font color="#cbcbcb">Do they have a shared collaboration go</font>
+
+40
+00:01:25,504 --> 00:01:28,320
+<font color="#ededed">So this primary challenge is no longer task execution</font>
+
+41
+00:01:29,344 --> 00:01:30,368
+<font color="#aaaaaa">Assistant orchestration</font>
+
+42
+00:01:30,624 --> 00:01:33,696
+<font color="#fafafa">How do I get my billing agent and my shipping agent</font>
+
+43
+00:01:34,464 --> 00:01:34,976
+<font color="#e9e9e9">Each other</font>
+
+44
+00:01:35,232 --> 00:01:37,024
+<font color="#dfdfdf">To solve a complex customer problem</font>
+
+45
+00:01:37,536 --> 00:01:39,328
+<font color="#eeeeee">So is it somebody we can say that</font>
+
+46
+00:01:39,584 --> 00:01:43,680
+<font color="#e1e1e1">When you are building a single AI agent you are focused on implementation</font>
+
+47
+00:01:43,936 --> 00:01:45,216
+<font color="#dfdfdf">And your questions</font>
+
+48
+00:01:45,472 --> 00:01:47,008
+<font color="#eeeeee">What tools do I need to write</font>
+
+49
+00:01:47,264 --> 00:01:49,056
+<font color="#fbfbfb">How do I perfect the system</font>
+
+50
+00:01:49,568 --> 00:01:50,336
+<font color="#bbbbbb">How do i r</font>
+
+51
+00:01:50,592 --> 00:01:51,104
+<font color="#8f8f8f">Play its memory</font>
+
+52
+00:01:51,616 --> 00:01:53,664
+<font color="#b3b3b3">But when you are willing and a Genting are</font>
+
+53
+00:01:53,920 --> 00:01:54,944
+<font color="#d2d2d2">You are zoomed out</font>
+
+54
+00:01:55,200 --> 00:01:57,504
+<font color="#dadada">You are focused on interaction and integration</font>
+
+55
+00:01:58,016 --> 00:01:58,784
+<font color="#f0f0f0">Your</font>
+
+56
+00:01:59,808 --> 00:02:02,112
+<font color="#f9f9f9">What is my internet communication protocol</font>
+
+57
+00:02:02,368 --> 00:02:04,160
+<font color="#d2d2d2">What is my coordination pattern</font>
+
+58
+00:02:04,416 --> 00:02:05,184
+<font color="#eeeeee">And how do I</font>

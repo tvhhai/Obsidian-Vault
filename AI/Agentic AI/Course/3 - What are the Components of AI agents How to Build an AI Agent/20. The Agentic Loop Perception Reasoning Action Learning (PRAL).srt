@@ -1,0 +1,767 @@
+﻿1
+00:00:00,256 --> 00:00:02,304
+<font color="#f1f1f1">In this video we are going to learn</font>
+
+2
+00:00:02,560 --> 00:00:03,072
+<font color="#ebebeb">The</font>
+
+3
+00:00:03,840 --> 00:00:05,120
+<font color="#858585">Perception reason</font>
+
+4
+00:00:05,376 --> 00:00:06,400
+<font color="#aaaaaa">Sing action and learn</font>
+
+5
+00:00:07,168 --> 00:00:09,984
+<font color="#f3f3f3">In the last lectures we have defined what an agent is</font>
+
+6
+00:00:10,496 --> 00:00:11,776
+<font color="#e6e6e6">Which is digital employee</font>
+
+7
+00:00:12,544 --> 00:00:13,824
+<font color="#d9d9d9">It's autonomous and gold</font>
+
+8
+00:00:14,592 --> 00:00:15,872
+<font color="#fcfcfc">But how does it work</font>
+
+9
+00:00:16,128 --> 00:00:17,152
+<font color="#fefefe">What is the</font>
+
+10
+00:00:17,408 --> 00:00:18,688
+<font color="#c2c2c2">Step-by-step process</font>
+
+11
+00:00:18,944 --> 00:00:19,712
+<font color="#c6c6c6">It follows to be</font>
+
+12
+00:00:20,992 --> 00:00:22,528
+<font color="#b1b1b1">The answer is agency</font>
+
+13
+00:00:23,040 --> 00:00:23,808
+<font color="#afafaf">The agency</font>
+
+14
+00:00:24,064 --> 00:00:25,344
+<font color="#eeeeee">Is the fundamental operating</font>
+
+15
+00:00:25,600 --> 00:00:28,672
+<font color="#e3e3e3">I think system or heartbeat of every agent in</font>
+
+16
+00:00:29,440 --> 00:00:30,464
+<font color="#e0e0e0">We are going to</font>
+
+17
+00:00:30,976 --> 00:00:32,256
+<font color="#f0f0f0">The Journey of data is</font>
+
+18
+00:00:32,512 --> 00:00:34,304
+<font color="#adadad">It's close to this entire cycle</font>
+
+19
+00:00:34,560 --> 00:00:35,328
+<font color="#9a9a9a">Step by</font>
+
+20
+00:00:35,840 --> 00:00:38,144
+<font color="#e4e4e4">To understand the process of agentic thought</font>
+
+21
+00:00:38,912 --> 00:00:40,448
+<font color="#cacaca">So let's start with the problem</font>
+
+22
+00:00:40,960 --> 00:00:42,240
+<font color="#dcdcdc">Which is the Journey of a</font>
+
+23
+00:00:43,520 --> 00:00:44,032
+<font color="#b9b9b9">It is practical</font>
+
+24
+00:00:44,288 --> 00:00:45,312
+<font color="#cccccc">We are going to today's</font>
+
+25
+00:00:45,824 --> 00:00:46,848
+<font color="#c0c0c0">Single user request</font>
+
+26
+00:00:47,616 --> 00:00:48,128
+<font color="#b4b4b4">I'm sorry to</font>
+
+27
+00:00:48,896 --> 00:00:49,664
+<font color="#dedede">We will</font>
+
+28
+00:00:49,920 --> 00:00:51,712
+<font color="#f6f6f6">How the data is transformed</font>
+
+29
+00:00:52,736 --> 00:00:54,016
+<font color="#c6c6c6">Is it closed around this</font>
+
+30
+00:00:54,528 --> 00:00:56,064
+<font color="#bbbbbb">We start with perception</font>
+
+31
+00:00:56,576 --> 00:00:57,344
+<font color="#bebebe">The agent</font>
+
+32
+00:00:58,112 --> 00:00:59,136
+<font color="#e5e5e5">Is gateway to the</font>
+
+33
+00:00:59,904 --> 00:01:01,184
+<font color="#d6d6d6">The second one is reason</font>
+
+34
+00:01:01,696 --> 00:01:02,976
+<font color="#9e9e9e">This flows into reason</font>
+
+35
+00:01:03,232 --> 00:01:05,024
+<font color="#e0e0e0">The cognitive core or</font>
+
+36
+00:01:05,280 --> 00:01:06,560
+<font color="#afafaf">Where the agent sings</font>
+
+37
+00:01:07,328 --> 00:01:08,096
+<font color="#d8d8d8">The third one</font>
+
+38
+00:01:08,352 --> 00:01:08,864
+<font color="#bababa">Is action</font>
+
+39
+00:01:09,120 --> 00:01:11,168
+<font color="#e9e9e9">The output of the reasoning is action</font>
+
+40
+00:01:11,424 --> 00:01:11,936
+<font color="#e8e8e8">The</font>
+
+41
+00:01:12,192 --> 00:01:14,240
+<font color="#d9d9d9">Did allow the agent to have an</font>
+
+42
+00:01:14,496 --> 00:01:15,520
+<font color="#7f7f7f">It's only its en</font>
+
+43
+00:01:16,288 --> 00:01:18,848
+<font color="#cfcfcf">And finally the results of that action</font>
+
+44
+00:01:19,104 --> 00:01:21,152
+<font color="#e1e1e1">Feed into learning or deflection</font>
+
+45
+00:01:21,408 --> 00:01:24,224
+<font color="#f2f2f2">Which is the metal Loop that allows the agent to improve</font>
+
+46
+00:01:24,736 --> 00:01:25,760
+<font color="#fcfcfc">Let me show you</font>
+
+47
+00:01:26,016 --> 00:01:26,784
+<font color="#9c9c9c">Is agency</font>
+
+48
+00:01:27,040 --> 00:01:28,320
+<font color="#f3f3f3">In a particular agent</font>
+
+49
+00:01:28,576 --> 00:01:29,344
+<font color="#d7d7d7">When the</font>
+
+50
+00:01:29,600 --> 00:01:30,368
+<font color="#cdcdcd">Santa</font>
+
+51
+00:01:30,624 --> 00:01:32,160
+<font color="#989898">Is unfollow the unturned FL</font>
+
+52
+00:01:32,672 --> 00:01:33,696
+<font color="#f3f3f3">So first of all</font>
+
+53
+00:01:33,952 --> 00:01:34,720
+<font color="#717171">Do you say</font>
+
+54
+00:01:34,976 --> 00:01:35,744
+<font color="#939393">Do you like</font>
+
+55
+00:01:36,000 --> 00:01:37,792
+<font color="#9c9c9c">Is comes to our perception lay</font>
+
+56
+00:01:38,304 --> 00:01:40,096
+<font color="#e2e2e2">Which is how agent sends the</font>
+
+57
+00:01:40,608 --> 00:01:42,144
+<font color="#d8d8d8">And after that it goes</font>
+
+58
+00:01:42,400 --> 00:01:43,424
+<font color="#bbbbbb">Reasoning player</font>
+
+59
+00:01:43,680 --> 00:01:44,448
+<font color="#999999">How agent</font>
+
+60
+00:01:44,704 --> 00:01:45,216
+<font color="#444444">Thanks ambul</font>
+
+61
+00:01:45,472 --> 00:01:46,240
+<font color="#c6c6c6">And after</font>
+
+62
+00:01:46,496 --> 00:01:49,312
+<font color="#cfcfcf">This going to action model which is the</font>
+
+63
+00:01:49,568 --> 00:01:51,104
+<font color="#b0b0b0">The agent effective</font>
+
+64
+00:01:51,360 --> 00:01:53,920
+<font color="#c5c5c5">I'm Leslie it comes to learning model</font>
+
+65
+00:01:54,176 --> 00:01:55,968
+<font color="#dddddd">How the agent improve itself</font>
+
+66
+00:01:56,480 --> 00:01:58,016
+<font color="#d2d2d2">This is the Journey of today</font>
+
+67
+00:01:58,528 --> 00:01:59,552
+<font color="#525252">And the problem</font>
+
+68
+00:01:59,808 --> 00:02:02,112
+<font color="#e1e1e1">The single user request from start to</font>
+
+69
+00:02:03,392 --> 00:02:05,440
+<font color="#bcbcbc">Let's begin the journey into phase</font>
+
+70
+00:02:05,696 --> 00:02:06,464
+<font color="#e3e3e3">Which is the perception</font>
+
+71
+00:02:07,232 --> 00:02:10,560
+<font color="#c2c2c2">Is it normal that we have already seen these layers before</font>
+
+72
+00:02:10,816 --> 00:02:13,376
+<font color="#9c9c9c">When we are examine this anatomy of the AG</font>
+
+73
+00:02:13,888 --> 00:02:16,192
+<font color="#ececec">But now we are looking for these layers</font>
+
+74
+00:02:16,448 --> 00:02:18,240
+<font color="#979797">Is for the Journey of the requ</font>
+
+75
+00:02:19,264 --> 00:02:23,360
+<font color="#d9d9d9">The goal of the procession layer is getting information in a clean format</font>
+
+76
+00:02:23,872 --> 00:02:26,432
+<font color="#cacaca">And the trigger could be any event this user in</font>
+
+77
+00:02:26,688 --> 00:02:27,456
+<font color="#808080">Put API resp</font>
+
+78
+00:02:27,712 --> 00:02:29,248
+<font color="#c8c8c8">Or any sensor data</font>
+
+79
+00:02:29,504 --> 00:02:30,528
+<font color="#a4a4a4">And the challenges</font>
+
+80
+00:02:30,784 --> 00:02:32,320
+<font color="#a6a6a6">These inputs are diver</font>
+
+81
+00:02:32,576 --> 00:02:33,344
+<font color="#c1c1c1">Roll</font>
+
+82
+00:02:34,112 --> 00:02:34,624
+<font color="#d0d0d0">So</font>
+
+83
+00:02:34,880 --> 00:02:36,416
+<font color="#949494">Turn the brain doesn't understand</font>
+
+84
+00:02:36,672 --> 00:02:38,208
+<font color="#b6b6b6">Jason audio or I'm</font>
+
+85
+00:02:38,720 --> 00:02:39,488
+<font color="#5c5c5c">For that reason</font>
+
+86
+00:02:39,744 --> 00:02:42,560
+<font color="#f4f4f4">The key process of the perception is a normalization</font>
+
+87
+00:02:43,072 --> 00:02:49,216
+<font color="#d8d8d8">So this is the translation pipeline converting 12 diverse input into clean and alarm understandable</font>
+
+88
+00:02:49,984 --> 00:02:50,496
+<font color="#e1e1e1">Which is</font>
+
+89
+00:02:51,008 --> 00:02:51,776
+<font color="#d1d1d1">For example</font>
+
+90
+00:02:52,032 --> 00:02:53,312
+<font color="#dcdcdc">If the image is upload</font>
+
+91
+00:02:53,568 --> 00:02:56,384
+<font color="#cacaca">This will be Santa Vision model and convert to text</font>
+
+92
+00:02:56,640 --> 00:02:59,712
+<font color="#c6c6c6">If any audio uploaded this will be sent to</font>
+
+93
+00:02:59,968 --> 00:03:01,248
+<font color="#909090">You should text and come over to</font>
+
+94
+00:03:01,504 --> 00:03:02,016
+<font color="#b5b5b5">Please cancel</font>
+
+95
+00:03:02,528 --> 00:03:04,320
+<font color="#eeeeee">So the idea is that the output</font>
+
+96
+00:03:04,576 --> 00:03:05,088
+<font color="#7e7e7e">Screen</font>
+
+97
+00:03:05,344 --> 00:03:07,648
+<font color="#e7e7e7">And this is our first data transformation</font>
+
+98
+00:03:08,416 --> 00:03:10,976
+<font color="#dfdfdf">And if you go to Second Step of the agency</font>
+
+99
+00:03:11,232 --> 00:03:12,000
+<font color="#c3c3c3">Which is the reason</font>
+
+100
+00:03:12,512 --> 00:03:13,024
+<font color="#8a8a8a">The brain</font>
+
+101
+00:03:13,280 --> 00:03:14,304
+<font color="#c9c9c9">The reasoning engine</font>
+
+102
+00:03:14,560 --> 00:03:16,608
+<font color="#acacac">Post to normalize perception</font>
+
+103
+00:03:17,120 --> 00:03:17,888
+<font color="#747474">Relevant contact</font>
+
+104
+00:03:18,144 --> 00:03:18,912
+<font color="#a8a8a8">Next from the memory</font>
+
+105
+00:03:19,424 --> 00:03:21,984
+<font color="#ebebeb">So the goal is the understand and create plan</font>
+
+106
+00:03:22,240 --> 00:03:23,008
+<font color="#eaeaea">The process is</font>
+
+107
+00:03:23,264 --> 00:03:23,776
+<font color="#959595">Is first</font>
+
+108
+00:03:24,032 --> 00:03:24,544
+<font color="#b9b9b9">Understand</font>
+
+109
+00:03:24,800 --> 00:03:26,080
+<font color="#b6b6b6">50 perception and memory</font>
+
+110
+00:03:26,336 --> 00:03:28,640
+<font color="#c6c6c6">After that plan with using the Chain of Thought</font>
+
+111
+00:03:28,896 --> 00:03:30,176
+<font color="#c4c4c4">And after that decide</font>
+
+112
+00:03:32,224 --> 00:03:34,272
+<font color="#f0f0f0">And this is the thinking in the</font>
+
+113
+00:03:34,528 --> 00:03:35,552
+<font color="#aeaeae">Reason an egg</font>
+
+114
+00:03:36,064 --> 00:03:37,088
+<font color="#fafafa">So if you look</font>
+
+115
+00:03:37,344 --> 00:03:38,880
+<font color="#e1e1e1">Make the key output of the reasoning</font>
+
+116
+00:03:39,136 --> 00:03:41,184
+<font color="#d6d6d6">Dublin is a structured object</font>
+
+117
+00:03:41,440 --> 00:03:43,232
+<font color="#f2f2f2">And this is the second transformation</font>
+
+118
+00:03:43,488 --> 00:03:44,512
+<font color="#c3c3c3">Creating a plan</font>
+
+119
+00:03:44,768 --> 00:03:45,536
+<font color="#6f6f6f">Alarm</font>
+
+120
+00:03:46,048 --> 00:03:48,864
+<font color="#c7c7c7">What is translated into machine readable format</font>
+
+121
+00:03:49,120 --> 00:03:53,472
+<font color="#a2a2a2">Jason</font>
+
+122
+00:03:54,496 --> 00:03:56,288
+<font color="#f6f6f6">So the next step is the action</font>
+
+123
+00:03:56,800 --> 00:04:01,152
+<font color="#e8e8e8">Is the input of the action is the Jason action plan from the reasoning model</font>
+
+124
+00:04:01,664 --> 00:04:04,736
+<font color="#e8e8e8">So the goal is the execute this plan and affect the environment</font>
+
+125
+00:04:05,248 --> 00:04:06,784
+<font color="#ececec">And this is the execution process</font>
+
+126
+00:04:07,040 --> 00:04:07,808
+<font color="#e6e6e6">First of all</font>
+
+127
+00:04:08,064 --> 00:04:09,600
+<font color="#b5b5b5">Will you pause the including Jason</font>
+
+128
+00:04:09,856 --> 00:04:11,392
+<font color="#777777">An executed</font>
+
+129
+00:04:11,648 --> 00:04:12,672
+<font color="#d9d9d9">Which is the function cool</font>
+
+130
+00:04:12,928 --> 00:04:13,952
+<font color="#919191">An effect en</font>
+
+131
+00:04:14,720 --> 00:04:16,000
+<font color="#e9e9e9">So this is the</font>
+
+132
+00:04:16,256 --> 00:04:16,768
+<font color="#757575">Play in</font>
+
+133
+00:04:17,024 --> 00:04:18,303
+<font color="#b4b4b4">Reason and egg pattern</font>
+
+134
+00:04:18,815 --> 00:04:20,607
+<font color="#e7e7e7">So the critical output of the action is</font>
+
+135
+00:04:20,863 --> 00:04:21,631
+<font color="#a8a8a8">Closing tulip</font>
+
+136
+00:04:22,143 --> 00:04:24,959
+<font color="#dedede">For example when the results comes from the tool</font>
+
+137
+00:04:25,215 --> 00:04:26,495
+<font color="#b9b9b9">Play kitchen light in Jason</font>
+
+138
+00:04:26,751 --> 00:04:27,775
+<font color="#f6f6f6">This is not the</font>
+
+139
+00:04:28,287 --> 00:04:29,055
+<font color="#ededed">This will be</font>
+
+140
+00:04:29,311 --> 00:04:30,335
+<font color="#b4b4b4">Close the door</font>
+
+141
+00:04:30,591 --> 00:04:31,871
+<font color="#cccccc">And start the loop</font>
+
+142
+00:04:32,127 --> 00:04:35,199
+<font color="#cccccc">It becomes the trigger of the next perception phase</font>
+
+143
+00:04:35,455 --> 00:04:36,479
+<font color="#a7a7a7">Which is the loop</font>
+
+144
+00:04:36,991 --> 00:04:39,039
+<font color="#ededed">You can see in here we will run this</font>
+
+145
+00:04:39,551 --> 00:04:40,319
+<font color="#c4c4c4">And this will</font>
+
+146
+00:04:40,575 --> 00:04:42,367
+<font color="#b3b3b3">Play feedback into beginning Loop</font>
+
+147
+00:04:42,879 --> 00:04:43,903
+<font color="#a2a2a2">And we can say</font>
+
+148
+00:04:44,159 --> 00:04:44,671
+<font color="#747474">Add these</font>
+
+149
+00:04:44,927 --> 00:04:45,439
+<font color="#f0f0f0">Start</font>
+
+150
+00:04:45,695 --> 00:04:46,463
+<font color="#555555">Put the per</font>
+
+151
+00:04:46,719 --> 00:04:47,743
+<font color="#b9b9b9">Reason and</font>
+
+152
+00:04:48,255 --> 00:04:49,279
+<font color="#fafafa">Which is the API</font>
+
+153
+00:04:49,791 --> 00:04:51,839
+<font color="#b4b4b4">Unreasonable about the plan</font>
+
+154
+00:04:52,095 --> 00:04:52,863
+<font color="#6f6f6f">Next tell the US</font>
+
+155
+00:04:53,887 --> 00:04:55,167
+<font color="#cdcdcd">The next step is learn</font>
+
+156
+00:04:55,423 --> 00:04:56,447
+<font color="#e4e4e4">Which is the metal</font>
+
+157
+00:04:56,959 --> 00:04:59,519
+<font color="#d4d4d4">The goal is to improve the agent performance overtime</font>
+
+158
+00:05:00,031 --> 00:05:03,103
+<font color="#eaeaea">And this is the option Loop that sits on top of the</font>
+
+159
+00:05:03,359 --> 00:05:03,871
+<font color="#5f5f5f">What is a problem</font>
+
+160
+00:05:04,383 --> 00:05:05,407
+<font color="#f8f8f8">Learning process</font>
+
+161
+00:05:05,663 --> 00:05:06,687
+<font color="#ababab">Is Tuesday process</font>
+
+162
+00:05:06,943 --> 00:05:10,015
+<font color="#e4e4e4">The first one is reflection and the second one is adapt</font>
+
+163
+00:05:10,783 --> 00:05:12,831
+<font color="#e5e5e5">If you look at the key output of the learning</font>
+
+164
+00:05:13,087 --> 00:05:14,623
+<font color="#f8f8f8">This is the adaptation process</font>
+
+165
+00:05:14,879 --> 00:05:16,671
+<font color="#afafaf">First of all the critic</font>
+
+166
+00:05:16,927 --> 00:05:17,439
+<font color="#676767">What is a feedback</font>
+
+167
+00:05:17,695 --> 00:05:19,487
+<font color="#e2e2e2">And after that we start the update</font>
+
+168
+00:05:19,743 --> 00:05:20,255
+<font color="#f2f2f2">Which is</font>
+
+169
+00:05:20,511 --> 00:05:21,279
+<font color="#b6b6b6">Learner process</font>
+
+170
+00:05:21,535 --> 00:05:22,559
+<font color="#8a8a8a">Update the mem</font>
+
+171
+00:05:22,815 --> 00:05:23,583
+<font color="#b2b2b2">Play update the</font>
+
+172
+00:05:24,095 --> 00:05:25,119
+<font color="#d5d5d5">An update the utility</font>
+
+173
+00:05:25,375 --> 00:05:27,167
+<font color="#e1e1e1">Play did we have seen in the previous</font>
+
+174
+00:05:27,935 --> 00:05:29,727
+<font color="#f4f4f4">So basically we can say that</font>
+
+175
+00:05:29,983 --> 00:05:36,127
+<font color="#dadada">We learned the Journey of The Producers which is the agentic group contains the process for data transformation</font>
+
+176
+00:05:36,639 --> 00:05:37,919
+<font color="#aaaaaa">Restart in perception</font>
+
+177
+00:05:38,175 --> 00:05:40,223
+<font color="#eeeeee">Which is basically translate into</font>
+
+178
+00:05:40,479 --> 00:05:41,503
+<font color="#777777">Put clean normalize</font>
+
+179
+00:05:42,015 --> 00:05:43,807
+<font color="#c1c1c1">And that takes flows to reasoning</font>
+
+180
+00:05:44,319 --> 00:05:44,831
+<font color="#e1e1e1">Which combines</font>
+
+181
+00:05:45,087 --> 00:05:46,879
+<font color="#d2d2d2">Let's eat memory and transform into</font>
+
+182
+00:05:47,135 --> 00:05:48,415
+<font color="#8d8d8d">Subtracted Jason plan</font>
+
+183
+00:05:48,671 --> 00:05:49,695
+<font color="#707070">And that plan</font>
+
+184
+00:05:49,951 --> 00:05:51,999
+<font color="#cccccc">What's the extra model which execute the</font>
+
+185
+00:05:52,255 --> 00:05:54,047
+<font color="#b5b5b5">And get a road tool result</font>
+
+186
+00:05:54,303 --> 00:05:54,815
+<font color="#898989">It's out</font>
+
+187
+00:05:55,071 --> 00:05:58,143
+<font color="#d5d5d5">And that result is loop back into the perception</font>
+
+188
+00:05:58,399 --> 00:06:00,191
+<font color="#dedede">Starting to cycle over again</font>
+
+189
+00:06:00,447 --> 00:06:01,983
+<font color="#d8d8d8">I'm finally the learning</font>
+
+190
+00:06:02,751 --> 00:06:04,799
+<font color="#b6b6b6">It's over on top of these agent</font>
+
+191
+00:06:05,311 --> 00:06:06,591
+<font color="#d8d8d8">And this is the problem process</font>
+
+192
+00:06:06,847 --> 00:06:09,919
+<font color="#efefef">This floor is a fundamental engine of every</font>

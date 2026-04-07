@@ -1,0 +1,619 @@
+﻿1
+00:00:00,256 --> 00:00:02,304
+<font color="#eeeeee">In this video we are going to learn</font>
+
+2
+00:00:02,560 --> 00:00:03,584
+<font color="#727272">The Swamp Attack</font>
+
+3
+00:00:04,096 --> 00:00:05,120
+<font color="#aaaaaa">You know last text</font>
+
+4
+00:00:05,376 --> 00:00:06,912
+<font color="#757575">We learned group chat but</font>
+
+5
+00:00:07,936 --> 00:00:08,960
+<font color="#e1e1e1">Digital meeting room</font>
+
+6
+00:00:09,216 --> 00:00:10,496
+<font color="#eeeeee">Design for Creative debate</font>
+
+7
+00:00:11,008 --> 00:00:13,312
+<font color="#f5f5f5">It is powerful for improving quality</font>
+
+8
+00:00:13,568 --> 00:00:15,616
+<font color="#f5f5f5">But it is fundamentally sequential</font>
+
+9
+00:00:15,872 --> 00:00:17,664
+<font color="#d7d7d7">Are agents speak at a time</font>
+
+10
+00:00:17,920 --> 00:00:18,688
+<font color="#c7c7c7">It is</font>
+
+11
+00:00:18,944 --> 00:00:19,456
+<font color="#bebebe">Deliberate</font>
+
+12
+00:00:19,712 --> 00:00:20,224
+<font color="#515151">An exp</font>
+
+13
+00:00:20,736 --> 00:00:22,272
+<font color="#e2e2e2">But what if our problem</font>
+
+14
+00:00:22,528 --> 00:00:23,808
+<font color="#9c9c9c">Isn't creatively comp</font>
+
+15
+00:00:24,064 --> 00:00:25,344
+<font color="#747474">Next bus just massive</font>
+
+16
+00:00:26,112 --> 00:00:26,880
+<font color="#dddddd">What if</font>
+
+17
+00:00:27,136 --> 00:00:29,696
+<font color="#e5e5e5">You're not trying to design any marketing plan</font>
+
+18
+00:00:30,208 --> 00:00:31,232
+<font color="#989898">What if artist</font>
+
+19
+00:00:32,768 --> 00:00:33,536
+<font color="#b1b1b1">10,000</font>
+
+20
+00:00:33,792 --> 00:00:35,072
+<font color="#b4b4b4">Article published yesterday</font>
+
+21
+00:00:35,584 --> 00:00:37,120
+<font color="#f8f8f8">You don't need a debate for this</font>
+
+22
+00:00:37,376 --> 00:00:38,656
+<font color="#e2e2e2">You don't need a handle</font>
+
+23
+00:00:38,912 --> 00:00:41,728
+<font color="#eeeeee">We need an army of Agents all working</font>
+
+24
+00:00:41,984 --> 00:00:42,496
+<font color="#dfdfdf">At the same time</font>
+
+25
+00:00:43,008 --> 00:00:44,288
+<font color="#c0c0c0">This is the Suburban</font>
+
+26
+00:00:44,544 --> 00:00:47,616
+<font color="#9d9d9d">So now let's understand this one pattern in debt</font>
+
+27
+00:00:48,384 --> 00:00:50,176
+<font color="#8d8d8d">This one pattern is based on the</font>
+
+28
+00:00:50,432 --> 00:00:52,224
+<font color="#c4c4c4">Put is a beehive or an anime</font>
+
+29
+00:00:52,736 --> 00:00:55,808
+<font color="#e8e8e8">It is an architecture but a central Queen</font>
+
+30
+00:00:56,576 --> 00:00:57,344
+<font color="#959595">What is the poor</font>
+
+31
+00:00:57,856 --> 00:00:59,136
+<font color="#cfcfcf">It takes a massive</font>
+
+32
+00:00:59,392 --> 00:01:00,160
+<font color="#7c7c7c">List</font>
+
+33
+00:01:00,416 --> 00:01:02,720
+<font color="#929292">How's life process 10,000 of these file</font>
+
+34
+00:01:03,232 --> 00:01:06,304
+<font color="#d6d6d6">And decompose it into 10,000 small</font>
+
+35
+00:01:06,560 --> 00:01:07,328
+<font color="#656565">Identical soft</font>
+
+36
+00:01:07,840 --> 00:01:09,632
+<font color="#797979">Ethan's Farms or em</font>
+
+37
+00:01:09,888 --> 00:01:11,680
+<font color="#cfcfcf">Thousands of worker agents</font>
+
+38
+00:01:11,936 --> 00:01:13,728
+<font color="#bdbdbd">To execute all these sub</font>
+
+39
+00:01:13,984 --> 00:01:14,496
+<font color="#a0a0a0">What's in peril</font>
+
+40
+00:01:15,008 --> 00:01:16,288
+<font color="#f8f8f8">The entire goal is</font>
+
+41
+00:01:16,544 --> 00:01:17,312
+<font color="#8f8f8f">Is achieve a</font>
+
+42
+00:01:17,568 --> 00:01:18,080
+<font color="#717171">Can you speak</font>
+
+43
+00:01:18,336 --> 00:01:20,384
+<font color="#e5e5e5">On what we call in computer science</font>
+
+44
+00:01:21,408 --> 00:01:22,432
+<font color="#9b9b9b">Listen to parallel problems</font>
+
+45
+00:01:22,688 --> 00:01:27,296
+<font color="#efefef">Tusk that can be broken up and required no communication between the workers</font>
+
+46
+00:01:27,808 --> 00:01:28,576
+<font color="#959595">The golden</font>
+
+47
+00:01:28,832 --> 00:01:30,112
+<font color="#bfbfbf">This is the map red</font>
+
+48
+00:01:30,368 --> 00:01:32,672
+<font color="#a6a6a6">Design pattern applied to AI Pat</font>
+
+49
+00:01:33,440 --> 00:01:34,720
+<font color="#e5e5e5">So now let's understand</font>
+
+50
+00:01:34,976 --> 00:01:36,256
+<font color="#b1b1b1">The mapreduce architect</font>
+
+51
+00:01:36,768 --> 00:01:38,816
+<font color="#d0d0d0">This button has two distinct</font>
+
+52
+00:01:39,072 --> 00:01:41,120
+<font color="#bdbdbd">Is both managed by our Queen</font>
+
+53
+00:01:41,632 --> 00:01:43,168
+<font color="#eaeaea">The first is the map</font>
+
+54
+00:01:43,680 --> 00:01:45,728
+<font color="#f1f1f1">This is decomposition and distribution</font>
+
+55
+00:01:46,496 --> 00:01:47,520
+<font color="#eaeaea">The queen agent</font>
+
+56
+00:01:47,776 --> 00:01:48,800
+<font color="#a8a8a8">Takes the large</font>
+
+57
+00:01:49,056 --> 00:01:50,336
+<font color="#a5a5a5">Like 1,000 report</font>
+
+58
+00:01:50,592 --> 00:01:51,104
+<font color="#c2c2c2">What's a</font>
+
+59
+00:01:51,872 --> 00:01:55,456
+<font color="#cdcdcd">Is iterates the list and spawns one worker agent for</font>
+
+60
+00:01:56,480 --> 00:01:58,528
+<font color="#dddddd">The broken agents logic is simple</font>
+
+61
+00:01:58,784 --> 00:02:00,832
+<font color="#f2f2f2">Summarize the one report you are given</font>
+
+62
+00:02:01,344 --> 00:02:02,880
+<font color="#d6d6d6">The second is the reduced</font>
+
+63
+00:02:03,392 --> 00:02:05,696
+<font color="#b8b8b8">This is aggregation and synthesizers</font>
+
+64
+00:02:06,208 --> 00:02:09,280
+<font color="#dfdfdf">Do queen agent wait for all a thousand workers</font>
+
+65
+00:02:09,792 --> 00:02:12,096
+<font color="#eeeeee">To finish and return their individual summaries</font>
+
+66
+00:02:12,352 --> 00:02:14,656
+<font color="#dedede">Ethan collects all these results</font>
+
+67
+00:02:14,912 --> 00:02:18,496
+<font color="#e4e4e4">Finally it reduces them by performing One Last Action</font>
+
+68
+00:02:19,008 --> 00:02:22,336
+<font color="#d8d8d8">Such as writing a metal summary of all the individual summaries</font>
+
+69
+00:02:22,592 --> 00:02:25,152
+<font color="#fafafa">Into a single final output for the user</font>
+
+70
+00:02:27,456 --> 00:02:28,736
+<font color="#818181">This is 1.10 in</font>
+
+71
+00:02:29,248 --> 00:02:31,040
+<font color="#a8a8a8">So basically our task</font>
+
+72
+00:02:31,552 --> 00:02:34,368
+<font color="#dedede">Summarize a thousand articles in this folder</font>
+
+73
+00:02:34,880 --> 00:02:35,648
+<font color="#d2d2d2">First of all</font>
+
+74
+00:02:35,904 --> 00:02:37,440
+<font color="#cecece">The queen agent EXE</font>
+
+75
+00:02:37,696 --> 00:02:38,208
+<font color="#808080">Is the Memphis</font>
+
+76
+00:02:38,720 --> 00:02:40,256
+<font color="#e1e1e1">It doesn't read the articles</font>
+
+77
+00:02:40,512 --> 00:02:41,280
+<font color="#b2b2b2">It's simply</font>
+
+78
+00:02:41,536 --> 00:02:43,072
+<font color="#c3c3c3">Decomposed the list into</font>
+
+79
+00:02:43,328 --> 00:02:45,120
+<font color="#bababa">1,000 individual subtask</font>
+
+80
+00:02:45,632 --> 00:02:46,400
+<font color="#595959">And</font>
+
+81
+00:02:46,656 --> 00:02:48,704
+<font color="#b4b4b4">The worker agent execute in peril</font>
+
+82
+00:02:49,216 --> 00:02:50,240
+<font color="#696969">Are orchids</font>
+
+83
+00:02:51,008 --> 00:02:53,824
+<font color="#aeaeae">What's 1,000 instance of our so many agent</font>
+
+84
+00:02:54,336 --> 00:02:57,408
+<font color="#bcbcbc">And this might be massive a single import</font>
+
+85
+00:02:57,920 --> 00:03:01,760
+<font color="#979797">Or it could be 1,000 separate serverless Cloud function</font>
+
+86
+00:03:02,784 --> 00:03:04,576
+<font color="#dddddd">Each worker receives one document</font>
+
+87
+00:03:05,088 --> 00:03:05,856
+<font color="#949494">And some r</font>
+
+88
+00:03:06,112 --> 00:03:07,392
+<font color="#bcbcbc">And return to the result</font>
+
+89
+00:03:07,904 --> 00:03:08,672
+<font color="#e4e4e4">On the third</font>
+
+90
+00:03:09,184 --> 00:03:10,208
+<font color="#cdcdcd">The queen agent begin</font>
+
+91
+00:03:10,464 --> 00:03:11,232
+<font color="#acacac">Is the reduce phase</font>
+
+92
+00:03:12,256 --> 00:03:14,304
+<font color="#a9a9a9">What is 4000 parallel process</font>
+
+93
+00:03:14,560 --> 00:03:15,072
+<font color="#f8f8f8">To complete</font>
+
+94
+00:03:15,328 --> 00:03:16,096
+<font color="#a5a5a5">Ethan</font>
+
+95
+00:03:16,352 --> 00:03:18,400
+<font color="#6a6a6a">Call 1,000 individual summ</font>
+
+96
+00:03:18,656 --> 00:03:19,680
+<font color="#bdbdbd">Into one Mass</font>
+
+97
+00:03:20,448 --> 00:03:20,960
+<font color="#d4d4d4">Finally</font>
+
+98
+00:03:21,216 --> 00:03:23,264
+<font color="#d4d4d4">The queen agents synthesizes the result</font>
+
+99
+00:03:23,520 --> 00:03:24,032
+<font color="#dfdfdf">It</font>
+
+100
+00:03:24,288 --> 00:03:25,568
+<font color="#bcbcbc">Is one final alarm call</font>
+
+101
+00:03:25,824 --> 00:03:28,128
+<font color="#b7b7b7">Feeding it all it doesn't summaries</font>
+
+102
+00:03:28,384 --> 00:03:29,152
+<font color="#808080">Video front</font>
+
+103
+00:03:29,664 --> 00:03:31,968
+<font color="#e0e0e0">Write one page executive summary of</font>
+
+104
+00:03:32,224 --> 00:03:32,992
+<font color="#888888">What is 8,000 some</font>
+
+105
+00:03:33,504 --> 00:03:35,296
+<font color="#dddddd">And this final aggregated answer</font>
+
+106
+00:03:35,552 --> 00:03:37,344
+<font color="#d7d7d7">Is what's returned to the user</font>
+
+107
+00:03:37,600 --> 00:03:38,624
+<font color="#909090">And is archit</font>
+
+108
+00:03:38,880 --> 00:03:40,416
+<font color="#ababab">Is this button is a classic</font>
+
+109
+00:03:42,208 --> 00:03:45,792
+<font color="#e8e8e8">The benefit is obvious and singular massive speed and</font>
+
+110
+00:03:46,304 --> 00:03:48,352
+<font color="#f0f0f0">It can be literally thousands of</font>
+
+111
+00:03:48,608 --> 00:03:50,144
+<font color="#c2c2c2">I'm faster than trying to Pro</font>
+
+112
+00:03:51,168 --> 00:03:52,448
+<font color="#dfdfdf">Is in a single circulation</font>
+
+113
+00:03:52,960 --> 00:03:54,496
+<font color="#bebebe">And the limitations however</font>
+
+114
+00:03:54,752 --> 00:03:55,264
+<font color="#5c5c5c">What are</font>
+
+115
+00:03:56,288 --> 00:03:57,312
+<font color="#f7f7f7">It only works for</font>
+
+116
+00:03:57,568 --> 00:03:59,104
+<font color="#999999">Embracing the parallel</font>
+
+117
+00:03:59,616 --> 00:04:01,664
+<font color="#f6f6f6">The workers cannot talk to each other</font>
+
+118
+00:04:01,920 --> 00:04:02,944
+<font color="#f9f9f9">If they need to</font>
+
+119
+00:04:03,200 --> 00:04:03,968
+<font color="#a2a2a2">This button</font>
+
+120
+00:04:04,992 --> 00:04:08,064
+<font color="#bebebe">And doodles are also important for this one but</font>
+
+121
+00:04:08,320 --> 00:04:09,088
+<font color="#cecece">This button</font>
+
+122
+00:04:09,344 --> 00:04:10,624
+<font color="#d0d0d0">Is profoundly expensive</font>
+
+123
+00:04:11,136 --> 00:04:12,928
+<font color="#a4a4a4">8,000 parallel workers</font>
+
+124
+00:04:13,184 --> 00:04:15,488
+<font color="#989898">1,000 simultaneous API call</font>
+
+125
+00:04:15,744 --> 00:04:17,024
+<font color="#e6e6e6">Provider</font>
+
+126
+00:04:17,280 --> 00:04:18,815
+<font color="#dbdbdb">You are trading time for money</font>
+
+127
+00:04:19,327 --> 00:04:20,863
+<font color="#dcdcdc">And most importantly for us</font>
+
+128
+00:04:21,119 --> 00:04:22,911
+<font color="#bcbcbc">This is an orchestration night</font>
+
+129
+00:04:23,423 --> 00:04:24,959
+<font color="#e4e4e4">This is not a simple for Loop</font>
+
+130
+00:04:25,215 --> 00:04:27,519
+<font color="#bbbbbb">This is a complex a synchronous parallel</font>
+
+131
+00:04:28,287 --> 00:04:29,311
+<font color="#f6f6f6">You must design for</font>
+
+132
+00:04:29,823 --> 00:04:31,103
+<font color="#c8c8c8">What happens if work</font>
+
+133
+00:04:31,359 --> 00:04:32,895
+<font color="#6c6c6c">532 pill</font>
+
+134
+00:04:33,407 --> 00:04:34,687
+<font color="#cecece">Does the Hole Cafe</font>
+
+135
+00:04:35,199 --> 00:04:36,991
+<font color="#cecece">Do you retry just that one job</font>
+
+136
+00:04:37,247 --> 00:04:38,783
+<font color="#cbcbcb">What about API rate</font>
+
+137
+00:04:39,039 --> 00:04:40,575
+<font color="#bdbdbd">Kids can you make a thousand</font>
+
+138
+00:04:40,831 --> 00:04:41,343
+<font color="#6a6a6a">Advance</font>
+
+139
+00:04:41,855 --> 00:04:43,903
+<font color="#f9f9f9">This is a significant engineering challenge</font>
+
+140
+00:04:44,415 --> 00:04:45,951
+<font color="#c9c9c9">Is there somebody we can say that</font>
+
+141
+00:04:46,207 --> 00:04:49,279
+<font color="#989898">This is important is want to end parallel processing</font>
+
+142
+00:04:49,791 --> 00:04:52,095
+<font color="#d5d5d5">It is the mapreduce architecture for agents</font>
+
+143
+00:04:52,607 --> 00:04:54,143
+<font color="#d5d5d5">The components are a queen</font>
+
+144
+00:04:54,399 --> 00:04:56,191
+<font color="#e1e1e1">Which is the decomposer aggregated</font>
+
+145
+00:04:56,447 --> 00:04:58,239
+<font color="#6d6d6d">Underwater executed agent</font>
+
+146
+00:04:58,495 --> 00:05:00,287
+<font color="#a6a6a6">Use case perfect for Mass</font>
+
+147
+00:05:00,543 --> 00:05:01,311
+<font color="#707070">List</font>
+
+148
+00:05:01,567 --> 00:05:02,335
+<font color="#616161">Independent</font>
+
+149
+00:05:02,847 --> 00:05:03,615
+<font color="#f7f7f7">Example of</font>
+
+150
+00:05:03,871 --> 00:05:05,407
+<font color="#c8c8c8">Analyze a thousand of document</font>
+
+151
+00:05:06,175 --> 00:05:07,711
+<font color="#d2d2d2">Process a thousands of</font>
+
+152
+00:05:08,223 --> 00:05:08,991
+<font color="#343434">Play-Doh</font>
+
+153
+00:05:09,247 --> 00:05:09,759
+<font color="#c7c7c7">You</font>
+
+154
+00:05:10,015 --> 00:05:11,295
+<font color="#8a8a8a">Is it cost and complexity</font>
+
+155
+00:05:11,551 --> 00:05:12,319
+<font color="#686868">What is repeat</font>

@@ -1,0 +1,335 @@
+﻿1
+00:00:00,256 --> 00:00:01,280
+<font color="#e2e2e2">In this section</font>
+
+2
+00:00:01,536 --> 00:00:02,304
+<font color="#f0f0f0">We are going to learn</font>
+
+3
+00:00:02,816 --> 00:00:05,120
+<font color="#dfdfdf">What are the components of the AI agent</font>
+
+4
+00:00:05,376 --> 00:00:06,912
+<font color="#b6b6b6">How to read an AI</font>
+
+5
+00:00:07,680 --> 00:00:10,240
+<font color="#c2c2c2">That means we will need time into core component</font>
+
+6
+00:00:10,752 --> 00:00:13,568
+<font color="#c4c4c4">Animal movie from the birthday of the architect</font>
+
+7
+00:00:13,824 --> 00:00:15,872
+<font color="#d0d0d0">To the underground theme of the engine</font>
+
+8
+00:00:16,640 --> 00:00:18,944
+<font color="#b7b7b7">To do this on Route me for this section is</font>
+
+9
+00:00:19,200 --> 00:00:19,968
+<font color="#b9b9b9">Is methodical</font>
+
+10
+00:00:20,224 --> 00:00:22,016
+<font color="#dfdfdf">Coconut by coconut and deep</font>
+
+11
+00:00:22,528 --> 00:00:24,320
+<font color="#c2c2c2">Bill dedicate one full section</font>
+
+12
+00:00:24,832 --> 00:00:26,624
+<font color="#c9c9c9">Each part of these agents anat</font>
+
+13
+00:00:27,136 --> 00:00:29,440
+<font color="#efefef">So we will start by the foundation model</font>
+
+14
+00:00:29,696 --> 00:00:32,768
+<font color="#c9c9c9">What we can say 11 or we can call is at the brain</font>
+
+15
+00:00:33,280 --> 00:00:35,072
+<font color="#b8b8b8">And continue to perception model</font>
+
+16
+00:00:35,328 --> 00:00:36,352
+<font color="#b3b3b3">We can call as</font>
+
+17
+00:00:36,864 --> 00:00:38,144
+<font color="#b6b6b6">Continue to Planet model</font>
+
+18
+00:00:38,656 --> 00:00:39,680
+<font color="#bbbbbb">We can call it</font>
+
+19
+00:00:39,936 --> 00:00:40,448
+<font color="#575757">What is the strategist</font>
+
+20
+00:00:40,704 --> 00:00:42,496
+<font color="#d0d0d0">And continue to memory model</font>
+
+21
+00:00:42,752 --> 00:00:44,032
+<font color="#d1d1d1">We can call as a notebook</font>
+
+22
+00:00:44,288 --> 00:00:46,336
+<font color="#b1b1b1">And continue with the action model</font>
+
+23
+00:00:46,592 --> 00:00:47,616
+<font color="#bcbcbc">Which represent</font>
+
+24
+00:00:48,128 --> 00:00:49,664
+<font color="#7b7b7b">And continue to learn</font>
+
+25
+00:00:50,176 --> 00:00:50,688
+<font color="#e6e6e6">Which is</font>
+
+26
+00:00:50,944 --> 00:00:51,456
+<font color="#a4a4a4">Repeat that</font>
+
+27
+00:00:51,968 --> 00:00:53,760
+<font color="#bdbdbd">And continue to communication</font>
+
+28
+00:00:54,016 --> 00:00:54,784
+<font color="#dedede">Which is all the</font>
+
+29
+00:00:55,296 --> 00:00:57,088
+<font color="#dcdcdc">These are the seven steps for</font>
+
+30
+00:00:57,344 --> 00:00:58,368
+<font color="#a6a6a6">Road map of this</font>
+
+31
+00:00:59,392 --> 00:00:59,904
+<font color="#f3f3f3">So let</font>
+
+32
+00:01:00,160 --> 00:01:01,184
+<font color="#828282">Let me start brief</font>
+
+33
+00:01:01,440 --> 00:01:02,720
+<font color="#f1f1f1">In this section what we are going to</font>
+
+34
+00:01:03,488 --> 00:01:04,256
+<font color="#bababa">Step by step</font>
+
+35
+00:01:04,768 --> 00:01:07,584
+<font color="#ededed">So our initial lectures will focus on the</font>
+
+36
+00:01:07,840 --> 00:01:08,352
+<font color="#dadada">Thinking</font>
+
+37
+00:01:10,144 --> 00:01:10,912
+<font color="#c5c5c5">Read the foundation</font>
+
+38
+00:01:11,168 --> 00:01:11,936
+<font color="#c5c5c5">Which is the L</font>
+
+39
+00:01:12,448 --> 00:01:12,960
+<font color="#dfdfdf">And</font>
+
+40
+00:01:13,216 --> 00:01:15,008
+<font color="#c3c3c3">What's the trade off of choosing a</font>
+
+41
+00:01:15,264 --> 00:01:16,032
+<font color="#cbcbcb">Powerful</font>
+
+42
+00:01:16,288 --> 00:01:18,336
+<font color="#aeaeae">What is a small first and local</font>
+
+43
+00:01:19,104 --> 00:01:21,152
+<font color="#b6b6b6">Then we will dive into the perception</font>
+
+44
+00:01:21,664 --> 00:01:23,712
+<font color="#cdcdcd">We will Define the trigger for the AG</font>
+
+45
+00:01:24,224 --> 00:01:24,992
+<font color="#cecece">We will discuss</font>
+
+46
+00:01:25,248 --> 00:01:26,528
+<font color="#898989">Have an agent in</font>
+
+47
+00:01:26,784 --> 00:01:27,552
+<font color="#737373">A normal</font>
+
+48
+00:01:27,808 --> 00:01:29,344
+<font color="#858585">Messi realtor</font>
+
+49
+00:01:29,600 --> 00:01:30,880
+<font color="#a5a5a5">Into a clean format</font>
+
+50
+00:01:31,136 --> 00:01:32,416
+<font color="#b5b5b5">The alarm can understand</font>
+
+51
+00:01:32,672 --> 00:01:33,440
+<font color="#d8d8d8">After</font>
+
+52
+00:01:33,696 --> 00:01:35,232
+<font color="#d6d6d6">We will dive into planning</font>
+
+53
+00:01:35,744 --> 00:01:37,024
+<font color="#dadada">This is a key lecture</font>
+
+54
+00:01:37,280 --> 00:01:39,328
+<font color="#e4e4e4">We will show how you pronounce</font>
+
+55
+00:01:39,584 --> 00:01:42,144
+<font color="#cacaca">Listen to make it decomposed a goal into steps</font>
+
+56
+00:01:42,400 --> 00:01:43,680
+<font color="#c4c4c4">Rather than just answer</font>
+
+57
+00:01:44,704 --> 00:01:47,520
+<font color="#eeeeee">And after that we have a major lecture on memory</font>
+
+58
+00:01:47,776 --> 00:01:49,824
+<font color="#b4b4b4">Where we will architecturally comp</font>
+
+59
+00:01:50,080 --> 00:01:52,128
+<font color="#b7b7b7">Play short-term contacts window memory</font>
+
+60
+00:01:53,152 --> 00:01:55,968
+<font color="#dadada">Persistent long-term memory like Victor data</font>
+
+61
+00:01:56,992 --> 00:02:00,576
+<font color="#adadad">And we will have a critical lecture on action and Tool calling model</font>
+
+62
+00:02:01,088 --> 00:02:04,160
+<font color="#dddddd">We will look at the actual mechanism of the function calling</font>
+
+63
+00:02:04,416 --> 00:02:05,696
+<font color="#bbbbbb">And more importantly</font>
+
+64
+00:02:05,952 --> 00:02:07,744
+<font color="#8e8e8e">The guardrail and security Pat</font>
+
+65
+00:02:08,000 --> 00:02:09,024
+<font color="#535353">What's the most beautiful</font>
+
+66
+00:02:09,536 --> 00:02:10,816
+<font color="#f8f8f8">So this is</font>
+
+67
+00:02:11,072 --> 00:02:12,096
+<font color="#a9a9a9">Are mean and</font>
+
+68
+00:02:12,352 --> 00:02:13,120
+<font color="#aeaeae">Thinking</font>
+
+69
+00:02:13,376 --> 00:02:14,656
+<font color="#989898">Put a particular AG</font>
+
+70
+00:02:15,168 --> 00:02:17,216
+<font color="#959595">After we have with our code</font>
+
+71
+00:02:17,472 --> 00:02:19,520
+<font color="#959595">And we will look at the two Advanced system</font>
+
+72
+00:02:20,032 --> 00:02:20,800
+<font color="#eeeeee">First of all</font>
+
+73
+00:02:21,056 --> 00:02:22,336
+<font color="#f2f2f2">The learning and adaptation</font>
+
+74
+00:02:22,848 --> 00:02:24,896
+<font color="#a6a6a6">We will architecturally Define the crit</font>
+
+75
+00:02:25,408 --> 00:02:27,456
+<font color="#cfcfcf">Which is the component that avoid perform</font>
+
+76
+00:02:27,712 --> 00:02:28,992
+<font color="#979797">What's on the learning element</font>
+
+77
+00:02:29,248 --> 00:02:30,784
+<font color="#ebebeb">Which is the mechanism that updates</font>
+
+78
+00:02:31,040 --> 00:02:32,064
+<font color="#9c9c9c">It's the agents log</font>
+
+79
+00:02:32,576 --> 00:02:34,880
+<font color="#e4e4e4">And after that we will focus on the communication</font>
+
+80
+00:02:35,392 --> 00:02:36,416
+<font color="#969696">This is two-part log</font>
+
+81
+00:02:36,672 --> 00:02:39,488
+<font color="#eeeeee">We will discuss the simple agent to human communication</font>
+
+82
+00:02:40,000 --> 00:02:42,048
+<font color="#a1a1a1">Hobbit format tonight to clean answer</font>
+
+83
+00:02:42,304 --> 00:02:43,328
+<font color="#666666">And you will intro</font>
+
+84
+00:02:43,584 --> 00:02:45,120
+<font color="#b2b2b2">The far more complex top</font>

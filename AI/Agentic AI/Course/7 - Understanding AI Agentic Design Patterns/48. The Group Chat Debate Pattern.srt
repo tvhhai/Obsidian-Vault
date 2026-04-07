@@ -1,0 +1,647 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f2f2f2">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,304
+<font color="#ececec">We are going to learn</font>
+
+3
+00:00:02,816 --> 00:00:04,352
+<font color="#cacaca">The group chat debate</font>
+
+4
+00:00:05,120 --> 00:00:06,656
+<font color="#e1e1e1">In the last lecture we have</font>
+
+5
+00:00:06,912 --> 00:00:08,192
+<font color="#727272">Turn water on hand of</font>
+
+6
+00:00:08,704 --> 00:00:09,472
+<font color="#3b3b3b">Rodger butt</font>
+
+7
+00:00:09,728 --> 00:00:11,008
+<font color="#c1c1c1">A miniature delegate</font>
+
+8
+00:00:11,520 --> 00:00:12,288
+<font color="#494949">Hello but</font>
+
+9
+00:00:12,800 --> 00:00:13,568
+<font color="#8b8b8b">An orchestra</font>
+
+10
+00:00:14,592 --> 00:00:15,104
+<font color="#777777">What's through</font>
+
+11
+00:00:15,616 --> 00:00:16,128
+<font color="#7c7c7c">A sandal</font>
+
+12
+00:00:16,896 --> 00:00:18,176
+<font color="#cfcfcf">In both of these pattern</font>
+
+13
+00:00:18,688 --> 00:00:19,712
+<font color="#bababa">The agents are Sill</font>
+
+14
+00:00:20,224 --> 00:00:21,504
+<font color="#f3f3f3">They never talk to each other</font>
+
+15
+00:00:22,272 --> 00:00:24,320
+<font color="#e7e7e7">They only report back to the orcust</font>
+
+16
+00:00:25,856 --> 00:00:27,136
+<font color="#bababa">What if the problem is too comp</font>
+
+17
+00:00:27,392 --> 00:00:28,416
+<font color="#c3c3c3">Next for a simple hand</font>
+
+18
+00:00:28,928 --> 00:00:30,208
+<font color="#f9f9f9">What is the best solution</font>
+
+19
+00:00:30,464 --> 00:00:32,000
+<font color="#e2e2e2">Isn't known in advance</font>
+
+20
+00:00:32,256 --> 00:00:33,024
+<font color="#efefef">What if</font>
+
+21
+00:00:33,280 --> 00:00:35,072
+<font color="#f2f2f2">Needs to be discovered through discussion</font>
+
+22
+00:00:35,328 --> 00:00:36,352
+<font color="#9c9c9c">Critic and Deb</font>
+
+23
+00:00:37,120 --> 00:00:37,632
+<font color="#aeaeae">This</font>
+
+24
+00:00:37,888 --> 00:00:38,912
+<font color="#cbcbcb">Has any architecture</font>
+
+25
+00:00:39,168 --> 00:00:40,192
+<font color="#6d6d6d">Nothing is under</font>
+
+26
+00:00:40,448 --> 00:00:41,984
+<font color="#b4b4b4">Find what a digital meeting room</font>
+
+27
+00:00:42,496 --> 00:00:44,288
+<font color="#c0c0c0">This is the group chat debate Pat</font>
+
+28
+00:00:44,544 --> 00:00:47,872
+<font color="#d3d3d3">Most famous intimated in Microsoft autism frame</font>
+
+29
+00:00:48,384 --> 00:00:49,152
+<font color="#e6e6e6">So now</font>
+
+30
+00:00:49,408 --> 00:00:49,920
+<font color="#cacaca">It's clearly</font>
+
+31
+00:00:50,176 --> 00:00:52,224
+<font color="#d4d4d4">Understand what is the group chat debate</font>
+
+32
+00:00:52,992 --> 00:00:55,296
+<font color="#c2c2c2">The group chat button is best understood</font>
+
+33
+00:00:55,552 --> 00:00:57,088
+<font color="#e7e7e7">Is a digital Round Table</font>
+
+34
+00:00:57,600 --> 00:01:00,416
+<font color="#c6c6c6">We are no longer defining a fixed technical path</font>
+
+35
+00:01:01,440 --> 00:01:03,488
+<font color="#d4d4d4">We are creating a virtual meeting room</font>
+
+36
+00:01:03,744 --> 00:01:06,816
+<font color="#e1e1e1">An inviting a team of Specialists agents into</font>
+
+37
+00:01:07,584 --> 00:01:09,376
+<font color="#b3b3b3">So this is a multi agent Pat</font>
+
+38
+00:01:09,632 --> 00:01:11,680
+<font color="#d8d8d8">There are two or more specialist agents</font>
+
+39
+00:01:12,704 --> 00:01:14,496
+<font color="#acacac">What initiate conversational context</font>
+
+40
+00:01:14,752 --> 00:01:15,520
+<font color="#b3b3b3">A chat room</font>
+
+41
+00:01:15,776 --> 00:01:17,824
+<font color="#e2e2e2">In order to collectively solve a problem</font>
+
+42
+00:01:18,592 --> 00:01:19,872
+<font color="#fcfcfc">The goal is no longer</font>
+
+43
+00:01:20,128 --> 00:01:22,176
+<font color="#dbdbdb">To just execute a predefined process</font>
+
+44
+00:01:22,688 --> 00:01:25,760
+<font color="#fafafa">The goal is to discover the best possible solution</font>
+
+45
+00:01:26,016 --> 00:01:27,296
+<font color="#666666">By 112 agents</font>
+
+46
+00:01:27,552 --> 00:01:28,832
+<font color="#fbfbfb">To talk to each other</font>
+
+47
+00:01:29,856 --> 00:01:30,624
+<font color="#adadad">In each other's</font>
+
+48
+00:01:30,880 --> 00:01:31,648
+<font color="#303030">On crit</font>
+
+49
+00:01:31,904 --> 00:01:32,928
+<font color="#9e9e9e">Each other's flaws</font>
+
+50
+00:01:33,184 --> 00:01:36,512
+<font color="#d7d7d7">This is a fundamental shift from a fixed workflow</font>
+
+51
+00:01:36,768 --> 00:01:38,816
+<font color="#d0d0d0">To a dynamic conversational Loop</font>
+
+52
+00:01:39,072 --> 00:01:41,888
+<font color="#d5d5d5">Where the final solution emerged from the interaction</font>
+
+53
+00:01:42,400 --> 00:01:45,728
+<font color="#d7d7d7">So now let's understand the core components of this Pat</font>
+
+54
+00:01:46,240 --> 00:01:49,056
+<font color="#d9d9d9">This button introduced any critical component</font>
+
+55
+00:01:49,312 --> 00:01:50,592
+<font color="#8f8f8f">To prevent total cost</font>
+
+56
+00:01:51,616 --> 00:01:52,128
+<font color="#959595">First you have</font>
+
+57
+00:01:52,384 --> 00:01:53,408
+<font color="#787878">Specialist AG</font>
+
+58
+00:01:53,920 --> 00:01:56,992
+<font color="#f8f8f8">These are the participants in the meeting for example</font>
+
+59
+00:01:57,248 --> 00:01:58,016
+<font color="#969696">Call our family</font>
+
+60
+00:01:58,272 --> 00:01:59,040
+<font color="#7e7e7e">Research AG</font>
+
+61
+00:01:59,296 --> 00:02:00,064
+<font color="#5a5a5a">Write an AG</font>
+
+62
+00:02:00,320 --> 00:02:01,088
+<font color="#3f3f3f">Critique AG</font>
+
+63
+00:02:01,344 --> 00:02:02,880
+<font color="#a0a0a0">And maybe I could write to the</font>
+
+64
+00:02:03,648 --> 00:02:05,184
+<font color="#e3e3e3">Second one you have the</font>
+
+65
+00:02:05,440 --> 00:02:05,952
+<font color="#797979">Can you chat</font>
+
+66
+00:02:07,232 --> 00:02:08,512
+<font color="#c8c8c8">The state of the World Cup</font>
+
+67
+00:02:08,768 --> 00:02:10,304
+<font color="#dddddd">The whiteboard in the meeting room</font>
+
+68
+00:02:10,560 --> 00:02:11,328
+<font color="#9a9a9a">Every</font>
+
+69
+00:02:11,584 --> 00:02:13,632
+<font color="#bfbfbf">Switch from every agent is posted here</font>
+
+70
+00:02:13,888 --> 00:02:14,912
+<font color="#cfcfcf">So old</font>
+
+71
+00:02:15,168 --> 00:02:17,216
+<font color="#e9e9e9">You can see the full history of the conversation</font>
+
+72
+00:02:18,240 --> 00:02:19,776
+<font color="#bebebe">Turn on the most important one</font>
+
+73
+00:02:20,032 --> 00:02:21,568
+<font color="#eaeaea">You have the group chat manager</font>
+
+74
+00:02:22,080 --> 00:02:24,640
+<font color="#e8e8e8">You can't just let all the agents talk at</font>
+
+75
+00:02:25,152 --> 00:02:25,920
+<font color="#d0d0d0">The manager</font>
+
+76
+00:02:26,176 --> 00:02:27,200
+<font color="#a4a4a4">What is the modulator</font>
+
+77
+00:02:28,224 --> 00:02:29,504
+<font color="#a3a3a3">It's the entire church history</font>
+
+78
+00:02:29,760 --> 00:02:31,296
+<font color="#ececec">And it is only job is to</font>
+
+79
+00:02:31,552 --> 00:02:32,576
+<font color="#bcbcbc">Change the turn taking</font>
+
+80
+00:02:32,832 --> 00:02:33,600
+<font color="#626262">Etc</font>
+
+81
+00:02:33,856 --> 00:02:35,392
+<font color="#f8f8f8">Okay based on the last message</font>
+
+82
+00:02:35,648 --> 00:02:37,184
+<font color="#f6f6f6">Who is the next agent</font>
+
+83
+00:02:38,464 --> 00:02:39,488
+<font color="#e0e0e0">So now let's</font>
+
+84
+00:02:39,744 --> 00:02:41,536
+<font color="#c8c8c8">Is this debate Loop in practice</font>
+
+85
+00:02:41,792 --> 00:02:45,888
+<font color="#c4c4c4">Basically a user ask for a 3-part new marketing plan</font>
+
+86
+00:02:46,400 --> 00:02:48,192
+<font color="#c7c7c7">And after that the group chat manager</font>
+
+87
+00:02:48,448 --> 00:02:49,216
+<font color="#7a7a7a">Start the</font>
+
+88
+00:02:49,472 --> 00:02:50,752
+<font color="#aaaaaa">It says n</font>
+
+89
+00:02:51,520 --> 00:02:52,288
+<font color="#6a6a6a">Planet</font>
+
+90
+00:02:52,544 --> 00:02:54,080
+<font color="#c5c5c5">Said you're up and create a</font>
+
+91
+00:02:55,104 --> 00:02:56,128
+<font color="#9c9c9c">And the planet agent</font>
+
+92
+00:02:56,384 --> 00:02:57,408
+<font color="#909090">Write a drop</font>
+
+93
+00:02:57,664 --> 00:02:59,968
+<font color="#e7e7e7">Including the social media email and</font>
+
+94
+00:03:00,480 --> 00:03:03,296
+<font color="#acacac">So this message posted today</font>
+
+95
+00:03:03,808 --> 00:03:05,600
+<font color="#d6d6d6">And the manager reads</font>
+
+96
+00:03:06,112 --> 00:03:07,904
+<font color="#dcdcdc">And it is internal logic decided</font>
+
+97
+00:03:08,160 --> 00:03:09,184
+<font color="#6b6b6b">A draft EX</font>
+
+98
+00:03:09,440 --> 00:03:10,464
+<font color="#fbfbfb">It must be</font>
+
+99
+00:03:12,256 --> 00:03:12,768
+<font color="#222222">Music</font>
+
+100
+00:03:13,024 --> 00:03:14,048
+<font color="#e7e7e7">Review this plan</font>
+
+101
+00:03:14,560 --> 00:03:15,584
+<font color="#b4b4b4">And acoustic agent</font>
+
+102
+00:03:16,352 --> 00:03:17,888
+<font color="#adadad">This plan is to Jenner</font>
+
+103
+00:03:18,144 --> 00:03:18,912
+<font color="#383838">Unlike debt</font>
+
+104
+00:03:19,424 --> 00:03:20,704
+<font color="#cacaca">Enough to that manager</font>
+
+105
+00:03:21,472 --> 00:03:21,984
+<font color="#878787">What's the crit</font>
+
+106
+00:03:22,240 --> 00:03:23,008
+<font color="#bababa">Undecided</font>
+
+107
+00:03:23,520 --> 00:03:24,288
+<font color="#8d8d8d">A Critic exist</font>
+
+108
+00:03:24,544 --> 00:03:25,568
+<font color="#f5f5f5">The original</font>
+
+109
+00:03:25,824 --> 00:03:26,592
+<font color="#e9e9e9">Master device</font>
+
+110
+00:03:26,848 --> 00:03:27,872
+<font color="#f2f2f2">So it says again</font>
+
+111
+00:03:28,128 --> 00:03:28,896
+<font color="#4c4c4c">Calendar AG</font>
+
+112
+00:03:29,152 --> 00:03:31,456
+<font color="#b4b4b4">Dubai is your plan based on this feedback</font>
+
+113
+00:03:31,968 --> 00:03:34,016
+<font color="#9d9d9d">Entrepreneur agent writes draft</font>
+
+114
+00:03:34,272 --> 00:03:36,064
+<font color="#e4e4e4">Which is much more detailed</font>
+
+115
+00:03:36,576 --> 00:03:37,344
+<font color="#9d9d9d">And this</font>
+
+116
+00:03:38,112 --> 00:03:39,648
+<font color="#878787">What's critique and revise</font>
+
+117
+00:03:39,904 --> 00:03:40,672
+<font color="#d7d7d7">Continue</font>
+
+118
+00:03:40,928 --> 00:03:43,232
+<font color="#bcbcbc">Old moderated by the group chat manager</font>
+
+119
+00:03:43,488 --> 00:03:45,536
+<font color="#e7e7e7">Until a thermostat is</font>
+
+120
+00:03:45,792 --> 00:03:46,560
+<font color="#d3d3d3">For example</font>
+
+121
+00:03:46,816 --> 00:03:49,376
+<font color="#ededed">If the critical agent finally says that</font>
+
+122
+00:03:49,632 --> 00:03:50,656
+<font color="#efefef">This plan is</font>
+
+123
+00:03:51,168 --> 00:03:52,192
+<font color="#a9a9a9">Then this result</font>
+
+124
+00:03:52,448 --> 00:03:53,216
+<font color="#cfcfcf">This comes to the end</font>
+
+125
+00:03:53,728 --> 00:03:55,520
+<font color="#ededed">So this is the reflection pattern</font>
+
+126
+00:03:55,776 --> 00:03:58,592
+<font color="#c8c8c8">What's supercharged by multiple distinct agents</font>
+
+127
+00:03:58,848 --> 00:04:03,200
+<font color="#ececec">Is Architects we should understand the architectural implication of this</font>
+
+128
+00:04:03,968 --> 00:04:05,504
+<font color="#eaeaea">The benefit is incredible</font>
+
+129
+00:04:05,760 --> 00:04:09,344
+<font color="#e6e6e6">You get a video high quality solution that emerged from the debate</font>
+
+130
+00:04:09,600 --> 00:04:11,392
+<font color="#fbfbfb">Because the loop is flexible</font>
+
+131
+00:04:11,648 --> 00:04:12,416
+<font color="#cdcdcd">It can</font>
+
+132
+00:04:12,672 --> 00:04:14,720
+<font color="#d7d7d7">What do complex or poorly defined problems</font>
+
+133
+00:04:14,976 --> 00:04:17,791
+<font color="#aaaaaa">Detergent of button would instantly fail</font>
+
+134
+00:04:18,303 --> 00:04:20,863
+<font color="#ececec">So now let's understand the disadvantages</font>
+
+135
+00:04:21,119 --> 00:04:23,167
+<font color="#eeeeee">This button is expensive and slow</font>
+
+136
+00:04:23,423 --> 00:04:25,471
+<font color="#d2d2d2">Every single turn in that debate</font>
+
+137
+00:04:25,727 --> 00:04:26,751
+<font color="#cfcfcf">Is there a full alarm</font>
+
+138
+00:04:27,263 --> 00:04:29,055
+<font color="#8d8d8d">Is that</font>
+
+139
+00:04:29,567 --> 00:04:30,335
+<font color="#b5b5b5">Turn alarm</font>
+
+140
+00:04:30,847 --> 00:04:31,615
+<font color="#cdcdcd">Furthermore</font>
+
+141
+00:04:31,871 --> 00:04:34,175
+<font color="#bdbdbd">It is non-deterministic and can be a cop</font>
+
+142
+00:04:34,687 --> 00:04:35,711
+<font color="#565656">You risk AG</font>
+
+143
+00:04:36,479 --> 00:04:37,247
+<font color="#939393">Sing stuck in</font>
+
+144
+00:04:37,503 --> 00:04:39,551
+<font color="#d2d2d2">Those can be arguing forever</font>
+
+145
+00:04:39,807 --> 00:04:41,599
+<font color="#b3b3b3">This lick off the control</font>
+
+146
+00:04:41,855 --> 00:04:42,879
+<font color="#e9e9e9">Is it very difficult to</font>
+
+147
+00:04:43,135 --> 00:04:45,695
+<font color="#aeaeae">Call any significant risk for production systems</font>
+
+148
+00:04:46,207 --> 00:04:47,743
+<font color="#e2e2e2">Is there somebody we can say that</font>
+
+149
+00:04:47,999 --> 00:04:49,023
+<font color="#848484">This button en</font>
+
+150
+00:04:49,279 --> 00:04:51,583
+<font color="#888888">Does through Dynamic collaboration between AG</font>
+
+151
+00:04:52,095 --> 00:04:52,607
+<font color="#717171">Eat</font>
+
+152
+00:04:53,375 --> 00:04:55,679
+<font color="#bdbdbd">Please play with a moderated conversation Loop</font>
+
+153
+00:04:55,935 --> 00:04:57,471
+<font color="#f6f6f6">And the key components are</font>
+
+154
+00:04:57,727 --> 00:04:58,751
+<font color="#8a8a8a">Specialist agent</font>
+
+155
+00:04:59,007 --> 00:05:00,031
+<font color="#d3d3d3">A group chat manager</font>
+
+156
+00:05:00,287 --> 00:05:01,055
+<font color="#d2d2d2">Which is the weather</font>
+
+157
+00:05:01,311 --> 00:05:03,871
+<font color="#878787">Which state</font>
+
+158
+00:05:04,127 --> 00:05:06,175
+<font color="#b1b1b1">And use case perfect for complex</font>
+
+159
+00:05:06,943 --> 00:05:08,479
+<font color="#909090">Play or fully defined problems</font>
+
+160
+00:05:08,735 --> 00:05:09,503
+<font color="#3d3d3d">Is that equal</font>
+
+161
+00:05:09,759 --> 00:05:11,295
+<font color="#c9c9c9">Play is the number one priority</font>
+
+162
+00:05:11,551 --> 00:05:15,391
+<font color="#dedede">An example of this pattern could be designed a new software product</font>

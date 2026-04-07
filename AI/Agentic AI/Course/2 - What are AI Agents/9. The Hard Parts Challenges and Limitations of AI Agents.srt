@@ -1,0 +1,691 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f8f8f8">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,304
+<font color="#ebebeb">We are going to learn</font>
+
+3
+00:00:02,560 --> 00:00:04,864
+<font color="#ededed">Challenges and limitations of AI</font>
+
+4
+00:00:05,632 --> 00:00:06,400
+<font color="#e8e8e8">It is clear</font>
+
+5
+00:00:06,656 --> 00:00:07,424
+<font color="#626262">La</font>
+
+6
+00:00:07,680 --> 00:00:09,472
+<font color="#828282">What's his transformative potential</font>
+
+7
+00:00:09,728 --> 00:00:11,264
+<font color="#dadada">From agriculture to health</font>
+
+8
+00:00:11,520 --> 00:00:12,544
+<font color="#575757">Is 280 oper</font>
+
+9
+00:00:13,312 --> 00:00:13,824
+<font color="#e4e4e4">However</font>
+
+10
+00:00:14,080 --> 00:00:15,616
+<font color="#b6b6b6">Is Architects an engine</font>
+
+11
+00:00:16,128 --> 00:00:19,200
+<font color="#e4e4e4">Do you know there is no such a thing as a magic solution</font>
+
+12
+00:00:19,968 --> 00:00:20,992
+<font color="#a2a2a2">With great power</font>
+
+13
+00:00:21,248 --> 00:00:22,528
+<font color="#949494">Come significant comp</font>
+
+14
+00:00:22,784 --> 00:00:23,552
+<font color="#5a5a5a">60 and</font>
+
+15
+00:00:24,320 --> 00:00:27,136
+<font color="#ececec">Our job is not just with what is possible</font>
+
+16
+00:00:27,392 --> 00:00:28,928
+<font color="#9e9e9e">What to eat what is Rob</font>
+
+17
+00:00:29,184 --> 00:00:30,464
+<font color="#d7d7d7">Secure and reliable</font>
+
+18
+00:00:30,976 --> 00:00:33,024
+<font color="#f5f5f5">So now let's go to the our</font>
+
+19
+00:00:33,280 --> 00:00:36,352
+<font color="#cacaca">What's the most fundamental challenge which is the non determinism</font>
+
+20
+00:00:36,864 --> 00:00:38,912
+<font color="#cdcdcd">Traditional software is determined</font>
+
+21
+00:00:39,424 --> 00:00:41,472
+<font color="#fafafa">If you give a function the same input</font>
+
+22
+00:00:41,728 --> 00:00:44,544
+<font color="#fafafa">You will get the exact same output every single time</font>
+
+23
+00:00:45,056 --> 00:00:46,592
+<font color="#e4e4e4">Like 2 + 2 always</font>
+
+24
+00:00:46,848 --> 00:00:47,360
+<font color="#999999">What is equals</font>
+
+25
+00:00:47,872 --> 00:00:48,896
+<font color="#313131">Play AG</font>
+
+26
+00:00:49,152 --> 00:00:50,944
+<font color="#d6d6d6">Because their brain is an element</font>
+
+27
+00:00:51,200 --> 00:00:52,480
+<font color="#5e5e5e">Are non determinist</font>
+
+28
+00:00:52,736 --> 00:00:53,760
+<font color="#5a5a5a">What's the cast</font>
+
+29
+00:00:54,272 --> 00:00:55,040
+<font color="#5e5e5e">Dismiss</font>
+
+30
+00:00:55,296 --> 00:00:56,576
+<font color="#d5d5d5">Give me the exact same</font>
+
+31
+00:00:56,832 --> 00:00:58,880
+<font color="#eaeaea">For example summarize this email</font>
+
+32
+00:00:59,136 --> 00:01:00,416
+<font color="#bababa">An agent might prod</font>
+
+33
+00:01:00,672 --> 00:01:02,464
+<font color="#d0d0d0">Use a slightly different summary today</font>
+
+34
+00:01:02,720 --> 00:01:04,000
+<font color="#a4a4a4">Danny did yesterday</font>
+
+35
+00:01:04,512 --> 00:01:07,328
+<font color="#e0e0e0">If I choose a different plan or a different word</font>
+
+36
+00:01:07,840 --> 00:01:09,888
+<font color="#ececec">What is isn't about to be</font>
+
+37
+00:01:10,144 --> 00:01:12,448
+<font color="#e6e6e6">It is a core property of the technology</font>
+
+38
+00:01:12,704 --> 00:01:14,240
+<font color="#dcdcdc">This property however</font>
+
+39
+00:01:15,008 --> 00:01:18,336
+<font color="#c2c2c2">It's a massive challenge for us in testing and violation</font>
+
+40
+00:01:18,848 --> 00:01:20,128
+<font color="#eeeeee">How do you write a unit</font>
+
+41
+00:01:20,384 --> 00:01:23,968
+<font color="#cdcdcd">Is for correctness when the output is intentionally variable</font>
+
+42
+00:01:24,480 --> 00:01:26,016
+<font color="#ececec">This is the ghost in the agent</font>
+
+43
+00:01:26,784 --> 00:01:31,136
+<font color="#d9d9d9">And this beating us to the next challenge which is the security and guardrail</font>
+
+44
+00:01:31,648 --> 00:01:34,208
+<font color="#dddddd">In all this case we celebrate giving</font>
+
+45
+00:01:35,232 --> 00:01:36,768
+<font color="#f5f5f5">But we must remember that</font>
+
+46
+00:01:37,024 --> 00:01:38,048
+<font color="#888888">What is to</font>
+
+47
+00:01:38,560 --> 00:01:39,328
+<font color="#818181">There are AP</font>
+
+48
+00:01:39,584 --> 00:01:40,608
+<font color="#9c9c9c">Is database connection</font>
+
+49
+00:01:40,864 --> 00:01:42,144
+<font color="#404040">Does uncooked interpret</font>
+
+50
+00:01:42,912 --> 00:01:44,192
+<font color="#ededed">We are giving an autonomous</font>
+
+51
+00:01:44,448 --> 00:01:45,728
+<font color="#424242">What's 90 * 67</font>
+
+52
+00:01:45,984 --> 00:01:47,520
+<font color="#d8d8d8">The keys are Kingdom</font>
+
+53
+00:01:48,032 --> 00:01:48,800
+<font color="#fefefe">What</font>
+
+54
+00:01:49,056 --> 00:01:49,568
+<font color="#dcdcdc">When</font>
+
+55
+00:01:50,592 --> 00:01:51,616
+<font color="#909090">University of</font>
+
+56
+00:01:52,384 --> 00:01:53,152
+<font color="#f1f1f1">To close the</font>
+
+57
+00:01:53,408 --> 00:01:54,432
+<font color="#e2e2e2">Creativity</font>
+
+58
+00:01:54,688 --> 00:01:55,200
+<font color="#999999">Connect to</font>
+
+59
+00:01:55,456 --> 00:01:56,736
+<font color="#e7e7e7">90% discount</font>
+
+60
+00:01:58,272 --> 00:01:59,552
+<font color="#565656">Evil intentions</font>
+
+61
+00:01:59,808 --> 00:02:00,832
+<font color="#6f6f6f">Misconfigured AG</font>
+
+62
+00:02:01,344 --> 00:02:04,160
+<font color="#bebebe">Give a vocal of the cleanup to database</font>
+
+63
+00:02:04,416 --> 00:02:06,720
+<font color="#cacaca">From calling to delete all user Comm</font>
+
+64
+00:02:07,488 --> 00:02:09,280
+<font color="#f4f4f4">This is the fake agent problem</font>
+
+65
+00:02:09,536 --> 00:02:13,888
+<font color="#bfbfbf">Are critical architectural challenge is to design robust guardrail</font>
+
+66
+00:02:14,144 --> 00:02:15,168
+<font color="#696969">Did enforce</font>
+
+67
+00:02:15,424 --> 00:02:16,192
+<font color="#969696">Greek permissions</font>
+
+68
+00:02:16,448 --> 00:02:17,728
+<font color="#d6d6d6">Limiting an agent</font>
+
+69
+00:02:17,984 --> 00:02:18,752
+<font color="#e4e4e4">Blessed</font>
+
+70
+00:02:19,008 --> 00:02:20,032
+<font color="#7d7d7d">Use without stif</font>
+
+71
+00:02:20,288 --> 00:02:20,800
+<font color="#808080">I think it's auten</font>
+
+72
+00:02:22,336 --> 00:02:24,384
+<font color="#9b9b9b">Exchange on the TV business real</font>
+
+73
+00:02:24,640 --> 00:02:26,432
+<font color="#bcbcbc">These are the cost and lat</font>
+
+74
+00:02:27,200 --> 00:02:27,712
+<font color="#e6e6e6">First</font>
+
+75
+00:02:27,968 --> 00:02:29,248
+<font color="#d3d3d3">Let's start with the</font>
+
+76
+00:02:29,760 --> 00:02:31,296
+<font color="#c6c6c6">Agency groups are not</font>
+
+77
+00:02:31,808 --> 00:02:32,576
+<font color="#7c7c7c">Every reason</font>
+
+78
+00:02:32,832 --> 00:02:33,856
+<font color="#8c8c8c">Sing or planning step</font>
+
+79
+00:02:34,112 --> 00:02:36,160
+<font color="#b7b7b7">Is at minimum one full llm</font>
+
+80
+00:02:36,672 --> 00:02:38,976
+<font color="#b6b6b6">Is seemingly simple five step</font>
+
+81
+00:02:39,232 --> 00:02:39,744
+<font color="#8a8a8a">What's good</font>
+
+82
+00:02:40,000 --> 00:02:42,560
+<font color="#bdbdbd">Turn off 15 seperate large alarm</font>
+
+83
+00:02:43,840 --> 00:02:46,656
+<font color="#e7e7e7">This can be thousands of times more expensive than</font>
+
+84
+00:02:46,912 --> 00:02:47,936
+<font color="#777777">Running a tradition</font>
+
+85
+00:02:48,960 --> 00:02:50,752
+<font color="#b4b4b4">El Grande agents stuck in a</font>
+
+86
+00:02:51,008 --> 00:02:53,824
+<font color="#f4f4f4">Could become a significant financial liability</font>
+
+87
+00:02:54,336 --> 00:02:55,616
+<font color="#f7f7f7">And the second problem is</font>
+
+88
+00:02:56,128 --> 00:02:56,896
+<font color="#a3a3a3">Latency problem</font>
+
+89
+00:02:57,408 --> 00:02:58,944
+<font color="#484848">Set alarm for 12</font>
+
+90
+00:02:59,200 --> 00:03:00,736
+<font color="#dddddd">The major Dam in</font>
+
+91
+00:03:00,992 --> 00:03:02,016
+<font color="#797979">Not millisecond</font>
+
+92
+00:03:02,528 --> 00:03:04,320
+<font color="#dddddd">If I step agent plan</font>
+
+93
+00:03:04,576 --> 00:03:07,392
+<font color="#e4e4e4">An easy to take 30 seconds or more to execute</font>
+
+94
+00:03:07,904 --> 00:03:08,672
+<font color="#9f9f9f">This latency</font>
+
+95
+00:03:08,928 --> 00:03:10,720
+<font color="#c4c4c4">What is unacceptable for mineral</font>
+
+96
+00:03:11,744 --> 00:03:15,072
+<font color="#d9d9d9">Such as a real-time chatbot or a fraud detection system</font>
+
+97
+00:03:15,840 --> 00:03:17,632
+<font color="#d2d2d2">Are architectural questions</font>
+
+98
+00:03:17,888 --> 00:03:19,168
+<font color="#d7d7d7">How do we design for</font>
+
+99
+00:03:19,424 --> 00:03:20,192
+<font color="#c8c8c8">Most efficiency</font>
+
+100
+00:03:20,448 --> 00:03:23,008
+<font color="#c0c0c0">And how did he use a synchronous pattern</font>
+
+101
+00:03:23,776 --> 00:03:24,800
+<font color="#d6d6d6">Change these latency</font>
+
+102
+00:03:25,056 --> 00:03:26,848
+<font color="#f5f5f5">So the user isn't just starting</font>
+
+103
+00:03:27,104 --> 00:03:27,872
+<font color="#a2a2a2">Sing a spinner</font>
+
+104
+00:03:28,384 --> 00:03:29,152
+<font color="#cecece">After all</font>
+
+105
+00:03:29,408 --> 00:03:30,432
+<font color="#e9e9e9">Is we can go to the next</font>
+
+106
+00:03:31,200 --> 00:03:32,736
+<font color="#e7e7e7">Which is the observable day</font>
+
+107
+00:03:33,248 --> 00:03:34,784
+<font color="#7f7f7f">When your traditional code</font>
+
+108
+00:03:35,040 --> 00:03:36,320
+<font color="#a6a6a6">You get a steak place</font>
+
+109
+00:03:36,576 --> 00:03:38,368
+<font color="#fcfcfc">You can see the exact line</font>
+
+110
+00:03:38,624 --> 00:03:39,136
+<font color="#f9f9f9">The function</font>
+
+111
+00:03:39,392 --> 00:03:41,184
+<font color="#bcbcbc">And the data that caused the ER</font>
+
+112
+00:03:41,696 --> 00:03:44,256
+<font color="#d9d9d9">But what is the status for Asian</font>
+
+113
+00:03:45,024 --> 00:03:46,048
+<font color="#a4a4a4">If an agent prod</font>
+
+114
+00:03:46,304 --> 00:03:47,072
+<font color="#acacac">A bad result</font>
+
+115
+00:03:47,328 --> 00:03:48,352
+<font color="#f0f0f0">We need to know why</font>
+
+116
+00:03:48,864 --> 00:03:50,912
+<font color="#c6c6c6">Did it misinterpret the initial go</font>
+
+117
+00:03:51,168 --> 00:03:53,728
+<font color="#e0e0e0">Did it pick the wrong tool from its toolbox</font>
+
+118
+00:03:54,240 --> 00:03:57,824
+<font color="#cbcbcb">Did you make a faulty logical leap in its Chain of Thought reasoning</font>
+
+119
+00:03:58,848 --> 00:04:01,152
+<font color="#999999">Without the ability to answer this question</font>
+
+120
+00:04:01,408 --> 00:04:02,944
+<font color="#dedede">The agent is a black box</font>
+
+121
+00:04:03,456 --> 00:04:04,736
+<font color="#c4c4c4">The architecture question</font>
+
+122
+00:04:04,992 --> 00:04:07,040
+<font color="#d8d8d8">How do we put a system to</font>
+
+123
+00:04:07,808 --> 00:04:10,624
+<font color="#c1c1c1">Is Andy Buck an agent's internal monologue process</font>
+
+124
+00:04:11,136 --> 00:04:13,184
+<font color="#adadad">Are architectural challenges is the</font>
+
+125
+00:04:13,440 --> 00:04:15,232
+<font color="#bcbcbc">Robust racing unlocking system</font>
+
+126
+00:04:15,488 --> 00:04:17,280
+<font color="#e0e0e0">What do you call observable</font>
+
+127
+00:04:17,791 --> 00:04:20,607
+<font color="#dcdcdc">So we can effectively debug an agent's thought</font>
+
+128
+00:04:21,375 --> 00:04:23,935
+<font color="#e8e8e8">And after that we can go to the our last</font>
+
+129
+00:04:24,191 --> 00:04:25,471
+<font color="#f0f0f0">Which is the hallucination</font>
+
+130
+00:04:25,983 --> 00:04:28,799
+<font color="#979797">The house nation is Vander model generated</font>
+
+131
+00:04:29,567 --> 00:04:30,591
+<font color="#a8a8a8">Is plausible sound</font>
+
+132
+00:04:30,847 --> 00:04:32,127
+<font color="#d6d6d6">But factually incorrect</font>
+
+133
+00:04:32,639 --> 00:04:33,407
+<font color="#959595">For</font>
+
+134
+00:04:33,919 --> 00:04:35,455
+<font color="#d7d7d7">This person too dangerous</font>
+
+135
+00:04:35,967 --> 00:04:38,015
+<font color="#a3a3a3">First is factual hallucination</font>
+
+136
+00:04:38,527 --> 00:04:40,063
+<font color="#cdcdcd">The agent confidential</font>
+
+137
+00:04:40,575 --> 00:04:41,343
+<font color="#d8d8d8">The product</font>
+
+138
+00:04:41,599 --> 00:04:42,111
+<font color="#898989">What's 50</font>
+
+139
+00:04:42,623 --> 00:04:43,647
+<font color="#808080">But it actually</font>
+
+140
+00:04:43,903 --> 00:04:44,927
+<font color="#5a5a5a">What's 75</font>
+
+141
+00:04:45,439 --> 00:04:48,767
+<font color="#eaeaea">Simply because it invented the fact instead of using</font>
+
+142
+00:04:49,023 --> 00:04:49,535
+<font color="#a5a5a5">I think it's stool</font>
+
+143
+00:04:50,047 --> 00:04:54,399
+<font color="#dddddd">On the 2nd and more dangerous for us is actionable House Nation</font>
+
+144
+00:04:54,911 --> 00:04:57,215
+<font color="#dadada">The agent tries to act on its own station</font>
+
+145
+00:04:57,727 --> 00:05:00,543
+<font color="#d9d9d9">It might imagine a tool that doesn't exist</font>
+
+146
+00:05:00,799 --> 00:05:01,311
+<font color="#dbdbdb">Or</font>
+
+147
+00:05:01,567 --> 00:05:02,591
+<font color="#bdbdbd">What do you call a real</font>
+
+148
+00:05:02,847 --> 00:05:04,383
+<font color="#d4d4d4">With imaginary parameters</font>
+
+149
+00:05:04,639 --> 00:05:08,991
+<font color="#dcdcdc">For example trying to book a flight with a meal preference argument</font>
+
+150
+00:05:09,247 --> 00:05:11,807
+<font color="#dedede">When are API doesn't support that argument</font>
+
+151
+00:05:12,319 --> 00:05:13,855
+<font color="#848484">Disney at best</font>
+
+152
+00:05:14,111 --> 00:05:14,623
+<font color="#9d9d9d">Is</font>
+
+153
+00:05:14,879 --> 00:05:16,159
+<font color="#5d5d5d">Where is Eastwood corrupted dat</font>
+
+154
+00:05:16,927 --> 00:05:19,487
+<font color="#b0b0b0">Are architecture challenge is to Grant the</font>
+
+155
+00:05:19,999 --> 00:05:21,535
+<font color="#555555">Secret to finding it</font>
+
+156
+00:05:21,791 --> 00:05:22,303
+<font color="#6f6f6f">What's</font>
+
+157
+00:05:22,559 --> 00:05:23,071
+<font color="#6c6c6c">Switch to minim</font>
+
+158
+00:05:23,327 --> 00:05:24,351
+<font color="#939393">Israel ticket</font>
+
+159
+00:05:24,863 --> 00:05:26,399
+<font color="#f2f2f2">So the architecture question is</font>
+
+160
+00:05:26,655 --> 00:05:28,703
+<font color="#bebebe">How do you grant the agent in reality</font>
+
+161
+00:05:28,959 --> 00:05:29,727
+<font color="#f0f0f0">And how</font>
+
+162
+00:05:29,983 --> 00:05:31,007
+<font color="#797979">Play secretly Define</font>
+
+163
+00:05:31,775 --> 00:05:33,567
+<font color="#e0e0e0">So it cannot imagine new</font>
+
+164
+00:05:34,591 --> 00:05:35,615
+<font color="#9a9a9a">So is it concl</font>
+
+165
+00:05:35,871 --> 00:05:36,639
+<font color="#cfcfcf">Then we can say that</font>
+
+166
+00:05:36,895 --> 00:05:40,223
+<font color="#dbdbdb">These challenges not determinism security</font>
+
+167
+00:05:40,479 --> 00:05:42,015
+<font color="#8f8f8f">What's latency and hallucination</font>
+
+168
+00:05:42,527 --> 00:05:44,063
+<font color="#9c9c9c">My team intimidating</font>
+
+169
+00:05:44,575 --> 00:05:46,111
+<font color="#c9c9c9">It's meant to be realist</font>
+
+170
+00:05:46,623 --> 00:05:48,159
+<font color="#d1d1d1">But these are not blue</font>
+
+171
+00:05:48,927 --> 00:05:51,743
+<font color="#e8e8e8">They are not reason to avoid Building agentic Systems</font>
+
+172
+00:05:52,767 --> 00:05:55,839
+<font color="#c2c2c2">Play these challenges are the very reason discourse exist</font>
+
+173
+00:05:56,351 --> 00:05:57,375
+<font color="#a7a7a7">Solving this problem</font>

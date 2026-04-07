@@ -1,0 +1,559 @@
+﻿1
+00:00:00,256 --> 00:00:01,280
+<font color="#f4f4f4">In this video</font>
+
+2
+00:00:01,536 --> 00:00:02,560
+<font color="#f1f1f1">We are going to see</font>
+
+3
+00:00:02,816 --> 00:00:05,120
+<font color="#cfcfcf">Play the rabbit evolution of our industry</font>
+
+4
+00:00:06,144 --> 00:00:08,192
+<font color="#c9c9c9">Is moving from simple generative a</font>
+
+5
+00:00:08,448 --> 00:00:09,728
+<font color="#5a5a5a">Play tutorial agency a</font>
+
+6
+00:00:10,240 --> 00:00:11,008
+<font color="#adadad">No</font>
+
+7
+00:00:11,264 --> 00:00:13,056
+<font color="#e7e7e7">Move from the micro to the</font>
+
+8
+00:00:13,824 --> 00:00:15,104
+<font color="#d0d0d0">To understand this shift</font>
+
+9
+00:00:15,360 --> 00:00:17,408
+<font color="#cfcfcf">We need first understand the three</font>
+
+10
+00:00:18,176 --> 00:00:19,456
+<font color="#c9c9c9">Mission of our entire</font>
+
+11
+00:00:19,712 --> 00:00:22,016
+<font color="#d4d4d4">Has gone through in just a few short years</font>
+
+12
+00:00:22,528 --> 00:00:23,296
+<font color="#f0f0f0">These are the</font>
+
+13
+00:00:23,552 --> 00:00:24,320
+<font color="#9c9c9c">Dinner today</font>
+
+14
+00:00:24,832 --> 00:00:25,600
+<font color="#858585">AA</font>
+
+15
+00:00:26,112 --> 00:00:26,624
+<font color="#f4f4f4">An</font>
+
+16
+00:00:27,904 --> 00:00:30,208
+<font color="#f4f4f4">This is the journey from A Simple consultant</font>
+
+17
+00:00:30,464 --> 00:00:31,488
+<font color="#cecece">Do the entire Factory</font>
+
+18
+00:00:32,256 --> 00:00:34,560
+<font color="#c6c6c6">So are Johnny begins in the phase one</font>
+
+19
+00:00:34,816 --> 00:00:36,096
+<font color="#e9e9e9">Which is the generative AI</font>
+
+20
+00:00:36,352 --> 00:00:42,496
+<font color="#dfdfdf">This is the Paradigm we are all now deeply familiar with tools like the JCPenney cloth and Gemini</font>
+
+21
+00:00:43,008 --> 00:00:44,032
+<font color="#444444">Architecturally</font>
+
+22
+00:00:44,288 --> 00:00:45,824
+<font color="#e5e5e5">This is a simple one</font>
+
+23
+00:00:46,080 --> 00:00:47,360
+<font color="#c2c2c2">Reckless response model</font>
+
+24
+00:00:47,872 --> 00:00:49,152
+<font color="#8f8f8f">The user provide a prom</font>
+
+25
+00:00:49,408 --> 00:00:51,456
+<font color="#a7a7a7">And the alarm generates an answer</font>
+
+26
+00:00:51,712 --> 00:00:52,736
+<font color="#e5e5e5">And the process</font>
+
+27
+00:00:53,504 --> 00:00:55,296
+<font color="#bfbfbf">The system is entirely possible</font>
+
+28
+00:00:55,552 --> 00:00:56,832
+<font color="#c0c0c0">Eat weights for a user</font>
+
+29
+00:00:57,344 --> 00:00:59,136
+<font color="#898989">You forget the introduction immedi</font>
+
+30
+00:00:59,904 --> 00:01:00,672
+<font color="#a8a8a8">It is</font>
+
+31
+00:01:01,184 --> 00:01:03,488
+<font color="#e9e9e9">And it has no persistent memory of</font>
+
+32
+00:01:03,744 --> 00:01:04,256
+<font color="#5c5c5c">What's the interaction</font>
+
+33
+00:01:04,512 --> 00:01:05,280
+<font color="#9a9a9a">Outside</font>
+
+34
+00:01:05,536 --> 00:01:07,072
+<font color="#cdcdcd">What is provided into the prom</font>
+
+35
+00:01:07,584 --> 00:01:08,864
+<font color="#afafaf">And we call this is</font>
+
+36
+00:01:09,120 --> 00:01:10,400
+<font color="#d0d0d0">Expert consultant model</font>
+
+37
+00:01:10,912 --> 00:01:15,264
+<font color="#f1f1f1">It is a magnificent tool for answering questions or generating content</font>
+
+38
+00:01:15,520 --> 00:01:16,800
+<font color="#e9e9e9">But it has no agency</font>
+
+39
+00:01:17,312 --> 00:01:18,080
+<font color="#a1a1a1">You cannot</font>
+
+40
+00:01:18,592 --> 00:01:19,360
+<font color="#f0f0f0">It cannot do</font>
+
+41
+00:01:20,384 --> 00:01:21,920
+<font color="#e5e5e5">We can go to the second phase</font>
+
+42
+00:01:22,176 --> 00:01:24,992
+<font color="#c6c6c6">And this first major Evolution Leaf belongs to</font>
+
+43
+00:01:25,248 --> 00:01:26,016
+<font color="#7f7f7f">Space</font>
+
+44
+00:01:26,272 --> 00:01:27,040
+<font color="#cacaca">The AI</font>
+
+45
+00:01:27,808 --> 00:01:31,136
+<font color="#c5c5c5">And this is the leave from a positive expert consultant</font>
+
+46
+00:01:31,392 --> 00:01:32,416
+<font color="#787878">To activate work</font>
+
+47
+00:01:32,928 --> 00:01:36,512
+<font color="#cbcbcb">The achieve this by making two critical architectural Editions</font>
+
+48
+00:01:37,024 --> 00:01:38,048
+<font color="#e3e3e3">We gave the alarm</font>
+
+49
+00:01:38,816 --> 00:01:39,328
+<font color="#5d5d5d">What's on mem</font>
+
+50
+00:01:40,096 --> 00:01:42,656
+<font color="#dcdcdc">And this is the active system we call this</font>
+
+51
+00:01:42,912 --> 00:01:43,680
+<font color="#b0b0b0">It is Pro</font>
+
+52
+00:01:43,936 --> 00:01:45,728
+<font color="#bebebe">And it can initiate the action</font>
+
+53
+00:01:46,496 --> 00:01:47,520
+<font color="#cbcbcb">It is multi-step</font>
+
+54
+00:01:47,776 --> 00:01:48,288
+<font color="#878787">It</font>
+
+55
+00:01:48,544 --> 00:01:49,056
+<font color="#4b4b4b">Does a person</font>
+
+56
+00:01:49,312 --> 00:01:50,592
+<font color="#b3b3b3">Reason an egg</font>
+
+57
+00:01:51,104 --> 00:01:52,640
+<font color="#e3e3e3">And it is also stateful</font>
+
+58
+00:01:52,896 --> 00:01:53,664
+<font color="#838383">It maintained</font>
+
+59
+00:01:53,920 --> 00:01:56,736
+<font color="#ededed">An internal memory of its plan and its history</font>
+
+60
+00:01:57,248 --> 00:01:59,040
+<font color="#efefef">You can see the diagram on this light</font>
+
+61
+00:01:59,296 --> 00:02:01,600
+<font color="#d6d6d6">Do you say no longer provide a prompt</font>
+
+62
+00:02:01,856 --> 00:02:02,880
+<font color="#f5f5f5">They provide a</font>
+
+63
+00:02:03,392 --> 00:02:04,416
+<font color="#eeeeee">The agent is active</font>
+
+64
+00:02:04,672 --> 00:02:05,184
+<font color="#303030">East</font>
+
+65
+00:02:05,952 --> 00:02:06,464
+<font color="#bebebe">What's the step</font>
+
+66
+00:02:06,720 --> 00:02:07,744
+<font color="#979797">Play achieve dead</font>
+
+67
+00:02:08,256 --> 00:02:09,536
+<font color="#d7d7d7">And it is also set</font>
+
+68
+00:02:09,792 --> 00:02:11,328
+<font color="#e9e9e9">It remembers the result of</font>
+
+69
+00:02:11,584 --> 00:02:12,352
+<font color="#989898">It's too cold</font>
+
+70
+00:02:12,608 --> 00:02:14,144
+<font color="#e8e8e8">And this is the powerful component</font>
+
+71
+00:02:14,912 --> 00:02:15,424
+<font color="#c0c0c0">It is</font>
+
+72
+00:02:15,680 --> 00:02:17,728
+<font color="#dfdfdf">Just one component and just one</font>
+
+73
+00:02:18,496 --> 00:02:21,056
+<font color="#d0d0d0">And this beating us to the second Major League</font>
+
+74
+00:02:21,312 --> 00:02:22,848
+<font color="#e0e0e0">On the subject of this section</font>
+
+75
+00:02:23,104 --> 00:02:25,408
+<font color="#cfcfcf">Which is the phase 3 Atlantic AI</font>
+
+76
+00:02:25,920 --> 00:02:28,992
+<font color="#ececec">This is the leap from a single worker to entire</font>
+
+77
+00:02:29,760 --> 00:02:30,272
+<font color="#fafafa">What</font>
+
+78
+00:02:30,528 --> 00:02:32,064
+<font color="#dedede">When a goal is too complex</font>
+
+79
+00:02:32,320 --> 00:02:33,600
+<font color="#cacaca">Thanks for our single agent</font>
+
+80
+00:02:34,112 --> 00:02:35,136
+<font color="#bfbfbf">What if it require</font>
+
+81
+00:02:35,392 --> 00:02:38,464
+<font color="#cccccc">What's the coordination of Sales inventory and shipping AG</font>
+
+82
+00:02:39,232 --> 00:02:41,024
+<font color="#b1b1b1">We don't need one God like agent</font>
+
+83
+00:02:41,536 --> 00:02:42,560
+<font color="#8e8e8e">Be with an</font>
+
+84
+00:02:42,816 --> 00:02:43,584
+<font color="#9e9e9e">Picture of multip</font>
+
+85
+00:02:44,096 --> 00:02:45,888
+<font color="#b6b6b6">Specialized agents that collab</font>
+
+86
+00:02:47,168 --> 00:02:47,936
+<font color="#bfbfbf">A user</font>
+
+87
+00:02:48,192 --> 00:02:49,728
+<font color="#d1d1d1">What is a complex called to the system</font>
+
+88
+00:02:50,240 --> 00:02:53,568
+<font color="#d0d0d0">And the system works today a team of agents to solve it</font>
+
+89
+00:02:53,824 --> 00:02:55,104
+<font color="#f0f0f0">You can see the image in here</font>
+
+90
+00:02:55,360 --> 00:02:56,128
+<font color="#a4a4a4">Laser</font>
+
+91
+00:02:56,384 --> 00:02:57,152
+<font color="#bebebe">Add a complex</font>
+
+92
+00:02:57,408 --> 00:02:58,176
+<font color="#f4f4f4">And this time</font>
+
+93
+00:02:58,432 --> 00:03:00,224
+<font color="#d3d3d3">This will be handled a multiple</font>
+
+94
+00:03:00,480 --> 00:03:01,504
+<font color="#727272">Collaborating agent</font>
+
+95
+00:03:01,760 --> 00:03:04,320
+<font color="#dadada">That means this is a collaborative architecture</font>
+
+96
+00:03:04,576 --> 00:03:06,368
+<font color="#e3e3e3">The primary engineering challenge</font>
+
+97
+00:03:06,624 --> 00:03:08,416
+<font color="#ebebeb">Is no longer just task execution</font>
+
+98
+00:03:08,928 --> 00:03:12,000
+<font color="#e2e2e2">It is the system wide orchestration and communication</font>
+
+99
+00:03:12,512 --> 00:03:14,816
+<font color="#f4f4f4">In this model we have specialization</font>
+
+100
+00:03:15,072 --> 00:03:16,352
+<font color="#efefef">We don't have one agent</font>
+
+101
+00:03:16,608 --> 00:03:17,888
+<font color="#a7a7a7">We have water agent</font>
+
+102
+00:03:18,144 --> 00:03:19,680
+<font color="#bcbcbc">Did X is a foreman</font>
+
+103
+00:03:19,936 --> 00:03:20,704
+<font color="#7d7d7d">A shopping AG</font>
+
+104
+00:03:21,728 --> 00:03:22,240
+<font color="#c1c1c1">Next to</font>
+
+105
+00:03:22,496 --> 00:03:23,008
+<font color="#838383">Is special</font>
+
+106
+00:03:23,520 --> 00:03:24,544
+<font color="#747474">Any support AG</font>
+
+107
+00:03:24,800 --> 00:03:26,336
+<font color="#6a6a6a">Put this to Logistics special</font>
+
+108
+00:03:26,848 --> 00:03:28,128
+<font color="#a2a2a2">These agents collab</font>
+
+109
+00:03:28,384 --> 00:03:29,152
+<font color="#9f9f9f">Play hand of</font>
+
+110
+00:03:29,408 --> 00:03:30,432
+<font color="#9e9e9e">Ask a debate Solutions</font>
+
+111
+00:03:30,944 --> 00:03:32,736
+<font color="#cfcfcf">This is an architectural of the AG</font>
+
+112
+00:03:33,248 --> 00:03:36,064
+<font color="#e1e1e1">Is an example we can give our eShop example</font>
+
+113
+00:03:36,320 --> 00:03:38,368
+<font color="#a0a0a0">We can send the request to Rotary AG</font>
+
+114
+00:03:38,624 --> 00:03:40,160
+<font color="#c5c5c5">That can collaborate with the shopping</font>
+
+115
+00:03:40,416 --> 00:03:41,184
+<font color="#858585">And the support</font>
+
+116
+00:03:41,952 --> 00:03:43,744
+<font color="#eaeaea">So now let's see the table</font>
+
+117
+00:03:44,000 --> 00:03:46,560
+<font color="#bebebe">Summarize this entire journey and comp</font>
+
+118
+00:03:47,328 --> 00:03:49,120
+<font color="#c2c2c2">Here you can see the interface</font>
+
+119
+00:03:49,376 --> 00:03:50,400
+<font color="#a8a8a8">Turn on in the generative AI</font>
+
+120
+00:03:50,656 --> 00:03:51,424
+<font color="#dddddd">We have a</font>
+
+121
+00:03:51,680 --> 00:03:53,216
+<font color="#a1a1a1">That answer from a prom</font>
+
+122
+00:03:53,472 --> 00:03:55,520
+<font color="#f2f2f2">And it is a positive expert consultant</font>
+
+123
+00:03:55,776 --> 00:03:59,104
+<font color="#cdcdcd">In the face to be basically create an air agent</font>
+
+124
+00:03:59,360 --> 00:04:01,920
+<font color="#b8b8b8">Did adding the tools and memory to that plane</font>
+
+125
+00:04:02,176 --> 00:04:03,712
+<font color="#c3c3c3">In order to create a ag</font>
+
+126
+00:04:03,968 --> 00:04:06,784
+<font color="#e0e0e0">Which is a worker that can achieve a goal</font>
+
+127
+00:04:07,040 --> 00:04:09,088
+<font color="#eeeeee">This is a single octave component</font>
+
+128
+00:04:09,600 --> 00:04:10,368
+<font color="#9b9b9b">Interface</font>
+
+129
+00:04:10,624 --> 00:04:12,672
+<font color="#8b8b8b">Resume on architect</font>
+
+130
+00:04:13,184 --> 00:04:14,720
+<font color="#f4f4f4">To connect multiple workers</font>
+
+131
+00:04:14,976 --> 00:04:15,744
+<font color="#cacaca">Into a factory</font>
+
+132
+00:04:16,256 --> 00:04:17,536
+<font color="#cfcfcf">Which is an adjective</font>
+
+133
+00:04:18,303 --> 00:04:19,583
+<font color="#b5b5b5">That can collaborate to</font>
+
+134
+00:04:19,839 --> 00:04:20,607
+<font color="#ebebeb">A complex</font>
+
+135
+00:04:21,375 --> 00:04:22,911
+<font color="#dadada">Each phase will open the last</font>
+
+136
+00:04:23,167 --> 00:04:25,727
+<font color="#e9e9e9">Moving from a simple tool to single actor</font>
+
+137
+00:04:25,983 --> 00:04:28,031
+<font color="#dedede">I'm finally to a collaborative Society</font>
+
+138
+00:04:28,799 --> 00:04:32,383
+<font color="#d4d4d4">As you can see that we have no trace the full evolutionary</font>
+
+139
+00:04:32,895 --> 00:04:34,431
+<font color="#9e9e9e">From a passive generative AI</font>
+
+140
+00:04:34,687 --> 00:04:35,967
+<font color="#b8b8b8">To proactive collaborative</font>

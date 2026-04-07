@@ -1,0 +1,559 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f9f9f9">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,048
+<font color="#ececec">We are going to learn</font>
+
+3
+00:00:02,560 --> 00:00:03,328
+<font color="#5c5c5c">The planning Pat</font>
+
+4
+00:00:03,840 --> 00:00:06,144
+<font color="#969696">In the last lecture we learn to do this but</font>
+
+5
+00:00:06,656 --> 00:00:07,424
+<font color="#d5d5d5">But what happens</font>
+
+6
+00:00:07,680 --> 00:00:09,984
+<font color="#a7a7a7">What's going to use the school is not a single query</font>
+
+7
+00:00:10,240 --> 00:00:12,288
+<font color="#848484">What a complex multi-step project</font>
+
+8
+00:00:13,056 --> 00:00:14,336
+<font color="#cdcdcd">For example a girl</font>
+
+9
+00:00:14,848 --> 00:00:15,616
+<font color="#e9e9e9">Research the</font>
+
+10
+00:00:15,872 --> 00:00:17,408
+<font color="#dedede">Play sci-fi books from the last year</font>
+
+11
+00:00:17,920 --> 00:00:18,688
+<font color="#a3a3a3">Find a</font>
+
+12
+00:00:19,200 --> 00:00:20,224
+<font color="#bdbdbd">Unset the final</font>
+
+13
+00:00:20,480 --> 00:00:20,992
+<font color="#c4c4c4">List to my email</font>
+
+14
+00:00:21,760 --> 00:00:24,064
+<font color="#e3e3e3">Disconnect be sold by a single tool call</font>
+
+15
+00:00:24,832 --> 00:00:26,368
+<font color="#c3c3c3">Please record a seconds of action</font>
+
+16
+00:00:26,624 --> 00:00:29,184
+<font color="#afafaf">This is where the feeling put on become essential</font>
+
+17
+00:00:29,440 --> 00:00:31,744
+<font color="#bababa">You need to cancel that we will first and make a plan</font>
+
+18
+00:00:32,000 --> 00:00:33,024
+<font color="#dcdcdc">And this will be</font>
+
+19
+00:00:33,280 --> 00:00:33,792
+<font color="#d8d8d8">Several</font>
+
+20
+00:00:34,048 --> 00:00:35,072
+<font color="#c8c8c8">Ask that we are going to EXE</font>
+
+21
+00:00:35,328 --> 00:00:35,840
+<font color="#b5b5b5">Repeat one by</font>
+
+22
+00:00:36,608 --> 00:00:39,680
+<font color="#eaeaea">So let's understand what is the planet pattern in here</font>
+
+23
+00:00:40,192 --> 00:00:44,288
+<font color="#d3d3d3">The planet is formally defined as the process of using the alarm</font>
+
+24
+00:00:44,544 --> 00:00:45,824
+<font color="#cbcbcb">Reasoning capability</font>
+
+25
+00:00:46,336 --> 00:00:47,360
+<font color="#a0a0a0">In order to decom</font>
+
+26
+00:00:47,616 --> 00:00:48,640
+<font color="#b9b9b9">Does a high level goal</font>
+
+27
+00:00:48,896 --> 00:00:52,224
+<font color="#f2f2f2">Into an explicit order list of the executable steps</font>
+
+28
+00:00:52,736 --> 00:00:55,808
+<font color="#dbdbdb">This is a critical shift in how we use the alarm</font>
+
+29
+00:00:56,064 --> 00:00:59,136
+<font color="#f0f0f0">We are no longer just asking it for the final answer</font>
+
+30
+00:00:59,392 --> 00:01:01,184
+<font color="#d0d0d0">You're not using it as a</font>
+
+31
+00:01:01,952 --> 00:01:03,488
+<font color="#bdbdbd">We are asking you to think</font>
+
+32
+00:01:03,744 --> 00:01:05,024
+<font color="#c4c4c4">First and create a to-do list</font>
+
+33
+00:01:05,280 --> 00:01:06,304
+<font color="#c1c1c1">That it will follow</font>
+
+34
+00:01:06,816 --> 00:01:08,608
+<font color="#bdbdbd">So this plan is just dat</font>
+
+35
+00:01:09,120 --> 00:01:10,656
+<font color="#fafafa">It can be a simple number</font>
+
+36
+00:01:10,912 --> 00:01:11,424
+<font color="#888888">What is the old</font>
+
+37
+00:01:11,680 --> 00:01:13,216
+<font color="#7b7b7b">Why should Jason a ray of tool</font>
+
+38
+00:01:14,240 --> 00:01:15,520
+<font color="#d3d3d3">How do we get to LA</font>
+
+39
+00:01:15,776 --> 00:01:16,544
+<font color="#bdbdbd">Turn to generate this</font>
+
+40
+00:01:17,056 --> 00:01:19,104
+<font color="#b7b7b7">Do you use anything technique which</font>
+
+41
+00:01:19,360 --> 00:01:19,872
+<font color="#d5d5d5">Chain of</font>
+
+42
+00:01:20,128 --> 00:01:21,152
+<font color="#747474">Not an instructor</font>
+
+43
+00:01:21,408 --> 00:01:22,176
+<font color="#bebebe">Step by step</font>
+
+44
+00:01:22,688 --> 00:01:24,480
+<font color="#e8e8e8">So instead of just giving it</font>
+
+45
+00:01:24,736 --> 00:01:26,016
+<font color="#c5c5c5">We give it to gold</font>
+
+46
+00:01:26,272 --> 00:01:27,296
+<font color="#ececec">What's an instruction like</font>
+
+47
+00:01:27,552 --> 00:01:28,576
+<font color="#8a8a8a">First grade AP</font>
+
+48
+00:01:28,832 --> 00:01:30,880
+<font color="#d8d8d8">And then execute the first step of your</font>
+
+49
+00:01:31,648 --> 00:01:33,440
+<font color="#f4f4f4">So after that you can see the alarm</font>
+
+50
+00:01:33,696 --> 00:01:34,464
+<font color="#7d7d7d">Internal monolog</font>
+
+51
+00:01:34,720 --> 00:01:35,488
+<font color="#dcdcdc">This will be</font>
+
+52
+00:01:35,744 --> 00:01:36,512
+<font color="#5e5e5e">Play Tuesday</font>
+
+53
+00:01:36,768 --> 00:01:39,328
+<font color="#afafaf">And after that execute this plan step by step</font>
+
+54
+00:01:39,840 --> 00:01:40,608
+<font color="#9d9d9d">So now</font>
+
+55
+00:01:40,864 --> 00:01:43,424
+<font color="#b3b3b3">See this cleaning pattern into gemini.com</font>
+
+56
+00:01:43,680 --> 00:01:44,960
+<font color="#e0e0e0">If you go to gemini.com</font>
+
+57
+00:01:45,472 --> 00:01:47,776
+<font color="#e4e4e4">You can come here and open the front window</font>
+
+58
+00:01:48,032 --> 00:01:50,336
+<font color="#f5f5f5">Basically I have selected the thinking</font>
+
+59
+00:01:50,592 --> 00:01:51,872
+<font color="#dcdcdc">And I'm going to write to</font>
+
+60
+00:01:52,896 --> 00:01:54,176
+<font color="#c7c7c7">Research the top</font>
+
+61
+00:01:54,432 --> 00:01:54,944
+<font color="#5f5f5f">Is Skyfall</font>
+
+62
+00:01:55,456 --> 00:01:56,480
+<font color="#818181">Then find a</font>
+
+63
+00:01:56,736 --> 00:01:58,016
+<font color="#717171">And understand</font>
+
+64
+00:01:58,272 --> 00:01:58,784
+<font color="#bfbfbf">List to my email</font>
+
+65
+00:01:59,296 --> 00:02:02,880
+<font color="#cecece">So you can see that the front design for the Chain of Thought and if</font>
+
+66
+00:02:03,136 --> 00:02:03,904
+<font color="#999999">Do you click the song in the</font>
+
+67
+00:02:04,416 --> 00:02:05,184
+<font color="#a1a1a1">Is you can see</font>
+
+68
+00:02:05,696 --> 00:02:06,208
+<font color="#a9a9a9">Please set alarm</font>
+
+69
+00:02:06,464 --> 00:02:07,744
+<font color="#b4b4b4">Start with planning</font>
+
+70
+00:02:08,000 --> 00:02:09,024
+<font color="#acacac">That's enough to that EXE</font>
+
+71
+00:02:09,280 --> 00:02:10,048
+<font color="#727272">Please play mama</font>
+
+72
+00:02:10,560 --> 00:02:12,352
+<font color="#eeeeee">If you expand this process you can</font>
+
+73
+00:02:13,120 --> 00:02:14,656
+<font color="#d6d6d6">This will be starting to</font>
+
+74
+00:02:14,912 --> 00:02:15,424
+<font color="#7f7f7f">Including</font>
+
+75
+00:02:15,680 --> 00:02:16,960
+<font color="#c4c4c4">Determining top titles</font>
+
+76
+00:02:17,984 --> 00:02:19,008
+<font color="#e5e5e5">Sing two limitations</font>
+
+77
+00:02:19,264 --> 00:02:20,288
+<font color="#949494">Listing relevant book</font>
+
+78
+00:02:20,800 --> 00:02:21,312
+<font color="#1a1a1a">Discover</font>
+
+79
+00:02:21,568 --> 00:02:23,104
+<font color="#bebebe">Disconnect my favorites and so on</font>
+
+80
+00:02:23,616 --> 00:02:24,384
+<font color="#d6d6d6">This is the</font>
+
+81
+00:02:24,640 --> 00:02:27,456
+<font color="#999999">And Chain of Thought internal monologue of the alarm</font>
+
+82
+00:02:27,712 --> 00:02:29,248
+<font color="#f7f7f7">Before responding to</font>
+
+83
+00:02:29,504 --> 00:02:30,272
+<font color="#d8d8d8">So basically</font>
+
+84
+00:02:30,528 --> 00:02:31,552
+<font color="#e2e2e2">We will follow</font>
+
+85
+00:02:31,808 --> 00:02:33,600
+<font color="#a9a9a9">Chain of Thought and cleaning Pat</font>
+
+86
+00:02:33,856 --> 00:02:35,136
+<font color="#b9b9b9">And this will be returned</font>
+
+87
+00:02:35,392 --> 00:02:37,696
+<font color="#d3d3d3">The final response including the old</font>
+
+88
+00:02:37,952 --> 00:02:38,976
+<font color="#d7d7d7">Books and prices</font>
+
+89
+00:02:39,232 --> 00:02:39,744
+<font color="#929292">Does Inkling</font>
+
+90
+00:02:40,000 --> 00:02:40,768
+<font color="#f8f8f8">The final answer</font>
+
+91
+00:02:41,280 --> 00:02:41,792
+<font color="#dcdcdc">So</font>
+
+92
+00:02:42,048 --> 00:02:43,584
+<font color="#979797">In this button with Clinic button</font>
+
+93
+00:02:43,840 --> 00:02:45,632
+<font color="#d2d2d2">The orchestrated which is the alarm</font>
+
+94
+00:02:45,888 --> 00:02:46,656
+<font color="#464646">Resident Evil</font>
+
+95
+00:02:46,912 --> 00:02:48,960
+<font color="#cfcfcf">So we can say that Disney hotel</font>
+
+96
+00:02:49,216 --> 00:02:50,496
+<font color="#818181">Is all orchestrated</font>
+
+97
+00:02:50,752 --> 00:02:52,288
+<font color="#a1a1a1">Isn't even more complex row</font>
+
+98
+00:02:52,544 --> 00:02:54,336
+<font color="#f3f3f3">It can no longer be stateless</font>
+
+99
+00:02:54,592 --> 00:02:56,896
+<font color="#dcdcdc">It must now it is a state machine</font>
+
+100
+00:02:57,920 --> 00:03:00,736
+<font color="#858585">Where is my sister the full plan the llm generated</font>
+
+101
+00:03:00,992 --> 00:03:02,784
+<font color="#ebebeb">Typically in the agent's memory</font>
+
+102
+00:03:03,296 --> 00:03:06,112
+<font color="#d8d8d8">Second it must take the agent's current progress</font>
+
+103
+00:03:06,368 --> 00:03:08,672
+<font color="#d3d3d3">For example we are on Stephan of</font>
+
+104
+00:03:09,952 --> 00:03:12,000
+<font color="#e8e8e8">Eat execute only the current</font>
+
+105
+00:03:13,792 --> 00:03:15,584
+<font color="#aaaaaa">What's the steps result on feed</font>
+
+106
+00:03:16,864 --> 00:03:17,632
+<font color="#dadada">For the next</font>
+
+107
+00:03:17,888 --> 00:03:20,704
+<font color="#7b7b7b">Set the alarm 10 perceived this new information</font>
+
+108
+00:03:21,472 --> 00:03:22,496
+<font color="#a6a6a6">Play its plan and</font>
+
+109
+00:03:22,752 --> 00:03:25,568
+<font color="#c0c0c0">Okay Stephanie is complete now for Step 2</font>
+
+110
+00:03:26,080 --> 00:03:27,360
+<font color="#818181">Diesel plan</font>
+
+111
+00:03:27,616 --> 00:03:28,128
+<font color="#6a6a6a">Make OB</font>
+
+112
+00:03:28,384 --> 00:03:31,968
+<font color="#d3d3d3">Continue playing is the foundation of the advanced agents</font>
+
+113
+00:03:32,224 --> 00:03:32,992
+<font color="#878787">And the plan</font>
+
+114
+00:03:33,248 --> 00:03:34,784
+<font color="#b0b0b0">What's the store in the agents memory</font>
+
+115
+00:03:35,296 --> 00:03:36,576
+<font color="#bbbbbb">Sona we should understand</font>
+
+116
+00:03:36,832 --> 00:03:39,136
+<font color="#a8a8a8">And healthy design planning process is Arch</font>
+
+117
+00:03:40,160 --> 00:03:42,720
+<font color="#c6c6c6">Where's our system from is no longer just about</font>
+
+118
+00:03:43,232 --> 00:03:44,256
+<font color="#d9d9d9">It is about the process</font>
+
+119
+00:03:45,792 --> 00:03:46,816
+<font color="#686868">Music the instructor AG</font>
+
+120
+00:03:48,096 --> 00:03:49,376
+<font color="#989898">To break down problems</font>
+
+121
+00:03:49,632 --> 00:03:50,144
+<font color="#d1d1d1">How to create</font>
+
+122
+00:03:50,912 --> 00:03:51,424
+<font color="#787878">And</font>
+
+123
+00:03:51,680 --> 00:03:52,704
+<font color="#afafaf">Please plan management</font>
+
+124
+00:03:52,960 --> 00:03:54,496
+<font color="#b9b9b9">Any required capability</font>
+
+125
+00:03:54,752 --> 00:03:57,056
+<font color="#d2d2d2">Are orchestrated must be stateful</font>
+
+126
+00:03:57,312 --> 00:03:58,848
+<font color="#c5c5c5">Unmanage the plants life cycle</font>
+
+127
+00:03:59,104 --> 00:04:01,152
+<font color="#cbcbcb">And the third one is hunting failures</font>
+
+128
+00:04:01,408 --> 00:04:03,200
+<font color="#a5a5a5">This button introduced in</font>
+
+129
+00:04:03,712 --> 00:04:04,992
+<font color="#717171">What is Stefan suc</font>
+
+130
+00:04:05,248 --> 00:04:06,272
+<font color="#797979">What's the two</font>
+
+131
+00:04:06,528 --> 00:04:08,576
+<font color="#d4d4d4">We should manage these hunting failures</font>
+
+132
+00:04:09,088 --> 00:04:10,624
+<font color="#d1d1d1">Is there somebody that we can say that</font>
+
+133
+00:04:10,880 --> 00:04:13,440
+<font color="#939393">If the tool used for 10 years or agent hand</font>
+
+134
+00:04:13,696 --> 00:04:14,976
+<font color="#a3a3a3">Underpinning button</font>
+
+135
+00:04:15,232 --> 00:04:16,768
+<font color="#bababa">Change the agent an internal mon</font>
+
+136
+00:04:17,280 --> 00:04:18,047
+<font color="#ebebeb">It is the</font>
+
+137
+00:04:18,815 --> 00:04:20,863
+<font color="#a2a2a2">Play to drink before it acts and decom</font>
+
+138
+00:04:21,119 --> 00:04:24,191
+<font color="#c1c1c1">What's a logical intersection of the small manageable actions</font>
+
+139
+00:04:24,703 --> 00:04:25,983
+<font color="#f1f1f1">This is the difference between</font>
+
+140
+00:04:26,239 --> 00:04:27,263
+<font color="#7a7a7a">Reflective AG</font>

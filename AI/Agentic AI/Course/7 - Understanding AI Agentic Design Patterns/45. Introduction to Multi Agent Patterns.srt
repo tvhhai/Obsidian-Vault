@@ -1,0 +1,651 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f6f6f6">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,048
+<font color="#dddddd">We are going to learn</font>
+
+3
+00:00:02,304 --> 00:00:03,840
+<font color="#8d8d8d">Multi-agent design pattern</font>
+
+4
+00:00:04,352 --> 00:00:05,888
+<font color="#a0a0a0">Do you master the car pattern</font>
+
+5
+00:00:06,144 --> 00:00:07,936
+<font color="#efefef">That make a single agent intelligent</font>
+
+6
+00:00:08,704 --> 00:00:09,984
+<font color="#989898">We thought it was used</font>
+
+7
+00:00:10,496 --> 00:00:11,008
+<font color="#d4d4d4">To create</font>
+
+8
+00:00:11,520 --> 00:00:12,800
+<font color="#ebebeb">An even to reflect on</font>
+
+9
+00:00:13,056 --> 00:00:13,568
+<font color="#a1a1a1">It's omberg</font>
+
+10
+00:00:14,848 --> 00:00:17,408
+<font color="#dedede">What is a problem is too big or too complex</font>
+
+11
+00:00:17,664 --> 00:00:18,176
+<font color="#e1e1e1">For one</font>
+
+12
+00:00:18,944 --> 00:00:20,480
+<font color="#b9b9b9">If we need teams of Agents</font>
+
+13
+00:00:20,736 --> 00:00:22,528
+<font color="#a3a3a3">Did specialize in different tasks</font>
+
+14
+00:00:23,040 --> 00:00:25,856
+<font color="#949494">Is it considered Behavior complete the court agent Pat</font>
+
+15
+00:00:26,368 --> 00:00:28,416
+<font color="#c7c7c7">And we are going to start multi agent</font>
+
+16
+00:00:29,184 --> 00:00:29,952
+<font color="#f2f2f2">But before that</font>
+
+17
+00:00:30,208 --> 00:00:30,976
+<font color="#e3e3e3">Let's understand</font>
+
+18
+00:00:31,232 --> 00:00:33,024
+<font color="#9a9a9a">Why we need multi agent Pat</font>
+
+19
+00:00:33,536 --> 00:00:36,096
+<font color="#d6d6d6">And this leads to a natural architectural question</font>
+
+20
+00:00:36,608 --> 00:00:37,888
+<font color="#f6f6f6">If one agent is good</font>
+
+21
+00:00:38,400 --> 00:00:39,168
+<font color="#ededed">Is one</font>
+
+22
+00:00:39,424 --> 00:00:40,704
+<font color="#e6e6e6">Super agent even better</font>
+
+23
+00:00:41,216 --> 00:00:42,752
+<font color="#c0c0c0">Should we try to do it</font>
+
+24
+00:00:43,008 --> 00:00:45,056
+<font color="#b6b6b6">On monolithic agent with 52</font>
+
+25
+00:00:45,312 --> 00:00:46,848
+<font color="#7b7b7b">The temperature</font>
+
+26
+00:00:47,104 --> 00:00:49,408
+<font color="#ebebeb">And the ability to do everything from</font>
+
+27
+00:00:49,664 --> 00:00:50,176
+<font color="#636363">To Res</font>
+
+28
+00:00:51,200 --> 00:00:52,224
+<font color="#dcdcdc">To customer support</font>
+
+29
+00:00:52,480 --> 00:00:53,248
+<font color="#848484">Is are</font>
+
+30
+00:00:53,504 --> 00:00:55,040
+<font color="#9f9f9f">Is vino immediately</font>
+
+31
+00:00:55,552 --> 00:00:56,576
+<font color="#ededed">This is a bad idea</font>
+
+32
+00:00:57,088 --> 00:00:58,880
+<font color="#c8c8c8">This is the morning design trip</font>
+
+33
+00:00:59,136 --> 00:01:00,416
+<font color="#a7a7a7">I need space for AG</font>
+
+34
+00:01:00,672 --> 00:01:01,696
+<font color="#cacaca">Just as it</font>
+
+35
+00:01:01,952 --> 00:01:02,720
+<font color="#929292">What is for software</font>
+
+36
+00:01:03,488 --> 00:01:04,256
+<font color="#7f7f7f">Tonight</font>
+
+37
+00:01:04,512 --> 00:01:05,792
+<font color="#cccccc">Is a single super agent</font>
+
+38
+00:01:06,048 --> 00:01:09,376
+<font color="#c0c0c0">Is an architectural anti pattern for several critical reason</font>
+
+39
+00:01:10,656 --> 00:01:11,680
+<font color="#9e9e9e">Prompt complex</font>
+
+40
+00:01:12,192 --> 00:01:12,960
+<font color="#c8c8c8">The system</font>
+
+41
+00:01:13,984 --> 00:01:15,520
+<font color="#e4e4e4">Unmaintainable monster</font>
+
+42
+00:01:15,776 --> 00:01:16,544
+<font color="#c5c5c5">In worst</font>
+
+43
+00:01:16,800 --> 00:01:18,336
+<font color="#bbbbbb">You will get prompt delete</font>
+
+44
+00:01:18,592 --> 00:01:20,640
+<font color="#cbcbcb">Where conflicting instructions like</font>
+
+45
+00:01:20,896 --> 00:01:22,432
+<font color="#d8d8d8">Be a creative copywriter</font>
+
+46
+00:01:22,688 --> 00:01:24,992
+<font color="#9d9d9d">NBA precise a square WR</font>
+
+47
+00:01:25,504 --> 00:01:26,528
+<font color="#b9b9b9">Did confuse the</font>
+
+48
+00:01:27,040 --> 00:01:27,552
+<font color="#a0a0a0">And the</font>
+
+49
+00:01:27,808 --> 00:01:28,320
+<font color="#8a8a8a">It's perform</font>
+
+50
+00:01:28,576 --> 00:01:29,088
+<font color="#ababab">What's on</font>
+
+51
+00:01:29,600 --> 00:01:31,648
+<font color="#f9f9f9">The second important consideration is</font>
+
+52
+00:01:31,904 --> 00:01:33,184
+<font color="#919191">Contacts window limit</font>
+
+53
+00:01:33,696 --> 00:01:36,512
+<font color="#b9b9b9">Did Jason sakima for 50 different tools</font>
+
+54
+00:01:36,768 --> 00:01:37,536
+<font color="#393939">Good cons</font>
+
+55
+00:01:37,792 --> 00:01:39,072
+<font color="#a5a5a5">30,000 to</font>
+
+56
+00:01:39,328 --> 00:01:42,144
+<font color="#ededed">Before the user has even tied a single word</font>
+
+57
+00:01:42,912 --> 00:01:45,472
+<font color="#dcdcdc">Third one and the most important thing for an Arctic</font>
+
+58
+00:01:45,728 --> 00:01:48,288
+<font color="#c9c9c9">It creates a mercy single point of fail</font>
+
+59
+00:01:48,544 --> 00:01:50,848
+<font color="#959595">If tomorrow at 6:00 agent gets conf</font>
+
+60
+00:01:51,360 --> 00:01:53,152
+<font color="#f1f1f1">The entire system grinds to</font>
+
+61
+00:01:53,920 --> 00:01:54,688
+<font color="#656565">Debugging be</font>
+
+62
+00:01:55,200 --> 00:01:56,992
+<font color="#f3f3f3">A guessing game inside a giant</font>
+
+63
+00:01:57,248 --> 00:01:58,784
+<font color="#727272">Non-deterministic Black Box</font>
+
+64
+00:01:59,552 --> 00:02:00,832
+<font color="#f4f4f4">The solution of course</font>
+
+65
+00:02:01,088 --> 00:02:02,368
+<font color="#f0f0f0">Is the same one we</font>
+
+66
+00:02:02,624 --> 00:02:04,928
+<font color="#e2e2e2">In all other form of the complex engine</font>
+
+67
+00:02:05,440 --> 00:02:06,208
+<font color="#8a8a8a">Decomposition</font>
+
+68
+00:02:06,464 --> 00:02:07,488
+<font color="#7e7e7e">Turn on specialization</font>
+
+69
+00:02:08,000 --> 00:02:09,536
+<font color="#a9a9a9">They don't do it one more</font>
+
+70
+00:02:09,792 --> 00:02:10,560
+<font color="#9d9d9d">Play super agent</font>
+
+71
+00:02:11,840 --> 00:02:12,608
+<font color="#dbdbdb">A digital</font>
+
+72
+00:02:12,864 --> 00:02:15,168
+<font color="#e6e6e6">A system of multiple similar</font>
+
+73
+00:02:15,424 --> 00:02:16,448
+<font color="#747474">Specialized AG</font>
+
+74
+00:02:16,704 --> 00:02:17,472
+<font color="#5c5c5c">Dead collab</font>
+
+75
+00:02:17,984 --> 00:02:19,264
+<font color="#f3f3f3">This is the definition of</font>
+
+76
+00:02:19,520 --> 00:02:20,800
+<font color="#9c9c9c">Multi agent architecture</font>
+
+77
+00:02:21,312 --> 00:02:23,872
+<font color="#d4d4d4">Do you stop thinking like a plant engineer</font>
+
+78
+00:02:24,128 --> 00:02:25,920
+<font color="#c2c2c2">Trying to beat one perfect work</font>
+
+79
+00:02:26,432 --> 00:02:28,224
+<font color="#bfbfbf">Restart thinking like an archit</font>
+
+80
+00:02:28,480 --> 00:02:29,760
+<font color="#ededed">Designing an organization</font>
+
+81
+00:02:30,528 --> 00:02:32,576
+<font color="#b3b3b3">This immediate results are problems</font>
+
+82
+00:02:33,088 --> 00:02:34,880
+<font color="#f2f2f2">Each agent now has a</font>
+
+83
+00:02:35,136 --> 00:02:36,160
+<font color="#e5e5e5">Simple Focus</font>
+
+84
+00:02:36,672 --> 00:02:40,000
+<font color="#d2d2d2">Each agent has only two or three tools it need</font>
+
+85
+00:02:40,512 --> 00:02:43,328
+<font color="#e9e9e9">On each agent becomes a small testable</font>
+
+86
+00:02:43,584 --> 00:02:44,864
+<font color="#a5a5a5">And replaceable component</font>
+
+87
+00:02:45,120 --> 00:02:45,888
+<font color="#717171">In a larger</font>
+
+88
+00:02:46,400 --> 00:02:51,264
+<font color="#e5e5e5">So one of the first and most important reason to use a multi agent system is</font>
+
+89
+00:02:51,520 --> 00:02:52,288
+<font color="#dadada">Specialization</font>
+
+90
+00:02:52,800 --> 00:02:55,872
+<font color="#f0f0f0">Dismiss each agent in our system is designed</font>
+
+91
+00:02:56,896 --> 00:02:59,200
+<font color="#cccccc">I'm too late to do one thing perfectly</font>
+
+92
+00:02:59,968 --> 00:03:01,504
+<font color="#b0b0b0">You would win a research AG</font>
+
+93
+00:03:01,760 --> 00:03:03,296
+<font color="#b5b5b5">That only has a search</font>
+
+94
+00:03:03,808 --> 00:03:05,088
+<font color="#dfdfdf">And it is Pronto to be</font>
+
+95
+00:03:05,344 --> 00:03:06,368
+<font color="#c8c8c8">Play through an objective</font>
+
+96
+00:03:06,624 --> 00:03:08,928
+<font color="#dadada">You will have a separate copywriter agent</font>
+
+97
+00:03:09,184 --> 00:03:10,720
+<font color="#bfbfbf">This is no tools at all</font>
+
+98
+00:03:11,488 --> 00:03:13,280
+<font color="#bbbbbb">What is Pronto to be creative and</font>
+
+99
+00:03:14,048 --> 00:03:15,328
+<font color="#c0c0c0">And you will take a legal AG</font>
+
+100
+00:03:15,584 --> 00:03:18,400
+<font color="#c6c6c6">And that is prompted to be precise and risk averse</font>
+
+101
+00:03:19,168 --> 00:03:23,008
+<font color="#e7e7e7">These benefits here is a massive increase in quality and reliability</font>
+
+102
+00:03:23,520 --> 00:03:26,336
+<font color="#d1d1d1">You get the best of the worlds without the prom</font>
+
+103
+00:03:26,592 --> 00:03:27,872
+<font color="#d1d1d1">Heat of a monolithic agent</font>
+
+104
+00:03:28,128 --> 00:03:29,408
+<font color="#f5f5f5">The second reason is</font>
+
+105
+00:03:29,664 --> 00:03:30,688
+<font color="#b9b9b9">Polarization</font>
+
+106
+00:03:31,200 --> 00:03:32,992
+<font color="#cacaca">If a user's request contains</font>
+
+107
+00:03:33,248 --> 00:03:34,272
+<font color="#bdbdbd">Two or more</font>
+
+108
+00:03:34,784 --> 00:03:36,576
+<font color="#e8e8e8">That do not depend on each other</font>
+
+109
+00:03:36,832 --> 00:03:37,600
+<font color="#525252">A multi</font>
+
+110
+00:03:37,856 --> 00:03:38,368
+<font color="#c3c3c3">System can</font>
+
+111
+00:03:39,136 --> 00:03:39,648
+<font color="#666666">I'm concur</font>
+
+112
+00:03:40,416 --> 00:03:41,440
+<font color="#9b9b9b">Imagine a go</font>
+
+113
+00:03:41,696 --> 00:03:43,488
+<font color="#989898">Research on top three compet</font>
+
+114
+00:03:44,000 --> 00:03:45,792
+<font color="#d4d4d4">And also find the latest tech news</font>
+
+115
+00:03:46,560 --> 00:03:49,376
+<font color="#c5c5c5">Demolition will have to do this sequentially</font>
+
+116
+00:03:49,632 --> 00:03:51,680
+<font color="#9c9c9c">First it research to competitors</font>
+
+117
+00:03:51,936 --> 00:03:53,216
+<font color="#d5d5d5">Which takes 10 seconds</font>
+
+118
+00:03:53,728 --> 00:03:54,752
+<font color="#d3d3d3">Then it finds</font>
+
+119
+00:03:55,520 --> 00:03:57,056
+<font color="#d8d8d8">Which takes additional 5 Seconds</font>
+
+120
+00:03:57,568 --> 00:03:59,360
+<font color="#e2e2e2">And the total time for the user is</font>
+
+121
+00:03:59,616 --> 00:04:00,384
+<font color="#8c8c8c">What is 15</font>
+
+122
+00:04:00,896 --> 00:04:02,432
+<font color="#888888">A multi agent architect</font>
+
+123
+00:04:02,688 --> 00:04:04,480
+<font color="#737373">Can have these two independ</font>
+
+124
+00:04:04,736 --> 00:04:06,784
+<font color="#bcbcbc">Ask to do two different specialist AG</font>
+
+125
+00:04:07,296 --> 00:04:08,576
+<font color="#c8c8c8">And random in parallel</font>
+
+126
+00:04:08,832 --> 00:04:10,368
+<font color="#e6e6e6">For example agent</font>
+
+127
+00:04:10,624 --> 00:04:11,904
+<font color="#939393">Researchers competitors</font>
+
+128
+00:04:12,160 --> 00:04:14,976
+<font color="#b0b0b0">What's on at the same time Agent P find the</font>
+
+129
+00:04:15,488 --> 00:04:18,559
+<font color="#f5f5f5">The total time for the user is now only 10 seconds</font>
+
+130
+00:04:19,071 --> 00:04:20,607
+<font color="#efefef">Which is the time of the longest task</font>
+
+131
+00:04:21,119 --> 00:04:22,911
+<font color="#f6f6f6">This is a huge performance</font>
+
+132
+00:04:23,679 --> 00:04:26,751
+<font color="#d7d7d7">On the third major reason is debate and crit</font>
+
+133
+00:04:27,263 --> 00:04:29,823
+<font color="#e8e8e8">We have already learned about the reflection pattern</font>
+
+134
+00:04:30,079 --> 00:04:31,871
+<font color="#9c9c9c">What an agent tries to crit</font>
+
+135
+00:04:32,127 --> 00:04:32,639
+<font color="#919191">It's Amber</font>
+
+136
+00:04:33,151 --> 00:04:36,735
+<font color="#efefef">But a far more powerful implementation is to have another</font>
+
+137
+00:04:36,991 --> 00:04:38,015
+<font color="#6e6e6e">Specialized AG</font>
+
+138
+00:04:38,271 --> 00:04:39,295
+<font color="#8c8c8c">8 is the</font>
+
+139
+00:04:39,807 --> 00:04:42,367
+<font color="#dddddd">This is the writer critic model we have discussed</font>
+
+140
+00:04:42,879 --> 00:04:45,183
+<font color="#d9d9d9">One agent the writer agent produces</font>
+
+141
+00:04:45,439 --> 00:04:45,951
+<font color="#858585">A first</font>
+
+142
+00:04:46,463 --> 00:04:47,999
+<font color="#d1d1d1">The system that passes this</font>
+
+143
+00:04:48,255 --> 00:04:49,279
+<font color="#dcdcdc">Talk to the different agent</font>
+
+144
+00:04:49,535 --> 00:04:50,815
+<font color="#f5f5f5">Which is the critic agent</font>
+
+145
+00:04:51,071 --> 00:04:53,119
+<font color="#d0d0d0">Who's the only job is to find the floors</font>
+
+146
+00:04:53,631 --> 00:04:57,215
+<font color="#e4e4e4">This feedback is the best back to the writer agent for revision</font>
+
+147
+00:04:57,471 --> 00:05:01,055
+<font color="#b7b7b7">These team-based reflection is a Cornerstone of</font>
+
+148
+00:05:01,311 --> 00:05:02,847
+<font color="#a3a3a3">High quality agent system</font>
+
+149
+00:05:03,359 --> 00:05:05,919
+<font color="#d6d6d6">And it is a direct result of multi agent design</font>
+
+150
+00:05:07,455 --> 00:05:09,503
+<font color="#d6d6d6">To summarize these three powers</font>
+
+151
+00:05:09,759 --> 00:05:10,527
+<font color="#d1d1d1">Specialization</font>
+
+152
+00:05:10,783 --> 00:05:11,807
+<font color="#b4b4b4">Polarization</font>
+
+153
+00:05:12,063 --> 00:05:12,575
+<font color="#1b1b1b">UND</font>
+
+154
+00:05:12,831 --> 00:05:13,343
+<font color="#929292">Are the</font>
+
+155
+00:05:13,855 --> 00:05:17,951
+<font color="#d0d0d0">They are the reason we accepted complexity of a malt Asian architecture</font>
+
+156
+00:05:18,463 --> 00:05:18,975
+<font color="#b0b0b0">That</font>
+
+157
+00:05:19,231 --> 00:05:22,559
+<font color="#c7c7c7">Is the patterns we are about to cover in this section of the house</font>
+
+158
+00:05:23,071 --> 00:05:23,839
+<font color="#ececec">So we will learn</font>
+
+159
+00:05:24,095 --> 00:05:25,887
+<font color="#b6b6b6">The specific architectural blueprint</font>
+
+160
+00:05:26,143 --> 00:05:27,935
+<font color="#c7c7c7">Let's make this collaboration possible</font>
+
+161
+00:05:28,447 --> 00:05:30,751
+<font color="#b8b8b8">Including the router and specialist pattern</font>
+
+162
+00:05:31,007 --> 00:05:31,775
+<font color="#656565">Hand off but</font>
+
+163
+00:05:32,287 --> 00:05:33,311
+<font color="#515151">Group chat about</font>

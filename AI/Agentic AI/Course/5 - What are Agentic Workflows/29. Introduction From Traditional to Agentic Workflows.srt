@@ -1,0 +1,503 @@
+﻿1
+00:00:00,256 --> 00:00:01,280
+<font color="#e3e3e3">In this section</font>
+
+2
+00:00:01,536 --> 00:00:02,304
+<font color="#eeeeee">We are going to learn</font>
+
+3
+00:00:02,816 --> 00:00:04,352
+<font color="#d1d1d1">What are identical</font>
+
+4
+00:00:04,864 --> 00:00:05,632
+<font color="#7c7c7c">We will cover</font>
+
+5
+00:00:05,888 --> 00:00:07,680
+<font color="#a2a2a2">How do agent work clothes</font>
+
+6
+00:00:07,936 --> 00:00:09,728
+<font color="#949494">Atlantic orchestration pattern</font>
+
+7
+00:00:10,240 --> 00:00:10,752
+<font color="#383838">Dream</font>
+
+8
+00:00:11,008 --> 00:00:12,800
+<font color="#a3a3a3">And platforms for Willingboro</font>
+
+9
+00:00:13,824 --> 00:00:14,592
+<font color="#8a8a8a">We will expl</font>
+
+10
+00:00:15,616 --> 00:00:16,896
+<font color="#797979">Is Agency for clothes</font>
+
+11
+00:00:17,152 --> 00:00:17,920
+<font color="#dfdfdf">Are the key to building</font>
+
+12
+00:00:18,432 --> 00:00:19,200
+<font color="#7c7c7c">Truly comp</font>
+
+13
+00:00:20,224 --> 00:00:22,016
+<font color="#b8b8b8">Unreliable agentic applications</font>
+
+14
+00:00:22,784 --> 00:00:24,832
+<font color="#f8f8f8">To understand why they are so powerful</font>
+
+15
+00:00:25,088 --> 00:00:25,856
+<font color="#272727">Beam</font>
+
+16
+00:00:26,112 --> 00:00:27,136
+<font color="#e7e7e7">Look at the old</font>
+
+17
+00:00:27,648 --> 00:00:29,184
+<font color="#d3d3d3">Which is the traditional work</font>
+
+18
+00:00:29,952 --> 00:00:32,000
+<font color="#e7e7e7">So what is a traditional work</font>
+
+19
+00:00:32,512 --> 00:00:34,816
+<font color="#b3b3b3">It is a concept we are all familiar with</font>
+
+20
+00:00:35,072 --> 00:00:36,096
+<font color="#757575">Is the struct</font>
+
+21
+00:00:36,352 --> 00:00:37,888
+<font color="#c1c1c1">Repeatable sequence of</font>
+
+22
+00:00:38,400 --> 00:00:39,936
+<font color="#dadada">To achieve a business call</font>
+
+23
+00:00:40,448 --> 00:00:41,728
+<font color="#d8d8d8">This is the flow chart model</font>
+
+24
+00:00:41,984 --> 00:00:43,776
+<font color="#a8a8a8">The pet is predefined</font>
+
+25
+00:00:45,568 --> 00:00:46,080
+<font color="#8b8b8b">Is everybody</font>
+
+26
+00:00:46,592 --> 00:00:50,688
+<font color="#f2f2f2">From a business process model and notation model for formal diagrams</font>
+
+27
+00:00:51,200 --> 00:00:52,480
+<font color="#a8a8a8">Is cicd pipeline</font>
+
+28
+00:00:52,992 --> 00:00:56,576
+<font color="#d9d9d9">Which is the Unchained success of will test and deploy model</font>
+
+29
+00:00:56,832 --> 00:00:57,856
+<font color="#cccccc">An even simple</font>
+
+30
+00:00:58,112 --> 00:01:01,952
+<font color="#bebebe">Local tools like zapier or just when this happens to that</font>
+
+31
+00:01:02,464 --> 00:01:06,560
+<font color="#dcdcdc">The single most critical characteristic of a traditional workload is that</font>
+
+32
+00:01:07,072 --> 00:01:08,096
+<font color="#b0b0b0">It is determinist</font>
+
+33
+00:01:08,608 --> 00:01:09,120
+<font color="#f8f8f8">It is</font>
+
+34
+00:01:09,888 --> 00:01:11,168
+<font color="#e4e4e4">Given the same input</font>
+
+35
+00:01:11,424 --> 00:01:13,472
+<font color="#f1f1f1">It will execute the exact same steps</font>
+
+36
+00:01:13,728 --> 00:01:14,496
+<font color="#f9f9f9">Every single time</font>
+
+37
+00:01:15,520 --> 00:01:17,824
+<font color="#f1f1f1">What are the limits of the traditional work</font>
+
+38
+00:01:18,336 --> 00:01:20,896
+<font color="#d8d8d8">Traditional clothes are incredibly powerful</font>
+
+39
+00:01:21,152 --> 00:01:23,456
+<font color="#d4d4d4">For automating known unpredictable</font>
+
+40
+00:01:24,224 --> 00:01:26,528
+<font color="#f0f0f0">They provide reliability and efficiency</font>
+
+41
+00:01:26,784 --> 00:01:28,320
+<font color="#8c8c8c">Did you call limitation is</font>
+
+42
+00:01:28,576 --> 00:01:30,880
+<font color="#f3f3f3">They cannot handle ambiguity or</font>
+
+43
+00:01:31,136 --> 00:01:32,160
+<font color="#f2f2f2">Unexpected input</font>
+
+44
+00:01:32,672 --> 00:01:33,184
+<font color="#5e5e5e">Dial</font>
+
+45
+00:01:33,696 --> 00:01:36,000
+<font color="#b4b4b4">They are designed for a perfect world scenario</font>
+
+46
+00:01:36,256 --> 00:01:36,768
+<font color="#444444">On</font>
+
+47
+00:01:37,024 --> 00:01:38,304
+<font color="#939393">As soon as they encount</font>
+
+48
+00:01:38,560 --> 00:01:39,584
+<font color="#d9d9d9">Ambiguity</font>
+
+49
+00:01:39,840 --> 00:01:40,864
+<font color="#a2a2a2">Unexpected in</font>
+
+50
+00:01:41,632 --> 00:01:44,192
+<font color="#dfdfdf">Let's take a simple customer support workload</font>
+
+51
+00:01:44,448 --> 00:01:46,496
+<font color="#dbdbdb">The rules if the email contains</font>
+
+52
+00:01:46,752 --> 00:01:47,776
+<font color="#8d8d8d">Is the word ref</font>
+
+53
+00:01:48,032 --> 00:01:49,568
+<font color="#b9b9b9">Rocky to the building</font>
+
+54
+00:01:50,336 --> 00:01:51,104
+<font color="#aaaaaa">This</font>
+
+55
+00:01:51,872 --> 00:01:55,712
+<font color="#d8d8d8">Until a customer right is it my last order was wrong I want</font>
+
+56
+00:01:55,968 --> 00:01:56,736
+<font color="#f3f3f3">My money</font>
+
+57
+00:01:57,248 --> 00:01:58,272
+<font color="#e5e5e5">In the customer</font>
+
+58
+00:01:58,528 --> 00:01:59,808
+<font color="#c5c5c5">What's the internet is identical</font>
+
+59
+00:02:00,576 --> 00:02:01,600
+<font color="#a8a8a8">The keyboard are Miss</font>
+
+60
+00:02:02,112 --> 00:02:03,392
+<font color="#a4a4a4">The deterministic work</font>
+
+61
+00:02:03,648 --> 00:02:05,184
+<font color="#e1e1e1">Doesn't understand the intent</font>
+
+62
+00:02:05,440 --> 00:02:06,208
+<font color="#f3f3f3">So it</font>
+
+63
+00:02:06,464 --> 00:02:08,768
+<font color="#c6c6c6">Probably rotting this ticket to a Jenner</font>
+
+64
+00:02:09,024 --> 00:02:09,792
+<font color="#bbbbbb">Play Slow support</font>
+
+65
+00:02:10,304 --> 00:02:14,144
+<font color="#d8d8d8">So this is the problem that the agency workload is designed to</font>
+
+66
+00:02:14,912 --> 00:02:17,472
+<font color="#e4e4e4">An identical is a stateful architecture</font>
+
+67
+00:02:17,728 --> 00:02:19,776
+<font color="#b7b7b7">That uses a large language model</font>
+
+68
+00:02:20,032 --> 00:02:22,592
+<font color="#cccccc">Reasoning ability to dynamically wrote tasks</font>
+
+69
+00:02:22,848 --> 00:02:24,128
+<font color="#dcdcdc">Between different agents</font>
+
+70
+00:02:25,152 --> 00:02:27,200
+<font color="#f0f0f0">The analogy is no longer</font>
+
+71
+00:02:27,456 --> 00:02:28,736
+<font color="#525252">Play Factory assembly</font>
+
+72
+00:02:28,992 --> 00:02:30,272
+<font color="#909090">Do you need analogy</font>
+
+73
+00:02:30,528 --> 00:02:31,808
+<font color="#b0b0b0">60 project manager</font>
+
+74
+00:02:32,320 --> 00:02:35,648
+<font color="#d8d8d8">A project manager doesn't just follow aesthetic flow chart</font>
+
+75
+00:02:36,160 --> 00:02:38,464
+<font color="#f4f4f4">They receive any piece of information</font>
+
+76
+00:02:38,720 --> 00:02:41,280
+<font color="#ececec">They assess the current state of the project</font>
+
+77
+00:02:41,536 --> 00:02:43,072
+<font color="#b7b7b7">And they use their reasoning</font>
+
+78
+00:02:43,328 --> 00:02:43,840
+<font color="#878787">To deck</font>
+
+79
+00:02:44,096 --> 00:02:44,608
+<font color="#8c8c8c">What</font>
+
+80
+00:02:44,864 --> 00:02:45,632
+<font color="#d9d9d9">Next best step</font>
+
+81
+00:02:46,144 --> 00:02:49,216
+<font color="#b9b9b9">This is exactly how an energetic workload oper</font>
+
+82
+00:02:49,728 --> 00:02:53,312
+<font color="#c2c2c2">And the key difference is between traditional and agent of their clothes</font>
+
+83
+00:02:53,568 --> 00:02:55,360
+<font color="#dedede">The pet is not defined in advance</font>
+
+84
+00:02:55,616 --> 00:02:57,152
+<font color="#e9e9e9">It is decided at run</font>
+
+85
+00:02:57,664 --> 00:02:59,968
+<font color="#a5a5a5">The new model has three key characteristics</font>
+
+86
+00:03:00,224 --> 00:03:02,016
+<font color="#b3b3b3">Did everyone understand</font>
+
+87
+00:03:03,040 --> 00:03:03,808
+<font color="#6d6d6d">What's 80 state</font>
+
+88
+00:03:04,320 --> 00:03:07,392
+<font color="#e0e0e0">The workload has a memory often called a state</font>
+
+89
+00:03:07,648 --> 00:03:08,672
+<font color="#c4c4c4">Is the greatest pet memory</font>
+
+90
+00:03:08,928 --> 00:03:09,952
+<font color="#999999">That is passed between</font>
+
+91
+00:03:10,208 --> 00:03:10,720
+<font color="#a3a3a3">In every</font>
+
+92
+00:03:11,232 --> 00:03:13,024
+<font color="#8f8f8f">Dissipate accumulates cont</font>
+
+93
+00:03:13,280 --> 00:03:14,304
+<font color="#b8b8b8">Like user query</font>
+
+94
+00:03:14,560 --> 00:03:15,072
+<font color="#6a6a6a">Play and</font>
+
+95
+00:03:15,328 --> 00:03:16,096
+<font color="#7d7d7d">Research dat</font>
+
+96
+00:03:16,864 --> 00:03:17,632
+<font color="#f2f2f2">Second</font>
+
+97
+00:03:17,888 --> 00:03:18,656
+<font color="#7a7a7a">Is 111</font>
+
+98
+00:03:19,168 --> 00:03:20,192
+<font color="#a6a6a6">The call rotting</font>
+
+99
+00:03:20,704 --> 00:03:21,728
+<font color="#dfdfdf">Which is the East State</font>
+
+100
+00:03:21,984 --> 00:03:22,496
+<font color="#d2d2d2">Is</font>
+
+101
+00:03:22,752 --> 00:03:24,032
+<font color="#9b9b9b">Is buy an alarm called</font>
+
+102
+00:03:24,288 --> 00:03:25,312
+<font color="#969696">Do manager</font>
+
+103
+00:03:25,568 --> 00:03:26,848
+<font color="#c8c8c8">St Luke's at the current state</font>
+
+104
+00:03:27,104 --> 00:03:28,128
+<font color="#bfbfbf">And reasons about</font>
+
+105
+00:03:28,384 --> 00:03:29,152
+<font color="#f0f0f0">What what to do next</font>
+
+106
+00:03:29,920 --> 00:03:30,688
+<font color="#b9b9b9">On the third</font>
+
+107
+00:03:30,944 --> 00:03:31,968
+<font color="#afafaf">Turn on the result of</font>
+
+108
+00:03:32,224 --> 00:03:34,528
+<font color="#9f9f9f">Is that the workload becomes non-deterministic</font>
+
+109
+00:03:34,784 --> 00:03:35,808
+<font color="#5e5e5e">Play or adapt</font>
+
+110
+00:03:36,320 --> 00:03:38,112
+<font color="#f4f4f4">Because the alarm is making the choice</font>
+
+111
+00:03:38,368 --> 00:03:39,904
+<font color="#d4d4d4">The pet is no longer fix</font>
+
+112
+00:03:40,160 --> 00:03:42,976
+<font color="#c2c2c2">It can correctly wrote the money back email</font>
+
+113
+00:03:43,232 --> 00:03:47,072
+<font color="#ececec">It can decide a task need a search tool and a calculator tool</font>
+
+114
+00:03:47,584 --> 00:03:48,864
+<font color="#f3f3f3">It can even decide that</font>
+
+115
+00:03:49,120 --> 00:03:50,400
+<font color="#c1c1c1">It is first item</font>
+
+116
+00:03:50,912 --> 00:03:54,240
+<font color="#cbcbcb">I need needs to look back and try again with a different app</font>
+
+117
+00:03:55,264 --> 00:03:56,800
+<font color="#e4e4e4">Is it somebody we can say that</font>
+
+118
+00:03:57,056 --> 00:03:59,872
+<font color="#949494">The traditional clothes are aesthetic flowchart</font>
+
+119
+00:04:00,128 --> 00:04:02,176
+<font color="#888888">Deterministic rigid and brittle</font>
+
+120
+00:04:02,688 --> 00:04:03,712
+<font color="#7d7d7d">Identical</font>
+
+121
+00:04:03,968 --> 00:04:05,760
+<font color="#cfcfcf">Are adaptive project manager</font>
+
+122
+00:04:06,784 --> 00:04:07,552
+<font color="#232323">111</font>
+
+123
+00:04:07,808 --> 00:04:08,832
+<font color="#5e5e5e">A non determinist</font>
+
+124
+00:04:09,088 --> 00:04:11,136
+<font color="#b1b1b1">Is Bulls the flowchart a run</font>
+
+125
+00:04:11,904 --> 00:04:14,720
+<font color="#f3f3f3">This is the architecture for building complex</font>
+
+126
+00:04:14,976 --> 00:04:15,744
+<font color="#626262">AI applic</font>

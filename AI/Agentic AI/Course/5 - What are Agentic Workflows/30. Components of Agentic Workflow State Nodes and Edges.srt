@@ -1,0 +1,671 @@
+﻿1
+00:00:00,256 --> 00:00:01,280
+<font color="#f3f3f3">In this video</font>
+
+2
+00:00:01,536 --> 00:00:02,304
+<font color="#f3f3f3">We are going to learn</font>
+
+3
+00:00:02,560 --> 00:00:04,608
+<font color="#d9d9d9">Components of agentic work</font>
+
+4
+00:00:05,120 --> 00:00:06,912
+<font color="#eaeaea">Do you know why we need work</font>
+
+5
+00:00:07,424 --> 00:00:08,448
+<font color="#b3b3b3">To build complex</font>
+
+6
+00:00:08,704 --> 00:00:09,216
+<font color="#d7d7d7">State</font>
+
+7
+00:00:09,472 --> 00:00:09,984
+<font color="#d3d3d3">Applications</font>
+
+8
+00:00:10,240 --> 00:00:12,544
+<font color="#b8b8b8">By composing simple module agents</font>
+
+9
+00:00:13,056 --> 00:00:13,824
+<font color="#e6e6e6">No</font>
+
+10
+00:00:14,080 --> 00:00:14,592
+<font color="#5f5f5f">What's OS</font>
+
+11
+00:00:15,104 --> 00:00:16,384
+<font color="#c5c5c5">How are these work clothes</font>
+
+12
+00:00:16,640 --> 00:00:17,920
+<font color="#f1f1f1">Technically constructed</font>
+
+13
+00:00:18,432 --> 00:00:20,736
+<font color="#f8f8f8">What are the actual Architectural Components</font>
+
+14
+00:00:20,992 --> 00:00:22,016
+<font color="#9c9c9c">That make them</font>
+
+15
+00:00:22,784 --> 00:00:25,600
+<font color="#d5d5d5">So in this lecture we will put on our Arctic Cat</font>
+
+16
+00:00:25,856 --> 00:00:28,672
+<font color="#ababab">I learned the anatomy of a modern agriculture</font>
+
+17
+00:00:29,184 --> 00:00:31,232
+<font color="#f4f4f4">We will find that it is composed of</font>
+
+18
+00:00:31,488 --> 00:00:32,768
+<font color="#bfbfbf">Today fundamental parts</font>
+
+19
+00:00:34,048 --> 00:00:36,352
+<font color="#cbcbcb">If you look at any Atlantic workload</font>
+
+20
+00:00:36,608 --> 00:00:40,704
+<font color="#adadad">Weather is good with the landcraft Microsoft framework or custom code</font>
+
+21
+00:00:40,960 --> 00:00:43,264
+<font color="#f3f3f3">We will find these three core components</font>
+
+22
+00:00:43,776 --> 00:00:44,544
+<font color="#fafafa">The first one is</font>
+
+23
+00:00:44,800 --> 00:00:45,312
+<font color="#ebebeb">The</font>
+
+24
+00:00:45,568 --> 00:00:48,384
+<font color="#eeeeee">This is the s*** memory of the entire process</font>
+
+25
+00:00:48,896 --> 00:00:50,432
+<font color="#e3e3e3">It is an object that takes</font>
+
+26
+00:00:50,688 --> 00:00:51,968
+<font color="#e1e1e1">Is the current status of the</font>
+
+27
+00:00:52,480 --> 00:00:53,760
+<font color="#c2c2c2">What is the user query</font>
+
+28
+00:00:54,016 --> 00:00:55,040
+<font color="#757575">And research d</font>
+
+29
+00:00:55,808 --> 00:00:56,832
+<font color="#e3e3e3">And the second one</font>
+
+30
+00:00:57,088 --> 00:00:57,600
+<font color="#909090">The knot</font>
+
+31
+00:00:58,112 --> 00:00:59,648
+<font color="#f4f4f4">These are our workers</font>
+
+32
+00:00:59,904 --> 00:01:02,720
+<font color="#e9e9e9">The agents or tools that actually perform the</font>
+
+33
+00:01:03,488 --> 00:01:07,072
+<font color="#d0d0d0">This is our research agent or our Sunrise agent</font>
+
+34
+00:01:07,584 --> 00:01:08,608
+<font color="#dedede">On the third one</font>
+
+35
+00:01:08,864 --> 00:01:09,376
+<font color="#7f7f7f">What is the</font>
+
+36
+00:01:09,888 --> 00:01:10,912
+<font color="#cbcbcb">This is the rotten</font>
+
+37
+00:01:11,424 --> 00:01:13,728
+<font color="#f0f0f0">It is the manager that looks at the state</font>
+
+38
+00:01:13,984 --> 00:01:14,752
+<font color="#a9a9a9">And this</font>
+
+39
+00:01:15,008 --> 00:01:16,544
+<font color="#cacaca">Which note to Santa job to</font>
+
+40
+00:01:17,312 --> 00:01:19,872
+<font color="#e7e7e7">Here you can see the image for the agentic</font>
+
+41
+00:01:20,128 --> 00:01:21,152
+<font color="#9b9b9b">We have a</font>
+
+42
+00:01:22,176 --> 00:01:22,688
+<font color="#959595">On the</font>
+
+43
+00:01:24,480 --> 00:01:26,272
+<font color="#a3a3a3">You can't think of the factory</font>
+
+44
+00:01:26,528 --> 00:01:27,808
+<font color="#b1b1b1">Understate is</font>
+
+45
+00:01:28,064 --> 00:01:29,088
+<font color="#7e7e7e">Put shade parts</font>
+
+46
+00:01:30,112 --> 00:01:31,648
+<font color="#c2c2c2">What are the actual work</font>
+
+47
+00:01:31,904 --> 00:01:32,672
+<font color="#bdbdbd">Start from the</font>
+
+48
+00:01:33,184 --> 00:01:35,488
+<font color="#bababa">And we have AIDS and these</font>
+
+49
+00:01:35,744 --> 00:01:37,792
+<font color="#c5c5c5">Represent the managers decision</font>
+
+50
+00:01:38,048 --> 00:01:39,840
+<font color="#e1e1e1">On where to move the next</font>
+
+51
+00:01:41,120 --> 00:01:43,936
+<font color="#d4d4d4">Let's deep dive into this components one by one</font>
+
+52
+00:01:44,192 --> 00:01:45,216
+<font color="#fbfbfb">The first one is</font>
+
+53
+00:01:45,472 --> 00:01:45,984
+<font color="#919191">What is the</font>
+
+54
+00:01:46,496 --> 00:01:49,056
+<font color="#eaeaea">This is the arguably the most critical piece</font>
+
+55
+00:01:49,568 --> 00:01:52,640
+<font color="#dadada">Take me to the state is just a stateful object</font>
+
+56
+00:01:53,152 --> 00:01:56,480
+<font color="#ececec">You can think of a Json object or a python dictionary</font>
+
+57
+00:01:56,736 --> 00:01:57,760
+<font color="#a9a9a9">That is passed</font>
+
+58
+00:01:58,016 --> 00:01:58,784
+<font color="#8b8b8b">Homestead to</font>
+
+59
+00:01:59,296 --> 00:02:02,112
+<font color="#ebebeb">It is the single source of fruit for the work</font>
+
+60
+00:02:02,624 --> 00:02:03,392
+<font color="#e8e8e8">For example</font>
+
+61
+00:02:03,648 --> 00:02:04,928
+<font color="#a3a3a3">When a girl begins</font>
+
+62
+00:02:05,184 --> 00:02:06,720
+<font color="#f4f4f4">The state might look like this</font>
+
+63
+00:02:07,232 --> 00:02:07,744
+<font color="#d4d4d4">It contains</font>
+
+64
+00:02:08,000 --> 00:02:09,024
+<font color="#b3b3b3">The user credit</font>
+
+65
+00:02:09,280 --> 00:02:10,816
+<font color="#e0e0e0">And all other fields are</font>
+
+66
+00:02:11,584 --> 00:02:12,352
+<font color="#e8e8e8">After</font>
+
+67
+00:02:12,608 --> 00:02:14,400
+<font color="#a5a5a5">Like our research AG</font>
+
+68
+00:02:15,424 --> 00:02:18,752
+<font color="#f4f4f4">It is only job is to take the user credit from the state</font>
+
+69
+00:02:19,008 --> 00:02:20,032
+<font color="#8b8b8b">Performance</font>
+
+70
+00:02:20,544 --> 00:02:23,104
+<font color="#d2d2d2">And then it is finding back into the state</font>
+
+71
+00:02:23,616 --> 00:02:24,640
+<font color="#c2c2c2">As you can see</font>
+
+72
+00:02:24,896 --> 00:02:27,712
+<font color="#f1f1f1">The state object is modified and now contains</font>
+
+73
+00:02:27,968 --> 00:02:28,992
+<font color="#e9e9e9">Did you search data</font>
+
+74
+00:02:29,504 --> 00:02:31,296
+<font color="#cfcfcf">On this the state object is the memory</font>
+
+75
+00:02:31,552 --> 00:02:33,344
+<font color="#b9b9b9">Play that will be passed to the</font>
+
+76
+00:02:35,392 --> 00:02:36,928
+<font color="#f7f7f7">We can go to the second component</font>
+
+77
+00:02:37,184 --> 00:02:37,952
+<font color="#d8d8d8">Which is the knot</font>
+
+78
+00:02:38,464 --> 00:02:39,744
+<font color="#bebebe">These are our work</font>
+
+79
+00:02:40,256 --> 00:02:44,352
+<font color="#dedede">A note is any function tool or most commonly an agent</font>
+
+80
+00:02:44,608 --> 00:02:45,376
+<font color="#393939">Deadpool</font>
+
+81
+00:02:45,632 --> 00:02:46,400
+<font color="#888888">What's one dis</font>
+
+82
+00:02:46,912 --> 00:02:47,680
+<font color="#808080">Specialized tasks</font>
+
+83
+00:02:48,448 --> 00:02:49,472
+<font color="#d7d7d7">It is job is simple</font>
+
+84
+00:02:49,984 --> 00:02:52,032
+<font color="#f2f2f2">Read the data it needs from the state</font>
+
+85
+00:02:52,288 --> 00:02:53,056
+<font color="#ebebeb">Execute</font>
+
+86
+00:02:54,080 --> 00:02:55,104
+<font color="#4d4d4d">Android is</font>
+
+87
+00:02:55,360 --> 00:02:56,128
+<font color="#e3e3e3">Back to the state</font>
+
+88
+00:02:56,640 --> 00:02:58,688
+<font color="#d9d9d9">The key architectural principal here</font>
+
+89
+00:02:58,944 --> 00:02:59,712
+<font color="#9f9f9f">Is modular</font>
+
+90
+00:03:00,224 --> 00:03:00,992
+<font color="#b8b8b8">Did you search</font>
+
+91
+00:03:01,248 --> 00:03:04,832
+<font color="#c2c2c2">Only knows how to research the summary note on the</font>
+
+92
+00:03:05,088 --> 00:03:05,856
+<font color="#b8b8b8">How to summarize</font>
+
+93
+00:03:06,368 --> 00:03:07,392
+<font color="#e7e7e7">This is critical</font>
+
+94
+00:03:07,648 --> 00:03:09,952
+<font color="#aeaeae">Do not dance service are status</font>
+
+95
+00:03:10,208 --> 00:03:12,512
+<font color="#cdcdcd">They are given the current state of the world</font>
+
+96
+00:03:12,768 --> 00:03:14,304
+<font color="#a1a1a1">They perform their single</font>
+
+97
+00:03:14,816 --> 00:03:16,352
+<font color="#9b9b9b">And Daisy turn the update</font>
+
+98
+00:03:16,608 --> 00:03:18,400
+<font color="#bebebe">For example the summary</font>
+
+99
+00:03:18,656 --> 00:03:20,192
+<font color="#b7b7b7">Doesn't know or care</font>
+
+100
+00:03:20,448 --> 00:03:21,472
+<font color="#c9c9c9">The research</font>
+
+101
+00:03:21,728 --> 00:03:22,496
+<font color="#ececec">Run before</font>
+
+102
+00:03:23,008 --> 00:03:25,568
+<font color="#e0e0e0">It only cares that research data exist</font>
+
+103
+00:03:25,824 --> 00:03:26,848
+<font color="#dddddd">Is in the state object</font>
+
+104
+00:03:27,104 --> 00:03:27,616
+<font color="#b1b1b1">It was giv</font>
+
+105
+00:03:28,384 --> 00:03:31,456
+<font color="#ededed">So finally we have a component today which is the</font>
+
+106
+00:03:32,224 --> 00:03:34,016
+<font color="#c8c8c8">If notes are the workers stations</font>
+
+107
+00:03:34,272 --> 00:03:35,808
+<font color="#a2a2a2">Does AIDS are the manager</font>
+
+108
+00:03:36,064 --> 00:03:38,368
+<font color="#ececec">Who directs the full of work between them</font>
+
+109
+00:03:38,880 --> 00:03:39,648
+<font color="#282828">NH</font>
+
+110
+00:03:39,904 --> 00:03:41,440
+<font color="#d9d9d9">Simply the logic that</font>
+
+111
+00:03:42,464 --> 00:03:45,024
+<font color="#dcdcdc">It is job is to read the current state</font>
+
+112
+00:03:45,280 --> 00:03:45,792
+<font color="#343434">Unda</font>
+
+113
+00:03:46,048 --> 00:03:47,328
+<font color="#f0f0f0">Which note to execute next</font>
+
+114
+00:03:48,096 --> 00:03:49,632
+<font color="#999999">In a traditional workload</font>
+
+115
+00:03:49,888 --> 00:03:50,656
+<font color="#dddddd">This age</font>
+
+116
+00:03:50,912 --> 00:03:52,960
+<font color="#cacaca">Is just a deterministic if statement</font>
+
+117
+00:03:53,472 --> 00:03:56,288
+<font color="#efefef">For example if research data is not normal</font>
+
+118
+00:03:56,544 --> 00:03:57,568
+<font color="#dadada">Then go to the summary</font>
+
+119
+00:03:58,336 --> 00:04:00,128
+<font color="#c1c1c1">But in an identical</font>
+
+120
+00:04:00,384 --> 00:04:02,688
+<font color="#c6c6c6">This is why we inject the llm reasoning</font>
+
+121
+00:04:03,200 --> 00:04:03,968
+<font color="#a8a8a8">The age it</font>
+
+122
+00:04:04,224 --> 00:04:05,248
+<font color="#dbdbdb">Is an alarm call</font>
+
+123
+00:04:05,504 --> 00:04:06,784
+<font color="#7b7b7b">It asked the alarm</font>
+
+124
+00:04:07,040 --> 00:04:08,064
+<font color="#b4b4b4">Give me the current</font>
+
+125
+00:04:08,320 --> 00:04:09,856
+<font color="#eaeaea">Which agent should I call</font>
+
+126
+00:04:10,368 --> 00:04:12,160
+<font color="#b5b5b5">Little Soldier the summarizer</font>
+
+127
+00:04:12,416 --> 00:04:13,440
+<font color="#b2b2b2">Or are we</font>
+
+128
+00:04:14,208 --> 00:04:18,815
+<font color="#d0d0d0">Is what makes the workload adaptive and intelligent</font>
+
+129
+00:04:19,071 --> 00:04:20,351
+<font color="#f4f4f4">This is the project manager</font>
+
+130
+00:04:20,863 --> 00:04:25,983
+<font color="#c3c3c3">Turn on let's put it together and raise the floor of one job through this anat</font>
+
+131
+00:04:26,751 --> 00:04:27,263
+<font color="#eeeeee">First of</font>
+
+132
+00:04:27,519 --> 00:04:28,543
+<font color="#8f8f8f">The workload</font>
+
+133
+00:04:28,799 --> 00:04:30,847
+<font color="#c1c1c1">And the user created populates the</font>
+
+134
+00:04:31,359 --> 00:04:33,663
+<font color="#b7b7b7">Here you can see the starting and we have a state</font>
+
+135
+00:04:34,175 --> 00:04:35,455
+<font color="#aaaaaa">And second and</font>
+
+136
+00:04:35,711 --> 00:04:38,015
+<font color="#a5a5a5">Are manager llm is invoked</font>
+
+137
+00:04:38,271 --> 00:04:40,319
+<font color="#dbdbdb">It looks at the state and</font>
+
+138
+00:04:40,575 --> 00:04:41,855
+<font color="#c2c2c2">There is no research dat</font>
+
+139
+00:04:42,111 --> 00:04:44,415
+<font color="#d7d7d7">I need to write to do research note</font>
+
+140
+00:04:44,927 --> 00:04:45,951
+<font color="#bababa">So at the Third</font>
+
+141
+00:04:46,207 --> 00:04:47,487
+<font color="#c4c4c4">The research note</font>
+
+142
+00:04:47,999 --> 00:04:49,279
+<font color="#949494">This is our work or not</font>
+
+143
+00:04:49,535 --> 00:04:51,583
+<font color="#cfcfcf">It reads the Creator from the state</font>
+
+144
+00:04:51,839 --> 00:04:52,863
+<font color="#8d8d8d">On course</font>
+
+145
+00:04:53,631 --> 00:04:55,935
+<font color="#c1c1c1">An update the state which is findings</font>
+
+146
+00:04:56,703 --> 00:04:58,239
+<font color="#e6e6e6">On the first step is the</font>
+
+147
+00:04:58,495 --> 00:04:59,007
+<font color="#d2d2d2">Once again</font>
+
+148
+00:04:59,519 --> 00:05:01,823
+<font color="#d2d2d2">It looks at the new state and says that</font>
+
+149
+00:05:02,335 --> 00:05:06,175
+<font color="#e3e3e3">Now we have a research data I need the route to do summary</font>
+
+150
+00:05:06,943 --> 00:05:09,503
+<font color="#b5b5b5">So 85th stage we have a summary note</font>
+
+151
+00:05:09,759 --> 00:05:10,783
+<font color="#818181">Answer me or not</font>
+
+152
+00:05:11,295 --> 00:05:12,575
+<font color="#eaeaea">It basically</font>
+
+153
+00:05:12,831 --> 00:05:14,623
+<font color="#e7e7e7">What's the research data from the state</font>
+
+154
+00:05:14,879 --> 00:05:15,647
+<font color="#afafaf">Summarize</font>
+
+155
+00:05:16,159 --> 00:05:17,951
+<font color="#c2c2c2">And it's the somebody to the state</font>
+
+156
+00:05:18,463 --> 00:05:19,231
+<font color="#dbdbdb">I'm finally</font>
+
+157
+00:05:19,487 --> 00:05:21,023
+<font color="#b4b4b4">The 8th runs a third</font>
+
+158
+00:05:21,535 --> 00:05:22,559
+<font color="#dcdcdc">It looks at the</font>
+
+159
+00:05:22,815 --> 00:05:24,607
+<font color="#c7c7c7">Ancestor somebody is complete</font>
+
+160
+00:05:24,863 --> 00:05:26,911
+<font color="#b1b1b1">On Roosevelt Club to the Finish note</font>
+
+161
+00:05:27,423 --> 00:05:29,471
+<font color="#f2f2f2">So is there somebody we can say that</font>
+
+162
+00:05:29,983 --> 00:05:33,055
+<font color="#eaeaea">The state is persistent shared memory of the</font>
+
+163
+00:05:34,079 --> 00:05:34,847
+<font color="#727272">What's the other work</font>
+
+164
+00:05:35,103 --> 00:05:37,407
+<font color="#d2d2d2">Modular agents that perform the task</font>
+
+165
+00:05:37,663 --> 00:05:39,455
+<font color="#777777">It's all the rotting log</font>
+
+166
+00:05:39,711 --> 00:05:41,247
+<font color="#c7c7c7">Which is the 1119</font>
+
+167
+00:05:41,503 --> 00:05:42,783
+<font color="#b9b9b9">That reads the</font>
+
+168
+00:05:43,039 --> 00:05:44,575
+<font color="#c3c3c3">And decide which not to call</font>

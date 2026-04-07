@@ -1,0 +1,575 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f4f4f4">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,048
+<font color="#eeeeee">We are going to learn</font>
+
+3
+00:00:02,304 --> 00:00:04,864
+<font color="#b8b8b8">Turn Microsoft agent framework for multi</font>
+
+4
+00:00:06,144 --> 00:00:07,680
+<font color="#f2f2f2">So you may hurt about</font>
+
+5
+00:00:07,936 --> 00:00:09,472
+<font color="#d7d7d7">Two popular Microsoft Project</font>
+
+6
+00:00:09,728 --> 00:00:10,240
+<font color="#787878">What</font>
+
+7
+00:00:10,496 --> 00:00:12,800
+<font color="#c9c9c9">Which was brilliant at multi agent collaboration</font>
+
+8
+00:00:13,312 --> 00:00:14,336
+<font color="#3d3d3d">On semantic Kern</font>
+
+9
+00:00:14,592 --> 00:00:16,640
+<font color="#f2f2f2">Which was designed for Enterprise</font>
+
+10
+00:00:17,408 --> 00:00:18,432
+<font color="#b0b0b0">Most unsafe agent</font>
+
+11
+00:00:19,712 --> 00:00:20,736
+<font color="#8f8f8f">Is off recently</font>
+
+12
+00:00:20,992 --> 00:00:22,528
+<font color="#e5e5e5">The teams behind both</font>
+
+13
+00:00:23,040 --> 00:00:24,064
+<font color="#e0e0e0">Have United to</font>
+
+14
+00:00:24,320 --> 00:00:25,344
+<font color="#bababa">Is the official success</font>
+
+15
+00:00:25,856 --> 00:00:27,648
+<font color="#c5c5c5">This is the Microsoft agent fr</font>
+
+16
+00:00:27,904 --> 00:00:28,672
+<font color="#cdcdcd">Or we can</font>
+
+17
+00:00:29,696 --> 00:00:30,720
+<font color="#e6e6e6">So this</font>
+
+18
+00:00:30,976 --> 00:00:32,256
+<font color="#959595">What is the name next Jenner</font>
+
+19
+00:00:32,512 --> 00:00:33,024
+<font color="#b7b7b7">Location of the</font>
+
+20
+00:00:33,536 --> 00:00:35,072
+<font color="#646464">What are John and semantic Journal</font>
+
+21
+00:00:35,840 --> 00:00:37,888
+<font color="#cacaca">It is designed to be unified Foundation</font>
+
+22
+00:00:38,144 --> 00:00:39,424
+<font color="#969696">For building</font>
+
+23
+00:00:39,680 --> 00:00:40,704
+<font color="#d1d1d1">What's on the Microsoft</font>
+
+24
+00:00:41,216 --> 00:00:45,056
+<font color="#e7e7e7">So to understand the architecture of the new Microsoft agent framework</font>
+
+25
+00:00:45,312 --> 00:00:46,336
+<font color="#f5f5f5">You have to understand</font>
+
+26
+00:00:46,592 --> 00:00:47,616
+<font color="#c8c8c8">What it was created</font>
+
+27
+00:00:48,128 --> 00:00:49,152
+<font color="#d9d9d9">For the past years</font>
+
+28
+00:00:49,408 --> 00:00:50,688
+<font color="#afafaf">Architects face a choice</font>
+
+29
+00:00:50,944 --> 00:00:52,224
+<font color="#c4c4c4">Do I use AutoZone</font>
+
+30
+00:00:52,736 --> 00:00:56,832
+<font color="#bcbcbc">It was fantastic for quickly prototyping complex multi agent collaborations</font>
+
+31
+00:00:57,344 --> 00:00:59,136
+<font color="#d6d6d6">It is conversation first model</font>
+
+32
+00:00:59,392 --> 00:00:59,904
+<font color="#a3a3a3">On group</font>
+
+33
+00:01:00,672 --> 00:01:01,952
+<font color="#dedede">Was simple and Powerful</font>
+
+34
+00:01:02,464 --> 00:01:04,256
+<font color="#c8c8c8">What do I use Symantec</font>
+
+35
+00:01:04,768 --> 00:01:06,560
+<font color="#efefef">It was good for the Enterprise</font>
+
+36
+00:01:08,352 --> 00:01:09,632
+<font color="#c7c7c7">Middleware for safety</font>
+
+37
+00:01:09,888 --> 00:01:10,656
+<font color="#7f7f7f">Play answer</font>
+
+38
+00:01:11,680 --> 00:01:12,192
+<font color="#a8a8a8">What is State Management</font>
+
+39
+00:01:12,960 --> 00:01:14,240
+<font color="#e0e0e0">Microsoft agent framework</font>
+
+40
+00:01:14,496 --> 00:01:16,288
+<font color="#727272">Was Bluetooth antis d</font>
+
+41
+00:01:16,800 --> 00:01:19,360
+<font color="#ebebeb">It is goal is to be the best of both</font>
+
+42
+00:01:19,872 --> 00:01:22,944
+<font color="#bdbdbd">To combine the simple powerful multi agent patterns of Auto</font>
+
+43
+00:01:23,456 --> 00:01:27,040
+<font color="#b4b4b4">Video production lady Enterprise great features of semantic colon</font>
+
+44
+00:01:27,808 --> 00:01:29,088
+<font color="#d3d3d3">So now let's understand</font>
+
+45
+00:01:29,344 --> 00:01:30,112
+<font color="#9f9f9f">Are the call capabilities</font>
+
+46
+00:01:30,624 --> 00:01:33,184
+<font color="#ececec">On the first capability is the foundation</font>
+
+47
+00:01:33,440 --> 00:01:35,488
+<font color="#f8f8f8">Which is the individual Enterprise agent</font>
+
+48
+00:01:35,744 --> 00:01:37,792
+<font color="#eeeeee">Which inherits the best part of the</font>
+
+49
+00:01:38,816 --> 00:01:39,584
+<font color="#666666">Dismiss</font>
+
+50
+00:01:39,840 --> 00:01:40,864
+<font color="#dadada">Every agent</font>
+
+51
+00:01:41,120 --> 00:01:42,656
+<font color="#e2e2e2">It comes with the Enterprise features</font>
+
+52
+00:01:42,912 --> 00:01:43,424
+<font color="#9c9c9c">List all of the</font>
+
+53
+00:01:44,192 --> 00:01:46,240
+<font color="#dadada">It is also a middleware system</font>
+
+54
+00:01:46,496 --> 00:01:47,520
+<font color="#aeaeae">Open court</font>
+
+55
+00:01:48,032 --> 00:01:51,104
+<font color="#ababab">I love you to intercept agent actions for security</font>
+
+56
+00:01:51,360 --> 00:01:52,640
+<font color="#b1b1b1">Play Loggins and Authentication</font>
+
+57
+00:01:53,408 --> 00:01:54,944
+<font color="#cecece">It is a formal agent today</font>
+
+58
+00:01:55,200 --> 00:01:55,712
+<font color="#757575">For</font>
+
+59
+00:01:55,968 --> 00:01:56,480
+<font color="#a9a9a9">Which state management</font>
+
+60
+00:01:56,992 --> 00:01:59,040
+<font color="#dedede">Which is critical for long-running tasks</font>
+
+61
+00:01:59,552 --> 00:02:01,600
+<font color="#d7d7d7">And it is also native support for</font>
+
+62
+00:02:01,856 --> 00:02:03,136
+<font color="#919191">Why the light off the model</font>
+
+63
+00:02:03,392 --> 00:02:04,672
+<font color="#d4d4d4">I'm very important</font>
+
+64
+00:02:04,928 --> 00:02:06,720
+<font color="#dedede">For the model context protocol</font>
+
+65
+00:02:06,976 --> 00:02:08,256
+<font color="#dedede">Which we will discuss later</font>
+
+66
+00:02:08,768 --> 00:02:09,536
+<font color="#6c6c6c">It is sweet</font>
+
+67
+00:02:09,792 --> 00:02:10,816
+<font color="#838383">First class Cit</font>
+
+68
+00:02:11,072 --> 00:02:12,352
+<font color="#9c9c9c">With the mCP Integrations</font>
+
+69
+00:02:13,120 --> 00:02:13,888
+<font color="#ececec">And if you look</font>
+
+70
+00:02:14,144 --> 00:02:15,168
+<font color="#939393">Is it the second capabilities</font>
+
+71
+00:02:15,424 --> 00:02:16,704
+<font color="#f0f0f0">Which is about the work</font>
+
+72
+00:02:17,216 --> 00:02:20,288
+<font color="#b8b8b8">The second probability is what is Agent relations</font>
+
+73
+00:02:20,544 --> 00:02:21,312
+<font color="#cbcbcb">And this</font>
+
+74
+00:02:21,568 --> 00:02:22,848
+<font color="#bcbcbc">It's evolution of the auto</font>
+
+75
+00:02:23,104 --> 00:02:23,872
+<font color="#a1a1a1">Monster agent</font>
+
+76
+00:02:24,384 --> 00:02:26,944
+<font color="#c3c3c3">This is the name extraction for Monster agent collaboration</font>
+
+77
+00:02:27,456 --> 00:02:31,040
+<font color="#dbdbdb">Instead of the only lying on a conversation on group chat</font>
+
+78
+00:02:31,296 --> 00:02:32,320
+<font color="#999999">Math introduced</font>
+
+79
+00:02:32,576 --> 00:02:33,856
+<font color="#717171">Graphics workload engine</font>
+
+80
+00:02:34,368 --> 00:02:35,392
+<font color="#777777">This is a forum</font>
+
+81
+00:02:35,648 --> 00:02:37,184
+<font color="#b3b3b3">Graphics workflow engine</font>
+
+82
+00:02:37,440 --> 00:02:40,768
+<font color="#d3d3d3">Very similar in concept to do landcraft architecture we</font>
+
+83
+00:02:41,280 --> 00:02:42,304
+<font color="#f7f7f7">This is the key</font>
+
+84
+00:02:43,072 --> 00:02:46,144
+<font color="#c4c4c4">Who's from the hotel James emerging collaboration to exquisite</font>
+
+85
+00:02:46,400 --> 00:02:47,424
+<font color="#6d6d6d">Addicted Corp</font>
+
+86
+00:02:48,192 --> 00:02:49,472
+<font color="#9b9b9b">And this workload engine</font>
+
+87
+00:02:49,728 --> 00:02:51,520
+<font color="#dedede">Include the critical Enterprise future</font>
+
+88
+00:02:52,544 --> 00:02:55,104
+<font color="#dbdbdb">A type is routing for predictable control</font>
+
+89
+00:02:55,360 --> 00:02:55,872
+<font color="#cecece">And you</font>
+
+90
+00:02:56,128 --> 00:02:57,664
+<font color="#a6a6a6">Next door close inside</font>
+
+91
+00:02:57,920 --> 00:02:58,688
+<font color="#7c7c7c">Add other work</font>
+
+92
+00:02:59,200 --> 00:02:59,712
+<font color="#d6d6d6">Can you</font>
+
+93
+00:02:59,968 --> 00:03:00,736
+<font color="#494949">Checkpoint</font>
+
+94
+00:03:01,248 --> 00:03:04,832
+<font color="#d9d9d9">So you can say a long drink workload and resume it later</font>
+
+95
+00:03:05,344 --> 00:03:05,856
+<font color="#cacaca">Can you</font>
+
+96
+00:03:06,112 --> 00:03:07,392
+<font color="#868686">Human in the loop pattern</font>
+
+97
+00:03:07,648 --> 00:03:08,928
+<font color="#c2c2c2">Is the first class feature</font>
+
+98
+00:03:09,184 --> 00:03:10,720
+<font color="#f5f5f5">So an agent can</font>
+
+99
+00:03:10,976 --> 00:03:12,512
+<font color="#b0b0b0">And ask for approval before</font>
+
+100
+00:03:12,768 --> 00:03:14,048
+<font color="#d3d3d3">For taking a critical step</font>
+
+101
+00:03:14,304 --> 00:03:16,352
+<font color="#c7c7c7">And this is group chat all grown</font>
+
+102
+00:03:16,864 --> 00:03:17,888
+<font color="#d3d3d3">So we can say that</font>
+
+103
+00:03:18,144 --> 00:03:20,960
+<font color="#cccccc">The Microsoft agent framework include an embr</font>
+
+104
+00:03:21,216 --> 00:03:23,776
+<font color="#d1d1d1">Most simple conversation first abstractions</font>
+
+105
+00:03:24,288 --> 00:03:25,568
+<font color="#d5d5d5">This is what so powerful</font>
+
+106
+00:03:25,824 --> 00:03:27,872
+<font color="#efefef">It gives you the architect a choice</font>
+
+107
+00:03:28,384 --> 00:03:29,408
+<font color="#565656">What does that</font>
+
+108
+00:03:29,664 --> 00:03:30,432
+<font color="#9e9e9e">Repeat from the em</font>
+
+109
+00:03:30,688 --> 00:03:31,712
+<font color="#737373">Turn back and forth debate</font>
+
+110
+00:03:31,968 --> 00:03:33,760
+<font color="#e6e6e6">Like brainstorming or simulation</font>
+
+111
+00:03:34,016 --> 00:03:34,528
+<font color="#f8f8f8">You</font>
+
+112
+00:03:35,040 --> 00:03:37,856
+<font color="#c4c4c4">Stand up a simple autism style group chat feature</font>
+
+113
+00:03:38,368 --> 00:03:41,440
+<font color="#b9b9b9">But for your mission critical multi-step business processes</font>
+
+114
+00:03:41,952 --> 00:03:44,512
+<font color="#d6d6d6">You can use the new formal workload engine</font>
+
+115
+00:03:44,768 --> 00:03:45,792
+<font color="#f0f0f0">To create a process</font>
+
+116
+00:03:46,048 --> 00:03:47,072
+<font color="#747474">This is ex</font>
+
+117
+00:03:47,328 --> 00:03:48,096
+<font color="#b1b1b1">Predictable</font>
+
+118
+00:03:48,352 --> 00:03:49,376
+<font color="#909090">Robust and Save</font>
+
+119
+00:03:49,888 --> 00:03:52,448
+<font color="#dfdfdf">By this way you get the best of the both world</font>
+
+120
+00:03:52,960 --> 00:03:54,496
+<font color="#e1e1e1">So now let's understand</font>
+
+121
+00:03:54,752 --> 00:03:56,544
+<font color="#c3c3c3">When to use Microsoft agent frame</font>
+
+122
+00:03:57,312 --> 00:03:58,592
+<font color="#cccccc">You choose this framework</font>
+
+123
+00:03:58,848 --> 00:04:00,384
+<font color="#e5e5e5">If your primary goal is building</font>
+
+124
+00:04:00,640 --> 00:04:01,408
+<font color="#e5e5e5">Enterprise</font>
+
+125
+00:04:01,664 --> 00:04:02,688
+<font color="#545454">Multi agent system</font>
+
+126
+00:04:03,200 --> 00:04:07,296
+<font color="#d0d0d0">It is the framework designed for when you need both multi agent collaboration</font>
+
+127
+00:04:07,552 --> 00:04:08,832
+<font color="#787878">And production levels Rob</font>
+
+128
+00:04:09,856 --> 00:04:11,904
+<font color="#ebebeb">And it is the Clear Choice for state</font>
+
+129
+00:04:12,160 --> 00:04:13,184
+<font color="#939393">Long running agent</font>
+
+130
+00:04:13,440 --> 00:04:15,488
+<font color="#bbbbbb">Because of it is native to the checkpoint</font>
+
+131
+00:04:15,744 --> 00:04:17,280
+<font color="#c1c1c1">And human in the loop capabilities</font>
+
+132
+00:04:17,791 --> 00:04:18,303
+<font color="#e0e0e0">And of</font>
+
+133
+00:04:18,559 --> 00:04:19,583
+<font color="#c8c8c8">It is the premiere</font>
+
+134
+00:04:19,839 --> 00:04:20,863
+<font color="#cdcdcd">First party</font>
+
+135
+00:04:21,119 --> 00:04:24,703
+<font color="#e5e5e5">If you are a developer or heavily invested in the azure</font>
+
+136
+00:04:25,983 --> 00:04:28,287
+<font color="#e7e7e7">When not to use Microsoft agent framework</font>
+
+137
+00:04:28,543 --> 00:04:29,567
+<font color="#858585">And the Traders</font>
+
+138
+00:04:29,823 --> 00:04:30,335
+<font color="#747474">What's the date</font>
+
+139
+00:04:30,847 --> 00:04:31,615
+<font color="#e6e6e6">It is a brand</font>
+
+140
+00:04:31,871 --> 00:04:32,895
+<font color="#c4c4c4">Play so the community</font>
+
+141
+00:04:33,151 --> 00:04:34,175
+<font color="#a4a4a4">Play City growing around</font>
+
+142
+00:04:34,687 --> 00:04:36,223
+<font color="#f1f1f1">And it is opinionated</font>
+
+143
+00:04:36,479 --> 00:04:38,271
+<font color="#d8d8d8">It is designed to lead you to</font>
+
+144
+00:04:38,527 --> 00:04:40,575
+<font color="#838383">Mississippi Street Global architectural pattern</font>

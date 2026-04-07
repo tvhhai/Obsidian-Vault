@@ -1,0 +1,855 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f2f2f2">In this video</font>
+
+2
+00:00:01,280 --> 00:00:03,328
+<font color="#c4c4c4">We are going to continue our road</font>
+
+3
+00:00:03,584 --> 00:00:04,864
+<font color="#dadada">We are at the first step</font>
+
+4
+00:00:05,120 --> 00:00:05,888
+<font color="#e3e3e3">Which is the memory</font>
+
+5
+00:00:06,144 --> 00:00:06,656
+<font color="#696969">Play on</font>
+
+6
+00:00:08,448 --> 00:00:11,008
+<font color="#c1c1c1">Do you have now architected or agents</font>
+
+7
+00:00:11,264 --> 00:00:12,032
+<font color="#e0e0e0">Which is the alarm</font>
+
+8
+00:00:12,544 --> 00:00:13,312
+<font color="#919191">And it is</font>
+
+9
+00:00:13,568 --> 00:00:14,592
+<font color="#f3f3f3">Which is the perception</font>
+
+10
+00:00:15,104 --> 00:00:15,616
+<font color="#ededed">And</font>
+
+11
+00:00:16,896 --> 00:00:17,920
+<font color="#d0d0d0">Which is our Clinic</font>
+
+12
+00:00:18,688 --> 00:00:20,224
+<font color="#d1d1d1">Are agents can perceive the</font>
+
+13
+00:00:20,480 --> 00:00:21,504
+<font color="#a0a0a0">An English</font>
+
+14
+00:00:21,760 --> 00:00:23,040
+<font color="#bebebe">Create a multi-step</font>
+
+15
+00:00:23,808 --> 00:00:26,368
+<font color="#f3f3f3">But it is still missing a fundamental component</font>
+
+16
+00:00:26,880 --> 00:00:28,928
+<font color="#dedede">If you have a conversation with this AG</font>
+
+17
+00:00:29,440 --> 00:00:30,464
+<font color="#d7d7d7">It has no memory</font>
+
+18
+00:00:30,720 --> 00:00:32,512
+<font color="#c6c6c6">What do you say 3 seconds ago</font>
+
+19
+00:00:32,768 --> 00:00:33,536
+<font color="#a2a2a2">For example</font>
+
+20
+00:00:33,792 --> 00:00:36,864
+<font color="#a9a9a9">If it execute step one of the five step plan</font>
+
+21
+00:00:37,120 --> 00:00:38,912
+<font color="#f0f0f0">It is no way to remember the</font>
+
+22
+00:00:39,168 --> 00:00:39,936
+<font color="#b1b1b1">Turn off the step</font>
+
+23
+00:00:40,192 --> 00:00:42,240
+<font color="#eaeaea">When it is time to execute the step</font>
+
+24
+00:00:43,008 --> 00:00:45,056
+<font color="#ececec">So this is the Groundhog Day problem</font>
+
+25
+00:00:45,312 --> 00:00:47,360
+<font color="#cdcdcd">Without memory every perception</font>
+
+26
+00:00:47,616 --> 00:00:48,384
+<font color="#999999">Is a brand</font>
+
+27
+00:00:48,640 --> 00:00:49,664
+<font color="#7e7e7e">Contacts list event</font>
+
+28
+00:00:50,176 --> 00:00:51,712
+<font color="#e6e6e6">Today we will architect the solution</font>
+
+29
+00:00:52,224 --> 00:00:53,248
+<font color="#d4d4d4">The agents notebook</font>
+
+30
+00:00:54,272 --> 00:00:56,064
+<font color="#dedede">It's memory architecture of these</font>
+
+31
+00:00:57,088 --> 00:01:00,672
+<font color="#d5d5d5">So now let's understand the most critical architectural Khan</font>
+
+32
+00:01:01,184 --> 00:01:01,952
+<font color="#c3c3c3">Which is the mem</font>
+
+33
+00:01:02,464 --> 00:01:06,048
+<font color="#e9e9e9">But before that let's understand the core principles of the memory</font>
+
+34
+00:01:06,560 --> 00:01:08,096
+<font color="#e6e6e6">There are two types of memory</font>
+
+35
+00:01:08,352 --> 00:01:10,656
+<font color="#dcdcdc">We must design for two distinct types</font>
+
+36
+00:01:11,168 --> 00:01:12,448
+<font color="#fcfcfc">Just like a computer</font>
+
+37
+00:01:12,704 --> 00:01:14,240
+<font color="#bfbfbf">Is the RAM and hard drive</font>
+
+38
+00:01:14,752 --> 00:01:17,056
+<font color="#eaeaea">So first of all we have a short-term memory</font>
+
+39
+00:01:17,824 --> 00:01:18,592
+<font color="#b6b6b6">This is the AG</font>
+
+40
+00:01:18,848 --> 00:01:19,616
+<font color="#b2b2b2">Does working memory</font>
+
+41
+00:01:19,872 --> 00:01:20,384
+<font color="#a3a3a3">What</font>
+
+42
+00:01:20,640 --> 00:01:21,664
+<font color="#a0a0a0">Is conscience</font>
+
+43
+00:01:22,176 --> 00:01:23,200
+<font color="#e0e0e0">It basically</font>
+
+44
+00:01:23,456 --> 00:01:26,016
+<font color="#fbfbfb">What the agent is thinking about right now</font>
+
+45
+00:01:26,272 --> 00:01:30,112
+<font color="#dedede">For example the current user query the plan is just generated</font>
+
+46
+00:01:30,368 --> 00:01:32,160
+<font color="#efefef">The result of the last API</font>
+
+47
+00:01:32,672 --> 00:01:33,440
+<font color="#c9c9c9">It is</font>
+
+48
+00:01:33,696 --> 00:01:36,512
+<font color="#f5f5f5">But it is volatile and extremely Limited in</font>
+
+49
+00:01:37,536 --> 00:01:40,352
+<font color="#e7e7e7">And the second time is we have a long-term memory</font>
+
+50
+00:01:40,864 --> 00:01:41,888
+<font color="#bebebe">This is the AG</font>
+
+51
+00:01:42,144 --> 00:01:44,192
+<font color="#e3e3e3">Persistent memory or it is Library</font>
+
+52
+00:01:44,960 --> 00:01:47,520
+<font color="#e0e0e0">This is what it stores everything it is</font>
+
+53
+00:01:47,776 --> 00:01:49,056
+<font color="#d4d4d4">Pause conversations</font>
+
+54
+00:01:49,312 --> 00:01:50,336
+<font color="#cecece">User preferences</font>
+
+55
+00:01:50,592 --> 00:01:52,384
+<font color="#ececec">And it is entire knowledge</font>
+
+56
+00:01:52,896 --> 00:01:54,432
+<font color="#ebebeb">It is best and permanent</font>
+
+57
+00:01:54,688 --> 00:01:56,224
+<font color="#efefef">But it is slower to access</font>
+
+58
+00:01:56,736 --> 00:01:58,016
+<font color="#c8c8c8">An agent's intelligence</font>
+
+59
+00:01:58,272 --> 00:01:58,784
+<font color="#e6e6e6">Comes from</font>
+
+60
+00:01:59,040 --> 00:01:59,808
+<font color="#a4a4a4">How old is</font>
+
+61
+00:02:00,064 --> 00:02:00,832
+<font color="#e5e5e5">Systems work together</font>
+
+62
+00:02:01,600 --> 00:02:03,392
+<font color="#d4d4d4">So now let's understand</font>
+
+63
+00:02:03,648 --> 00:02:04,416
+<font color="#4c4c4c">Short-term mem</font>
+
+64
+00:02:04,928 --> 00:02:06,208
+<font color="#c0c0c0">In all architecture</font>
+
+65
+00:02:06,464 --> 00:02:10,048
+<font color="#e6e6e6">This is physically implemented is the context window of the LL</font>
+
+66
+00:02:10,560 --> 00:02:12,864
+<font color="#bababa">This is the secret we have been discussing</font>
+
+67
+00:02:14,144 --> 00:02:15,424
+<font color="#9c9c9c">What's the agents personal</font>
+
+68
+00:02:16,448 --> 00:02:16,960
+<font color="#a3a3a3">Assistant</font>
+
+69
+00:02:17,216 --> 00:02:19,008
+<font color="#ededed">The immediate conversation history</font>
+
+70
+00:02:19,264 --> 00:02:21,568
+<font color="#a3a3a3">And the result from any reason to call</font>
+
+71
+00:02:22,336 --> 00:02:24,640
+<font color="#e0e0e0">But this component has a famous limitation</font>
+
+72
+00:02:25,152 --> 00:02:26,432
+<font color="#dadada">The contacts window problem</font>
+
+73
+00:02:26,944 --> 00:02:27,968
+<font color="#eeeeee">This is the single most</font>
+
+74
+00:02:28,224 --> 00:02:30,016
+<font color="#c8c8c8">Most expensive and valuable res</font>
+
+75
+00:02:30,272 --> 00:02:31,296
+<font color="#747474">What's our agent</font>
+
+76
+00:02:31,808 --> 00:02:32,576
+<font color="#e5e5e5">It is finite</font>
+
+77
+00:02:32,832 --> 00:02:35,648
+<font color="#c9c9c9">We cannot just stop a user's</font>
+
+78
+00:02:35,904 --> 00:02:37,184
+<font color="#989898">Can you check history</font>
+
+79
+00:02:37,440 --> 00:02:39,744
+<font color="#b6b6b6">Or 500 page financial report</font>
+
+80
+00:02:40,000 --> 00:02:41,280
+<font color="#e8e8e8">Into the context window</font>
+
+81
+00:02:41,536 --> 00:02:42,304
+<font color="#b2b2b2">It won't</font>
+
+82
+00:02:42,816 --> 00:02:45,376
+<font color="#d9d9d9">And it would be prohibitively expensive</font>
+
+83
+00:02:46,144 --> 00:02:49,472
+<font color="#dedede">So this limitation Force us to have a long-term solution</font>
+
+84
+00:02:50,496 --> 00:02:52,800
+<font color="#ededed">Let's understand the long-term memory</font>
+
+85
+00:02:53,312 --> 00:02:54,336
+<font color="#383838">Architecturally</font>
+
+86
+00:02:54,592 --> 00:02:55,872
+<font color="#f2f2f2">This is an external</font>
+
+87
+00:02:56,128 --> 00:02:56,896
+<font color="#e7e7e7">Assistant database</font>
+
+88
+00:02:57,408 --> 00:03:00,736
+<font color="#e6e6e6">It is rolled to store all information the agent might need</font>
+
+89
+00:03:00,992 --> 00:03:01,504
+<font color="#2d2d2d">Permanent</font>
+
+90
+00:03:02,016 --> 00:03:02,784
+<font color="#878787">This incl</font>
+
+91
+00:03:03,040 --> 00:03:04,320
+<font color="#d9d9d9">What's all past conversations</font>
+
+92
+00:03:04,832 --> 00:03:06,112
+<font color="#d3d3d3">Specific user preferences</font>
+
+93
+00:03:06,368 --> 00:03:07,648
+<font color="#adadad">What is for example the US</font>
+
+94
+00:03:07,904 --> 00:03:09,184
+<font color="#b7b7b7">Office is in the New York</font>
+
+95
+00:03:09,440 --> 00:03:10,208
+<font color="#777777">Uses</font>
+
+96
+00:03:10,464 --> 00:03:11,232
+<font color="#aaaaaa">Where's the window seat</font>
+
+97
+00:03:11,744 --> 00:03:15,072
+<font color="#b0b0b0">On the large knowledge bases like Auntie document libraries</font>
+
+98
+00:03:15,840 --> 00:03:16,864
+<font color="#ededed">And this component is</font>
+
+99
+00:03:17,120 --> 00:03:19,168
+<font color="#d9d9d9">Is what sold the context window problem</font>
+
+100
+00:03:19,680 --> 00:03:20,704
+<font color="#ababab">The agents brain</font>
+
+101
+00:03:20,960 --> 00:03:23,520
+<font color="#f2f2f2">Doesn't need to hold all these information</font>
+
+102
+00:03:24,288 --> 00:03:24,800
+<font color="#b6b6b6">You just</font>
+
+103
+00:03:25,056 --> 00:03:25,824
+<font color="#c0c0c0">Need to be aware</font>
+
+104
+00:03:26,080 --> 00:03:27,360
+<font color="#dbdbdb">This Library exist</font>
+
+105
+00:03:27,616 --> 00:03:28,896
+<font color="#c5c5c5">And be given a</font>
+
+106
+00:03:30,176 --> 00:03:32,480
+<font color="#d7d7d7">This is the RAM and hard drive working together</font>
+
+107
+00:03:33,248 --> 00:03:34,784
+<font color="#e7e7e7">So now let's understand</font>
+
+108
+00:03:35,040 --> 00:03:37,088
+<font color="#cecece">How long term and the short-term memory</font>
+
+109
+00:03:37,344 --> 00:03:38,112
+<font color="#bfbfbf">Play work together</font>
+
+110
+00:03:38,624 --> 00:03:39,136
+<font color="#7f7f7f">That mean</font>
+
+111
+00:03:39,392 --> 00:03:42,208
+<font color="#bababa">How do we hard drive and RAM work together</font>
+
+112
+00:03:42,464 --> 00:03:45,536
+<font color="#f2f2f2">So these two memories are connected by a process</font>
+
+113
+00:03:45,792 --> 00:03:47,072
+<font color="#ededed">And the process is called</font>
+
+114
+00:03:47,328 --> 00:03:49,376
+<font color="#a3a3a3">Retrieval augmented generation or</font>
+
+115
+00:03:50,144 --> 00:03:52,960
+<font color="#eeeeee">This is a critical pattern that we will see in the next section</font>
+
+116
+00:03:53,472 --> 00:03:57,568
+<font color="#cccccc">But now let's walk through this regular clothes into our use case</font>
+
+117
+00:03:58,080 --> 00:03:59,616
+<font color="#e1e1e1">Basically in this step</font>
+
+118
+00:03:59,872 --> 00:04:01,664
+<font color="#cdcdcd">Do you still ask a question</font>
+
+119
+00:04:01,920 --> 00:04:03,712
+<font color="#a0a0a0">Did the lights on past knowledge</font>
+
+120
+00:04:03,968 --> 00:04:07,040
+<font color="#a6a6a6">Here you can see use the Santa clarity into our system</font>
+
+121
+00:04:07,552 --> 00:04:08,576
+<font color="#b9b9b9">In the state</font>
+
+122
+00:04:08,832 --> 00:04:10,624
+<font color="#cdcdcd">The alarm which is our brain</font>
+
+123
+00:04:11,392 --> 00:04:12,416
+<font color="#9d9d9d">Short-term memory</font>
+
+124
+00:04:12,672 --> 00:04:14,976
+<font color="#bdbdbd">Perceive this crazy but realize</font>
+
+125
+00:04:15,232 --> 00:04:16,000
+<font color="#2b2b2b">Is leg</font>
+
+126
+00:04:16,256 --> 00:04:17,280
+<font color="#cbcbcb">What's the effect to answer</font>
+
+127
+00:04:17,536 --> 00:04:18,559
+<font color="#bfbfbf">And it is plan</font>
+
+128
+00:04:18,815 --> 00:04:19,327
+<font color="#f2f2f2">To find them</font>
+
+129
+00:04:19,839 --> 00:04:20,863
+<font color="#b8b8b8">So in the step</font>
+
+130
+00:04:21,375 --> 00:04:25,215
+<font color="#c7c7c7">The agent X by using a tool to search it is long-term mem</font>
+
+131
+00:04:25,727 --> 00:04:26,495
+<font color="#e4e4e4">So basically</font>
+
+132
+00:04:27,007 --> 00:04:29,055
+<font color="#e1e1e1">It is integrating with the knowledge base</font>
+
+133
+00:04:29,311 --> 00:04:31,103
+<font color="#ececec">In order to get the long-term memory</font>
+
+134
+00:04:31,359 --> 00:04:33,151
+<font color="#cdcdcd">From using the red pipeline</font>
+
+135
+00:04:33,663 --> 00:04:35,711
+<font color="#c3c3c3">An Interceptor the long-term memory</font>
+
+136
+00:04:35,967 --> 00:04:36,991
+<font color="#d7d7d7">Which is the hard drive</font>
+
+137
+00:04:37,247 --> 00:04:39,551
+<font color="#dadada">Find the one living piece of the</font>
+
+138
+00:04:40,063 --> 00:04:40,831
+<font color="#eaeaea">And this will be</font>
+
+139
+00:04:41,087 --> 00:04:42,623
+<font color="#9b9b9b">Heading to our</font>
+
+140
+00:04:43,135 --> 00:04:44,671
+<font color="#dbdbdb">Which means in the step 5</font>
+
+141
+00:04:44,927 --> 00:04:46,719
+<font color="#dbdbdb">This small relevant fact is</font>
+
+142
+00:04:46,975 --> 00:04:48,767
+<font color="#c1c1c1">Loaded into short-term memory</font>
+
+143
+00:04:49,023 --> 00:04:50,815
+<font color="#e0e0e0">Which is our contacts window and</font>
+
+144
+00:04:51,583 --> 00:04:52,095
+<font color="#a5a5a5">On</font>
+
+145
+00:04:52,607 --> 00:04:55,167
+<font color="#aeaeae">We will send this to the alarm and get the responds</font>
+
+146
+00:04:55,423 --> 00:04:56,703
+<font color="#bababa">And the loop is repeat</font>
+
+147
+00:04:56,959 --> 00:04:58,495
+<font color="#cfcfcf">The airline brain is</font>
+
+148
+00:04:59,263 --> 00:05:00,543
+<font color="#efefef">The original question</font>
+
+149
+00:05:00,799 --> 00:05:02,079
+<font color="#545454">+ 335</font>
+
+150
+00:05:02,591 --> 00:05:04,383
+<font color="#ececec">So it can now generate a perfect</font>
+
+151
+00:05:04,639 --> 00:05:06,175
+<font color="#d8d8d8">Take please answer to the</font>
+
+152
+00:05:06,943 --> 00:05:08,991
+<font color="#8c8c8c">So by following This Record</font>
+
+153
+00:05:09,503 --> 00:05:11,039
+<font color="#d9d9d9">We can able to work together</font>
+
+154
+00:05:11,295 --> 00:05:13,855
+<font color="#cdcdcd">Short-term and long-term memory into our</font>
+
+155
+00:05:14,623 --> 00:05:15,135
+<font color="#e8e8e8">So</font>
+
+156
+00:05:15,391 --> 00:05:16,159
+<font color="#939393">You will see the direct</font>
+
+157
+00:05:16,415 --> 00:05:17,183
+<font color="#d2d2d2">What is in the next section</font>
+
+158
+00:05:17,695 --> 00:05:21,791
+<font color="#cacaca">What now let's understand architectural patterns for the long-term mem</font>
+
+159
+00:05:22,559 --> 00:05:26,399
+<font color="#bbbbbb">And this brings us to our final and most important decision as are</font>
+
+160
+00:05:26,911 --> 00:05:28,447
+<font color="#eeeeee">Which type of the database</font>
+
+161
+00:05:28,703 --> 00:05:31,007
+<font color="#e4e4e4">Do we use for our long-term memory</font>
+
+162
+00:05:31,519 --> 00:05:32,799
+<font color="#c3c3c3">We have three main pattern</font>
+
+163
+00:05:33,311 --> 00:05:33,823
+<font color="#f8f8f8">The first one is</font>
+
+164
+00:05:34,079 --> 00:05:36,127
+<font color="#9d9d9d">Is key volume or document databases</font>
+
+165
+00:05:36,639 --> 00:05:38,175
+<font color="#bebebe">These are excellent for stor</font>
+
+166
+00:05:39,199 --> 00:05:40,479
+<font color="#bfbfbf">What are the facts about a US</font>
+
+167
+00:05:40,735 --> 00:05:42,015
+<font color="#c6c6c6">Like the preferences</font>
+
+168
+00:05:42,271 --> 00:05:44,575
+<font color="#cbcbcb">And for looking to chat history itself</font>
+
+169
+00:05:45,087 --> 00:05:45,855
+<font color="#dcdcdc">And the second</font>
+
+170
+00:05:46,111 --> 00:05:47,391
+<font color="#6b6b6b">Is a squad databases</font>
+
+171
+00:05:47,903 --> 00:05:50,463
+<font color="#f8f8f8">This is our connection to the Enterprise</font>
+
+172
+00:05:50,975 --> 00:05:52,767
+<font color="#e1e1e1">This is how agent can access</font>
+
+173
+00:05:53,023 --> 00:05:54,559
+<font color="#d1d1d1">Is existing relational data</font>
+
+174
+00:05:54,815 --> 00:05:56,095
+<font color="#c6c6c6">Like order history</font>
+
+175
+00:05:56,351 --> 00:05:57,631
+<font color="#bbbbbb">Is product inventory</font>
+
+176
+00:05:57,887 --> 00:05:59,167
+<font color="#cccccc">Or financial records</font>
+
+177
+00:06:00,447 --> 00:06:02,239
+<font color="#b7b7b7">What's the name and the most critical type</font>
+
+178
+00:06:03,007 --> 00:06:04,031
+<font color="#959595">Victor data B</font>
+
+179
+00:06:04,799 --> 00:06:06,335
+<font color="#b4b4b4">These do not start</font>
+
+180
+00:06:06,591 --> 00:06:07,615
+<font color="#a1a1a1">Play Store</font>
+
+181
+00:06:08,127 --> 00:06:10,943
+<font color="#b8b8b8">They allow an agent to search for Symantec Khan</font>
+
+182
+00:06:11,455 --> 00:06:12,223
+<font color="#878787">Not just key</font>
+
+183
+00:06:12,735 --> 00:06:15,551
+<font color="#dbdbdb">When the agent need to find the living Chunk from</font>
+
+184
+00:06:15,807 --> 00:06:17,087
+<font color="#c2c2c2">5,000 documents</font>
+
+185
+00:06:17,343 --> 00:06:18,367
+<font color="#d3d3d3">To answer the question</font>
+
+186
+00:06:18,623 --> 00:06:20,159
+<font color="#b3b3b3">It is using a vector dat</font>
+
+187
+00:06:20,671 --> 00:06:22,975
+<font color="#f1f1f1">This is the core technology behind the</font>
+
+188
+00:06:23,743 --> 00:06:27,327
+<font color="#f5f5f5">So now let's quickly understand what is the vector database</font>
+
+189
+00:06:27,583 --> 00:06:28,351
+<font color="#474747">Victor dat</font>
+
+190
+00:06:28,607 --> 00:06:29,887
+<font color="#c0c0c0">Is is a specialized database</font>
+
+191
+00:06:30,399 --> 00:06:31,167
+<font color="#6b6b6b">Design the</font>
+
+192
+00:06:31,423 --> 00:06:32,447
+<font color="#525252">Miniature</font>
+
+193
+00:06:32,703 --> 00:06:33,983
+<font color="#c2c2c2">High dimensional vectors</font>
+
+194
+00:06:34,495 --> 00:06:36,799
+<font color="#e8e8e8">Pictures of numerical representations</font>
+
+195
+00:06:37,055 --> 00:06:39,615
+<font color="#cecece">Does that capture the semantic meaning of data</font>
+
+196
+00:06:39,871 --> 00:06:41,407
+<font color="#cfcfcf">The indexes and</font>
+
+197
+00:06:41,663 --> 00:06:42,431
+<font color="#858585">Victor em</font>
+
+198
+00:06:42,687 --> 00:06:45,247
+<font color="#cccccc">Thanks for fast retrieval and similar to search</font>
+
+199
+00:06:45,759 --> 00:06:48,831
+<font color="#dddddd">And they also enable contextual search based on the meaning</font>
+
+200
+00:06:49,087 --> 00:06:50,111
+<font color="#c7c7c7">Sing behind the data</font>
+
+201
+00:06:50,879 --> 00:06:52,415
+<font color="#e5e5e5">Is it somebody we can say that</font>
+
+202
+00:06:52,671 --> 00:06:56,511
+<font color="#e5e5e5">Memory is essential to break the Groundhog Day problem Loop</font>
+
+203
+00:06:57,023 --> 00:06:58,559
+<font color="#bfbfbf">And the most Arctic two types</font>
+
+204
+00:06:59,071 --> 00:06:59,583
+<font color="#939393">Short</font>
+
+205
+00:06:59,839 --> 00:07:00,863
+<font color="#c1c1c1">Which is the contacts window</font>
+
+206
+00:07:01,119 --> 00:07:01,887
+<font color="#7e7e7e">And the long</font>
+
+207
+00:07:02,143 --> 00:07:03,423
+<font color="#c0c0c0">Which are the vector databases</font>
+
+208
+00:07:04,191 --> 00:07:05,983
+<font color="#ebebeb">And the process that connects</font>
+
+209
+00:07:06,239 --> 00:07:07,007
+<font color="#e2e2e2">Is</font>
+
+210
+00:07:07,263 --> 00:07:09,311
+<font color="#c6c6c6">Which is the ritual augmented generation Pat</font>
+
+211
+00:07:09,567 --> 00:07:11,103
+<font color="#dddddd">That we will see in the next</font>
+
+212
+00:07:11,871 --> 00:07:14,175
+<font color="#cccccc">On our choice for the long-term memory</font>
+
+213
+00:07:14,431 --> 00:07:16,479
+<font color="#a8a8a8">Victor database</font>
+
+214
+00:07:16,735 --> 00:07:18,271
+<font color="#d4d4d4">Or another database</font>

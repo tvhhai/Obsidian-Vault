@@ -1,0 +1,259 @@
+﻿1
+00:00:00,256 --> 00:00:02,048
+<font color="#f3f3f3">In this video we are going to learn</font>
+
+2
+00:00:02,304 --> 00:00:02,816
+<font color="#454545">Frame</font>
+
+3
+00:00:03,072 --> 00:00:04,352
+<font color="#b8b8b8">Books for willing to work</font>
+
+4
+00:00:04,608 --> 00:00:05,888
+<font color="#585858">Escort first app</font>
+
+5
+00:00:06,400 --> 00:00:08,704
+<font color="#a2a2a2">We have learned the anatomy of the workload</font>
+
+6
+00:00:08,960 --> 00:00:11,264
+<font color="#9c9c9c">And do you know the patterns for arranging</font>
+
+7
+00:00:11,776 --> 00:00:14,848
+<font color="#cfcfcf">No we moved from the bully friend to the construction site</font>
+
+8
+00:00:15,360 --> 00:00:17,408
+<font color="#adadad">How do we is a developers and r</font>
+
+9
+00:00:17,920 --> 00:00:19,456
+<font color="#7f7f7f">Actually will this system</font>
+
+10
+00:00:20,480 --> 00:00:25,088
+<font color="#c2c2c2">We could try to write a massive if can I smoke or complex while</font>
+
+11
+00:00:25,600 --> 00:00:26,112
+<font color="#c5c5c5">What is</font>
+
+12
+00:00:26,368 --> 00:00:28,160
+<font color="#d8d8d8">Discuss this become unmanageable</font>
+
+13
+00:00:29,696 --> 00:00:30,976
+<font color="#e5e5e5">To do this professionally</font>
+
+14
+00:00:31,232 --> 00:00:31,744
+<font color="#979797">Play videos</font>
+
+15
+00:00:32,000 --> 00:00:33,024
+<font color="#727272">Quote First framework</font>
+
+16
+00:00:33,536 --> 00:00:36,864
+<font color="#e9e9e9">We will focus on the land crab is a perfect example of the</font>
+
+17
+00:00:37,888 --> 00:00:38,656
+<font color="#f5f5f5">But before that</font>
+
+18
+00:00:38,912 --> 00:00:40,704
+<font color="#e8e8e8">Let's understand the core problem</font>
+
+19
+00:00:41,216 --> 00:00:43,520
+<font color="#eaeaea">Why not just write a simple python</font>
+
+20
+00:00:44,288 --> 00:00:45,056
+<font color="#d7d7d7">The answer is</font>
+
+21
+00:00:45,312 --> 00:00:46,336
+<font color="#5b5b5b">Add boiling staple</font>
+
+22
+00:00:46,592 --> 00:00:49,408
+<font color="#f2f2f2">Cyclic graphs is much harder than it appears</font>
+
+23
+00:00:50,432 --> 00:00:52,736
+<font color="#d5d5d5">You have the money to manage the state object</font>
+
+24
+00:00:52,992 --> 00:00:54,272
+<font color="#a3a3a3">First thing is from function</font>
+
+25
+00:00:56,064 --> 00:00:57,344
+<font color="#d1d1d1">And most importantly</font>
+
+26
+00:00:57,600 --> 00:00:59,136
+<font color="#bdbdbd">Are most powerful Pat</font>
+
+27
+00:00:59,392 --> 00:01:01,696
+<font color="#adadad">Just like the magenta Carter and the group</font>
+
+28
+00:01:02,208 --> 00:01:02,976
+<font color="#4d4d4d">Are cyclic</font>
+
+29
+00:01:03,232 --> 00:01:03,744
+<font color="#2e2e2e">Day</font>
+
+30
+00:01:04,256 --> 00:01:05,024
+<font color="#989898">Bullying this</font>
+
+31
+00:01:06,048 --> 00:01:06,560
+<font color="#585858">If statement</font>
+
+32
+00:01:06,816 --> 00:01:07,584
+<font color="#868686">And why Lo</font>
+
+33
+00:01:07,840 --> 00:01:09,120
+<font color="#c0c0c0">Results in a beautiful</font>
+
+34
+00:01:09,376 --> 00:01:10,400
+<font color="#afafaf">Dim the nested</font>
+
+35
+00:01:10,656 --> 00:01:12,704
+<font color="#e2e2e2">This is impossible to debug or</font>
+
+36
+00:01:13,472 --> 00:01:14,752
+<font color="#d8d8d8">And another reason is</font>
+
+37
+00:01:15,008 --> 00:01:15,776
+<font color="#383838">Non determin</font>
+
+38
+00:01:16,288 --> 00:01:16,800
+<font color="#e5e5e5">The</font>
+
+39
+00:01:17,056 --> 00:01:18,848
+<font color="#8c8c8c">Is rotting choice is non Dieter</font>
+
+40
+00:01:19,360 --> 00:01:21,408
+<font color="#c3c3c3">How do you manage this in a stand</font>
+
+41
+00:01:22,176 --> 00:01:27,296
+<font color="#d0d0d0">So we need a framework that Natalie understand or Anatomy including the</font>
+
+42
+00:01:27,552 --> 00:01:28,320
+<font color="#bbbbbb">Notes</font>
+
+43
+00:01:28,832 --> 00:01:30,368
+<font color="#a3a3a3">I'm designed to handle Cy</font>
+
+44
+00:01:31,136 --> 00:01:34,720
+<font color="#b7b7b7">So this brings us to length of framework which is the graph</font>
+
+45
+00:01:35,488 --> 00:01:36,000
+<font color="#3c3c3c">Minecraft</font>
+
+46
+00:01:36,256 --> 00:01:37,280
+<font color="#e3e3e3">Is a framework that</font>
+
+47
+00:01:37,536 --> 00:01:41,376
+<font color="#b2b2b2">Is purpose weed for creating the state will multi-agent work clothes</font>
+
+48
+00:01:41,888 --> 00:01:44,448
+<font color="#f2f2f2">It is not a framework for bullying agents</font>
+
+49
+00:01:44,960 --> 00:01:47,008
+<font color="#b9b9b9">It's a framework for willing to work</font>
+
+50
+00:01:47,264 --> 00:01:48,288
+<font color="#737373">What's the date coordinator</font>
+
+51
+00:01:48,800 --> 00:01:49,568
+<font color="#3c3c3c">Inland</font>
+
+52
+00:01:49,824 --> 00:01:52,640
+<font color="#ededed">You formally Define your state as a fighting</font>
+
+53
+00:01:53,152 --> 00:01:54,432
+<font color="#cacaca">And the framework now</font>
+
+54
+00:01:54,688 --> 00:01:55,968
+<font color="#8a8a8a">Which these secret for you</font>
+
+55
+00:01:56,480 --> 00:01:57,504
+<font color="#f1f1f1">You define your</font>
+
+56
+00:01:57,760 --> 00:01:58,528
+<font color="#828282">Your work</font>
+
+57
+00:01:58,784 --> 00:02:00,320
+<font color="#c3c3c3">A simple python function</font>
+
+58
+00:02:00,832 --> 00:02:04,160
+<font color="#ababab">And register them with the workflow using the add note function</font>
+
+59
+00:02:04,928 --> 00:02:06,208
+<font color="#ededed">And you define your</font>
+
+60
+00:02:06,720 --> 00:02:07,744
+<font color="#adadad">The writing logic</font>
+
+61
+00:02:08,000 --> 00:02:10,304
+<font color="#a2a2a2">By exclusively connecting these not</font>
+
+62
+00:02:10,560 --> 00:02:12,096
+<font color="#c5c5c5">Using the adage function</font>
+
+63
+00:02:12,608 --> 00:02:15,680
+<font color="#d4d4d4">He transforms our abstract blueprint into concrete</font>
+
+64
+00:02:15,936 --> 00:02:16,704
+<font color="#d5d5d5">Manageable</font>
+
+65
+00:02:17,216 --> 00:02:20,288
+<font color="#f0f0f0">So we will see this kind of Frameworks in the next section</font>

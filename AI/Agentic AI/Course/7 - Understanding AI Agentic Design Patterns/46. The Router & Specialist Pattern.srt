@@ -1,0 +1,539 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f5f5f5">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,048
+<font color="#dbdbdb">We are going to learn</font>
+
+3
+00:00:02,304 --> 00:00:03,840
+<font color="#c8c8c8">The router and special</font>
+
+4
+00:00:04,864 --> 00:00:05,888
+<font color="#e0e0e0">In the last lecture</font>
+
+5
+00:00:06,144 --> 00:00:08,192
+<font color="#b8b8b8">We learn the voice of the multi agent</font>
+
+6
+00:00:09,216 --> 00:00:12,288
+<font color="#c6c6c6">Renault face our first practical architectural problem</font>
+
+7
+00:00:12,800 --> 00:00:13,568
+<font color="#686868">Behave</font>
+
+8
+00:00:14,336 --> 00:00:14,848
+<font color="#a3a3a3">Is a team</font>
+
+9
+00:00:15,104 --> 00:00:15,872
+<font color="#e3e3e3">Specialist</font>
+
+10
+00:00:16,384 --> 00:00:17,920
+<font color="#a7a7a7">One for customer support</font>
+
+11
+00:00:18,176 --> 00:00:19,200
+<font color="#212121">141</font>
+
+12
+00:00:19,456 --> 00:00:20,480
+<font color="#969696">One for the rez</font>
+
+13
+00:00:21,248 --> 00:00:23,296
+<font color="#949494">When an interview is the request comes in</font>
+
+14
+00:00:23,552 --> 00:00:24,832
+<font color="#d4d4d4">Like when is my order</font>
+
+15
+00:00:25,088 --> 00:00:26,880
+<font color="#f5f5f5">How does our system know to</font>
+
+16
+00:00:27,392 --> 00:00:29,184
+<font color="#c7c7c7">Let's talk to the support agent</font>
+
+17
+00:00:29,440 --> 00:00:30,464
+<font color="#6e6e6e">Nothing in Montreal</font>
+
+18
+00:00:30,976 --> 00:00:32,256
+<font color="#e5e5e5">This is the rotting problem</font>
+
+19
+00:00:32,768 --> 00:00:35,584
+<font color="#b5b5b5">The solution is our first multi agent design Pat</font>
+
+20
+00:00:36,096 --> 00:00:37,120
+<font color="#ebebeb">Which is the router</font>
+
+21
+00:00:37,376 --> 00:00:37,888
+<font color="#d4d4d4">How special is</font>
+
+22
+00:00:38,912 --> 00:00:40,704
+<font color="#d6d6d6">This button is a delegation model</font>
+
+23
+00:00:40,960 --> 00:00:41,984
+<font color="#c2c2c2">Not a collaboration</font>
+
+24
+00:00:42,752 --> 00:00:45,312
+<font color="#e6e6e6">You can think of it as a manager worker relationship</font>
+
+25
+00:00:46,336 --> 00:00:47,104
+<font color="#e0e0e0">It is composed</font>
+
+26
+00:00:47,360 --> 00:00:48,896
+<font color="#bfbfbf">Two very different type of the AG</font>
+
+27
+00:00:50,176 --> 00:00:51,712
+<font color="#c7c7c7">You have your specialist AG</font>
+
+28
+00:00:52,224 --> 00:00:53,248
+<font color="#bbbbbb">These are the work</font>
+
+29
+00:00:53,760 --> 00:00:54,784
+<font color="#c3c3c3">These are the AG</font>
+
+30
+00:00:55,040 --> 00:00:55,808
+<font color="#a0a0a0">Does behave already</font>
+
+31
+00:00:56,576 --> 00:00:58,880
+<font color="#cccccc">Like a support agent or inventory</font>
+
+32
+00:00:59,648 --> 00:01:00,416
+<font color="#f6f6f6">The key is</font>
+
+33
+00:01:00,928 --> 00:01:02,464
+<font color="#ececec">Which one is highly specialized</font>
+
+34
+00:01:02,976 --> 00:01:05,280
+<font color="#dadada">It is a simple prompt focused on one</font>
+
+35
+00:01:05,536 --> 00:01:07,584
+<font color="#d3d3d3">Up and only the tools for the</font>
+
+36
+00:01:08,096 --> 00:01:09,888
+<font color="#ececec">Second you have the router agent</font>
+
+37
+00:01:10,144 --> 00:01:12,192
+<font color="#dbdbdb">This is the manager of traffic</font>
+
+38
+00:01:12,704 --> 00:01:13,216
+<font color="#858585">The AG</font>
+
+39
+00:01:14,240 --> 00:01:16,800
+<font color="#d0d0d0">It is job is not to answer the user's question</font>
+
+40
+00:01:17,056 --> 00:01:19,872
+<font color="#d9d9d9">It is only job is to analyze the user's request</font>
+
+41
+00:01:20,128 --> 00:01:21,408
+<font color="#adadad">Classify its in</font>
+
+42
+00:01:21,664 --> 00:01:22,944
+<font color="#696969">I'm done delegate to</font>
+
+43
+00:01:23,200 --> 00:01:23,712
+<font color="#b6b6b6">Ask to the</font>
+
+44
+00:01:24,992 --> 00:01:29,600
+<font color="#d2d2d2">You can't see the image on the slide the user credit accommodate from the router AG</font>
+
+45
+00:01:30,112 --> 00:01:31,904
+<font color="#cbcbcb">And then this will be classified</font>
+
+46
+00:01:32,672 --> 00:01:33,696
+<font color="#b0b0b0">An assigned to</font>
+
+47
+00:01:33,952 --> 00:01:35,744
+<font color="#e0e0e0">I appreciate specialist agent</font>
+
+48
+00:01:36,256 --> 00:01:37,792
+<font color="#f5f5f5">So now let's look at</font>
+
+49
+00:01:38,048 --> 00:01:39,072
+<font color="#cbcbcb">Specialist</font>
+
+50
+00:01:39,584 --> 00:01:42,400
+<font color="#d3d3d3">These are the worker agents that is simple pho</font>
+
+51
+00:01:42,912 --> 00:01:43,424
+<font color="#e6e6e6">System</font>
+
+52
+00:01:44,192 --> 00:01:45,216
+<font color="#f2f2f2">The support agent</font>
+
+53
+00:01:45,472 --> 00:01:46,496
+<font color="#9a9a9a">Assistant problem</font>
+
+54
+00:01:46,752 --> 00:01:52,896
+<font color="#d8d8d8">You are helpful support agent and it only has access to the get older status and process refund</font>
+
+55
+00:01:53,664 --> 00:01:55,712
+<font color="#898989">The amount of the agent is a prom dress</font>
+
+56
+00:01:55,968 --> 00:01:57,248
+<font color="#7d7d7d">Your animal to EXP</font>
+
+57
+00:01:57,760 --> 00:02:00,064
+<font color="#d0d0d0">And it only has access to the check</font>
+
+58
+00:02:00,320 --> 00:02:01,856
+<font color="#afafaf">Look and get product details to</font>
+
+59
+00:02:02,368 --> 00:02:05,952
+<font color="#f2f2f2">This specialization makes them highly reliable and easy to</font>
+
+60
+00:02:06,464 --> 00:02:09,536
+<font color="#eeeeee">They cannot get confused and try to call the wrong tool</font>
+
+61
+00:02:10,048 --> 00:02:12,352
+<font color="#cbcbcb">So now let's dive to the lottery</font>
+
+62
+00:02:13,120 --> 00:02:15,168
+<font color="#f3f3f3">Here is the name and the most important</font>
+
+63
+00:02:15,424 --> 00:02:16,448
+<font color="#cccccc">Which is the weather</font>
+
+64
+00:02:17,216 --> 00:02:19,520
+<font color="#f6f6f6">It is only tool is a simple function</font>
+
+65
+00:02:19,776 --> 00:02:21,312
+<font color="#b9b9b9">Something like Road</font>
+
+66
+00:02:21,824 --> 00:02:24,128
+<font color="#d0d0d0">Which takes the chosen destination is an R</font>
+
+67
+00:02:24,896 --> 00:02:27,712
+<font color="#c1c1c1">These agents system plant is completely different</font>
+
+68
+00:02:27,968 --> 00:02:29,248
+<font color="#8b8b8b">Is explicitly</font>
+
+69
+00:02:29,504 --> 00:02:32,832
+<font color="#dadada">You are a router you must not answer the user's question</font>
+
+70
+00:02:33,344 --> 00:02:36,416
+<font color="#e8e8e8">Your only job is to classify the users intent</font>
+
+71
+00:02:36,672 --> 00:02:39,232
+<font color="#cdcdcd">And choose one destination from a provider list</font>
+
+72
+00:02:39,488 --> 00:02:40,768
+<font color="#d6d6d6">Including the support</font>
+
+73
+00:02:41,024 --> 00:02:42,816
+<font color="#a5a5a5">Inventory or general fold</font>
+
+74
+00:02:43,328 --> 00:02:44,864
+<font color="#757575">This phone for State alarm</font>
+
+75
+00:02:45,120 --> 00:02:46,656
+<font color="#9c9c9c">To act as a simple</font>
+
+76
+00:02:46,912 --> 00:02:48,192
+<font color="#8e8e8e">On first classifier</font>
+
+77
+00:02:48,448 --> 00:02:50,752
+<font color="#dbdbdb">It is not reasoning about a complex star</font>
+
+78
+00:02:51,008 --> 00:02:52,544
+<font color="#ececec">It is just categorizing</font>
+
+79
+00:02:53,056 --> 00:02:54,848
+<font color="#b6b6b6">Let's trace this workload</font>
+
+80
+00:02:55,104 --> 00:02:55,616
+<font color="#cbcbcb">Don't start to</font>
+
+81
+00:02:56,384 --> 00:02:57,408
+<font color="#7d7d7d">I used to ask</font>
+
+82
+00:02:57,664 --> 00:02:58,944
+<font color="#b0b0b0">Do you have the new</font>
+
+83
+00:02:59,200 --> 00:03:00,480
+<font color="#c0c0c0">6000 laptop in</font>
+
+84
+00:03:00,992 --> 00:03:02,016
+<font color="#868686">And this quick</font>
+
+85
+00:03:02,272 --> 00:03:04,064
+<font color="#d4d4d4">Go to the rotary agent first</font>
+
+86
+00:03:04,576 --> 00:03:07,136
+<font color="#8a8a8a">Are the rotors and alarm is called Peter from</font>
+
+87
+00:03:07,392 --> 00:03:08,672
+<font color="#d6d6d6">To Simply classify this</font>
+
+88
+00:03:09,184 --> 00:03:11,488
+<font color="#c3c3c3">And the alarms output is a tool</font>
+
+89
+00:03:11,744 --> 00:03:12,512
+<font color="#969696">Broadcast</font>
+
+90
+00:03:12,768 --> 00:03:14,048
+<font color="#b6b6b6">Destination inventory</font>
+
+91
+00:03:14,816 --> 00:03:16,608
+<font color="#858585">Are orchestration called catch the</font>
+
+92
+00:03:16,864 --> 00:03:19,168
+<font color="#cfcfcf">It sees the destination is inventory</font>
+
+93
+00:03:19,680 --> 00:03:22,240
+<font color="#a5a5a5">Ethan forwards the user's original quitting</font>
+
+94
+00:03:22,496 --> 00:03:23,264
+<font color="#979797">To the inventory</font>
+
+95
+00:03:24,544 --> 00:03:27,104
+<font color="#dcdcdc">The inventory agent wakes up for the first time</font>
+
+96
+00:03:27,360 --> 00:03:30,688
+<font color="#c3c3c3">And it sees the query and begins its own red</font>
+
+97
+00:03:31,200 --> 00:03:31,968
+<font color="#cecece">Thinking</font>
+
+98
+00:03:32,224 --> 00:03:34,016
+<font color="#f6f6f6">I need to check stock for the</font>
+
+99
+00:03:34,272 --> 00:03:35,040
+<font color="#7c7c7c">6000 product</font>
+
+100
+00:03:35,296 --> 00:03:36,320
+<font color="#a5a5a5">And I'm calling</font>
+
+101
+00:03:37,088 --> 00:03:37,600
+<font color="#8a8a8a">Next talk</font>
+
+102
+00:03:37,856 --> 00:03:40,672
+<font color="#cdcdcd">The daughter it is Justin is now Idol</font>
+
+103
+00:03:40,928 --> 00:03:43,488
+<font color="#d3d3d3">This is a clean beautiful separation of concern</font>
+
+104
+00:03:44,000 --> 00:03:45,536
+<font color="#adadad">So now is archit</font>
+
+105
+00:03:45,792 --> 00:03:48,864
+<font color="#dcdcdc">We should understand the implications of these architecture Pat</font>
+
+106
+00:03:49,888 --> 00:03:51,936
+<font color="#c4c4c4">This is the microservice architecture Pat</font>
+
+107
+00:03:52,192 --> 00:03:53,216
+<font color="#afafaf">But for the agent</font>
+
+108
+00:03:53,728 --> 00:03:59,872
+<font color="#c7c7c7">It gives us the incredible maintainability if you need to add a new billing capability you just</font>
+
+109
+00:04:00,128 --> 00:04:01,920
+<font color="#b2b2b2">Read any isolated billing AG</font>
+
+110
+00:04:02,688 --> 00:04:03,200
+<font color="#7a7a7a">It's on</font>
+
+111
+00:04:03,712 --> 00:04:07,552
+<font color="#c9c9c9">The only other change you make is adding billing to the rotary engines</font>
+
+112
+00:04:07,808 --> 00:04:09,344
+<font color="#d6d6d6">List of the body destinations</font>
+
+113
+00:04:09,856 --> 00:04:11,136
+<font color="#e5e5e5">No other agent is</font>
+
+114
+00:04:11,648 --> 00:04:13,184
+<font color="#e0e0e0">This is the massive architectural</font>
+
+115
+00:04:13,952 --> 00:04:16,000
+<font color="#dcdcdc">Second this button is highly efficient</font>
+
+116
+00:04:16,256 --> 00:04:17,536
+<font color="#e5e5e5">The first router</font>
+
+117
+00:04:17,791 --> 00:04:19,327
+<font color="#e9e9e9">Is extremely fast and cheap</font>
+
+118
+00:04:19,583 --> 00:04:20,351
+<font color="#ededed">After</font>
+
+119
+00:04:20,607 --> 00:04:23,679
+<font color="#e6e6e6">You are only paying the expensive token and latency</font>
+
+120
+00:04:24,191 --> 00:04:24,703
+<font color="#828282">For</font>
+
+121
+00:04:24,959 --> 00:04:25,727
+<font color="#757575">What specialist AG</font>
+
+122
+00:04:25,983 --> 00:04:27,263
+<font color="#d4d4d4">And this is actually needed</font>
+
+123
+00:04:27,775 --> 00:04:28,287
+<font color="#1a1a1a">Finn</font>
+
+124
+00:04:29,055 --> 00:04:32,383
+<font color="#dddddd">Specialist agent can be a unit tested in complete isolation</font>
+
+125
+00:04:32,639 --> 00:04:34,431
+<font color="#dcdcdc">Making your system for more</font>
+
+126
+00:04:35,199 --> 00:04:36,479
+<font color="#e2e2e2">Is there somebody we can say</font>
+
+127
+00:04:36,991 --> 00:04:40,319
+<font color="#cacaca">This is the fundamental pattern for delegation in multi agent system</font>
+
+128
+00:04:41,087 --> 00:04:42,623
+<font color="#989898">It directly implement</font>
+
+129
+00:04:42,879 --> 00:04:44,159
+<font color="#cdcdcd">The specialization principle</font>
+
+130
+00:04:44,671 --> 00:04:46,207
+<font color="#c7c7c7">Underwater which is the</font>
+
+131
+00:04:46,463 --> 00:04:47,999
+<font color="#e9e9e9">Cheap classified agent</font>
+
+132
+00:04:48,511 --> 00:04:49,023
+<font color="#585858">Special</font>
+
+133
+00:04:49,279 --> 00:04:51,071
+<font color="#bdbdbd">Focus libel and worker</font>
+
+134
+00:04:51,839 --> 00:04:52,607
+<font color="#c1c1c1">This is your deaf</font>
+
+135
+00:04:52,863 --> 00:04:56,447
+<font color="#b7b7b7">Go to pattern for building any complex multifunction AG</font>

@@ -1,0 +1,599 @@
+﻿1
+00:00:00,256 --> 00:00:02,304
+<font color="#ececec">In this video we are going to learn</font>
+
+2
+00:00:02,560 --> 00:00:03,328
+<font color="#454545">Loma IND</font>
+
+3
+00:00:03,584 --> 00:00:04,864
+<font color="#dbdbdb">Is an agent framework</font>
+
+4
+00:00:05,376 --> 00:00:07,424
+<font color="#c2c2c2">Is you can see that we are 82nd</font>
+
+5
+00:00:07,936 --> 00:00:08,448
+<font color="#8e8e8e">And</font>
+
+6
+00:00:08,704 --> 00:00:09,216
+<font color="#767676">List all</font>
+
+7
+00:00:09,472 --> 00:00:10,240
+<font color="#828282">Just do the special</font>
+
+8
+00:00:10,496 --> 00:00:11,008
+<font color="#3f3f3f">What is categ</font>
+
+9
+00:00:11,264 --> 00:00:13,056
+<font color="#a6a6a6">Play to solve one specific problem</font>
+
+10
+00:00:13,568 --> 00:00:14,080
+<font color="#fafafa">Which is</font>
+
+11
+00:00:14,336 --> 00:00:14,848
+<font color="#878787">Reading powerful</font>
+
+12
+00:00:15,104 --> 00:00:16,640
+<font color="#dedede">Data intensive agents</font>
+
+13
+00:00:17,152 --> 00:00:19,456
+<font color="#b7b7b7">Easter luncheon is the generalist Workshop</font>
+
+14
+00:00:19,968 --> 00:00:20,480
+<font color="#3b3b3b">Llama</font>
+
+15
+00:00:20,736 --> 00:00:21,760
+<font color="#969696">Next is the special</font>
+
+16
+00:00:22,016 --> 00:00:23,040
+<font color="#aeaeae">Is data science lab</font>
+
+17
+00:00:23,296 --> 00:00:25,856
+<font color="#dbdbdb">We are moving from an application first app</font>
+
+18
+00:00:26,112 --> 00:00:27,392
+<font color="#b2b2b2">Do the date of first Airport</font>
+
+19
+00:00:28,160 --> 00:00:29,440
+<font color="#bdbdbd">To understand the llama</font>
+
+20
+00:00:29,696 --> 00:00:30,464
+<font color="#646464">Is the most</font>
+
+21
+00:00:30,720 --> 00:00:31,744
+<font color="#d8d8d8">First understand the problem</font>
+
+22
+00:00:33,024 --> 00:00:34,816
+<font color="#ebebeb">We have all seen simple</font>
+
+23
+00:00:35,072 --> 00:00:37,120
+<font color="#a4a4a4">You find if you live in Texas</font>
+
+24
+00:00:37,632 --> 00:00:38,656
+<font color="#e7e7e7">Stop them into</font>
+
+25
+00:00:38,912 --> 00:00:39,936
+<font color="#999999">And get some</font>
+
+26
+00:00:40,448 --> 00:00:43,008
+<font color="#ececec">But what happens when the problem gets harder</font>
+
+27
+00:00:43,520 --> 00:00:44,800
+<font color="#d0d0d0">What is the answer require</font>
+
+28
+00:00:45,056 --> 00:00:47,104
+<font color="#b3b3b3">What is comparing two different annual</font>
+
+29
+00:00:47,872 --> 00:00:48,640
+<font color="#fafafa">What if you need to</font>
+
+30
+00:00:48,896 --> 00:00:51,968
+<font color="#d6d6d6">Who's the first look up the user's ID in SQL database</font>
+
+31
+00:00:52,224 --> 00:00:53,760
+<font color="#d3d3d3">And then use that idea</font>
+
+32
+00:00:54,016 --> 00:00:55,296
+<font color="#b1b1b1">To find the support</font>
+
+33
+00:00:55,808 --> 00:00:57,088
+<font color="#e1e1e1">In a PDF archive</font>
+
+34
+00:00:57,344 --> 00:00:58,880
+<font color="#9d9d9d">Under summarize the findings</font>
+
+35
+00:00:59,392 --> 00:01:00,928
+<font color="#e3e3e3">This is no longer simple rake</font>
+
+36
+00:01:01,184 --> 00:01:02,208
+<font color="#c1c1c1">This is Agent</font>
+
+37
+00:01:02,720 --> 00:01:03,232
+<font color="#e6e6e6">It</font>
+
+38
+00:01:03,488 --> 00:01:06,048
+<font color="#d0d0d0">What's an agent that can create a multi-step plan</font>
+
+39
+00:01:06,304 --> 00:01:08,096
+<font color="#bfbfbf">Create a multiple data sources</font>
+
+40
+00:01:08,352 --> 00:01:09,632
+<font color="#a6a6a6">Un synthesized the result</font>
+
+41
+00:01:09,888 --> 00:01:12,448
+<font color="#e6e6e6">This is the core problem Loma index was</font>
+
+42
+00:01:13,472 --> 00:01:16,032
+<font color="#f4f4f4">So now let's understand the difference between</font>
+
+43
+00:01:16,288 --> 00:01:16,800
+<font color="#747474">In Loma</font>
+
+44
+00:01:17,056 --> 00:01:17,824
+<font color="#888888">Mix on the line</font>
+
+45
+00:01:18,336 --> 00:01:20,640
+<font color="#d7d7d7">19 is application first Airport</font>
+
+46
+00:01:21,152 --> 00:01:23,200
+<font color="#bababa">It focuses on the agents work</font>
+
+47
+00:01:23,968 --> 00:01:24,736
+<font color="#818181">What is execution</font>
+
+48
+00:01:25,248 --> 00:01:28,320
+<font color="#dbdbdb">Your data is just another tool in the agents to</font>
+
+49
+00:01:29,088 --> 00:01:29,856
+<font color="#2b2b2b">Butler</font>
+
+50
+00:01:30,112 --> 00:01:31,392
+<font color="#c0c0c0">Next is data first approach</font>
+
+51
+00:01:31,648 --> 00:01:32,416
+<font color="#606060">Eat Focus</font>
+
+52
+00:01:32,672 --> 00:01:34,464
+<font color="#b6b6b6">What does obsessively on the data itself</font>
+
+53
+00:01:34,976 --> 00:01:36,768
+<font color="#c7c7c7">Is primary strength is building</font>
+
+54
+00:01:37,536 --> 00:01:39,584
+<font color="#ebebeb">Incredible index of your data</font>
+
+55
+00:01:39,840 --> 00:01:42,144
+<font color="#b8b8b8">The agent is a 10 reason player</font>
+
+56
+00:01:43,168 --> 00:01:44,704
+<font color="#d2d2d2">What's on top of this powerful</font>
+
+57
+00:01:45,728 --> 00:01:47,264
+<font color="#c4c4c4">This is the key takeaway</font>
+
+58
+00:01:47,520 --> 00:01:49,312
+<font color="#afafaf">You choose the Lion King for comp</font>
+
+59
+00:01:49,568 --> 00:01:50,336
+<font color="#8e8e8e">Next agent log</font>
+
+60
+00:01:50,592 --> 00:01:52,384
+<font color="#b3b3b3">You choose the number index for comp</font>
+
+61
+00:01:52,640 --> 00:01:53,664
+<font color="#b6b6b6">Next data interactions</font>
+
+62
+00:01:54,176 --> 00:01:55,712
+<font color="#f5f5f5">So now let's understand</font>
+
+63
+00:01:55,968 --> 00:01:57,504
+<font color="#c7c7c7">How long are index is working</font>
+
+64
+00:01:58,016 --> 00:02:00,832
+<font color="#dbdbdb">Solomon index architecture is based understood</font>
+
+65
+00:02:01,088 --> 00:02:02,368
+<font color="#a5a5a5">Is two distinct pip</font>
+
+66
+00:02:03,136 --> 00:02:05,184
+<font color="#ebebeb">The first one is the injection pipeline</font>
+
+67
+00:02:05,440 --> 00:02:06,976
+<font color="#aaaaaa">How it gets data in</font>
+
+68
+00:02:07,744 --> 00:02:09,280
+<font color="#c5c5c5">It starts with the data connectors</font>
+
+69
+00:02:09,792 --> 00:02:14,912
+<font color="#cdcdcd">These are pretty Integrations that load data from virtually anywhere from the PD</font>
+
+70
+00:02:15,168 --> 00:02:15,936
+<font color="#434343">Play</font>
+
+71
+00:02:18,240 --> 00:02:18,752
+<font color="#444444">Sales</font>
+
+72
+00:02:19,008 --> 00:02:19,520
+<font color="#dcdcdc">You name</font>
+
+73
+00:02:20,032 --> 00:02:22,080
+<font color="#d7d7d7">But the real magic is in indexing</font>
+
+74
+00:02:22,336 --> 00:02:23,104
+<font color="#5d5d5d">Llama</font>
+
+75
+00:02:23,360 --> 00:02:24,896
+<font color="#a8a8a8">Alexa doesn't just dump the dat</font>
+
+76
+00:02:25,152 --> 00:02:25,920
+<font color="#7d7d7d">Play into a vector</font>
+
+77
+00:02:26,432 --> 00:02:27,968
+<font color="#979797">It intelligent is struct</font>
+
+78
+00:02:28,480 --> 00:02:29,760
+<font color="#c6c6c6">It can create a stand</font>
+
+79
+00:02:30,016 --> 00:02:31,040
+<font color="#878787">What Victor store</font>
+
+80
+00:02:31,296 --> 00:02:32,064
+<font color="#202020">647</font>
+
+81
+00:02:32,576 --> 00:02:33,856
+<font color="#f9f9f9">But it can also create</font>
+
+82
+00:02:34,112 --> 00:02:34,624
+<font color="#b1b1b1">If somebody</font>
+
+83
+00:02:35,136 --> 00:02:36,672
+<font color="#b2b2b2">Optimized for the summer station</font>
+
+84
+00:02:37,696 --> 00:02:38,720
+<font color="#c2c2c2">Keyboard table</font>
+
+85
+00:02:39,488 --> 00:02:40,512
+<font color="#484848">What's the temperature at metad</font>
+
+86
+00:02:41,024 --> 00:02:43,584
+<font color="#c3c3c3">The result is a rich motivated index</font>
+
+87
+00:02:43,840 --> 00:02:44,608
+<font color="#707070">Did understand</font>
+
+88
+00:02:44,864 --> 00:02:47,680
+<font color="#c9c9c9">Does the structure of your data not just its cont</font>
+
+89
+00:02:48,448 --> 00:02:51,008
+<font color="#e9e9e9">And the second pipeline is for retrieval</font>
+
+90
+00:02:51,264 --> 00:02:52,800
+<font color="#dddddd">How it gets the data out</font>
+
+91
+00:02:53,312 --> 00:02:54,848
+<font color="#cdcdcd">Once you have your IND</font>
+
+92
+00:02:55,104 --> 00:02:56,384
+<font color="#2c2c2c">Next Prov</font>
+
+93
+00:02:56,640 --> 00:02:57,408
+<font color="#363636">Creative</font>
+
+94
+00:02:57,920 --> 00:02:59,968
+<font color="#dfdfdf">This is a simple high-level interface</font>
+
+95
+00:03:00,224 --> 00:03:01,248
+<font color="#a8a8a8">Is to ask questions</font>
+
+96
+00:03:01,760 --> 00:03:02,528
+<font color="#f4f4f4">Behind the</font>
+
+97
+00:03:03,040 --> 00:03:04,064
+<font color="#bfbfbf">The credit union</font>
+
+98
+00:03:04,320 --> 00:03:05,856
+<font color="#d3d3d3">What's the best way to retrieve dat</font>
+
+99
+00:03:06,112 --> 00:03:06,880
+<font color="#e3e3e3">From the</font>
+
+100
+00:03:07,648 --> 00:03:08,416
+<font color="#646464">Next track</font>
+
+101
+00:03:09,184 --> 00:03:11,744
+<font color="#dadada">But it is real power comes from the red Pipelines</font>
+
+102
+00:03:12,256 --> 00:03:14,048
+<font color="#cfcfcf">Llama index allows you to</font>
+
+103
+00:03:14,560 --> 00:03:16,352
+<font color="#7e7e7e">Music to customize the retrieval Pro</font>
+
+104
+00:03:16,864 --> 00:03:17,632
+<font color="#eaeaea">For example</font>
+
+105
+00:03:17,888 --> 00:03:19,680
+<font color="#bdbdbd">You can receive 20 documents</font>
+
+106
+00:03:19,936 --> 00:03:21,216
+<font color="#4f4f4f">Has done it already</font>
+
+107
+00:03:21,472 --> 00:03:22,496
+<font color="#d6d6d6">Wingstop to find the</font>
+
+108
+00:03:23,264 --> 00:03:24,288
+<font color="#757575">And then</font>
+
+109
+00:03:24,544 --> 00:03:25,568
+<font color="#929292">Response to the</font>
+
+110
+00:03:26,080 --> 00:03:28,896
+<font color="#d4d4d4">Do intelligently wave those five answer together</font>
+
+111
+00:03:29,408 --> 00:03:30,432
+<font color="#f4f4f4">This is how you</font>
+
+112
+00:03:30,688 --> 00:03:31,456
+<font color="#cccccc">An industrial</font>
+
+113
+00:03:33,248 --> 00:03:35,296
+<font color="#e2e2e2">We will see details of the agency</font>
+
+114
+00:03:35,552 --> 00:03:36,320
+<font color="#dcdcdc">Like in the next section</font>
+
+115
+00:03:36,832 --> 00:03:39,904
+<font color="#f4f4f4">If you putting it all together we can ask that</font>
+
+116
+00:03:40,160 --> 00:03:41,952
+<font color="#f7f7f7">Where does the agent come in</font>
+
+117
+00:03:42,208 --> 00:03:43,488
+<font color="#adadad">The lumber index agent</font>
+
+118
+00:03:43,744 --> 00:03:44,768
+<font color="#9c9c9c">Is a reasoning play</font>
+
+119
+00:03:45,024 --> 00:03:47,584
+<font color="#dbdbdb">Built on top of these powerful query engines</font>
+
+120
+00:03:48,096 --> 00:03:48,864
+<font color="#f5f5f5">This is the key</font>
+
+121
+00:03:49,120 --> 00:03:50,656
+<font color="#d6d6d6">You don't just give the AG</font>
+
+122
+00:03:50,912 --> 00:03:53,472
+<font color="#dadada">Add a simple tool you give the agent multiple</font>
+
+123
+00:03:53,728 --> 00:03:55,008
+<font color="#a2a2a2">Specialized Credit Union</font>
+
+124
+00:03:55,264 --> 00:03:56,032
+<font color="#797979">When is exit</font>
+
+125
+00:03:56,288 --> 00:03:57,056
+<font color="#eeeeee">For example</font>
+
+126
+00:03:57,312 --> 00:03:58,336
+<font color="#bdbdbd">You give your AG</font>
+
+127
+00:03:58,592 --> 00:03:59,104
+<font color="#3b3b3b">To</font>
+
+128
+00:03:59,360 --> 00:04:01,152
+<font color="#dedede">Which is equity engine for</font>
+
+129
+00:04:01,408 --> 00:04:03,456
+<font color="#c5c5c5">2024 Financial PD</font>
+
+130
+00:04:03,968 --> 00:04:05,760
+<font color="#6f6f6f">Until 2:40</font>
+
+131
+00:04:06,016 --> 00:04:08,064
+<font color="#adadad">In Polar Express sales database</font>
+
+132
+00:04:08,832 --> 00:04:09,344
+<font color="#dfdfdf">After</font>
+
+133
+00:04:09,600 --> 00:04:11,904
+<font color="#d7d7d7">When a user ask a complex question like</font>
+
+134
+00:04:12,160 --> 00:04:14,464
+<font color="#b1b1b1">Compare our sales from 20</font>
+
+135
+00:04:14,720 --> 00:04:15,488
+<font color="#484848">Weather for today</font>
+
+136
+00:04:15,744 --> 00:04:17,280
+<font color="#d0d0d0">Elections in the financial report</font>
+
+137
+00:04:17,536 --> 00:04:18,815
+<font color="#e1e1e1">The agent can reason</font>
+
+138
+00:04:19,071 --> 00:04:20,351
+<font color="#b0b0b0">It will create a plan</font>
+
+139
+00:04:20,607 --> 00:04:23,167
+<font color="#bbbbbb">Call the Esquire tool to get the sales data</font>
+
+140
+00:04:23,423 --> 00:04:25,983
+<font color="#cbcbcb">Then call the PDF tool to get the projection</font>
+
+141
+00:04:26,495 --> 00:04:27,263
+<font color="#cccccc">I'm finally</font>
+
+142
+00:04:27,519 --> 00:04:28,031
+<font color="#212121">Synthes</font>
+
+143
+00:04:28,287 --> 00:04:29,311
+<font color="#a7a7a7">What is a complete answer</font>
+
+144
+00:04:29,567 --> 00:04:31,103
+<font color="#9c9c9c">That is true agency</font>
+
+145
+00:04:31,615 --> 00:04:33,407
+<font color="#e2e2e2">So is it somebody we can say that</font>
+
+146
+00:04:33,663 --> 00:04:34,175
+<font color="#383838">Lower</font>
+
+147
+00:04:34,431 --> 00:04:35,711
+<font color="#b3b3b3">Next a date of first framework</font>
+
+148
+00:04:36,479 --> 00:04:38,271
+<font color="#b1b1b1">What's the thing is building rich in Texas</font>
+
+149
+00:04:38,783 --> 00:04:43,647
+<font color="#d0d0d0">Key features is informatic agency click that can reason and synthesize the data</font>
+
+150
+00:04:43,903 --> 00:04:45,439
+<font color="#bababa">Unused for the advance</font>

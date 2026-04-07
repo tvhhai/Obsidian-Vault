@@ -1,0 +1,539 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f5f5f5">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,048
+<font color="#ebebeb">We are going to learn</font>
+
+3
+00:00:02,560 --> 00:00:04,608
+<font color="#e6e6e6">The challenges of the Atlantic are</font>
+
+4
+00:00:05,376 --> 00:00:06,656
+<font color="#e6e6e6">In the previous lectures</font>
+
+5
+00:00:06,912 --> 00:00:07,424
+<font color="#3f3f3f">Is Bill</font>
+
+6
+00:00:07,680 --> 00:00:08,960
+<font color="#c0c0c0">How to coordinate comp</font>
+
+7
+00:00:09,216 --> 00:00:10,496
+<font color="#b9b9b9">Textiles in areas like</font>
+
+8
+00:00:11,008 --> 00:00:12,544
+<font color="#9e9e9e">E-commerce disaster resp</font>
+
+9
+00:00:12,800 --> 00:00:14,080
+<font color="#d5d5d5">And Supply Chain management</font>
+
+10
+00:00:14,848 --> 00:00:15,360
+<font color="#dddddd">However</font>
+
+11
+00:00:15,616 --> 00:00:16,384
+<font color="#808080">Disney</font>
+
+12
+00:00:16,640 --> 00:00:18,176
+<font color="#d1d1d1">A single component to a distrib</font>
+
+13
+00:00:18,432 --> 00:00:18,944
+<font color="#aaaaaa">Bluetooth system</font>
+
+14
+00:00:19,200 --> 00:00:22,784
+<font color="#d1d1d1">Introduce an entirely new class of the architectural challenges</font>
+
+15
+00:00:23,552 --> 00:00:24,320
+<font color="#979797">Is Arch</font>
+
+16
+00:00:24,576 --> 00:00:26,624
+<font color="#acacac">We must approach this month</font>
+
+17
+00:00:27,392 --> 00:00:29,440
+<font color="#aeaeae">With a clear understanding of</font>
+
+18
+00:00:29,696 --> 00:00:30,208
+<font color="#6c6c6c">Hot pot</font>
+
+19
+00:00:31,744 --> 00:00:32,512
+<font color="#8b8b8b">Add to flight anal</font>
+
+20
+00:00:33,280 --> 00:00:35,584
+<font color="#c5c5c5">Is challenges for our agentic air system</font>
+
+21
+00:00:36,352 --> 00:00:38,144
+<font color="#d7d7d7">On our first challenge is</font>
+
+22
+00:00:38,400 --> 00:00:38,912
+<font color="#d1d1d1">System</font>
+
+23
+00:00:39,168 --> 00:00:39,680
+<font color="#343434">Light obser</font>
+
+24
+00:00:40,704 --> 00:00:44,544
+<font color="#dfdfdf">Debugging a single agents internal monologue is already difficult</font>
+
+25
+00:00:45,056 --> 00:00:46,848
+<font color="#e0e0e0">But what happens when they</font>
+
+26
+00:00:47,104 --> 00:00:48,640
+<font color="#c3c3c3">What is not happening in one br</font>
+
+27
+00:00:48,896 --> 00:00:50,432
+<font color="#c3c3c3">What is distributed AC</font>
+
+28
+00:00:50,688 --> 00:00:51,456
+<font color="#cdcdcd">What's a team of</font>
+
+29
+00:00:51,712 --> 00:00:53,248
+<font color="#828282">What's 510 collaborating AG</font>
+
+30
+00:00:54,016 --> 00:00:54,528
+<font color="#f2f2f2">It must be</font>
+
+31
+00:00:55,040 --> 00:00:55,552
+<font color="#848484">Extremely diff</font>
+
+32
+00:00:56,320 --> 00:00:57,856
+<font color="#f2f2f2">If the final result is wrong</font>
+
+33
+00:00:58,112 --> 00:00:59,904
+<font color="#bcbcbc">Tracing the root cause becomes</font>
+
+34
+00:01:00,160 --> 00:01:01,184
+<font color="#a0a0a0">Exponentially hard</font>
+
+35
+00:01:01,696 --> 00:01:04,000
+<font color="#d1d1d1">Did the orchestrated agent make a bed</font>
+
+36
+00:01:04,256 --> 00:01:07,072
+<font color="#929292">Turn on the internet fail to execute</font>
+
+37
+00:01:07,328 --> 00:01:08,096
+<font color="#9c9c9c">Is tool correct</font>
+
+38
+00:01:08,608 --> 00:01:09,888
+<font color="#b5b5b5">Or did the billing agent</font>
+
+39
+00:01:10,144 --> 00:01:12,192
+<font color="#b7b7b7">Simply misinterpret the message</font>
+
+40
+00:01:13,216 --> 00:01:13,984
+<font color="#8a8a8a">From the orcust</font>
+
+41
+00:01:14,496 --> 00:01:18,080
+<font color="#d6d6d6">And the Chain of Thought is not fragmented for the distributed agent</font>
+
+42
+00:01:18,848 --> 00:01:23,456
+<font color="#c6c6c6">So that means we must design robust distributed tracing and Central</font>
+
+43
+00:01:23,712 --> 00:01:24,480
+<font color="#e8e8e8">Is logging systems</font>
+
+44
+00:01:24,992 --> 00:01:27,040
+<font color="#eaeaea">Specifically for the agent interactions</font>
+
+45
+00:01:27,296 --> 00:01:29,344
+<font color="#d5d5d5">Just as we do for Microsoft</font>
+
+46
+00:01:30,112 --> 00:01:32,928
+<font color="#8a8a8a">But with the edit complexity of non Dieter</font>
+
+47
+00:01:33,184 --> 00:01:33,952
+<font color="#8d8d8d">Is the reasoning</font>
+
+48
+00:01:34,976 --> 00:01:38,560
+<font color="#ebebeb">After that our Second Challenge is unique to complex system</font>
+
+49
+00:01:39,328 --> 00:01:40,608
+<font color="#e8e8e8">Is emergent Behavior</font>
+
+50
+00:01:41,120 --> 00:01:42,144
+<font color="#808080">Images of</font>
+
+51
+00:01:42,400 --> 00:01:44,704
+<font color="#b5b5b5">When the interactions of many simple agent</font>
+
+52
+00:01:44,960 --> 00:01:45,728
+<font color="#858585">Is lead to comp</font>
+
+53
+00:01:46,240 --> 00:01:47,264
+<font color="#6c6c6c">Unplanned behaviors</font>
+
+54
+00:01:47,520 --> 00:01:48,288
+<font color="#acacac">Is it the system</font>
+
+55
+00:01:49,056 --> 00:01:52,128
+<font color="#e4e4e4">This is both the power and the danger of the Atlantic a</font>
+
+56
+00:01:52,384 --> 00:01:53,152
+<font color="#d1d1d1">Play what happens</font>
+
+57
+00:01:53,408 --> 00:01:54,688
+<font color="#585858">What's 1 * 380</font>
+
+58
+00:01:54,944 --> 00:01:56,480
+<font color="#989898">On each for living to simple Rue</font>
+
+59
+00:01:56,992 --> 00:01:58,528
+<font color="#7d7d7d">Interacting innovative</font>
+
+60
+00:01:58,784 --> 00:02:00,320
+<font color="#dddddd">Accidentally crashes the market</font>
+
+61
+00:02:00,832 --> 00:02:03,392
+<font color="#f6f6f6">What if two agents in our supply chain</font>
+
+62
+00:02:03,648 --> 00:02:04,160
+<font color="#eeeeee">Get</font>
+
+63
+00:02:04,416 --> 00:02:05,440
+<font color="#ececec">In an infinite</font>
+
+64
+00:02:06,208 --> 00:02:07,488
+<font color="#bbbbbb">What's the ordering and cancel</font>
+
+65
+00:02:07,744 --> 00:02:08,256
+<font color="#949494">Add to same it</font>
+
+66
+00:02:09,024 --> 00:02:11,584
+<font color="#e0e0e0">So the system's Behavior may become something</font>
+
+67
+00:02:11,840 --> 00:02:14,400
+<font color="#c7c7c7">There's no single agent planned or intended</font>
+
+68
+00:02:15,424 --> 00:02:16,704
+<font color="#adadad">Architectural challenge is in</font>
+
+69
+00:02:16,960 --> 00:02:20,800
+<font color="#ededed">How do we design system that allow for beneficial emergence</font>
+
+70
+00:02:21,056 --> 00:02:23,616
+<font color="#eaeaea">While preventing the harmful emergent behaviors</font>
+
+71
+00:02:24,128 --> 00:02:26,432
+<font color="#a9a9a9">Please open invoice extensive simulation</font>
+
+72
+00:02:26,688 --> 00:02:28,224
+<font color="#a8a8a8">Careful agents rule design</font>
+
+73
+00:02:28,480 --> 00:02:29,760
+<font color="#848484">Assistant white Guardian</font>
+
+74
+00:02:30,528 --> 00:02:31,296
+<font color="#eaeaea">So</font>
+
+75
+00:02:31,552 --> 00:02:32,064
+<font color="#ececec">Next challenge</font>
+
+76
+00:02:32,576 --> 00:02:33,856
+<font color="#afafaf">Intel agent communication</font>
+
+77
+00:02:34,624 --> 00:02:37,440
+<font color="#bfbfbf">Where did we use orchestration or choreography pattern</font>
+
+78
+00:02:37,696 --> 00:02:39,232
+<font color="#dedede">Are system depends on</font>
+
+79
+00:02:39,744 --> 00:02:41,792
+<font color="#e0e0e0">Successfully sending and receiving messages</font>
+
+80
+00:02:42,560 --> 00:02:44,608
+<font color="#9f9f9f">Did the lights on stable Communications</font>
+
+81
+00:02:44,864 --> 00:02:45,632
+<font color="#393939">Translate MC</font>
+
+82
+00:02:45,888 --> 00:02:47,424
+<font color="#747474">Play or Define API Conte</font>
+
+83
+00:02:47,680 --> 00:02:48,448
+<font color="#8b8b8b">What's between as</font>
+
+84
+00:02:48,960 --> 00:02:50,240
+<font color="#7e7e7e">This communication fail</font>
+
+85
+00:02:50,496 --> 00:02:51,008
+<font color="#545454">Is great</font>
+
+86
+00:02:51,264 --> 00:02:52,544
+<font color="#989898">Play like protocol mismatch</font>
+
+87
+00:02:52,800 --> 00:02:53,568
+<font color="#c0c0c0">API</font>
+
+88
+00:02:53,824 --> 00:02:54,592
+<font color="#a7a7a7">Is a network</font>
+
+89
+00:02:55,360 --> 00:02:56,128
+<font color="#dddddd">So all</font>
+
+90
+00:02:56,384 --> 00:02:59,200
+<font color="#d0d0d0">62 challenge is to design for resilient communication</font>
+
+91
+00:02:59,456 --> 00:03:00,224
+<font color="#3c3c3c">Andy's in</font>
+
+92
+00:03:00,736 --> 00:03:01,760
+<font color="#878787">Standard distributed</font>
+
+93
+00:03:02,016 --> 00:03:02,528
+<font color="#8a8a8a">System techn</font>
+
+94
+00:03:03,040 --> 00:03:04,320
+<font color="#ededed">Careful API listening</font>
+
+95
+00:03:04,576 --> 00:03:05,600
+<font color="#a7a7a7">Robust error</font>
+
+96
+00:03:05,856 --> 00:03:07,136
+<font color="#bebebe">Retry mechanism</font>
+
+97
+00:03:07,392 --> 00:03:09,184
+<font color="#cccccc">And the patterns like circuit breakers</font>
+
+98
+00:03:09,440 --> 00:03:10,976
+<font color="#b1b1b1">To prevent cascading playlist</font>
+
+99
+00:03:11,488 --> 00:03:12,512
+<font color="#f4f4f4">When one agent becomes</font>
+
+100
+00:03:12,768 --> 00:03:13,280
+<font color="#5a5a5a">What's undas</font>
+
+101
+00:03:13,792 --> 00:03:15,328
+<font color="#ebebeb">Our final major challenge</font>
+
+102
+00:03:15,584 --> 00:03:16,352
+<font color="#9b9b9b">Is gold conf</font>
+
+103
+00:03:16,608 --> 00:03:17,632
+<font color="#afafaf">And resource location</font>
+
+104
+00:03:17,888 --> 00:03:21,984
+<font color="#d5d5d5">This is the classic concurrency problem now apply to autonomous AG</font>
+
+105
+00:03:22,752 --> 00:03:24,800
+<font color="#efefef">What happens when two different agents</font>
+
+106
+00:03:25,056 --> 00:03:26,592
+<font color="#d0d0d0">Operating independently</font>
+
+107
+00:03:26,848 --> 00:03:27,872
+<font color="#eeeeee">Need the same</font>
+
+108
+00:03:28,128 --> 00:03:28,640
+<font color="#878787">Bluetooth resource</font>
+
+109
+00:03:28,896 --> 00:03:30,944
+<font color="#b0b0b0">Imagine two separate travel AG</font>
+
+110
+00:03:31,200 --> 00:03:33,504
+<font color="#e2e2e2">Both trying to book the very last</font>
+
+111
+00:03:33,760 --> 00:03:35,040
+<font color="#ababab">Put on a flight to New York</font>
+
+112
+00:03:35,296 --> 00:03:37,088
+<font color="#dbdbdb">At the exact same millisecond</font>
+
+113
+00:03:37,344 --> 00:03:37,856
+<font color="#f8f8f8">Who</font>
+
+114
+00:03:38,624 --> 00:03:39,904
+<font color="#6d6d6d">Or considered AG</font>
+
+115
+00:03:40,160 --> 00:03:41,184
+<font color="#939393">What's with conflicting</font>
+
+116
+00:03:42,208 --> 00:03:42,976
+<font color="#8c8c8c">Most saving AG</font>
+
+117
+00:03:43,744 --> 00:03:47,328
+<font color="#d1d1d1">I decide to Optimal action is to shut down another useless</font>
+
+118
+00:03:47,840 --> 00:03:49,120
+<font color="#bdbdbd">Write an uptime agent</font>
+
+119
+00:03:49,376 --> 00:03:50,400
+<font color="#d6d6d6">Simultaneously</font>
+
+120
+00:03:51,168 --> 00:03:52,960
+<font color="#c2c2c2">It needs that server as a backup</font>
+
+121
+00:03:53,216 --> 00:03:56,032
+<font color="#bbbbbb">This is a classic concurrency problem from Des</font>
+
+122
+00:03:57,312 --> 00:04:01,152
+<font color="#c5c5c5">Are architecture challenge is to implement mechanism to resolve this conflict</font>
+
+123
+00:04:01,920 --> 00:04:05,248
+<font color="#d5d5d5">This might involve establishing clear prioritization</font>
+
+124
+00:04:05,504 --> 00:04:08,832
+<font color="#f9f9f9">Implementing locking mechanisms for critical resources</font>
+
+125
+00:04:09,088 --> 00:04:10,112
+<font color="#aeaeae">Or even building</font>
+
+126
+00:04:10,368 --> 00:04:14,720
+<font color="#d3d3d3">Negotiation protocols for agents can beat for a resource or compromise</font>
+
+127
+00:04:15,232 --> 00:04:16,768
+<font color="#e8e8e8">Is there somebody we can say that</font>
+
+128
+00:04:17,024 --> 00:04:18,815
+<font color="#f5f5f5">The challenge of the agentic</font>
+
+129
+00:04:19,071 --> 00:04:20,351
+<font color="#676767">Play all fundamentalist system</font>
+
+130
+00:04:21,119 --> 00:04:25,727
+<font color="#cecece">We must design for System Light observability to debug the distributed reasoning</font>
+
+131
+00:04:25,983 --> 00:04:29,567
+<font color="#f4f4f4">You must manage emergent Behavior to prevent harmful outcomes</font>
+
+132
+00:04:29,823 --> 00:04:30,847
+<font color="#b6b6b6">The most</font>
+
+133
+00:04:31,103 --> 00:04:32,383
+<font color="#f7f7f7">Brazilian communication</font>
+
+134
+00:04:33,151 --> 00:04:33,919
+<font color="#979797">My system business</font>
+
+135
+00:04:34,431 --> 00:04:36,735
+<font color="#cccccc">And the most intimate mechanism to resolve</font>

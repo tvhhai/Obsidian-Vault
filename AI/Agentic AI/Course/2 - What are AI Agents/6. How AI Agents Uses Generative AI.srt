@@ -1,0 +1,547 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f9f9f9">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,304
+<font color="#f2f2f2">We are going to learn</font>
+
+3
+00:00:02,560 --> 00:00:03,584
+<font color="#737373">How a Agee</font>
+
+4
+00:00:03,840 --> 00:00:05,120
+<font color="#9c9c9c">Uses generative a</font>
+
+5
+00:00:05,632 --> 00:00:08,704
+<font color="#ececec">Many people use these terms are interchangeable</font>
+
+6
+00:00:08,960 --> 00:00:12,800
+<font color="#e9e9e9">But they represent two distinct approaches to artificial intelligence</font>
+
+7
+00:00:13,568 --> 00:00:15,872
+<font color="#d7d7d7">We are all quite familiar with generative a</font>
+
+8
+00:00:16,128 --> 00:00:17,664
+<font color="#c0c0c0">Play this include the chat</font>
+
+9
+00:00:17,920 --> 00:00:18,944
+<font color="#7f7f7f">Image Jenner</font>
+
+10
+00:00:19,200 --> 00:00:21,248
+<font color="#7d7d7d">What's on Google Assistant be used</font>
+
+11
+00:00:21,760 --> 00:00:23,552
+<font color="#9b9b9b">But agentic AI represent</font>
+
+12
+00:00:23,808 --> 00:00:25,344
+<font color="#9c9c9c">What's a fundamental shift in cap</font>
+
+13
+00:00:26,112 --> 00:00:28,672
+<font color="#e7e7e7">Understanding these difference is essential</font>
+
+14
+00:00:28,928 --> 00:00:31,744
+<font color="#dadada">Before we can build any true agentic architect</font>
+
+15
+00:00:33,024 --> 00:00:35,328
+<font color="#dadada">Let's start by defining the generative a</font>
+
+16
+00:00:35,840 --> 00:00:38,656
+<font color="#e5e5e5">Genetic AI is a fundamentally reactive system</font>
+
+17
+00:00:39,168 --> 00:00:40,960
+<font color="#d8d8d8">This is it's definitely the</font>
+
+18
+00:00:41,984 --> 00:00:44,544
+<font color="#d9d9d9">Beats for you the user to do something</font>
+
+19
+00:00:44,800 --> 00:00:45,568
+<font color="#202020">Specific</font>
+
+20
+00:00:46,080 --> 00:00:47,360
+<font color="#bababa">It waits for you to prom</font>
+
+21
+00:00:48,128 --> 00:00:49,408
+<font color="#aeaeae">Once you provide that</font>
+
+22
+00:00:50,176 --> 00:00:52,224
+<font color="#e4e4e4">Its entire job is to generate</font>
+
+23
+00:00:52,992 --> 00:00:53,504
+<font color="#878787">How to contact</font>
+
+24
+00:00:53,760 --> 00:00:56,320
+<font color="#999999">Based upon the patterns it learned during the train</font>
+
+25
+00:00:57,088 --> 00:00:59,136
+<font color="#d4d4d4">This systems are essentially</font>
+
+26
+00:00:59,392 --> 00:01:00,928
+<font color="#8e8e8e">Sophisticated pattern matching Miss</font>
+
+27
+00:01:01,440 --> 00:01:02,720
+<font color="#dfdfdf">They have learned the</font>
+
+28
+00:01:02,976 --> 00:01:03,744
+<font color="#949494">Mystical relationship</font>
+
+29
+00:01:04,000 --> 00:01:04,512
+<font color="#9e9e9e">Difference between</font>
+
+30
+00:01:05,024 --> 00:01:06,048
+<font color="#cbcbcb">Between pixels</font>
+
+31
+00:01:06,304 --> 00:01:10,400
+<font color="#d7d7d7">In a image or between notes in a piece of audio from massive data set</font>
+
+32
+00:01:10,912 --> 00:01:11,936
+<font color="#e3e3e3">Can you provide a</font>
+
+33
+00:01:12,192 --> 00:01:13,472
+<font color="#dcdcdc">The generative AI</font>
+
+34
+00:01:13,728 --> 00:01:14,752
+<font color="#dadada">What should come</font>
+
+35
+00:01:15,264 --> 00:01:16,032
+<font color="#e6e6e6">But</font>
+
+36
+00:01:16,288 --> 00:01:18,336
+<font color="#e1e1e1">Put ants at the moment of generation</font>
+
+37
+00:01:18,592 --> 00:01:20,128
+<font color="#cccccc">It doesn't take further step</font>
+
+38
+00:01:20,640 --> 00:01:21,408
+<font color="#f8f8f8">It doesn't</font>
+
+39
+00:01:21,664 --> 00:01:23,200
+<font color="#bebebe">Light on the world without your</font>
+
+40
+00:01:23,456 --> 00:01:24,736
+<font color="#c3c3c3">New subsequent input</font>
+
+41
+00:01:25,504 --> 00:01:27,808
+<font color="#d7d7d7">So now let's define agentic a</font>
+
+42
+00:01:28,320 --> 00:01:29,088
+<font color="#3f3f3f">Identity</font>
+
+43
+00:01:29,344 --> 00:01:30,624
+<font color="#c9c9c9">Play systems are not reactive</font>
+
+44
+00:01:30,880 --> 00:01:32,160
+<font color="#cdcdcd">They are proactive systems</font>
+
+45
+00:01:32,672 --> 00:01:34,464
+<font color="#9d9d9d">No like generator AI</font>
+
+46
+00:01:34,720 --> 00:01:36,512
+<font color="#ebebeb">They often start with a user</font>
+
+47
+00:01:37,024 --> 00:01:38,816
+<font color="#f2f2f2">But the crucial difference is</font>
+
+48
+00:01:39,072 --> 00:01:40,352
+<font color="#959595">Holiday treat that</font>
+
+49
+00:01:40,864 --> 00:01:43,680
+<font color="#f6f6f6">It is not just a request for a single piece of content</font>
+
+50
+00:01:44,192 --> 00:01:45,984
+<font color="#f0f0f0">It is interpreted as a</font>
+
+51
+00:01:46,240 --> 00:01:51,104
+<font color="#c2c2c2">The agents purpose is to perceive that goes through a series of action</font>
+
+52
+00:01:51,616 --> 00:01:52,384
+<font color="#7e7e7e">To do</font>
+
+53
+00:01:52,640 --> 00:01:53,152
+<font color="#727272">An AG</font>
+
+54
+00:01:53,408 --> 00:01:55,200
+<font color="#d9d9d9">Make system goes through a life cycle</font>
+
+55
+00:01:55,712 --> 00:01:57,248
+<font color="#bdbdbd">Which we call the agency</font>
+
+56
+00:01:57,760 --> 00:01:59,296
+<font color="#ebebeb">This is a continuous process</font>
+
+57
+00:01:59,808 --> 00:02:01,088
+<font color="#e8e8e8">And this process operates</font>
+
+58
+00:02:01,344 --> 00:02:02,624
+<font color="#969696">Which minimal human inter</font>
+
+59
+00:02:03,392 --> 00:02:04,928
+<font color="#eeeeee">So now let's understand</font>
+
+60
+00:02:05,184 --> 00:02:07,744
+<font color="#cccccc">What is the role of the llm for both app</font>
+
+61
+00:02:08,512 --> 00:02:10,304
+<font color="#f2f2f2">This can be a point of confusion</font>
+
+62
+00:02:10,816 --> 00:02:12,352
+<font color="#ebebeb">How can they be so different</font>
+
+63
+00:02:12,608 --> 00:02:14,144
+<font color="#c9c9c9">If they both use l</font>
+
+64
+00:02:14,912 --> 00:02:17,728
+<font color="#e1e1e1">The answer is that they shared a common Foundation</font>
+
+65
+00:02:18,752 --> 00:02:21,312
+<font color="#b3b3b3">Alarms are the backbone for many generative AI chatbot</font>
+
+66
+00:02:21,824 --> 00:02:23,104
+<font color="#bdbdbd">But in agentic system</font>
+
+67
+00:02:23,616 --> 00:02:24,384
+<font color="#565656">Play an alarm</font>
+
+68
+00:02:24,640 --> 00:02:25,152
+<font color="#d1d1d1">What's a</font>
+
+69
+00:02:25,408 --> 00:02:26,432
+<font color="#b1b1b1">More specific role</font>
+
+70
+00:02:26,944 --> 00:02:29,760
+<font color="#d5d5d5">It provides the reasoning engine that powers the AG</font>
+
+71
+00:02:30,272 --> 00:02:31,808
+<font color="#f8f8f8">If the agent is a</font>
+
+72
+00:02:32,064 --> 00:02:33,344
+<font color="#e6e6e6">The alarm is the engine</font>
+
+73
+00:02:33,600 --> 00:02:35,136
+<font color="#d9d9d9">But you still need to</font>
+
+74
+00:02:35,392 --> 00:02:36,160
+<font color="#484848">Listing</font>
+
+75
+00:02:36,416 --> 00:02:37,184
+<font color="#939393">And the sensors</font>
+
+76
+00:02:37,440 --> 00:02:39,488
+<font color="#d3d3d3">List of the AT&T architecture</font>
+
+77
+00:02:39,744 --> 00:02:41,024
+<font color="#d1d1d1">To actually go anywhere</font>
+
+78
+00:02:41,280 --> 00:02:43,584
+<font color="#e7e7e7">The alarm is the cognitive component</font>
+
+79
+00:02:43,840 --> 00:02:45,888
+<font color="#cbcbcb">Did power the agents decision</font>
+
+80
+00:02:46,912 --> 00:02:49,984
+<font color="#ececec">So now let's see an application of the generative AI</font>
+
+81
+00:02:51,264 --> 00:02:53,824
+<font color="#ececec">Consider a YouTuber using a generative AI</font>
+
+82
+00:02:54,336 --> 00:02:56,128
+<font color="#f9f9f9">They might use it to review a</font>
+
+83
+00:02:56,640 --> 00:02:59,968
+<font color="#c3c3c3">Suggest something Concepts or even generate background music</font>
+
+84
+00:03:00,480 --> 00:03:01,504
+<font color="#ebebeb">But look at the</font>
+
+85
+00:03:02,016 --> 00:03:02,784
+<font color="#636363">At</font>
+
+86
+00:03:03,040 --> 00:03:04,320
+<font color="#d3d3d3">There's a human in the loop</font>
+
+87
+00:03:04,832 --> 00:03:05,344
+<font color="#747474">That mean</font>
+
+88
+00:03:05,600 --> 00:03:08,672
+<font color="#e2e2e2">Is the human Creator is looking at the generated content</font>
+
+89
+00:03:09,184 --> 00:03:09,952
+<font color="#a1a1a1">Reviewing it</font>
+
+90
+00:03:10,208 --> 00:03:13,024
+<font color="#dddddd">And most likely refining to prompt to try again</font>
+
+91
+00:03:13,536 --> 00:03:14,304
+<font color="#929292">The AI Jenner</font>
+
+92
+00:03:14,560 --> 00:03:15,328
+<font color="#929292">Is it possibilities</font>
+
+93
+00:03:15,584 --> 00:03:16,864
+<font color="#f2f2f2">But the human creates them</font>
+
+94
+00:03:17,120 --> 00:03:18,656
+<font color="#ededed">The human is a director</font>
+
+95
+00:03:18,912 --> 00:03:21,728
+<font color="#e0e0e0">The generative AI is the specialized creative</font>
+
+96
+00:03:22,496 --> 00:03:23,776
+<font color="#efefef">So now let's look at</font>
+
+97
+00:03:24,032 --> 00:03:25,312
+<font color="#dcdcdc">Education of the agentic AI</font>
+
+98
+00:03:26,080 --> 00:03:26,848
+<font color="#878787">So AG</font>
+
+99
+00:03:27,616 --> 00:03:29,408
+<font color="#a5a5a5">Let's try in a scenario state require</font>
+
+100
+00:03:29,664 --> 00:03:31,968
+<font color="#919191">Management and multi-step process</font>
+
+101
+00:03:32,480 --> 00:03:35,040
+<font color="#f4f4f4">Let's consider a personal shopping agent</font>
+
+102
+00:03:35,296 --> 00:03:39,136
+<font color="#eeeeee">You don't give a prompt like write me an advertisement for a</font>
+
+103
+00:03:39,648 --> 00:03:40,672
+<font color="#e8e8e8">You give it a</font>
+
+104
+00:03:41,696 --> 00:03:43,744
+<font color="#e7e7e7">This this product for me at the best price</font>
+
+105
+00:03:44,256 --> 00:03:48,096
+<font color="#c4c4c4">The age of 10 by itself Octavia hunts for availability</font>
+
+106
+00:03:48,608 --> 00:03:50,400
+<font color="#959595">Is montour's price fluctuations</font>
+
+107
+00:03:50,912 --> 00:03:51,424
+<font color="#656565">It</font>
+
+108
+00:03:51,680 --> 00:03:52,448
+<font color="#bababa">What's the checkout</font>
+
+109
+00:03:52,704 --> 00:03:53,984
+<font color="#b3b3b3">Is using the payment apis</font>
+
+110
+00:03:54,496 --> 00:03:55,264
+<font color="#ababab">I need coord</font>
+
+111
+00:03:55,520 --> 00:03:56,032
+<font color="#cecece">It's delivery</font>
+
+112
+00:03:56,544 --> 00:03:58,336
+<font color="#f5f5f5">It is a manager not a tool</font>
+
+113
+00:03:58,592 --> 00:04:00,384
+<font color="#adadad">Is lightly operate by itself</font>
+
+114
+00:04:00,896 --> 00:04:02,944
+<font color="#e9e9e9">Seeking input from you only</font>
+
+115
+00:04:03,200 --> 00:04:04,224
+<font color="#a5a5a5">It's absolutely need</font>
+
+116
+00:04:05,248 --> 00:04:06,784
+<font color="#e0e0e0">At this point we can ask</font>
+
+117
+00:04:07,040 --> 00:04:10,880
+<font color="#eaeaea">How does the agent decide to hunt for a product or monitor a</font>
+
+118
+00:04:11,648 --> 00:04:13,440
+<font color="#d4d4d4">So it comes with the Deep connection</font>
+
+119
+00:04:13,696 --> 00:04:14,720
+<font color="#fafafa">Thinking for the</font>
+
+120
+00:04:15,232 --> 00:04:16,256
+<font color="#fbfbfb">How does it</font>
+
+121
+00:04:16,512 --> 00:04:18,047
+<font color="#b5b5b5">Is this autonomous decisions</font>
+
+122
+00:04:18,815 --> 00:04:20,863
+<font color="#c6c6c6">It does this by using the generative a</font>
+
+123
+00:04:21,119 --> 00:04:22,143
+<font color="#e9e9e9">Which is the alarm</font>
+
+124
+00:04:22,399 --> 00:04:23,679
+<font color="#a8a8a8">What is the reasoning process</font>
+
+125
+00:04:24,447 --> 00:04:25,983
+<font color="#efefef">This is a key concept called</font>
+
+126
+00:04:26,239 --> 00:04:27,263
+<font color="#858585">Turn off the reason</font>
+
+127
+00:04:27,519 --> 00:04:29,055
+<font color="#c9c9c9">Did people see in the upcoming</font>
+
+128
+00:04:29,823 --> 00:04:32,127
+<font color="#bcbcbc">The agent essentially use the alarm</font>
+
+129
+00:04:32,639 --> 00:04:34,431
+<font color="#dcdcdc">Ability to think through a problem</font>
+
+130
+00:04:34,943 --> 00:04:35,967
+<font color="#d0d0d0">It is a process</font>
+
+131
+00:04:36,223 --> 00:04:38,527
+<font color="#d2d2d2">Where the agent breakstone a complex</font>
+
+132
+00:04:38,783 --> 00:04:40,831
+<font color="#d5d5d5">Ask into smaller logical steps</font>
+
+133
+00:04:41,087 --> 00:04:42,879
+<font color="#ededed">Almost like talking to itself</font>
+
+134
+00:04:43,391 --> 00:04:46,207
+<font color="#eeeeee">This internal dialogue is a form of generation</font>
+
+135
+00:04:46,463 --> 00:04:48,511
+<font color="#f6f6f6">But it is used as a step into the</font>
+
+136
+00:04:49,023 --> 00:04:50,303
+<font color="#f8f8f8">What is the final output</font>
+
+137
+00:04:50,815 --> 00:04:52,863
+<font color="#d3d3d3">This is the difference from the using l</font>

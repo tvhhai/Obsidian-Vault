@@ -1,0 +1,335 @@
+1
+00:00:00,256 --> 00:00:01,280
+<font color="#f5f5f5">Trong video này</font>
+
+2
+00:00:01,536 --> 00:00:02,816
+<font color="#a1a1a1">Chúng ta sẽ thấy</font>
+
+3
+00:00:03,328 --> 00:00:05,120
+<font color="#b9b9b9">Mẫu ReAct kết hợp</font>
+
+4
+00:00:05,632 --> 00:00:07,168
+<font color="#b9b9b9">Là sự kết hợp mạnh mẽ</font>
+
+5
+00:00:07,680 --> 00:00:09,984
+<font color="#fafafa">Giữa Suy luận và Hành động</font>
+
+6
+00:00:10,240 --> 00:00:12,288
+<font color="#fcfcfc">Và trước khi đi vào chi tiết</font>
+
+7
+00:00:12,544 --> 00:00:13,056
+<font color="#797979">Bạn có</font>
+
+8
+00:00:13,568 --> 00:00:14,080
+<font color="#bababa">Và sau</font>
+
+9
+00:00:14,336 --> 00:00:16,896
+<font color="#e4e4e4">Bằng cách nói vào điện thoại của bạn</font>
+
+10
+00:00:17,152 --> 00:00:17,920
+<font color="#777777">Đầu vào vẽ</font>
+
+11
+00:00:18,176 --> 00:00:18,688
+<font color="#5e5e5e">Là âm thanh</font>
+
+12
+00:00:19,200 --> 00:00:22,272
+<font color="#d8d8d8">Và công việc đầu tiên của mô hình nhận thức là chuẩn hóa</font>
+
+13
+00:00:22,528 --> 00:00:26,112
+<font color="#9d9d9d">Nó ngay lập tức gửi âm thanh này đến mô-đun chuyển giọng nói thành văn bản</font>
+
+14
+00:00:26,368 --> 00:00:28,160
+<font color="#c2c2c2">Vì điều này trích xuất</font>
+
+15
+00:00:28,416 --> 00:00:32,256
+<font color="#dfdfdf">Và điều quan trọng là mô hình nhận thức loại bỏ giọng nói của bạn</font>
+
+16
+00:00:32,512 --> 00:00:34,560
+<font color="#a6a6a6">Bao gồm châm biếm và IMM của bạn</font>
+
+17
+00:00:35,072 --> 00:00:37,120
+<font color="#cacaca">Nó chỉ nhận thức những gì bạn nói</font>
+
+18
+00:00:37,376 --> 00:00:40,448
+<font color="#c3c3c3">Vì văn phòng của mô hình nhận thức này là</font>
+
+19
+00:00:40,960 --> 00:00:44,544
+<font color="#bcbcbc">Một điều ở Texas có thể hiểu được từ LLM</font>
+
+20
+00:00:44,800 --> 00:00:49,408
+<font color="#e9e9e9">Sau đó chúng ta có thể đi đến bước tiếp theo trong vòng lặp tác nhân là suy luận</font>
+
+21
+00:00:51,200 --> 00:00:55,296
+<font color="#b0b0b0">Văn bản văn bản chuẩn hóa và kết hợp với dữ liệu liên quan từ</font>
+
+22
+00:00:55,552 --> 00:00:56,064
+<font color="#c0c0c0">Bộ nhớ của nó</font>
+
+23
+00:00:56,576 --> 00:00:58,368
+<font color="#efefef">Bạn không thể nhớ quá trình suy luận</font>
+
+24
+00:00:58,624 --> 00:01:01,440
+<font color="#dddddd">Ví dụ người dùng muốn nhà hàng hải sản giả tưởng</font>
+
+25
+00:01:01,952 --> 00:01:02,720
+<font color="#c2c2c2">Bộ nhớ</font>
+
+26
+00:01:02,976 --> 00:01:03,744
+<font color="#d1d1d1">Sống trong</font>
+
+27
+00:01:04,768 --> 00:01:07,840
+<font color="#d0d0d0">Xin hãy ghi thông tin thời gian thực với vòng tay mở và đánh giá</font>
+
+28
+00:01:08,096 --> 00:01:09,888
+<font color="#bebebe">Có sẵn cho kế hoạch là sử dụng</font>
+
+29
+00:01:10,144 --> 00:01:10,912
+<font color="#5c5c5c">Tìm kiếm web</font>
+
+30
+00:01:11,424 --> 00:01:14,496
+<font color="#dbdbdb">Đầu ra của giai đoạn suy luận này sẽ là một đối tượng JSON</font>
+
+31
+00:01:15,008 --> 00:01:16,032
+<font color="#bdbdbd">Đặt lệnh gọi công cụ</font>
+
+32
+00:01:16,288 --> 00:01:19,616
+<font color="#e7e7e7">Và giai đoạn tiếp theo là hành động trong Vòng lặp Atlantic</font>
+
+33
+00:01:19,872 --> 00:01:23,200
+<font color="#e1e1e1">Trong giai đoạn hành động người điều phối lấy kế hoạch JSON</font>
+
+34
+00:01:23,456 --> 00:01:24,736
+<font color="#9e9e9e">Tạm dừng tìm kiếm web</font>
+
+35
+00:01:25,504 --> 00:01:27,552
+<font color="#eeeeee">Nhưng đây là nơi vòng lặp trở nên rõ ràng</font>
+
+36
+00:01:28,064 --> 00:01:29,344
+<font color="#cecece">Tác giả của cái chết</font>
+
+37
+00:01:29,600 --> 00:01:30,880
+<font color="#f5f5f5">Là danh sách nhà hàng</font>
+
+38
+00:01:31,136 --> 00:01:31,904
+<font color="#dadada">Không phải</font>
+
+39
+00:01:32,416 --> 00:01:34,976
+<font color="#b9b9b9">Bạn vừa nói ngay lập tức trở lại mô hình nhận thức</font>
+
+40
+00:01:35,232 --> 00:01:36,768
+<font color="#bebebe">Là kích hoạt cho Vòng lặp</font>
+
+41
+00:01:37,280 --> 00:01:38,048
+<font color="#d5d5d5">Trong thứ hai</font>
+
+42
+00:01:38,304 --> 00:01:39,328
+<font color="#dedede">Tác nhân</font>
+
+43
+00:01:39,584 --> 00:01:40,352
+<font color="#c0c0c0">Là tìm kiếm</font>
+
+44
+00:01:41,120 --> 00:01:41,888
+<font color="#e7e7e7">Nó suy luận về nó</font>
+
+45
+00:01:42,400 --> 00:01:46,240
+<font color="#e2e2e2">Và sau đó hành động cuối cùng của nó là tạo ra Texas hữu ích</font>
+
+46
+00:01:47,008 --> 00:01:50,592
+<font color="#c9c9c9">Ở đây bạn có thể thấy hình ảnh đầy đủ về kiến trúc kiểm tra của chúng ta</font>
+
+47
+00:01:51,104 --> 00:01:51,872
+<font color="#c1c1c1">Trong cái đầu tiên</font>
+
+48
+00:01:52,128 --> 00:01:52,896
+<font color="#dbdbdb">Đó là nhận thức</font>
+
+49
+00:01:53,408 --> 00:01:54,432
+<font color="#c4c4c4">Môi trường là chúng ta</font>
+
+50
+00:01:54,944 --> 00:01:56,480
+<font color="#949494">Và chúng ta cung cấp một robot</font>
+
+51
+00:01:56,736 --> 00:01:58,528
+<font color="#d3d3d3">Bạn có nói tạp dề trong điện thoại của bạn</font>
+
+52
+00:01:58,784 --> 00:02:01,344
+<font color="#c2c2c2">Và điều này sẽ được chuyển đổi với nhận thức về</font>
+
+53
+00:02:01,600 --> 00:02:02,880
+<font color="#fbfbfb">Bạn có thể tìm cho tôi một cái tốt</font>
+
+54
+00:02:03,648 --> 00:02:04,672
+<font color="#b4b4b4">Bạn có thể đặt nhà hàng xung quanh</font>
+
+55
+00:02:05,184 --> 00:02:09,536
+<font color="#dfdfdf">Và đây là suy luận ở đây bạn có thể thấy chúng ta cung cấp một</font>
+
+56
+00:02:10,304 --> 00:02:12,608
+<font color="#d0d0d0">Và điều này sẽ hiểu âm nhạc</font>
+
+57
+00:02:12,864 --> 00:02:14,400
+<font color="#c9c9c9">Nhà hàng hải sản sang trọng</font>
+
+58
+00:02:14,656 --> 00:02:15,680
+<font color="#dadada">Và bộ nhớ của tôi</font>
+
+59
+00:02:15,936 --> 00:02:17,216
+<font color="#d7d7d7">Là họ sống ở Seattle</font>
+
+60
+00:02:17,472 --> 00:02:19,776
+<font color="#b5b5b5">Và điều này ghi lại thông tin thời gian thực</font>
+
+61
+00:02:20,032 --> 00:02:20,800
+<font color="#c2c2c2">Tôi không thích</font>
+
+62
+00:02:21,824 --> 00:02:24,640
+<font color="#c2c2c2">Nó đang thực hiện tìm kiếm web để cơ bản</font>
+
+63
+00:02:24,896 --> 00:02:25,664
+<font color="#919191">Lệnh gọi hàm</font>
+
+64
+00:02:25,920 --> 00:02:27,200
+<font color="#8f8f8f">Thực hiện sử dụng trang web</font>
+
+65
+00:02:27,712 --> 00:02:28,992
+<font color="#bfbfbf">Có nghĩa là giai đoạn 3</font>
+
+66
+00:02:29,248 --> 00:02:29,760
+<font color="#a0a0a0">Là hành động</font>
+
+67
+00:02:30,016 --> 00:02:34,368
+<font color="#ababab">Người điều phối phân tích kế hoạch JSON và thực thi thao tác công cụ tìm kiếm web</font>
+
+68
+00:02:34,880 --> 00:02:36,416
+<font color="#f5f5f5">Và bước cuối cùng là học tập</font>
+
+69
+00:02:36,672 --> 00:02:39,232
+<font color="#dedede">Điều này sẽ được cung cấp cho việc học và điều này sẽ</font>
+
+70
+00:02:41,024 --> 00:02:44,352
+<font color="#d5d5d5">Vậy hãy hiểu thao tác này trong thế giới sử dụng thực</font>
+
+71
+00:02:44,864 --> 00:02:46,656
+<font color="#d2d2d2">Nếu bạn đi đến jcp.com</font>
+
+72
+00:02:46,912 --> 00:02:48,704
+<font color="#e9e9e9">Và đến trang này và click</font>
+
+73
+00:02:48,960 --> 00:02:49,728
+<font color="#9d9d9d">Là giọng nói</font>
+
+74
+00:02:49,984 --> 00:02:52,544
+<font color="#e3e3e3">Bạn có thể hỏi về nhà hàng hải sản xung quanh</font>
+
+75
+00:02:53,056 --> 00:02:54,080
+<font color="#e4e4e4">Hãy bắt đầu từ</font>
+
+76
+00:02:55,872 --> 00:02:58,176
+<font color="#f7f7f7">Xin hãy tìm cho tôi nhà hàng hải sản xung quanh tôi</font>
+
+77
+00:03:01,248 --> 00:03:02,016
+<font color="#a1a1a1">Là bạn có thể thấy</font>
+
+78
+00:03:02,528 --> 00:03:03,552
+<font color="#f0f0f0">Nó sẽ bắt đầu</font>
+
+79
+00:03:05,344 --> 00:03:07,904
+<font color="#afafaf">Điều này sẽ thực hiện tìm kiếm lạnh là tìm kiếm web tốt nhất</font>
+
+80
+00:03:08,416 --> 00:03:09,440
+<font color="#c4c4c4">Và trở lại</font>
+
+81
+00:03:10,208 --> 00:03:10,720
+<font color="#b6b6b6">Bạn có thể đặt</font>
+
+82
+00:03:14,560 --> 00:03:16,608
+<font color="#cccccc">Như bạn có thể thấy điều này sẽ mạnh mẽ</font>
+
+83
+00:03:17,632 --> 00:03:18,400
+<font color="#999999">Tắt</font>
+
+84
+00:03:18,656 --> 00:03:22,752
+<font color="#eaeaea">Tổng hợp phản hồi theo tôi và điều này sẽ trả lại</font>

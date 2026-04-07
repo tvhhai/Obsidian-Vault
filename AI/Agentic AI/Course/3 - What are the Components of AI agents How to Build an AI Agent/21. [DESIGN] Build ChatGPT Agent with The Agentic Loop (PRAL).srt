@@ -1,0 +1,331 @@
+﻿1
+00:00:00,256 --> 00:00:03,072
+<font color="#e0e0e0">In this video we are going to design jcpd</font>
+
+2
+00:00:03,328 --> 00:00:05,120
+<font color="#a1a1a1">Beautiful living or agency</font>
+
+3
+00:00:05,632 --> 00:00:07,168
+<font color="#b9b9b9">On the first step is perception</font>
+
+4
+00:00:07,680 --> 00:00:09,984
+<font color="#fafafa">But before that let's look at the environment</font>
+
+5
+00:00:10,240 --> 00:00:12,288
+<font color="#fcfcfc">In this case the environment is</font>
+
+6
+00:00:12,544 --> 00:00:13,056
+<font color="#797979">The US</font>
+
+7
+00:00:13,568 --> 00:00:14,080
+<font color="#bababa">And after</font>
+
+8
+00:00:14,336 --> 00:00:16,896
+<font color="#e4e4e4">By speaking into your phone</font>
+
+9
+00:00:17,152 --> 00:00:17,920
+<font color="#777777">Drawing input</font>
+
+10
+00:00:18,176 --> 00:00:18,688
+<font color="#5e5e5e">What is Audi</font>
+
+11
+00:00:19,200 --> 00:00:22,272
+<font color="#d8d8d8">And the perception model first job is normalization</font>
+
+12
+00:00:22,528 --> 00:00:26,112
+<font color="#9d9d9d">It immediately sent this audio to speech to text module</font>
+
+13
+00:00:26,368 --> 00:00:28,160
+<font color="#c2c2c2">Because this extractor</font>
+
+14
+00:00:28,416 --> 00:00:32,256
+<font color="#dfdfdf">And the important thing is perception model discard to turn off your voice</font>
+
+15
+00:00:32,512 --> 00:00:34,560
+<font color="#a6a6a6">Including sarcasm and your IMM</font>
+
+16
+00:00:35,072 --> 00:00:37,120
+<font color="#cacaca">It only is perceives what you said</font>
+
+17
+00:00:37,376 --> 00:00:40,448
+<font color="#c3c3c3">Because the office of these perception model is</font>
+
+18
+00:00:40,960 --> 00:00:44,544
+<font color="#bcbcbc">A Killeen Texas thing that is understandable from the llm</font>
+
+19
+00:00:44,800 --> 00:00:49,408
+<font color="#e9e9e9">After that we can go to the next step into our agent club which is the reasoning</font>
+
+20
+00:00:51,200 --> 00:00:55,296
+<font color="#b0b0b0">Text the normalized text and combine it with the relevant data from</font>
+
+21
+00:00:55,552 --> 00:00:56,064
+<font color="#c0c0c0">It's memory</font>
+
+22
+00:00:56,576 --> 00:00:58,368
+<font color="#efefef">You can't remember the reasoning process</font>
+
+23
+00:00:58,624 --> 00:01:01,440
+<font color="#dddddd">For example user want a fantasy seafood restaurant</font>
+
+24
+00:01:01,952 --> 00:01:02,720
+<font color="#c2c2c2">A memory</font>
+
+25
+00:01:02,976 --> 00:01:03,744
+<font color="#d1d1d1">Live in the</font>
+
+26
+00:01:04,768 --> 00:01:07,840
+<font color="#d0d0d0">Please record real-time information with open arms and reviews</font>
+
+27
+00:01:08,096 --> 00:01:09,888
+<font color="#bebebe">Is there for plan is to use</font>
+
+28
+00:01:10,144 --> 00:01:10,912
+<font color="#5c5c5c">Web search</font>
+
+29
+00:01:11,424 --> 00:01:14,496
+<font color="#dbdbdb">The output of these reasoning phase will be a Json object</font>
+
+30
+00:01:15,008 --> 00:01:16,032
+<font color="#bdbdbd">Put the tool call</font>
+
+31
+00:01:16,288 --> 00:01:19,616
+<font color="#e7e7e7">And the next phase is the action in the Atlantic Loop</font>
+
+32
+00:01:19,872 --> 00:01:23,200
+<font color="#e1e1e1">In the action phase the orchestrator takes the Jason plan</font>
+
+33
+00:01:23,456 --> 00:01:24,736
+<font color="#9e9e9e">Unpause the web search</font>
+
+34
+00:01:25,504 --> 00:01:27,552
+<font color="#eeeeee">But this is where the loop become obvious</font>
+
+35
+00:01:28,064 --> 00:01:29,344
+<font color="#cecece">The author of death</font>
+
+36
+00:01:29,600 --> 00:01:30,880
+<font color="#f5f5f5">Which is the list of restaurant</font>
+
+37
+00:01:31,136 --> 00:01:31,904
+<font color="#dadada">Is not the</font>
+
+38
+00:01:32,416 --> 00:01:34,976
+<font color="#b9b9b9">You just said immediately back into perception model</font>
+
+39
+00:01:35,232 --> 00:01:36,768
+<font color="#bebebe">Is the trigger for Loop</font>
+
+40
+00:01:37,280 --> 00:01:38,048
+<font color="#d5d5d5">In the second</font>
+
+41
+00:01:38,304 --> 00:01:39,328
+<font color="#dedede">The agent</font>
+
+42
+00:01:39,584 --> 00:01:40,352
+<font color="#c0c0c0">Is the search</font>
+
+43
+00:01:41,120 --> 00:01:41,888
+<font color="#e7e7e7">It's reason about it</font>
+
+44
+00:01:42,400 --> 00:01:46,240
+<font color="#e2e2e2">And after that it is final action is to produce the helpful Texas</font>
+
+45
+00:01:47,008 --> 00:01:50,592
+<font color="#c9c9c9">Here you can see the full image of our architecture of the checkup</font>
+
+46
+00:01:51,104 --> 00:01:51,872
+<font color="#c1c1c1">In the first one</font>
+
+47
+00:01:52,128 --> 00:01:52,896
+<font color="#dbdbdb">Which is the perception</font>
+
+48
+00:01:53,408 --> 00:01:54,432
+<font color="#c4c4c4">The environment is us</font>
+
+49
+00:01:54,944 --> 00:01:56,480
+<font color="#949494">And we provide a robot</font>
+
+50
+00:01:56,736 --> 00:01:58,528
+<font color="#d3d3d3">Do you speak apron in your phone</font>
+
+51
+00:01:58,784 --> 00:02:01,344
+<font color="#c2c2c2">And this will be converting with the perception about</font>
+
+52
+00:02:01,600 --> 00:02:02,880
+<font color="#fbfbfb">Can you find me a good</font>
+
+53
+00:02:03,648 --> 00:02:04,672
+<font color="#b4b4b4">Can you put restaurant around</font>
+
+54
+00:02:05,184 --> 00:02:09,536
+<font color="#dfdfdf">And this is reasoning here you can see that we provide a</font>
+
+55
+00:02:10,304 --> 00:02:12,608
+<font color="#d0d0d0">And this will be understand music</font>
+
+56
+00:02:12,864 --> 00:02:14,400
+<font color="#c9c9c9">Fancy seafood restaurant</font>
+
+57
+00:02:14,656 --> 00:02:15,680
+<font color="#dadada">And my memory</font>
+
+58
+00:02:15,936 --> 00:02:17,216
+<font color="#d7d7d7">Is they live in Seattle</font>
+
+59
+00:02:17,472 --> 00:02:19,776
+<font color="#b5b5b5">And this record real time information</font>
+
+60
+00:02:20,032 --> 00:02:20,800
+<font color="#c2c2c2">Did I don't</font>
+
+61
+00:02:21,824 --> 00:02:24,640
+<font color="#c2c2c2">It is performing a web search to basically</font>
+
+62
+00:02:24,896 --> 00:02:25,664
+<font color="#919191">Function call</font>
+
+63
+00:02:25,920 --> 00:02:27,200
+<font color="#8f8f8f">Make using the website</font>
+
+64
+00:02:27,712 --> 00:02:28,992
+<font color="#bfbfbf">That means phase 3</font>
+
+65
+00:02:29,248 --> 00:02:29,760
+<font color="#a0a0a0">Is it action</font>
+
+66
+00:02:30,016 --> 00:02:34,368
+<font color="#ababab">The orchestrator pass the Jason plan and execute the web search tool operation</font>
+
+67
+00:02:34,880 --> 00:02:36,416
+<font color="#f5f5f5">And the last step is learning</font>
+
+68
+00:02:36,672 --> 00:02:39,232
+<font color="#dedede">This will be provided to learning and this will be</font>
+
+69
+00:02:41,024 --> 00:02:44,352
+<font color="#d5d5d5">So let's understand this operation in the real world use</font>
+
+70
+00:02:44,864 --> 00:02:46,656
+<font color="#d2d2d2">If you go to the jcp.com</font>
+
+71
+00:02:46,912 --> 00:02:48,704
+<font color="#e9e9e9">And come to this page and click</font>
+
+72
+00:02:48,960 --> 00:02:49,728
+<font color="#9d9d9d">Is voice</font>
+
+73
+00:02:49,984 --> 00:02:52,544
+<font color="#e3e3e3">You can ask about the seafood restaurant around</font>
+
+74
+00:02:53,056 --> 00:02:54,080
+<font color="#e4e4e4">Let me start from</font>
+
+75
+00:02:55,872 --> 00:02:58,176
+<font color="#f7f7f7">Please find me seafood restaurant around me</font>
+
+76
+00:03:01,248 --> 00:03:02,016
+<font color="#a1a1a1">Is you can see</font>
+
+77
+00:03:02,528 --> 00:03:03,552
+<font color="#f0f0f0">Is it going to start</font>
+
+78
+00:03:05,344 --> 00:03:07,904
+<font color="#afafaf">This will be performing too cold which is the best search</font>
+
+79
+00:03:08,416 --> 00:03:09,440
+<font color="#c4c4c4">And return back to</font>
+
+80
+00:03:10,208 --> 00:03:10,720
+<font color="#b6b6b6">Can you put</font>
+
+81
+00:03:14,560 --> 00:03:16,608
+<font color="#cccccc">As you can see that this will be powerful</font>
+
+82
+00:03:17,632 --> 00:03:18,400
+<font color="#999999">Turn off the</font>
+
+83
+00:03:18,656 --> 00:03:22,752
+<font color="#eaeaea">Synthesize the response according to my and this will be returning</font>

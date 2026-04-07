@@ -1,0 +1,267 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#f7f7f7">In this video</font>
+
+2
+00:00:01,280 --> 00:00:02,048
+<font color="#ebebeb">We are going to learn</font>
+
+3
+00:00:02,304 --> 00:00:03,584
+<font color="#757575">AAA agent frame</font>
+
+4
+00:00:04,096 --> 00:00:06,400
+<font color="#d5d5d5">We will explore AI agentic Frameworks</font>
+
+5
+00:00:06,656 --> 00:00:08,704
+<font color="#a7a7a7">Including the land chain length</font>
+
+6
+00:00:08,960 --> 00:00:09,472
+<font color="#3c3c3c">Llama</font>
+
+7
+00:00:09,984 --> 00:00:10,496
+<font color="#d1d1d1">Microsoft</font>
+
+8
+00:00:10,752 --> 00:00:11,520
+<font color="#7c7c7c">Agent for the</font>
+
+9
+00:00:11,776 --> 00:00:13,056
+<font color="#b2b2b2">Unclog agent</font>
+
+10
+00:00:14,336 --> 00:00:19,200
+<font color="#b7b7b7">So we have with sophisticated multi-agent workloads using to code first framework</font>
+
+11
+00:00:19,712 --> 00:00:21,248
+<font color="#d4d4d4">And the important question is</font>
+
+12
+00:00:21,504 --> 00:00:24,320
+<font color="#ebebeb">What tools did they use why did we use them</font>
+
+13
+00:00:24,576 --> 00:00:25,856
+<font color="#f0f0f0">And what are the alternatives</font>
+
+14
+00:00:26,624 --> 00:00:28,672
+<font color="#d5d5d5">So we could do it everything from</font>
+
+15
+00:00:28,928 --> 00:00:30,976
+<font color="#d4d4d4">Making grow API calls to</font>
+
+16
+00:00:31,488 --> 00:00:33,280
+<font color="#c0c0c0">Manila passing to Jason outboard</font>
+
+17
+00:00:33,536 --> 00:00:35,328
+<font color="#cbcbcb">And handcrafting a state</font>
+
+18
+00:00:35,840 --> 00:00:37,632
+<font color="#cccccc">But in an Enterprise environment</font>
+
+19
+00:00:38,144 --> 00:00:40,192
+<font color="#9f9f9f">This is a receipt for on maintainable</font>
+
+20
+00:00:40,448 --> 00:00:40,960
+<font color="#b3b3b3">Beautiful</font>
+
+21
+00:00:41,472 --> 00:00:43,008
+<font color="#a1a1a1">We will be remarkable</font>
+
+22
+00:00:43,520 --> 00:00:46,080
+<font color="#c0c0c0">I need the section we will learn framework landsc</font>
+
+23
+00:00:46,336 --> 00:00:48,896
+<font color="#f9f9f9">To help you choose the right foundation for your business</font>
+
+24
+00:00:49,664 --> 00:00:51,968
+<font color="#e8e8e8">So now let's understand why we</font>
+
+25
+00:00:52,224 --> 00:00:52,736
+<font color="#696969">Use a friend</font>
+
+26
+00:00:53,248 --> 00:00:55,040
+<font color="#e4e4e4">An agent has a simple</font>
+
+27
+00:00:55,808 --> 00:00:57,344
+<font color="#dedede">When you try to implement it</font>
+
+28
+00:00:57,600 --> 00:00:59,392
+<font color="#9d9d9d">Your breath in the boilerplate</font>
+
+29
+00:00:59,904 --> 00:01:01,440
+<font color="#f7f7f7">And it is hard to connect everything</font>
+
+30
+00:01:01,952 --> 00:01:04,000
+<font color="#c4c4c4">For example let's think the tool Cooling</font>
+
+31
+00:01:04,512 --> 00:01:05,280
+<font color="#373737">Portugal</font>
+
+32
+00:01:05,536 --> 00:01:07,072
+<font color="#fafafa">You have to format a complex</font>
+
+33
+00:01:07,328 --> 00:01:09,888
+<font color="#bfbfbf">Is Jason Sycamore of your available tools for the</font>
+
+34
+00:01:10,400 --> 00:01:13,472
+<font color="#d8d8d8">Then you have to pass the alarms function calling responds</font>
+
+35
+00:01:13,728 --> 00:01:15,008
+<font color="#e8e8e8">Which might be malformed</font>
+
+36
+00:01:15,520 --> 00:01:17,312
+<font color="#f1f1f1">Then you have to execute the correct</font>
+
+37
+00:01:17,568 --> 00:01:18,080
+<font color="#9d9d9d">Second function</font>
+
+38
+00:01:18,336 --> 00:01:19,360
+<font color="#8c8c8c">Victor correct argument</font>
+
+39
+00:01:19,872 --> 00:01:22,688
+<font color="#c9c9c9">So all these operations are error from operations</font>
+
+40
+00:01:22,944 --> 00:01:24,480
+<font color="#f9f9f9">That you can't handle by yourself</font>
+
+41
+00:01:24,992 --> 00:01:26,272
+<font color="#ebebeb">And another reason is</font>
+
+42
+00:01:26,528 --> 00:01:27,296
+<font color="#ededed">State Management</font>
+
+43
+00:01:27,808 --> 00:01:31,392
+<font color="#c6c6c6">How do you enable a place to chat history from one turn to the</font>
+
+44
+00:01:32,160 --> 00:01:34,720
+<font color="#c6c6c6">And also how do you perform the red Pipelines</font>
+
+45
+00:01:35,232 --> 00:01:36,768
+<font color="#c0c0c0">To connect to data Chang</font>
+
+46
+00:01:37,024 --> 00:01:39,328
+<font color="#bababa">Sing Everything story and repeat the documents</font>
+
+47
+00:01:39,840 --> 00:01:41,120
+<font color="#dedede">And how do you manage to</font>
+
+48
+00:01:41,632 --> 00:01:44,192
+<font color="#d1d1d1">Templating managing and changing to contacts</font>
+
+49
+00:01:44,960 --> 00:01:47,008
+<font color="#b2b2b2">For that reason we have to use frame</font>
+
+50
+00:01:47,264 --> 00:01:49,312
+<font color="#b3b3b3">Books When developing or agentic work</font>
+
+51
+00:01:50,080 --> 00:01:52,640
+<font color="#f2f2f2">So now let's understand the categories of</font>
+
+52
+00:01:53,664 --> 00:01:54,176
+<font color="#585858">The AG</font>
+
+53
+00:01:54,432 --> 00:01:55,712
+<font color="#919191">Music AI framework Market</font>
+
+54
+00:01:55,968 --> 00:01:58,016
+<font color="#afafaf">Is fragmatic into three main categories</font>
+
+55
+00:02:00,576 --> 00:02:01,856
+<font color="#fafafa">This is your Workshop</font>
+
+56
+00:02:02,112 --> 00:02:03,904
+<font color="#c3c3c3">If we set up the low level to</font>
+
+57
+00:02:04,160 --> 00:02:06,976
+<font color="#e1e1e1">Did you let the word anything you can imagine</font>
+
+58
+00:02:07,232 --> 00:02:08,512
+<font color="#f9f9f9">But you have to assemble</font>
+
+59
+00:02:09,280 --> 00:02:10,048
+<font color="#efefef">The second is</font>
+
+60
+00:02:10,304 --> 00:02:11,328
+<font color="#969696">Specialist train</font>
+
+61
+00:02:12,608 --> 00:02:14,144
+<font color="#8d8d8d">Like high-end Philippines</font>
+
+62
+00:02:14,656 --> 00:02:16,960
+<font color="#e6e6e6">What mission is designed only for advanced</font>
+
+63
+00:02:17,472 --> 00:02:20,032
+<font color="#c6c6c6">Another is designed only for the multi-agent collab</font>
+
+64
+00:02:20,800 --> 00:02:22,592
+<font color="#cdcdcd">That one is the minutes platform</font>
+
+65
+00:02:23,104 --> 00:02:24,896
+<font color="#e2e2e2">This is the full service Factory</font>
+
+66
+00:02:25,152 --> 00:02:26,432
+<font color="#e8e8e8">You don't lose anything</font>
+
+67
+00:02:26,688 --> 00:02:29,760
+<font color="#d6d6d6">You buy the finished agent as a service and configure</font>

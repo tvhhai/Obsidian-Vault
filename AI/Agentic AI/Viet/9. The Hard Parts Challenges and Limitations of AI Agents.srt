@@ -1,0 +1,691 @@
+1
+00:00:00,256 --> 00:00:01,024
+<font color="#f8f8f8">Trong video này</font>
+
+2
+00:00:01,280 --> 00:00:02,304
+<font color="#ebebeb">Chúng ta sẽ học</font>
+
+3
+00:00:02,560 --> 00:00:04,864
+<font color="#ededed">Thách thức và hạn chế của AI</font>
+
+4
+00:00:05,632 --> 00:00:06,400
+<font color="#e8e8e8">Rõ ràng</font>
+
+5
+00:00:06,656 --> 00:00:07,424
+<font color="#626262">AI</font>
+
+6
+00:00:07,680 --> 00:00:09,472
+<font color="#828282">Tiềm năng biến đổi</font>
+
+7
+00:00:09,728 --> 00:00:11,264
+<font color="#dadada">Từ nông nghiệp đến y tế</font>
+
+8
+00:00:11,520 --> 00:00:12,544
+<font color="#575757">Hoạt động</font>
+
+9
+00:00:13,312 --> 00:00:13,824
+<font color="#e4e4e4">Tuy nhiên</font>
+
+10
+00:00:14,080 --> 00:00:15,616
+<font color="#b6b6b6">Kiến trúc sư và kỹ sư</font>
+
+11
+00:00:16,128 --> 00:00:19,200
+<font color="#e4e4e4">Không có giải pháp kỳ diệu</font>
+
+12
+00:00:19,968 --> 00:00:20,992
+<font color="#a2a2a2">Với sức mạnh lớn</font>
+
+13
+00:00:21,248 --> 00:00:22,528
+<font color="#949494">Đi kèm trách nhiệm</font>
+
+14
+00:00:22,784 --> 00:00:23,552
+<font color="#5a5a5a">Và</font>
+
+15
+00:00:24,320 --> 00:00:27,136
+<font color="#ececec">Công việc không chỉ với khả năng</font>
+
+16
+00:00:27,392 --> 00:00:28,928
+<font color="#9e9e9e">Mà còn với điều gì vững chắc</font>
+
+17
+00:00:29,184 --> 00:00:30,464
+<font color="#d7d7d7">An toàn và đáng tin cậy</font>
+
+18
+00:00:30,976 --> 00:00:33,024
+<font color="#f5f5f5">Bây giờ đến với</font>
+
+19
+00:00:33,280 --> 00:00:36,352
+<font color="#cacaca">Thách thức cơ bản nhất phi tất định</font>
+
+20
+00:00:36,864 --> 00:00:38,912
+<font color="#cdcdcd">Phần mềm truyền thống tất định</font>
+
+21
+00:00:39,424 --> 00:00:41,472
+<font color="#fafafa">Nếu bạn đưa hàm cùng đầu vào</font>
+
+22
+00:00:41,728 --> 00:00:44,544
+<font color="#fafafa">Bạn sẽ nhận cùng đầu ra mọi lần</font>
+
+23
+00:00:45,056 --> 00:00:46,592
+<font color="#e4e4e4">Như 2+2 luôn</font>
+
+24
+00:00:46,848 --> 00:00:47,360
+<font color="#999999">Bằng 4</font>
+
+25
+00:00:47,872 --> 00:00:48,896
+<font color="#313131">Agent</font>
+
+26
+00:00:49,152 --> 00:00:50,944
+<font color="#d6d6d6">Vì bộ não là LLM</font>
+
+27
+00:00:51,200 --> 00:00:52,480
+<font color="#5e5e5e">Là phi tất định</font>
+
+28
+00:00:52,736 --> 00:00:53,760
+<font color="#5a5a5a">Điều này có nghĩa</font>
+
+29
+00:00:54,272 --> 00:00:55,040
+<font color="#5e5e5e">Cùng</font>
+
+30
+00:00:55,296 --> 00:00:56,576
+<font color="#d5d5d5">Đưa cùng yêu cầu</font>
+
+31
+00:00:56,832 --> 00:00:58,880
+<font color="#eaeaea">Ví dụ tóm tắt email</font>
+
+32
+00:00:59,136 --> 00:01:00,416
+<font color="#bababa">Agent có thể tạo</font>
+
+33
+00:01:00,672 --> 00:01:02,464
+<font color="#d0d0d0">Tóm tắt hơi khác hôm nay</font>
+
+34
+00:01:02,720 --> 00:01:04,000
+<font color="#a4a4a4">So với hôm qua</font>
+
+35
+00:01:04,512 --> 00:01:07,328
+<font color="#e0e0e0">Chọn kế hoạch hoặc từ khác</font>
+
+36
+00:01:07,840 --> 00:01:09,888
+<font color="#ececec">Đây không phải lỗi</font>
+
+37
+00:01:10,144 --> 00:01:12,448
+<font color="#e6e6e6">Đây là đặc tính công nghệ</font>
+
+38
+00:01:12,704 --> 00:01:14,240
+<font color="#dcdcdc">Tuy nhiên</font>
+
+39
+00:01:15,008 --> 00:01:18,336
+<font color="#c2c2c2">Thách thức lớn cho kiểm thử</font>
+
+40
+00:01:18,848 --> 00:01:20,128
+<font color="#eeeeee">Làm sao viết unit test</font>
+
+41
+00:01:20,384 --> 00:01:23,968
+<font color="#cdcdcd">Cho đúng khi đầu ra thay đổi</font>
+
+42
+00:01:24,480 --> 00:01:26,016
+<font color="#ececec">Đây là bóng ma trong agent</font>
+
+43
+00:01:26,784 --> 00:01:31,136
+<font color="#d9d9d9">Dẫn đến thách thức tiếp theo bảo mật</font>
+
+44
+00:01:31,648 --> 00:01:34,208
+<font color="#dddddd">Chúng ta tôn vinh tự chủ</font>
+
+45
+00:01:35,232 --> 00:01:36,768
+<font color="#f5f5f5">Nhưng phải nhớ</font>
+
+46
+00:01:37,024 --> 00:01:38,048
+<font color="#888888">Quyền lực</font>
+
+47
+00:01:38,560 --> 00:01:39,328
+<font color="#818181">Có API</font>
+
+48
+00:01:39,584 --> 00:01:40,608
+<font color="#9c9c9c">Kết nối database</font>
+
+49
+00:01:40,864 --> 00:01:42,144
+<font color="#404040">Và quyền truy cập</font>
+
+50
+00:01:42,912 --> 00:01:44,192
+<font color="#ededed">Chúng ta đưa tự chủ</font>
+
+51
+00:01:44,448 --> 00:01:45,728
+<font color="#424242">Với quyền năng lớn</font>
+
+52
+00:01:45,984 --> 00:01:47,520
+<font color="#d8d8d8">Chìa khóa vương quốc</font>
+
+53
+00:01:48,032 --> 00:01:48,800
+<font color="#fefefe">Nếu</font>
+
+54
+00:01:49,056 --> 00:01:49,568
+<font color="#dcdcdc">Khi</font>
+
+55
+00:01:50,592 --> 00:01:51,616
+<font color="#909090">Bị tấn công</font>
+
+56
+00:01:52,384 --> 00:01:53,152
+<font color="#f1f1f1">Để tận dụng</font>
+
+57
+00:01:53,408 --> 00:01:54,432
+<font color="#e2e2e2">Sáng tạo</font>
+
+58
+00:01:54,688 --> 00:01:55,200
+<font color="#999999">Kết nối đến</font>
+
+59
+00:01:55,456 --> 00:01:56,736
+<font color="#e7e7e7">Giảm giá 90%</font>
+
+60
+00:01:58,272 --> 00:01:59,552
+<font color="#565656">Ý định xấu</font>
+
+61
+00:01:59,808 --> 00:02:00,832
+<font color="#6f6f6f">Agent cấu hình sai</font>
+
+62
+00:02:01,344 --> 00:02:04,160
+<font color="#bebebe">Dọn dẹp database</font>
+
+63
+00:02:04,416 --> 00:02:06,720
+<font color="#cacaca">Thành xóa tất cả</font>
+
+64
+00:02:07,488 --> 00:02:09,280
+<font color="#f4f4f4">Vấn đề agent giả</font>
+
+65
+00:02:09,536 --> 00:02:13,888
+<font color="#bfbfbf">Thách thức kiến trúc thiết kế guardrail</font>
+
+66
+00:02:14,144 --> 00:02:15,168
+<font color="#696969">Thực thi</font>
+
+67
+00:02:15,424 --> 00:02:16,192
+<font color="#969696">Quyền hạn phù hợp</font>
+
+68
+00:02:16,448 --> 00:02:17,728
+<font color="#d6d6d6">Giới hạn agent</font>
+
+69
+00:02:17,984 --> 00:02:18,752
+<font color="#e4e4e4">Với</font>
+
+70
+00:02:19,008 --> 00:02:20,032
+<font color="#7d7d7d">Không làm giảm</font>
+
+71
+00:02:20,288 --> 00:02:20,800
+<font color="#808080">Tính hữu ích</font>
+
+72
+00:02:22,336 --> 00:02:24,384
+<font color="#9b9b9b">Thách thức thực tế kinh doanh</font>
+
+73
+00:02:24,640 --> 00:02:26,432
+<font color="#bcbcbc">Chi phí và độ trễ</font>
+
+74
+00:02:27,200 --> 00:02:27,712
+<font color="#e6e6e6">Đầu tiên</font>
+
+75
+00:02:27,968 --> 00:02:29,248
+<font color="#d3d3d3">Bắt đầu với</font>
+
+76
+00:02:29,760 --> 00:02:31,296
+<font color="#c6c6c6">Agent không rẻ</font>
+
+77
+00:02:31,808 --> 00:02:32,576
+<font color="#7c7c7c">Mỗi lần suy luận</font>
+
+78
+00:02:32,832 --> 00:02:33,856
+<font color="#8c8c8c">Hoặc lập kế hoạch</font>
+
+79
+00:02:34,112 --> 00:02:36,160
+<font color="#b7b7b7">Là ít nhất một lệnh gọi LLM</font>
+
+80
+00:02:36,672 --> 00:02:38,976
+<font color="#b6b6b6">Nhiệm vụ đơn giản năm bước</font>
+
+81
+00:02:39,232 --> 00:02:39,744
+<font color="#8a8a8a">Tốt</font>
+
+82
+00:02:40,000 --> 00:02:42,560
+<font color="#bdbdbd">Thành 15 lệnh gọi LLM</font>
+
+83
+00:02:43,840 --> 00:02:46,656
+<font color="#e7e7e7">Có thể đắt hơn hàng nghìn lần</font>
+
+84
+00:02:46,912 --> 00:02:47,936
+<font color="#777777">So với chương trình truyền thống</font>
+
+85
+00:02:48,960 --> 00:02:50,752
+<font color="#b4b4b4">Agent lớn bị kẹt</font>
+
+86
+00:02:51,008 --> 00:02:53,824
+<font color="#f4f4f4">Có thể trở thành gánh nặng tài chính</font>
+
+87
+00:02:54,336 --> 00:02:55,616
+<font color="#f7f7f7">Vấn đề thứ hai</font>
+
+88
+00:02:56,128 --> 00:02:56,896
+<font color="#a3a3a3">Vấn đề độ trễ</font>
+
+89
+00:02:57,408 --> 00:02:58,944
+<font color="#484848">LLM tính bằng giây</font>
+
+90
+00:02:59,200 --> 00:03:00,736
+<font color="#dddddd">Không phải mili giây</font>
+
+91
+00:03:00,992 --> 00:03:02,016
+<font color="#797979">Không phải mili giây</font>
+
+92
+00:03:02,528 --> 00:03:04,320
+<font color="#dddddd">Nếu agent lập kế hoạch</font>
+
+93
+00:03:04,576 --> 00:03:07,392
+<font color="#e4e4e4">Dễ dàng mất 30 giây hoặc hơn</font>
+
+94
+00:03:07,904 --> 00:03:08,672
+<font color="#9f9f9f">Độ trễ này</font>
+
+95
+00:03:08,928 --> 00:03:10,720
+<font color="#c4c4c4">Không chấp nhận được cho</font>
+
+96
+00:03:11,744 --> 00:03:15,072
+<font color="#d9d9d9">Chatbot thời gian thực hoặc phát hiện gian lận</font>
+
+97
+00:03:15,840 --> 00:03:17,632
+<font color="#d2d2d2">Câu hỏi kiến trúc</font>
+
+98
+00:03:17,888 --> 00:03:19,168
+<font color="#d7d7d7">Thiết kế cho</font>
+
+99
+00:03:19,424 --> 00:03:20,192
+<font color="#c8c8c8">Hiệu quả nhất</font>
+
+100
+00:03:20,448 --> 00:03:23,008
+<font color="#c0c0c0">Và dùng mô hình không đồng bộ</font>
+
+101
+00:03:23,776 --> 00:03:24,800
+<font color="#d6d6d6">Che giấu độ trễ</font>
+
+102
+00:03:25,056 --> 00:03:26,848
+<font color="#f5f5f5">Để người dùng không chỉ nhìn</font>
+
+103
+00:03:27,104 --> 00:03:27,872
+<font color="#a2a2a2">Biểu tượng loading</font>
+
+104
+00:03:28,384 --> 00:03:29,152
+<font color="#cecece">Sau cùng</font>
+
+105
+00:03:29,408 --> 00:03:30,432
+<font color="#e9e9e9">Đến thách thức tiếp theo</font>
+
+106
+00:03:31,200 --> 00:03:32,736
+<font color="#e7e7e7">Khả năng quan sát</font>
+
+107
+00:03:33,248 --> 00:03:34,784
+<font color="#7f7f7f">Khi code truyền thống lỗi</font>
+
+108
+00:03:35,040 --> 00:03:36,320
+<font color="#a6a6a6">Bạn nhận stack trace</font>
+
+109
+00:03:36,576 --> 00:03:38,368
+<font color="#fcfcfc">Bạn thấy dòng lỗi chính xác</font>
+
+110
+00:03:38,624 --> 00:03:39,136
+<font color="#f9f9f9">Hàm</font>
+
+111
+00:03:39,392 --> 00:03:41,184
+<font color="#bcbcbc">Và dữ liệu gây lỗi</font>
+
+112
+00:03:41,696 --> 00:03:44,256
+<font color="#d9d9d9">Nhưng với agent</font>
+
+113
+00:03:45,024 --> 00:03:46,048
+<font color="#a4a4a4">Nếu agent tạo</font>
+
+114
+00:03:46,304 --> 00:03:47,072
+<font color="#acacac">Kết quả xấu</font>
+
+115
+00:03:47,328 --> 00:03:48,352
+<font color="#f0f0f0">Chúng ta cần biết tại sao</font>
+
+116
+00:03:48,864 --> 00:03:50,912
+<font color="#c6c6c6">Nó hiểu sai mục tiêu</font>
+
+117
+00:03:51,168 --> 00:03:53,728
+<font color="#e0e0e0">Chọn sai công cụ</font>
+
+118
+00:03:54,240 --> 00:03:57,824
+<font color="#cbcbcb">Hay suy luận sai trong chuỗi suy nghĩ</font>
+
+119
+00:03:58,848 --> 00:04:01,152
+<font color="#999999">Không có khả năng trả lời</font>
+
+120
+00:04:01,408 --> 00:04:02,944
+<font color="#dedede">Agent là hộp đen</font>
+
+121
+00:04:03,456 --> 00:04:04,736
+<font color="#c4c4c4">Câu hỏi kiến trúc</font>
+
+122
+00:04:04,992 --> 00:04:07,040
+<font color="#d8d8d8">Làm sao ghi lại</font>
+
+123
+00:04:07,808 --> 00:04:10,624
+<font color="#c1c1c1">Ghi lại quá trình suy nghĩ nội tâm</font>
+
+124
+00:04:11,136 --> 00:04:13,184
+<font color="#adadad">Thách thức kiến trúc</font>
+
+125
+00:04:13,440 --> 00:04:15,232
+<font color="#bcbcbc">Hệ thống ghi log mạnh mẽ</font>
+
+126
+00:04:15,488 --> 00:04:17,280
+<font color="#e0e0e0">Gọi là quan sát được</font>
+
+127
+00:04:17,791 --> 00:04:20,607
+<font color="#dcdcdc">Để debug quá trình suy nghĩ</font>
+
+128
+00:04:21,375 --> 00:04:23,935
+<font color="#e8e8e8">Và sau đó đến thách thức cuối</font>
+
+129
+00:04:24,191 --> 00:04:25,471
+<font color="#f0f0f0">Hallucination</font>
+
+130
+00:04:25,983 --> 00:04:28,799
+<font color="#979797">Hallucination là khi model tạo</font>
+
+131
+00:04:29,567 --> 00:04:30,591
+<font color="#a8a8a8">Nghe có vẻ hợp lý</font>
+
+132
+00:04:30,847 --> 00:04:32,127
+<font color="#d6d6d6">Nhưng sai về mặt thực tế</font>
+
+133
+00:04:32,639 --> 00:04:33,407
+<font color="#959595">Ví dụ</font>
+
+134
+00:04:33,919 --> 00:04:35,455
+<font color="#d7d7d7">Sản phẩm này tốt</font>
+
+135
+00:04:35,967 --> 00:04:38,015
+<font color="#a3a3a3">Hallucination thực tế</font>
+
+136
+00:04:38,527 --> 00:04:40,063
+<font color="#cdcdcd">Agent tự tin</font>
+
+137
+00:04:40,575 --> 00:04:41,343
+<font color="#d8d8d8">Sản phẩm</font>
+
+138
+00:04:41,599 --> 00:04:42,111
+<font color="#898989">Giá 50</font>
+
+139
+00:04:42,623 --> 00:04:43,647
+<font color="#808080">Nhưng thực tế</font>
+
+140
+00:04:43,903 --> 00:04:44,927
+<font color="#5a5a5a">Giá 75</font>
+
+141
+00:04:45,439 --> 00:04:48,767
+<font color="#eaeaea">Vì nó tự tạo sự thật thay vì tra cứu</font>
+
+142
+00:04:49,023 --> 00:04:49,535
+<font color="#a5a5a5">Công cụ của nó</font>
+
+143
+00:04:50,047 --> 00:04:54,399
+<font color="#dddddd">Thứ hai và nguy hiểm hơn là Hallucination hành động</font>
+
+144
+00:04:54,911 --> 00:04:57,215
+<font color="#dadada">Agent cố gắng hành động trên ảo giác</font>
+
+145
+00:04:57,727 --> 00:05:00,543
+<font color="#d9d9d9">Nó có thể tưởng tượng công cụ không tồn tại</font>
+
+146
+00:05:00,799 --> 00:05:01,311
+<font color="#dbdbdb">Hoặc</font>
+
+147
+00:05:01,567 --> 00:05:02,591
+<font color="#bdbdbd">Gọi API thực</font>
+
+148
+00:05:02,847 --> 00:05:04,383
+<font color="#d4d4d4">Với tham số tưởng tượng</font>
+
+149
+00:05:04,639 --> 00:05:08,991
+<font color="#dcdcdc">Ví dụ đặt vé máy bay với tham số ăn chay</font>
+
+150
+00:05:09,247 --> 00:05:11,807
+<font color="#dedede">Khi API không hỗ trợ</font>
+
+151
+00:05:12,319 --> 00:05:13,855
+<font color="#848484">Tốt nhất là lỗi</font>
+
+152
+00:05:14,111 --> 00:05:14,623
+<font color="#9d9d9d">Tệ</font>
+
+153
+00:05:14,879 --> 00:05:16,159
+<font color="#5d5d5d">Là hỏng dữ liệu</font>
+
+154
+00:05:16,927 --> 00:05:19,487
+<font color="#b0b0b0">Thách thức kiến trúc là ràng buộc</font>
+
+155
+00:05:19,999 --> 00:05:21,535
+<font color="#555555">Ràng buộc với thực tế</font>
+
+156
+00:05:21,791 --> 00:05:22,303
+<font color="#6f6f6f">Bằng cách</font>
+
+157
+00:05:22,559 --> 00:05:23,071
+<font color="#6c6c6c">Chuyển sang công cụ xác nhận</font>
+
+158
+00:05:23,327 --> 00:05:24,351
+<font color="#939393">Vé máy bay</font>
+
+159
+00:05:24,863 --> 00:05:26,399
+<font color="#f2f2f2">Câu hỏi kiến trúc là</font>
+
+160
+00:05:26,655 --> 00:05:28,703
+<font color="#bebebe">Làm sao ràng buộc agent với thực tế</font>
+
+161
+00:05:28,959 --> 00:05:29,727
+<font color="#f0f0f0">Và làm sao</font>
+
+162
+00:05:29,983 --> 00:05:31,007
+<font color="#797979">Định nghĩa rõ ràng công cụ</font>
+
+163
+00:05:31,775 --> 00:05:33,567
+<font color="#e0e0e0">Để không tưởng tượng cái mới</font>
+
+164
+00:05:34,591 --> 00:05:35,615
+<font color="#9a9a9a">Kết luận</font>
+
+165
+00:05:35,871 --> 00:05:36,639
+<font color="#cfcfcf">Chúng ta có thể nói</font>
+
+166
+00:05:36,895 --> 00:05:40,223
+<font color="#dbdbdb">Thách thức phi tất định bảo mật</font>
+
+167
+00:05:40,479 --> 00:05:42,015
+<font color="#8f8f8f">Chi phí độ trễ và hallucination</font>
+
+168
+00:05:42,527 --> 00:05:44,063
+<font color="#9c9c9c">Có vẻ đáng sợ</font>
+
+169
+00:05:44,575 --> 00:05:46,111
+<font color="#c9c9c9">Nhưng thực tế</font>
+
+170
+00:05:46,623 --> 00:05:48,159
+<font color="#d1d1d1">Không phải rào cản</font>
+
+171
+00:05:48,927 --> 00:05:51,743
+<font color="#e8e8e8">Không phải lý do tránh hệ thống agentic</font>
+
+172
+00:05:52,767 --> 00:05:55,839
+<font color="#c2c2c2">Thách thức là lý do khóa học tồn tại</font>
+
+173
+00:05:56,351 --> 00:05:57,375
+<font color="#a7a7a7">Giải quyết vấn đề này</font>

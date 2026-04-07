@@ -1,0 +1,811 @@
+﻿1
+00:00:00,256 --> 00:00:03,328
+<font color="#e5e5e5">In this video we are going to continue our road map</font>
+
+2
+00:00:03,584 --> 00:00:04,352
+<font color="#cccccc">We are</font>
+
+3
+00:00:05,376 --> 00:00:06,400
+<font color="#e3e3e3">Which is the learning model</font>
+
+4
+00:00:06,656 --> 00:00:07,936
+<font color="#a9a9a9">Include the feedback</font>
+
+5
+00:00:08,704 --> 00:00:09,984
+<font color="#fcfcfc">So let's get started</font>
+
+6
+00:00:10,752 --> 00:00:12,800
+<font color="#cccccc">Did you cancel that our agent has the</font>
+
+7
+00:00:13,056 --> 00:00:13,824
+<font color="#f1f1f1">Which is the alarm</font>
+
+8
+00:00:14,848 --> 00:00:16,128
+<font color="#bbbbbb">Which is our perception model</font>
+
+9
+00:00:16,640 --> 00:00:17,664
+<font color="#8b8b8b">Is this strategies</font>
+
+10
+00:00:17,920 --> 00:00:18,432
+<font color="#f1f1f1">Which is</font>
+
+11
+00:00:18,688 --> 00:00:20,224
+<font color="#808080">Reasoning and planning model</font>
+
+12
+00:00:20,480 --> 00:00:21,504
+<font color="#b7b7b7">And we have a note</font>
+
+13
+00:00:21,760 --> 00:00:23,040
+<font color="#c2c2c2">Which is all memory module</font>
+
+14
+00:00:23,296 --> 00:00:24,064
+<font color="#989898">And we have</font>
+
+15
+00:00:24,320 --> 00:00:25,088
+<font color="#bfbfbf">Once these are</font>
+
+16
+00:00:25,344 --> 00:00:27,904
+<font color="#b0b0b0">The tools and action model that far from the action</font>
+
+17
+00:00:28,672 --> 00:00:29,184
+<font color="#bebebe">So that</font>
+
+18
+00:00:29,440 --> 00:00:30,976
+<font color="#787878">Behavior complete or</font>
+
+19
+00:00:31,232 --> 00:00:32,256
+<font color="#535353">Perceive reason</font>
+
+20
+00:00:32,512 --> 00:00:33,280
+<font color="#c2c2c2">Sing an action</font>
+
+21
+00:00:33,792 --> 00:00:35,840
+<font color="#c8c8c8">I know all agent can execute</font>
+
+22
+00:00:36,096 --> 00:00:36,608
+<font color="#cecece">But</font>
+
+23
+00:00:36,864 --> 00:00:37,888
+<font color="#5a5a5a">What is 1 + 1/4</font>
+
+24
+00:00:39,680 --> 00:00:42,752
+<font color="#d4d4d4">If its plan is inefficient or it's remembered</font>
+
+25
+00:00:43,008 --> 00:00:44,544
+<font color="#cecece">What's in its memory are wrong</font>
+
+26
+00:00:44,800 --> 00:00:47,872
+<font color="#e5e5e5">It will continue to make the same mistakes forever</font>
+
+27
+00:00:48,384 --> 00:00:50,944
+<font color="#d4d4d4">It is no mechanism for self-improvement</font>
+
+28
+00:00:52,224 --> 00:00:54,784
+<font color="#cecece">We will add a final and most advanced component</font>
+
+29
+00:00:55,040 --> 00:00:56,832
+<font color="#d1d1d1">We will build a second Loop</font>
+
+30
+00:00:57,088 --> 00:00:57,856
+<font color="#696969">If you'd like</font>
+
+31
+00:00:58,112 --> 00:01:00,160
+<font color="#d4d4d4">Did I lost the agent to learn from</font>
+
+32
+00:01:00,416 --> 00:01:00,928
+<font color="#d7d7d7">It's mistake</font>
+
+33
+00:01:01,184 --> 00:01:02,464
+<font color="#d6d6d6">And get smarter over time</font>
+
+34
+00:01:02,976 --> 00:01:03,744
+<font color="#b7b7b7">Can you cancel</font>
+
+35
+00:01:04,000 --> 00:01:05,792
+<font color="#b7b7b7">We are going to The Learning model</font>
+
+36
+00:01:06,048 --> 00:01:09,120
+<font color="#c7c7c7">To able to making some music again and again</font>
+
+37
+00:01:09,888 --> 00:01:11,424
+<font color="#ededed">So now let's understand</font>
+
+38
+00:01:11,680 --> 00:01:12,704
+<font color="#868686">Tulip architect</font>
+
+39
+00:01:13,216 --> 00:01:17,056
+<font color="#e7e7e7">To understand this we must think in terms of the two Loop architecture</font>
+
+40
+00:01:17,312 --> 00:01:18,080
+<font color="#b6b6b6">In the room</font>
+
+41
+00:01:18,336 --> 00:01:19,872
+<font color="#f1f1f1">Which is the performance element</font>
+
+42
+00:01:20,128 --> 00:01:20,896
+<font color="#eaeaea">Or we can</font>
+
+43
+00:01:21,152 --> 00:01:21,664
+<font color="#878787">The ACT</font>
+
+44
+00:01:22,176 --> 00:01:24,736
+<font color="#f6f6f6">This is the entire agent we have just designed</font>
+
+45
+00:01:24,992 --> 00:01:26,784
+<font color="#787878">Which monster pairs</font>
+
+46
+00:01:27,040 --> 00:01:28,320
+<font color="#b1b1b1">Reason an egg</font>
+
+47
+00:01:28,832 --> 00:01:31,392
+<font color="#c1c1c1">We call this loop as a performance</font>
+
+48
+00:01:31,648 --> 00:01:32,672
+<font color="#c0c0c0">And which is the act</font>
+
+49
+00:01:32,928 --> 00:01:36,000
+<font color="#e7e7e7">And this job is to Simply to do things in the world</font>
+
+50
+00:01:36,512 --> 00:01:37,280
+<font color="#c0c0c0">On the second</font>
+
+51
+00:01:37,536 --> 00:01:38,304
+<font color="#eaeaea">Which is the</font>
+
+52
+00:01:38,560 --> 00:01:39,072
+<font color="#ababab">Higher</font>
+
+53
+00:01:39,328 --> 00:01:40,608
+<font color="#d9d9d9">Assistant we are adding today</font>
+
+54
+00:01:40,864 --> 00:01:43,424
+<font color="#e0e0e0">And this is the learning element or the updater</font>
+
+55
+00:01:43,936 --> 00:01:46,752
+<font color="#d7d7d7">It is only job is to observe and improve the ACT</font>
+
+56
+00:01:47,264 --> 00:01:50,080
+<font color="#c8c8c8">This is the metal Loop that enables the self improve</font>
+
+57
+00:01:50,848 --> 00:01:53,920
+<font color="#c5c5c5">So now let's understand the architectural component</font>
+
+58
+00:01:54,176 --> 00:01:55,200
+<font color="#fafafa">Which are the</font>
+
+59
+00:01:55,456 --> 00:01:55,968
+<font color="#cacaca">I'm learning</font>
+
+60
+00:01:56,480 --> 00:01:57,760
+<font color="#c4c4c4">Delete the second</font>
+
+61
+00:01:58,016 --> 00:01:59,296
+<font color="#898989">Are architecture</font>
+
+62
+00:02:00,320 --> 00:02:01,344
+<font color="#d9d9d9">Specialized component</font>
+
+63
+00:02:01,856 --> 00:02:02,624
+<font color="#f2f2f2">These are the</font>
+
+64
+00:02:03,648 --> 00:02:04,416
+<font color="#838383">Speak and learn</font>
+
+65
+00:02:04,928 --> 00:02:07,232
+<font color="#e4e4e4">Let's start with the first one which is the crit</font>
+
+66
+00:02:07,744 --> 00:02:09,792
+<font color="#f4f4f4">This is the elevator or teacher</font>
+
+67
+00:02:10,048 --> 00:02:12,608
+<font color="#dfdfdf">It is just to watch the October perform a</font>
+
+68
+00:02:13,120 --> 00:02:14,656
+<font color="#b2b2b2">I need to look at the out</font>
+
+69
+00:02:14,912 --> 00:02:16,448
+<font color="#b3b3b3">Turn on generate a feedback signal</font>
+
+70
+00:02:16,704 --> 00:02:17,472
+<font color="#ececec">A simple</font>
+
+71
+00:02:17,728 --> 00:02:18,240
+<font color="#ababab">That</font>
+
+72
+00:02:18,496 --> 00:02:21,056
+<font color="#e8e8e8">Is that was a good action or that was a bad action</font>
+
+73
+00:02:21,568 --> 00:02:22,592
+<font color="#cfcfcf">In this critic phase</font>
+
+74
+00:02:22,848 --> 00:02:23,616
+<font color="#d0d0d0">Is the agent</font>
+
+75
+00:02:24,128 --> 00:02:27,200
+<font color="#d6d6d6">Did my last action achieve its intended sub</font>
+
+76
+00:02:27,712 --> 00:02:28,736
+<font color="#e7e7e7">What did it</font>
+
+77
+00:02:29,248 --> 00:02:30,784
+<font color="#919191">Was this action efficient</font>
+
+78
+00:02:31,040 --> 00:02:34,624
+<font color="#c6c6c6">What is action actually help me achieve the overall user</font>
+
+79
+00:02:35,392 --> 00:02:36,160
+<font color="#f2f2f2">You can see the</font>
+
+80
+00:02:36,416 --> 00:02:37,952
+<font color="#a1a1a1">We basically performed the crit</font>
+
+81
+00:02:38,464 --> 00:02:39,744
+<font color="#efefef">When the action is happening</font>
+
+82
+00:02:40,256 --> 00:02:42,560
+<font color="#cdcdcd">According to outcome of these action oper</font>
+
+83
+00:02:43,328 --> 00:02:44,096
+<font color="#dedede">On the</font>
+
+84
+00:02:44,352 --> 00:02:45,632
+<font color="#f7f7f7">Which is the learning element</font>
+
+85
+00:02:45,888 --> 00:02:48,960
+<font color="#e1e1e1">And this is the mechanism or we can say engine</font>
+
+86
+00:02:49,216 --> 00:02:51,520
+<font color="#cecece">It received the grade from the critic</font>
+
+87
+00:02:52,544 --> 00:02:54,336
+<font color="#b2b2b2">Performs the actual engine</font>
+
+88
+00:02:54,848 --> 00:02:56,640
+<font color="#dfdfdf">Work of the updating the agent</font>
+
+89
+00:02:57,152 --> 00:03:01,760
+<font color="#e0e0e0">So it is the company that physically rewrite the rules or updates the memory</font>
+
+90
+00:03:02,272 --> 00:03:06,112
+<font color="#bababa">So now let's understand and deep dive in the critic model</font>
+
+91
+00:03:06,368 --> 00:03:07,136
+<font color="#bcbcbc">I understand</font>
+
+92
+00:03:07,392 --> 00:03:08,416
+<font color="#8d8d8d">How's the critic work</font>
+
+93
+00:03:08,672 --> 00:03:09,440
+<font color="#9b9b9b">And how</font>
+
+94
+00:03:09,696 --> 00:03:10,208
+<font color="#efefef">Get</font>
+
+95
+00:03:10,464 --> 00:03:11,232
+<font color="#868686">Feedback sign</font>
+
+96
+00:03:11,488 --> 00:03:12,512
+<font color="#dddddd">What's from different sources</font>
+
+97
+00:03:13,024 --> 00:03:13,792
+<font color="#868686">Is are</font>
+
+98
+00:03:14,048 --> 00:03:16,864
+<font color="#eaeaea">We can get these signals from two primary sources</font>
+
+99
+00:03:17,376 --> 00:03:18,144
+<font color="#f8f8f8">The first</font>
+
+100
+00:03:18,912 --> 00:03:19,424
+<font color="#202020">665</font>
+
+101
+00:03:19,680 --> 00:03:21,472
+<font color="#eaeaea">Which is a human in the loop model</font>
+
+102
+00:03:21,984 --> 00:03:23,008
+<font color="#ededed">The user is the</font>
+
+103
+00:03:23,520 --> 00:03:24,288
+<font color="#b7b7b7">When you click</font>
+
+104
+00:03:25,056 --> 00:03:26,080
+<font color="#959595">Is September 10th</font>
+
+105
+00:03:26,336 --> 00:03:28,128
+<font color="#a3a3a3">Tom Thumb on a check</font>
+
+106
+00:03:28,640 --> 00:03:30,432
+<font color="#f1f1f1">You are providing the feedback signal</font>
+
+107
+00:03:30,688 --> 00:03:32,224
+<font color="#a7a7a7">Did the learning element videos</font>
+
+108
+00:03:32,736 --> 00:03:33,504
+<font color="#c4c4c4">On the</font>
+
+109
+00:03:33,760 --> 00:03:35,296
+<font color="#cecece">And more autonomous method</font>
+
+110
+00:03:35,552 --> 00:03:36,576
+<font color="#8d8d8d">Implicit feed</font>
+
+111
+00:03:37,088 --> 00:03:38,368
+<font color="#e1e1e1">Hear the agent is</font>
+
+112
+00:03:38,624 --> 00:03:39,392
+<font color="#868686">It's on Krit</font>
+
+113
+00:03:39,648 --> 00:03:42,208
+<font color="#f1f1f1">It learns from Simply observing the environment</font>
+
+114
+00:03:42,720 --> 00:03:43,744
+<font color="#707070">HSI</font>
+
+115
+00:03:44,000 --> 00:03:46,048
+<font color="#d8d8d8">Did that loses a game has received</font>
+
+116
+00:03:46,304 --> 00:03:47,072
+<font color="#9c9c9c">Is feedback sign</font>
+
+117
+00:03:47,584 --> 00:03:49,376
+<font color="#f1f1f1">An agent that calls a</font>
+
+118
+00:03:49,632 --> 00:03:51,168
+<font color="#868686">And get any better</font>
+
+119
+00:03:51,424 --> 00:03:52,704
+<font color="#757575">Has received its feedback</font>
+
+120
+00:03:53,728 --> 00:03:54,752
+<font color="#c7c7c7">What's my action of</font>
+
+121
+00:03:55,008 --> 00:03:56,032
+<font color="#c3c3c3">The tool was</font>
+
+122
+00:03:56,800 --> 00:03:58,336
+<font color="#e4e4e4">So now let's understand</font>
+
+123
+00:03:58,592 --> 00:04:01,920
+<font color="#dedede">How's the learning element Works which is the update model</font>
+
+124
+00:04:02,176 --> 00:04:02,944
+<font color="#c8c8c8">So basically</font>
+
+125
+00:04:03,200 --> 00:04:04,224
+<font color="#c6c6c6">Play The Learning element</font>
+
+126
+00:04:04,480 --> 00:04:05,760
+<font color="#b9b9b9">Which is the updated model</font>
+
+127
+00:04:06,272 --> 00:04:08,832
+<font color="#e2e2e2">Text the feedback signal from the critic model</font>
+
+128
+00:04:09,088 --> 00:04:12,160
+<font color="#cfcfcf">And use it to do modify the agents other comp</font>
+
+129
+00:04:12,928 --> 00:04:15,232
+<font color="#f2f2f2">This is what learning is in an agent</font>
+
+130
+00:04:15,744 --> 00:04:19,327
+<font color="#ebebeb">So the first step is update the memory which is the long-term memory</font>
+
+131
+00:04:19,839 --> 00:04:22,143
+<font color="#eeeeee">If the feedback is the the fact is wrong</font>
+
+132
+00:04:22,399 --> 00:04:24,703
+<font color="#f1f1f1">The learning element can execute a command</font>
+
+133
+00:04:24,959 --> 00:04:27,775
+<font color="#e7e7e7">To delete or update the fact in the long-term memory</font>
+
+134
+00:04:28,031 --> 00:04:28,799
+<font color="#f7f7f7">Which is the memory</font>
+
+135
+00:04:29,055 --> 00:04:30,591
+<font color="#d1d1d1">Play and it could be a vector database</font>
+
+136
+00:04:31,359 --> 00:04:33,663
+<font color="#b3b3b3">And the second update to cleaning model</font>
+
+137
+00:04:33,919 --> 00:04:34,943
+<font color="#e9e9e9">If the feedback</font>
+
+138
+00:04:35,455 --> 00:04:37,759
+<font color="#d0d0d0">The five state plan was very inefficient</font>
+
+139
+00:04:38,271 --> 00:04:39,295
+<font color="#f2f2f2">The learning element</font>
+
+140
+00:04:39,551 --> 00:04:41,343
+<font color="#a5a5a5">Can store MMO in a memory</font>
+
+141
+00:04:41,599 --> 00:04:43,903
+<font color="#737373">Play the essential to the clinic module</font>
+
+142
+00:04:44,159 --> 00:04:46,463
+<font color="#dcdcdc">This is a bad plan do not trade again</font>
+
+143
+00:04:47,231 --> 00:04:48,255
+<font color="#b6b6b6">And the third step</font>
+
+144
+00:04:48,511 --> 00:04:49,535
+<font color="#eeeeee">Update the</font>
+
+145
+00:04:49,791 --> 00:04:50,303
+<font color="#c4c4c4">What is the function</font>
+
+146
+00:04:50,559 --> 00:04:51,583
+<font color="#fbfbfb">Which is the most</font>
+
+147
+00:04:52,351 --> 00:04:53,887
+<font color="#d6d6d6">And in the most advanced case</font>
+
+148
+00:04:54,143 --> 00:04:56,703
+<font color="#cacaca">Scene in agents like a Chase</font>
+
+149
+00:04:56,959 --> 00:04:58,239
+<font color="#c8c8c8">Excess driving car</font>
+
+150
+00:04:58,495 --> 00:04:59,775
+<font color="#ededed">You can update the YouTube</font>
+
+151
+00:05:00,031 --> 00:05:00,799
+<font color="#bdbdbd">What is the function itself</font>
+
+152
+00:05:01,311 --> 00:05:02,847
+<font color="#adadad">This is reinforcement learn</font>
+
+153
+00:05:03,103 --> 00:05:04,127
+<font color="#939393">I think the agent learn</font>
+
+154
+00:05:04,383 --> 00:05:06,943
+<font color="#f2f2f2">The user was unhappy with the fastest route</font>
+
+155
+00:05:07,455 --> 00:05:08,735
+<font color="#e5e5e5">So I will slightly increase</font>
+
+156
+00:05:08,991 --> 00:05:10,783
+<font color="#d8d8d8">Is the negative weight for to</font>
+
+157
+00:05:11,295 --> 00:05:12,575
+<font color="#727272">Am I beautiful calc</font>
+
+158
+00:05:13,343 --> 00:05:13,855
+<font color="#f0f0f0">The</font>
+
+159
+00:05:14,111 --> 00:05:15,647
+<font color="#bcbcbc">What is the definition of</font>
+
+160
+00:05:15,903 --> 00:05:16,927
+<font color="#adadad">He's not changed</font>
+
+161
+00:05:18,207 --> 00:05:20,255
+<font color="#cdcdcd">Let's Intimacy in an example</font>
+
+162
+00:05:20,767 --> 00:05:23,327
+<font color="#cfcfcf">Our example is the learning spam filter</font>
+
+163
+00:05:23,583 --> 00:05:26,143
+<font color="#f4f4f4">Which is the most intuitive example for this lecture</font>
+
+164
+00:05:26,911 --> 00:05:27,679
+<font color="#616161">Intercept</font>
+
+165
+00:05:27,935 --> 00:05:29,215
+<font color="#d0d0d0">The performance element</font>
+
+166
+00:05:29,471 --> 00:05:30,239
+<font color="#c3c3c3">Which is the act</font>
+
+167
+00:05:30,495 --> 00:05:31,519
+<font color="#c5c5c5">Has a simple</font>
+
+168
+00:05:32,031 --> 00:05:33,055
+<font color="#d4d4d4">Diesel is</font>
+
+169
+00:05:33,311 --> 00:05:34,079
+<font color="#919191">List the subject Kant</font>
+
+170
+00:05:34,847 --> 00:05:35,871
+<font color="#6d6d6d">The movie</font>
+
+171
+00:05:36,639 --> 00:05:37,663
+<font color="#858585">An interested</font>
+
+172
+00:05:37,919 --> 00:05:38,687
+<font color="#c4c4c4">It makes a mist</font>
+
+173
+00:05:39,199 --> 00:05:41,247
+<font color="#d6d6d6">Is spam email with the subject</font>
+
+174
+00:05:41,503 --> 00:05:42,783
+<font color="#d6d6d6">Please report on</font>
+
+175
+00:05:43,295 --> 00:05:44,319
+<font color="#aaaaaa">Gets into your in</font>
+
+176
+00:05:45,087 --> 00:05:46,367
+<font color="#cecece">But in the state today</font>
+
+177
+00:05:46,623 --> 00:05:47,903
+<font color="#8a8a8a">Do feedback loop begin</font>
+
+178
+00:05:48,415 --> 00:05:49,695
+<font color="#c3c3c3">You is a Critic model</font>
+
+179
+00:05:49,951 --> 00:05:51,999
+<font color="#696969">Hit the market September 10</font>
+
+180
+00:05:52,255 --> 00:05:53,791
+<font color="#cdcdcd">And this is the feedback signal</font>
+
+181
+00:05:54,815 --> 00:05:55,583
+<font color="#9c9c9c">In the step</font>
+
+182
+00:05:55,839 --> 00:05:56,863
+<font color="#f3f3f3">The learning element</font>
+
+183
+00:05:57,119 --> 00:05:59,423
+<font color="#e2e2e2">Which is the email service machine learning model</font>
+
+184
+00:05:59,679 --> 00:06:00,959
+<font color="#a3a3a3">Receive the signal</font>
+
+185
+00:06:01,215 --> 00:06:03,519
+<font color="#c6c6c6">Eat analyze the content of the email you</font>
+
+186
+00:06:04,031 --> 00:06:06,335
+<font color="#ababab">I need update the performance elements log</font>
+
+187
+00:06:06,847 --> 00:06:08,383
+<font color="#8c8c8c">Do you love is more n</font>
+
+188
+00:06:08,895 --> 00:06:10,431
+<font color="#dddddd">In this case if the report</font>
+
+189
+00:06:10,687 --> 00:06:11,711
+<font color="#c4c4c4">I'm not include</font>
+
+190
+00:06:11,967 --> 00:06:12,735
+<font color="#939393">Dangote</font>
+
+191
+00:06:13,247 --> 00:06:14,015
+<font color="#ececec">The agent</font>
+
+192
+00:06:14,271 --> 00:06:15,295
+<font color="#a8a8a8">Please learn from your feed</font>
+
+193
+00:06:15,807 --> 00:06:16,831
+<font color="#b3b3b3">Which is not smart</font>
+
+194
+00:06:17,087 --> 00:06:19,135
+<font color="#d0d0d0">This is the complete self improvement</font>
+
+195
+00:06:19,647 --> 00:06:21,439
+<font color="#ededed">Is it somebody we can say that</font>
+
+196
+00:06:21,695 --> 00:06:24,255
+<font color="#f6f6f6">This is a metal Loop that improves the agent</font>
+
+197
+00:06:24,511 --> 00:06:26,559
+<font color="#f0f0f0">And it is weird from two components</font>
+
+198
+00:06:26,815 --> 00:06:27,327
+<font color="#acacac">The</font>
+
+199
+00:06:27,583 --> 00:06:28,607
+<font color="#5e5e5e">Speak portable</font>
+
+200
+00:06:28,863 --> 00:06:29,887
+<font color="#dcdcdc">I'm the learning element</font>
+
+201
+00:06:30,143 --> 00:06:30,911
+<font color="#cdcdcd">For the update</font>
+
+202
+00:06:31,423 --> 00:06:34,239
+<font color="#d8d8d8">This is the most powerful but also most comp</font>
+
+203
+00:06:34,495 --> 00:06:35,263
+<font color="#f5f5f5">Expensive</font>

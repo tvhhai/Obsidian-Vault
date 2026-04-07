@@ -1,0 +1,543 @@
+﻿1
+00:00:01,280 --> 00:00:02,048
+<font color="#e6e6e6">We are going to learn</font>
+
+2
+00:00:02,560 --> 00:00:04,352
+<font color="#a7a7a7">The Egyptian custom logic Pat</font>
+
+3
+00:00:05,120 --> 00:00:06,400
+<font color="#eeeeee">In the last lecture we</font>
+
+4
+00:00:06,656 --> 00:00:07,680
+<font color="#b4b4b4">Human in the loop</font>
+
+5
+00:00:08,192 --> 00:00:09,216
+<font color="#cbcbcb">Which is our first</font>
+
+6
+00:00:09,984 --> 00:00:10,752
+<font color="#d5d5d5">But what happens</font>
+
+7
+00:00:11,008 --> 00:00:12,800
+<font color="#bcbcbc">What's the agent is not working corre</font>
+
+8
+00:00:13,568 --> 00:00:14,080
+<font color="#fefefe">What</font>
+
+9
+00:00:14,336 --> 00:00:14,848
+<font color="#d7d7d7">When</font>
+
+10
+00:00:15,104 --> 00:00:15,872
+<font color="#878787">Is the stock up in a</font>
+
+11
+00:00:16,128 --> 00:00:16,640
+<font color="#1b1b1b">Pro</font>
+
+12
+00:00:16,896 --> 00:00:17,408
+<font color="#c3c3c3">Anything to use</font>
+
+13
+00:00:17,664 --> 00:00:19,456
+<font color="#a8a8a8">Or when the users simply</font>
+
+14
+00:00:20,736 --> 00:00:22,016
+<font color="#c2c2c2">A post button isn't enough</font>
+
+15
+00:00:22,528 --> 00:00:23,808
+<font color="#a3a3a3">We need an escape</font>
+
+16
+00:00:24,320 --> 00:00:26,112
+<font color="#989898">We need a hardcore that deter</font>
+
+17
+00:00:26,880 --> 00:00:27,648
+<font color="#868686">Did over</font>
+
+18
+00:00:27,904 --> 00:00:28,416
+<font color="#e0e0e0">What's the</font>
+
+19
+00:00:28,672 --> 00:00:29,696
+<font color="#ababab">What is autonomy completely</font>
+
+20
+00:00:30,208 --> 00:00:31,488
+<font color="#c4c4c4">This is the ejection Pat</font>
+
+21
+00:00:32,256 --> 00:00:33,024
+<font color="#b4b4b4">So now</font>
+
+22
+00:00:33,280 --> 00:00:34,816
+<font color="#aaaaaa">Let's understand this button debt</font>
+
+23
+00:00:35,328 --> 00:00:36,352
+<font color="#9b9b9b">The Egyptian Pat</font>
+
+24
+00:00:36,608 --> 00:00:37,632
+<font color="#d4d4d4">When is executive</font>
+
+25
+00:00:37,888 --> 00:00:38,400
+<font color="#aaaaaa">Repeat sounds like</font>
+
+26
+00:00:38,912 --> 00:00:40,960
+<font color="#e6e6e6">It is the escape page for your work</font>
+
+27
+00:00:41,472 --> 00:00:43,520
+<font color="#a0a0a0">Did you find it as a deterministic</font>
+
+28
+00:00:43,776 --> 00:00:44,800
+<font color="#393939">Ruby's but</font>
+
+29
+00:00:45,056 --> 00:00:45,824
+<font color="#a3a3a3">Dead by</font>
+
+30
+00:00:46,080 --> 00:00:46,848
+<font color="#666666">What's the time</font>
+
+31
+00:00:47,104 --> 00:00:47,616
+<font color="#f5f5f5">The</font>
+
+32
+00:00:47,872 --> 00:00:49,664
+<font color="#8f8f8f">When's the entire non-deterministic Loop</font>
+
+33
+00:00:50,176 --> 00:00:51,456
+<font color="#d0d0d0">Is this function is</font>
+
+34
+00:00:51,712 --> 00:00:55,040
+<font color="#c9c9c9">Instantly transfer control away from the agency</font>
+
+35
+00:00:55,552 --> 00:00:56,320
+<font color="#f0f0f0">Which is the alarm</font>
+
+36
+00:00:56,576 --> 00:00:59,392
+<font color="#d2d2d2">And handed over to a simply predictable</font>
+
+37
+00:00:59,648 --> 00:01:00,160
+<font color="#1e1e1e">Deter</font>
+
+38
+00:01:00,416 --> 00:01:00,928
+<font color="#949494">Music system</font>
+
+39
+00:01:01,184 --> 00:01:04,000
+<font color="#d6d6d6">Like a live chat or just a simple goodbye</font>
+
+40
+00:01:05,024 --> 00:01:07,328
+<font color="#b1b1b1">This is a hardcore that custom logic over</font>
+
+41
+00:01:07,584 --> 00:01:11,168
+<font color="#b8b8b8">It is the deterministic rule that trumps the non determin</font>
+
+42
+00:01:11,424 --> 00:01:12,704
+<font color="#cecece">Music agent every single time</font>
+
+43
+00:01:13,472 --> 00:01:15,008
+<font color="#dddddd">You can see the image on the slide</font>
+
+44
+00:01:16,032 --> 00:01:20,896
+<font color="#dfdfdf">Typical agent and this is the Atlantic group that we are going to follow when a user send a</font>
+
+45
+00:01:21,408 --> 00:01:23,456
+<font color="#949494">But intimately with the ejection Pat</font>
+
+46
+00:01:24,992 --> 00:01:26,016
+<font color="#c9c9c9">Create an escape</font>
+
+47
+00:01:26,272 --> 00:01:27,808
+<font color="#a3a3a3">B**** and be great stop button</font>
+
+48
+00:01:28,064 --> 00:01:29,344
+<font color="#eeeeee">In order to leave</font>
+
+49
+00:01:29,600 --> 00:01:30,880
+<font color="#efefef">Stop this agentic</font>
+
+50
+00:01:31,648 --> 00:01:33,184
+<font color="#efefef">So now let's understand</font>
+
+51
+00:01:33,440 --> 00:01:34,976
+<font color="#d6d6d6">Why we need an escape</font>
+
+52
+00:01:35,232 --> 00:01:40,096
+<font color="#e7e7e7">And also it is critical to understand why this is different from the human in the loop</font>
+
+53
+00:01:40,864 --> 00:01:41,888
+<font color="#7a7a7a">Human in the loop</font>
+
+54
+00:01:42,400 --> 00:01:44,704
+<font color="#dfdfdf">Is for when the agent is working correctly</font>
+
+55
+00:01:44,960 --> 00:01:46,752
+<font color="#e5e5e5">What about to do something dangerous</font>
+
+56
+00:01:47,264 --> 00:01:49,056
+<font color="#b9b9b9">It is a collaborative pause but</font>
+
+57
+00:01:49,824 --> 00:01:53,152
+<font color="#e3e3e3">The Egyptian pattern is for when the conversation is broken</font>
+
+58
+00:01:53,408 --> 00:01:54,432
+<font color="#595959">Turn on undesirable</font>
+
+59
+00:01:55,200 --> 00:01:56,736
+<font color="#f4f4f4">The agent might be failing</font>
+
+60
+00:01:56,992 --> 00:01:57,760
+<font color="#9c9c9c">Stuck in a</font>
+
+61
+00:01:58,016 --> 00:02:00,320
+<font color="#ececec">Or the user is simply done</font>
+
+62
+00:02:01,600 --> 00:02:03,136
+<font color="#b0b0b0">Discover critical Celsius</font>
+
+63
+00:02:03,648 --> 00:02:04,160
+<font color="#515151">First</font>
+
+64
+00:02:04,416 --> 00:02:06,208
+<font color="#c8c8c8">Is the user can be frustration</font>
+
+65
+00:02:06,720 --> 00:02:08,512
+<font color="#d6d6d6">So do you just start frustrating</font>
+
+66
+00:02:08,768 --> 00:02:09,536
+<font color="#c3c3c3">Sing and say that</font>
+
+67
+00:02:09,792 --> 00:02:12,096
+<font color="#d4d4d4">You are useless I want to speak a human</font>
+
+68
+00:02:12,864 --> 00:02:13,888
+<font color="#e8e8e8">Or in the second</font>
+
+69
+00:02:14,144 --> 00:02:15,680
+<font color="#cfcfcf">What is which is the user termination</font>
+
+70
+00:02:15,936 --> 00:02:17,984
+<font color="#f0f0f0">It also handled simple termination</font>
+
+71
+00:02:18,496 --> 00:02:19,776
+<font color="#cdcdcd">Like stop or cancel</font>
+
+72
+00:02:20,032 --> 00:02:21,056
+<font color="#adadad">Uncritically</font>
+
+73
+00:02:21,312 --> 00:02:22,080
+<font color="#323232">Eaten</font>
+
+74
+00:02:22,336 --> 00:02:23,360
+<font color="#b8b8b8">Save the policies</font>
+
+75
+00:02:23,616 --> 00:02:26,688
+<font color="#cdcdcd">Like ejecting to user if they become AB</font>
+
+76
+00:02:27,200 --> 00:02:31,808
+<font color="#dfdfdf">So now let's understand how the internet is ejection pattern architecturally</font>
+
+77
+00:02:32,320 --> 00:02:34,880
+<font color="#e5e5e5">Architecturally this is the most important</font>
+
+78
+00:02:35,392 --> 00:02:37,696
+<font color="#eeeeee">This logic cannot be part of the</font>
+
+79
+00:02:38,464 --> 00:02:40,000
+<font color="#d4d4d4">You cannot just tell the AG</font>
+
+80
+00:02:40,256 --> 00:02:41,792
+<font color="#e8e8e8">If the user says stop</font>
+
+81
+00:02:42,048 --> 00:02:42,816
+<font color="#838383">Please set</font>
+
+82
+00:02:43,072 --> 00:02:44,608
+<font color="#6b6b6b">The non-deterministic L</font>
+
+83
+00:02:44,864 --> 00:02:46,912
+<font color="#c1c1c1">Might ignore it or misunder</font>
+
+84
+00:02:47,424 --> 00:02:50,752
+<font color="#e8e8e8">Instead this button must be implemented as a simple</font>
+
+85
+00:02:51,008 --> 00:02:51,776
+<font color="#272727">Determinist</font>
+
+86
+00:02:52,032 --> 00:02:53,056
+<font color="#bfbfbf">Play check filter</font>
+
+87
+00:02:54,080 --> 00:02:56,640
+<font color="#c4c4c4">Once before the agents main dope is even trigger</font>
+
+88
+00:02:57,152 --> 00:03:00,480
+<font color="#f0f0f0">Display filter could be a simple statement in your</font>
+
+89
+00:03:00,992 --> 00:03:02,784
+<font color="#a8a8a8">Need to cancel the image on the slide</font>
+
+90
+00:03:03,040 --> 00:03:05,344
+<font color="#e0e0e0">Your application received the user input</font>
+
+91
+00:03:06,112 --> 00:03:08,672
+<font color="#9e9e9e">Is it runs it through this ejection filter</font>
+
+92
+00:03:09,184 --> 00:03:10,720
+<font color="#b5b5b5">It takes for your keyboards</font>
+
+93
+00:03:10,976 --> 00:03:11,744
+<font color="#d3d3d3">Like human</font>
+
+94
+00:03:12,000 --> 00:03:12,768
+<font color="#f3f3f3">Stop and cancel</font>
+
+95
+00:03:13,792 --> 00:03:15,072
+<font color="#e6e6e6">If there is a match is found</font>
+
+96
+00:03:15,328 --> 00:03:19,680
+<font color="#b1b1b1">Eat eggs immediately and Rose to the different deterministic function</font>
+
+97
+00:03:20,192 --> 00:03:22,496
+<font color="#c3c3c3">Only if the input pass this filter</font>
+
+98
+00:03:22,752 --> 00:03:23,520
+<font color="#959595">We do</font>
+
+99
+00:03:23,776 --> 00:03:25,312
+<font color="#b8b8b8">Hand control over the AG</font>
+
+100
+00:03:25,568 --> 00:03:27,360
+<font color="#a1a1a1">What's perceive reason a</font>
+
+101
+00:03:27,872 --> 00:03:28,896
+<font color="#bababa">This is the agency</font>
+
+102
+00:03:29,408 --> 00:03:29,920
+<font color="#bdbdbd">And the</font>
+
+103
+00:03:30,176 --> 00:03:32,224
+<font color="#d6d6d6">Never even sees the Egypt</font>
+
+104
+00:03:32,992 --> 00:03:35,296
+<font color="#ededed">So now let's see a classical use</font>
+
+105
+00:03:35,552 --> 00:03:36,576
+<font color="#a0a0a0">Listen to ejection pattern</font>
+
+106
+00:03:37,088 --> 00:03:39,904
+<font color="#e8e8e8">The most common use case is the live agent ejection</font>
+
+107
+00:03:40,416 --> 00:03:41,440
+<font color="#6d6d6d">Local</font>
+
+108
+00:03:41,696 --> 00:03:43,232
+<font color="#c2c2c2">If the user's message contains</font>
+
+109
+00:03:43,488 --> 00:03:44,768
+<font color="#d2d2d2">Is human or agent</font>
+
+110
+00:03:45,280 --> 00:03:49,376
+<font color="#e6e6e6">It immediately calls a function to transfer to your live chat system</font>
+
+111
+00:03:49,632 --> 00:03:51,168
+<font color="#999999">Passing the station history</font>
+
+112
+00:03:52,192 --> 00:03:54,752
+<font color="#cecece">The stop ejection is for task termination</font>
+
+113
+00:03:55,264 --> 00:03:56,288
+<font color="#707070">Your code check</font>
+
+114
+00:03:56,544 --> 00:03:57,568
+<font color="#b7b7b7">Don't stop or cancel</font>
+
+115
+00:03:57,824 --> 00:03:59,104
+<font color="#d6d6d6">And if it is point them</font>
+
+116
+00:03:59,616 --> 00:04:03,200
+<font color="#d3d3d3">It terminates the agents workload and send a confirmation</font>
+
+117
+00:04:03,712 --> 00:04:06,272
+<font color="#d9d9d9">And the police ejection is your safety</font>
+
+118
+00:04:06,784 --> 00:04:07,808
+<font color="#ececec">You run the</font>
+
+119
+00:04:08,064 --> 00:04:09,600
+<font color="#eaeaea">Go through a simple moderation function</font>
+
+120
+00:04:10,368 --> 00:04:11,392
+<font color="#c4c4c4">If it is prop</font>
+
+121
+00:04:11,648 --> 00:04:12,928
+<font color="#747474">In or Violet's Pollock</font>
+
+122
+00:04:13,184 --> 00:04:14,720
+<font color="#ebebeb">You don't send it to the alarm</font>
+
+123
+00:04:14,976 --> 00:04:17,280
+<font color="#b3b3b3">You just returned a hard-coded safety</font>
+
+124
+00:04:18,047 --> 00:04:19,583
+<font color="#e1e1e1">Is there somebody we can say that</font>
+
+125
+00:04:19,839 --> 00:04:21,119
+<font color="#e3e3e3">This is your Escape</font>
+
+126
+00:04:21,375 --> 00:04:22,143
+<font color="#373737">Which All Star but</font>
+
+127
+00:04:22,655 --> 00:04:24,191
+<font color="#c9c9c9">It is a deterministic</font>
+
+128
+00:04:24,447 --> 00:04:25,215
+<font color="#676767">Did all</font>
+
+129
+00:04:25,471 --> 00:04:27,007
+<font color="#d1d1d1">What's the non-deterministic agent</font>
+
+130
+00:04:27,263 --> 00:04:29,055
+<font color="#a1a1a1">Eat breakfast The Agency Group</font>
+
+131
+00:04:29,311 --> 00:04:30,335
+<font color="#f0f0f0">It doesn't pause</font>
+
+132
+00:04:30,847 --> 00:04:32,383
+<font color="#505050">Architecturally implement</font>
+
+133
+00:04:32,639 --> 00:04:35,199
+<font color="#c5c5c5">Is it is a play check filter before the alarm is called</font>
+
+134
+00:04:35,711 --> 00:04:38,015
+<font color="#d4d4d4">This is not negotiable this but</font>
+
+135
+00:04:38,271 --> 00:04:41,343
+<font color="#efefef">Is essential for any user facing production system</font>
+
+136
+00:04:41,599 --> 00:04:42,879
+<font color="#d1d1d1">To handle the frustration</font>
