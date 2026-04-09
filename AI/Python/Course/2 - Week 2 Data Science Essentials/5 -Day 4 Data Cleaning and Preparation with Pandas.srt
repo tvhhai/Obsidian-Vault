@@ -1,0 +1,1895 @@
+﻿1
+00:00:01,280 --> 00:00:02,304
+<font color="#f7f7f7">Data cleaning</font>
+
+2
+00:00:02,560 --> 00:00:04,096
+<font color="#d0d0d0">And preparation with pandas</font>
+
+3
+00:00:04,864 --> 00:00:06,912
+<font color="#e1e1e1">Today we're going to look at how we can</font>
+
+4
+00:00:07,168 --> 00:00:11,776
+<font color="#fbfbfb">Make sure that the data that we have is clean and is ready for pandas</font>
+
+5
+00:00:12,032 --> 00:00:14,848
+<font color="#f4f4f4">So we can run different statistic models on</font>
+
+6
+00:00:15,616 --> 00:00:16,384
+<font color="#e2e2e2">So first</font>
+
+7
+00:00:16,640 --> 00:00:20,480
+<font color="#f1f1f1">Is handling missing values sometimes you get the data but there's not</font>
+
+8
+00:00:20,736 --> 00:00:26,880
+<font color="#e9e9e9">All the columns are all the rules have the right amount of data right data in there or has missing</font>
+
+9
+00:00:29,184 --> 00:00:30,720
+<font color="#ebebeb">Buy handle missing values</font>
+
+10
+00:00:30,976 --> 00:00:34,816
+<font color="#f3f3f3">Missing data can affect analysis and model performance</font>
+
+11
+00:00:35,328 --> 00:00:39,168
+<font color="#f0f0f0">Pandas provide powerful tools to manage these missing data</font>
+
+12
+00:00:39,936 --> 00:00:45,056
+<font color="#ededed">So let's see how we can handle these missing data so there's different methods</font>
+
+13
+00:00:45,312 --> 00:00:46,592
+<font color="#dfdfdf">To handle missing data</font>
+
+14
+00:00:46,848 --> 00:00:47,616
+<font color="#5f5f5f">First</font>
+
+15
+00:00:47,872 --> 00:00:49,920
+<font color="#f7f7f7">Dropping missing values</font>
+
+16
+00:00:50,176 --> 00:00:51,456
+<font color="#a0a0a0">By drop any</font>
+
+17
+00:00:51,712 --> 00:00:52,224
+<font color="#bdbdbd">Function</font>
+
+18
+00:00:52,736 --> 00:00:53,504
+<font color="#e5e5e5">We also have</font>
+
+19
+00:00:53,760 --> 00:00:54,784
+<font color="#c4c4c4">Still missing values</font>
+
+20
+00:00:55,040 --> 00:00:56,320
+<font color="#595959">With felony</font>
+
+21
+00:00:56,832 --> 00:01:00,672
+<font color="#efefef">Also we can do linear interpolation that based on the data that we have</font>
+
+22
+00:01:00,928 --> 00:01:06,816
+<font color="#efefef">We can fill data which is on a similar lines to that particular data set so that's what interpolation means</font>
+
+23
+00:01:07,328 --> 00:01:08,608
+<font color="#eaeaea">Let's look at some examples</font>
+
+24
+00:01:09,120 --> 00:01:10,912
+<font color="#f4f4f4">I'm going to go ahead and</font>
+
+25
+00:01:11,168 --> 00:01:12,192
+<font color="#979797">Start a python file</font>
+
+26
+00:01:12,704 --> 00:01:15,520
+<font color="#cccccc">Save it in my day for call it day for</font>
+
+27
+00:01:15,776 --> 00:01:17,568
+<font color="#d0d0d0">Underscore samples</font>
+
+28
+00:01:18,336 --> 00:01:19,104
+<font color="#989898">In here</font>
+
+29
+00:01:19,360 --> 00:01:21,152
+<font color="#bcbcbc">That's if you have a data frame DF</font>
+
+30
+00:01:21,664 --> 00:01:23,456
+<font color="#c6c6c6">Now this year if I want to</font>
+
+31
+00:01:24,480 --> 00:01:28,064
+<font color="#d3d3d3">Rose with any missing values I can say DF</font>
+
+32
+00:01:29,344 --> 00:01:30,624
+<font color="#d5d5d5">Drop any</font>
+
+33
+00:01:31,904 --> 00:01:36,000
+<font color="#d1d1d1">And what this does is drop in a drops rose with any missing values</font>
+
+34
+00:01:36,256 --> 00:01:38,304
+<font color="#e0e0e0">So if there is like 100 rows</font>
+
+35
+00:01:38,560 --> 00:01:42,400
+<font color="#f0f0f0">10 of them don't have any values in particular rules it will drop those</font>
+
+36
+00:01:42,912 --> 00:01:45,984
+<font color="#f8f8f8">Another way is to drop columns with missing values</font>
+
+37
+00:01:46,240 --> 00:01:52,384
+<font color="#f5f5f5">So we can get rid of some of the columns altogether because that might cause some issues or you don't even need those columns for</font>
+
+38
+00:01:52,640 --> 00:01:54,688
+<font color="#d9d9d9">Example if you have a data set for</font>
+
+39
+00:01:54,944 --> 00:01:58,016
+<font color="#fdfdfd">Property values in California</font>
+
+40
+00:01:58,784 --> 00:02:00,576
+<font color="#fafafa">And you have some columns over there</font>
+
+41
+00:02:00,832 --> 00:02:03,648
+<font color="#f4f4f4">Which talks about weather now that doesn't</font>
+
+42
+00:02:03,904 --> 00:02:10,048
+<font color="#ebebeb">Change the value of price because all the houses are in California and if the weather data is missing we don't even need that</font>
+
+43
+00:02:10,304 --> 00:02:11,328
+<font color="#eeeeee">So we can say</font>
+
+44
+00:02:14,144 --> 00:02:15,168
+<font color="#ebebeb">And in this case</font>
+
+45
+00:02:15,680 --> 00:02:16,192
+<font color="#9f9f9f">Access</font>
+
+46
+00:02:16,448 --> 00:02:17,728
+<font color="#cfcfcf">Equal to 1</font>
+
+47
+00:02:18,240 --> 00:02:22,080
+<font color="#f3f3f3">So what this does is this will drop columns with missing values</font>
+
+48
+00:02:23,360 --> 00:02:25,152
+<font color="#b1b1b1">Next time you spoke about is</font>
+
+49
+00:02:25,408 --> 00:02:27,712
+<font color="#d4d4d4">Sitting missing values</font>
+
+50
+00:02:28,992 --> 00:02:35,136
+<font color="#e5e5e5">If you can't drop some but we need those values so for example the same data set that I give example of California houses</font>
+
+51
+00:02:35,392 --> 00:02:37,184
+<font color="#f2f2f2">Now it has salaries</font>
+
+52
+00:02:38,720 --> 00:02:40,256
+<font color="#fafafa">People who are living in</font>
+
+53
+00:02:40,768 --> 00:02:44,096
+<font color="#d9d9d9">Monthly income is available in the data set but</font>
+
+54
+00:02:44,352 --> 00:02:47,424
+<font color="#f6f6f6">We have 90% of the data and 10% is missing</font>
+
+55
+00:02:47,680 --> 00:02:49,984
+<font color="#f2f2f2">So if you want to fill that with</font>
+
+56
+00:02:50,240 --> 00:02:53,312
+<font color="#e9e9e9">Let's say a zero amount so you can always say</font>
+
+57
+00:02:56,384 --> 00:02:58,432
+<font color="#f7f7f7">For example whatever the column name is</font>
+
+58
+00:02:59,456 --> 00:03:01,248
+<font color="#cfcfcf">So let's say in this case is salaries</font>
+
+59
+00:03:03,552 --> 00:03:04,320
+<font color="#e7e7e7">I can say</font>
+
+60
+00:03:05,600 --> 00:03:08,672
+<font color="#dbdbdb">Column name I'm just using generic column name</font>
+
+61
+00:03:09,184 --> 00:03:10,720
+<font color="#dadada">And I can say Phil</font>
+
+62
+00:03:12,000 --> 00:03:15,072
+<font color="#a9a9a9">1207 of value</font>
+
+63
+00:03:15,328 --> 00:03:16,608
+<font color="#bcbcbc">In there which is 0</font>
+
+64
+00:03:16,864 --> 00:03:20,448
+<font color="#dddddd">Which doesn't make sense to your salaries but will look at interpolation for that but</font>
+
+65
+00:03:20,704 --> 00:03:23,008
+<font color="#e8e8e8">You can if you want to just enter some value</font>
+
+66
+00:03:23,264 --> 00:03:28,640
+<font color="#efefef">And it doesn't matter if it's zero or some random number you can save that here</font>
+
+67
+00:03:29,152 --> 00:03:32,992
+<font color="#c8c8c8">Cedric this is not a numbers or anything that is empty with zero</font>
+
+68
+00:03:33,760 --> 00:03:34,528
+<font color="#9d9d9d">Next Tuesday</font>
+
+69
+00:03:34,784 --> 00:03:37,600
+<font color="#bebebe">Two different types of fish forward fill in backward fields</font>
+
+70
+00:03:37,856 --> 00:03:40,160
+<font color="#c9c9c9">That you can do by saying GF Dot</font>
+
+71
+00:03:43,232 --> 00:03:44,256
+<font color="#acacac">And method</font>
+
+72
+00:03:44,768 --> 00:03:45,792
+<font color="#eeeeee">Equal to</font>
+
+73
+00:03:46,048 --> 00:03:47,328
+<font color="#cdcdcd">If it's forward fail</font>
+
+74
+00:03:47,584 --> 00:03:49,888
+<font color="#c7c7c7">Take the forward values you can say FF</font>
+
+75
+00:03:50,144 --> 00:03:51,168
+<font color="#2e2e2e">FC</font>
+
+76
+00:03:51,936 --> 00:03:53,472
+<font color="#f3f3f3">Similarly if you want to use</font>
+
+77
+00:03:53,728 --> 00:03:56,288
+<font color="#9c9c9c">Backward field use diesel</font>
+
+78
+00:03:56,544 --> 00:04:01,664
+<font color="#e1e1e1">So this will enter value based on the data that is available for Woodfield or backwards which kind of</font>
+
+79
+00:04:01,920 --> 00:04:03,200
+<font color="#c2c2c2">Makes more sense but</font>
+
+80
+00:04:03,456 --> 00:04:05,760
+<font color="#c2c2c2">Still in salaries it makes more sense but</font>
+
+81
+00:04:06,016 --> 00:04:07,296
+<font color="#dedede">Still is not the right way</font>
+
+82
+00:04:08,320 --> 00:04:10,368
+<font color="#eeeeee">Then we have interpolation</font>
+
+83
+00:04:10,880 --> 00:04:15,488
+<font color="#ededed">Now you can use interpolation because it kind of uses a linear interpolation here</font>
+
+84
+00:04:16,512 --> 00:04:21,631
+<font color="#ececec">You can get the data set like for example California houses and their salaries</font>
+
+85
+00:04:21,887 --> 00:04:24,703
+<font color="#eeeeee">But now you can use linear interpolation to kind of</font>
+
+86
+00:04:25,471 --> 00:04:28,543
+<font color="#f3f3f3">Add value that are similar to other houses just because you want</font>
+
+87
+00:04:28,799 --> 00:04:32,639
+<font color="#eeeeee">To make sure that there is no empty data set so no empty columns</font>
+
+88
+00:04:33,151 --> 00:04:35,967
+<font color="#f8f8f8">You can do that by saying for example column</font>
+
+89
+00:04:38,015 --> 00:04:38,783
+<font color="#ececec">Equal to</font>
+
+90
+00:04:40,831 --> 00:04:42,111
+<font color="#c3c3c3">Equal to DF</font>
+
+91
+00:04:46,975 --> 00:04:49,023
+<font color="#e6e6e6">And then you can just say dot</font>
+
+92
+00:04:51,583 --> 00:04:52,095
+<font color="#828282">Bullet</font>
+
+93
+00:04:52,863 --> 00:04:54,399
+<font color="#d2d2d2">Does the function that you call</font>
+
+94
+00:04:54,655 --> 00:04:56,447
+<font color="#afafaf">Where did I miss it here</font>
+
+95
+00:04:57,471 --> 00:05:01,311
+<font color="#dddddd">Add values based on interpolation</font>
+
+96
+00:05:02,591 --> 00:05:08,735
+<font color="#e9e9e9">If you don't care about it</font>
+
+97
+00:05:09,247 --> 00:05:13,599
+<font color="#f6f6f6">You feel the missing values if you need the values that are available for example sometimes</font>
+
+98
+00:05:13,855 --> 00:05:18,463
+<font color="#e7e7e7">Does data available for 95% and not available for 10% it might</font>
+
+99
+00:05:18,719 --> 00:05:24,351
+<font color="#f4f4f4">Fluctuate your values but depending on what it is you want to fill some missing values you can do that</font>
+
+100
+00:05:24,863 --> 00:05:26,399
+<font color="#f2f2f2">You can interpolate</font>
+
+101
+00:05:26,655 --> 00:05:31,007
+<font color="#d9d9d9">Add based on the data that is available in Tripoli add interpolation data</font>
+
+102
+00:05:32,287 --> 00:05:33,311
+<font color="#909090">To the nearest data</font>
+
+103
+00:05:34,591 --> 00:05:36,127
+<font color="#c2c2c2">Let's look at data transformation</font>
+
+104
+00:05:37,407 --> 00:05:39,199
+<font color="#f6f6f6">Three different things that I want to cover here</font>
+
+105
+00:05:40,479 --> 00:05:43,039
+<font color="#acacac">Renaming your columns that sometimes happens when</font>
+
+106
+00:05:43,295 --> 00:05:47,903
+<font color="#eaeaea">The column is named in the data frame which is not something that you would like or you prefer</font>
+
+107
+00:05:48,159 --> 00:05:49,695
+<font color="#d7d7d7">So you want to change that that's</font>
+
+108
+00:05:49,951 --> 00:05:50,975
+<font color="#a0a0a0">Renewing columns</font>
+
+109
+00:05:51,231 --> 00:05:51,743
+<font color="#f7f7f7">You can</font>
+
+110
+00:05:51,999 --> 00:05:53,535
+<font color="#e2e2e2">Change the data types</font>
+
+111
+00:05:53,791 --> 00:05:59,679
+<font color="#e8e8e8">Sometimes you have data sets which are which are that's a particular column name</font>
+
+112
+00:05:59,935 --> 00:06:01,471
+<font color="#f9f9f9">You want to change that</font>
+
+113
+00:06:01,727 --> 00:06:03,007
+<font color="#cecece">From</font>
+
+114
+00:06:03,263 --> 00:06:06,079
+<font color="#eaeaea">Strings to float you can do that here</font>
+
+115
+00:06:06,335 --> 00:06:09,663
+<font color="#cdcdcd">Integers to Florida to integers you can do that</font>
+
+116
+00:06:09,919 --> 00:06:11,711
+<font color="#b5b5b5">I did change the data types</font>
+
+117
+00:06:12,223 --> 00:06:16,063
+<font color="#f6f6f6">You can also add we also can look at an example of how to convert</font>
+
+118
+00:06:16,319 --> 00:06:19,903
+<font color="#e6e6e6">Today I'm a particular date that is given in a particular column</font>
+
+119
+00:06:20,671 --> 00:06:21,951
+<font color="#f7f7f7">And then we have</font>
+
+120
+00:06:22,207 --> 00:06:23,743
+<font color="#ececec">Creating or modifying columns</font>
+
+121
+00:06:23,999 --> 00:06:27,583
+<font color="#fbfbfb">You can modify a particular column for example if you have</font>
+
+122
+00:06:27,839 --> 00:06:32,191
+<font color="#e7e7e7">A column with some data but you want to multiply that with two you can do that</font>
+
+123
+00:06:37,823 --> 00:06:39,359
+<font color="#e1e1e1">So let's say you have a data frame</font>
+
+124
+00:06:40,127 --> 00:06:42,175
+<font color="#eaeaea">And first you want to rename the columns</font>
+
+125
+00:06:42,431 --> 00:06:43,967
+<font color="#4c4c4c">So let's say d</font>
+
+126
+00:06:46,015 --> 00:06:46,783
+<font color="#6a6a6a">Genie</font>
+
+127
+00:06:48,063 --> 00:06:50,879
+<font color="#e5e5e5">And then inside that you can specify</font>
+
+128
+00:06:51,135 --> 00:06:51,903
+<font color="#f7f7f7">The columns</font>
+
+129
+00:06:52,159 --> 00:06:53,183
+<font color="#c0c0c0">Do you want to rename</font>
+
+130
+00:06:53,695 --> 00:06:54,975
+<font color="#c2c2c2">What is its own name</font>
+
+131
+00:06:55,743 --> 00:06:57,023
+<font color="#cecece">What are the old name is</font>
+
+132
+00:06:58,047 --> 00:06:59,327
+<font color="#f9f9f9">You want to rename that</font>
+
+133
+00:06:59,583 --> 00:07:00,351
+<font color="#b0b0b0">To a new name</font>
+
+134
+00:07:01,887 --> 00:07:02,911
+<font color="#d9d9d9">Can do that here</font>
+
+135
+00:07:03,935 --> 00:07:04,959
+<font color="#f8f8f8">So this is how you can</font>
+
+136
+00:07:05,215 --> 00:07:06,495
+<font color="#f0f0f0">Rename any of the columns</font>
+
+137
+00:07:07,007 --> 00:07:10,079
+<font color="#f6f6f6">Next thing that I mentioned about was changing the data types</font>
+
+138
+00:07:10,335 --> 00:07:13,407
+<font color="#e0e0e0">Now this can be done by saying let's say if you have a data frame</font>
+
+139
+00:07:14,431 --> 00:07:15,455
+<font color="#a5a5a5">Also particular</font>
+
+140
+00:07:18,527 --> 00:07:22,111
+<font color="#fafafa">And you want to change the data type from whatever it is</font>
+
+141
+00:07:23,135 --> 00:07:24,415
+<font color="#d8d8d8">Let's say</font>
+
+142
+00:07:24,671 --> 00:07:25,695
+<font color="#c7c7c7">You specify</font>
+
+143
+00:07:26,463 --> 00:07:27,487
+<font color="#d3d3d3">Column name</font>
+
+144
+00:07:29,023 --> 00:07:29,791
+<font color="#e8e8e8">And then</font>
+
+145
+00:07:30,047 --> 00:07:33,631
+<font color="#e0e0e0">What type you want so I want to convert that as time</font>
+
+146
+00:07:33,887 --> 00:07:34,911
+<font color="#ebebeb">For example</font>
+
+147
+00:07:36,447 --> 00:07:39,775
+<font color="#c8c8c8">There are some time does data says that is available in a particular let's say</font>
+
+148
+00:07:40,031 --> 00:07:46,175
+<font color="#bebebe">Integer 64 and you want to convert 20032 because Pi towards doesn't work with it or Frameworks that don't</font>
+
+149
+00:07:46,943 --> 00:07:51,807
+<font color="#eaeaea">So you can do those Transformations using this you can change the data type like this</font>
+
+150
+00:07:52,319 --> 00:07:53,599
+<font color="#474747">Rd</font>
+
+151
+00:07:53,855 --> 00:07:56,927
+<font color="#f9f9f9">Another one I'll give you example that I mentioned</font>
+
+152
+00:07:57,439 --> 00:07:59,743
+<font color="#e4e4e4">Was a converting to date time</font>
+
+153
+00:08:00,255 --> 00:08:04,607
+<font color="#efefef">So you have data but that is string but you want to convert it to daytime</font>
+
+154
+00:08:08,959 --> 00:08:10,239
+<font color="#c6c6c6">I specify DF</font>
+
+155
+00:08:11,007 --> 00:08:11,775
+<font color="#cacaca">Column name</font>
+
+156
+00:08:13,823 --> 00:08:18,687
+<font color="#efefef">So what it does is it takes the existing column and which is string in this case</font>
+
+157
+00:08:18,943 --> 00:08:20,991
+<font color="#afafaf">Can you convert today's time for us</font>
+
+158
+00:08:21,503 --> 00:08:23,295
+<font color="#f7f7f7">Next I mentioned about</font>
+
+159
+00:08:23,551 --> 00:08:27,135
+<font color="#eeeeee">Creating or modifying columns so you want to modify the data in the column</font>
+
+160
+00:08:27,391 --> 00:08:30,463
+<font color="#f4f4f4">I can say that okay the whatever the new column is</font>
+
+161
+00:08:30,975 --> 00:08:32,511
+<font color="#b2b2b2">Or whatever you call him that I want</font>
+
+162
+00:08:34,047 --> 00:08:37,375
+<font color="#f3f3f3">I want to use the older column which is let's say</font>
+
+163
+00:08:37,887 --> 00:08:39,679
+<font color="#eeeeee">Existing column</font>
+
+164
+00:08:40,191 --> 00:08:43,775
+<font color="#efefef">And then I want to multiply all those values by two</font>
+
+165
+00:08:44,031 --> 00:08:44,799
+<font color="#f2f2f2">Just an example</font>
+
+166
+00:08:45,055 --> 00:08:47,615
+<font color="#f1f1f1">To create a new column and you modify</font>
+
+167
+00:08:47,871 --> 00:08:49,919
+<font color="#f7f7f7">The value of that column</font>
+
+168
+00:08:50,175 --> 00:08:53,503
+<font color="#e5e5e5">So that's how you can create a modify existing columns</font>
+
+169
+00:08:54,015 --> 00:08:54,527
+<font color="#dadada">Next</font>
+
+170
+00:08:54,783 --> 00:08:57,599
+<font color="#e8e8e8">Let's look at combining and merging data frames</font>
+
+171
+00:08:57,855 --> 00:09:03,999
+<font color="#e8e8e8">So sometimes you might get data frames from different places or it might be that say population</font>
+
+172
+00:09:04,255 --> 00:09:07,071
+<font color="#a3a3a3">Data for 1990 1991 1992</font>
+
+173
+00:09:07,327 --> 00:09:09,375
+<font color="#f0f0f0">Bunch of different</font>
+
+174
+00:09:09,631 --> 00:09:12,191
+<font color="#f1f1f1">Data sets available but you want to combine them together</font>
+
+175
+00:09:12,447 --> 00:09:14,751
+<font color="#f0f0f0">You can use the contact method</font>
+
+176
+00:09:15,007 --> 00:09:18,079
+<font color="#e6e6e6">Which will concatenate will combine data frames</font>
+
+177
+00:09:18,335 --> 00:09:19,871
+<font color="#bebebe">Along rozar columns</font>
+
+178
+00:09:20,127 --> 00:09:26,271
+<font color="#e8e8e8">You can do merging where you can use the merge function which merge data frames based on a key or</font>
+
+179
+00:09:27,295 --> 00:09:29,855
+<font color="#dfdfdf">And then we also have joining option using join</font>
+
+180
+00:09:30,111 --> 00:09:32,671
+<font color="#ececec">Which joins the data frames using</font>
+
+181
+00:09:32,927 --> 00:09:36,511
+<font color="#e7e7e7">How this works</font>
+
+182
+00:09:37,023 --> 00:09:38,559
+<font color="#f6f6f6">Delete everything here</font>
+
+183
+00:09:39,071 --> 00:09:41,119
+<font color="#f9f9f9">So if I want to combine</font>
+
+184
+00:09:41,375 --> 00:09:44,703
+<font color="#d3d3d3">Two different data frames along Route or columns</font>
+
+185
+00:09:44,959 --> 00:09:45,727
+<font color="#d6d6d6">I can say</font>
+
+186
+00:09:46,495 --> 00:09:49,567
+<font color="#a0a0a0">That's it for a rose first that's a combined data set</font>
+
+187
+00:09:49,823 --> 00:09:50,847
+<font color="#515151">Kansas City PD</font>
+
+188
+00:09:52,895 --> 00:09:54,687
+<font color="#9b9b9b">Comcast that is a function</font>
+
+189
+00:09:55,455 --> 00:09:58,271
+<font color="#dcdcdc">I'll say I want to use data frame 1</font>
+
+190
+00:09:59,807 --> 00:10:03,135
+<font color="#c8c8c8">Data frame to I want to combine these data from</font>
+
+191
+00:10:03,647 --> 00:10:04,927
+<font color="#838383">Axis of</font>
+
+192
+00:10:05,439 --> 00:10:06,719
+<font color="#323232">04 Rose</font>
+
+193
+00:10:06,975 --> 00:10:13,119
+<font color="#dcdcdc">So first one will combine</font>
+
+194
+00:10:13,375 --> 00:10:14,655
+<font color="#b8b8b8">Play the two data frames along rows</font>
+
+195
+00:10:14,911 --> 00:10:15,935
+<font color="#f5f5f5">The second one</font>
+
+196
+00:10:16,191 --> 00:10:17,471
+<font color="#e8e8e8">Will combine the</font>
+
+197
+00:10:17,727 --> 00:10:22,079
+<font color="#e5e5e5">Data frames along columns depending on how you want to use it you can use this</font>
+
+198
+00:10:22,335 --> 00:10:23,103
+<font color="#bfbfbf">Auctions</font>
+
+199
+00:10:26,175 --> 00:10:28,479
+<font color="#dadada">Data frames based on a key or condition</font>
+
+200
+00:10:28,735 --> 00:10:31,039
+<font color="#e4e4e4">So I can have a merge data set</font>
+
+201
+00:10:31,551 --> 00:10:34,367
+<font color="#b7b7b7">From PD dot as I said</font>
+
+202
+00:10:34,879 --> 00:10:35,903
+<font color="#b7b7b7">Function is merge</font>
+
+203
+00:10:36,159 --> 00:10:39,999
+<font color="#cacaca">Can you create the First Data said you're the first data set give the second data set</font>
+
+204
+00:10:40,511 --> 00:10:41,279
+<font color="#ebebeb">And then</font>
+
+205
+00:10:41,535 --> 00:10:43,327
+<font color="#fafafa">On which column</font>
+
+206
+00:10:43,583 --> 00:10:46,143
+<font color="#eaeaea">Which common column do you want to merge them on</font>
+
+207
+00:10:48,447 --> 00:10:49,471
+<font color="#c6c6c6">So let's say</font>
+
+208
+00:10:49,727 --> 00:10:51,007
+<font color="#f8f8f8">You have data about</font>
+
+209
+00:10:51,263 --> 00:10:54,079
+<font color="#f9f9f9">Houses and you have data about</font>
+
+210
+00:10:54,335 --> 00:10:59,967
+<font color="#e5e5e5">About the people and then you want to merge both those data set based on the salaries of our income</font>
+
+211
+00:11:00,223 --> 00:11:04,319
+<font color="#e3e3e3">Of that particular book of house so you can do that using this</font>
+
+212
+00:11:05,087 --> 00:11:06,111
+<font color="#e8e8e8">Next</font>
+
+213
+00:11:06,623 --> 00:11:11,487
+<font color="#cbcbcb">If I want to do more on the now if you're familiar with data set</font>
+
+214
+00:11:11,743 --> 00:11:16,607
+<font color="#ededed">This is the first one was merging on a common column but what if you want to do left join</font>
+
+215
+00:11:22,495 --> 00:11:23,519
+<font color="#545454">PD</font>
+
+216
+00:11:26,079 --> 00:11:26,847
+<font color="#a0a0a0">Do you have</font>
+
+217
+00:11:27,359 --> 00:11:28,639
+<font color="#b1b1b1">Data Frame 2</font>
+
+218
+00:11:29,151 --> 00:11:30,943
+<font color="#f0f0f0">And then you can say how</font>
+
+219
+00:11:31,455 --> 00:11:32,479
+<font color="#f0f0f0">Equal to</font>
+
+220
+00:11:35,551 --> 00:11:36,575
+<font color="#9c9c9c">Turn on</font>
+
+221
+00:11:37,087 --> 00:11:40,927
+<font color="#e9e9e9">Which column what is the column that you have common column in both the data frames</font>
+
+222
+00:11:41,183 --> 00:11:43,487
+<font color="#e7e7e7">You can specify that so this will do a left</font>
+
+223
+00:11:43,743 --> 00:11:44,767
+<font color="#b3b3b3">Left</font>
+
+224
+00:11:45,279 --> 00:11:49,375
+<font color="#e7e7e7">If you want to do inner join you can just say inner here</font>
+
+225
+00:11:49,631 --> 00:11:55,263
+<font color="#e0e0e0">And specify the common column give both the data set so this is almost same as this function just that</font>
+
+226
+00:11:55,775 --> 00:11:57,567
+<font color="#dcdcdc">How parameter changes</font>
+
+227
+00:11:58,335 --> 00:11:58,847
+<font color="#dcdcdc">Next</font>
+
+228
+00:11:59,103 --> 00:12:01,663
+<font color="#dedede">How about joining joining data frames</font>
+
+229
+00:12:01,919 --> 00:12:05,503
+<font color="#e4e4e4">Using index alignment you can do that similar to about</font>
+
+230
+00:12:06,015 --> 00:12:07,295
+<font color="#eaeaea">I can say joined</font>
+
+231
+00:12:07,807 --> 00:12:09,599
+<font color="#dbdbdb">Equal to df1</font>
+
+232
+00:12:10,111 --> 00:12:13,695
+<font color="#d2d2d2">Don't join and you pass the df2 here</font>
+
+233
+00:12:14,463 --> 00:12:15,999
+<font color="#eaeaea">And you can see how</font>
+
+234
+00:12:16,255 --> 00:12:22,399
+<font color="#e6e6e6">Equal to in or you can say left just like before but this is how you can join data frames</font>
+
+235
+00:12:22,655 --> 00:12:26,495
+<font color="#f2f2f2">Using index alignment without the column just index alignment</font>
+
+236
+00:12:26,751 --> 00:12:27,775
+<font color="#f0f0f0">This is what it does</font>
+
+237
+00:12:28,799 --> 00:12:29,567
+<font color="#ededed">Now that we</font>
+
+238
+00:12:29,823 --> 00:12:31,615
+<font color="#eeeeee">Learn some of these</font>
+
+239
+00:12:31,871 --> 00:12:36,735
+<font color="#eeeeee">Different combinations and how to play with data frames let's go ahead</font>
+
+240
+00:12:36,991 --> 00:12:39,039
+<font color="#d0d0d0">And work on a Hands-On exercise</font>
+
+241
+00:12:39,551 --> 00:12:42,367
+<font color="#dadada">Are exercise one is to clean a data set</font>
+
+242
+00:12:42,623 --> 00:12:45,951
+<font color="#e9e9e9">Buy handling missing values and rename columns</font>
+
+243
+00:12:46,207 --> 00:12:50,815
+<font color="#f2f2f2">The objective here is to practice handling missing data and renaming columns</font>
+
+244
+00:12:51,327 --> 00:12:52,863
+<font color="#f2f2f2">What you going to do here is</font>
+
+245
+00:12:53,887 --> 00:12:56,191
+<font color="#ededed">Load a data set with missing values</font>
+
+246
+00:12:56,447 --> 00:13:00,031
+<font color="#e2e2e2">Then fill the missing values in numeric column with the mean</font>
+
+247
+00:13:00,287 --> 00:13:04,639
+<font color="#f3f3f3">And then rename the columns to follow consistent naming convention</font>
+
+248
+00:13:06,431 --> 00:13:07,199
+<font color="#fbfbfb">Let's go ahead</font>
+
+249
+00:13:08,223 --> 00:13:08,991
+<font color="#cfcfcf">And create</font>
+
+250
+00:13:11,039 --> 00:13:12,575
+<font color="#696969">4 underscore</font>
+
+251
+00:13:12,831 --> 00:13:14,879
+<font color="#5c5c5c">Exercise 1.3</font>
+
+252
+00:13:16,927 --> 00:13:19,743
+<font color="#f4f4f4">I am going to import my libraries which is</font>
+
+253
+00:13:20,255 --> 00:13:21,279
+<font color="#707070">Panda say</font>
+
+254
+00:13:22,559 --> 00:13:24,351
+<font color="#8f8f8f">Most important numpy</font>
+
+255
+00:13:25,375 --> 00:13:30,495
+<font color="#cecece">Has Envy someone use everything that I have learned in the previous days</font>
+
+256
+00:13:30,751 --> 00:13:32,543
+<font color="#eaeaea">Then let's create a</font>
+
+257
+00:13:34,335 --> 00:13:36,639
+<font color="#bababa">Data set a sample data set</font>
+
+258
+00:13:37,663 --> 00:13:41,247
+<font color="#f4f4f4">Since we don't want to use or use anything that is available</font>
+
+259
+00:13:41,759 --> 00:13:44,575
+<font color="#e4e4e4">I'm going to create one here of simple easy one</font>
+
+260
+00:13:45,087 --> 00:13:46,623
+<font color="#f4f4f4">Where I have names</font>
+
+261
+00:13:47,391 --> 00:13:49,695
+<font color="#efefef">Names I can enter</font>
+
+262
+00:13:49,951 --> 00:13:50,975
+<font color="#ababab">There's a list</font>
+
+263
+00:13:52,511 --> 00:13:53,535
+<font color="#b8b8b8">Alice</font>
+
+264
+00:13:54,559 --> 00:13:55,839
+<font color="#e5e5e5">We have Bob</font>
+
+265
+00:13:57,119 --> 00:13:58,143
+<font color="#ebebeb">And then</font>
+
+266
+00:13:58,655 --> 00:14:02,239
+<font color="#c0c0c0">We have NP dot not a number is missing value</font>
+
+267
+00:14:02,495 --> 00:14:04,799
+<font color="#efefef">And then I have David here</font>
+
+268
+00:14:05,311 --> 00:14:06,591
+<font color="#f1f1f1">So these are my</font>
+
+269
+00:14:06,847 --> 00:14:07,359
+<font color="#dbdbdb">Names</font>
+
+270
+00:14:07,615 --> 00:14:09,151
+<font color="#c8c8c8">Then I have it</font>
+
+271
+00:14:09,663 --> 00:14:10,431
+<font color="#909090">Each column</font>
+
+272
+00:14:11,199 --> 00:14:12,479
+<font color="#efefef">And this has</font>
+
+273
+00:14:12,991 --> 00:14:17,343
+<font color="#e8e8e8">Different values 25 Alice is 25 years old I don't know the</font>
+
+274
+00:14:18,111 --> 00:14:21,183
+<font color="#717171">Age of Boston</font>
+
+275
+00:14:21,695 --> 00:14:27,327
+<font color="#d5d5d5">The third person I know the age is 30 but I don't know the name and 35 for the day for David</font>
+
+276
+00:14:28,095 --> 00:14:28,863
+<font color="#c3c3c3">Now</font>
+
+277
+00:14:29,119 --> 00:14:31,679
+<font color="#969696">Coarse let's use instead of great we can use code</font>
+
+278
+00:14:32,447 --> 00:14:34,239
+<font color="#dfdfdf">Discord 85</font>
+
+279
+00:14:36,287 --> 00:14:39,871
+<font color="#e3e3e3">I don't know how much this person scored there's no data available</font>
+
+280
+00:14:40,127 --> 00:14:41,151
+<font color="#8d8d8d">And 88</font>
+
+281
+00:14:41,407 --> 00:14:42,431
+<font color="#d1d1d1">For the last bus</font>
+
+282
+00:14:42,943 --> 00:14:44,479
+<font color="#bababa">Guess what I have my data set</font>
+
+283
+00:14:44,735 --> 00:14:47,295
+<font color="#c4c4c4">Available now I'm going to say DF</font>
+
+284
+00:14:47,551 --> 00:14:53,695
+<font color="#d6d6d6">Dot PD for this dictionary that I am going to convert that into a data frame which we saw how to</font>
+
+285
+00:14:53,951 --> 00:14:55,487
+<font color="#d6d6d6">We just call the data frame function</font>
+
+286
+00:14:55,743 --> 00:14:57,535
+<font color="#dddddd">And pass the data to it</font>
+
+287
+00:14:58,047 --> 00:15:01,375
+<font color="#f4f4f4">So we converted the dictionary into</font>
+
+288
+00:15:02,911 --> 00:15:03,935
+<font color="#f3f3f3">Now that I have it</font>
+
+289
+00:15:04,191 --> 00:15:05,215
+<font color="#e1e1e1">Let's print</font>
+
+290
+00:15:06,495 --> 00:15:07,519
+<font color="#ededed">Original</font>
+
+291
+00:15:08,031 --> 00:15:10,335
+<font color="#e1e1e1">Data set of how it looks like slash</font>
+
+292
+00:15:13,919 --> 00:15:14,687
+<font color="#5a5a5a">Call Ma</font>
+
+293
+00:15:15,455 --> 00:15:20,575
+<font color="#ababab">It's DF is what we're going to print out the entire thing because we don't have much did only three</font>
+
+294
+00:15:20,831 --> 00:15:23,135
+<font color="#cacaca">Are three columns and four rows</font>
+
+295
+00:15:23,903 --> 00:15:28,255
+<font color="#e3e3e3">No next I'm going to fill in the missing values let's run it just to check check it out</font>
+
+296
+00:15:28,767 --> 00:15:30,047
+<font color="#c0c0c0">So I'm going to say python</font>
+
+297
+00:15:31,071 --> 00:15:33,631
+<font color="#e3e3e3">Therefore underscore exercise</font>
+
+298
+00:15:34,399 --> 00:15:40,031
+<font color="#a9a9a9">01234 it didn't text them not a number not a number is a missing values here and there</font>
+
+299
+00:15:40,799 --> 00:15:42,591
+<font color="#eeeeee">So now let's fill the missing values</font>
+
+300
+00:15:42,847 --> 00:15:44,127
+<font color="#a7a7a7">I'm going to say dear</font>
+
+301
+00:15:45,663 --> 00:15:48,223
+<font color="#ededed">Age for age I can just say</font>
+
+302
+00:15:49,503 --> 00:15:52,063
+<font color="#dbdbdb">Wherever there is an age which is</font>
+
+303
+00:15:52,319 --> 00:15:53,599
+<font color="#f6f6f6">Missing values</font>
+
+304
+00:15:55,135 --> 00:15:56,671
+<font color="#cacaca">Not available</font>
+
+305
+00:16:03,583 --> 00:16:04,607
+<font color="#b3b3b3">Meaning of</font>
+
+306
+00:16:04,863 --> 00:16:10,495
+<font color="#e9e9e9">All the different colors So based on the mean just fill this so it will probably be I would say around</font>
+
+307
+00:16:11,007 --> 00:16:13,567
+<font color="#d2d2d2">30 song Let's see what it does</font>
+
+308
+00:16:14,335 --> 00:16:15,359
+<font color="#efefef">So that's the first part</font>
+
+309
+00:16:15,871 --> 00:16:17,407
+<font color="#8c8c8c">I'm going to search for school</font>
+
+310
+00:16:19,711 --> 00:16:20,991
+<font color="#767676">I'm going to say DF</font>
+
+311
+00:16:25,087 --> 00:16:27,135
+<font color="#eeeeee">I will interpolate in this case</font>
+
+312
+00:16:27,647 --> 00:16:30,719
+<font color="#e2e2e2">Call the interpolate function So based on the straight line it will</font>
+
+313
+00:16:30,975 --> 00:16:34,047
+<font color="#f5f5f5">Add some values based on the values that we have here</font>
+
+314
+00:16:34,815 --> 00:16:35,583
+<font color="#b7b7b7">No</font>
+
+315
+00:16:35,839 --> 00:16:36,607
+<font color="#f9f9f9">If I want to</font>
+
+316
+00:16:37,375 --> 00:16:39,167
+<font color="#e5e5e5">Print this thing I can</font>
+
+317
+00:16:40,191 --> 00:16:40,959
+<font color="#efefef">Check it out</font>
+
+318
+00:16:43,007 --> 00:16:45,311
+<font color="#d6d6d6">Let's say let's go here clear it out</font>
+
+319
+00:16:45,823 --> 00:16:46,591
+<font color="#878787">Put on it</font>
+
+320
+00:16:46,847 --> 00:16:50,431
+<font color="#e7e7e7">Now if you look at</font>
+
+321
+00:16:50,687 --> 00:16:52,991
+<font color="#efefef">The age if you see Alice age</font>
+
+322
+00:16:53,247 --> 00:16:56,575
+<font color="#d1d1d1">Something</font>
+
+323
+00:16:57,087 --> 00:16:57,855
+<font color="#d6d6d6">Score</font>
+
+324
+00:16:58,111 --> 00:17:03,743
+<font color="#e0e0e0">If you see it's 80 now it's interpolated based on the values that we have here so even if this person never gave the score</font>
+
+325
+00:17:05,023 --> 00:17:07,839
+<font color="#cdcdcd">The not a person not no name</font>
+
+326
+00:17:08,095 --> 00:17:10,143
+<font color="#a1a1a1">Oscar more than Al</font>
+
+327
+00:17:10,399 --> 00:17:11,423
+<font color="#6d6d6d">Ben Davis</font>
+
+328
+00:17:11,679 --> 00:17:12,191
+<font color="#6d6d6d">8</font>
+
+329
+00:17:12,447 --> 00:17:13,215
+<font color="#929292">Pretty good</font>
+
+330
+00:17:13,471 --> 00:17:14,495
+<font color="#e3e3e3">Based on interpolation</font>
+
+331
+00:17:15,007 --> 00:17:17,055
+<font color="#e0e0e0">Next let's rename some columns</font>
+
+332
+00:17:17,567 --> 00:17:20,383
+<font color="#eaeaea">Let's see how we can rename columns so I am going to say</font>
+
+333
+00:17:21,663 --> 00:17:22,431
+<font color="#dadada">Equal to</font>
+
+334
+00:17:23,199 --> 00:17:24,223
+<font color="#292929">DFD</font>
+
+335
+00:17:24,735 --> 00:17:25,503
+<font color="#dadada">Rename</font>
+
+336
+00:17:26,271 --> 00:17:28,319
+<font color="#f7f7f7">In this case I want to rename</font>
+
+337
+00:17:28,575 --> 00:17:30,367
+<font color="#d8d8d8">Let's call</font>
+
+338
+00:17:31,391 --> 00:17:31,903
+<font color="#cccccc">Columns</font>
+
+339
+00:17:33,183 --> 00:17:34,207
+<font color="#f1f1f1">Equal to</font>
+
+340
+00:17:34,719 --> 00:17:36,255
+<font color="#9e9e9e">I haven't seen name</font>
+
+341
+00:17:37,279 --> 00:17:38,815
+<font color="#f5f5f5">I want to change that to</font>
+
+342
+00:17:41,631 --> 00:17:43,935
+<font color="#c5c5c5">Student underscore name</font>
+
+343
+00:17:46,239 --> 00:17:47,007
+<font color="#e8e8e8">And then</font>
+
+344
+00:17:47,519 --> 00:17:48,799
+<font color="#f8f8f8">I want to change</font>
+
+345
+00:17:51,615 --> 00:17:52,639
+<font color="#dadada">Exam</font>
+
+346
+00:17:57,247 --> 00:17:58,015
+<font color="#efefef">And then</font>
+
+347
+00:17:58,271 --> 00:17:59,295
+<font color="#b6b6b6">NetSpend</font>
+
+348
+00:17:59,807 --> 00:18:01,343
+<font color="#f2f2f2">This entire thing</font>
+
+349
+00:18:02,367 --> 00:18:05,951
+<font color="#ededed">If you saw earlier still kept the same names now when I do this</font>
+
+350
+00:18:06,463 --> 00:18:07,999
+<font color="#9d9d9d">Get it out on it</font>
+
+351
+00:18:08,511 --> 00:18:12,095
+<font color="#f0f0f0">We have the new student named exam score is available</font>
+
+352
+00:18:12,351 --> 00:18:16,703
+<font color="#eeeeee">Now I can drop this one which has not doesn't have a name</font>
+
+353
+00:18:17,215 --> 00:18:21,823
+<font color="#dbdbdb">But I don't want to write I'll keep the way it is and this is already decided that is available</font>
+
+354
+00:18:22,079 --> 00:18:28,223
+<font color="#f7f7f7">So this is what I want you to do if you were able to follow along good if not</font>
+
+355
+00:18:28,479 --> 00:18:30,271
+<font color="#ececec">Whistle and let me know if you have any problems</font>
+
+356
+00:18:30,783 --> 00:18:32,063
+<font color="#c6c6c6">My second exercise</font>
+
+357
+00:18:32,575 --> 00:18:35,903
+<font color="#bdbdbd">Is too much to data sets and perform data transformation</font>
+
+358
+00:18:36,159 --> 00:18:39,743
+<font color="#dbdbdb">The objective here is to combine the data sets and apply some transformation</font>
+
+359
+00:18:39,999 --> 00:18:41,791
+<font color="#e0e0e0">What we will be doing is will create</font>
+
+360
+00:18:42,047 --> 00:18:44,607
+<font color="#ececec">Two data frames with a common column</font>
+
+361
+00:18:45,119 --> 00:18:49,471
+<font color="#dcdcdc">Based on the column a common column</font>
+
+362
+00:18:49,727 --> 00:18:53,567
+<font color="#ededed">And then finally add a calculated column to the merge data set</font>
+
+363
+00:18:54,079 --> 00:18:56,895
+<font color="#f3f3f3">So let's go ahead and do that so I am going to</font>
+
+364
+00:18:57,663 --> 00:18:58,687
+<font color="#f1f1f1">Create a new file</font>
+
+365
+00:18:59,455 --> 00:19:00,735
+<font color="#9f9f9f">Therefore</font>
+
+366
+00:19:00,991 --> 00:19:03,807
+<font color="#535353">Underscore ex2 Dot py</font>
+
+367
+00:19:04,831 --> 00:19:08,159
+<font color="#cdcdcd">Okay let's copy this these are always required most of the times</font>
+
+368
+00:19:09,439 --> 00:19:13,023
+<font color="#ececec">I'm going to create my first data set I will call data set</font>
+
+369
+00:19:13,279 --> 00:19:14,047
+<font color="#a3a3a3">Airplane</font>
+
+370
+00:19:14,303 --> 00:19:16,351
+<font color="#c2c2c2">Equal to PD</font>
+
+371
+00:19:16,863 --> 00:19:23,007
+<font color="#dfdfdf">Data frame I'm just directly going to call this instead of creating a dictionary and password</font>
+
+372
+00:19:23,519 --> 00:19:25,055
+<font color="#c3c3c3">Where I say ID</font>
+
+373
+00:19:26,335 --> 00:19:27,103
+<font color="#f1f1f1">Is</font>
+
+374
+00:19:27,615 --> 00:19:28,383
+<font color="#f7f7f7">A list of</font>
+
+375
+00:19:28,639 --> 00:19:30,175
+<font color="#a2a2a2">1 2 and</font>
+
+376
+00:19:30,943 --> 00:19:32,479
+<font color="#dadada">Next I'll say</font>
+
+377
+00:19:34,527 --> 00:19:35,295
+<font color="#e3e3e3">Is</font>
+
+378
+00:19:37,599 --> 00:19:38,111
+<font color="#1a1a1a">Al</font>
+
+379
+00:19:42,719 --> 00:19:43,999
+<font color="#c3c3c3">And Charlie</font>
+
+380
+00:19:46,047 --> 00:19:47,327
+<font color="#f0f0f0">Okay next one</font>
+
+381
+00:19:48,607 --> 00:19:50,399
+<font color="#c3c3c3">Is let's use it again</font>
+
+382
+00:19:51,679 --> 00:19:53,471
+<font color="#dddddd">And this time I'll say</font>
+
+383
+00:19:55,775 --> 00:19:57,055
+<font color="#b8b8b8">And 35</font>
+
+384
+00:19:58,335 --> 00:19:59,871
+<font color="#dedede">So I have my first date of frame</font>
+
+385
+00:20:00,127 --> 00:20:02,687
+<font color="#e6e6e6">No the second one I'll create with the same IDs</font>
+
+386
+00:20:02,943 --> 00:20:04,991
+<font color="#858585">Someone said do you have two equal to</font>
+
+387
+00:20:05,247 --> 00:20:06,271
+<font color="#505050">Speedy Dot</font>
+
+388
+00:20:06,527 --> 00:20:07,551
+<font color="#8d8d8d">Data frame</font>
+
+389
+00:20:08,319 --> 00:20:10,367
+<font color="#e8e8e8">And this Frame I will give</font>
+
+390
+00:20:10,879 --> 00:20:14,463
+<font color="#dbdbdb">IDs are same so I'm just going to copy this and paste it here</font>
+
+391
+00:20:14,719 --> 00:20:18,815
+<font color="#d1d1d1">And then I said scores that these people these students have scored</font>
+
+392
+00:20:20,351 --> 00:20:21,375
+<font color="#dcdcdc">85</font>
+
+393
+00:20:23,167 --> 00:20:24,191
+<font color="#939393">And 88</font>
+
+394
+00:20:24,959 --> 00:20:27,263
+<font color="#e0e0e0">So I have these scores available</font>
+
+395
+00:20:27,519 --> 00:20:29,567
+<font color="#e5e5e5">Next let's bring them and check this out</font>
+
+396
+00:20:29,823 --> 00:20:30,591
+<font color="#f5f5f5">So I have my</font>
+
+397
+00:20:31,103 --> 00:20:32,383
+<font color="#909090">First data set</font>
+
+398
+00:20:33,919 --> 00:20:34,943
+<font color="#626262">Slash</font>
+
+399
+00:20:35,455 --> 00:20:36,991
+<font color="#8a8a8a">Comma df1</font>
+
+400
+00:20:38,015 --> 00:20:39,551
+<font color="#e2e2e2">Right and I have my</font>
+
+401
+00:20:39,807 --> 00:20:42,879
+<font color="#bebebe">Second data set I'll call you data set</font>
+
+402
+00:20:43,391 --> 00:20:44,671
+<font color="#6e6e6e">Candida said</font>
+
+403
+00:20:45,439 --> 00:20:46,975
+<font color="#646464">Do you have fun and df2</font>
+
+404
+00:20:47,743 --> 00:20:51,071
+<font color="#d7d7d7">So my two data sets next I want to</font>
+
+405
+00:20:55,167 --> 00:20:56,959
+<font color="#b5b5b5">Equal to PD Dot</font>
+
+406
+00:20:57,727 --> 00:20:59,775
+<font color="#ababab">March what's the function that I'll call</font>
+
+407
+00:21:00,287 --> 00:21:03,359
+<font color="#bdbdbd">What's the first data set was the second data set</font>
+
+408
+00:21:04,127 --> 00:21:07,711
+<font color="#e7e7e7">And then how do I join it I said I want to use in a joint</font>
+
+409
+00:21:08,735 --> 00:21:11,039
+<font color="#f9f9f9">And what is the column that I want to join it on</font>
+
+410
+00:21:11,295 --> 00:21:13,599
+<font color="#e2e2e2">On ID so I will say ID</font>
+
+411
+00:21:14,367 --> 00:21:15,903
+<font color="#e1e1e1">Perfect next</font>
+
+412
+00:21:16,159 --> 00:21:18,464
+<font color="#f8f8f8">Let's print and see how does it look like</font>
+
+413
+00:21:19,232 --> 00:21:21,024
+<font color="#b4b4b4">Merge data set</font>
+
+414
+00:21:22,304 --> 00:21:23,584
+<font color="#888888">Slash</font>
+
+415
+00:21:24,096 --> 00:21:25,632
+<font color="#9d9d9d">Comma</font>
+
+416
+00:21:26,144 --> 00:21:27,680
+<font color="#b7b7b7">So that will give me my money dat</font>
+
+417
+00:21:27,936 --> 00:21:32,800
+<font color="#e5e5e5">Now let's add a calculated column to it so we will create another column and add to it</font>
+
+418
+00:21:33,056 --> 00:21:34,592
+<font color="#f9f9f9">Based on the data that we have</font>
+
+419
+00:21:34,848 --> 00:21:36,128
+<font color="#7a7a7a">I want to see much</font>
+
+420
+00:21:36,640 --> 00:21:38,176
+<font color="#eaeaea">Let's create</font>
+
+421
+00:21:38,944 --> 00:21:40,224
+<font color="#f1f1f1">Score percentage</font>
+
+422
+00:21:44,832 --> 00:21:46,112
+<font color="#e8e8e8">And this percentage</font>
+
+423
+00:21:46,368 --> 00:21:47,136
+<font color="#adadad">Will be</font>
+
+424
+00:21:47,904 --> 00:21:49,696
+<font color="#8d8d8d">Most did I set</font>
+
+425
+00:21:50,208 --> 00:21:52,512
+<font color="#d6d6d6">Whatever the score is</font>
+
+426
+00:21:52,768 --> 00:21:55,072
+<font color="#bcbcbc">What was the score is okay I think I have to use this</font>
+
+427
+00:21:55,584 --> 00:21:56,608
+<font color="#9b9b9b">Bracket</font>
+
+428
+00:21:57,120 --> 00:21:58,656
+<font color="#b2b2b2">Divided by 100</font>
+
+429
+00:22:00,704 --> 00:22:01,728
+<font color="#5b5b5b">* 100</font>
+
+430
+00:22:01,984 --> 00:22:03,264
+<font color="#e2e2e2">So this is the percentage</font>
+
+431
+00:22:03,776 --> 00:22:05,312
+<font color="#a3a3a3">And this is a print</font>
+
+432
+00:22:06,848 --> 00:22:08,384
+<font color="#b9b9b9">And I'll say</font>
+
+433
+00:22:09,408 --> 00:22:10,944
+<font color="#3c3c3c">Transform</font>
+
+434
+00:22:11,712 --> 00:22:12,480
+<font color="#c7c7c7">Data</font>
+
+435
+00:22:13,504 --> 00:22:14,784
+<font color="#333333">/</font>
+
+436
+00:22:18,624 --> 00:22:21,184
+<font color="#d0d0d0">Look up the name Sam so that should not cause a problem</font>
+
+437
+00:22:21,440 --> 00:22:22,976
+<font color="#f9f9f9">So let's go ahead and run this</font>
+
+438
+00:22:23,232 --> 00:22:24,768
+<font color="#eeeeee">I hope you were able to follow along</font>
+
+439
+00:22:25,536 --> 00:22:29,376
+<font color="#f3f3f3">If not pause the video just make sure that you are at this point and then</font>
+
+440
+00:22:29,632 --> 00:22:31,936
+<font color="#999999">Put on python D4</font>
+
+441
+00:22:33,216 --> 00:22:35,520
+<font color="#c6c6c6">280 so I'm going to go ahead and say</font>
+
+442
+00:22:36,544 --> 00:22:37,312
+<font color="#424242">Ex2</font>
+
+443
+00:22:37,824 --> 00:22:42,688
+<font color="#8b8b8b">And they are data set initially 1 to 3:40 the ages</font>
+
+444
+00:22:42,944 --> 00:22:47,296
+<font color="#828282">We have this courses now it's the most data set 123 Alice Bob Charlie</font>
+
+445
+00:22:47,552 --> 00:22:48,832
+<font color="#1f1f1f">253035</font>
+
+446
+00:22:49,088 --> 00:22:51,392
+<font color="#999999">And their scores here transform data</font>
+
+447
+00:22:51,648 --> 00:22:54,720
+<font color="#e7e7e7">I got the percentage now this is out of 100 so of course</font>
+
+448
+00:22:54,976 --> 00:22:57,536
+<font color="#dfdfdf">Values will be almost same unless I change this</font>
+
+449
+00:22:57,792 --> 00:23:01,120
+<font color="#f2f2f2">Being out of 200 than it will be</font>
+
+450
+00:23:04,704 --> 00:23:10,848
+<font color="#cccccc">Will be half of it most probably 4245 and 44 so that's how this works and I've created it so this</font>
+
+451
+00:23:11,104 --> 00:23:12,128
+<font color="#b5b5b5">Can be helpful even in</font>
+
+452
+00:23:12,384 --> 00:23:13,920
+<font color="#d1d1d1">This data set where you have</font>
+
+453
+00:23:14,688 --> 00:23:18,272
+<font color="#ededed">Data set with all the students and you have their scores</font>
+
+454
+00:23:18,528 --> 00:23:19,808
+<font color="#cdcdcd">In a different data set</font>
+
+455
+00:23:20,064 --> 00:23:24,160
+<font color="#efefef">And then you want to also calculate the percentage so you can use this entire data set</font>
+
+456
+00:23:24,416 --> 00:23:27,744
+<font color="#efefef">To get what is the overall percentage of</font>
+
+457
+00:23:28,256 --> 00:23:31,840
+<font color="#e4e4e4">Students that you have a how many of them passed or what is the grade level</font>
+
+458
+00:23:32,096 --> 00:23:35,168
+<font color="#dedede">In there so you can use the data set for additional</font>
+
+459
+00:23:35,424 --> 00:23:36,448
+<font color="#d8d8d8">Calculations</font>
+
+460
+00:23:37,728 --> 00:23:40,800
+<font color="#eeeeee">Now that you completed this for additional practice</font>
+
+461
+00:23:41,056 --> 00:23:41,824
+<font color="#f1f1f1">You can</font>
+
+462
+00:23:42,080 --> 00:23:45,408
+<font color="#f7f7f7">Drop columns with more than 50% missing values</font>
+
+463
+00:23:45,920 --> 00:23:50,528
+<font color="#ececec">You can merge three data sets and analyze relationship between them</font>
+
+464
+00:23:50,784 --> 00:23:52,064
+<font color="#f0f0f0">You can also do convert</font>
+
+465
+00:23:52,320 --> 00:23:54,368
+<font color="#f5f5f5">Categorical data to numerical</font>
+
+466
+00:23:54,624 --> 00:23:58,976
+<font color="#d8d8d8">Using one hot and cold if you don't know what that is look it up but will be covering that</font>
+
+467
+00:24:01,536 --> 00:24:02,816
+<font color="#dcdcdc">Suggest to summarize</font>
+
+468
+00:24:03,072 --> 00:24:05,888
+<font color="#e7e7e7">Today we learned how to clean and prepare data sets</font>
+
+469
+00:24:06,144 --> 00:24:08,448
+<font color="#f6f6f6">Using pandas focusing on handling</font>
+
+470
+00:24:08,704 --> 00:24:11,776
+<font color="#eaeaea">Missing values renaming columns and combining data frames</font>
+
+471
+00:24:12,032 --> 00:24:17,408
+<font color="#dfdfdf">These skills are essential for pre-processing data and data science and are Workforce and will be using this</font>
+
+472
+00:24:17,664 --> 00:24:19,968
+<font color="#c7c7c7">Quite a lot in every single projects</font>
+
+473
+00:24:20,480 --> 00:24:24,320
+<font color="#f4f4f4">So if you had any issues or problems let me know so we can catch them early</font>
+
+474
+00:24:24,576 --> 00:24:27,136
+<font color="#eaeaea">And then you can move on to the next days</font>

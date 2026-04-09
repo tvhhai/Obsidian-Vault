@@ -11,17 +11,38 @@
             "id": "c71c923c8861c4ae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mx-file",
               "state": {
-                "file": "AI/Agentic AI/Agent Testing & Evaluation.md",
-                "mode": "preview",
-                "source": false
+                "file": "AI/Python/Course/1 - Week 1 Python Programming Basics/1 -Introduction to Week 1 Python Programming Basics.mp4",
+                "mx": {
+                  "json": {
+                    "hash": {}
+                  }
+                }
               },
-              "icon": "lucide-file",
-              "title": "Agent Testing & Evaluation"
+              "icon": "lucide-file-video",
+              "title": "1 -Introduction to Week 1 Python Programming Basics"
+            }
+          },
+          {
+            "id": "d76a92c6244fee65",
+            "type": "leaf",
+            "state": {
+              "type": "mx-file",
+              "state": {
+                "file": "AI/Python/Course/1 - Week 1 Python Programming Basics/2 -Day 1 Introduction to Python and Development Setup.mp4",
+                "mx": {
+                  "json": {
+                    "hash": {}
+                  }
+                }
+              },
+              "icon": "lucide-file-video",
+              "title": "2 -Day 1 Introduction to Python and Development Setup"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,13 +216,18 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "c71c923c8861c4ae",
+  "active": "d76a92c6244fee65",
   "lastOpenFiles": [
+    "AI/Python/Course/1 - Week 1 Python Programming Basics/1 -Introduction to Week 1 Python Programming Basics.srt",
+    "AI/Python/Course/1 - Week 1 Python Programming Basics/3 -Day 2 Control Flow in Python.srt.bak",
+    "AI/Python/Course/1 - Week 1 Python Programming Basics/2 -Day 1 Introduction to Python and Development Setup.srt.bak",
+    "AI/Python/Course/1 - Week 1 Python Programming Basics/translate_srt.py",
+    "AI/Python/Course/1 - Week 1 Python Programming Basics/1 -Introduction to Week 1 Python Programming Basics.mp4",
+    "AI/Agentic AI/Agent Testing & Evaluation.md",
     "AI/Agentic AI/MCP Protocol Chi tiết.md",
     "AI/Agentic AI/Production Agent Deployment.md",
     "AI/Agentic AI/Multi-Agent Implementation.md",
     "AI/Agentic AI/Agentic AI Architecture Với Pattern, Framework & MCP.md",
-    "AI/Agentic AI/Agent Testing & Evaluation.md",
     "AI/Agentic AI/Sum/05. Agentic Workflows.md",
     "AI/Python",
     "AI/Agentic AI/Sum/00. Learning Plan.md",
@@ -217,10 +243,6 @@
     "AI/Agentic AI/Sum/02. Use Cases and Challenges.md",
     "AI/Agentic AI/Sum/01. Introduction.md",
     "AI/Windsturf/05-AI-Agent-Comparison-Complete.md",
-    "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/23. Introduction What is Agentic AI.mp4",
-    "training_details.txt",
-    "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/23. Introduction What is Agentic AI.srt",
-    "AI/Agentic AI/Course/1 - Introduction/4. The Evolution From Generative AI to Agentic AI.srt",
     "AI/Agentic AI/Sum/Các Design Patterns Trong AI Agentic.md",
     "AI/Agentic AI/Sum/Ứng Dụng Thực Tế và Thách Thức.md",
     "AI/Agentic AI/Sum/Tổng Quan Khóa Học AI Agentic.md",

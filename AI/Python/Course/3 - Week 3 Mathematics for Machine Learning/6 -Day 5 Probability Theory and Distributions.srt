@@ -1,0 +1,1719 @@
+﻿1
+00:00:00,256 --> 00:00:01,280
+<font color="#999999">Day five</font>
+
+2
+00:00:01,536 --> 00:00:03,840
+<font color="#f7f7f7">Probability Theory and distributions</font>
+
+3
+00:00:04,608 --> 00:00:06,912
+<font color="#fbfbfb">Let's start with probability basics</font>
+
+4
+00:00:07,168 --> 00:00:08,960
+<font color="#e4e4e4">And in here let's look at</font>
+
+5
+00:00:09,216 --> 00:00:10,496
+<font color="#f3f3f3">Conditional probability</font>
+
+6
+00:00:11,264 --> 00:00:13,568
+<font color="#eaeaea">The probability of an event a</font>
+
+7
+00:00:13,824 --> 00:00:17,152
+<font color="#e8e8e8">Given that event B has occurred is represented as</font>
+
+8
+00:00:17,408 --> 00:00:23,552
+<font color="#bababa">B a i b which means the probability of an event a given that even be as occur</font>
+
+9
+00:00:24,064 --> 00:00:25,856
+<font color="#e9e9e9">Is equal to P of a</font>
+
+10
+00:00:27,136 --> 00:00:28,672
+<font color="#c0c0c0">Divided by P</font>
+
+11
+00:00:29,696 --> 00:00:33,280
+<font color="#ededed">Example can be the probability of drawing a red card</font>
+
+12
+00:00:33,792 --> 00:00:37,376
+<font color="#ebebeb">Given that a face card is drawn from a deck of cards</font>
+
+13
+00:00:38,400 --> 00:00:40,192
+<font color="#d1d1d1">Next we have base theorem</font>
+
+14
+00:00:41,216 --> 00:00:44,288
+<font color="#b0b0b0">This relates conditional probabilities where P of</font>
+
+15
+00:00:45,824 --> 00:00:51,968
+<font color="#c4c4c4">Open Event a given that even b as occurred is equal to be given</font>
+
+16
+00:00:53,504 --> 00:00:55,808
+<font color="#818181">Do you say / POV</font>
+
+17
+00:00:56,064 --> 00:01:00,416
+<font color="#ababab">Red pill for burglary of a is prior probability</font>
+
+18
+00:01:00,672 --> 00:01:03,232
+<font color="#888888">You'll be a is likelihood</font>
+
+19
+00:01:03,488 --> 00:01:06,560
+<font color="#bebebe">And POV is evidence</font>
+
+20
+00:01:07,072 --> 00:01:11,936
+<font color="#e3e3e3">We can do this bass theorem in Python by let's create a new file</font>
+
+21
+00:01:12,960 --> 00:01:16,032
+<font color="#bcbcbc">Save it in day 5 as day 5</font>
+
+22
+00:01:16,288 --> 00:01:17,824
+<font color="#a2a2a2">Core samples</font>
+
+23
+00:01:18,592 --> 00:01:21,408
+<font color="#b2b2b2">9512387 I'm going to say</font>
+
+24
+00:01:23,456 --> 00:01:26,016
+<font color="#979797">Theorems on the create a function here</font>
+
+25
+00:01:26,272 --> 00:01:29,600
+<font color="#aeaeae">And do it I'll pass the prior</font>
+
+26
+00:01:31,648 --> 00:01:35,488
+<font color="#a0a0a0">The bad probability going to give it the likelihood</font>
+
+27
+00:01:37,024 --> 00:01:39,584
+<font color="#f4f4f4">And I'm going to give it an Evidence</font>
+
+28
+00:01:41,120 --> 00:01:42,912
+<font color="#f4f4f4">Which is based on our</font>
+
+29
+00:01:43,168 --> 00:01:44,704
+<font color="#cdcdcd">Function here</font>
+
+30
+00:01:45,216 --> 00:01:47,008
+<font color="#dcdcdc">Add to calculate it</font>
+
+31
+00:01:47,264 --> 00:01:48,544
+<font color="#eaeaea">You can say return</font>
+
+32
+00:01:50,080 --> 00:01:51,360
+<font color="#eaeaea">Likelihood</font>
+
+33
+00:01:55,712 --> 00:01:56,736
+<font color="#d4d4d4">Probability</font>
+
+34
+00:01:57,504 --> 00:01:58,528
+<font color="#b7b7b7">Divided by</font>
+
+35
+00:01:59,040 --> 00:02:05,184
+<font color="#dadada">Evidence that's what we did so that's the actual formula right here so that's how based theorem work</font>
+
+36
+00:02:05,440 --> 00:02:07,232
+<font color="#d8d8d8">Let's save this and close it and let's go</font>
+
+37
+00:02:07,488 --> 00:02:09,024
+<font color="#c5c5c5">Do the next topic which is</font>
+
+38
+00:02:09,280 --> 00:02:15,424
+<font color="#c4c4c4">Common probability distributions now we're going to talk about a different probability distributions here</font>
+
+39
+00:02:15,680 --> 00:02:19,264
+<font color="#f5f5f5">Starting with the gaussian distribution which is also called as a normal distribution</font>
+
+40
+00:02:19,520 --> 00:02:25,408
+<font color="#d5d5d5">It's a bell-shaped curve with me and you and standard deviation with a sigma</font>
+
+41
+00:02:25,664 --> 00:02:31,040
+<font color="#ededed">The formula for it is f of x equal to 1 /</font>
+
+42
+00:02:31,296 --> 00:02:34,112
+<font color="#b5b5b5">Square root of 2 pi of Sigma Square</font>
+
+43
+00:02:34,368 --> 00:02:36,416
+<font color="#ababab">Erase to -</font>
+
+44
+00:02:36,672 --> 00:02:41,536
+<font color="#bcbcbc">X -12 / 2</font>
+
+45
+00:02:42,816 --> 00:02:48,192
+<font color="#f1f1f1">Example of this can be modeling continuous data like Heights or test scores</font>
+
+46
+00:02:48,448 --> 00:02:51,520
+<font color="#f2f2f2">We can look at a python example for that this</font>
+
+47
+00:02:51,776 --> 00:02:53,312
+<font color="#f1f1f1">What I'm going to do here is</font>
+
+48
+00:02:54,080 --> 00:02:55,616
+<font color="#b3b3b3">I'm going to import first</font>
+
+49
+00:02:56,128 --> 00:02:57,152
+<font color="#a4a4a4">Numpy</font>
+
+50
+00:02:57,408 --> 00:02:58,176
+<font color="#434343">S&P</font>
+
+51
+00:02:58,944 --> 00:03:00,992
+<font color="#e4e4e4">And go ahead and comment these out</font>
+
+52
+00:03:02,272 --> 00:03:03,808
+<font color="#fafafa">Next I want to import</font>
+
+53
+00:03:04,576 --> 00:03:05,600
+<font color="#5d5d5d">Matlock</font>
+
+54
+00:03:07,392 --> 00:03:08,160
+<font color="#7f7f7f">The plotter</font>
+
+55
+00:03:09,440 --> 00:03:10,976
+<font color="#9d9d9d">Graph for this</font>
+
+56
+00:03:11,744 --> 00:03:13,536
+<font color="#a5a5a5">Pipe Lord</font>
+
+57
+00:03:14,816 --> 00:03:17,888
+<font color="#c5c5c5">So let's see if I use some new for Mew</font>
+
+58
+00:03:18,400 --> 00:03:19,424
+<font color="#8e8e8e">And sigma</font>
+
+59
+00:03:20,960 --> 00:03:21,728
+<font color="#757575">What's Sigma</font>
+
+60
+00:03:21,984 --> 00:03:24,800
+<font color="#b6b6b6">And I said its value to 0 and 1</font>
+
+61
+00:03:25,824 --> 00:03:29,664
+<font color="#cccccc">Next I'm going to create a variable x equal to NP Dot</font>
+
+62
+00:03:31,968 --> 00:03:32,992
+<font color="#c5c5c5">Space</font>
+
+63
+00:03:33,248 --> 00:03:35,040
+<font color="#949494">-4</font>
+
+64
+00:03:35,552 --> 00:03:37,344
+<font color="#959595">Comma 4 comma 100</font>
+
+65
+00:03:38,368 --> 00:03:40,928
+<font color="#dcdcdc">Next I will say bye equal to</font>
+
+66
+00:03:41,696 --> 00:03:43,488
+<font color="#e3e3e3">1 /</font>
+
+67
+00:03:44,768 --> 00:03:47,328
+<font color="#fcfcfc">It's based on the formula that we have here</font>
+
+68
+00:03:48,352 --> 00:03:49,888
+<font color="#f7f7f7">And we need to pass</font>
+
+69
+00:03:50,912 --> 00:03:51,936
+<font color="#b8b8b8">Empty</font>
+
+70
+00:03:52,704 --> 00:03:53,984
+<font color="#8f8f8f">Square root of</font>
+
+71
+00:03:55,520 --> 00:03:57,568
+<font color="#cfcfcf">And inside square root we had two</font>
+
+72
+00:03:59,360 --> 00:04:01,408
+<font color="#636363">NP dot by</font>
+
+73
+00:04:01,664 --> 00:04:06,272
+<font color="#b5b5b5">As you can see LNP dot p and we need Sigma Square so we'll see</font>
+
+74
+00:04:06,528 --> 00:04:07,552
+<font color="#a6a6a6">Sigma</font>
+
+75
+00:04:08,832 --> 00:04:13,696
+<font color="#d0d0d0">Star star 2 which is Sigma Square make sure all the brackets are closed</font>
+
+76
+00:04:17,791 --> 00:04:23,935
+<font color="#cdcdcd">Dart exponential that's what we have here exponential days to minus</font>
+
+77
+00:04:24,191 --> 00:04:26,495
+<font color="#f7f7f7">So that we can specify</font>
+
+78
+00:04:27,007 --> 00:04:30,847
+<font color="#a0a0a0">By saying NPR -0.5</font>
+
+79
+00:04:34,687 --> 00:04:40,063
+<font color="#cecece">Because we have divided by 2 below so that's why I'm doing that -0.5 X</font>
+
+80
+00:04:40,319 --> 00:04:42,367
+<font color="#707070">- moo moo</font>
+
+81
+00:04:43,647 --> 00:04:45,951
+<font color="#d6d6d6">And after this divided by</font>
+
+82
+00:04:46,463 --> 00:04:47,487
+<font color="#b1b1b1">Sigma</font>
+
+83
+00:04:48,255 --> 00:04:50,303
+<font color="#dfdfdf">And then Square the entire</font>
+
+84
+00:04:50,815 --> 00:04:54,399
+<font color="#f3f3f3">Think as you can see from the formula right here</font>
+
+85
+00:04:55,679 --> 00:04:58,239
+<font color="#efefef">So next step is to plot this</font>
+
+86
+00:04:58,495 --> 00:05:00,799
+<font color="#969696">So I'm going to say PLT</font>
+
+87
+00:05:02,847 --> 00:05:04,383
+<font color="#c7c7c7">X comma y</font>
+
+88
+00:05:06,175 --> 00:05:08,479
+<font color="#c3c3c3">And then I'm going to say plot</font>
+
+89
+00:05:08,735 --> 00:05:09,503
+<font color="#1a1a1a">Tit</font>
+
+90
+00:05:10,271 --> 00:05:11,295
+<font color="#f3f3f3">Equal to</font>
+
+91
+00:05:12,063 --> 00:05:14,367
+<font color="#b8b8b8">Guardian</font>
+
+92
+00:05:14,623 --> 00:05:15,647
+<font color="#f6f6f6">Distribution</font>
+
+93
+00:05:17,695 --> 00:05:20,511
+<font color="#9c9c9c">And then as a plot that show</font>
+
+94
+00:05:20,767 --> 00:05:26,911
+<font color="#e1e1e1">If you're not seen for some of our previous videos on Matt Platte that will probably help us understand</font>
+
+95
+00:05:27,167 --> 00:05:28,447
+<font color="#d1d1d1">What we are trying to do here</font>
+
+96
+00:05:28,703 --> 00:05:31,775
+<font color="#f5f5f5">So now that I have it let's run it and see how it looks like</font>
+
+97
+00:05:32,031 --> 00:05:33,055
+<font color="#9f9f9f">Going to open</font>
+
+98
+00:05:33,567 --> 00:05:34,335
+<font color="#989898">Terminal</font>
+
+99
+00:05:34,847 --> 00:05:37,919
+<font color="#cacaca">Make sure I'm in the right folder week 3 Day 5</font>
+
+100
+00:05:38,175 --> 00:05:41,503
+<font color="#d0d0d0">And I'm going to run this file python day 5</font>
+
+101
+00:05:41,759 --> 00:05:43,039
+<font color="#d9d9d9">Underscore samples</font>
+
+102
+00:05:43,807 --> 00:05:49,951
+<font color="#cecece">Indigo we have a guardian distribution right here so now if you had the similar graph that's</font>
+
+103
+00:05:50,207 --> 00:05:56,351
+<font color="#f5f5f5">Good if not please check your code again to make sure that's exactly same because sometimes the formula can be confusing as you can see it</font>
+
+104
+00:05:56,607 --> 00:05:58,143
+<font color="#f2f2f2">It has a lot of different parameters to it</font>
+
+105
+00:05:58,399 --> 00:06:04,543
+<font color="#dadada">Next thing we're going to look at Bernoulli distribution which describes outcomes of a</font>
+
+106
+00:06:04,799 --> 00:06:08,127
+<font color="#dfdfdf">Binary experiment example you can think of it as a coin toss</font>
+
+107
+00:06:08,383 --> 00:06:13,503
+<font color="#f0f0f0">So the formula for that is more on P of x equal to 1 equal to p</font>
+
+108
+00:06:13,759 --> 00:06:19,903
+<font color="#d8d8d8">Baby of x equal to 0 equal to 1 - 3 this is the Bernoulli distribution and now if you</font>
+
+109
+00:06:20,159 --> 00:06:22,463
+<font color="#f4f4f4">If you want to implement this I am going to</font>
+
+110
+00:06:23,231 --> 00:06:24,511
+<font color="#868686">Common desert</font>
+
+111
+00:06:25,023 --> 00:06:26,559
+<font color="#fafafa">And then</font>
+
+112
+00:06:26,815 --> 00:06:29,631
+<font color="#bbbbbb">Mississippi equal to 0.6</font>
+
+113
+00:06:31,167 --> 00:06:32,703
+<font color="#828282">And PLT</font>
+
+114
+00:06:32,959 --> 00:06:36,543
+<font color="#d1d1d1">Dot bar diagram in this particular case</font>
+
+115
+00:06:36,799 --> 00:06:38,591
+<font color="#9d9d9d">0 comma 1</font>
+
+116
+00:06:44,479 --> 00:06:47,295
+<font color="#a1a1a1">Call Mommy are the two parameters</font>
+
+117
+00:06:47,807 --> 00:06:48,319
+<font color="#3b3b3b">Color</font>
+
+118
+00:06:49,855 --> 00:06:53,183
+<font color="#eeeeee">I will use blue for this bar</font>
+
+119
+00:06:53,951 --> 00:06:57,535
+<font color="#f0f0f0">And that's all that I need here next let's give a title</font>
+
+120
+00:06:59,583 --> 00:07:00,351
+<font color="#8b8b8b">Call it</font>
+
+121
+00:07:04,447 --> 00:07:05,983
+<font color="#f7f7f7">Distribution</font>
+
+122
+00:07:07,519 --> 00:07:12,383
+<font color="#e4e4e4">Make sure I get the spelling right Bernoulli next I will say plot</font>
+
+123
+00:07:13,663 --> 00:07:14,943
+<font color="#2f2f2f">XX</font>
+
+124
+00:07:19,039 --> 00:07:20,575
+<font color="#b9b9b9">Is 01</font>
+
+125
+00:07:22,879 --> 00:07:23,647
+<font color="#e7e7e7">And then</font>
+
+126
+00:07:23,903 --> 00:07:25,439
+<font color="#e3e3e3">I need labels</font>
+
+127
+00:07:26,463 --> 00:07:27,487
+<font color="#d1d1d1">Which is</font>
+
+128
+00:07:32,351 --> 00:07:33,119
+<font color="#202020">Fail</font>
+
+129
+00:07:34,911 --> 00:07:36,447
+<font color="#f8f8f8">And then I need</font>
+
+130
+00:07:36,959 --> 00:07:39,263
+<font color="#eeeeee">One for Success which is one</font>
+
+131
+00:07:40,031 --> 00:07:41,055
+<font color="#6e6e6e">Is</font>
+
+132
+00:07:42,335 --> 00:07:43,359
+<font color="#f7f7f7">Success</font>
+
+133
+00:07:43,615 --> 00:07:44,383
+<font color="#a8a8a8">Perfect</font>
+
+134
+00:07:45,151 --> 00:07:47,967
+<font color="#b1b1b1">Those are my texts and then finally</font>
+
+135
+00:07:48,223 --> 00:07:49,759
+<font color="#d0d0d0">Show the plot</font>
+
+136
+00:07:50,527 --> 00:07:51,295
+<font color="#e6e6e6">Save it</font>
+
+137
+00:07:51,807 --> 00:07:52,575
+<font color="#e8e8e8">Go back</font>
+
+138
+00:07:53,087 --> 00:07:55,391
+<font color="#b7b7b7">Do my terminal clear this out</font>
+
+139
+00:07:55,647 --> 00:07:56,671
+<font color="#707070">And run this</font>
+
+140
+00:07:56,927 --> 00:08:03,071
+<font color="#cdcdcd">San Diego we have our distribution for 0 and 1 based on the probability of 0.6</font>
+
+141
+00:08:03,327 --> 00:08:06,399
+<font color="#e1e1e1">Next it kind of shows it properly on the</font>
+
+142
+00:08:06,911 --> 00:08:11,263
+<font color="#fafafa">Next thing that you want to talk about is binomial distribution</font>
+
+143
+00:08:11,775 --> 00:08:13,311
+<font color="#e2e2e2">Albino distribution</font>
+
+144
+00:08:13,567 --> 00:08:19,455
+<font color="#e4e4e4">Models the number of successes in an independent Bernoulli trials</font>
+
+145
+00:08:19,711 --> 00:08:24,575
+<font color="#dcdcdc">So this is kind of defined as you of x equal to k equal to n2k</font>
+
+146
+00:08:24,831 --> 00:08:28,671
+<font color="#a0a0a0">Please take 1 - P - 1 -</font>
+
+147
+00:08:28,927 --> 00:08:30,207
+<font color="#c8c8c8">Actually I want to</font>
+
+148
+00:08:30,463 --> 00:08:31,743
+<font color="#e9e9e9">Show this in</font>
+
+149
+00:08:32,255 --> 00:08:33,023
+<font color="#828282">Python</font>
+
+150
+00:08:33,535 --> 00:08:35,071
+<font color="#dedede">The way to</font>
+
+151
+00:08:35,327 --> 00:08:37,119
+<font color="#9a9a9a">Broadcast Southeast from</font>
+
+152
+00:08:37,887 --> 00:08:39,679
+<font color="#323232">CPI</font>
+
+153
+00:08:40,447 --> 00:08:46,591
+<font color="#b6b6b6">Dog starts the slab module that will use import you need by now that's</font>
+
+154
+00:08:46,847 --> 00:08:50,175
+<font color="#f3f3f3">That's where you can find the binomial distribution function</font>
+
+155
+00:08:52,735 --> 00:08:55,551
+<font color="#c1c1c1">Equal to as a sign of values like 10 and</font>
+
+156
+00:08:55,807 --> 00:08:57,599
+<font color="#c7c7c7">0.5</font>
+
+157
+00:08:57,855 --> 00:09:00,671
+<font color="#cfcfcf">X equal to NP</font>
+
+158
+00:09:00,927 --> 00:09:01,951
+<font color="#3f3f3f">Arranged</font>
+
+159
+00:09:03,231 --> 00:09:05,023
+<font color="#bababa">From 0</font>
+
+160
+00:09:05,279 --> 00:09:07,071
+<font color="#c0c0c0">2N + 1</font>
+
+161
+00:09:08,095 --> 00:09:13,727
+<font color="#c6c6c6">Next I'm going to say bye equal to as I mentioned we use binom</font>
+
+162
+00:09:13,983 --> 00:09:15,775
+<font color="#616161">Dot pmf</font>
+
+163
+00:09:16,543 --> 00:09:18,847
+<font color="#d4d4d4">And inside this I'll pass X</font>
+
+164
+00:09:21,151 --> 00:09:27,295
+<font color="#eaeaea">The different parameters that it needs to run the binomial distribution so once I've given that</font>
+
+165
+00:09:27,551 --> 00:09:29,343
+<font color="#a4a4a4">That's not the bar</font>
+
+166
+00:09:29,855 --> 00:09:31,903
+<font color="#6c6c6c">Sobriety bar X</font>
+
+167
+00:09:33,695 --> 00:09:34,719
+<font color="#e5e5e5">Do I have my</font>
+
+168
+00:09:35,231 --> 00:09:38,303
+<font color="#969696">What is not committed that's good eggs</font>
+
+169
+00:09:38,559 --> 00:09:41,887
+<font color="#f2f2f2">Why colors equal to</font>
+
+170
+00:09:42,143 --> 00:09:44,447
+<font color="#e8e8e8">Last time you use blue this time you use green</font>
+
+171
+00:09:45,215 --> 00:09:47,519
+<font color="#b7b7b7">Next I'm going to see blood Dot</font>
+
+172
+00:09:48,031 --> 00:09:49,823
+<font color="#ededed">Title and for the title</font>
+
+173
+00:09:50,079 --> 00:09:51,871
+<font color="#9e9e9e">How to say binomial</font>
+
+174
+00:09:52,383 --> 00:09:54,175
+<font color="#f2f2f2">Distribution</font>
+
+175
+00:09:54,943 --> 00:09:57,503
+<font color="#7b7b7b">And then PLT show</font>
+
+176
+00:09:58,015 --> 00:10:00,319
+<font color="#dedede">I said let's go ahead open Terminal</font>
+
+177
+00:10:00,575 --> 00:10:02,367
+<font color="#efefef">And make sure my</font>
+
+178
+00:10:02,623 --> 00:10:05,951
+<font color="#bababa">Grass from the before is closed cleared out</font>
+
+179
+00:10:06,207 --> 00:10:07,487
+<font color="#ebebeb">Run it again</font>
+
+180
+00:10:09,791 --> 00:10:15,935
+<font color="#ececec">Have a binomial distribution which looks perfectly fine this is how a binomial distribution</font>
+
+181
+00:10:16,191 --> 00:10:18,751
+<font color="#e9e9e9">You should look like based on the values that we have provided</font>
+
+182
+00:10:20,031 --> 00:10:26,175
+<font color="#d7d7d7">So if you got this that's good if not please check your values and what functions you're calling off if you have an error let</font>
+
+183
+00:10:26,431 --> 00:10:27,455
+<font color="#eaeaea">Let me know and I'll get back to you</font>
+
+184
+00:10:27,967 --> 00:10:29,759
+<font color="#e3e3e3">Next thing that we're going to talk about is</font>
+
+185
+00:10:30,015 --> 00:10:31,039
+<font color="#dbdbdb">Poisson distribution</font>
+
+186
+00:10:31,551 --> 00:10:37,695
+<font color="#dddddd">No poison models the number of events in a fixed interval of</font>
+
+187
+00:10:37,951 --> 00:10:42,047
+<font color="#cecece">9 more space that is defined as P of x equal to k equal to</font>
+
+188
+00:10:42,303 --> 00:10:43,583
+<font color="#a7a7a7">Lambda is to K</font>
+
+189
+00:10:44,095 --> 00:10:46,143
+<font color="#858585">E ^ - Lambda</font>
+
+190
+00:10:46,399 --> 00:10:47,935
+<font color="#434343">Gay Factory</font>
+
+191
+00:10:48,447 --> 00:10:53,567
+<font color="#eeeeee">So if you want to Define this or do this in Python the way to do it is I am going to</font>
+
+192
+00:10:54,591 --> 00:10:59,967
+<font color="#c2c2c2">Comment this out this is something similar will use instead of biome will use</font>
+
+193
+00:11:00,479 --> 00:11:01,247
+<font color="#898989">Voice</font>
+
+194
+00:11:03,039 --> 00:11:05,087
+<font color="#ebebeb">That's the module that you want</font>
+
+195
+00:11:05,343 --> 00:11:08,415
+<font color="#c6c6c6">I'm going to say l a m equal to 3</font>
+
+196
+00:11:08,671 --> 00:11:11,743
+<font color="#d3d3d3">I will see x equal to NP</font>
+
+197
+00:11:11,999 --> 00:11:13,535
+<font color="#b4b4b4">Dot range</font>
+
+198
+00:11:14,047 --> 00:11:16,607
+<font color="#bebebe">And I'll give you some zero to 10</font>
+
+199
+00:11:17,119 --> 00:11:19,423
+<font color="#d2d2d2">Next I'm going to survive equal to</font>
+
+200
+00:11:19,935 --> 00:11:20,703
+<font color="#acacac">Voice on</font>
+
+201
+00:11:21,215 --> 00:11:23,007
+<font color="#8b8b8b">And install pmf</font>
+
+202
+00:11:24,287 --> 00:11:27,103
+<font color="#d3d3d3">And pass it X and value of lamb</font>
+
+203
+00:11:27,615 --> 00:11:28,895
+<font color="#f0f0f0">And then</font>
+
+204
+00:11:29,151 --> 00:11:31,711
+<font color="#3a3a3a">Broadcast message</font>
+
+205
+00:11:31,967 --> 00:11:34,015
+<font color="#dadada">It's pretty much same as before</font>
+
+206
+00:11:35,295 --> 00:11:36,831
+<font color="#f8f8f8">And next I will</font>
+
+207
+00:11:37,087 --> 00:11:40,671
+<font color="#c1c1c1">Give us some let's change the color this time to Orange</font>
+
+208
+00:11:41,439 --> 00:11:43,487
+<font color="#ececec">And next I'll give a title</font>
+
+209
+00:11:45,023 --> 00:11:47,071
+<font color="#afafaf">This time it's p o i</font>
+
+210
+00:11:48,607 --> 00:11:51,423
+<font color="#858585">SSO in poisson distribution</font>
+
+211
+00:11:53,215 --> 00:11:56,287
+<font color="#ebebeb">And show this plot</font>
+
+212
+00:11:56,799 --> 00:11:58,591
+<font color="#c5c5c5">Perfect let's go back</font>
+
+213
+00:11:59,103 --> 00:12:01,407
+<font color="#8b8b8b">Get it out run it again</font>
+
+214
+00:12:02,175 --> 00:12:08,319
+<font color="#d7d7d7">And this is how the poison distribution looks based on the lamb and X values that we have provided for this is how</font>
+
+215
+00:12:08,575 --> 00:12:12,159
+<font color="#eeeeee">What should look for you if you had any issues or problems let me know</font>
+
+216
+00:12:12,671 --> 00:12:18,815
+<font color="#f9f9f9">If not good we can move to the next topic which is applications in machine learning for all these different</font>
+
+217
+00:12:19,071 --> 00:12:25,215
+<font color="#dddddd">Distribution that we have learned so first let's look at gaussian distribution it is used in version</font>
+
+218
+00:12:25,471 --> 00:12:28,031
+<font color="#b2b2b2">Play 90s and kernel density estimation</font>
+
+219
+00:12:28,287 --> 00:12:34,431
+<font color="#d2d2d2">We have but no need distribution which is used for by models binary classification problem</font>
+
+220
+00:12:34,687 --> 00:12:38,015
+<font color="#dfdfdf">Example can be spam or not spam emails</font>
+
+221
+00:12:38,271 --> 00:12:43,647
+<font color="#e6e6e6">We have binomial distribution which is used in logistic regression to model binary outcomes</font>
+
+222
+00:12:44,159 --> 00:12:48,767
+<font color="#d8d8d8">And we have poisson distribution Which models the count data example</font>
+
+223
+00:12:49,023 --> 00:12:55,167
+<font color="#f0f0f0">Can be number of clicks on a website that's what it's used for so these are different applications in machine learning for these</font>
+
+224
+00:12:55,423 --> 00:12:57,727
+<font color="#d4d4d4">For the distributions that we have learned</font>
+
+225
+00:12:57,983 --> 00:13:04,127
+<font color="#e0e0e0">Next let's look at Hands-On exercise so we will be doing couple of them were here first one is to calculate</font>
+
+226
+00:13:04,383 --> 00:13:06,431
+<font color="#a9a9a9">Delete probabilities using base theorem</font>
+
+227
+00:13:06,687 --> 00:13:12,831
+<font color="#e8e8e8">The objective here is to write a python function to calculate probabilities using base theorem</font>
+
+228
+00:13:13,087 --> 00:13:13,855
+<font color="#a8a8a8">Have you learned earlier</font>
+
+229
+00:13:14,111 --> 00:13:19,487
+<font color="#eaeaea">So the example problem can be a disease affects 1% of the population</font>
+
+230
+00:13:19,999 --> 00:13:26,143
+<font color="#e7e7e7">The test is 95% accurate for diseased individuals and 90% accurate for</font>
+
+231
+00:13:27,679 --> 00:13:29,727
+<font color="#dbdbdb">Now what do you have to do is find the probability</font>
+
+232
+00:13:29,983 --> 00:13:36,127
+<font color="#f1f1f1">Of having the disease given a positive test result so let me write it down so it's much more easier to</font>
+
+233
+00:13:37,919 --> 00:13:41,247
+<font color="#8d8d8d">How to create day 5</font>
+
+234
+00:13:41,759 --> 00:13:43,039
+<font color="#595959">1.2</font>
+
+235
+00:13:43,807 --> 00:13:47,135
+<font color="#c7c7c7">And as I mentioned the problem</font>
+
+236
+00:13:47,647 --> 00:13:50,975
+<font color="#dadada">Here is let's create bullet points</font>
+
+237
+00:13:51,231 --> 00:13:55,583
+<font color="#eaeaea">I'm going to say first the problem is I'm going to give three bullets for three different</font>
+
+238
+00:13:55,839 --> 00:13:57,631
+<font color="#dedede">Things that we're going to Define here</font>
+
+239
+00:13:58,143 --> 00:13:59,167
+<font color="#f2f2f2">A disease</font>
+
+240
+00:14:00,447 --> 00:14:01,215
+<font color="#272727">Affect</font>
+
+241
+00:14:01,727 --> 00:14:02,751
+<font color="#dfdfdf">1%</font>
+
+242
+00:14:03,263 --> 00:14:04,799
+<font color="#9a9a9a">What's the population</font>
+
+243
+00:14:06,335 --> 00:14:09,407
+<font color="#dddddd">Next I can see a test that is available</font>
+
+244
+00:14:09,663 --> 00:14:11,199
+<font color="#fcfcfc">Is 95%</font>
+
+245
+00:14:11,967 --> 00:14:12,735
+<font color="#e5e5e5">Accurate</font>
+
+246
+00:14:18,111 --> 00:14:19,135
+<font color="#b9b9b9">Deceased</font>
+
+247
+00:14:20,927 --> 00:14:21,951
+<font color="#dbdbdb">Individuals</font>
+
+248
+00:14:25,535 --> 00:14:26,815
+<font color="#f4f4f4">90%</font>
+
+249
+00:14:27,583 --> 00:14:28,863
+<font color="#b9b9b9">Accurate for</font>
+
+250
+00:14:31,423 --> 00:14:32,447
+<font color="#c4c4c4">Deceased</font>
+
+251
+00:14:32,703 --> 00:14:33,727
+<font color="#212121">Individual</font>
+
+252
+00:14:35,775 --> 00:14:37,311
+<font color="#fcfcfc">And then the final one is</font>
+
+253
+00:14:37,823 --> 00:14:39,615
+<font color="#e9e9e9">What we have to do is find the</font>
+
+254
+00:14:40,383 --> 00:14:41,407
+<font color="#e4e4e4">Probability</font>
+
+255
+00:14:45,503 --> 00:14:46,783
+<font color="#f5f5f5">Having the</font>
+
+256
+00:14:47,551 --> 00:14:48,319
+<font color="#e4e4e4">Disease</font>
+
+257
+00:14:50,623 --> 00:14:52,415
+<font color="#adadad">Appositive</font>
+
+258
+00:14:52,927 --> 00:14:54,719
+<font color="#bebebe">Test result</font>
+
+259
+00:14:54,975 --> 00:15:01,119
+<font color="#d0d0d0">Because if you're not you know as I mentioned the 90% the dress is 90% accurate for non-digital</font>
+
+260
+00:15:05,215 --> 00:15:06,239
+<font color="#1c1c1c">Reg</font>
+
+261
+00:15:08,031 --> 00:15:14,175
+<font color="#cecece">Will you will be using</font>
+
+262
+00:15:14,431 --> 00:15:16,991
+<font color="#b7b7b7">Create</font>
+
+263
+00:15:17,247 --> 00:15:19,295
+<font color="#c6c6c6">Function for base theorem</font>
+
+264
+00:15:21,343 --> 00:15:22,367
+<font color="#b0b0b0">Which</font>
+
+265
+00:15:22,623 --> 00:15:24,159
+<font color="#b7b7b7">Real probabilities</font>
+
+266
+00:15:24,671 --> 00:15:27,231
+<font color="#eaeaea">Which takes the sensitivity</font>
+
+267
+00:15:27,999 --> 00:15:29,279
+<font color="#e8e8e8">And</font>
+
+268
+00:15:29,791 --> 00:15:31,839
+<font color="#7b7b7b">Spacey the city</font>
+
+269
+00:15:33,119 --> 00:15:38,751
+<font color="#c0c0c0">Specificity the spelling of right hopefully so the evidence</font>
+
+270
+00:15:42,847 --> 00:15:44,383
+<font color="#bdbdbd">Sensitivity</font>
+
+271
+00:15:46,687 --> 00:15:52,575
+<font color="#d1d1d1">Play if you remember the the formula that it had this is what it is and one</font>
+
+272
+00:15:52,831 --> 00:15:54,111
+<font color="#999999">Minus</font>
+
+273
+00:15:54,367 --> 00:15:55,647
+<font color="#e0e0e0">Specificity</font>
+
+274
+00:16:04,095 --> 00:16:08,191
+<font color="#e9e9e9">Cancel that's the first line of next weekend calculate the</font>
+
+275
+00:16:08,447 --> 00:16:09,471
+<font color="#f6f6f6">The posterior</font>
+
+276
+00:16:09,983 --> 00:16:11,007
+<font color="#a3a3a3">Posterior</font>
+
+277
+00:16:11,775 --> 00:16:12,799
+<font color="#ebebeb">Equal to</font>
+
+278
+00:16:13,055 --> 00:16:14,335
+<font color="#e6e6e6">Sensitivity</font>
+
+279
+00:16:15,359 --> 00:16:16,383
+<font color="#bfbfbf">Times Square</font>
+
+280
+00:16:17,919 --> 00:16:19,199
+<font color="#bababa">And divided by</font>
+
+281
+00:16:19,711 --> 00:16:20,735
+<font color="#e2e2e2">Evidence</font>
+
+282
+00:16:22,015 --> 00:16:24,319
+<font color="#d2d2d2">No that is what we will</font>
+
+283
+00:16:25,343 --> 00:16:26,367
+<font color="#c1c1c1">Return yes</font>
+
+284
+00:16:26,623 --> 00:16:28,159
+<font color="#f1f1f1">So let's say</font>
+
+285
+00:16:28,415 --> 00:16:29,439
+<font color="#f5f5f5">Based on the</font>
+
+286
+00:16:30,463 --> 00:16:35,839
+<font color="#e0e0e0">Based on the requirements of priorities 0.01 which means 1%</font>
+
+287
+00:16:36,095 --> 00:16:36,863
+<font color="#d3d3d3">Prevalence</font>
+
+288
+00:16:37,119 --> 00:16:39,423
+<font color="#f4f4f4">We have sensitivity</font>
+
+289
+00:16:41,727 --> 00:16:42,751
+<font color="#f9f9f9">Is equal to</font>
+
+290
+00:16:43,007 --> 00:16:49,151
+<font color="#afafaf">0.95 which means 92 + 295 % as is mentions next</font>
+
+291
+00:16:49,407 --> 00:16:49,919
+<font color="#ebebeb">We have</font>
+
+292
+00:16:50,175 --> 00:16:51,711
+<font color="#dadada">Specificity</font>
+
+293
+00:16:52,735 --> 00:16:55,039
+<font color="#9e9e9e">Specificity</font>
+
+294
+00:16:55,295 --> 00:16:57,343
+<font color="#f7f7f7">Equal to 90%</font>
+
+295
+00:16:58,111 --> 00:17:04,255
+<font color="#565656">Percent</font>
+
+296
+00:17:05,791 --> 00:17:06,815
+<font color="#898989">Prevalence</font>
+
+297
+00:17:09,631 --> 00:17:13,215
+<font color="#ececec">Our sensitivity as I mentioned which is also called as</font>
+
+298
+00:17:15,007 --> 00:17:16,543
+<font color="#dadada">Positive rate</font>
+
+299
+00:17:17,055 --> 00:17:20,127
+<font color="#d7d7d7">And a true negative rate is specificity</font>
+
+300
+00:17:21,407 --> 00:17:22,431
+<font color="#cbcbcb">Negative</font>
+
+301
+00:17:25,503 --> 00:17:29,343
+<font color="#f7f7f7">Okay so now that we have this let's go ahead and get the value</font>
+
+302
+00:17:29,599 --> 00:17:30,623
+<font color="#4f4f4f">Wisteria</font>
+
+303
+00:17:31,135 --> 00:17:37,279
+<font color="#eeeeee">Equal to base theorem into this I can pass the value that I have created here</font>
+
+304
+00:17:38,559 --> 00:17:39,583
+<font color="#9f9f9f">Next it need</font>
+
+305
+00:17:39,839 --> 00:17:41,119
+<font color="#e8e8e8">Sensitivity</font>
+
+306
+00:17:41,375 --> 00:17:42,655
+<font color="#f5f5f5">And then it needs</font>
+
+307
+00:17:42,911 --> 00:17:44,191
+<font color="#e8e8e8">Specificity</font>
+
+308
+00:17:45,215 --> 00:17:46,239
+<font color="#d5d5d5">Let's print it out</font>
+
+309
+00:17:47,263 --> 00:17:53,407
+<font color="#e7e7e7">No we should find the probability of having the disease given a positive test result so probability</font>
+
+310
+00:17:55,199 --> 00:17:56,223
+<font color="#efefef">Disease</font>
+
+311
+00:17:58,527 --> 00:18:00,063
+<font color="#a9a9a9">Pause it</font>
+
+312
+00:18:01,855 --> 00:18:02,623
+<font color="#e1e1e1">Is</font>
+
+313
+00:18:09,279 --> 00:18:11,839
+<font color="#f9f9f9">Make sure my graph is closed</font>
+
+314
+00:18:13,119 --> 00:18:14,143
+<font color="#9d9d9d">Get it out</font>
+
+315
+00:18:14,911 --> 00:18:16,447
+<font color="#cbcbcb">And I'm going to say 5:10</font>
+
+316
+00:18:17,215 --> 00:18:18,239
+<font color="#d0d0d0">Day</font>
+
+317
+00:18:18,495 --> 00:18:20,287
+<font color="#555555">Exercise 1.5</font>
+
+318
+00:18:20,543 --> 00:18:26,687
+<font color="#f0f0f0">Probability of disease given positive test is 0.08 which is 8% probability</font>
+
+319
+00:18:26,943 --> 00:18:28,479
+<font color="#f2f2f2">That you might have the disease</font>
+
+320
+00:18:29,503 --> 00:18:35,647
+<font color="#ededed">And I hope you were able to figure out</font>
+
+321
+00:18:35,903 --> 00:18:42,047
+<font color="#efefef">Calculate the probabilities using the base theorem that we did here if not had any issues or have any questions let me know</font>
+
+322
+00:18:42,815 --> 00:18:45,631
+<font color="#ececec">Next let's go ahead and look at exercise 2</font>
+
+323
+00:18:46,143 --> 00:18:47,167
+<font color="#999999">Are exercise</font>
+
+324
+00:18:47,423 --> 00:18:53,567
+<font color="#d8d8d8">Is the plot and explore different probability distributions that we learned which is Guardian distribution</font>
+
+325
+00:18:53,823 --> 00:18:58,431
+<font color="#dadada">Open binomial distribution in poisson distribution let's look at those and how we can</font>
+
+326
+00:18:58,687 --> 00:19:02,527
+<font color="#f3f3f3">Visualize and understand key probability distributions using python</font>
+
+327
+00:19:04,063 --> 00:19:06,111
+<font color="#cbcbcb">And save it as</font>
+
+328
+00:19:06,879 --> 00:19:07,903
+<font color="#989898">Day 5</font>
+
+329
+00:19:08,671 --> 00:19:10,719
+<font color="#444444">Exercise 2.0</font>
+
+330
+00:19:11,999 --> 00:19:14,303
+<font color="#aaaaaa">Not here first thing I'll say import</font>
+
+331
+00:19:14,815 --> 00:19:16,607
+<font color="#919191">Numpy as NP</font>
+
+332
+00:19:17,631 --> 00:19:20,703
+<font color="#cdcdcd">Next I'll get my matplotlib</font>
+
+333
+00:19:21,983 --> 00:19:24,543
+<font color="#a8a8a8">Divided plot as PLT</font>
+
+334
+00:19:25,567 --> 00:19:27,103
+<font color="#bdbdbd">Next import</font>
+
+335
+00:19:30,431 --> 00:19:32,223
+<font color="#5b5b5b">Skypark stats</font>
+
+336
+00:19:32,991 --> 00:19:35,295
+<font color="#ebebeb">And import from this I can</font>
+
+337
+00:19:35,551 --> 00:19:41,695
+<font color="#eaeaea">Get my guardian distribution which is also called a normal distribution I need binomial distribution so that is</font>
+
+338
+00:19:41,951 --> 00:19:44,255
+<font color="#939393">Are you home and poisson comes from po</font>
+
+339
+00:19:44,511 --> 00:19:50,143
+<font color="#bcbcbc">I s s o n that's the position distribution so we have these</font>
+
+340
+00:19:50,911 --> 00:19:52,959
+<font color="#ededed">Next let's start with</font>
+
+341
+00:19:53,983 --> 00:19:56,031
+<font color="#e2e2e2">Guardian distribution</font>
+
+342
+00:20:05,503 --> 00:20:11,647
+<font color="#bababa">So for this I'm going to say x equal to MP dot lens space</font>
+
+343
+00:20:11,903 --> 00:20:15,487
+<font color="#b8b8b8">And here I'll give -4 comma 4</font>
+
+344
+00:20:15,743 --> 00:20:16,767
+<font color="#434343">Call my</font>
+
+345
+00:20:17,023 --> 00:20:20,095
+<font color="#dcdcdc">Next I'm going to say bye equal to</font>
+
+346
+00:20:20,607 --> 00:20:22,399
+<font color="#ededed">Normal distribution</font>
+
+347
+00:20:22,655 --> 00:20:23,935
+<font color="#b9b9b9">PDF</font>
+
+348
+00:20:24,191 --> 00:20:30,335
+<font color="#d6d6d6">And in here and give X lock equal to 0 and scale equal to</font>
+
+349
+00:20:33,407 --> 00:20:35,967
+<font color="#d8d8d8">Next I will say pill</font>
+
+350
+00:20:38,527 --> 00:20:41,087
+<font color="#d4d4d4">And I want to plot X comma y</font>
+
+351
+00:20:41,599 --> 00:20:42,623
+<font color="#1b1b1b">Lab</font>
+
+352
+00:20:43,135 --> 00:20:44,159
+<font color="#ededed">Equal to</font>
+
+353
+00:20:44,671 --> 00:20:45,695
+<font color="#aeaeae">Guardian</font>
+
+354
+00:20:46,207 --> 00:20:48,255
+<font color="#b3b3b3">A normal distribution what are we going to call it</font>
+
+355
+00:20:50,303 --> 00:20:51,071
+<font color="#8b8b8b">I'll</font>
+
+356
+00:20:52,607 --> 00:20:53,631
+<font color="#aaaaaa">Guardian</font>
+
+357
+00:20:54,143 --> 00:20:55,167
+<font color="#ededed">Distribution</font>
+
+358
+00:20:57,983 --> 00:20:59,007
+<font color="#e2e2e2">That's</font>
+
+359
+00:20:59,263 --> 00:21:01,567
+<font color="#989898">Next I'm going to say BLT</font>
+
+360
+00:21:03,871 --> 00:21:06,175
+<font color="#e6e6e6">Show my blood so let's go ahead and run it</font>
+
+361
+00:21:06,687 --> 00:21:08,479
+<font color="#6c6c6c">I'm going to say here python</font>
+
+362
+00:21:08,991 --> 00:21:10,015
+<font color="#aaaaaa">Day</font>
+
+363
+00:21:11,551 --> 00:21:12,831
+<font color="#353535">2.5</font>
+
+364
+00:21:13,599 --> 00:21:16,672
+<font color="#cfcfcf">Indigo we have a guardian distribution perfect</font>
+
+365
+00:21:16,928 --> 00:21:17,696
+<font color="#dcdcdc">Next</font>
+
+366
+00:21:17,952 --> 00:21:19,232
+<font color="#cbcbcb">Is binomial</font>
+
+367
+00:21:21,280 --> 00:21:23,328
+<font color="#b8b8b8">Normal distribution</font>
+
+368
+00:21:25,376 --> 00:21:28,704
+<font color="#bcbcbc">And this I can say n comma p</font>
+
+369
+00:21:28,960 --> 00:21:32,288
+<font color="#dcdcdc">Equal to 10 comma 0.5</font>
+
+370
+00:21:33,056 --> 00:21:35,104
+<font color="#ededed">We have x equal to</font>
+
+371
+00:21:35,360 --> 00:21:37,408
+<font color="#6f6f6f">NP dot range</font>
+
+372
+00:21:37,664 --> 00:21:39,968
+<font color="#979797">And pass it zero comma</font>
+
+373
+00:21:40,480 --> 00:21:42,272
+<font color="#aaaaaa">N + 1</font>
+
+374
+00:21:43,552 --> 00:21:46,368
+<font color="#c5c5c5">And why equal to Bynum</font>
+
+375
+00:21:46,624 --> 00:21:48,416
+<font color="#5c5c5c">Dot PMS</font>
+
+376
+00:21:48,928 --> 00:21:50,464
+<font color="#3b3b3b">Needs</font>
+
+377
+00:21:50,720 --> 00:21:55,328
+<font color="#e1e1e1">N&p just like how we did earlier so these three parameters</font>
+
+378
+00:21:55,584 --> 00:22:01,728
+<font color="#a9a9a9">Next time we'll see plot dot bar is the bar diagram that it gets so just give it X comma</font>
+
+379
+00:22:02,752 --> 00:22:05,568
+<font color="#e1e1e1">And label equal to</font>
+
+380
+00:22:06,080 --> 00:22:07,104
+<font color="#d8d8d8">Binomial</font>
+
+381
+00:22:08,640 --> 00:22:10,688
+<font color="#f5f5f5">Next I want to say title</font>
+
+382
+00:22:11,968 --> 00:22:14,784
+<font color="#d5d5d5">Intitle will be binomial</font>
+
+383
+00:22:15,040 --> 00:22:16,832
+<font color="#f1f1f1">Distribution</font>
+
+384
+00:22:17,600 --> 00:22:20,416
+<font color="#dbdbdb">And finally let's show this plot</font>
+
+385
+00:22:21,184 --> 00:22:23,744
+<font color="#e9e9e9">Perfect I am going to comment this out</font>
+
+386
+00:22:24,512 --> 00:22:26,048
+<font color="#909090">So she was only one right now</font>
+
+387
+00:22:26,816 --> 00:22:28,096
+<font color="#ededed">Close this previous one</font>
+
+388
+00:22:29,120 --> 00:22:30,400
+<font color="#f1f1f1">And run it again</font>
+
+389
+00:22:31,168 --> 00:22:36,800
+<font color="#ebebeb">And they going both of them because I still have the using the same variable here</font>
+
+390
+00:22:37,056 --> 00:22:38,848
+<font color="#ededed">So I'll just go ahead and</font>
+
+391
+00:22:39,104 --> 00:22:40,128
+<font color="#6f6f6f">Comment this</font>
+
+392
+00:22:41,408 --> 00:22:43,712
+<font color="#f2f2f2">And close this and run it again</font>
+
+393
+00:22:45,760 --> 00:22:47,808
+<font color="#7b7b7b">There you have a bar diagram</font>
+
+394
+00:22:48,064 --> 00:22:54,208
+<font color="#e7e7e7">You can always make something like this it's interesting to have bar and the blood</font>
+
+395
+00:22:54,464 --> 00:22:54,976
+<font color="#888888">Put them together</font>
+
+396
+00:22:55,232 --> 00:22:56,256
+<font color="#adadad">Display here</font>
+
+397
+00:22:56,512 --> 00:22:59,584
+<font color="#e4e4e4">Next one that we have is poison</font>
+
+398
+00:23:00,864 --> 00:23:02,400
+<font color="#b2b2b2">Poisson distribution</font>
+
+399
+00:23:05,216 --> 00:23:06,496
+<font color="#efefef">And for this</font>
+
+400
+00:23:06,752 --> 00:23:12,384
+<font color="#a8a8a8">New Salam equal to so we need lamb and XY name equal to 3</font>
+
+401
+00:23:12,640 --> 00:23:14,688
+<font color="#bfbfbf">X equal to m</font>
+
+402
+00:23:15,968 --> 00:23:16,992
+<font color="#353535">Arranged</font>
+
+403
+00:23:17,248 --> 00:23:18,528
+<font color="#3f3f3f">760</font>
+
+404
+00:23:20,576 --> 00:23:26,208
+<font color="#dcdcdc">0 to 10 next I need to give by equal to</font>
+
+405
+00:23:26,464 --> 00:23:28,512
+<font color="#5e5e5e">Play song</font>
+
+406
+00:23:29,024 --> 00:23:30,304
+<font color="#5e5e5e">Dot pmf</font>
+
+407
+00:23:31,072 --> 00:23:34,144
+<font color="#a3a3a3">And this needs X and lamb Valley Street</font>
+
+408
+00:23:34,400 --> 00:23:37,216
+<font color="#818181">Perfect now let's get the bad idea bar chart</font>
+
+409
+00:23:37,472 --> 00:23:39,264
+<font color="#979797">Does The X comma y</font>
+
+410
+00:23:39,776 --> 00:23:42,080
+<font color="#e5e5e5">And I need label</font>
+
+411
+00:23:42,336 --> 00:23:43,360
+<font color="#dedede">Equal to</font>
+
+412
+00:23:43,616 --> 00:23:44,640
+<font color="#767676">Poison</font>
+
+413
+00:23:47,456 --> 00:23:50,016
+<font color="#c3c3c3">Perfect next time I need to give a title</font>
+
+414
+00:23:50,528 --> 00:23:52,832
+<font color="#f0f0f0">I mean I don't need but it looks good</font>
+
+415
+00:23:53,344 --> 00:23:56,416
+<font color="#e2e2e2">Distribution</font>
+
+416
+00:23:57,440 --> 00:23:58,976
+<font color="#bbbbbb">Next let's show the plot</font>
+
+417
+00:23:59,744 --> 00:24:05,888
+<font color="#e4e4e4">This is bad minimum you can always give X and Y axis in all those things but I like to keep it as simple</font>
+
+418
+00:24:06,144 --> 00:24:08,448
+<font color="#cfcfcf">Is it possible I'm going to close this binomial distribution</font>
+
+419
+00:24:08,960 --> 00:24:11,008
+<font color="#efefef">Clear it out and run this one</font>
+
+420
+00:24:11,776 --> 00:24:16,128
+<font color="#b8b8b8">And there you go we have a voice on distribution displayed here on the grass perfectly</font>
+
+421
+00:24:17,152 --> 00:24:19,968
+<font color="#e2e2e2">So I hope we are able to follow along if not</font>
+
+422
+00:24:20,224 --> 00:24:23,552
+<font color="#fafafa">Go through this and let me know if you have any issues or problems</font>
+
+423
+00:24:23,808 --> 00:24:29,952
+<font color="#e8e8e8">For additional practice you can look at creating and visualizing a multi multi</font>
+
+424
+00:24:30,208 --> 00:24:36,096
+<font color="#dedede">Tell me a distribution for multi-class data you can try with the comparing gaussian and uniform distribution</font>
+
+425
+00:24:36,352 --> 00:24:37,632
+<font color="#b4b4b4">For continuous data</font>
+
+426
+00:24:37,888 --> 00:24:39,424
+<font color="#ececec">Also try to</font>
+
+427
+00:24:39,680 --> 00:24:45,824
+<font color="#e2e2e2">Use probability distributions to simulate and analyze real world data sets that are available in different websites</font>
+
+428
+00:24:46,336 --> 00:24:52,480
+<font color="#eaeaea">Today we explored probability Theory and its applications in machine learning</font>
+
+429
+00:24:52,736 --> 00:24:58,880
+<font color="#d9d9d9">My calculating probabilities using base theorem and visualizing distributions we gained an essential understanding of</font>
+
+430
+00:24:59,136 --> 00:25:05,280
+<font color="#f2f2f2">Probabilistic modeling and this will be quite helpful in future videos as in we go along so if you have any questions or problems</font>

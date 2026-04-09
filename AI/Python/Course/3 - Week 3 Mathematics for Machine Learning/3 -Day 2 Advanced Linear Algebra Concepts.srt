@@ -1,0 +1,1523 @@
+﻿1
+00:00:00,256 --> 00:00:02,048
+<font color="#cdcdcd">Welcome back to day 2</font>
+
+2
+00:00:02,304 --> 00:00:07,680
+<font color="#cfcfcf">Today we're going to look at Advanced linear algebra Concepts yesterday we looked at some of the linear algebra Concepts</font>
+
+3
+00:00:07,936 --> 00:00:09,216
+<font color="#e9e9e9">Let's look at something more</font>
+
+4
+00:00:09,728 --> 00:00:11,776
+<font color="#e3e3e3">So here you're going to cover first</font>
+
+5
+00:00:12,032 --> 00:00:12,800
+<font color="#373737">Determinants</font>
+
+6
+00:00:13,056 --> 00:00:14,592
+<font color="#a6a6a6">And inverse of a matrix</font>
+
+7
+00:00:14,848 --> 00:00:16,384
+<font color="#d4d4d4">Now what are the two minutes</font>
+
+8
+00:00:16,640 --> 00:00:17,664
+<font color="#878787">A determinant</font>
+
+9
+00:00:17,920 --> 00:00:19,456
+<font color="#f3f3f3">Is a scalar value</font>
+
+10
+00:00:19,712 --> 00:00:25,088
+<font color="#e5e5e5">That provides information about The Matrix is properties such as invertibility</font>
+
+11
+00:00:25,856 --> 00:00:28,416
+<font color="#e7e7e7">It is calculated only for square mattresses</font>
+
+12
+00:00:28,928 --> 00:00:35,072
+<font color="#dfdfdf">Some of the key insights for the determinant include if a determinant of a matrix a equal to 0</font>
+
+13
+00:00:35,328 --> 00:00:38,656
+<font color="#e9e9e9">The Matrix is singular which means it's not invertible</font>
+
+14
+00:00:39,168 --> 00:00:41,728
+<font color="#b7b7b7">Videos of determinant of is not equal to zero</font>
+
+15
+00:00:41,984 --> 00:00:42,752
+<font color="#848484">Then</font>
+
+16
+00:00:43,264 --> 00:00:44,544
+<font color="#bdbdbd">Is invertible</font>
+
+17
+00:00:45,312 --> 00:00:48,384
+<font color="#efefef">Let's look at the geometric interpretation for that</font>
+
+18
+00:00:48,896 --> 00:00:54,272
+<font color="#d6d6d6">So for a 2 by 2 Matrix the determinant represents the scaling Factor</font>
+
+19
+00:00:54,784 --> 00:00:57,856
+<font color="#dbdbdb">What's the area formed by its column vectors</font>
+
+20
+00:00:58,368 --> 00:01:01,952
+<font color="#cecece">So the formula can be represented for a 2 by 2 metric size</font>
+
+21
+00:01:02,464 --> 00:01:07,072
+<font color="#d4d4d4">Determinant of the Matrix is here we have a 2X ABCD</font>
+
+22
+00:01:07,328 --> 00:01:08,352
+<font color="#ebebeb">Equal to</font>
+
+23
+00:01:08,608 --> 00:01:09,888
+<font color="#a8a8a8">8 * d</font>
+
+24
+00:01:11,168 --> 00:01:15,776
+<font color="#bfbfbf">B * C that kind of gives you the determinant of a 2X Matrix</font>
+
+25
+00:01:16,032 --> 00:01:19,616
+<font color="#f4f4f4">Now let's look at how we can implement this inside</font>
+
+26
+00:01:20,640 --> 00:01:21,152
+<font color="#d8d8d8">Python</font>
+
+27
+00:01:21,664 --> 00:01:23,712
+<font color="#cccccc">Someone start a new file python</font>
+
+28
+00:01:24,480 --> 00:01:28,320
+<font color="#e8e8e8">I am going to save it inside my day too and call it stamps</font>
+
+29
+00:01:29,088 --> 00:01:31,648
+<font color="#e2e2e2">Here let's start with importing numpy</font>
+
+30
+00:01:33,184 --> 00:01:34,464
+<font color="#545454">Has NB</font>
+
+31
+00:01:34,720 --> 00:01:37,280
+<font color="#dadada">So I have that available now I'm going to secrete</font>
+
+32
+00:01:38,048 --> 00:01:40,352
+<font color="#545454">Matrix MP</font>
+
+33
+00:01:42,400 --> 00:01:45,216
+<font color="#c2c2c2">And then let's create a matrix here to buy two</font>
+
+34
+00:01:45,472 --> 00:01:46,496
+<font color="#8f8f8f">Call it</font>
+
+35
+00:01:46,752 --> 00:01:47,776
+<font color="#666666">Comma 3</font>
+
+36
+00:01:53,152 --> 00:01:56,480
+<font color="#f0f0f0">Now if you look at our formula that we have given here</font>
+
+37
+00:01:56,992 --> 00:01:58,784
+<font color="#e2e2e2">If I tried to calculate</font>
+
+38
+00:01:59,040 --> 00:02:00,064
+<font color="#b6b6b6">8 *</font>
+
+39
+00:02:00,320 --> 00:02:04,160
+<font color="#767676">328 so this is a b c and d</font>
+
+40
+00:02:04,416 --> 00:02:07,488
+<font color="#c9c9c9">Add which is 2 * 4 4/8</font>
+
+41
+00:02:08,000 --> 00:02:08,768
+<font color="#eaeaea">And then</font>
+
+42
+00:02:09,024 --> 00:02:10,560
+<font color="#bababa">3 * 1</font>
+
+43
+00:02:10,816 --> 00:02:13,120
+<font color="#d1d1d1">Which is 38 - 3</font>
+
+44
+00:02:13,376 --> 00:02:14,400
+<font color="#b4b4b4">Is five</font>
+
+45
+00:02:14,912 --> 00:02:19,008
+<font color="#d8d8d8">So let's go ahead and calculate that and see if it just gives me the determinant</font>
+
+46
+00:02:19,776 --> 00:02:21,056
+<font color="#585858">Determine</font>
+
+47
+00:02:22,592 --> 00:02:24,128
+<font color="#c2c2c2">Equal to NP</font>
+
+48
+00:02:25,920 --> 00:02:27,712
+<font color="#d1d1d1">L i n a l g</font>
+
+49
+00:02:28,992 --> 00:02:30,784
+<font color="#5b5b5b">Dot determinate</font>
+
+50
+00:02:31,040 --> 00:02:33,088
+<font color="#dbdbdb">Okay that's what it's available</font>
+
+51
+00:02:33,856 --> 00:02:35,136
+<font color="#989898">So linear algebra</font>
+
+52
+00:02:37,184 --> 00:02:37,952
+<font color="#c5c5c5">Print</font>
+
+53
+00:02:39,232 --> 00:02:42,304
+<font color="#f4f4f4">What is the determinant of this</font>
+
+54
+00:02:43,072 --> 00:02:45,120
+<font color="#f5f5f5">I can get that to buy</font>
+
+55
+00:02:45,376 --> 00:02:46,400
+<font color="#939393">Printing this out</font>
+
+56
+00:02:46,656 --> 00:02:47,680
+<font color="#fcfcfc">Let's go ahead</font>
+
+57
+00:02:47,936 --> 00:02:49,216
+<font color="#e7e7e7">And check it out</font>
+
+58
+00:02:49,472 --> 00:02:50,240
+<font color="#c2c2c2">Lights on</font>
+
+59
+00:02:50,752 --> 00:02:54,592
+<font color="#d6d6d6">Day underscore samples I forgot to put the data so as I mentioned</font>
+
+60
+00:02:54,848 --> 00:03:00,992
+<font color="#d2d2d2">It's 51001 because it has a little bit of error Factor over there but that's perfect</font>
+
+61
+00:03:01,248 --> 00:03:06,112
+<font color="#c7c7c7">Is multiplying by float so we get sometimes this thing but the value is 5</font>
+
+62
+00:03:06,624 --> 00:03:11,232
+<font color="#d1d1d1">Now let's look at next topic which is inverse of a matrix</font>
+
+63
+00:03:12,256 --> 00:03:14,304
+<font color="#b1b1b1">So the inverse of a matrix a</font>
+
+64
+00:03:14,560 --> 00:03:19,936
+<font color="#cbcbcb">Is denoted as a raised to -1 that's how you can tell if a matrix is inverse Matrix</font>
+
+65
+00:03:20,448 --> 00:03:26,592
+<font color="#e6e6e6">Now the product of a matrix and its inverse is the identity Matrix which kind of makes sense</font>
+
+66
+00:03:26,848 --> 00:03:30,176
+<font color="#c2c2c2">A reverse of itself is identity Matrix</font>
+
+67
+00:03:30,944 --> 00:03:32,224
+<font color="#d7d7d7">A matrix is</font>
+
+68
+00:03:32,736 --> 00:03:35,552
+<font color="#e0e0e0">Invertible only if the determinant</font>
+
+69
+00:03:35,808 --> 00:03:38,112
+<font color="#cbcbcb">Elsa is not equal to zero</font>
+
+70
+00:03:38,624 --> 00:03:40,928
+<font color="#ababab">Now the formula for a 2 by 2 Matrix</font>
+
+71
+00:03:41,184 --> 00:03:45,536
+<font color="#c5c5c5">Choose something like this are is to - 1 equal to 1 /</font>
+
+72
+00:03:45,792 --> 00:03:47,072
+<font color="#bebebe">Determinant of a</font>
+
+73
+00:03:47,584 --> 00:03:49,376
+<font color="#f3f3f3">And The Matrix</font>
+
+74
+00:03:49,632 --> 00:03:53,984
+<font color="#cccccc">- b - c that's how you can get a inverse Matrix</font>
+
+75
+00:03:54,496 --> 00:03:58,080
+<font color="#f4f4f4">So how do I implement this in Python I can go here</font>
+
+76
+00:03:58,848 --> 00:04:00,640
+<font color="#f7f7f7">Let's go ahead and comment this out</font>
+
+77
+00:04:01,408 --> 00:04:02,688
+<font color="#747474">What is the inverse</font>
+
+78
+00:04:03,712 --> 00:04:05,248
+<font color="#d0d0d0">Equal to NP</font>
+
+79
+00:04:05,760 --> 00:04:08,064
+<font color="#9f9f9f">Dot linear algebra Library</font>
+
+80
+00:04:08,832 --> 00:04:10,112
+<font color="#838383">Dot inverse</font>
+
+81
+00:04:10,880 --> 00:04:11,648
+<font color="#838383">Of a</font>
+
+82
+00:04:12,416 --> 00:04:13,952
+<font color="#f7f7f7">And I can print</font>
+
+83
+00:04:14,720 --> 00:04:16,768
+<font color="#9b9b9b">There's one thing in words</font>
+
+84
+00:04:17,024 --> 00:04:18,047
+<font color="#4c4c4c">Off</font>
+
+85
+00:04:19,071 --> 00:04:20,863
+<font color="#8d8d8d">Is slash in</font>
+
+86
+00:04:22,143 --> 00:04:22,911
+<font color="#646464">Call</font>
+
+87
+00:04:23,679 --> 00:04:24,703
+<font color="#626262">Inverse</font>
+
+88
+00:04:25,215 --> 00:04:26,751
+<font color="#d5d5d5">Let's look at how the inverse looks like</font>
+
+89
+00:04:27,519 --> 00:04:29,311
+<font color="#8e8e8e">Is this out done it again</font>
+
+90
+00:04:29,567 --> 00:04:32,639
+<font color="#c3c3c3">And here is my inverse of this Matrix so this is this</font>
+
+91
+00:04:32,895 --> 00:04:36,479
+<font color="#e9e9e9">Times this Matrix should give us an identity Matrix</font>
+
+92
+00:04:38,015 --> 00:04:38,527
+<font color="#d9d9d9">Next</font>
+
+93
+00:04:39,039 --> 00:04:39,807
+<font color="#efefef">Let's look at</font>
+
+94
+00:04:40,063 --> 00:04:42,111
+<font color="#b4b4b4">Eigenvalues and eigenvectors</font>
+
+95
+00:04:42,367 --> 00:04:45,951
+<font color="#ededed">Know what are Asian values and agent vectors</font>
+
+96
+00:04:46,207 --> 00:04:52,351
+<font color="#eeeeee">Asian values and agent vectors are properties of square matrices that describe transformations</font>
+
+97
+00:04:53,375 --> 00:04:56,191
+<font color="#ececec">So for example if a matrix a</font>
+
+98
+00:04:56,447 --> 00:04:59,519
+<font color="#dadada">Times V equal to Lambda times V</font>
+
+99
+00:04:59,775 --> 00:05:01,823
+<font color="#f5f5f5">Then in this particular case</font>
+
+100
+00:05:02,079 --> 00:05:04,895
+<font color="#dfdfdf">The V is the agent Vector a vector</font>
+
+101
+00:05:05,151 --> 00:05:08,223
+<font color="#f9f9f9">That doesn't change direction during the transformation</font>
+
+102
+00:05:08,735 --> 00:05:09,503
+<font color="#737373">And lamb</font>
+
+103
+00:05:09,759 --> 00:05:11,039
+<font color="#eaeaea">Is an agent value</font>
+
+104
+00:05:11,295 --> 00:05:13,087
+<font color="#d2d2d2">The scalar indicating</font>
+
+105
+00:05:13,343 --> 00:05:16,415
+<font color="#e5e5e5">How we is killed during the transformation</font>
+
+106
+00:05:17,183 --> 00:05:19,487
+<font color="#e3e3e3">The geometric representation of this</font>
+
+107
+00:05:19,743 --> 00:05:24,095
+<font color="#ededed">I can talk about Asian vectors as a Asian Vector point in the direction</font>
+
+108
+00:05:24,351 --> 00:05:29,215
+<font color="#d9d9d9">Where the Matrix transformation stretches or compresses vectors</font>
+
+109
+00:05:29,471 --> 00:05:34,847
+<font color="#e5e5e5">That is Asian values indicate the factor of stretching or compression</font>
+
+110
+00:05:35,615 --> 00:05:40,223
+<font color="#e2e2e2">The properties I can talk about is a matrix of the size n by n</font>
+
+111
+00:05:40,479 --> 00:05:43,295
+<font color="#d8d8d8">Has an agent values and agent vectors</font>
+
+112
+00:05:43,807 --> 00:05:46,111
+<font color="#e9e9e9">Agent values can be real or complex</font>
+
+113
+00:05:46,367 --> 00:05:49,439
+<font color="#d4d4d4">I know the property is for symmetric Matrix</font>
+
+114
+00:05:49,695 --> 00:05:51,743
+<font color="#dadada">Asian values are always real</font>
+
+115
+00:05:52,511 --> 00:05:54,559
+<font color="#e8e8e8">Now let's see how we can</font>
+
+116
+00:05:54,815 --> 00:05:57,887
+<font color="#d4d4d4">Compute agent values and agent vectors in Mumbai</font>
+
+117
+00:05:58,143 --> 00:06:00,703
+<font color="#d1d1d1">Don't go back here I'm going to use the same</font>
+
+118
+00:06:00,959 --> 00:06:01,983
+<font color="#b3b3b3">One I'm going</font>
+
+119
+00:06:02,239 --> 00:06:03,519
+<font color="#bdbdbd">Common this out</font>
+
+120
+00:06:03,775 --> 00:06:05,055
+<font color="#a7a7a7">Can say Asian</font>
+
+121
+00:06:05,311 --> 00:06:06,335
+<font color="#1a1a1a">Valu</font>
+
+122
+00:06:07,103 --> 00:06:08,895
+<font color="#7b7b7b">Comma agent</font>
+
+123
+00:06:09,407 --> 00:06:10,687
+<font color="#bebebe">Vectors</font>
+
+124
+00:06:11,711 --> 00:06:12,735
+<font color="#efefef">Equal to</font>
+
+125
+00:06:12,991 --> 00:06:14,271
+<font color="#8e8e8e">MP</font>
+
+126
+00:06:15,807 --> 00:06:19,391
+<font color="#6a6a6a">Ninja algebra dot EIG</font>
+
+127
+00:06:20,159 --> 00:06:22,207
+<font color="#efefef">This will give me</font>
+
+128
+00:06:22,463 --> 00:06:24,511
+<font color="#e4e4e4">The Asian values and Asian vectors</font>
+
+129
+00:06:25,535 --> 00:06:26,303
+<font color="#b3b3b3">Matrix</font>
+
+130
+00:06:26,815 --> 00:06:29,375
+<font color="#eaeaea">I want to print it and check it out I can say print</font>
+
+131
+00:06:32,191 --> 00:06:34,495
+<font color="#797979">Values / n</font>
+
+132
+00:06:35,263 --> 00:06:37,055
+<font color="#8a8a8a">Call my agent</font>
+
+133
+00:06:37,311 --> 00:06:39,615
+<font color="#f4f4f4">Values can do the same thing for</font>
+
+134
+00:06:41,919 --> 00:06:42,943
+<font color="#4c4c4c">Vectors</font>
+
+135
+00:06:43,455 --> 00:06:45,503
+<font color="#a8a8a8">I can bring this out here</font>
+
+136
+00:06:46,271 --> 00:06:48,319
+<font color="#fbfbfb">Let's go ahead and run this and check it out</font>
+
+137
+00:06:48,831 --> 00:06:54,975
+<font color="#dfdfdf">So Asian value for that Matrix is 1 and 5 and agent Vector is this particular</font>
+
+138
+00:06:55,231 --> 00:06:56,255
+<font color="#b8b8b8">What's Matrix right here</font>
+
+139
+00:06:57,535 --> 00:07:01,119
+<font color="#e8e8e8">I can give another example so for example if you create another area</font>
+
+140
+00:07:04,959 --> 00:07:05,983
+<font color="#545454">MP</font>
+
+141
+00:07:10,079 --> 00:07:12,639
+<font color="#aaaaaa">David values for comma 2</font>
+
+142
+00:07:14,943 --> 00:07:16,479
+<font color="#7e7e7e">Speed one comma one</font>
+
+143
+00:07:17,759 --> 00:07:19,807
+<font color="#d4d4d4">Now I can see agent well</font>
+
+144
+00:07:20,319 --> 00:07:21,599
+<font color="#808080">An agent</font>
+
+145
+00:07:23,135 --> 00:07:26,207
+<font color="#bebebe">Equal to NP dot linear algebra</font>
+
+146
+00:07:28,511 --> 00:07:30,303
+<font color="#676767">Dot EIG</font>
+
+147
+00:07:31,071 --> 00:07:32,607
+<font color="#484848">Of the</font>
+
+148
+00:07:33,375 --> 00:07:35,679
+<font color="#f5f5f5">And then I can print</font>
+
+149
+00:07:36,959 --> 00:07:37,983
+<font color="#454545">EIG</font>
+
+150
+00:07:43,359 --> 00:07:44,383
+<font color="#4e4e4e">EIG</font>
+
+151
+00:07:46,687 --> 00:07:47,711
+<font color="#a8a8a8">And for</font>
+
+152
+00:07:48,479 --> 00:07:51,039
+<font color="#9f9f9f">Vectors since it's</font>
+
+153
+00:07:51,551 --> 00:07:53,599
+<font color="#e8e8e8">Matrix I'm going to go to next line</font>
+
+154
+00:07:54,367 --> 00:07:56,159
+<font color="#c1c1c1">And display this here</font>
+
+155
+00:07:56,671 --> 00:07:57,695
+<font color="#a1a1a1">Comment this out</font>
+
+156
+00:07:57,951 --> 00:07:59,999
+<font color="#e0e0e0">Cuz you want to see for be here</font>
+
+157
+00:08:00,767 --> 00:08:01,535
+<font color="#e2e2e2">Get it out</font>
+
+158
+00:08:01,791 --> 00:08:02,815
+<font color="#e3e3e3">And run this again</font>
+
+159
+00:08:03,071 --> 00:08:09,215
+<font color="#e6e6e6">And this is my agent values and this is my agent Vector here so they are available so this is how you can calculate</font>
+
+160
+00:08:09,471 --> 00:08:12,287
+<font color="#b2b2b2">Play Legion values and agent vectors in numpy</font>
+
+161
+00:08:13,055 --> 00:08:13,567
+<font color="#e0e0e0">Next</font>
+
+162
+00:08:14,079 --> 00:08:17,919
+<font color="#f4f4f4">I want to talk about introduction to Matrix decomposition</font>
+
+163
+00:08:18,431 --> 00:08:19,199
+<font color="#bbbbbb">The first</font>
+
+164
+00:08:19,455 --> 00:08:20,991
+<font color="#d1d1d1">What is Matrix decomposition</font>
+
+165
+00:08:22,271 --> 00:08:26,367
+<font color="#dedede">Latest decomposition is a process of breaking a matrix</font>
+
+166
+00:08:26,623 --> 00:08:28,159
+<font color="#e9e9e9">Into smaller components</font>
+
+167
+00:08:28,415 --> 00:08:30,207
+<font color="#dddddd">Do analyze or solve problems</font>
+
+168
+00:08:30,975 --> 00:08:32,511
+<font color="#b8b8b8">Now before that we have</font>
+
+169
+00:08:32,767 --> 00:08:35,071
+<font color="#cbcbcb">Singular value decomposition or SVD</font>
+
+170
+00:08:35,583 --> 00:08:38,399
+<font color="#afafaf">SVD decomposers of Matrix</font>
+
+171
+00:08:40,447 --> 00:08:41,983
+<font color="#616161">3 major Isis</font>
+
+172
+00:08:42,239 --> 00:08:44,287
+<font color="#c2c2c2">We could get a equal to</font>
+
+173
+00:08:44,543 --> 00:08:47,359
+<font color="#8c8c8c">Ooh times Sigma * 3 ^ 3</font>
+
+174
+00:08:47,615 --> 00:08:52,223
+<font color="#bfbfbf">Where you is a left singular vectors or orthogonal Matrix</font>
+
+175
+00:08:52,479 --> 00:08:53,503
+<font color="#a5a5a5">Sigma</font>
+
+176
+00:08:53,759 --> 00:08:57,599
+<font color="#dcdcdc">Is a diagonal matrix of singular values or non-negative</font>
+
+177
+00:08:58,367 --> 00:08:59,391
+<font color="#767676">Leaders to tea</font>
+
+178
+00:08:59,647 --> 00:09:02,975
+<font color="#f0f0f0">Is the right singular vectors or orthogonal Matrix</font>
+
+179
+00:09:03,999 --> 00:09:10,143
+<font color="#d7d7d7">No some of the applications of SVD include dimensionality reduction example in principal</font>
+
+180
+00:09:10,399 --> 00:09:12,447
+<font color="#cacaca">Component analysis PC algorithm be used at</font>
+
+181
+00:09:12,959 --> 00:09:16,543
+<font color="#f0f0f0">We also use it for noise reduction in data sets</font>
+
+182
+00:09:16,799 --> 00:09:19,103
+<font color="#ebebeb">And also sometimes for image compression</font>
+
+183
+00:09:20,127 --> 00:09:23,199
+<font color="#ebebeb">Let's look at how we compute SVD in numpy</font>
+
+184
+00:09:23,711 --> 00:09:25,503
+<font color="#f6f6f6">I am going to</font>
+
+185
+00:09:26,015 --> 00:09:27,039
+<font color="#cdcdcd">Comment this out</font>
+
+186
+00:09:27,551 --> 00:09:30,111
+<font color="#b2b2b2">I will use my a matrix on my list</font>
+
+187
+00:09:30,623 --> 00:09:32,671
+<font color="#c3c3c3">Try some code here so it's visible to you</font>
+
+188
+00:09:34,719 --> 00:09:38,303
+<font color="#8f8f8f">For Sigma uses and we raise to TLC VT</font>
+
+189
+00:09:38,815 --> 00:09:41,631
+<font color="#bcbcbc">Equal to NP linear</font>
+
+190
+00:09:41,887 --> 00:09:42,655
+<font color="#c4c4c4">Algebra</font>
+
+191
+00:09:43,423 --> 00:09:45,471
+<font color="#6f6f6f">Dot SVD</font>
+
+192
+00:09:45,983 --> 00:09:47,007
+<font color="#d5d5d5">So if you see you don't have to</font>
+
+193
+00:09:47,519 --> 00:09:53,663
+<font color="#d0d0d0">Write any of these Implement any of these functionalities did all available as part of the number</font>
+
+194
+00:09:54,687 --> 00:09:55,199
+<font color="#cbcbcb">Library</font>
+
+195
+00:09:55,711 --> 00:09:57,247
+<font color="#a5a5a5">Now let's listen to print them out</font>
+
+196
+00:09:58,783 --> 00:10:01,087
+<font color="#b9b9b9">How is a decomposed of you</font>
+
+197
+00:10:01,599 --> 00:10:03,135
+<font color="#919191">Is slash in</font>
+
+198
+00:10:04,415 --> 00:10:06,207
+<font color="#f2f2f2">Same thing I'm going to do for</font>
+
+199
+00:10:07,743 --> 00:10:09,023
+<font color="#e2e2e2">Is</font>
+
+200
+00:10:10,815 --> 00:10:15,935
+<font color="#aaaaaa">We are we Trace to tease sometimes called as we transpose</font>
+
+201
+00:10:16,191 --> 00:10:17,215
+<font color="#a8a8a8">So if you want</font>
+
+202
+00:10:18,239 --> 00:10:20,031
+<font color="#cacaca">No the full form of diabet</font>
+
+203
+00:10:20,287 --> 00:10:22,591
+<font color="#efefef">And Es is also sometimes called as</font>
+
+204
+00:10:23,615 --> 00:10:24,639
+<font color="#e8e8e8">Singular</font>
+
+205
+00:10:25,151 --> 00:10:27,199
+<font color="#dfdfdf">Values so that's what it is</font>
+
+206
+00:10:27,455 --> 00:10:29,759
+<font color="#efefef">So as I mentioned use the left singular vector</font>
+
+207
+00:10:30,015 --> 00:10:31,807
+<font color="#e9e9e9">This is soooo is the</font>
+
+208
+00:10:32,063 --> 00:10:38,207
+<font color="#ececec">Diagonal matrix of a singular values which is non-negative and this is the right singular vectors</font>
+
+209
+00:10:38,463 --> 00:10:41,279
+<font color="#e6e6e6">Which is also called as we transpose</font>
+
+210
+00:10:41,535 --> 00:10:42,559
+<font color="#fafafa">So let's go ahead</font>
+
+211
+00:10:42,815 --> 00:10:44,095
+<font color="#7c7c7c">And clear this out</font>
+
+212
+00:10:45,631 --> 00:10:47,679
+<font color="#d7d7d7">And you have your you Matrix</font>
+
+213
+00:10:47,935 --> 00:10:54,079
+<font color="#d7d7d7">A singular values and the V transpose right here and these together kind of create the</font>
+
+214
+00:10:57,407 --> 00:11:01,247
+<font color="#eeeeee">No next step is to jump into Hands-On exercises</font>
+
+215
+00:11:01,503 --> 00:11:04,319
+<font color="#eeeeee">Your first exercise that we will be covering is</font>
+
+216
+00:11:04,575 --> 00:11:09,951
+<font color="#e6e6e6">Calculating the determinant and inverse of a matrix we learned this in the first section today</font>
+
+217
+00:11:10,207 --> 00:11:13,023
+<font color="#cacaca">Where the objective is to practice using numpy</font>
+
+218
+00:11:13,279 --> 00:11:15,583
+<font color="#d9d9d9">To compute determinants and inverses</font>
+
+219
+00:11:16,351 --> 00:11:20,447
+<font color="#ababab">Orange is the instructions that will follow here is 3 / 3</font>
+
+220
+00:11:20,703 --> 00:11:25,055
+<font color="#d1d1d1">And then compute its determinant and inverse so it's pretty straightforward so let's go</font>
+
+221
+00:11:25,311 --> 00:11:26,847
+<font color="#f7f7f7">Create a new file</font>
+
+222
+00:11:27,103 --> 00:11:31,967
+<font color="#c1c1c1">I'm going to save it as day 2 dot X1 Dot py</font>
+
+223
+00:11:32,735 --> 00:11:33,503
+<font color="#e1e1e1">In here</font>
+
+224
+00:11:33,759 --> 00:11:36,063
+<font color="#d4d4d4">I'm going to first import</font>
+
+225
+00:11:36,575 --> 00:11:37,599
+<font color="#909090">Numpy</font>
+
+226
+00:11:39,647 --> 00:11:40,671
+<font color="#595959">As n</font>
+
+227
+00:11:42,975 --> 00:11:46,815
+<font color="#555555">The Green Bay Area and P dot area order</font>
+
+228
+00:11:47,327 --> 00:11:49,631
+<font color="#b5b5b5">Mattress Matrix which is 3 * 3</font>
+
+229
+00:11:50,399 --> 00:11:52,959
+<font color="#a4a4a4">So I will create it this way I'm going to say</font>
+
+230
+00:11:53,215 --> 00:11:55,007
+<font color="#b3b3b3">231</font>
+
+231
+00:11:57,311 --> 00:12:01,407
+<font color="#c4c4c4">456 some random numbers I'm just filling it up</font>
+
+232
+00:12:01,663 --> 00:12:03,199
+<font color="#838383">789</font>
+
+233
+00:12:04,223 --> 00:12:05,503
+<font color="#e2e2e2">Cancel this is my Matrix</font>
+
+234
+00:12:05,759 --> 00:12:07,807
+<font color="#aeaeae">How to create a determinant and say</font>
+
+235
+00:12:08,319 --> 00:12:09,599
+<font color="#474747">Determinant</font>
+
+236
+00:12:09,855 --> 00:12:10,879
+<font color="#e1e1e1">Equal to</font>
+
+237
+00:12:11,391 --> 00:12:13,695
+<font color="#535353">It's NP dot linear</font>
+
+238
+00:12:13,951 --> 00:12:14,975
+<font color="#737373">Algorithm</font>
+
+239
+00:12:15,231 --> 00:12:16,255
+<font color="#909090">Indian algebra</font>
+
+240
+00:12:18,047 --> 00:12:19,327
+<font color="#a7a7a7">Determinant of a</font>
+
+241
+00:12:20,095 --> 00:12:22,399
+<font color="#dcdcdc">Similarly for inverse</font>
+
+242
+00:12:22,911 --> 00:12:28,287
+<font color="#a4a4a4">I will say NP dot linear algebra Library</font>
+
+243
+00:12:28,543 --> 00:12:29,567
+<font color="#565656">Inverse</font>
+
+244
+00:12:29,823 --> 00:12:30,591
+<font color="#5c5c5c">Buffet</font>
+
+245
+00:12:30,847 --> 00:12:35,199
+<font color="#bfbfbf">That's it pretty straightforward let's print them out and check it out the results</font>
+
+246
+00:12:35,455 --> 00:12:37,247
+<font color="#474747">Determinant</font>
+
+247
+00:12:41,855 --> 00:12:42,879
+<font color="#383838">Determinant</font>
+
+248
+00:12:46,975 --> 00:12:47,743
+<font color="#1b1b1b">Inver</font>
+
+249
+00:12:49,535 --> 00:12:50,559
+<font color="#858585">Is inverse</font>
+
+250
+00:12:51,583 --> 00:12:52,863
+<font color="#b4b4b4">Let's go ahead and run this</font>
+
+251
+00:12:53,887 --> 00:12:55,679
+<font color="#d0d0d0">I'm going to say 5:10</font>
+
+252
+00:12:56,447 --> 00:12:59,007
+<font color="#4f4f4f">J2 Dot ex1</font>
+
+253
+00:12:59,263 --> 00:13:00,799
+<font color="#c6c6c6">Indigo we have a determinant</font>
+
+254
+00:13:01,055 --> 00:13:02,591
+<font color="#dbdbdb">And we have our anniversary</font>
+
+255
+00:13:03,103 --> 00:13:08,991
+<font color="#cacaca">Big numbers I see is exponential raised to EXO that means the decimal places are pretty low but</font>
+
+256
+00:13:09,247 --> 00:13:12,063
+<font color="#cbcbcb">And we can use this</font>
+
+257
+00:13:12,575 --> 00:13:13,599
+<font color="#d3d3d3">Now let's jump into</font>
+
+258
+00:13:13,855 --> 00:13:14,623
+<font color="#e0e0e0">Exercise</font>
+
+259
+00:13:15,647 --> 00:13:20,255
+<font color="#e1e1e1">Exercise 2 is to compute agent values and agent vectors</font>
+
+260
+00:13:20,767 --> 00:13:23,839
+<font color="#cdcdcd">The objective here is using numpy to compute</font>
+
+261
+00:13:24,095 --> 00:13:26,911
+<font color="#a7a7a7">And interpretation values in Egypt vectors</font>
+
+262
+00:13:27,167 --> 00:13:33,311
+<font color="#bebebe">So we will be creating a 2X to Matrix and computers agent values and region vectors which straightforward</font>
+
+263
+00:13:33,823 --> 00:13:34,847
+<font color="#fbfbfb">So let's go ahead</font>
+
+264
+00:13:35,103 --> 00:13:35,871
+<font color="#e3e3e3">Create</font>
+
+265
+00:13:36,383 --> 00:13:38,943
+<font color="#d0d0d0">A new file day to underscore</font>
+
+266
+00:13:39,199 --> 00:13:40,735
+<font color="#444444">Es2 dot p</font>
+
+267
+00:13:41,759 --> 00:13:43,807
+<font color="#bdbdbd">Here first thing is important</font>
+
+268
+00:13:45,599 --> 00:13:46,623
+<font color="#787878">As NP</font>
+
+269
+00:13:47,391 --> 00:13:49,951
+<font color="#e2e2e2">Next let's create a matrix a equal to</font>
+
+270
+00:13:50,463 --> 00:13:54,815
+<font color="#bcbcbc">NP Dot and as I mentioned I'll create a 2 by 2 Matrix</font>
+
+271
+00:13:56,607 --> 00:13:58,399
+<font color="#e8e8e8">This Matrix will have</font>
+
+272
+00:13:58,655 --> 00:14:01,215
+<font color="#a2a2a2">4 comma it's a negative 2</font>
+
+273
+00:14:01,727 --> 00:14:03,263
+<font color="#9f9f9f">1 comma 1</font>
+
+274
+00:14:03,519 --> 00:14:04,799
+<font color="#afafaf">So this is my Matrix</font>
+
+275
+00:14:05,311 --> 00:14:08,127
+<font color="#929292">Asian girls and aging</font>
+
+276
+00:14:08,639 --> 00:14:09,919
+<font color="#838383">Asian</font>
+
+277
+00:14:10,175 --> 00:14:11,967
+<font color="#b7b7b7">Does equal to</font>
+
+278
+00:14:12,223 --> 00:14:14,783
+<font color="#616161">NPR algebra</font>
+
+279
+00:14:15,551 --> 00:14:18,111
+<font color="#989898">Dot EIG of a</font>
+
+280
+00:14:21,695 --> 00:14:22,719
+<font color="#a8a8a8">Asian values</font>
+
+281
+00:14:23,231 --> 00:14:23,999
+<font color="#4a4a4a">Send out</font>
+
+282
+00:14:26,047 --> 00:14:27,583
+<font color="#b3b3b3">Asian vectors</font>
+
+283
+00:14:28,607 --> 00:14:30,399
+<font color="#646464">Search engine</font>
+
+284
+00:14:31,167 --> 00:14:32,191
+<font color="#1a1a1a">Valu</font>
+
+285
+00:14:36,799 --> 00:14:38,335
+<font color="#b6b6b6">And</font>
+
+286
+00:14:39,103 --> 00:14:40,383
+<font color="#7e7e7e">Vectors</font>
+
+287
+00:14:41,407 --> 00:14:42,943
+<font color="#777777">Slash in</font>
+
+288
+00:14:43,199 --> 00:14:45,247
+<font color="#dedede">Because it's a matrix</font>
+
+289
+00:14:46,527 --> 00:14:47,039
+<font color="#2a2a2a">Sing</font>
+
+290
+00:14:47,551 --> 00:14:50,879
+<font color="#d9d9d9">So I'm going to clear this out and I'm going to say python</font>
+
+291
+00:14:52,159 --> 00:14:54,719
+<font color="#959595">Day two ex2</font>
+
+292
+00:14:55,231 --> 00:15:01,375
+<font color="#d4d4d4">Indigo we have an agent values and agent vectors let's do one more exercise</font>
+
+293
+00:15:02,143 --> 00:15:08,287
+<font color="#ebebeb">And in this one let's perform the singular value decomposition so we'll be using the SVD function in</font>
+
+294
+00:15:08,543 --> 00:15:09,055
+<font color="#979797">Play linear algebra</font>
+
+295
+00:15:09,311 --> 00:15:13,663
+<font color="#d4d4d4">The objective here is to implement SVD and interpret the components</font>
+
+296
+00:15:13,919 --> 00:15:14,943
+<font color="#f7f7f7">Which is the</font>
+
+297
+00:15:15,199 --> 00:15:17,247
+<font color="#ededed">Sigma and</font>
+
+298
+00:15:17,503 --> 00:15:18,783
+<font color="#818181">We transport</font>
+
+299
+00:15:20,319 --> 00:15:22,111
+<font color="#c4c4c4">Let's go ahead and call that account</font>
+
+300
+00:15:22,623 --> 00:15:23,391
+<font color="#4c4c4c">Create a</font>
+
+301
+00:15:24,927 --> 00:15:26,207
+<font color="#e7e7e7">Save it</font>
+
+302
+00:15:30,047 --> 00:15:30,815
+<font color="#222222">Import</font>
+
+303
+00:15:31,583 --> 00:15:33,887
+<font color="#8c8c8c">Numpy as NP</font>
+
+304
+00:15:34,143 --> 00:15:34,911
+<font color="#d5d5d5">Next</font>
+
+305
+00:15:35,167 --> 00:15:37,983
+<font color="#8e8e8e">A equal to Let's create a matrix NP Dot</font>
+
+306
+00:15:40,031 --> 00:15:42,335
+<font color="#e1e1e1">I will create a 3/3 matrix here</font>
+
+307
+00:15:45,407 --> 00:15:47,967
+<font color="#cecece">First value is let's give some random values 3</font>
+
+308
+00:15:48,223 --> 00:15:51,039
+<font color="#929292">11 comma next one</font>
+
+309
+00:15:51,295 --> 00:15:54,879
+<font color="#989898">How to say -1 comma 3 comma 1</font>
+
+310
+00:15:55,135 --> 00:15:59,999
+<font color="#c1c1c1">Next one I'll create one comma one comma three</font>
+
+311
+00:16:01,535 --> 00:16:05,119
+<font color="#c0c0c0">Find my Matrix here I can get you</font>
+
+312
+00:16:06,143 --> 00:16:07,423
+<font color="#676767">And VT</font>
+
+313
+00:16:08,191 --> 00:16:09,471
+<font color="#8c8c8c">From n</font>
+
+314
+00:16:09,727 --> 00:16:11,263
+<font color="#b9b9b9">Dot linear algebra</font>
+
+315
+00:16:12,287 --> 00:16:14,079
+<font color="#8f8f8f">Dot SVD</font>
+
+316
+00:16:14,335 --> 00:16:15,615
+<font color="#9b9b9b">Of this Matrix</font>
+
+317
+00:16:16,127 --> 00:16:17,663
+<font color="#e7e7e7">So let's print them out</font>
+
+318
+00:16:18,687 --> 00:16:19,199
+<font color="#b5b5b5">Print</font>
+
+319
+00:16:23,295 --> 00:16:24,575
+<font color="#747474">Slash in</font>
+
+320
+00:16:25,343 --> 00:16:26,367
+<font color="#767676">Bring me</font>
+
+321
+00:16:27,647 --> 00:16:31,231
+<font color="#ebebeb">Next single values so this is singular</font>
+
+322
+00:16:32,511 --> 00:16:33,279
+<font color="#1a1a1a">Valu</font>
+
+323
+00:16:34,559 --> 00:16:35,327
+<font color="#343434">She's diag</font>
+
+324
+00:16:35,839 --> 00:16:37,375
+<font color="#fbfbfb">And that is</font>
+
+325
+00:16:38,399 --> 00:16:40,703
+<font color="#efefef">And this one is V</font>
+
+326
+00:16:41,727 --> 00:16:43,007
+<font color="#a7a7a7">Transpose</font>
+
+327
+00:16:45,311 --> 00:16:45,823
+<font color="#2c2c2c">VT</font>
+
+328
+00:16:47,103 --> 00:16:52,223
+<font color="#e6e6e6">Reconstruct the Matrix and see if it works but I can do is let's say</font>
+
+329
+00:16:52,479 --> 00:16:55,295
+<font color="#afafaf">Reconstruct because someone asked me that</font>
+
+330
+00:16:55,551 --> 00:16:58,623
+<font color="#d3d3d3">Can you use all these three and then reconstruct so I can say</font>
+
+331
+00:16:58,879 --> 00:17:00,159
+<font color="#999999">Show Sigma</font>
+
+332
+00:17:00,415 --> 00:17:02,207
+<font color="#b8b8b8">Equal to n</font>
+
+333
+00:17:03,487 --> 00:17:04,511
+<font color="#9d9d9d">Zeros</font>
+
+334
+00:17:06,559 --> 00:17:08,607
+<font color="#8d8d8d">Create a zeros Matrix 3 / 3</font>
+
+335
+00:17:09,119 --> 00:17:12,191
+<font color="#e2e2e2">Then I want to do NP</font>
+
+336
+00:17:13,215 --> 00:17:14,239
+<font color="#767676">Underscore</font>
+
+337
+00:17:14,495 --> 00:17:15,263
+<font color="#a5a5a5">Diagonal</font>
+
+338
+00:17:15,775 --> 00:17:17,823
+<font color="#969696">Red Sigma</font>
+
+339
+00:17:18,335 --> 00:17:19,359
+<font color="#525252">What's</font>
+
+340
+00:17:19,871 --> 00:17:24,223
+<font color="#e3e3e3">So that kind of creates my initial thing then reconstructed</font>
+
+341
+00:17:24,735 --> 00:17:26,527
+<font color="#c9c9c9">Constructed</font>
+
+342
+00:17:27,295 --> 00:17:28,575
+<font color="#d8d8d8">Equal to you</font>
+
+343
+00:17:29,855 --> 00:17:31,903
+<font color="#e8e8e8">Add the date to multiplication pretty much</font>
+
+344
+00:17:32,159 --> 00:17:33,183
+<font color="#a6a6a6">Sigma</font>
+
+345
+00:17:33,439 --> 00:17:34,975
+<font color="#f3f3f3">Multiply that</font>
+
+346
+00:17:35,231 --> 00:17:36,767
+<font color="#7d7d7d">Will be transpose</font>
+
+347
+00:17:37,023 --> 00:17:40,607
+<font color="#f4f4f4">So that should be my entire Matrix so let's print it out</font>
+
+348
+00:17:42,399 --> 00:17:43,935
+<font color="#3c3c3c">Free</font>
+
+349
+00:17:44,191 --> 00:17:45,471
+<font color="#212121">Tractor</font>
+
+350
+00:17:45,983 --> 00:17:47,007
+<font color="#cfcfcf">Matrix</font>
+
+351
+00:17:48,031 --> 00:17:50,079
+<font color="#a5a5a5">Slash n is</font>
+
+352
+00:17:50,591 --> 00:17:51,615
+<font color="#1c1c1c">Reconstruct</font>
+
+353
+00:17:53,151 --> 00:17:58,271
+<font color="#e4e4e4">Perfect so let's run this up and then check if it matches what we have here</font>
+
+354
+00:17:58,527 --> 00:18:00,319
+<font color="#e4e4e4">So I'm going to say python</font>
+
+355
+00:18:03,391 --> 00:18:04,927
+<font color="#737373">X3</font>
+
+356
+00:18:05,183 --> 00:18:11,327
+<font color="#9b9b9b">OK Google our first umatrix are Sigma which is singular values</font>
+
+357
+00:18:12,095 --> 00:18:16,191
+<font color="#e3e3e3">We transpose now we took the singular Matrix and then we</font>
+
+358
+00:18:16,447 --> 00:18:18,751
+<font color="#a3a3a3">Added to 300 1st and then we</font>
+
+359
+00:18:19,007 --> 00:18:25,151
+<font color="#e0e0e0">Who created fill the diagonal with the values that we have and then we created the reconstructed Matrix</font>
+
+360
+00:18:25,407 --> 00:18:28,479
+<font color="#cecece">Using the U Sigma and VT</font>
+
+361
+00:18:28,735 --> 00:18:31,807
+<font color="#cbcbcb">Which is 311 - 131</font>
+
+362
+00:18:32,063 --> 00:18:34,111
+<font color="#d6d6d6">113 exactly to the DOT</font>
+
+363
+00:18:34,367 --> 00:18:36,415
+<font color="#dddddd">So there you go that's how you can</font>
+
+364
+00:18:36,671 --> 00:18:42,815
+<font color="#c4c4c4">Create create a decomposition Matrix a single or value decomposition Matrix is and then</font>
+
+365
+00:18:43,071 --> 00:18:44,607
+<font color="#e5e5e5">Reconstruct them back here</font>
+
+366
+00:18:45,119 --> 00:18:46,911
+<font color="#cfcfcf">No for some additional practice</font>
+
+367
+00:18:47,167 --> 00:18:53,311
+<font color="#f7f7f7">You can try to compute the agent values and agent vectors for larger matrices you</font>
+
+368
+00:18:53,567 --> 00:18:56,639
+<font color="#e9e9e9">Can use SPD to reduce the dimensionality</font>
+
+369
+00:18:56,895 --> 00:18:57,919
+<font color="#bebebe">Offer data set</font>
+
+370
+00:18:58,431 --> 00:19:04,575
+<font color="#f0f0f0">And also try to verify the properties of an agent values you can do the determinant of</font>
+
+371
+00:19:04,831 --> 00:19:10,975
+<font color="#e2e2e2">A - Lambda of identity equal to 0 try that out and let me know how it works if you have any problems</font>
+
+372
+00:19:11,231 --> 00:19:17,375
+<font color="#e2e2e2">Rooms or had any problems following along through any of these exercises or any of the additional practice that you're doing</font>
+
+373
+00:19:17,631 --> 00:19:18,911
+<font color="#f9f9f9">Let me know and I'll get back to you</font>
+
+374
+00:19:19,423 --> 00:19:20,447
+<font color="#939393">Suggest to wreck</font>
+
+375
+00:19:20,959 --> 00:19:25,055
+<font color="#d9d9d9">Today we learned Advanced linear algebra Concepts including determinants</font>
+
+376
+00:19:25,311 --> 00:19:26,591
+<font color="#9e9e9e">Matrix inverses</font>
+
+377
+00:19:26,847 --> 00:19:27,871
+<font color="#cfcfcf">Asian values</font>
+
+378
+00:19:28,127 --> 00:19:30,687
+<font color="#d5d5d5">Asian vectors and Matrix decomposition</font>
+
+379
+00:19:30,943 --> 00:19:33,503
+<font color="#e4e4e4">This concepts are foundational for understanding</font>
+
+380
+00:19:33,759 --> 00:19:37,599
+<font color="#c3c3c3">Data transformation and dimensional introduction techniques in the eye</font>
+
+381
+00:19:37,855 --> 00:19:42,463
+<font color="#f0f0f0">So if you had any issues or problems or have any doubts let me know and I'll get back to you</font>

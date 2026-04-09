@@ -1,0 +1,2507 @@
+﻿1
+00:00:01,024 --> 00:00:01,792
+<font color="#595959">Day</font>
+
+2
+00:00:02,304 --> 00:00:05,632
+<font color="#aeaeae">Data structures here we're going to cover list</font>
+
+3
+00:00:05,888 --> 00:00:06,656
+<font color="#5e5e5e">Doubles</font>
+
+4
+00:00:06,912 --> 00:00:10,240
+<font color="#c3c3c3">Dictionaries and sets now we probably have used some of them before</font>
+
+5
+00:00:10,496 --> 00:00:12,800
+<font color="#f4f4f4">But let's go deep dive into each one of them</font>
+
+6
+00:00:13,312 --> 00:00:15,104
+<font color="#d2d2d2">Let's start with list</font>
+
+7
+00:00:15,616 --> 00:00:16,640
+<font color="#c7c7c7">So what are list</font>
+
+8
+00:00:16,896 --> 00:00:19,968
+<font color="#f2f2f2">List are ordered mutable collections</font>
+
+9
+00:00:20,224 --> 00:00:25,088
+<font color="#ebebeb">That can hold a variety of data types when I say mutable that means they can be changed</font>
+
+10
+00:00:25,344 --> 00:00:27,392
+<font color="#d0d0d0">And upended deleted</font>
+
+11
+00:00:27,648 --> 00:00:31,232
+<font color="#cfcfcf">Edited all those things when is this immutable that means once you create them</font>
+
+12
+00:00:31,488 --> 00:00:33,024
+<font color="#d6d6d6">It stays as there</font>
+
+13
+00:00:33,536 --> 00:00:35,072
+<font color="#cccccc">So let's start again ordered</font>
+
+14
+00:00:35,328 --> 00:00:38,656
+<font color="#f5f5f5">Mutable collections that can hold a variety of</font>
+
+15
+00:00:38,912 --> 00:00:41,728
+<font color="#dfdfdf">Data types let's see how do you create a list</font>
+
+16
+00:00:41,984 --> 00:00:44,288
+<font color="#d4d4d4">Someone start with an empty project</font>
+
+17
+00:00:44,800 --> 00:00:46,848
+<font color="#c5c5c5">Create a new file python file</font>
+
+18
+00:00:47,360 --> 00:00:48,896
+<font color="#dddddd">Save it inside</font>
+
+19
+00:00:50,176 --> 00:00:52,480
+<font color="#cfcfcf">AI boot camp Week 1</font>
+
+20
+00:00:52,992 --> 00:00:55,040
+<font color="#c5c5c5">Clear new folder for rd4</font>
+
+21
+00:00:56,320 --> 00:00:57,344
+<font color="#d6d6d6">And</font>
+
+22
+00:00:58,112 --> 00:00:59,136
+<font color="#909090">I'm going to sit there</font>
+
+23
+00:01:00,928 --> 00:01:01,440
+<font color="#1a1a1a">Dat</font>
+
+24
+00:01:02,976 --> 00:01:03,744
+<font color="#bfbfbf">Structures</font>
+
+25
+00:01:06,560 --> 00:01:10,400
+<font color="#c0c0c0">I'm here not to create a list of let's say I want to create a list of numbers</font>
+
+26
+00:01:10,656 --> 00:01:12,448
+<font color="#ababab">Show me some numbers equal to</font>
+
+27
+00:01:13,216 --> 00:01:17,056
+<font color="#bababa">Create this number one to three and four so this is a list</font>
+
+28
+00:01:17,312 --> 00:01:20,640
+<font color="#bebebe">A phone numbers 1 2 3 and 4</font>
+
+29
+00:01:21,152 --> 00:01:23,200
+<font color="#fdfdfd">I can create a list of fruits</font>
+
+30
+00:01:23,968 --> 00:01:25,504
+<font color="#e9e9e9">Where I can say</font>
+
+31
+00:01:25,760 --> 00:01:27,296
+<font color="#cecece">So again square brackets</font>
+
+32
+00:01:31,648 --> 00:01:32,416
+<font color="#cfcfcf">Banana</font>
+
+33
+00:01:36,768 --> 00:01:42,656
+<font color="#f4f4f4">So this is my list of fruits which are list of strings inside here this was list of integers</font>
+
+34
+00:01:42,912 --> 00:01:44,192
+<font color="#a4a4a4">This is list of strings</font>
+
+35
+00:01:44,704 --> 00:01:45,984
+<font color="#fafafa">I can have a mixed</font>
+
+36
+00:01:46,240 --> 00:01:47,264
+<font color="#c7c7c7">List</font>
+
+37
+00:01:47,520 --> 00:01:49,568
+<font color="#f3f3f3">Which has combination of both</font>
+
+38
+00:01:49,824 --> 00:01:52,384
+<font color="#cbcbcb">Or more so one is the number</font>
+
+39
+00:01:52,640 --> 00:01:53,920
+<font color="#ebebeb">I can have apple</font>
+
+40
+00:01:54,432 --> 00:01:57,760
+<font color="#dadada">And I can also have volume in here the third element is true</font>
+
+41
+00:01:58,016 --> 00:01:58,784
+<font color="#1f1f1f">184</font>
+
+42
+00:01:59,040 --> 00:02:01,856
+<font color="#f8f8f8">So that's how you can create a mixed list</font>
+
+43
+00:02:02,880 --> 00:02:05,696
+<font color="#c1c1c1">The next time I want to talk about accessing these elements</font>
+
+44
+00:02:05,952 --> 00:02:11,072
+<font color="#ebebeb">Now you can access this Elements by index so what I mean by that is</font>
+
+45
+00:02:11,328 --> 00:02:13,376
+<font color="#fbfbfb">So for example if I want to print</font>
+
+46
+00:02:14,912 --> 00:02:15,936
+<font color="#e8e8e8">Numbers</font>
+
+47
+00:02:16,448 --> 00:02:17,728
+<font color="#fafafa">And I want to print</font>
+
+48
+00:02:17,984 --> 00:02:24,128
+<font color="#d2d2d2">The this is the zeroth element first and second element and this is the third element so the 0 the IND</font>
+
+49
+00:02:24,384 --> 00:02:28,480
+<font color="#bcbcbc">Exit 0123 again for this is 0 1 and 2</font>
+
+50
+00:02:28,992 --> 00:02:31,040
+<font color="#888888">01 and 2</font>
+
+51
+00:02:31,296 --> 00:02:34,368
+<font color="#f8f8f8">So if I want to access the third number which is</font>
+
+52
+00:02:34,624 --> 00:02:38,208
+<font color="#e0e0e0">01 and 2 so that's the index and that's what I'll pass here</font>
+
+53
+00:02:38,464 --> 00:02:40,768
+<font color="#f7f7f7">Similarly if I want to</font>
+
+54
+00:02:42,048 --> 00:02:45,376
+<font color="#e7e7e7">Access the first fruit I'm going to say fruits of zero</font>
+
+55
+00:02:45,632 --> 00:02:49,216
+<font color="#fafafa">If I want to access inside this mixed</font>
+
+56
+00:02:49,984 --> 00:02:51,264
+<font color="#a9a9a9">How to access the</font>
+
+57
+00:02:51,520 --> 00:02:53,056
+<font color="#e2e2e2">Second element which is Apple</font>
+
+58
+00:02:53,312 --> 00:02:57,152
+<font color="#c9c9c9">Melissa zero and one so this is first element 01 index</font>
+
+59
+00:02:57,920 --> 00:02:58,688
+<font color="#cacaca">I save</font>
+
+60
+00:03:01,248 --> 00:03:03,808
+<font color="#6b6b6b">Cancel this CD day for</font>
+
+61
+00:03:04,320 --> 00:03:06,112
+<font color="#d8d8d8">And I'm going to say python</font>
+
+62
+00:03:06,880 --> 00:03:09,184
+<font color="#cacaca">Before data structures and if you see</font>
+
+63
+00:03:09,440 --> 00:03:11,744
+<font color="#eaeaea">This is two which is this one</font>
+
+64
+00:03:12,000 --> 00:03:15,328
+<font color="#dcdcdc">Apple and apple games I can change this</font>
+
+65
+00:03:15,584 --> 00:03:18,912
+<font color="#b8b8b8">201 and 2 which is Cherry so index 2</font>
+
+66
+00:03:19,680 --> 00:03:20,704
+<font color="#a0a0a0">Can print it</font>
+
+67
+00:03:20,960 --> 00:03:22,752
+<font color="#848484">3 cherry and Apple</font>
+
+68
+00:03:23,776 --> 00:03:28,896
+<font color="#e1e1e1">So that's how you can access this element by accessing through the index that's what it's called</font>
+
+69
+00:03:29,152 --> 00:03:33,760
+<font color="#e0e0e0">We also have something called as negative indexing what happens here is so for example</font>
+
+70
+00:03:34,016 --> 00:03:37,088
+<font color="#dcdcdc">If I say that fruits of -1</font>
+
+71
+00:03:37,600 --> 00:03:41,184
+<font color="#e5e5e5">So what will happen is this is the index 01 and 2</font>
+
+72
+00:03:41,440 --> 00:03:45,024
+<font color="#c1c1c1">Now if you go in the opposite direction from here 0 - 1</font>
+
+73
+00:03:45,280 --> 00:03:48,608
+<font color="#d2d2d2">Will be the last item here -2 - 3</font>
+
+74
+00:03:48,864 --> 00:03:51,168
+<font color="#dddddd">So if I say fruits of -1</font>
+
+75
+00:03:51,424 --> 00:03:53,728
+<font color="#ececec">It should give me Jerry so if I go here</font>
+
+76
+00:03:54,752 --> 00:03:55,520
+<font color="#a8a8a8">And print</font>
+
+77
+00:03:55,776 --> 00:03:57,568
+<font color="#c4c4c4">It'll give me cherry because</font>
+
+78
+00:03:57,824 --> 00:04:01,920
+<font color="#eaeaea">Index of -1 is this is 0 so the previous the last one</font>
+
+79
+00:04:02,176 --> 00:04:05,760
+<font color="#e0e0e0">Is -1 so that's how you can use negative indexing</font>
+
+80
+00:04:06,528 --> 00:04:07,808
+<font color="#f1f1f1">You also can</font>
+
+81
+00:04:08,064 --> 00:04:10,880
+<font color="#e6e6e6">Next we going to talk about modifying this list</font>
+
+82
+00:04:11,136 --> 00:04:14,464
+<font color="#e6e6e6">Is two different ways you can modify a list that you can add items</font>
+
+83
+00:04:14,720 --> 00:04:17,536
+<font color="#f0f0f0">And you can remove items now if I want to add items</font>
+
+84
+00:04:18,047 --> 00:04:21,375
+<font color="#f7f7f7">For example in my fruits I want to add more items</font>
+
+85
+00:04:21,631 --> 00:04:25,471
+<font color="#e6e6e6">I can just sit here let me comment these print statements out</font>
+
+86
+00:04:26,495 --> 00:04:28,287
+<font color="#e3e3e3">And I can say fruits</font>
+
+87
+00:04:29,823 --> 00:04:34,175
+<font color="#d7d7d7">Append so that's the key word and add to the end of a particular</font>
+
+88
+00:04:34,431 --> 00:04:38,015
+<font color="#dfdfdf">And it's in this particular list I have apple banana and orange</font>
+
+89
+00:04:38,271 --> 00:04:41,087
+<font color="#efefef">I want to open another one I can see orange</font>
+
+90
+00:04:41,599 --> 00:04:45,695
+<font color="#e8e8e8">Another way of attending or adding items is I can see fruits</font>
+
+91
+00:04:46,207 --> 00:04:47,743
+<font color="#adadad">Dot insert</font>
+
+92
+00:04:48,767 --> 00:04:52,607
+<font color="#e6e6e6">In this case I want to insert a particular index let's index one</font>
+
+93
+00:04:52,863 --> 00:04:55,167
+<font color="#d9d9d9">I want to insert grip</font>
+
+94
+00:04:59,263 --> 00:05:02,591
+<font color="#dddddd">So this is index one right now so this will insert grape</font>
+
+95
+00:05:02,847 --> 00:05:04,383
+<font color="#f6f6f6">In between apple and banana</font>
+
+96
+00:05:08,735 --> 00:05:10,783
+<font color="#cdcdcd">Fruits right now the entire day</font>
+
+97
+00:05:13,087 --> 00:05:14,879
+<font color="#f1f1f1">Look something like this apple</font>
+
+98
+00:05:15,135 --> 00:05:16,415
+<font color="#c5c5c5">In grape was inserted</font>
+
+99
+00:05:16,927 --> 00:05:18,463
+<font color="#cfcfcf">Add banana and Cherry are there</font>
+
+100
+00:05:18,719 --> 00:05:21,535
+<font color="#d9d9d9">Orange orange showed up at the end</font>
+
+101
+00:05:21,791 --> 00:05:23,327
+<font color="#f8f8f8">If I don't do this here</font>
+
+102
+00:05:24,863 --> 00:05:25,631
+<font color="#8a8a8a">Running again</font>
+
+103
+00:05:25,887 --> 00:05:27,935
+<font color="#f4f4f4">I have apple banana cherry and orange</font>
+
+104
+00:05:28,447 --> 00:05:29,727
+<font color="#fdfdfd">If I don't do this</font>
+
+105
+00:05:31,519 --> 00:05:37,663
+<font color="#ebebeb">I have apple grape inserted at one and then banana and Cherry move one index to the right and that's why we</font>
+
+106
+00:05:37,919 --> 00:05:38,943
+<font color="#303030">70123</font>
+
+107
+00:05:39,199 --> 00:05:42,271
+<font color="#b3b3b3">The grape is in translated and index number one</font>
+
+108
+00:05:47,135 --> 00:05:48,159
+<font color="#cacaca">Clear this out</font>
+
+109
+00:05:49,183 --> 00:05:50,719
+<font color="#e0e0e0">Not want to remove something</font>
+
+110
+00:05:51,231 --> 00:05:53,535
+<font color="#f4f4f4">What I can do is I can say fruits</font>
+
+111
+00:05:55,327 --> 00:05:56,351
+<font color="#ededed">Remove</font>
+
+112
+00:05:56,607 --> 00:06:01,215
+<font color="#f0f0f0">And I can specify what I want to remove so for example if I want a banana remove banana</font>
+
+113
+00:06:01,471 --> 00:06:04,031
+<font color="#f3f3f3">So I can just say remove banana so if I</font>
+
+114
+00:06:04,287 --> 00:06:05,055
+<font color="#eeeeee">Do that</font>
+
+115
+00:06:05,311 --> 00:06:06,079
+<font color="#c0c0c0">Run it</font>
+
+116
+00:06:06,847 --> 00:06:08,127
+<font color="#999999">It was a apple</font>
+
+117
+00:06:08,383 --> 00:06:10,943
+<font color="#d8d8d8">Grape okay I didn't print it again let's go ahead</font>
+
+118
+00:06:11,455 --> 00:06:14,015
+<font color="#dedede">And then this after the removal of how it looks like</font>
+
+119
+00:06:14,527 --> 00:06:15,807
+<font color="#eaeaea">So before and after</font>
+
+120
+00:06:17,343 --> 00:06:21,183
+<font color="#e4e4e4">So before I have apple grape banana cherry and orange but after I remove it</font>
+
+121
+00:06:21,439 --> 00:06:27,071
+<font color="#dbdbdb">It removed banana from here and move everything one index to the left so Jerry came here orange came here</font>
+
+122
+00:06:27,327 --> 00:06:29,119
+<font color="#676767">Send text to 0123</font>
+
+123
+00:06:29,887 --> 00:06:31,679
+<font color="#f9f9f9">You can also delete</font>
+
+124
+00:06:31,935 --> 00:06:33,471
+<font color="#919191">By saying delete</font>
+
+125
+00:06:34,495 --> 00:06:35,263
+<font color="#c6c6c6">Fruits</font>
+
+126
+00:06:36,543 --> 00:06:38,079
+<font color="#8f8f8f">Index that says zero</font>
+
+127
+00:06:39,103 --> 00:06:41,919
+<font color="#f7f7f7">You can print it out just to show you how this works</font>
+
+128
+00:06:43,455 --> 00:06:44,223
+<font color="#afafaf">Go ahead</font>
+
+129
+00:06:44,479 --> 00:06:47,295
+<font color="#e1e1e1">So if you see apple grape banana Cherry Orange</font>
+
+130
+00:06:47,807 --> 00:06:51,135
+<font color="#d7d7d7">Then I deleted the mood bananas it became Apple grape</font>
+
+131
+00:06:51,647 --> 00:06:52,671
+<font color="#9d9d9d">Teddy and orange</font>
+
+132
+00:06:53,183 --> 00:06:58,559
+<font color="#dcdcdc">Then I said delete fruit and index 0 should remove apple and move everything one index to the left</font>
+
+133
+00:06:58,815 --> 00:07:00,351
+<font color="#f4f4f4">That's why we have</font>
+
+134
+00:07:00,607 --> 00:07:02,143
+<font color="#a6a6a6">Jerry and orange juice</font>
+
+135
+00:07:02,655 --> 00:07:05,215
+<font color="#f3f3f3">Another option is if you want to remove something from the top</font>
+
+136
+00:07:05,727 --> 00:07:06,495
+<font color="#ececec">You can say</font>
+
+137
+00:07:07,263 --> 00:07:08,031
+<font color="#dadada">Fruits</font>
+
+138
+00:07:12,127 --> 00:07:15,711
+<font color="#eaeaea">What this does is it removes the last element so if I go ahead</font>
+
+139
+00:07:16,223 --> 00:07:17,759
+<font color="#aeaeae">And print it now</font>
+
+140
+00:07:18,527 --> 00:07:19,295
+<font color="#b1b1b1">Clear this</font>
+
+141
+00:07:20,319 --> 00:07:21,343
+<font color="#dedede">And now you have</font>
+
+142
+00:07:21,599 --> 00:07:27,743
+<font color="#dedede">If you see the video this apple grape banana Cherry orange we removed banana so we had Apple grape cherry and orange</font>
+
+143
+00:07:27,999 --> 00:07:31,583
+<font color="#eeeeee">Then remove the first item which is Apple so we got grape cherry and orange</font>
+
+144
+00:07:31,839 --> 00:07:32,863
+<font color="#d8d8d8">Now when I said pop</font>
+
+145
+00:07:33,119 --> 00:07:35,935
+<font color="#dedede">It popped the last item which is orange if I call it</font>
+
+146
+00:07:36,447 --> 00:07:37,471
+<font color="#f9f9f9">One more time</font>
+
+147
+00:07:38,239 --> 00:07:39,007
+<font color="#e9e9e9">It will remove</font>
+
+148
+00:07:39,263 --> 00:07:43,359
+<font color="#d6d6d6">Even the Cherry so it pops two of the items one is orange and one is</font>
+
+149
+00:07:43,615 --> 00:07:48,991
+<font color="#dadada">Charitable pop items from the last from the last elements from the last indexes</font>
+
+150
+00:07:51,807 --> 00:07:52,575
+<font color="#fcfcfc">Let's look at</font>
+
+151
+00:07:52,831 --> 00:07:53,855
+<font color="#d6d6d6">Slicing list</font>
+
+152
+00:07:54,111 --> 00:07:55,903
+<font color="#ededed">Now slicing is kind of</font>
+
+153
+00:07:56,159 --> 00:07:58,463
+<font color="#fafafa">Getting elements from a particular</font>
+
+154
+00:07:58,719 --> 00:08:02,815
+<font color="#f6f6f6">Play so for example I just want to get grape and Cherry from this particular</font>
+
+155
+00:08:03,071 --> 00:08:06,399
+<font color="#f6f6f6">So how do I do that so I am going to first remove</font>
+
+156
+00:08:06,911 --> 00:08:08,703
+<font color="#ebebeb">My delete statements from here</font>
+
+157
+00:08:09,727 --> 00:08:11,007
+<font color="#e6e6e6">Still display this</font>
+
+158
+00:08:11,775 --> 00:08:12,799
+<font color="#f9f9f9">So I have</font>
+
+159
+00:08:13,311 --> 00:08:15,359
+<font color="#ebebeb">Apple grape banana cherry and orange</font>
+
+160
+00:08:15,871 --> 00:08:17,151
+<font color="#f9f9f9">No I want to get</font>
+
+161
+00:08:17,407 --> 00:08:18,175
+<font color="#e8e8e8">Let's call it</font>
+
+162
+00:08:18,943 --> 00:08:20,223
+<font color="#afafaf">Sliced</font>
+
+163
+00:08:20,735 --> 00:08:21,503
+<font color="#202020">Fruit</font>
+
+164
+00:08:22,527 --> 00:08:25,343
+<font color="#efefef">And here I am going to say I want fruits</font>
+
+165
+00:08:25,599 --> 00:08:26,623
+<font color="#b0b0b0">From index</font>
+
+166
+00:08:28,159 --> 00:08:28,671
+<font color="#313131">23</font>
+
+167
+00:08:29,695 --> 00:08:31,231
+<font color="#aaaaaa">NetSpend this print</font>
+
+168
+00:08:32,255 --> 00:08:33,279
+<font color="#bcbcbc">Sliced</font>
+
+169
+00:08:34,559 --> 00:08:36,607
+<font color="#ededed">So this is how you can slice a particular</font>
+
+170
+00:08:36,863 --> 00:08:37,887
+<font color="#f7f7f7">List of items</font>
+
+171
+00:08:39,679 --> 00:08:44,543
+<font color="#cbcbcb">It's like what is printing is 1 to 3 so 01 so this is the first one</font>
+
+172
+00:08:45,311 --> 00:08:51,199
+<font color="#e9e9e9">Do banana and it doesn't take Cherry because I said one but before 3 that's what it means</font>
+
+173
+00:08:51,455 --> 00:08:53,503
+<font color="#cecece">If I said one before</font>
+
+174
+00:08:54,015 --> 00:08:55,807
+<font color="#cecece">It will display grape</font>
+
+175
+00:08:56,063 --> 00:08:57,343
+<font color="#ececec">Banana and</font>
+
+176
+00:08:57,855 --> 00:08:59,135
+<font color="#f6f6f6">I can just say</font>
+
+177
+00:08:59,391 --> 00:09:00,415
+<font color="#4e4e4e">224</font>
+
+178
+00:09:01,951 --> 00:09:05,279
+<font color="#e6e6e6">So depending on which items you want so 0122</font>
+
+179
+00:09:05,791 --> 00:09:06,815
+<font color="#c3c3c3">And before 4</font>
+
+180
+00:09:07,071 --> 00:09:09,375
+<font color="#c0c0c0">So that is banana and Cherry so you can kind of</font>
+
+181
+00:09:09,631 --> 00:09:15,775
+<font color="#f2f2f2">Slice a particular list into a smaller list and use that for some other operation you want you can probably</font>
+
+182
+00:09:16,287 --> 00:09:20,127
+<font color="#fbfbfb">Think of thousands of different operations that you can do with this right now</font>
+
+183
+00:09:20,383 --> 00:09:21,407
+<font color="#f9f9f9">But that's what</font>
+
+184
+00:09:21,663 --> 00:09:25,247
+<font color="#efefef">That's how you kind of slice a particular</font>
+
+185
+00:09:25,503 --> 00:09:27,551
+<font color="#f9f9f9">List of items by giving this</font>
+
+186
+00:09:27,807 --> 00:09:29,343
+<font color="#dadada">Index colon index</font>
+
+187
+00:09:29,599 --> 00:09:30,623
+<font color="#bababa">Send text</font>
+
+188
+00:09:33,183 --> 00:09:34,719
+<font color="#a3a3a3">Now that you completed list</font>
+
+189
+00:09:34,975 --> 00:09:35,743
+<font color="#f9f9f9">Let's look at</font>
+
+190
+00:09:35,999 --> 00:09:40,863
+<font color="#bbbbbb">Couples no doubles are similar to list but what exactly are supposed to</font>
+
+191
+00:09:41,119 --> 00:09:41,887
+<font color="#bebebe">Ordered</font>
+
+192
+00:09:42,143 --> 00:09:44,191
+<font color="#ededed">Immutable collection of items</font>
+
+193
+00:09:44,447 --> 00:09:46,495
+<font color="#b9b9b9">Unlike list</font>
+
+194
+00:09:46,751 --> 00:09:49,055
+<font color="#ececec">Which were ordered mutable collection</font>
+
+195
+00:09:49,311 --> 00:09:52,383
+<font color="#ededed">Apples are immutable which means you can't change them</font>
+
+196
+00:09:52,639 --> 00:09:56,223
+<font color="#dedede">Let's look at how to create apples so I'm going to go back here again</font>
+
+197
+00:09:58,527 --> 00:10:00,575
+<font color="#fcfcfc">Go ahead and comment everything</font>
+
+198
+00:10:01,599 --> 00:10:02,623
+<font color="#b1b1b1">Go all the way to the top</font>
+
+199
+00:10:03,903 --> 00:10:07,231
+<font color="#ebebeb">And first let's create a couple of colors</font>
+
+200
+00:10:07,999 --> 00:10:11,327
+<font color="#ececec">I'm going to create a couple by giving the rounded brackets</font>
+
+201
+00:10:11,583 --> 00:10:13,631
+<font color="#e3e3e3">And here first is red</font>
+
+202
+00:10:14,143 --> 00:10:16,959
+<font color="#d6d6d6">My favorite three colors red green</font>
+
+203
+00:10:17,471 --> 00:10:19,519
+<font color="#ececec">And I guess you guessed it blue</font>
+
+204
+00:10:20,031 --> 00:10:21,311
+<font color="#eeeeee">So these are three colors</font>
+
+205
+00:10:21,567 --> 00:10:23,615
+<font color="#d9d9d9">Now in here I want to</font>
+
+206
+00:10:24,383 --> 00:10:26,175
+<font color="#e4e4e4">Create a single item couple</font>
+
+207
+00:10:31,039 --> 00:10:32,575
+<font color="#f7f7f7">What do you have to do is</font>
+
+208
+00:10:33,343 --> 00:10:35,391
+<font color="#b7b7b7">Let's say I would say glass</font>
+
+209
+00:10:35,903 --> 00:10:42,047
+<font color="#eaeaea">And if you want to create a single item Temple you need to put a comma at the end of it or else it will not take it as</font>
+
+210
+00:10:43,583 --> 00:10:46,399
+<font color="#f4f4f4">Make sure that if it's only single item you have to give</font>
+
+211
+00:10:46,655 --> 00:10:52,799
+<font color="#f6f6f6">The name of the first element of the first element that is either a string or maybe</font>
+
+212
+00:10:53,055 --> 00:10:58,175
+<font color="#f8f8f8">Specifying that this is a single item</font>
+
+213
+00:10:59,199 --> 00:11:01,247
+<font color="#e8e8e8">And this is a three item top</font>
+
+214
+00:11:02,527 --> 00:11:03,807
+<font color="#e1e1e1">Next thing that will look at</font>
+
+215
+00:11:04,063 --> 00:11:07,903
+<font color="#eaeaea">How to access elements in a table it's very similar to</font>
+
+216
+00:11:08,159 --> 00:11:10,207
+<font color="#c9c9c9">List census ordered list</font>
+
+217
+00:11:11,231 --> 00:11:12,767
+<font color="#d5d5d5">It's an ordered item</font>
+
+218
+00:11:13,023 --> 00:11:15,071
+<font color="#d3d3d3">Order the data structure</font>
+
+219
+00:11:15,327 --> 00:11:16,607
+<font color="#f0f0f0">So you can just say print</font>
+
+220
+00:11:16,863 --> 00:11:17,375
+<font color="#dddddd">Colors</font>
+
+221
+00:11:17,887 --> 00:11:19,935
+<font color="#ebebeb">And you can just say zero</font>
+
+222
+00:11:20,703 --> 00:11:22,239
+<font color="#f4f4f4">And get the first color</font>
+
+223
+00:11:22,495 --> 00:11:25,311
+<font color="#fafafa">You can also use the negative indexing</font>
+
+224
+00:11:25,567 --> 00:11:27,871
+<font color="#fafafa">As I mentioned and it will give me</font>
+
+225
+00:11:28,127 --> 00:11:29,663
+<font color="#e1e1e1">Blue the last element over</font>
+
+226
+00:11:30,175 --> 00:11:31,455
+<font color="#a9a9a9">Can clear it here</font>
+
+227
+00:11:31,711 --> 00:11:33,503
+<font color="#6c6c6c">Columbus and you see red</font>
+
+228
+00:11:33,759 --> 00:11:35,039
+<font color="#c5c5c5">For index at zero</font>
+
+229
+00:11:35,295 --> 00:11:37,855
+<font color="#d5d5d5">And -1 which goes the other way around</font>
+
+230
+00:11:38,111 --> 00:11:41,695
+<font color="#e3e3e3">And that's why we get blue here now again something that</font>
+
+231
+00:11:41,951 --> 00:11:44,511
+<font color="#e3e3e3">Do you want to remember is immutability</font>
+
+232
+00:11:44,767 --> 00:11:47,839
+<font color="#e6e6e6">Doubles cannot be modified after you create them</font>
+
+233
+00:11:48,095 --> 00:11:53,471
+<font color="#ededed">However they can contain mutable items like list inside them so we have strings here</font>
+
+234
+00:11:53,983 --> 00:11:59,359
+<font color="#dcdcdc">In this particular case but you can have left inside there which and list can be mutable so that</font>
+
+235
+00:11:59,615 --> 00:12:01,919
+<font color="#ececec">How you can create a mutable</font>
+
+236
+00:12:02,175 --> 00:12:03,711
+<font color="#ececec">List of couples</font>
+
+237
+00:12:04,735 --> 00:12:05,247
+<font color="#d4d4d4">Next</font>
+
+238
+00:12:05,503 --> 00:12:07,039
+<font color="#e1e1e1">Let's look at dictionaries</font>
+
+239
+00:12:07,295 --> 00:12:08,831
+<font color="#cacaca">So first what are dictionaries</font>
+
+240
+00:12:09,087 --> 00:12:10,367
+<font color="#e3e3e3">Dictionary store</font>
+
+241
+00:12:10,623 --> 00:12:11,903
+<font color="#ebebeb">Key value pairs for</font>
+
+242
+00:12:12,159 --> 00:12:15,743
+<font color="#b2b2b2">Fast lookups now in case of list it was order</font>
+
+243
+00:12:15,999 --> 00:12:20,095
+<font color="#dddddd">In case of couples they were also ordered so you can access them using 0123</font>
+
+244
+00:12:20,351 --> 00:12:24,447
+<font color="#e5e5e5">But in dictionaries you access items using the key value pair</font>
+
+245
+00:12:24,703 --> 00:12:26,239
+<font color="#eaeaea">So you can assess the value</font>
+
+246
+00:12:26,495 --> 00:12:27,519
+<font color="#f0f0f0">Using the key item</font>
+
+247
+00:12:28,031 --> 00:12:29,567
+<font color="#d1d1d1">So let's see how we create dictionaries</font>
+
+248
+00:12:29,823 --> 00:12:31,615
+<font color="#b2b2b2">738 a dictionary here</font>
+
+249
+00:12:32,127 --> 00:12:33,407
+<font color="#b3b3b3">Get commented out</font>
+
+250
+00:12:34,431 --> 00:12:35,455
+<font color="#d4d4d4">And move it down</font>
+
+251
+00:12:36,479 --> 00:12:37,247
+<font color="#626262">For dictionaries</font>
+
+252
+00:12:37,503 --> 00:12:40,575
+<font color="#efefef">I am going to create let's create a student dictionary</font>
+
+253
+00:12:41,343 --> 00:12:42,623
+<font color="#a8a8a8">And to the student</font>
+
+254
+00:12:43,135 --> 00:12:44,415
+<font color="#efefef">I'll give a name</font>
+
+255
+00:12:44,927 --> 00:12:46,463
+<font color="#8e8e8e">And then I'll give</font>
+
+256
+00:12:50,303 --> 00:12:51,327
+<font color="#868686">I'll give</font>
+
+257
+00:12:51,839 --> 00:12:53,119
+<font color="#d8d8d8">Let's say 25</font>
+
+258
+00:12:56,703 --> 00:12:59,007
+<font color="#d8d8d8">I will give as let's agree</font>
+
+259
+00:13:00,287 --> 00:13:01,823
+<font color="#fbfbfb">So this is how you can create</font>
+
+260
+00:13:02,079 --> 00:13:08,223
+<font color="#d6d6d6">Key value pair where the key is in this particular case name is and great these are different keys and</font>
+
+261
+00:13:08,479 --> 00:13:10,527
+<font color="#cbcbcb">And values are Alice 25 and</font>
+
+262
+00:13:10,783 --> 00:13:16,927
+<font color="#dadada">So unlike list where you have like in order to 01 and 2 here you don't have an order but you have</font>
+
+263
+00:13:17,183 --> 00:13:17,695
+<font color="#767676">Increase volume</font>
+
+264
+00:13:17,951 --> 00:13:19,487
+<font color="#dedede">If I bring the student</font>
+
+265
+00:13:22,047 --> 00:13:22,815
+<font color="#e9e9e9">Go back</font>
+
+266
+00:13:24,095 --> 00:13:24,863
+<font color="#909090">And print it</font>
+
+267
+00:13:25,119 --> 00:13:29,215
+<font color="#a4a4a4">Is the name Alice age and grade you'll probably see the way it is specified year</font>
+
+268
+00:13:29,471 --> 00:13:34,079
+<font color="#d7d7d7">It's not it's not an order item so it might be saved in any order the way it's access</font>
+
+269
+00:13:34,335 --> 00:13:35,871
+<font color="#e4e4e4">Is through the key value</font>
+
+270
+00:13:36,639 --> 00:13:39,711
+<font color="#f0f0f0">Let's talk about that accessing and modifying data</font>
+
+271
+00:13:41,247 --> 00:13:42,783
+<font color="#c5c5c5">Do access first</font>
+
+272
+00:13:43,039 --> 00:13:47,391
+<font color="#d7d7d7">You'll probably can access this key with the values inside here</font>
+
+273
+00:13:47,647 --> 00:13:49,951
+<font color="#f7f7f7">From the key so I can say what is</font>
+
+274
+00:13:50,207 --> 00:13:51,743
+<font color="#eaeaea">The name of the student</font>
+
+275
+00:13:53,279 --> 00:13:57,119
+<font color="#e5e5e5">When I bring that it says Alice so that's how you access so you can see age</font>
+
+276
+00:13:58,399 --> 00:13:59,423
+<font color="#f4f4f4">And you can get</font>
+
+277
+00:13:59,679 --> 00:14:01,215
+<font color="#cecece">Age or you can say</font>
+
+278
+00:14:01,727 --> 00:14:02,495
+<font color="#898989">Grade</font>
+
+279
+00:14:02,751 --> 00:14:03,519
+<font color="#989898">And assess</font>
+
+280
+00:14:03,775 --> 00:14:05,311
+<font color="#dfdfdf">The grid of this particular student</font>
+
+281
+00:14:06,079 --> 00:14:08,127
+<font color="#d1d1d1">Do the next thing that we don't talk about is</font>
+
+282
+00:14:08,383 --> 00:14:11,455
+<font color="#dedede">Adding and updating so what if I want to add something</font>
+
+283
+00:14:11,711 --> 00:14:13,247
+<font color="#d2d2d2">To this particular</font>
+
+284
+00:14:13,503 --> 00:14:14,271
+<font color="#7a7a7a">Two particular</font>
+
+285
+00:14:14,527 --> 00:14:16,063
+<font color="#f9f9f9">So I can just say</font>
+
+286
+00:14:16,319 --> 00:14:17,599
+<font color="#bfbfbf">It's over here</font>
+
+287
+00:14:18,111 --> 00:14:19,391
+<font color="#aaaaaa">Print entire student</font>
+
+288
+00:14:20,927 --> 00:14:23,743
+<font color="#e9e9e9">And then do the student I want to add a stop subject</font>
+
+289
+00:14:24,255 --> 00:14:26,815
+<font color="#c9c9c9">I can see student inside square brackets</font>
+
+290
+00:14:27,327 --> 00:14:29,119
+<font color="#cccccc">Little square brackets are used for</font>
+
+291
+00:14:30,655 --> 00:14:33,215
+<font color="#d8d8d8">List but when you are assigning a key</font>
+
+292
+00:14:33,727 --> 00:14:37,311
+<font color="#dcdcdc">And a value you can do it using this I can say</font>
+
+293
+00:14:37,567 --> 00:14:42,175
+<font color="#dbdbdb">Subject that I want to add to the student is math so this creates a key value pair</font>
+
+294
+00:14:42,431 --> 00:14:43,711
+<font color="#fbfbfb">If I print this out</font>
+
+295
+00:14:44,735 --> 00:14:48,063
+<font color="#c3c3c3">What is the name is great and subject or discretion</font>
+
+296
+00:14:48,319 --> 00:14:49,087
+<font color="#cecece">Clear it out</font>
+
+297
+00:14:49,855 --> 00:14:53,439
+<font color="#f3f3f3">And again now if I want to update something you can again do it similarly</font>
+
+298
+00:14:53,695 --> 00:14:54,463
+<font color="#424242">Consider</font>
+
+299
+00:14:54,719 --> 00:14:56,255
+<font color="#ececec">I want to update the age</font>
+
+300
+00:14:56,767 --> 00:14:58,815
+<font color="#cccccc">From 26 to 32</font>
+
+301
+00:14:59,583 --> 00:15:01,119
+<font color="#e5e5e5">Now if I print it out</font>
+
+302
+00:15:02,655 --> 00:15:08,799
+<font color="#cfcfcf">You'll see name is Alice a just got updated to 32 grade is a and subject is math so this is how</font>
+
+303
+00:15:09,055 --> 00:15:10,591
+<font color="#d7d7d7">How do you add and update items</font>
+
+304
+00:15:10,847 --> 00:15:12,639
+<font color="#fafafa">Inside a particular dictionary</font>
+
+305
+00:15:13,407 --> 00:15:13,919
+<font color="#dbdbdb">Next</font>
+
+306
+00:15:14,175 --> 00:15:15,967
+<font color="#f4f4f4">Let's look at how do you remove items</font>
+
+307
+00:15:16,223 --> 00:15:18,271
+<font color="#e6e6e6">Again something similar to list</font>
+
+308
+00:15:18,527 --> 00:15:20,319
+<font color="#e2e2e2">You can just use DL</font>
+
+309
+00:15:20,831 --> 00:15:21,599
+<font color="#e7e7e7">Student</font>
+
+310
+00:15:21,855 --> 00:15:24,415
+<font color="#c1c1c1">Send a picture of the item you want to delete for example</font>
+
+311
+00:15:24,671 --> 00:15:26,207
+<font color="#e8e8e8">I want to delete the grid</font>
+
+312
+00:15:26,719 --> 00:15:27,999
+<font color="#d4d4d4">That's how you can remove</font>
+
+313
+00:15:28,255 --> 00:15:30,303
+<font color="#dedede">Also let's print it out first</font>
+
+314
+00:15:31,839 --> 00:15:34,655
+<font color="#fcfcfc">And then you can also use the</font>
+
+315
+00:15:35,167 --> 00:15:36,447
+<font color="#adadad">I can say student</font>
+
+316
+00:15:37,727 --> 00:15:42,591
+<font color="#ebebeb">Pop but in this case you can't give empty you'll have to specify what you want to</font>
+
+317
+00:15:42,847 --> 00:15:45,407
+<font color="#d5d5d5">Popsicle subject is what I want to pop</font>
+
+318
+00:15:45,919 --> 00:15:47,455
+<font color="#bcbcbc">Take this printed out</font>
+
+319
+00:15:48,223 --> 00:15:51,551
+<font color="#e8e8e8">Let's display it so first one this is the original one</font>
+
+320
+00:15:51,807 --> 00:15:55,903
+<font color="#f7f7f7">And then I said delete the grade and if you see grade is missing here</font>
+
+321
+00:15:56,159 --> 00:15:57,439
+<font color="#cacaca">And I said pop subject</font>
+
+322
+00:15:57,951 --> 00:16:01,023
+<font color="#efefef">And if you see it popped subject out of this particular</font>
+
+323
+00:16:01,279 --> 00:16:04,351
+<font color="#e2e2e2">Dictionary and now I only have name and age here</font>
+
+324
+00:16:05,631 --> 00:16:07,935
+<font color="#cccccc">Next thing that we're going to talk about is</font>
+
+325
+00:16:08,191 --> 00:16:14,335
+<font color="#ececec">Iteration now how do you iterate through a particular dictionary the way to do it is because</font>
+
+326
+00:16:14,591 --> 00:16:15,871
+<font color="#c7c7c7">For list</font>
+
+327
+00:16:16,127 --> 00:16:18,175
+<font color="#c8c8c8">Search is easy because they are indexed</font>
+
+328
+00:16:18,431 --> 00:16:19,711
+<font color="#f9f9f9">But if I want to</font>
+
+329
+00:16:20,479 --> 00:16:20,991
+<font color="#1a1a1a">Rhett</font>
+
+330
+00:16:21,247 --> 00:16:24,063
+<font color="#e2e2e2">Over a particular dictionary in the way to do it is</font>
+
+331
+00:16:24,319 --> 00:16:25,599
+<font color="#a2a2a2">For key</font>
+
+332
+00:16:26,623 --> 00:16:27,647
+<font color="#9b9b9b">Add value</font>
+
+333
+00:16:29,439 --> 00:16:30,207
+<font color="#cbcbcb">Student</font>
+
+334
+00:16:31,743 --> 00:16:32,511
+<font color="#ececec">Items</font>
+
+335
+00:16:33,535 --> 00:16:34,559
+<font color="#ededed">So what it does is</font>
+
+336
+00:16:35,839 --> 00:16:37,375
+<font color="#d5d5d5">Everything inside student</font>
+
+337
+00:16:38,143 --> 00:16:40,191
+<font color="#d3d3d3">With the calling this function student or items</font>
+
+338
+00:16:40,447 --> 00:16:41,727
+<font color="#c8c8c8">Put them in a list</font>
+
+339
+00:16:42,239 --> 00:16:44,031
+<font color="#dddddd">This is what this function does item</font>
+
+340
+00:16:44,287 --> 00:16:45,823
+<font color="#fcfcfc">And now you can access</font>
+
+341
+00:16:46,079 --> 00:16:46,847
+<font color="#676767">Each</font>
+
+342
+00:16:47,103 --> 00:16:51,711
+<font color="#e5e5e5">And its value from the student dot items items</font>
+
+343
+00:16:51,967 --> 00:16:52,479
+<font color="#d4d4d4">Function</font>
+
+344
+00:16:52,991 --> 00:16:54,783
+<font color="#e6e6e6">So I can just say print here</font>
+
+345
+00:16:57,087 --> 00:16:58,111
+<font color="#b5b5b5">And value</font>
+
+346
+00:16:58,367 --> 00:17:01,183
+<font color="#f8f8f8">So this will show me what will I get when I do this</font>
+
+347
+00:17:02,207 --> 00:17:06,559
+<font color="#c6c6c6">So is his name is Alice age is 25 grade is it so it created a list of</font>
+
+348
+00:17:06,815 --> 00:17:07,839
+<font color="#9c9c9c">Key value pair</font>
+
+349
+00:17:08,351 --> 00:17:09,631
+<font color="#c9c9c9">From a dictionary</font>
+
+350
+00:17:09,887 --> 00:17:14,239
+<font color="#eaeaea">And then I can trade over them one at a time and display those values</font>
+
+351
+00:17:14,495 --> 00:17:15,007
+<font color="#d6d6d6">Next</font>
+
+352
+00:17:15,263 --> 00:17:16,031
+<font color="#f5f5f5">Let's look at</font>
+
+353
+00:17:17,567 --> 00:17:20,383
+<font color="#dddddd">Now what are sets sets</font>
+
+354
+00:17:20,639 --> 00:17:23,199
+<font color="#f5f5f5">Unordered collections of unique items</font>
+
+355
+00:17:23,455 --> 00:17:29,599
+<font color="#e0e0e0">So the one thing that you would remember and said says you can't have repetitive items like for example if your numbers</font>
+
+356
+00:17:29,855 --> 00:17:33,951
+<font color="#c3c3c3">Set of numbers 1 2 3 4 that's fine but what if you have</font>
+
+357
+00:17:34,207 --> 00:17:36,511
+<font color="#6b6b6b">11223344 then it will</font>
+
+358
+00:17:36,767 --> 00:17:40,607
+<font color="#bfbfbf">Kind of drop those duplicates and it will give you a set of 1,234</font>
+
+359
+00:17:40,863 --> 00:17:42,143
+<font color="#e0e0e0">So I</font>
+
+360
+00:17:42,655 --> 00:17:44,703
+<font color="#d0d0d0">Warheads are unordered collection</font>
+
+361
+00:17:44,959 --> 00:17:46,495
+<font color="#cbcbcb">Off unique items</font>
+
+362
+00:17:46,751 --> 00:17:48,031
+<font color="#f9f9f9">So how do you</font>
+
+363
+00:17:48,287 --> 00:17:49,311
+<font color="#cbcbcb">Create sets</font>
+
+364
+00:17:49,567 --> 00:17:50,591
+<font color="#a6a6a6">Create search</font>
+
+365
+00:17:50,847 --> 00:17:51,615
+<font color="#dddddd">Just</font>
+
+366
+00:17:52,895 --> 00:17:54,943
+<font color="#f8f8f8">Make sure that this is commented</font>
+
+367
+00:17:55,967 --> 00:17:57,247
+<font color="#e5e5e5">And go down here</font>
+
+368
+00:17:57,759 --> 00:17:59,295
+<font color="#f5f5f5">Create numbers</font>
+
+369
+00:17:59,807 --> 00:18:02,367
+<font color="#f0f0f0">Equal to again angular brackets</font>
+
+370
+00:18:04,159 --> 00:18:05,695
+<font color="#c4c4c4">3 and 4</font>
+
+371
+00:18:05,951 --> 00:18:10,303
+<font color="#a6a6a6">She's not key Value Place because inside angle brackets keep all your studies</font>
+
+372
+00:18:10,559 --> 00:18:16,191
+<font color="#f9f9f9">But if you use angle brackets with items inside here that's an unordered collection of unique items</font>
+
+373
+00:18:16,447 --> 00:18:17,215
+<font color="#606060">Which are set</font>
+
+374
+00:18:17,983 --> 00:18:19,775
+<font color="#e9e9e9">You can also create a empty set</font>
+
+375
+00:18:20,031 --> 00:18:23,615
+<font color="#cdcdcd">For example I create just a variable name called an empty set</font>
+
+376
+00:18:23,871 --> 00:18:25,919
+<font color="#dbdbdb">And to create an empty set you can just set</font>
+
+377
+00:18:27,199 --> 00:18:28,735
+<font color="#f5f5f5">That's how you can create an empty</font>
+
+378
+00:18:29,247 --> 00:18:31,551
+<font color="#f3f3f3">Now how do you add</font>
+
+379
+00:18:31,807 --> 00:18:32,575
+<font color="#dddddd">Remove</font>
+
+380
+00:18:32,831 --> 00:18:34,111
+<font color="#aeaeae">Elements from a set</font>
+
+381
+00:18:35,647 --> 00:18:38,719
+<font color="#f3f3f3">I think that's the next topic adding and removing elements</font>
+
+382
+00:18:38,975 --> 00:18:39,743
+<font color="#e6e6e6">To do that</font>
+
+383
+00:18:39,999 --> 00:18:41,791
+<font color="#ededed">First I can just say inside</font>
+
+384
+00:18:42,303 --> 00:18:43,071
+<font color="#ebebeb">Numbers</font>
+
+385
+00:18:43,327 --> 00:18:44,607
+<font color="#f7f7f7">I want to add</font>
+
+386
+00:18:46,655 --> 00:18:47,423
+<font color="#ededed">So let's</font>
+
+387
+00:18:48,703 --> 00:18:49,727
+<font color="#c3c3c3">Numbers here first</font>
+
+388
+00:18:53,567 --> 00:18:54,079
+<font color="#494949">Sonic</font>
+
+389
+00:18:57,663 --> 00:19:01,759
+<font color="#aeaeae">I said 1234 and if you see one two three four five so I did one more item</font>
+
+390
+00:19:02,015 --> 00:19:03,551
+<font color="#fafafa">What if I want to add</font>
+
+391
+00:19:03,807 --> 00:19:05,343
+<font color="#dddddd">What if I try to add four</font>
+
+392
+00:19:05,855 --> 00:19:11,743
+<font color="#b0b0b0">57234 and output is again 1 2 3 4 5 because 4 already exists so you can't add duplicates</font>
+
+393
+00:19:11,999 --> 00:19:13,791
+<font color="#fcfcfc">You can add some other numbers</font>
+
+394
+00:19:14,559 --> 00:19:17,887
+<font color="#e1e1e1">But no duplicate as long as there's no duplicates it all works fine</font>
+
+395
+00:19:18,399 --> 00:19:19,423
+<font color="#f7f7f7">Now what if I want to</font>
+
+396
+00:19:19,679 --> 00:19:23,263
+<font color="#fcfcfc">Remove something so I can just use something similar</font>
+
+397
+00:19:24,799 --> 00:19:25,823
+<font color="#5a5a5a">Answer the movie</font>
+
+398
+00:19:26,079 --> 00:19:28,127
+<font color="#d5d5d5">And I want to remove the tattoo</font>
+
+399
+00:19:31,967 --> 00:19:36,319
+<font color="#c2c2c2">So I want to 348 and if you see here 13482 got removed</font>
+
+400
+00:19:36,575 --> 00:19:39,647
+<font color="#f7f7f7">When I call the remove function on a particular</font>
+
+401
+00:19:40,927 --> 00:19:42,719
+<font color="#f7f7f7">Next thing that I want to talk about</font>
+
+402
+00:19:42,975 --> 00:19:49,119
+<font color="#d3d3d3">Is set operations are you probably have learned about this before but set as three different operations first is Union</font>
+
+403
+00:19:49,375 --> 00:19:49,887
+<font color="#e3e3e3">Which</font>
+
+404
+00:19:50,143 --> 00:19:56,287
+<font color="#f3f3f3">Union of two different sets when you try to so for example I have this let's create a new one</font>
+
+405
+00:19:56,799 --> 00:19:57,823
+<font color="#717171">How to move this</font>
+
+406
+00:19:58,079 --> 00:19:59,871
+<font color="#d6d6d6">Set one equal to</font>
+
+407
+00:20:00,639 --> 00:20:03,455
+<font color="#b3b3b3">I have one comma two comma three</font>
+
+408
+00:20:03,967 --> 00:20:04,735
+<font color="#f9f9f9">And I have</font>
+
+409
+00:20:07,807 --> 00:20:08,831
+<font color="#d3d3d3">Which has</font>
+
+410
+00:20:09,855 --> 00:20:11,135
+<font color="#828282">3</font>
+
+411
+00:20:12,415 --> 00:20:13,439
+<font color="#747474">Call Mom</font>
+
+412
+00:20:13,695 --> 00:20:16,255
+<font color="#ebebeb">Now if you seen this particular case if I try to</font>
+
+413
+00:20:16,511 --> 00:20:19,327
+<font color="#d6d6d6">Union or put both the sets together</font>
+
+414
+00:20:19,839 --> 00:20:20,863
+<font color="#f3f3f3">Set</font>
+
+415
+00:20:23,167 --> 00:20:28,287
+<font color="#e2e2e2">And Union is done using the pipe symbol so I'm saying set one</font>
+
+416
+00:20:28,543 --> 00:20:29,311
+<font color="#aeaeae">Set</font>
+
+417
+00:20:29,567 --> 00:20:31,615
+<font color="#e6e6e6">In this case let's look at the output</font>
+
+418
+00:20:33,663 --> 00:20:34,687
+<font color="#525252">Coastal cleared out</font>
+
+419
+00:20:34,943 --> 00:20:39,295
+<font color="#bababa">And then done it again 1 2 3 4 5 what happened by Union them</font>
+
+420
+00:20:39,551 --> 00:20:43,647
+<font color="#dadada">It took both of them put them together but since there is three that is duplicate</font>
+
+421
+00:20:43,903 --> 00:20:47,743
+<font color="#bfbfbf">It used to be only once 1 to 3:45 that's what union is</font>
+
+422
+00:20:48,255 --> 00:20:51,839
+<font color="#e0e0e0">Next that you want to talk about is intersection which is</font>
+
+423
+00:20:52,095 --> 00:20:53,887
+<font color="#f3f3f3">Intersection between two different</font>
+
+424
+00:20:54,143 --> 00:20:56,191
+<font color="#bbbbbb">I said so in that particular case</font>
+
+425
+00:20:56,447 --> 00:20:58,495
+<font color="#dcdcdc">You can use the and sign</font>
+
+426
+00:20:59,263 --> 00:21:02,591
+<font color="#ebebeb">Something like this know the intersection between these two</font>
+
+427
+00:21:02,847 --> 00:21:06,687
+<font color="#d0d0d0">Search is 1,200 exist but three exist in both of them</font>
+
+428
+00:21:06,943 --> 00:21:08,735
+<font color="#dadada">So three is the intersection point</font>
+
+429
+00:21:08,991 --> 00:21:10,271
+<font color="#f7f7f7">So if I run it</font>
+
+430
+00:21:10,527 --> 00:21:11,807
+<font color="#b3b3b3">I get only a</font>
+
+431
+00:21:12,063 --> 00:21:14,623
+<font color="#b6b6b6">Orbit value of 3 so that's intersection</font>
+
+432
+00:21:16,159 --> 00:21:17,696
+<font color="#e4e4e4">Talk about difference</font>
+
+433
+00:21:17,952 --> 00:21:18,720
+<font color="#c6c6c6">Differences</font>
+
+434
+00:21:18,976 --> 00:21:22,816
+<font color="#f4f4f4">From first set what is difference as compared to the second one</font>
+
+435
+00:21:23,328 --> 00:21:25,888
+<font color="#f8f8f8">That is done by using the minus symbol</font>
+
+436
+00:21:26,400 --> 00:21:32,288
+<font color="#ececec">Look at the first set and the second set the second set will only check the difference for</font>
+
+437
+00:21:32,544 --> 00:21:34,848
+<font color="#d0d0d0">What is there not there in set</font>
+
+438
+00:21:35,104 --> 00:21:37,408
+<font color="#e1e1e1">So that is 1 and 2 so this will give me</font>
+
+439
+00:21:37,664 --> 00:21:40,224
+<font color="#e2e2e2">Difference of set 1 and set 2 which is 1 and 2</font>
+
+440
+00:21:40,736 --> 00:21:41,760
+<font color="#cbcbcb">So if I run</font>
+
+441
+00:21:42,784 --> 00:21:48,160
+<font color="#d4d4d4">Baby I have an output which is one too so that's the difference between set one and set two</font>
+
+442
+00:21:48,416 --> 00:21:49,440
+<font color="#eaeaea">So we created</font>
+
+443
+00:21:49,696 --> 00:21:51,232
+<font color="#f9f9f9">Union using the pipe</font>
+
+444
+00:21:51,744 --> 00:21:55,072
+<font color="#e1e1e1">We created the intersection using and</font>
+
+445
+00:21:55,328 --> 00:21:59,168
+<font color="#c9c9c9">And we created a difference using minus so that those are basic</font>
+
+446
+00:21:59,424 --> 00:22:00,960
+<font color="#eeeeee">Set operations that we have</font>
+
+447
+00:22:01,728 --> 00:22:03,008
+<font color="#919191">I'm going to come in this out</font>
+
+448
+00:22:03,264 --> 00:22:04,544
+<font color="#878787">Save it close it</font>
+
+449
+00:22:04,800 --> 00:22:05,824
+<font color="#f1f1f1">Because next</font>
+
+450
+00:22:06,080 --> 00:22:08,640
+<font color="#a8a8a8">You're going to jump into our hands on exercise</font>
+
+451
+00:22:09,664 --> 00:22:10,688
+<font color="#d3d3d3">Exercise one</font>
+
+452
+00:22:10,944 --> 00:22:13,760
+<font color="#dedede">Is the manipulate data in a dictionary</font>
+
+453
+00:22:14,272 --> 00:22:15,552
+<font color="#dedede">The objective here</font>
+
+454
+00:22:15,808 --> 00:22:21,184
+<font color="#efefef">Is practice adding removing and modifying key value pairs in a dictionary</font>
+
+455
+00:22:21,696 --> 00:22:26,304
+<font color="#e4e4e4">So first what we'll do is we'll create a dictionary to store information about a person</font>
+
+456
+00:22:26,816 --> 00:22:30,656
+<font color="#e4e4e4">Will perform different operations like adding a new key value pair</font>
+
+457
+00:22:30,912 --> 00:22:32,448
+<font color="#f4f4f4">For the person's address</font>
+
+458
+00:22:32,704 --> 00:22:35,008
+<font color="#bebebe">Danville modify the</font>
+
+459
+00:22:35,264 --> 00:22:39,104
+<font color="#b1b1b1">Lucky today and will remove the great key</font>
+
+460
+00:22:39,360 --> 00:22:40,128
+<font color="#c4c4c4">If it exists</font>
+
+461
+00:22:40,640 --> 00:22:41,408
+<font color="#fafafa">So let's go ahead</font>
+
+462
+00:22:42,944 --> 00:22:43,968
+<font color="#d3d3d3">Create a new file</font>
+
+463
+00:22:44,480 --> 00:22:45,760
+<font color="#a9a9a9">Colorado python file</font>
+
+464
+00:22:46,016 --> 00:22:47,808
+<font color="#c2c2c2">Save it inside day for</font>
+
+465
+00:22:48,320 --> 00:22:50,112
+<font color="#969696">Call it exercise one</font>
+
+466
+00:22:51,648 --> 00:22:52,416
+<font color="#d1d1d1">And here</font>
+
+467
+00:22:52,672 --> 00:22:54,464
+<font color="#909090">473 dead person</font>
+
+468
+00:22:54,720 --> 00:22:55,744
+<font color="#7a7a7a">Do you value pear</font>
+
+469
+00:22:58,560 --> 00:22:59,328
+<font color="#f0f0f0">Is</font>
+
+470
+00:23:00,352 --> 00:23:00,864
+<font color="#1a1a1a">Al</font>
+
+471
+00:23:01,888 --> 00:23:04,704
+<font color="#f6f6f6">Next I'm going to say the age of this person</font>
+
+472
+00:23:05,216 --> 00:23:06,496
+<font color="#e7e7e7">Is 25</font>
+
+473
+00:23:07,520 --> 00:23:09,056
+<font color="#d7d7d7">Next time I want to give a grade</font>
+
+474
+00:23:10,592 --> 00:23:12,384
+<font color="#dfdfdf">And the grid is a grade</font>
+
+475
+00:23:12,896 --> 00:23:15,712
+<font color="#e9e9e9">So this is my personal the first thing that I want to do</font>
+
+476
+00:23:16,736 --> 00:23:17,760
+<font color="#e7e7e7">Add</font>
+
+477
+00:23:21,600 --> 00:23:24,672
+<font color="#e5e5e5">So as I mentioned you know first thing that I want to do is add an address</font>
+
+478
+00:23:24,928 --> 00:23:26,208
+<font color="#a8a8a8">Sexy person</font>
+
+479
+00:23:28,768 --> 00:23:29,536
+<font color="#c8c8c8">Address</font>
+
+480
+00:23:30,304 --> 00:23:31,328
+<font color="#ececec">Equal to</font>
+
+481
+00:23:31,840 --> 00:23:32,864
+<font color="#555555">123</font>
+
+482
+00:23:33,120 --> 00:23:34,144
+<font color="#dfdfdf">Main Street</font>
+
+483
+00:23:35,168 --> 00:23:37,216
+<font color="#e6e6e6">So that's the address for Alice</font>
+
+484
+00:23:37,728 --> 00:23:39,520
+<font color="#fafafa">Next I want to update</font>
+
+485
+00:23:40,800 --> 00:23:41,568
+<font color="#3c3c3c">Call</font>
+
+486
+00:23:41,824 --> 00:23:43,360
+<font color="#8a8a8a">San Jose update is</font>
+
+487
+00:23:43,872 --> 00:23:45,664
+<font color="#e3e3e3">So I'm going to say person</font>
+
+488
+00:23:48,736 --> 00:23:52,064
+<font color="#cdcdcd">From 25 I'm going to change her age to 32</font>
+
+489
+00:23:53,088 --> 00:23:56,160
+<font color="#ececec">Next if there's any grade I want to remove those</font>
+
+490
+00:23:56,416 --> 00:23:58,464
+<font color="#e8e8e8">Grades from the</font>
+
+491
+00:23:58,720 --> 00:24:01,024
+<font color="#cdcdcd">Use the so I'm going to check if</font>
+
+492
+00:24:03,840 --> 00:24:04,864
+<font color="#cfcfcf">The different way of doing</font>
+
+493
+00:24:05,632 --> 00:24:08,192
+<font color="#cdcdcd">In person just checking if the key exists</font>
+
+494
+00:24:08,448 --> 00:24:09,216
+<font color="#808080">With grade</font>
+
+495
+00:24:09,472 --> 00:24:10,496
+<font color="#dcdcdc">What do I want to do</font>
+
+496
+00:24:10,752 --> 00:24:11,776
+<font color="#f5f5f5">I want to delete</font>
+
+497
+00:24:12,800 --> 00:24:13,568
+<font color="#d4d4d4">Person</font>
+
+498
+00:24:17,408 --> 00:24:18,176
+<font color="#dadada">So next</font>
+
+499
+00:24:18,432 --> 00:24:20,992
+<font color="#f2f2f2">I am going to say so once I'm done with</font>
+
+500
+00:24:21,248 --> 00:24:24,064
+<font color="#e8e8e8">Deleting this let's print this person out</font>
+
+501
+00:24:24,576 --> 00:24:30,720
+<font color="#e0e0e0">What kind of completes are in dark exercise where we have created a dictionary with three keys with</font>
+
+502
+00:24:30,976 --> 00:24:31,488
+<font color="#aeaeae">Share values</font>
+
+503
+00:24:31,744 --> 00:24:35,328
+<font color="#c0c0c0">And we added a new key value pair and address to</font>
+
+504
+00:24:35,584 --> 00:24:36,352
+<font color="#e5e5e5">This person</font>
+
+505
+00:24:36,608 --> 00:24:39,680
+<font color="#c5c5c5">You get the age of Alice to 32 from 25</font>
+
+506
+00:24:39,936 --> 00:24:44,800
+<font color="#dbdbdb">And then we saw this great that is existing we removed it from The Weeknd</font>
+
+507
+00:24:45,568 --> 00:24:49,408
+<font color="#eaeaea">Print this here first to check and then after our operations</font>
+
+508
+00:24:49,664 --> 00:24:50,688
+<font color="#ececec">Let's check it again</font>
+
+509
+00:24:50,944 --> 00:24:51,968
+<font color="#fafafa">So let's go ahead</font>
+
+510
+00:24:52,736 --> 00:24:53,760
+<font color="#858585">Clear this out</font>
+
+511
+00:24:54,272 --> 00:24:54,784
+<font color="#c8c8c8">And say</font>
+
+512
+00:24:55,040 --> 00:24:55,808
+<font color="#585858">Lights</font>
+
+513
+00:24:56,832 --> 00:24:59,648
+<font color="#737373">Exercise 1.54</font>
+
+514
+00:24:59,904 --> 00:25:00,928
+<font color="#828282">Your name Al</font>
+
+515
+00:25:01,184 --> 00:25:02,976
+<font color="#c0c0c0">Is 25 grade A</font>
+
+516
+00:25:03,232 --> 00:25:04,512
+<font color="#f4f4f4">Then we added</font>
+
+517
+00:25:05,024 --> 00:25:08,096
+<font color="#f2f2f2">Address 123 Main Street is there</font>
+
+518
+00:25:08,352 --> 00:25:11,936
+<font color="#e6e6e6">Updated the age from 25 to 32 so that's there</font>
+
+519
+00:25:12,192 --> 00:25:16,032
+<font color="#e7e7e7">And then we removed grade if it exists so</font>
+
+520
+00:25:16,288 --> 00:25:18,592
+<font color="#dcdcdc">Remove that grade here so that's our</font>
+
+521
+00:25:18,848 --> 00:25:24,480
+<font color="#e5e5e5">Great exercise one if you had any issues or problems let me know and I'll get back to you and let's get to</font>
+
+522
+00:25:24,992 --> 00:25:26,016
+<font color="#cacaca">Exercise 2</font>
+
+523
+00:25:26,272 --> 00:25:29,088
+<font color="#cccccc">Which is the frequency counter</font>
+
+524
+00:25:29,600 --> 00:25:32,416
+<font color="#efefef">The objective here is to write a program</font>
+
+525
+00:25:32,672 --> 00:25:33,952
+<font color="#f1f1f1">That takes a sentence</font>
+
+526
+00:25:34,208 --> 00:25:35,744
+<font color="#c2c2c2">And returns a dictionary</font>
+
+527
+00:25:36,000 --> 00:25:38,304
+<font color="#f3f3f3">With the frequency count of each word</font>
+
+528
+00:25:38,816 --> 00:25:42,400
+<font color="#ebebeb">So what we do is we'll take a user input for a sentence here</font>
+
+529
+00:25:42,656 --> 00:25:44,960
+<font color="#e2e2e2">Then we'll split the sentence into words</font>
+
+530
+00:25:45,472 --> 00:25:49,824
+<font color="#e2e2e2">And then we'll count the occurrence of each word and store the counts in a dictionary</font>
+
+531
+00:25:50,592 --> 00:25:51,360
+<font color="#f7f7f7">So let's go ahead</font>
+
+532
+00:25:51,616 --> 00:25:52,640
+<font color="#f0f0f0">And you can follow along</font>
+
+533
+00:25:52,896 --> 00:25:55,712
+<font color="#fafafa">If you had any problems let me know in between but</font>
+
+534
+00:25:55,968 --> 00:25:56,992
+<font color="#cacaca">I'm going to start</font>
+
+535
+00:25:58,528 --> 00:26:00,832
+<font color="#696969">Exercise 2.0 Ty</font>
+
+536
+00:26:01,856 --> 00:26:02,624
+<font color="#3b3b3b">NC</font>
+
+537
+00:26:02,880 --> 00:26:04,416
+<font color="#949494">First let's take</font>
+
+538
+00:26:06,208 --> 00:26:07,232
+<font color="#d1d1d1">Sentence</font>
+
+539
+00:26:08,000 --> 00:26:11,328
+<font color="#c9c9c9">As input from our user I'm going to say</font>
+
+540
+00:26:14,656 --> 00:26:16,448
+<font color="#f2f2f2">Sentence to the user</font>
+
+541
+00:26:16,960 --> 00:26:19,008
+<font color="#e8e8e8">Let them enter give us the input</font>
+
+542
+00:26:19,520 --> 00:26:23,104
+<font color="#dadada">Then I want to just write this down split</font>
+
+543
+00:26:30,528 --> 00:26:32,576
+<font color="#e5e5e5">Now that can be done by</font>
+
+544
+00:26:33,344 --> 00:26:37,184
+<font color="#9f9f9f">Creating an office first apparently of the variable</font>
+
+545
+00:26:37,440 --> 00:26:38,976
+<font color="#d6d6d6">Words which is a list</font>
+
+546
+00:26:39,488 --> 00:26:40,512
+<font color="#bcbcbc">Not to this list</font>
+
+547
+00:26:40,768 --> 00:26:42,560
+<font color="#f4f4f4">I'm going to call the split function</font>
+
+548
+00:26:43,072 --> 00:26:46,400
+<font color="#ececec">So what this does is split function it will take a particular sentence</font>
+
+549
+00:26:46,656 --> 00:26:49,472
+<font color="#cacaca">And split it and put it inside this words</font>
+
+550
+00:26:49,728 --> 00:26:52,032
+<font color="#bfbfbf">What's left so that's what it will do</font>
+
+551
+00:26:52,544 --> 00:26:54,848
+<font color="#bcbcbc">Next let's initialize the dictionary</font>
+
+552
+00:26:56,896 --> 00:26:58,176
+<font color="#5c5c5c">Initialize</font>
+
+553
+00:26:59,712 --> 00:27:01,760
+<font color="#f1f1f1">Empty dictionary to do that</font>
+
+554
+00:27:02,016 --> 00:27:05,344
+<font color="#cccccc">I am going to say word underscore count</font>
+
+555
+00:27:05,856 --> 00:27:07,392
+<font color="#dfdfdf">Equal to mg dictionary</font>
+
+556
+00:27:08,928 --> 00:27:10,720
+<font color="#f2f2f2">Next now I want to count</font>
+
+557
+00:27:11,488 --> 00:27:12,256
+<font color="#e1e1e1">The word</font>
+
+558
+00:27:13,024 --> 00:27:13,792
+<font color="#dedede">Frequency</font>
+
+559
+00:27:16,352 --> 00:27:19,168
+<font color="#e3e3e3">So do that do that I am going to say for</font>
+
+560
+00:27:22,240 --> 00:27:24,544
+<font color="#d1d1d1">In our words list</font>
+
+561
+00:27:24,800 --> 00:27:26,592
+<font color="#d8d8d8">I'm going to go through each and every word</font>
+
+562
+00:27:26,848 --> 00:27:28,896
+<font color="#adadad">And I was a word equal to</font>
+
+563
+00:27:29,920 --> 00:27:34,272
+<font color="#d8d8d8">Dark Lord because the user might have entered the same word for example</font>
+
+564
+00:27:34,528 --> 00:27:35,552
+<font color="#eeeeee">I can say</font>
+
+565
+00:27:36,832 --> 00:27:41,440
+<font color="#e5e5e5">AI in Capital Area in small couple of times and then it would</font>
+
+566
+00:27:41,696 --> 00:27:42,976
+<font color="#b3b3b3">Take the match to different words</font>
+
+567
+00:27:43,232 --> 00:27:46,560
+<font color="#c5c5c5">So I'm converting to lowercase for case insensitivity here</font>
+
+568
+00:27:47,328 --> 00:27:48,608
+<font color="#efefef">Next I'm going to check</font>
+
+569
+00:27:48,864 --> 00:27:49,888
+<font color="#a3a3a3">If</font>
+
+570
+00:27:50,144 --> 00:27:53,216
+<font color="#bdbdbd">Invert underscore Council checking if this</font>
+
+571
+00:27:53,472 --> 00:27:56,032
+<font color="#f2f2f2">What has been counted before if it has been</font>
+
+572
+00:27:56,288 --> 00:27:57,312
+<font color="#d2d2d2">Counted before</font>
+
+573
+00:27:57,568 --> 00:27:58,848
+<font color="#f9f9f9">I am going to say</font>
+
+574
+00:28:00,384 --> 00:28:01,664
+<font color="#7f7f7f">Underscore</font>
+
+575
+00:28:03,712 --> 00:28:05,504
+<font color="#f1f1f1">For that particular word</font>
+
+576
+00:28:05,760 --> 00:28:07,040
+<font color="#f0f0f0">I want to increment</font>
+
+577
+00:28:07,296 --> 00:28:08,832
+<font color="#f4f4f4">The number to</font>
+
+578
+00:28:11,904 --> 00:28:12,928
+<font color="#f4f4f4">I'm going to say</font>
+
+579
+00:28:15,488 --> 00:28:17,024
+<font color="#a7a7a7">Underscore count</font>
+
+580
+00:28:17,792 --> 00:28:19,584
+<font color="#f0f0f0">For this new word that we</font>
+
+581
+00:28:20,096 --> 00:28:21,120
+<font color="#c6c6c6">Came across</font>
+
+582
+00:28:21,632 --> 00:28:23,680
+<font color="#bbbbbb">I am going to see if equal to 1</font>
+
+583
+00:28:24,704 --> 00:28:25,728
+<font color="#eeeeee">And that's it</font>
+
+584
+00:28:25,984 --> 00:28:26,752
+<font color="#f9f9f9">So let's go ahead</font>
+
+585
+00:28:27,008 --> 00:28:28,544
+<font color="#d4d4d4">And print</font>
+
+586
+00:28:29,056 --> 00:28:30,592
+<font color="#dcdcdc">Word count at the end</font>
+
+587
+00:28:31,360 --> 00:28:32,640
+<font color="#919191">So there you go so we have</font>
+
+588
+00:28:32,896 --> 00:28:33,920
+<font color="#9e9e9e">Code ready here</font>
+
+589
+00:28:34,176 --> 00:28:34,688
+<font color="#bdbdbd">Let's run</font>
+
+590
+00:28:34,944 --> 00:28:37,760
+<font color="#efefef">And play with it so I am going to clear this out</font>
+
+591
+00:28:38,784 --> 00:28:39,552
+<font color="#262626">Pyth</font>
+
+592
+00:28:40,064 --> 00:28:42,624
+<font color="#919191">Exercise 2.0</font>
+
+593
+00:28:42,880 --> 00:28:44,672
+<font color="#d3d3d3">Enter the sentence so I'm going to say</font>
+
+594
+00:28:45,440 --> 00:28:46,720
+<font color="#b6b6b6">The AI</font>
+
+595
+00:28:47,488 --> 00:28:48,512
+<font color="#d0d0d0">Engineer</font>
+
+596
+00:28:49,024 --> 00:28:50,048
+<font color="#f1f1f1">Is the</font>
+
+597
+00:28:50,560 --> 00:28:51,072
+<font color="#c2c2c2">Future</font>
+
+598
+00:28:52,096 --> 00:28:57,216
+<font color="#c8c8c8">It says the comes twice because one with capitalized one without capitalized</font>
+
+599
+00:28:57,472 --> 00:29:00,800
+<font color="#9a9a9a">Yeah I want engineer ones is Once and Future ones list</font>
+
+600
+00:29:01,056 --> 00:29:02,848
+<font color="#bebebe">Give a bigger one I said</font>
+
+601
+00:29:04,128 --> 00:29:06,176
+<font color="#f0f0f0">Engineer is the</font>
+
+602
+00:29:06,688 --> 00:29:08,480
+<font color="#efefef">Engineer of the</font>
+
+603
+00:29:08,992 --> 00:29:10,016
+<font color="#e9e9e9">Future</font>
+
+604
+00:29:10,528 --> 00:29:11,808
+<font color="#818181">Who</font>
+
+605
+00:29:12,064 --> 00:29:14,368
+<font color="#f2f2f2">Work on different</font>
+
+606
+00:29:15,904 --> 00:29:16,672
+<font color="#767676">Project</font>
+
+607
+00:29:17,184 --> 00:29:18,208
+<font color="#adadad">And</font>
+
+608
+00:29:18,720 --> 00:29:19,744
+<font color="#e1e1e1">Amazing</font>
+
+609
+00:29:21,792 --> 00:29:24,096
+<font color="#bcbcbc">But that's fine so there</font>
+
+610
+00:29:24,352 --> 00:29:27,680
+<font color="#d0d0d0">3 * 8 is twice engineer is twice as you can see</font>
+
+611
+00:29:27,936 --> 00:29:31,008
+<font color="#e3e3e3">From here to take those things and then give me</font>
+
+612
+00:29:31,264 --> 00:29:33,568
+<font color="#8b8b8b">Word count are they here</font>
+
+613
+00:29:33,824 --> 00:29:39,968
+<font color="#dbdbdb">At work on dictionary which is what we wanted to do so now we have our word frequency counter</font>
+
+614
+00:29:40,224 --> 00:29:41,760
+<font color="#e8e8e8">Here I hope you were able to follow along</font>
+
+615
+00:29:42,016 --> 00:29:45,088
+<font color="#f6f6f6">If you had any issues or problems let me know and I'll get back to you</font>
+
+616
+00:29:45,600 --> 00:29:50,464
+<font color="#f9f9f9">Next for some additional practice I recommend you can write a program</font>
+
+617
+00:29:50,976 --> 00:29:52,512
+<font color="#e5e5e5">Reverse a list of</font>
+
+618
+00:29:52,768 --> 00:29:55,328
+<font color="#eaeaea">And remove duplicates using a set</font>
+
+619
+00:29:56,096 --> 00:29:59,936
+<font color="#ebebeb">Then another thing that you can do is create a program that stores</font>
+
+620
+00:30:00,960 --> 00:30:04,032
+<font color="#e4e4e4">Grades in a dictionary and calculate the average</font>
+
+621
+00:30:04,288 --> 00:30:04,800
+<font color="#434343">Tried</font>
+
+622
+00:30:05,312 --> 00:30:06,336
+<font color="#f5f5f5">And let me know if you can</font>
+
+623
+00:30:06,592 --> 00:30:10,688
+<font color="#d0d0d0">Get that working now to summarize on day 4</font>
+
+624
+00:30:11,968 --> 00:30:18,112
+<font color="#eaeaea">Get some hands-on experience working with python built-in data structures understanding their properties</font>
+
+625
+00:30:18,368 --> 00:30:19,904
+<font color="#d4d4d4">Please and Performing operations on them</font>
+
+626
+00:30:20,160 --> 00:30:26,304
+<font color="#e5e5e5">The handsome exercises insured practical application building a strong foundation for handling</font>
+
+627
+00:30:26,560 --> 00:30:29,376
+<font color="#d0d0d0">And organizing data effectively in Rye projects</font>

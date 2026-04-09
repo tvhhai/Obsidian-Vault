@@ -1,0 +1,1767 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#7c7c7c">Day</font>
+
+2
+00:00:01,280 --> 00:00:04,864
+<font color="#c9c9c9">Advanced number yesterday</font>
+
+3
+00:00:05,120 --> 00:00:09,216
+<font color="#d1d1d1">But today we're going to look at some of the advanced number of operation that exist</font>
+
+4
+00:00:09,472 --> 00:00:10,240
+<font color="#efefef">So first</font>
+
+5
+00:00:10,496 --> 00:00:11,520
+<font color="#b4b4b4">We're going to cover</font>
+
+6
+00:00:11,776 --> 00:00:13,312
+<font color="#c2c2c2">Broadcasting in number</font>
+
+7
+00:00:13,824 --> 00:00:15,360
+<font color="#f7f7f7">Now what is broadcasting</font>
+
+8
+00:00:15,616 --> 00:00:17,664
+<font color="#cdcdcd">Broadcasting allows numpy</font>
+
+9
+00:00:17,920 --> 00:00:20,224
+<font color="#f4f4f4">To perform arithmetic operations</font>
+
+10
+00:00:20,480 --> 00:00:21,248
+<font color="#969696">On it</font>
+
+11
+00:00:21,504 --> 00:00:22,784
+<font color="#d9d9d9">Of different shapes</font>
+
+12
+00:00:23,296 --> 00:00:28,672
+<font color="#e2e2e2">Smaller areas are automatically expanded to match the shape of larger address</font>
+
+13
+00:00:29,184 --> 00:00:31,744
+<font color="#f0f0f0">Some of the rules of broadcasting include</font>
+
+14
+00:00:32,000 --> 00:00:34,560
+<font color="#f8f8f8">Dimensions are aligned from the right</font>
+
+15
+00:00:35,072 --> 00:00:37,632
+<font color="#efefef">And a dimension is compatible</font>
+
+16
+00:00:38,656 --> 00:00:41,216
+<font color="#dedede">It matches the other arranged dimension</font>
+
+17
+00:00:41,728 --> 00:00:43,008
+<font color="#e9e9e9">One of the dimension</font>
+
+18
+00:00:43,264 --> 00:00:43,776
+<font color="#f1f1f1">Is</font>
+
+19
+00:00:45,568 --> 00:00:47,872
+<font color="#f6f6f6">So let's look at some examples for this</font>
+
+20
+00:00:48,128 --> 00:00:50,688
+<font color="#eeeeee">So first I'm going to import numpy</font>
+
+21
+00:00:50,944 --> 00:00:54,528
+<font color="#d0d0d0">And then we'll do some errands scalar broadcasting</font>
+
+22
+00:00:54,784 --> 00:00:57,344
+<font color="#dedede">And then look at edit broadcasting in detail</font>
+
+23
+00:00:57,856 --> 00:00:59,904
+<font color="#c4c4c4">So for this I'm going to create a new file</font>
+
+24
+00:01:00,416 --> 00:01:03,232
+<font color="#cdcdcd">Why do python 5 save it under my</font>
+
+25
+00:01:03,488 --> 00:01:05,280
+<font color="#9a9a9a">Week 2 day</font>
+
+26
+00:01:06,048 --> 00:01:07,072
+<font color="#d9d9d9">I'll call it</font>
+
+27
+00:01:07,840 --> 00:01:09,632
+<font color="#d6d6d6">Day to underscore</font>
+
+28
+00:01:10,144 --> 00:01:11,168
+<font color="#a7a7a7">Samples</font>
+
+29
+00:01:12,448 --> 00:01:13,472
+<font color="#ededed">And start with</font>
+
+30
+00:01:13,728 --> 00:01:14,752
+<font color="#e2e2e2">Importing</font>
+
+31
+00:01:15,264 --> 00:01:16,288
+<font color="#888888">Numpy</font>
+
+32
+00:01:16,544 --> 00:01:17,312
+<font color="#505050">As in</font>
+
+33
+00:01:19,104 --> 00:01:19,616
+<font color="#dddddd">Next</font>
+
+34
+00:01:19,872 --> 00:01:20,896
+<font color="#f0f0f0">Let's do some</font>
+
+35
+00:01:21,152 --> 00:01:22,688
+<font color="#a5a5a5">Add a comment here are</font>
+
+36
+00:01:23,968 --> 00:01:24,736
+<font color="#868686">Scalar</font>
+
+37
+00:01:25,248 --> 00:01:27,296
+<font color="#f4f4f4">Broadcasting how does this work</font>
+
+38
+00:01:27,808 --> 00:01:29,600
+<font color="#919191">So first of the area equal to</font>
+
+39
+00:01:31,648 --> 00:01:33,184
+<font color="#404040">Eddie song theater</font>
+
+40
+00:01:33,696 --> 00:01:34,464
+<font color="#dcdcdc">From a list</font>
+
+41
+00:01:34,720 --> 00:01:36,512
+<font color="#9f9f9f">1 2 and 3</font>
+
+42
+00:01:37,024 --> 00:01:38,048
+<font color="#f2f2f2">So this is my</font>
+
+43
+00:01:38,560 --> 00:01:40,608
+<font color="#e1e1e1">No I'm going to say print</font>
+
+44
+00:01:44,448 --> 00:01:45,216
+<font color="#cccccc">So this will</font>
+
+45
+00:01:45,728 --> 00:01:47,520
+<font color="#a9a9a9">Guess what it does is it adds</font>
+
+46
+00:01:47,776 --> 00:01:49,568
+<font color="#dcdcdc">10 to each and every element in here</font>
+
+47
+00:01:50,080 --> 00:01:51,360
+<font color="#fbfbfb">If you want to see an example</font>
+
+48
+00:01:51,872 --> 00:01:52,640
+<font color="#e0e0e0">I'm going to say</font>
+
+49
+00:01:53,152 --> 00:01:54,432
+<font color="#9d9d9d">Clear LS</font>
+
+50
+00:01:54,688 --> 00:01:55,968
+<font color="#f5f5f5">And I'm going to say</font>
+
+51
+00:01:56,224 --> 00:01:58,272
+<font color="#959595">No I said day samples instead of the</font>
+
+52
+00:01:58,784 --> 00:02:00,832
+<font color="#9e9e9e">3D 2 samples but that's fine</font>
+
+53
+00:02:01,088 --> 00:02:02,368
+<font color="#e4e4e4">I'm going to say python</font>
+
+54
+00:02:02,880 --> 00:02:04,160
+<font color="#aeaeae">Day samples</font>
+
+55
+00:02:04,672 --> 00:02:10,816
+<font color="#e3e3e3">I have 11 12 and 13 so 10 was added to every single element so it kind of broadcasting the number to each and every</font>
+
+56
+00:02:12,608 --> 00:02:15,168
+<font color="#656565">Clean scale armor scale Lottery</font>
+
+57
+00:02:15,424 --> 00:02:18,752
+<font color="#efefef">Broadcasting so I have a matrix</font>
+
+58
+00:02:19,520 --> 00:02:21,056
+<font color="#bababa">Equal to NP Dot</font>
+
+59
+00:02:22,336 --> 00:02:25,152
+<font color="#cecece">And this one I'll create a 3 2/3</font>
+
+60
+00:02:25,408 --> 00:02:25,920
+<font color="#bdbdbd">Matrix</font>
+
+61
+00:02:26,688 --> 00:02:28,480
+<font color="#aeaeae">1 comma 2 comma 3</font>
+
+62
+00:02:28,992 --> 00:02:31,040
+<font color="#fafafa">And the next element in here</font>
+
+63
+00:02:31,552 --> 00:02:34,112
+<font color="#9f9f9f">Alarm for comma 5 comma 6:00</font>
+
+64
+00:02:34,368 --> 00:02:35,392
+<font color="#8d8d8d">Straightforward one</font>
+
+65
+00:02:35,904 --> 00:02:40,256
+<font color="#a5a5a5">Social create me a matrix 2 by 3 which is 1 to 3 and 4 * 4.56</font>
+
+66
+00:02:40,512 --> 00:02:41,792
+<font color="#6f6f6f">Activate a vector</font>
+
+67
+00:02:42,560 --> 00:02:44,096
+<font color="#3b3b3b">NP dot are</font>
+
+68
+00:02:46,144 --> 00:02:49,216
+<font color="#b7b7b7">Call at 1 comma 0 comma 1</font>
+
+69
+00:02:52,288 --> 00:02:54,080
+<font color="#939393">Okay so there you go that's a record</font>
+
+70
+00:02:54,336 --> 00:02:56,896
+<font color="#f1f1f1">No I am going to say print</font>
+
+71
+00:02:57,920 --> 00:02:58,688
+<font color="#c1c1c1">Matrix</font>
+
+72
+00:02:59,456 --> 00:03:00,992
+<font color="#a0a0a0">Plus vector</font>
+
+73
+00:03:01,504 --> 00:03:05,600
+<font color="#f8f8f8">So the output for this will be based on the values that we have here</font>
+
+74
+00:03:05,856 --> 00:03:06,880
+<font color="#dcdcdc">101</font>
+
+75
+00:03:07,136 --> 00:03:09,184
+<font color="#fcfcfc">It will give me</font>
+
+76
+00:03:09,440 --> 00:03:10,464
+<font color="#474747">24</font>
+
+77
+00:03:12,000 --> 00:03:18,144
+<font color="#c8c8c8">Below it will be 5:57 because it kind of takes this factor and adds it prop</font>
+
+78
+00:03:18,400 --> 00:03:20,960
+<font color="#d7d7d7">Delete each line of the Matrix let's look at the output</font>
+
+79
+00:03:23,008 --> 00:03:26,848
+<font color="#d5d5d5">And we have 224 because 1 + 1 + 2 + 0</font>
+
+80
+00:03:27,104 --> 00:03:30,944
+<font color="#e0e0e0">Two and then 3 + 1/4 that's what we have the next line</font>
+
+81
+00:03:31,200 --> 00:03:34,016
+<font color="#b9b9b9">4 + 155 + 0</font>
+
+82
+00:03:34,272 --> 00:03:36,576
+<font color="#d9d9d9">And 6 + 1/7 so this is how</font>
+
+83
+00:03:36,832 --> 00:03:42,976
+<font color="#c2c2c2">Edit broadcasting Works where you to take a vectors here with single lady and then I am</font>
+
+84
+00:03:43,232 --> 00:03:45,024
+<font color="#eaeaea">Broadcasting it to the entire Matrix here</font>
+
+85
+00:03:46,816 --> 00:03:50,912
+<font color="#cacaca">Next that we're going to look at is aggregation functions</font>
+
+86
+00:03:51,168 --> 00:03:52,960
+<font color="#cecece">No aggregation functions</font>
+
+87
+00:03:53,216 --> 00:03:53,728
+<font color="#1c1c1c">Comput</font>
+
+88
+00:03:53,984 --> 00:03:58,080
+<font color="#c2c2c2">Summary statistics for Aries is pretty helpful in AI world</font>
+
+89
+00:03:58,336 --> 00:04:02,944
+<font color="#f8f8f8">So let's look at some of the common functions that are available in the aggregation functions</font>
+
+90
+00:04:04,480 --> 00:04:06,784
+<font color="#f3f3f3">I am going to remove everything</font>
+
+91
+00:04:08,832 --> 00:04:09,856
+<font color="#5b5b5b">MP</font>
+
+92
+00:04:11,392 --> 00:04:13,184
+<font color="#c6c6c6">I actually I'll create a matrix here</font>
+
+93
+00:04:13,440 --> 00:04:14,464
+<font color="#f1f1f1">It will be</font>
+
+94
+00:04:14,976 --> 00:04:16,512
+<font color="#c4c4c4">A matrix of</font>
+
+95
+00:04:18,047 --> 00:04:19,839
+<font color="#f7f7f7">Need to fix this okay</font>
+
+96
+00:04:20,095 --> 00:04:21,119
+<font color="#e5e5e5">Matrix of</font>
+
+97
+00:04:21,631 --> 00:04:22,911
+<font color="#828282">123</font>
+
+98
+00:04:23,679 --> 00:04:24,191
+<font color="#7e7e7e">Comma</font>
+
+99
+00:04:24,959 --> 00:04:28,799
+<font color="#b6b6b6">45 and 6 so I have this Matrix in which is 2 * 3</font>
+
+100
+00:04:29,055 --> 00:04:29,823
+<font color="#c6c6c6">Next</font>
+
+101
+00:04:30,079 --> 00:04:31,359
+<font color="#f3f3f3">Let's look at some of the functions</font>
+
+102
+00:04:31,615 --> 00:04:34,175
+<font color="#e4e4e4">First I want to do the total sum of all elements</font>
+
+103
+00:04:34,687 --> 00:04:35,967
+<font color="#cdcdcd">Someone call it some</font>
+
+104
+00:04:37,503 --> 00:04:39,295
+<font color="#d7d7d7">And I can use NP</font>
+
+105
+00:04:40,063 --> 00:04:42,367
+<font color="#e8e8e8">Dodson this is the function that you can use</font>
+
+106
+00:04:42,623 --> 00:04:46,975
+<font color="#e0e0e0">This will give you the total sum of all the elements in this Matrix up here</font>
+
+107
+00:04:47,743 --> 00:04:49,279
+<font color="#dddddd">I can say print</font>
+
+108
+00:04:49,791 --> 00:04:52,351
+<font color="#e0e0e0">I can see what is the mean of this particular</font>
+
+109
+00:04:52,863 --> 00:04:55,935
+<font color="#d7d7d7">Matrix that we have you can say NP</font>
+
+110
+00:04:56,191 --> 00:04:57,215
+<font color="#6c6c6c">Dog mean</font>
+
+111
+00:04:57,727 --> 00:04:58,751
+<font color="#a4a4a4">And pass the</font>
+
+112
+00:04:59,775 --> 00:05:01,311
+<font color="#f8f8f8">I can also get the max</font>
+
+113
+00:05:02,591 --> 00:05:04,127
+<font color="#c1c1c1">Similar way Max</font>
+
+114
+00:05:05,663 --> 00:05:06,175
+<font color="#696969">Comma</font>
+
+115
+00:05:06,431 --> 00:05:07,455
+<font color="#474747">Antidote</font>
+
+116
+00:05:10,015 --> 00:05:11,807
+<font color="#cccccc">And pass the array to it</font>
+
+117
+00:05:12,319 --> 00:05:14,367
+<font color="#c4c4c4">Similarly I'm going to just copy paste this</font>
+
+118
+00:05:14,623 --> 00:05:15,647
+<font color="#fafafa">I can get</font>
+
+119
+00:05:15,903 --> 00:05:17,183
+<font color="#e2e2e2">Max so I can get men</font>
+
+120
+00:05:17,695 --> 00:05:18,463
+<font color="#9b9b9b">Save</font>
+
+121
+00:05:20,255 --> 00:05:21,023
+<font color="#d5d5d5">Next</font>
+
+122
+00:05:21,279 --> 00:05:25,375
+<font color="#f7f7f7">I want to get the spread of the data how is the standard deviation</font>
+
+123
+00:05:25,887 --> 00:05:26,655
+<font color="#f2f2f2">Standard</font>
+
+124
+00:05:26,911 --> 00:05:27,679
+<font color="#1d1d1d">DB</font>
+
+125
+00:05:29,727 --> 00:05:34,079
+<font color="#e3e3e3">For that I just called the function STD and password</font>
+
+126
+00:05:36,383 --> 00:05:37,663
+<font color="#f7f7f7">What else can I do</font>
+
+127
+00:05:39,199 --> 00:05:40,479
+<font color="#f9f9f9">Next I can</font>
+
+128
+00:05:40,735 --> 00:05:44,831
+<font color="#c8c8c8">Get some along the rules for sample road so that I can say some</font>
+
+129
+00:05:45,343 --> 00:05:47,135
+<font color="#a6a6a6">A long rose</font>
+
+130
+00:05:47,903 --> 00:05:51,487
+<font color="#bfbfbf">For that I can say np.sum</font>
+
+131
+00:05:51,999 --> 00:05:53,535
+<font color="#d1d1d1">And then I give the area</font>
+
+132
+00:05:53,791 --> 00:05:56,351
+<font color="#bfbfbf">And I said access equal to 1 so it</font>
+
+133
+00:05:56,607 --> 00:05:58,655
+<font color="#c6c6c6">Take one single access it will give you</font>
+
+134
+00:05:58,911 --> 00:06:01,215
+<font color="#f1f1f1">Same thing you can do</font>
+
+135
+00:06:04,799 --> 00:06:05,311
+<font color="#818181">Call him</font>
+
+136
+00:06:05,823 --> 00:06:08,639
+<font color="#d0d0d0">Where you can I see columns</font>
+
+137
+00:06:08,895 --> 00:06:10,943
+<font color="#585858">Npd.com</font>
+
+138
+00:06:11,199 --> 00:06:12,735
+<font color="#bcbcbc">Nexus is 0</font>
+
+139
+00:06:13,247 --> 00:06:15,295
+<font color="#dddddd">So what access is for the row and</font>
+
+140
+00:06:15,551 --> 00:06:17,855
+<font color="#adadad">Phil Collins axis is equal to 0</font>
+
+141
+00:06:19,903 --> 00:06:20,927
+<font color="#f9f9f9">Go back here</font>
+
+142
+00:06:22,207 --> 00:06:22,975
+<font color="#ababab">Let's run</font>
+
+143
+00:06:23,487 --> 00:06:24,511
+<font color="#e1e1e1">And you'll see some</font>
+
+144
+00:06:24,767 --> 00:06:30,143
+<font color="#bfbfbf">Is 21 if you had the 6 + 5 + 4321 is 21 mean is 3.5</font>
+
+145
+00:06:30,399 --> 00:06:32,959
+<font color="#8e8e8e">Max is 6 minus 1</font>
+
+146
+00:06:33,215 --> 00:06:36,031
+<font color="#cecece">Standard deviation is 1.707</font>
+
+147
+00:06:36,543 --> 00:06:41,151
+<font color="#acacac">Some along the rules is 615 634 560</font>
+
+148
+00:06:41,407 --> 00:06:47,039
+<font color="#dedede">And 6 + 5 + 4 is 15 somewhere along the columns is 1 + 4 is 57 + 5</font>
+
+149
+00:06:47,551 --> 00:06:53,695
+<font color="#e9e9e9">72 + 5 is 7 and 3 + 6 is 9 so that's how you can use the aggregation</font>
+
+150
+00:06:53,951 --> 00:06:55,743
+<font color="#f0f0f0">Functions that are available</font>
+
+151
+00:06:57,279 --> 00:06:58,047
+<font color="#d8d8d8">Let's look at</font>
+
+152
+00:06:58,303 --> 00:07:02,399
+<font color="#e1e1e1">Boolean indexing and filtering now what is Boolean indexing</font>
+
+153
+00:07:02,655 --> 00:07:05,215
+<font color="#ababab">You are you you use bouillon erase</font>
+
+154
+00:07:05,471 --> 00:07:06,495
+<font color="#9a9a9a">Or conditions</font>
+
+155
+00:07:06,751 --> 00:07:08,031
+<font color="#757575">The filter element</font>
+
+156
+00:07:08,287 --> 00:07:09,055
+<font color="#a2a2a2">Promenade</font>
+
+157
+00:07:09,567 --> 00:07:12,383
+<font color="#f3f3f3">So let's look at some examples of Boolean indexing</font>
+
+158
+00:07:13,407 --> 00:07:15,199
+<font color="#f8f8f8">What I'm going to do here is</font>
+
+159
+00:07:15,455 --> 00:07:17,247
+<font color="#f2f2f2">I am going to get rid of everything</font>
+
+160
+00:07:18,783 --> 00:07:19,551
+<font color="#c1c1c1">I</font>
+
+161
+00:07:20,575 --> 00:07:21,599
+<font color="#838383">Create an area</font>
+
+162
+00:07:23,135 --> 00:07:23,903
+<font color="#d7d7d7">A single</font>
+
+163
+00:07:24,671 --> 00:07:27,231
+<font color="#939393">Accessory 1 2 3 4 5</font>
+
+164
+00:07:27,487 --> 00:07:33,119
+<font color="#e6e6e6">And six I have this available next I am going to filter all the even numbers so to that</font>
+
+165
+00:07:37,983 --> 00:07:40,543
+<font color="#d3d3d3">More I can also use more operator</font>
+
+166
+00:07:40,799 --> 00:07:43,871
+<font color="#dadada">Equal to 0 what this will give me it will print</font>
+
+167
+00:07:44,127 --> 00:07:46,943
+<font color="#d5d5d5">2486 so this kind of filters even numbers</font>
+
+168
+00:07:47,455 --> 00:07:48,223
+<font color="#1d1d1d">Separ</font>
+
+169
+00:07:53,087 --> 00:07:54,879
+<font color="#e4e4e4">So you can check that out</font>
+
+170
+00:07:55,135 --> 00:07:59,231
+<font color="#f6f6f6">Next is modifying the elements based on a particular condition so for example</font>
+
+171
+00:08:01,279 --> 00:08:03,583
+<font color="#c6c6c6">That is greater than 3</font>
+
+172
+00:08:04,351 --> 00:08:05,631
+<font color="#cacaca">Equal to zero</font>
+
+173
+00:08:05,887 --> 00:08:08,191
+<font color="#ebebeb">In this case if the values are greater than 0</font>
+
+174
+00:08:08,447 --> 00:08:11,007
+<font color="#f7f7f7">It will make sure that it will change that</font>
+
+175
+00:08:11,263 --> 00:08:13,311
+<font color="#c6c6c6">Values into 0</font>
+
+176
+00:08:13,823 --> 00:08:15,615
+<font color="#cecece">So I'd say modified</font>
+
+177
+00:08:19,967 --> 00:08:21,503
+<font color="#c8c8c8">Let's open this and check it out</font>
+
+178
+00:08:25,087 --> 00:08:26,879
+<font color="#464646">123456</font>
+
+179
+00:08:27,135 --> 00:08:33,279
+<font color="#dadada">So to get the events 24 and 6:00 I've created this is more of a filtering option here</font>
+
+180
+00:08:33,535 --> 00:08:38,911
+<font color="#cfcfcf">And then to modify elements based on the condition if you see this one to three zero zero zero</font>
+
+181
+00:08:39,167 --> 00:08:41,983
+<font color="#e4e4e4">So if any value is greater than</font>
+
+182
+00:08:42,239 --> 00:08:44,031
+<font color="#c1c1c1">Three inside an item</font>
+
+183
+00:08:44,287 --> 00:08:50,431
+<font color="#efefef">It will change those values into 0 so this is kind of very helpful when you work with data sets and you want to</font>
+
+184
+00:08:50,687 --> 00:08:54,015
+<font color="#dbdbdb">Change volume specially when you are creating models or trading models</font>
+
+185
+00:08:56,063 --> 00:08:56,575
+<font color="#d6d6d6">Next</font>
+
+186
+00:08:56,831 --> 00:08:57,599
+<font color="#f2f2f2">Let's look</font>
+
+187
+00:08:57,855 --> 00:08:59,647
+<font color="#ececec">Random number generation</font>
+
+188
+00:08:59,903 --> 00:09:06,047
+<font color="#dfdfdf">And setting seeds we already did something random number generation in Python now let's see how we can do this using</font>
+
+189
+00:09:06,559 --> 00:09:09,119
+<font color="#f0f0f0">So first for random number generation</font>
+
+190
+00:09:09,375 --> 00:09:12,447
+<font color="#c0c0c0">Vampire provides the NP dot random module</font>
+
+191
+00:09:12,703 --> 00:09:14,495
+<font color="#f9f9f9">For generating random numbers</font>
+
+192
+00:09:15,007 --> 00:09:17,311
+<font color="#fbfbfb">Let's look at some of the common functions</font>
+
+193
+00:09:17,567 --> 00:09:18,079
+<font color="#9a9a9a">For</font>
+
+194
+00:09:19,359 --> 00:09:20,383
+<font color="#b1b1b1">Go back</font>
+
+195
+00:09:20,895 --> 00:09:22,687
+<font color="#d8d8d8">Do this get rid of</font>
+
+196
+00:09:22,943 --> 00:09:23,455
+<font color="#cfcfcf">Everything</font>
+
+197
+00:09:24,223 --> 00:09:26,271
+<font color="#eaeaea">And I am going to first generate</font>
+
+198
+00:09:26,527 --> 00:09:30,111
+<font color="#d8d8d8">Random numbers so I am going to create a random array</font>
+
+199
+00:09:31,135 --> 00:09:32,671
+<font color="#b5b5b5">Equal to NP do</font>
+
+200
+00:09:33,439 --> 00:09:34,207
+<font color="#d2d2d2">Random</font>
+
+201
+00:09:35,231 --> 00:09:37,279
+<font color="#dcdcdc">R&D that's what we use</font>
+
+202
+00:09:37,535 --> 00:09:38,815
+<font color="#696969">3</font>
+
+203
+00:09:40,607 --> 00:09:46,751
+<font color="#d5d5d5">So this will create a random array for us and the uniform for the uniform distribution of 0</font>
+
+204
+00:09:47,007 --> 00:09:47,519
+<font color="#bdbdbd">Number one</font>
+
+205
+00:09:47,775 --> 00:09:52,127
+<font color="#eeeeee">So if I bring this you can see how this looks like I'm going to say</font>
+
+206
+00:09:52,639 --> 00:09:53,663
+<font color="#c5c5c5">Random</font>
+
+207
+00:09:55,967 --> 00:09:58,783
+<font color="#cacaca">Remove the area to the next line so it's more clear</font>
+
+208
+00:09:59,039 --> 00:10:00,831
+<font color="#a9a9a9">I want to call it random</font>
+
+209
+00:10:01,343 --> 00:10:02,111
+<font color="#eaeaea">Go back</font>
+
+210
+00:10:02,367 --> 00:10:03,135
+<font color="#e5e5e5">Clear it out</font>
+
+211
+00:10:04,415 --> 00:10:07,487
+<font color="#d7d7d7">And run this and you see you have a random area of 3/3</font>
+
+212
+00:10:07,743 --> 00:10:10,559
+<font color="#e0e0e0">Which are the random numbers with uniform distribution</font>
+
+213
+00:10:10,815 --> 00:10:12,095
+<font color="#c6c6c6">From 0 to 1:00</font>
+
+214
+00:10:13,887 --> 00:10:17,215
+<font color="#d1d1d1">I want to show the general integers instead of the</font>
+
+215
+00:10:17,471 --> 00:10:19,775
+<font color="#cdcdcd">Numbers that you have created so I'm going to call it random</font>
+
+216
+00:10:20,287 --> 00:10:21,311
+<font color="#dadada">Integers</font>
+
+217
+00:10:22,335 --> 00:10:23,615
+<font color="#d7d7d7">Equal to NP</font>
+
+218
+00:10:25,151 --> 00:10:26,687
+<font color="#e6e6e6">Random</font>
+
+219
+00:10:27,199 --> 00:10:28,735
+<font color="#d6d6d6">And it's very similar until here</font>
+
+220
+00:10:28,991 --> 00:10:30,527
+<font color="#565656">Acceptance</font>
+
+221
+00:10:30,783 --> 00:10:31,807
+<font color="#a3a3a3">Say</font>
+
+222
+00:10:32,063 --> 00:10:33,087
+<font color="#606060">Call Martin</font>
+
+223
+00:10:33,855 --> 00:10:35,391
+<font color="#b1b1b1">Comma size</font>
+
+224
+00:10:36,671 --> 00:10:37,183
+<font color="#1a1a1a">Dub</font>
+
+225
+00:10:38,463 --> 00:10:40,255
+<font color="#f5f5f5">So this one as it says here</font>
+
+226
+00:10:40,511 --> 00:10:44,607
+<font color="#c1c1c1">That it will return you in a matrix of 2 * 3</font>
+
+227
+00:10:44,863 --> 00:10:47,423
+<font color="#e1e1e1">With numbers from 0 to 10 which are integers</font>
+
+228
+00:10:47,679 --> 00:10:50,495
+<font color="#ededed">So if I want to print this I can print saying</font>
+
+229
+00:10:51,263 --> 00:10:52,287
+<font color="#c3c3c3">Random</font>
+
+230
+00:10:52,543 --> 00:10:53,823
+<font color="#b9b9b9">Integers</font>
+
+231
+00:10:54,847 --> 00:10:56,383
+<font color="#9b9b9b">Slash</font>
+
+232
+00:10:56,895 --> 00:11:01,503
+<font color="#dadada">And that is my random not area that is my previous one random integers</font>
+
+233
+00:11:01,759 --> 00:11:02,783
+<font color="#e8e8e8">Let's go ahead</font>
+
+234
+00:11:03,295 --> 00:11:05,087
+<font color="#a0a0a0">Near the South and I will have two different</font>
+
+235
+00:11:05,343 --> 00:11:06,367
+<font color="#868686">First for the Grand Am</font>
+
+236
+00:11:06,623 --> 00:11:08,927
+<font color="#d7d7d7">And then next is random integers</font>
+
+237
+00:11:09,183 --> 00:11:09,951
+<font color="#909090">If I don't need it again</font>
+
+238
+00:11:10,975 --> 00:11:12,767
+<font color="#f0f0f0">If you see every single time</font>
+
+239
+00:11:13,023 --> 00:11:14,047
+<font color="#f0f0f0">Give me different</font>
+
+240
+00:11:14,303 --> 00:11:17,631
+<font color="#d6d6d6">Numbers and integers are integers based on</font>
+
+241
+00:11:17,887 --> 00:11:19,423
+<font color="#898989">What is generates</font>
+
+242
+00:11:20,191 --> 00:11:23,519
+<font color="#f8f8f8">Next thing that I want to talk about is setting random seeds</font>
+
+243
+00:11:23,775 --> 00:11:25,823
+<font color="#9b9b9b">Now this ensures reproducibility</font>
+
+244
+00:11:26,079 --> 00:11:29,407
+<font color="#f2f2f2">By fixing the random sequence before what happened was</font>
+
+245
+00:11:29,663 --> 00:11:30,943
+<font color="#eeeeee">Every time I run it</font>
+
+246
+00:11:31,199 --> 00:11:34,015
+<font color="#fbfbfb">I was getting different numbers every single time</font>
+
+247
+00:11:34,271 --> 00:11:36,575
+<font color="#f8f8f8">So what I can do here is I can</font>
+
+248
+00:11:37,343 --> 00:11:38,623
+<font color="#a5a5a5">Say NP</font>
+
+249
+00:11:39,135 --> 00:11:40,415
+<font color="#b0b0b0">Dot random</font>
+
+250
+00:11:40,927 --> 00:11:44,511
+<font color="#e7e7e7">Dog seed I like my favorite number 42</font>
+
+251
+00:11:46,047 --> 00:11:46,815
+<font color="#ededed">And then</font>
+
+252
+00:11:47,071 --> 00:11:47,839
+<font color="#ececec">Now when I</font>
+
+253
+00:11:48,095 --> 00:11:52,703
+<font color="#f7f7f7">Use the random numbers output will always be same so if I</font>
+
+254
+00:11:53,215 --> 00:11:53,983
+<font color="#f3f3f3">Go back</font>
+
+255
+00:11:58,591 --> 00:12:00,127
+<font color="#ececec">No matter how many times I run</font>
+
+256
+00:12:00,639 --> 00:12:06,271
+<font color="#dddddd">The values will be the same because I've set up a particular seed and this is very helpful in some of the models Where We Are</font>
+
+257
+00:12:06,527 --> 00:12:08,575
+<font color="#eaeaea">Training the data set and picking like</font>
+
+258
+00:12:08,831 --> 00:12:14,207
+<font color="#ededed">I'm picking a particular data set for training and we want to make sure that every time we run that</font>
+
+259
+00:12:14,463 --> 00:12:17,023
+<font color="#eaeaea">Run that training set it uses the same</font>
+
+260
+00:12:17,279 --> 00:12:23,423
+<font color="#f1f1f1">Training set and testing sets for our models so that this is very important to know about setting the seats</font>
+
+261
+00:12:23,935 --> 00:12:27,007
+<font color="#d1d1d1">Now that we understand understood more about advanced</font>
+
+262
+00:12:27,263 --> 00:12:30,847
+<font color="#ededed">Let's get into some Hands-On exercises</font>
+
+263
+00:12:31,615 --> 00:12:36,991
+<font color="#d5d5d5">My first exercise is broadcasting operations you've already done this but the objective here</font>
+
+264
+00:12:37,503 --> 00:12:39,807
+<font color="#d8d8d8">Is to perform operations on arrays</font>
+
+265
+00:12:40,063 --> 00:12:42,111
+<font color="#d2d2d2">Of different shapes using broadcast</font>
+
+266
+00:12:42,367 --> 00:12:45,183
+<font color="#c4c4c4">So first will create a 3 by 3 Matrix</font>
+
+267
+00:12:45,439 --> 00:12:49,023
+<font color="#cbcbcb">And then we'll add a 1 by 32 to The Matrix</font>
+
+268
+00:12:49,279 --> 00:12:52,351
+<font color="#efefef">And then multiply the matrix by Skiller</font>
+
+269
+00:12:53,375 --> 00:12:54,399
+<font color="#e5e5e5">So let's get started</font>
+
+270
+00:12:55,423 --> 00:12:56,191
+<font color="#a3a3a3">Create a new</font>
+
+271
+00:12:56,959 --> 00:12:57,983
+<font color="#7b7b7b">Find save</font>
+
+272
+00:12:58,495 --> 00:13:00,031
+<font color="#848484">SD to</font>
+
+273
+00:13:00,543 --> 00:13:02,591
+<font color="#505050">Core exercise 1.5</font>
+
+274
+00:13:04,127 --> 00:13:05,919
+<font color="#b9b9b9">Not here let's create a matrix</font>
+
+275
+00:13:07,455 --> 00:13:11,295
+<font color="#d8d8d8">Equal to okay I need to import numpy</font>
+
+276
+00:13:12,063 --> 00:13:13,087
+<font color="#282828">S&P</font>
+
+277
+00:13:14,111 --> 00:13:15,903
+<font color="#cdcdcd">And then NP</font>
+
+278
+00:13:16,415 --> 00:13:22,559
+<font color="#cdcdcd">Eddie let's get this area of as I mentioned 3 by 3 so that I can do by</font>
+
+279
+00:13:22,815 --> 00:13:24,607
+<font color="#adadad">Sing one two and three</font>
+
+280
+00:13:25,119 --> 00:13:28,703
+<font color="#bfbfbf">Comma next one I'll say for 5 and 6</font>
+
+281
+00:13:29,215 --> 00:13:33,567
+<font color="#e6e6e6">The next matrix it's very easy to guess what I'm going to do 789</font>
+
+282
+00:13:34,079 --> 00:13:36,639
+<font color="#aaaaaa">I want to see the vector which is 1/3</font>
+
+283
+00:13:40,479 --> 00:13:44,319
+<font color="#b0b0b0">And here's the vector I'll give it this time I say 10 and</font>
+
+284
+00:13:44,575 --> 00:13:45,343
+<font color="#a4a4a4">Minus one</font>
+
+285
+00:13:45,599 --> 00:13:48,415
+<font color="#dedede">Let's bring some negativity in the vectors</font>
+
+286
+00:13:49,695 --> 00:13:50,975
+<font color="#d0d0d0">Broadcasting Edition</font>
+
+287
+00:13:51,231 --> 00:13:53,279
+<font color="#e0e0e0">You seen that I'm going to say a result</font>
+
+288
+00:13:53,791 --> 00:13:55,327
+<font color="#e5e5e5">Addition equal to</font>
+
+289
+00:13:55,839 --> 00:13:56,607
+<font color="#c7c7c7">Matrix</font>
+
+290
+00:13:58,143 --> 00:13:58,911
+<font color="#2f2f2f">Vector</font>
+
+291
+00:14:01,215 --> 00:14:05,311
+<font color="#f3f3f3">So this will give me Edition so let's print it out just so we can</font>
+
+292
+00:14:05,567 --> 00:14:09,151
+<font color="#e3e3e3">See the results of course I like to keep it clean the court</font>
+
+293
+00:14:10,175 --> 00:14:10,943
+<font color="#414141">Addition</font>
+
+294
+00:14:11,455 --> 00:14:13,759
+<font color="#c4c4c4">Is common result at</font>
+
+295
+00:14:14,783 --> 00:14:19,135
+<font color="#f0f0f0">Next I want to broadcast the scalar multiplication to do that let's say</font>
+
+296
+00:14:19,391 --> 00:14:22,463
+<font color="#dbdbdb">Result underscore multiplication</font>
+
+297
+00:14:22,719 --> 00:14:24,255
+<font color="#f5f5f5">Equal to Matrix</font>
+
+298
+00:14:25,279 --> 00:14:26,303
+<font color="#c7c7c7">Times</font>
+
+299
+00:14:31,423 --> 00:14:32,703
+<font color="#595959">Multiply</font>
+
+300
+00:14:32,959 --> 00:14:33,727
+<font color="#515151">Kitchen</font>
+
+301
+00:14:34,751 --> 00:14:37,055
+<font color="#e9e9e9">And here I'm going to say</font>
+
+302
+00:14:37,567 --> 00:14:38,847
+<font color="#c2c2c2">Result</font>
+
+303
+00:14:39,871 --> 00:14:42,175
+<font color="#f4f4f4">Make sure that it's on the next line for both of them</font>
+
+304
+00:14:43,967 --> 00:14:44,991
+<font color="#aeaeae">Cleaners Resort</font>
+
+305
+00:14:46,271 --> 00:14:51,135
+<font color="#f9f9f9">Results should be based on addition of these two so let's look at it</font>
+
+306
+00:14:51,391 --> 00:14:52,415
+<font color="#d7d7d7">Clear it</font>
+
+307
+00:14:53,183 --> 00:14:58,559
+<font color="#8c8c8c">And the core College python day 2.exe one so there you go that's our</font>
+
+308
+00:14:58,815 --> 00:15:03,423
+<font color="#9c9c9c">Addition first where we took this one two three one zero - 1 + 222</font>
+
+309
+00:15:03,679 --> 00:15:08,543
+<font color="#b6b6b6">45610 - 1 + 55555 and increment</font>
+
+310
+00:15:09,823 --> 00:15:11,871
+<font color="#c2c2c2">Recommend and it was 888</font>
+
+311
+00:15:12,127 --> 00:15:15,455
+<font color="#e3e3e3">Now multiplication for my Matrix which is this area</font>
+
+312
+00:15:15,711 --> 00:15:20,063
+<font color="#d2d2d2">I multiplied by 2 that's why every single number 246-810-1012</font>
+
+313
+00:15:20,319 --> 00:15:24,415
+<font color="#bdbdbd">141618 is twice what these values were initially</font>
+
+314
+00:15:26,463 --> 00:15:29,279
+<font color="#d4d4d4">Where we did the broadcasting operations again</font>
+
+315
+00:15:30,047 --> 00:15:31,327
+<font color="#e7e7e7">Second exercise</font>
+
+316
+00:15:31,583 --> 00:15:32,607
+<font color="#cecece">Is to generate</font>
+
+317
+00:15:33,375 --> 00:15:38,495
+<font color="#d9d9d9">Add filter a random data set we already did this but again this is an exercise that you should probably follow along</font>
+
+318
+00:15:39,519 --> 00:15:43,359
+<font color="#eaeaea">The objective is to generate a random data set</font>
+
+319
+00:15:43,871 --> 00:15:46,175
+<font color="#f4f4f4">Filter elements based on conditions</font>
+
+320
+00:15:46,431 --> 00:15:48,991
+<font color="#f8f8f8">And calculate the summary statistics</font>
+
+321
+00:15:49,503 --> 00:15:54,111
+<font color="#e6e6e6">So we will create a 55 Matrix of random integers between 1 and 50</font>
+
+322
+00:15:57,951 --> 00:15:59,743
+<font color="#f3f3f3">Filter values greater than</font>
+
+323
+00:16:00,255 --> 00:16:02,559
+<font color="#e1e1e1">25 and replace them with zero</font>
+
+324
+00:16:02,815 --> 00:16:04,607
+<font color="#e1e1e1">You saw that but we'll do that again</font>
+
+325
+00:16:05,119 --> 00:16:07,423
+<font color="#efefef">And calculate and print the sum</font>
+
+326
+00:16:08,703 --> 00:16:12,799
+<font color="#e5e5e5">And standard deviation of the modified Matrix interesting enough</font>
+
+327
+00:16:13,055 --> 00:16:14,591
+<font color="#ececec">Let's go ahead and start it</font>
+
+328
+00:16:15,359 --> 00:16:16,639
+<font color="#6d6d6d">McClure this out</font>
+
+329
+00:16:17,407 --> 00:16:19,199
+<font color="#d5d5d5">I am going to create another one</font>
+
+330
+00:16:19,455 --> 00:16:20,991
+<font color="#e9e9e9">Save it as</font>
+
+331
+00:16:21,759 --> 00:16:22,783
+<font color="#fcfcfc">Exercise</font>
+
+332
+00:16:23,551 --> 00:16:24,319
+<font color="#9c9c9c">And yeah</font>
+
+333
+00:16:24,575 --> 00:16:25,343
+<font color="#bcbcbc">First</font>
+
+334
+00:16:25,599 --> 00:16:26,623
+<font color="#8d8d8d">Is import</font>
+
+335
+00:16:26,879 --> 00:16:27,647
+<font color="#4e4e4e">Nump</font>
+
+336
+00:16:28,159 --> 00:16:28,927
+<font color="#4d4d4d">S&P</font>
+
+337
+00:16:29,695 --> 00:16:30,463
+<font color="#cfcfcf">Next Step</font>
+
+338
+00:16:30,719 --> 00:16:31,487
+<font color="#343434">Agent</font>
+
+339
+00:16:31,743 --> 00:16:35,071
+<font color="#bababa">The random data set so I am going to say data set</font>
+
+340
+00:16:35,583 --> 00:16:36,863
+<font color="#d9d9d9">Equal to NP</font>
+
+341
+00:16:37,375 --> 00:16:38,399
+<font color="#b5b5b5">Dot random</font>
+
+342
+00:16:38,911 --> 00:16:43,007
+<font color="#adadad">Dodge Ram in as I mentioned you know I want a random integer today</font>
+
+343
+00:16:43,519 --> 00:16:44,287
+<font color="#bcbcbc">Into this</font>
+
+344
+00:16:44,543 --> 00:16:48,127
+<font color="#9e9e9e">I am going to sit and says 1 to 50 song this is one comma 51</font>
+
+345
+00:16:48,639 --> 00:16:49,919
+<font color="#eeeeee">And then size</font>
+
+346
+00:16:50,175 --> 00:16:51,199
+<font color="#eaeaea">Equal to</font>
+
+347
+00:16:51,455 --> 00:16:52,223
+<font color="#5e5e5e">Bye bye</font>
+
+348
+00:16:52,479 --> 00:16:55,295
+<font color="#c8c8c8">5 minutes that's what I want to do so this will give me</font>
+
+349
+00:16:55,551 --> 00:17:00,415
+<font color="#d6d6d6">Matrix of 555 of random integers between 1 and 50 The Next Step</font>
+
+350
+00:17:01,183 --> 00:17:04,767
+<font color="#e5e5e5">Is to print this so we can look at the differences</font>
+
+351
+00:17:05,023 --> 00:17:07,327
+<font color="#828282">Original / n</font>
+
+352
+00:17:09,631 --> 00:17:10,399
+<font color="#585858">Call Ma</font>
+
+353
+00:17:10,655 --> 00:17:11,423
+<font color="#bfbfbf">Data</font>
+
+354
+00:17:11,679 --> 00:17:13,215
+<font color="#d5d5d5">So display the data set out</font>
+
+355
+00:17:13,727 --> 00:17:18,847
+<font color="#e4e4e4">Nashville Next Step as I mentioned filter the values greater than 25 and replace them by zero</font>
+
+356
+00:17:19,103 --> 00:17:21,919
+<font color="#e9e9e9">So let me add comments here so we know what we are</font>
+
+357
+00:17:22,687 --> 00:17:23,711
+<font color="#979797">Generate</font>
+
+358
+00:17:24,991 --> 00:17:25,759
+<font color="#b2b2b2">Random</font>
+
+359
+00:17:26,271 --> 00:17:27,039
+<font color="#cbcbcb">Data</font>
+
+360
+00:17:27,807 --> 00:17:29,599
+<font color="#e8e8e8">Next time mentioned was we will</font>
+
+361
+00:17:29,855 --> 00:17:30,623
+<font color="#acacac">Try to</font>
+
+362
+00:17:30,879 --> 00:17:31,391
+<font color="#6a6a6a">Filter</font>
+
+363
+00:17:32,415 --> 00:17:33,439
+<font color="#dedede">Values</font>
+
+364
+00:17:33,951 --> 00:17:35,743
+<font color="#d1d1d1">Greater than 25 and</font>
+
+365
+00:17:36,255 --> 00:17:37,279
+<font color="#bcbcbc">Replace with</font>
+
+366
+00:17:38,559 --> 00:17:40,863
+<font color="#fbfbfb">And finally we will</font>
+
+367
+00:17:41,375 --> 00:17:42,143
+<font color="#d3d3d3">Calculate</font>
+
+368
+00:17:42,911 --> 00:17:43,935
+<font color="#d0d0d0">Somebody</font>
+
+369
+00:17:44,703 --> 00:17:48,543
+<font color="#e1e1e1">Stats which I will do the same mean and standard deviation</font>
+
+370
+00:17:49,055 --> 00:17:50,079
+<font color="#d1d1d1">So now to Filter part</font>
+
+371
+00:17:50,591 --> 00:17:51,359
+<font color="#6f6f6f">Data</font>
+
+372
+00:17:52,127 --> 00:17:53,151
+<font color="#f0f0f0">Greater than</font>
+
+373
+00:17:54,943 --> 00:17:57,503
+<font color="#dfdfdf">Data set where values of data set</font>
+
+374
+00:17:57,759 --> 00:17:58,783
+<font color="#e7e7e7">Are greater than</font>
+
+375
+00:17:59,039 --> 00:18:00,063
+<font color="#cbcbcb">25</font>
+
+376
+00:18:00,319 --> 00:18:02,111
+<font color="#d0d0d0">How to replace them by zero</font>
+
+377
+00:18:02,367 --> 00:18:03,391
+<font color="#e3e3e3">As simple as that</font>
+
+378
+00:18:03,903 --> 00:18:04,927
+<font color="#b4b4b4">You'll bring this</font>
+
+379
+00:18:05,695 --> 00:18:07,231
+<font color="#c4c4c4">Modified</font>
+
+380
+00:18:07,743 --> 00:18:08,511
+<font color="#868686">Data</font>
+
+381
+00:18:10,047 --> 00:18:11,327
+<font color="#818181">Slash in</font>
+
+382
+00:18:11,583 --> 00:18:12,351
+<font color="#757575">Call Ma</font>
+
+383
+00:18:12,863 --> 00:18:13,887
+<font color="#848484">Data set</font>
+
+384
+00:18:14,143 --> 00:18:16,959
+<font color="#dddddd">Three places the existing data set with the new data set</font>
+
+385
+00:18:17,215 --> 00:18:20,799
+<font color="#eeeeee">Now calculating the summary statistics of the new data set that we have</font>
+
+386
+00:18:23,359 --> 00:18:24,127
+<font color="#eaeaea">Everything</font>
+
+387
+00:18:24,383 --> 00:18:26,175
+<font color="#b4b4b4">Should be n</font>
+
+388
+00:18:28,223 --> 00:18:29,247
+<font color="#828282">Got some</font>
+
+389
+00:18:30,015 --> 00:18:32,063
+<font color="#bfbfbf">Of that entire data set</font>
+
+390
+00:18:33,343 --> 00:18:36,159
+<font color="#f3f3f3">Next I want to as I mentioned I want to do mean</font>
+
+391
+00:18:37,439 --> 00:18:38,975
+<font color="#f4f4f4">And next I want to do the</font>
+
+392
+00:18:40,767 --> 00:18:41,791
+<font color="#b7b7b7">Standard</font>
+
+393
+00:18:42,047 --> 00:18:43,071
+<font color="#b5b5b5">Deviation</font>
+
+394
+00:18:44,095 --> 00:18:45,631
+<font color="#d4d4d4">Now mean was</font>
+
+395
+00:18:46,399 --> 00:18:48,703
+<font color="#dddddd">And standard deviation was STD</font>
+
+396
+00:18:49,215 --> 00:18:50,239
+<font color="#fbfbfb">So I have this</font>
+
+397
+00:18:50,495 --> 00:18:51,263
+<font color="#f6f6f6">Let's go ahead</font>
+
+398
+00:18:51,519 --> 00:18:54,335
+<font color="#dadada">And print it out and Lucas it looks any good</font>
+
+399
+00:18:55,103 --> 00:19:00,223
+<font color="#e0e0e0">You can I'm not set the seat here you can set the seeds every time the output is same but I'm going to run it just one</font>
+
+400
+00:19:00,479 --> 00:19:03,807
+<font color="#555555">Somerset Park Sunday 2:30</font>
+
+401
+00:19:05,599 --> 00:19:07,135
+<font color="#464646">Don't underscore</font>
+
+402
+00:19:12,511 --> 00:19:13,279
+<font color="#515151">21</font>
+
+403
+00:19:13,535 --> 00:19:19,679
+<font color="#d6d6d6">It has some numbers which are about 245 so those are for example this 40 is set to 0</font>
+
+404
+00:19:19,935 --> 00:19:20,959
+<font color="#9d9d9d">What is 34 reset to</font>
+
+405
+00:19:21,471 --> 00:19:25,055
+<font color="#dddddd">So this is the modified data set with values restricting up to 25</font>
+
+406
+00:19:25,567 --> 00:19:31,711
+<font color="#e1e1e1">The sum of this entire data set is 182 I'm not going to do Edition manually I trust the system</font>
+
+407
+00:19:31,967 --> 00:19:36,063
+<font color="#e1e1e1">The mean is 7.28 in the standard deviation is 7.7</font>
+
+408
+00:19:36,319 --> 00:19:42,463
+<font color="#adadad">It's pretty good compared as a since I was going from 02 so you want to</font>
+
+409
+00:19:42,719 --> 00:19:48,863
+<font color="#e7e7e7">95 in this particular case and we have reduced all the higher numbers to 0 so there's much more flexibility towards the</font>
+
+410
+00:19:49,119 --> 00:19:51,935
+<font color="#e3e3e3">And that's why the standard deviation and mean</font>
+
+411
+00:19:52,191 --> 00:19:55,775
+<font color="#e8e8e8">More inclined to the Lesser numbers if I don't do this here</font>
+
+412
+00:19:56,799 --> 00:19:58,591
+<font color="#ebebeb">It will be much more higher</font>
+
+413
+00:19:59,615 --> 00:20:05,759
+<font color="#c1c1c1">Can you get it 5 8 4</font>
+
+414
+00:20:06,015 --> 00:20:07,295
+<font color="#dddddd">What numbers towards the higher end</font>
+
+415
+00:20:08,575 --> 00:20:10,367
+<font color="#c1c1c1">Hope I see this</font>
+
+416
+00:20:10,623 --> 00:20:11,903
+<font color="#ececec">Want to go back</font>
+
+417
+00:20:13,183 --> 00:20:17,279
+<font color="#f9f9f9">No let's talk about the next step so we have some additional practice for you</font>
+
+418
+00:20:17,535 --> 00:20:18,303
+<font color="#f9f9f9">You can create</font>
+
+419
+00:20:18,559 --> 00:20:20,095
+<font color="#b8b8b8">A 3D random area</font>
+
+420
+00:20:20,607 --> 00:20:26,239
+<font color="#d2d2d2">And compute statistics along specific access we did that previously where we specified</font>
+
+421
+00:20:26,495 --> 00:20:30,079
+<font color="#c5c5c5">Axis equal to 0 or 1 depending on if you want to call them or no</font>
+
+422
+00:20:30,847 --> 00:20:32,895
+<font color="#fafafa">Then you can write a program</font>
+
+423
+00:20:33,151 --> 00:20:34,431
+<font color="#a8a8a8">To generate a data set</font>
+
+424
+00:20:34,687 --> 00:20:36,223
+<font color="#bcbcbc">Of random floats</font>
+
+425
+00:20:36,735 --> 00:20:39,807
+<font color="#dcdcdc">And normalize the values between zero and one</font>
+
+426
+00:20:40,319 --> 00:20:41,599
+<font color="#eeeeee">You did something like that</font>
+
+427
+00:20:41,855 --> 00:20:43,647
+<font color="#f3f3f3">Some examples we have so you know</font>
+
+428
+00:20:44,671 --> 00:20:45,695
+<font color="#f4f4f4">And finally</font>
+
+429
+00:20:45,951 --> 00:20:47,999
+<font color="#e6e6e6">Implement conditional replacement</font>
+
+430
+00:20:48,511 --> 00:20:52,351
+<font color="#ececec">To create a binary mask for values about pressure</font>
+
+431
+00:20:52,607 --> 00:20:54,655
+<font color="#8a8a8a">We did that in our exercise is so</font>
+
+432
+00:20:54,911 --> 00:20:59,519
+<font color="#f6f6f6">I hope that is helpful if you have any problems or questions or need help on these</font>
+
+433
+00:20:59,775 --> 00:21:00,287
+<font color="#f1f1f1">Let me know</font>
+
+434
+00:21:01,311 --> 00:21:02,591
+<font color="#e2e2e2">To summarize today</font>
+
+435
+00:21:02,847 --> 00:21:06,431
+<font color="#e0e0e0">We dived into advanced numpy operations</font>
+
+436
+00:21:06,687 --> 00:21:08,223
+<font color="#fafafa">Including Broadcasting</font>
+
+437
+00:21:08,479 --> 00:21:12,831
+<font color="#cdcdcd">We looked at aggregation is it filtering and random number generation</font>
+
+438
+00:21:13,087 --> 00:21:19,232
+<font color="#e0e0e0">Now these concepts are foundational as I mentioned for efficient numerical competition in Ai and data science work</font>
+
+439
+00:21:19,488 --> 00:21:24,608
+<font color="#d8d8d8">How close is very helpful specially for training a model and testing those models with data</font>
+
+440
+00:21:24,864 --> 00:21:26,400
+<font color="#f7f7f7">Let me know if you</font>
+
+441
+00:21:26,656 --> 00:21:30,752
+<font color="#f0f0f0">Want any more explanation on these or had any problems or questions</font>
+
+442
+00:21:31,008 --> 00:21:32,288
+<font color="#ededed">I will always get back to you</font>

@@ -1,0 +1,55 @@
+﻿1
+00:00:00,256 --> 00:00:01,280
+<font color="#cecece">Welcome to week</font>
+
+2
+00:00:01,792 --> 00:00:03,584
+<font color="#f6f6f6">Mathematics for machine learning</font>
+
+3
+00:00:04,352 --> 00:00:07,424
+<font color="#e2e2e2">Devin will be looking at linear algebra fundamentals</font>
+
+4
+00:00:08,960 --> 00:00:11,008
+<font color="#d4d4d4">Advanced linear algebra Concepts</font>
+
+5
+00:00:11,776 --> 00:00:17,152
+<font color="#f6f6f6">D3 will be covering calculus for machine learning which will cover specifically derivatives</font>
+
+6
+00:00:17,920 --> 00:00:22,528
+<font color="#c4c4c4">Next on the phone will be doing again calculus for machine learning but this time with integrals</font>
+
+7
+00:00:22,784 --> 00:00:24,064
+<font color="#efefef">Add optimization</font>
+
+8
+00:00:25,088 --> 00:00:25,856
+<font color="#373737">45</font>
+
+9
+00:00:26,112 --> 00:00:28,928
+<font color="#dadada">We'll be looking at probability Theory and distributions</font>
+
+10
+00:00:29,696 --> 00:00:32,768
+<font color="#b8b8b8">46 will be looking at a statistics fundamentals</font>
+
+11
+00:00:33,280 --> 00:00:33,792
+<font color="#e3e3e3">Finally</font>
+
+12
+00:00:34,048 --> 00:00:34,816
+<font color="#b0b0b0">On D7</font>
+
+13
+00:00:35,072 --> 00:00:37,120
+<font color="#9f9f9f">Will be doing the Mad River mini project</font>
+
+14
+00:00:37,376 --> 00:00:39,424
+<font color="#d5d5d5">One linear regression from scratch</font>

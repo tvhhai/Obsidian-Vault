@@ -1,0 +1,1071 @@
+﻿1
+00:00:00,256 --> 00:00:06,400
+<font color="#b8b8b8">Day 7 Mad River mini project or linear regression from scratch is what you're going to do</font>
+
+2
+00:00:07,168 --> 00:00:11,520
+<font color="#f7f7f7">So tell me three different things that we need to learn before even starting this</font>
+
+3
+00:00:11,776 --> 00:00:12,800
+<font color="#e9e9e9">First is</font>
+
+4
+00:00:13,056 --> 00:00:14,848
+<font color="#ededed">Applying linear algebra</font>
+
+5
+00:00:15,104 --> 00:00:16,896
+<font color="#e4e4e4">Calculus and statistics</font>
+
+6
+00:00:17,408 --> 00:00:21,504
+<font color="#c7c7c7">So for linear algebra linear regression aims to fit a line</font>
+
+7
+00:00:21,760 --> 00:00:23,040
+<font color="#868686">Are hyperplane</font>
+
+8
+00:00:23,296 --> 00:00:29,440
+<font color="#f8f8f8">To minimize the error between predictions and actual values the mathematical model for this is</font>
+
+9
+00:00:29,696 --> 00:00:31,488
+<font color="#b2b2b2">Makeup equal to x * thet</font>
+
+10
+00:00:32,000 --> 00:00:35,840
+<font color="#bababa">Where X is the feature Matrix with bias term</font>
+
+11
+00:00:36,096 --> 00:00:38,400
+<font color="#dadada">Data is the parameters which are</font>
+
+12
+00:00:38,656 --> 00:00:39,936
+<font color="#b6b6b6">Weights and bias</font>
+
+13
+00:00:40,192 --> 00:00:40,960
+<font color="#5c5c5c">And white</font>
+
+14
+00:00:41,216 --> 00:00:43,264
+<font color="#f6f6f6">Is the predicted values</font>
+
+15
+00:00:43,776 --> 00:00:44,800
+<font color="#d9d9d9">For calculus</font>
+
+16
+00:00:45,824 --> 00:00:47,616
+<font color="#c1c1c1">Optimization of data</font>
+
+17
+00:00:47,872 --> 00:00:53,760
+<font color="#e2e2e2">Involving in which involves minimizing the loss function that is defined as J Theta</font>
+
+18
+00:00:54,272 --> 00:00:56,576
+<font color="#d8d8d8">Equal to 1/2 m</font>
+
+19
+00:00:56,832 --> 00:00:59,904
+<font color="#dddddd">Summation of I equal to 1 to M for</font>
+
+20
+00:01:00,160 --> 00:01:02,976
+<font color="#9c9c9c">White Cap i - Yee squared</font>
+
+21
+00:01:04,000 --> 00:01:10,144
+<font color="#dddddd">And also the gradient of J Theater which is dead or nebula of J equal to 1</font>
+
+22
+00:01:10,400 --> 00:01:12,704
+<font color="#676767">Switch to 1 upon MX ^ 3</font>
+
+23
+00:01:12,960 --> 00:01:15,008
+<font color="#a5a5a5">X * 10 * -5</font>
+
+24
+00:01:15,776 --> 00:01:17,568
+<font color="#ebebeb">Next we also need statistics</font>
+
+25
+00:01:18,080 --> 00:01:21,152
+<font color="#c1c1c1">Metrics like mean square error MSC and r-square</font>
+
+26
+00:01:21,408 --> 00:01:26,784
+<font color="#c3c3c3">I used to evaluate the model performance so you don't look at each one of them in more detail</font>
+
+27
+00:01:27,040 --> 00:01:28,064
+<font color="#e7e7e7">The first is</font>
+
+28
+00:01:28,320 --> 00:01:31,904
+<font color="#f3f3f3">Using gradient descent for parameter optimization</font>
+
+29
+00:01:32,160 --> 00:01:38,304
+<font color="#cccccc">Are the gradient descent algorithm goes something like this where iteratively updates Theta using</font>
+
+30
+00:01:38,560 --> 00:01:40,864
+<font color="#bfbfbf">Data equal to Theta -</font>
+
+31
+00:01:41,120 --> 00:01:42,912
+<font color="#c3c3c3">Alpha times Del of J</font>
+
+32
+00:01:43,168 --> 00:01:44,448
+<font color="#e8e8e8">The alpha is the learning</font>
+
+33
+00:01:44,704 --> 00:01:47,776
+<font color="#d2d2d2">The date and that controls the step size</font>
+
+34
+00:01:48,544 --> 00:01:49,824
+<font color="#c9c9c9">The key steps involved</font>
+
+35
+00:01:50,080 --> 00:01:52,640
+<font color="#e2e2e2">Initializing the parameters using Theta</font>
+
+36
+00:01:52,896 --> 00:01:55,968
+<font color="#d6d6d6">Then we have compute the gradients which is Del of J</font>
+
+37
+00:01:56,480 --> 00:01:58,272
+<font color="#e1e1e1">And update parameters</font>
+
+38
+00:01:58,528 --> 00:02:00,320
+<font color="#cacaca">Using the gradient descent rule</font>
+
+39
+00:02:01,856 --> 00:02:08,000
+<font color="#e9e9e9">Finally let's talk about evaluating the model using the statistics Matrix that you mentioned so we need</font>
+
+40
+00:02:08,512 --> 00:02:13,632
+<font color="#cfcfcf">Which is MSC which is defined as 1 ^ 1 m</font>
+
+41
+00:02:13,888 --> 00:02:16,192
+<font color="#d2d2d2">Salvation of I equal to 1 to m</font>
+
+42
+00:02:16,448 --> 00:02:19,520
+<font color="#a0a0a0">Why can't I minus why I squared</font>
+
+43
+00:02:19,776 --> 00:02:22,592
+<font color="#e0e0e0">Which measures the average Square Diner</font>
+
+44
+00:02:23,104 --> 00:02:24,640
+<font color="#c2c2c2">And then we have r squared</font>
+
+45
+00:02:25,152 --> 00:02:31,296
+<font color="#c7c7c7">Which is a square equal to 1 - SS / which</font>
+
+46
+00:02:32,064 --> 00:02:36,928
+<font color="#e6e6e6">How well the regression line explains the variation variance in the data</font>
+
+47
+00:02:37,696 --> 00:02:41,792
+<font color="#e8e8e8">So let's go ahead and do our hands on Project based on whatever you have learned</font>
+
+48
+00:02:42,048 --> 00:02:44,352
+<font color="#e2e2e2">On linear regression from scratch</font>
+
+49
+00:02:44,608 --> 00:02:47,168
+<font color="#dcdcdc">Will be following three different tasks task one</font>
+
+50
+00:02:47,424 --> 00:02:51,520
+<font color="#e2e2e2">Is the implement the mathematical formula for linear regression</font>
+
+51
+00:02:51,776 --> 00:02:56,640
+<font color="#efefef">Next will use gradient descent to optimize the model parameters</font>
+
+52
+00:02:57,664 --> 00:03:00,992
+<font color="#d2d2d2">Third task is to calculate the evaluation Matrix</font>
+
+53
+00:03:01,504 --> 00:03:04,320
+<font color="#ededed">So for task one so let's go ahead and first create</font>
+
+54
+00:03:04,576 --> 00:03:06,624
+<font color="#b4b4b4">A project I'm going to create a new file</font>
+
+55
+00:03:07,392 --> 00:03:10,720
+<font color="#e9e9e9">Save it in my D7 and I'm going to call it Mini</font>
+
+56
+00:03:11,488 --> 00:03:12,256
+<font color="#c8c8c8">Project</font>
+
+57
+00:03:13,024 --> 00:03:14,816
+<font color="#ececec">Which is linear regression from search</font>
+
+58
+00:03:15,072 --> 00:03:15,840
+<font color="#929292">From scratch</font>
+
+59
+00:03:16,096 --> 00:03:18,144
+<font color="#f7f7f7">So first task as I mentioned</font>
+
+60
+00:03:18,656 --> 00:03:20,448
+<font color="#d3d3d3">Ask one is</font>
+
+61
+00:03:21,216 --> 00:03:22,496
+<font color="#e3e3e3">To implement</font>
+
+62
+00:03:24,032 --> 00:03:25,312
+<font color="#e9e9e9">Mathematical</font>
+
+63
+00:03:26,336 --> 00:03:27,104
+<font color="#d7d7d7">Formula</font>
+
+64
+00:03:28,896 --> 00:03:29,920
+<font color="#747474">For linear regression</font>
+
+65
+00:03:33,248 --> 00:03:39,392
+<font color="#f1f1f1">So this objective here is to create a function to compute the predictions so let's go ahead and write some</font>
+
+66
+00:03:39,648 --> 00:03:42,464
+<font color="#b7b7b7">Code for that for that I'll say import numpy</font>
+
+67
+00:03:42,720 --> 00:03:46,304
+<font color="#c8c8c8">S&P of course we're not going to do all the work here Will</font>
+
+68
+00:03:46,560 --> 00:03:48,864
+<font color="#d2d2d2">Use some of the libraries that are available</font>
+
+69
+00:03:49,632 --> 00:03:50,656
+<font color="#c6c6c6">And I</font>
+
+70
+00:03:51,168 --> 00:03:57,312
+<font color="#d4d4d4">Create a credit function which will take the X which are are features and the</font>
+
+71
+00:03:59,360 --> 00:04:00,640
+<font color="#dedede">And will predict</font>
+
+72
+00:04:00,896 --> 00:04:01,920
+<font color="#eeeeee">By returning</font>
+
+73
+00:04:02,432 --> 00:04:03,712
+<font color="#8d8d8d">NP</font>
+
+74
+00:04:06,528 --> 00:04:12,672
+<font color="#e9e9e9">And here I'll pass X and data so that will take care of predicting for me so this</font>
+
+75
+00:04:13,440 --> 00:04:17,024
+<font color="#c3c3c3">But that's all we need to do for task one or task to</font>
+
+76
+00:04:19,071 --> 00:04:20,607
+<font color="#b6b6b6">Is</font>
+
+77
+00:04:22,655 --> 00:04:26,751
+<font color="#ebebeb">Use the gradient descent to optimize the model parameter so use</font>
+
+78
+00:04:27,775 --> 00:04:29,567
+<font color="#e3e3e3">Gradient</font>
+
+79
+00:04:30,335 --> 00:04:31,103
+<font color="#555555">Descent</font>
+
+80
+00:04:31,871 --> 00:04:33,407
+<font color="#dddddd">To optimize</font>
+
+81
+00:04:33,919 --> 00:04:35,455
+<font color="#dddddd">The model</font>
+
+82
+00:04:36,991 --> 00:04:38,527
+<font color="#acacac">Parameters</font>
+
+83
+00:04:39,807 --> 00:04:41,599
+<font color="#333333">Parameters</font>
+
+84
+00:04:42,367 --> 00:04:43,903
+<font color="#c9c9c9">So here's the objective</font>
+
+85
+00:04:44,159 --> 00:04:48,511
+<font color="#ececec">Is to implement gradient descent to minimize the loss function</font>
+
+86
+00:04:48,767 --> 00:04:52,607
+<font color="#d6d6d6">The examples of code can be returned something like this where I can say</font>
+
+87
+00:04:52,863 --> 00:04:54,143
+<font color="#eaeaea">Gradient</font>
+
+88
+00:04:55,167 --> 00:04:55,935
+<font color="#9e9e9e">Decent</font>
+
+89
+00:04:56,703 --> 00:04:57,983
+<font color="#bbbbbb">And it takes as</font>
+
+90
+00:04:58,239 --> 00:05:00,287
+<font color="#d0d0d0">We've done before XY</font>
+
+91
+00:05:01,823 --> 00:05:02,847
+<font color="#e1e1e1">Learning rate</font>
+
+92
+00:05:03,871 --> 00:05:05,919
+<font color="#c7c7c7">And it relations that are required</font>
+
+93
+00:05:07,711 --> 00:05:11,807
+<font color="#ababab">To get optimized solution and I'm going to say m equal to</font>
+
+94
+00:05:12,319 --> 00:05:13,599
+<font color="#888888">Land of why</font>
+
+95
+00:05:14,367 --> 00:05:18,975
+<font color="#e8e8e8">And I'm going to go through each and every iteration here for underscore in</font>
+
+96
+00:05:20,767 --> 00:05:21,791
+<font color="#dedede">Range of</font>
+
+97
+00:05:22,559 --> 00:05:23,583
+<font color="#919191">Iterations</font>
+
+98
+00:05:26,911 --> 00:05:31,007
+<font color="#f2f2f2">I will go ahead and get the ingredients first gradients</font>
+
+99
+00:05:31,519 --> 00:05:35,103
+<font color="#cbcbcb">Equal to from the formula that we saw one divided by m</font>
+
+100
+00:05:37,663 --> 00:05:39,967
+<font color="#656565">NP</font>
+
+101
+00:05:41,247 --> 00:05:45,343
+<font color="#c9c9c9">X dot T this is the summation thing that we did NP</font>
+
+102
+00:05:48,671 --> 00:05:51,231
+<font color="#a7a7a7">Intuitive pass X and</font>
+
+103
+00:05:52,511 --> 00:05:54,559
+<font color="#d4d4d4">And I'll put this entire thing</font>
+
+104
+00:05:55,071 --> 00:05:56,607
+<font color="#eeeeee">Inside a bracket</font>
+
+105
+00:05:56,863 --> 00:05:59,167
+<font color="#afafaf">Say minus all right</font>
+
+106
+00:05:59,423 --> 00:06:01,215
+<font color="#616161">Kia NP</font>
+
+107
+00:06:02,495 --> 00:06:04,031
+<font color="#a7a7a7">Minus why</font>
+
+108
+00:06:04,799 --> 00:06:08,383
+<font color="#c3c3c3">They close all of them properly no one more so yeah that's</font>
+
+109
+00:06:08,639 --> 00:06:10,431
+<font color="#f9f9f9">My entire formula for that</font>
+
+110
+00:06:10,943 --> 00:06:12,991
+<font color="#d3d3d3">Next I need Toyota</font>
+
+111
+00:06:14,015 --> 00:06:15,551
+<font color="#b7b7b7">8 - 8 equal to</font>
+
+112
+00:06:16,319 --> 00:06:19,135
+<font color="#e5e5e5">Learning rates this will give me the optimized value</font>
+
+113
+00:06:19,391 --> 00:06:20,927
+<font color="#cccccc">Times gradient</font>
+
+114
+00:06:21,951 --> 00:06:24,255
+<font color="#f0f0f0">And that's good and that will</font>
+
+115
+00:06:24,511 --> 00:06:27,583
+<font color="#f1f1f1">Return back finally the Theta value</font>
+
+116
+00:06:28,095 --> 00:06:30,399
+<font color="#fcfcfc">So I have that and finally</font>
+
+117
+00:06:31,423 --> 00:06:32,447
+<font color="#3d3d3d">August</font>
+
+118
+00:06:33,983 --> 00:06:36,799
+<font color="#aeaeae">3 is 2 hours to I think</font>
+
+119
+00:06:37,311 --> 00:06:41,663
+<font color="#b7b7b7">Look at it calculate evaluation Matrix so I'm going to say</font>
+
+120
+00:06:44,735 --> 00:06:46,271
+<font color="#dcdcdc">Evaluation</font>
+
+121
+00:06:46,527 --> 00:06:47,551
+<font color="#b0b0b0">Matrix</font>
+
+122
+00:06:47,807 --> 00:06:48,831
+<font color="#b6b6b6">The objective here</font>
+
+123
+00:06:49,087 --> 00:06:54,463
+<font color="#bebebe">Is to implement functions to calculate MSC which means whatever and r squared</font>
+
+124
+00:06:54,719 --> 00:06:57,023
+<font color="#f7f7f7">So the code for that I can just</font>
+
+125
+00:06:58,303 --> 00:06:59,327
+<font color="#595959">Underscore</font>
+
+126
+00:07:00,095 --> 00:07:02,399
+<font color="#aaaaaa">Square underscore error</font>
+
+127
+00:07:03,423 --> 00:07:04,959
+<font color="#fafafa">Which will give me</font>
+
+128
+00:07:05,215 --> 00:07:06,495
+<font color="#c4c4c4">True Values</font>
+
+129
+00:07:07,263 --> 00:07:09,823
+<font color="#dcdcdc">Why and why predicted values</font>
+
+130
+00:07:10,335 --> 00:07:12,895
+<font color="#e9e9e9">So I can calculate the mean square error from there</font>
+
+131
+00:07:13,407 --> 00:07:15,455
+<font color="#f8f8f8">And this will return</font>
+
+132
+00:07:23,903 --> 00:07:25,439
+<font color="#969696">Underscore true</font>
+
+133
+00:07:26,207 --> 00:07:27,231
+<font color="#979797">Minus</font>
+
+134
+00:07:27,743 --> 00:07:30,303
+<font color="#9b9b9b">Why underscore bread</font>
+
+135
+00:07:30,815 --> 00:07:32,095
+<font color="#9e9e9e">And square root of</font>
+
+136
+00:07:32,863 --> 00:07:33,887
+<font color="#a7a7a7">√2</font>
+
+137
+00:07:34,143 --> 00:07:35,679
+<font color="#fafafa">That's what I'll get here</font>
+
+138
+00:07:35,935 --> 00:07:37,471
+<font color="#d1d1d1">And next for our</font>
+
+139
+00:07:37,727 --> 00:07:39,519
+<font color="#afafaf">R squared I'm going to say</font>
+
+140
+00:07:39,775 --> 00:07:40,799
+<font color="#f9f9f9">Define</font>
+
+141
+00:07:41,567 --> 00:07:42,591
+<font color="#b0b0b0">Squared</font>
+
+142
+00:07:43,359 --> 00:07:45,407
+<font color="#bebebe">Why underscore true</font>
+
+143
+00:07:45,919 --> 00:07:47,455
+<font color="#595959">Call my wife</font>
+
+144
+00:07:47,711 --> 00:07:48,735
+<font color="#444444">Corporate</font>
+
+145
+00:07:50,527 --> 00:07:53,343
+<font color="#8d8d8d">Read this I need SS rest first</font>
+
+146
+00:07:53,599 --> 00:07:55,647
+<font color="#f7f7f7">If you remember the formula from before</font>
+
+147
+00:07:55,903 --> 00:07:59,743
+<font color="#b4b4b4">And this will be a sister is equal to NP</font>
+
+148
+00:08:03,071 --> 00:08:05,375
+<font color="#aeaeae">Why underscore true</font>
+
+149
+00:08:07,167 --> 00:08:09,727
+<font color="#a1a1a1">Why underscore red</font>
+
+150
+00:08:13,567 --> 00:08:19,711
+<font color="#d1d1d1">The squared so that's what I'll get next I need access underscore</font>
+
+151
+00:08:19,967 --> 00:08:21,247
+<font color="#d2d2d2">Torch which is</font>
+
+152
+00:08:21,759 --> 00:08:23,551
+<font color="#323232">MP Dot</font>
+
+153
+00:08:24,319 --> 00:08:28,927
+<font color="#d8d8d8">And this I'll give the same values actually by underscore</font>
+
+154
+00:08:29,183 --> 00:08:30,719
+<font color="#b4b4b4">Do it needs but</font>
+
+155
+00:08:31,231 --> 00:08:32,255
+<font color="#f7f7f7">It will be</font>
+
+156
+00:08:32,511 --> 00:08:34,303
+<font color="#7b7b7b">NP</font>
+
+157
+00:08:37,119 --> 00:08:39,167
+<font color="#b3b3b3">Why underscore true</font>
+
+158
+00:08:42,239 --> 00:08:44,287
+<font color="#5c5c5c">Sears Square it</font>
+
+159
+00:08:45,311 --> 00:08:47,615
+<font color="#949494">That's the store now</font>
+
+160
+00:08:48,639 --> 00:08:51,199
+<font color="#e0e0e0">To bring everything together 1 -</font>
+
+161
+00:08:51,711 --> 00:08:53,759
+<font color="#797979">Asus underscore Aries</font>
+
+162
+00:08:54,527 --> 00:08:57,343
+<font color="#a9a9a9">Divided by SS underscore</font>
+
+163
+00:08:58,367 --> 00:08:59,903
+<font color="#a3a3a3">Cute little space</font>
+
+164
+00:09:00,159 --> 00:09:02,207
+<font color="#f4f4f4">And that was our formula if you remember</font>
+
+165
+00:09:02,463 --> 00:09:04,255
+<font color="#e8e8e8">From here 1 -</font>
+
+166
+00:09:04,511 --> 00:09:09,119
+<font color="#a4a4a4">SSS upon as a store so that's the r squared so that's perfect</font>
+
+167
+00:09:10,143 --> 00:09:12,191
+<font color="#f9f9f9">To put all of them together</font>
+
+168
+00:09:12,447 --> 00:09:16,031
+<font color="#e9e9e9">Let's start from the top I'm going to generate some synthetic data</font>
+
+169
+00:09:20,127 --> 00:09:21,919
+<font color="#464646">Sunset</font>
+
+170
+00:09:22,431 --> 00:09:23,455
+<font color="#909090">Data</font>
+
+171
+00:09:24,223 --> 00:09:26,783
+<font color="#c5c5c5">MP dot create a random seed</font>
+
+172
+00:09:28,319 --> 00:09:30,623
+<font color="#fbfbfb">My favorite number 42</font>
+
+173
+00:09:32,159 --> 00:09:33,439
+<font color="#e7e7e7">X equal to</font>
+
+174
+00:09:36,255 --> 00:09:38,559
+<font color="#616161">NP dot random</font>
+
+175
+00:09:39,071 --> 00:09:40,863
+<font color="#6c6c6c">Dot r a n d</font>
+
+176
+00:09:41,375 --> 00:09:44,703
+<font color="#949494">100 to 1 237 random values</font>
+
+177
+00:09:44,959 --> 00:09:46,495
+<font color="#cdcdcd">Y equal to</font>
+
+178
+00:09:47,007 --> 00:09:48,543
+<font color="#ededed">4 + 3</font>
+
+179
+00:09:50,591 --> 00:09:52,639
+<font color="#9b9b9b">X +</font>
+
+180
+00:09:52,895 --> 00:09:54,431
+<font color="#686868">Some bars m</font>
+
+181
+00:09:56,479 --> 00:09:59,039
+<font color="#818181">Random</font>
+
+182
+00:09:59,551 --> 00:10:01,855
+<font color="#969696">1000 comma 1</font>
+
+183
+00:10:02,879 --> 00:10:05,183
+<font color="#dddddd">So there you go so we have that value</font>
+
+184
+00:10:05,439 --> 00:10:09,535
+<font color="#dbdbdb">Next I want to create a advice term to the feature metrics</font>
+
+185
+00:10:16,959 --> 00:10:18,751
+<font color="#b5b5b5">Feature Matrix</font>
+
+186
+00:10:19,007 --> 00:10:25,151
+<font color="#d8d8d8">And that I can do by creating a variable X underscore b equal to NP Dot</font>
+
+187
+00:10:25,663 --> 00:10:28,735
+<font color="#a7a7a7">Underscore and here I'll say NP</font>
+
+188
+00:10:29,247 --> 00:10:30,271
+<font color="#575757">But once</font>
+
+189
+00:10:32,319 --> 00:10:33,343
+<font color="#838383">Como one</font>
+
+190
+00:10:34,367 --> 00:10:38,975
+<font color="#cdcdcd">Comma X so this will add bias term to our feature Matrix of x</font>
+
+191
+00:10:39,231 --> 00:10:42,559
+<font color="#eeeeee">Next let's go ahead and initialize the</font>
+
+192
+00:10:45,375 --> 00:10:47,167
+<font color="#d4d4d4">That I can I need</font>
+
+193
+00:10:48,447 --> 00:10:50,751
+<font color="#e0e0e0">I need a learning rate</font>
+
+194
+00:10:52,543 --> 00:10:54,079
+<font color="#fbfbfb">And I need</font>
+
+195
+00:10:54,335 --> 00:10:55,359
+<font color="#a3a3a3">Iterations</font>
+
+196
+00:10:56,639 --> 00:11:01,503
+<font color="#a3a3a3">They started iterations less 2000 iterations learning rate let's 0.1</font>
+
+197
+00:11:02,015 --> 00:11:03,551
+<font color="#c7c7c7">And for Theta</font>
+
+198
+00:11:03,807 --> 00:11:06,879
+<font color="#b7b7b7">I will use NP create a random one dot</font>
+
+199
+00:11:07,135 --> 00:11:09,951
+<font color="#a8a8a8">Random</font>
+
+200
+00:11:10,207 --> 00:11:12,255
+<font color="#989898">And pass it to comma one</font>
+
+201
+00:11:12,767 --> 00:11:14,815
+<font color="#c7c7c7">So that initializes my</font>
+
+202
+00:11:15,071 --> 00:11:17,887
+<font color="#e2e2e2">Parameters now next step is</font>
+
+203
+00:11:18,399 --> 00:11:22,495
+<font color="#e3e3e3">Actually we need the credit function so we have which we already have</font>
+
+204
+00:11:23,007 --> 00:11:28,639
+<font color="#e0e0e0">We have the gradient descent we have the mean squared and r squared so let's go below</font>
+
+205
+00:11:30,943 --> 00:11:32,223
+<font color="#515151">Perform</font>
+
+206
+00:11:32,479 --> 00:11:35,551
+<font color="#dbdbdb">The perform the gradient descent</font>
+
+207
+00:11:38,367 --> 00:11:40,671
+<font color="#e0e0e0">To do that you've done it before</font>
+
+208
+00:11:40,927 --> 00:11:42,207
+<font color="#f9f9f9">In the previous videos</font>
+
+209
+00:11:42,719 --> 00:11:44,255
+<font color="#a2a2a2">Cheetah optimized</font>
+
+210
+00:11:44,767 --> 00:11:47,327
+<font color="#c5c5c5">Equal to call this function that you've returned</font>
+
+211
+00:11:48,095 --> 00:11:50,143
+<font color="#a5a5a5">Classic X underscore B</font>
+
+212
+00:11:51,167 --> 00:11:52,191
+<font color="#7d7d7d">Plus why</font>
+
+213
+00:11:52,703 --> 00:11:54,239
+<font color="#868686">Pause theater</font>
+
+214
+00:11:55,263 --> 00:11:57,055
+<font color="#d8d8d8">Will pass the learning rate</font>
+
+215
+00:11:58,079 --> 00:12:00,127
+<font color="#9c9c9c">Angry pasta iterations</font>
+
+216
+00:12:00,895 --> 00:12:02,943
+<font color="#e9e9e9">So that's what our function</font>
+
+217
+00:12:03,199 --> 00:12:06,527
+<font color="#cbcbcb">Needs the gradient descent needs and that's what we have passed</font>
+
+218
+00:12:06,783 --> 00:12:09,599
+<font color="#e8e8e8">So once you pass this okay I think there is some problem here</font>
+
+219
+00:12:10,623 --> 00:12:13,695
+<font color="#ababab">I called it iterations and iterations</font>
+
+220
+00:12:14,719 --> 00:12:16,255
+<font color="#b0b0b0">So we just Studio code kind of</font>
+
+221
+00:12:17,023 --> 00:12:23,167
+<font color="#dadada">Shows you what is issues you have before even you there's any problems so that's good next one I'm going to do</font>
+
+222
+00:12:23,935 --> 00:12:25,727
+<font color="#f3f3f3">Predictions and</font>
+
+223
+00:12:26,239 --> 00:12:27,775
+<font color="#cdcdcd">Evaluations here</font>
+
+224
+00:12:28,543 --> 00:12:30,847
+<font color="#d7d7d7">So to predict I'll create white bread</font>
+
+225
+00:12:31,359 --> 00:12:32,383
+<font color="#ececec">Equal to</font>
+
+226
+00:12:32,895 --> 00:12:34,431
+<font color="#d7d7d7">Call the credit function</font>
+
+227
+00:12:34,687 --> 00:12:36,735
+<font color="#a1a1a1">Classic X underscore B</font>
+
+228
+00:12:37,503 --> 00:12:39,551
+<font color="#d2d2d2">And will pass the data optimized</font>
+
+229
+00:12:40,575 --> 00:12:42,879
+<font color="#d9d9d9">Next MSC to get the mean square error</font>
+
+230
+00:12:43,135 --> 00:12:46,463
+<font color="#b8b8b8">Since you have a vibrate now I'm going to call the mean square error</font>
+
+231
+00:12:46,719 --> 00:12:51,071
+<font color="#d8d8d8">Pastor original Target values and the predicted values</font>
+
+232
+00:12:53,887 --> 00:12:54,911
+<font color="#dddddd">There you go</font>
+
+233
+00:12:55,167 --> 00:12:57,983
+<font color="#a9a9a9">Next to get a square I'm going to say are two equal to</font>
+
+234
+00:12:58,495 --> 00:13:01,823
+<font color="#c0c0c0">Are underscore squared call that function that we wrote earlier</font>
+
+235
+00:13:02,079 --> 00:13:05,663
+<font color="#7e7e7e">And password</font>
+
+236
+00:13:05,919 --> 00:13:06,943
+<font color="#d3d3d3">Perfect</font>
+
+237
+00:13:08,223 --> 00:13:13,599
+<font color="#e7e7e7">Now finally we can print all the three of these I can see a print first one is</font>
+
+238
+00:13:14,367 --> 00:13:15,647
+<font color="#c1c1c1">Optimized</font>
+
+239
+00:13:16,671 --> 00:13:18,463
+<font color="#909090">Parameters</font>
+
+240
+00:13:18,975 --> 00:13:19,999
+<font color="#cdcdcd">Which is</font>
+
+241
+00:13:20,255 --> 00:13:20,767
+<font color="#303030">Set</font>
+
+242
+00:13:22,047 --> 00:13:22,815
+<font color="#f4f4f4">Is</font>
+
+243
+00:13:26,655 --> 00:13:30,495
+<font color="#e1e1e1">Optimized which we get from line number 44 right here</font>
+
+244
+00:13:30,751 --> 00:13:32,287
+<font color="#fcfcfc">Next I want to print</font>
+
+245
+00:13:32,799 --> 00:13:35,103
+<font color="#cacaca">Let's see what is the mean square error MSC</font>
+
+246
+00:13:35,871 --> 00:13:37,919
+<font color="#d9d9d9">Which I can get from MSC</font>
+
+247
+00:13:39,455 --> 00:13:41,247
+<font color="#fafafa">Next I want to</font>
+
+248
+00:13:41,503 --> 00:13:43,039
+<font color="#7b7b7b">Turn the r squared</font>
+
+249
+00:13:46,623 --> 00:13:47,903
+<font color="#eaeaea">That is</font>
+
+250
+00:13:48,159 --> 00:13:49,183
+<font color="#7d7d7d">Comma</font>
+
+251
+00:13:50,463 --> 00:13:51,999
+<font color="#f2f2f2">So that will give me my</font>
+
+252
+00:13:53,535 --> 00:13:54,559
+<font color="#f1f1f1">So let's go back here</font>
+
+253
+00:13:55,839 --> 00:13:56,607
+<font color="#d8d8d8">Clear it out</font>
+
+254
+00:13:57,119 --> 00:13:58,655
+<font color="#e6e6e6">And say python</font>
+
+255
+00:14:00,447 --> 00:14:01,983
+<font color="#545454">Project.com</font>
+
+256
+00:14:02,495 --> 00:14:08,639
+<font color="#cdcdcd">And do you have an optimized parameters which is as long as it's between 4 and 3 that's good so</font>
+
+257
+00:14:08,895 --> 00:14:12,735
+<font color="#bababa">0.2 and 2.77 I mean square error is roughly</font>
+
+258
+00:14:12,991 --> 00:14:19,135
+<font color="#f2f2f2">0.80 and 0.76 which is pretty good</font>
+
+259
+00:14:19,391 --> 00:14:25,535
+<font color="#dbdbdb">So by completing this project we have gained a thorough understanding of linear regression</font>
+
+260
+00:14:25,791 --> 00:14:29,887
+<font color="#e6e6e6">Ingredient decent and evaluation Matrix we also learned how to implement</font>
+
+261
+00:14:30,143 --> 00:14:33,471
+<font color="#dedede">Machine learning models from the first principles</font>
+
+262
+00:14:33,727 --> 00:14:34,751
+<font color="#f8f8f8">Using python</font>
+
+263
+00:14:35,007 --> 00:14:39,871
+<font color="#eeeeee">So we did everything from scratch which is pretty awesome and I hope you are able to follow along</font>
+
+264
+00:14:40,383 --> 00:14:46,527
+<font color="#f8f8f8">If you had any issues or any problems let me know and I can help you out if you have any</font>
+
+265
+00:14:46,783 --> 00:14:51,647
+<font color="#f5f5f5">Suggestions or anything let me know about them too and I can add that to my videos</font>
+
+266
+00:14:51,903 --> 00:14:55,231
+<font color="#f2f2f2">So I hope you were able to finish a week</font>
+
+267
+00:14:55,487 --> 00:15:00,351
+<font color="#e9e9e9">Ford with all the different projects that you have done if you have any problems</font>
+
+268
+00:15:00,607 --> 00:15:02,655
+<font color="#ebebeb">Or any questions let me know and I'll get back</font>

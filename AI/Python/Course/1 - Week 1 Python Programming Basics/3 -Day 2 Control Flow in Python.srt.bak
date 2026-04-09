@@ -1,0 +1,2391 @@
+﻿1
+00:00:00,512 --> 00:00:01,280
+<font color="#eaeaea">Welcome back</font>
+
+2
+00:00:01,792 --> 00:00:05,632
+<font color="#dddddd">Today on day two we will be covering control flow in Python</font>
+
+3
+00:00:06,144 --> 00:00:07,680
+<font color="#d7d7d7">Control flow is pretty important</font>
+
+4
+00:00:07,936 --> 00:00:11,264
+<font color="#f8f8f8">So let's get started initially with conditional statements</font>
+
+5
+00:00:11,520 --> 00:00:14,848
+<font color="#e3e3e3">Conditional statements allow a program to execute</font>
+
+6
+00:00:15,104 --> 00:00:18,432
+<font color="#f9f9f9">Specific blocks of code based on the conditions</font>
+
+7
+00:00:18,944 --> 00:00:20,224
+<font color="#d1d1d1">Let's look at a syntax</font>
+
+8
+00:00:20,480 --> 00:00:23,808
+<font color="#f9f9f9">Of what all different things are available in the</font>
+
+9
+00:00:24,064 --> 00:00:26,112
+<font color="#dedede">Conditional block first we have if</font>
+
+10
+00:00:26,368 --> 00:00:29,696
+<font color="#f2f2f2">Which executes code if a condition is true</font>
+
+11
+00:00:30,464 --> 00:00:31,488
+<font color="#bbbbbb">Do you have Elsa</font>
+
+12
+00:00:32,256 --> 00:00:35,840
+<font color="#e4e4e4">Add additional conditions after the initial if</font>
+
+13
+00:00:36,352 --> 00:00:40,192
+<font color="#dcdcdc">And then finally we have else which executes code</font>
+
+14
+00:00:40,448 --> 00:00:42,752
+<font color="#fcfcfc">If none of the previous conditions are</font>
+
+15
+00:00:43,520 --> 00:00:49,664
+<font color="#dbdbdb">Let's look at couple of examples for doing this so I'm going to open my visual studio code I'm going to create a new file</font>
+
+16
+00:00:49,920 --> 00:00:51,200
+<font color="#cfcfcf">I'll call it python file</font>
+
+17
+00:00:51,456 --> 00:00:54,016
+<font color="#f0f0f0">I'll save it on my desktop</font>
+
+18
+00:00:54,528 --> 00:00:55,808
+<font color="#a4a4a4">AI boot camp</font>
+
+19
+00:00:56,320 --> 00:00:57,600
+<font color="#d1d1d1">I create a new folder</font>
+
+20
+00:00:57,856 --> 00:01:01,952
+<font color="#a9a9a9">Are inside Week 1 and 3 new folder since this day to inside</font>
+
+21
+00:01:02,464 --> 00:01:03,488
+<font color="#7b7b7b">Are week one</font>
+
+22
+00:01:04,000 --> 00:01:04,768
+<font color="#eaeaea">And here</font>
+
+23
+00:01:05,024 --> 00:01:06,560
+<font color="#f8f8f8">I am going to save this</font>
+
+24
+00:01:07,072 --> 00:01:08,608
+<font color="#ababab">As day</font>
+
+25
+00:01:09,120 --> 00:01:10,656
+<font color="#7e7e7e">Underscore one</font>
+
+26
+00:01:10,912 --> 00:01:11,680
+<font color="#3f3f3f">Dirty</font>
+
+27
+00:01:13,216 --> 00:01:13,728
+<font color="#d6d6d6">And here</font>
+
+28
+00:01:13,984 --> 00:01:14,752
+<font color="#f1f1f1">Let's start</font>
+
+29
+00:01:15,008 --> 00:01:16,288
+<font color="#dfdfdf">With an example</font>
+
+30
+00:01:16,800 --> 00:01:18,336
+<font color="#c8c8c8">It's called example one</font>
+
+31
+00:01:19,360 --> 00:01:21,152
+<font color="#f3f3f3">We are checking a particular</font>
+
+32
+00:01:21,664 --> 00:01:26,272
+<font color="#eaeaea">Condition using control flow so I'm going to create a number variable</font>
+
+33
+00:01:26,528 --> 00:01:28,576
+<font color="#d6d6d6">And give it a value of 10</font>
+
+34
+00:01:29,088 --> 00:01:30,624
+<font color="#eeeeee">Next I'm going to check</font>
+
+35
+00:01:31,136 --> 00:01:31,904
+<font color="#cccccc">If number</font>
+
+36
+00:01:32,416 --> 00:01:35,232
+<font color="#eeeeee">Is greater than zero which is true in our case</font>
+
+37
+00:01:35,744 --> 00:01:36,768
+<font color="#e4e4e4">It will say</font>
+
+38
+00:01:37,792 --> 00:01:38,560
+<font color="#999999">Or print</font>
+
+39
+00:01:40,352 --> 00:01:41,120
+<font color="#ebebeb">Positive</font>
+
+40
+00:01:42,144 --> 00:01:42,656
+<font color="#d0d0d0">Number</font>
+
+41
+00:01:45,216 --> 00:01:51,360
+<font color="#e6e6e6">This is a conditional statement where it will check if a variable is greater than 0 which is in this case is so</font>
+
+42
+00:01:51,616 --> 00:01:52,128
+<font color="#a2a2a2">Going to bring this</font>
+
+43
+00:01:53,664 --> 00:01:55,968
+<font color="#fbfbfb">What is I want to check for multiple conditions</font>
+
+44
+00:01:56,224 --> 00:01:57,760
+<font color="#626262">Elsa</font>
+
+45
+00:01:58,272 --> 00:01:59,040
+<font color="#dcdcdc">Number</font>
+
+46
+00:01:59,808 --> 00:02:00,576
+<font color="#efefef">Equal to</font>
+
+47
+00:02:01,600 --> 00:02:03,136
+<font color="#dbdbdb">So let's see if the number is 0</font>
+
+48
+00:02:03,392 --> 00:02:05,440
+<font color="#f4f4f4">Then I want to just say print</font>
+
+49
+00:02:05,952 --> 00:02:06,720
+<font color="#636363">Zero</font>
+
+50
+00:02:09,536 --> 00:02:11,840
+<font color="#c2c2c2">Finally I also add an else</font>
+
+51
+00:02:12,352 --> 00:02:16,448
+<font color="#f1f1f1">Which means if it's not greater than zero and not equal to 0</font>
+
+52
+00:02:16,704 --> 00:02:20,544
+<font color="#d7d7d7">Then which means is less than 0 which means the negative number so I'm going to say print</font>
+
+53
+00:02:22,336 --> 00:02:23,360
+<font color="#d5d5d5">Negative</font>
+
+54
+00:02:24,384 --> 00:02:25,152
+<font color="#cacaca">Numbers</font>
+
+55
+00:02:26,944 --> 00:02:27,968
+<font color="#9d9d9d">Yesterday so</font>
+
+56
+00:02:28,224 --> 00:02:29,248
+<font color="#c1c1c1">Are there positive</font>
+
+57
+00:02:29,504 --> 00:02:32,320
+<font color="#d6d6d6">What is 0 or a negative number that's what I'm doing here</font>
+
+58
+00:02:32,576 --> 00:02:34,624
+<font color="#eeeeee">I can see if this and go to my</font>
+
+59
+00:02:34,880 --> 00:02:35,648
+<font color="#727272">Command prom</font>
+
+60
+00:02:36,416 --> 00:02:39,488
+<font color="#ececec">And see that I am in weak one</font>
+
+61
+00:02:40,768 --> 00:02:42,304
+<font color="#636363">Elmwood today</font>
+
+62
+00:02:44,096 --> 00:02:44,864
+<font color="#adadad">Clear this</font>
+
+63
+00:02:45,376 --> 00:02:48,192
+<font color="#d5d5d5">So I have my day to underscore one I'm going to run this</font>
+
+64
+00:02:48,448 --> 00:02:49,216
+<font color="#c9c9c9">Python</font>
+
+65
+00:02:49,472 --> 00:02:52,288
+<font color="#ababab">Day two underscore one people and it says positive number</font>
+
+66
+00:02:52,544 --> 00:02:54,848
+<font color="#efefef">If I change this number to 0</font>
+
+67
+00:02:55,616 --> 00:02:57,408
+<font color="#989898">Run this again you'll say zero</font>
+
+68
+00:02:57,920 --> 00:03:00,736
+<font color="#c7c7c7">If I change it to - that's a 50</font>
+
+69
+00:03:01,760 --> 00:03:05,600
+<font color="#f2f2f2">Every time it looks at the number</font>
+
+70
+00:03:05,856 --> 00:03:08,416
+<font color="#fafafa">And depending on which one of these are true</font>
+
+71
+00:03:08,672 --> 00:03:11,488
+<font color="#f7f7f7">It will run it will print that particular value</font>
+
+72
+00:03:11,744 --> 00:03:13,024
+<font color="#d8d8d8">Either if it's greater than</font>
+
+73
+00:03:13,792 --> 00:03:17,120
+<font color="#cdcdcd">0 which is 50 with print positive if its 0</font>
+
+74
+00:03:17,376 --> 00:03:18,656
+<font color="#dddddd">It will print zero</font>
+
+75
+00:03:19,680 --> 00:03:20,704
+<font color="#cccccc">Finally</font>
+
+76
+00:03:20,960 --> 00:03:24,800
+<font color="#f4f4f4">If the number is negative something which is less than 0</font>
+
+77
+00:03:25,056 --> 00:03:26,848
+<font color="#f4f4f4">It will print negative</font>
+
+78
+00:03:27,872 --> 00:03:30,432
+<font color="#e3e3e3">So let's do another example for this just to get</font>
+
+79
+00:03:30,944 --> 00:03:33,504
+<font color="#dddddd">Clarity on this I'm going to call it example</font>
+
+80
+00:03:35,296 --> 00:03:36,320
+<font color="#f7f7f7">And this one</font>
+
+81
+00:03:36,832 --> 00:03:38,368
+<font color="#e2e2e2">I'll call it nested</font>
+
+82
+00:03:38,880 --> 00:03:39,904
+<font color="#e4e4e4">Conditions</font>
+
+83
+00:03:40,416 --> 00:03:45,024
+<font color="#e2e2e2">And set it to 25</font>
+
+84
+00:03:45,280 --> 00:03:47,072
+<font color="#bcbcbc">And I'm going to check if age</font>
+
+85
+00:03:47,328 --> 00:03:49,120
+<font color="#f6f6f6">Is greater than 18</font>
+
+86
+00:03:51,680 --> 00:03:54,240
+<font color="#e2e2e2">Then I'll put a couple of more conditions in there</font>
+
+87
+00:03:54,752 --> 00:03:56,288
+<font color="#b0b0b0">I'm going to say if it</font>
+
+88
+00:03:58,080 --> 00:03:59,360
+<font color="#e3e3e3">Less than 30</font>
+
+89
+00:04:00,640 --> 00:04:02,432
+<font color="#e8e8e8">Which means the age is in between</font>
+
+90
+00:04:02,688 --> 00:04:06,272
+<font color="#c6c6c6">19 and less than 3229</font>
+
+91
+00:04:06,528 --> 00:04:07,808
+<font color="#c3c3c3">Someone said this person</font>
+
+92
+00:04:08,320 --> 00:04:08,832
+<font color="#f3f3f3">Is</font>
+
+93
+00:04:09,088 --> 00:04:10,112
+<font color="#b5b5b5">A young adult</font>
+
+94
+00:04:15,744 --> 00:04:18,047
+<font color="#ececec">If it's not else</font>
+
+95
+00:04:18,559 --> 00:04:19,839
+<font color="#fbfbfb">I am going to say</font>
+
+96
+00:04:24,703 --> 00:04:25,215
+<font color="#b8b8b8">Adult</font>
+
+97
+00:04:27,263 --> 00:04:28,287
+<font color="#ebebeb">Save this</font>
+
+98
+00:04:28,799 --> 00:04:29,567
+<font color="#eeeeee">I'm going to</font>
+
+99
+00:04:30,079 --> 00:04:32,639
+<font color="#f2f2f2">Comment this out by putting that</font>
+
+100
+00:04:32,895 --> 00:04:35,455
+<font color="#acacac">Putting the hashtag over there clear this out</font>
+
+101
+00:04:35,967 --> 00:04:41,087
+<font color="#cdcdcd">Run this code again it says young adult because the age is 25 but what is the age is 32</font>
+
+102
+00:04:49,023 --> 00:04:54,911
+<font color="#f0f0f0">I will check if that person is less than 30 then its young adult which means the age is in between</font>
+
+103
+00:04:55,423 --> 00:05:01,567
+<font color="#e8e8e8">Between 19 and its between 18 and 30 so it's 1920 up to 29</font>
+
+104
+00:05:02,079 --> 00:05:04,383
+<font color="#eaeaea">If it's greater than 29 if its 30</font>
+
+105
+00:05:04,639 --> 00:05:05,151
+<font color="#4b4b4b">Auto</font>
+
+106
+00:05:05,407 --> 00:05:10,271
+<font color="#d5d5d5">It will say printable but what if it's 5 it's not even going to run into this so let's see if the age is three</font>
+
+107
+00:05:10,783 --> 00:05:14,879
+<font color="#e5e5e5">I run this nothing was printed because it will not even go inside this particular</font>
+
+108
+00:05:15,135 --> 00:05:16,671
+<font color="#d3d3d3">Nested conditional statement</font>
+
+109
+00:05:17,183 --> 00:05:20,255
+<font color="#e0e0e0">So that kind of wraps up our control flow in Python</font>
+
+110
+00:05:20,511 --> 00:05:22,303
+<font color="#f2f2f2">Let's go to the next thing that we have to do</font>
+
+111
+00:05:22,815 --> 00:05:24,607
+<font color="#ebebeb">Next we have loops</font>
+
+112
+00:05:24,863 --> 00:05:26,655
+<font color="#dfdfdf">Know the different types of loops</font>
+
+113
+00:05:26,911 --> 00:05:27,935
+<font color="#e0e0e0">You will start with</font>
+
+114
+00:05:28,191 --> 00:05:28,703
+<font color="#2f2f2f">For</font>
+
+115
+00:05:28,959 --> 00:05:29,983
+<font color="#585858">No food</font>
+
+116
+00:05:30,239 --> 00:05:36,383
+<font color="#dadada">It reads over a sequence of items it can be a list that you've seen before it can be a double</font>
+
+117
+00:05:36,639 --> 00:05:40,735
+<font color="#f8f8f8">String because string is nothing but</font>
+
+118
+00:05:40,991 --> 00:05:46,367
+<font color="#dfdfdf">Sequence of characters and we also have range and other things which will look</font>
+
+119
+00:05:46,623 --> 00:05:51,999
+<font color="#eeeeee">So let's first look at the Syntax for this so if I want to use the same one</font>
+
+120
+00:05:53,279 --> 00:05:54,303
+<font color="#cacaca">Commented out</font>
+
+121
+00:05:56,095 --> 00:05:56,863
+<font color="#494949">Google</font>
+
+122
+00:05:57,375 --> 00:05:58,655
+<font color="#fbfbfb">And I want to look at</font>
+
+123
+00:05:59,423 --> 00:06:00,703
+<font color="#d5d5d5">The syntax</font>
+
+124
+00:06:02,751 --> 00:06:03,519
+<font color="#6b6b6b">For Loop</font>
+
+125
+00:06:05,567 --> 00:06:08,127
+<font color="#e0e0e0">And that goes something like that you say for</font>
+
+126
+00:06:08,383 --> 00:06:08,895
+<font color="#545454">It</font>
+
+127
+00:06:10,431 --> 00:06:12,223
+<font color="#f4f4f4">A particular sequence</font>
+
+128
+00:06:12,479 --> 00:06:18,623
+<font color="#e1e1e1">Be it as I mentioned list double string range and or anything else I can write</font>
+
+129
+00:06:18,879 --> 00:06:19,903
+<font color="#cccccc">My code block</font>
+
+130
+00:06:21,439 --> 00:06:22,207
+<font color="#dedede">Something like that</font>
+
+131
+00:06:22,719 --> 00:06:25,791
+<font color="#eaeaea">Now let's go ahead and create an example so what I'm going to do is</font>
+
+132
+00:06:26,047 --> 00:06:27,839
+<font color="#dedede">I am going to comment this</font>
+
+133
+00:06:29,119 --> 00:06:32,447
+<font color="#f9f9f9">And let's create an example where I want to</font>
+
+134
+00:06:33,727 --> 00:06:35,519
+<font color="#ececec">Through a list of items</font>
+
+135
+00:06:40,127 --> 00:06:43,199
+<font color="#c6c6c6">To do that first let's get that list I'm going to say fruits</font>
+
+136
+00:06:43,711 --> 00:06:45,759
+<font color="#e3e3e3">List of fruits</font>
+
+137
+00:06:46,015 --> 00:06:48,575
+<font color="#fafafa">The first item I want to say apple</font>
+
+138
+00:06:49,087 --> 00:06:51,391
+<font color="#ededed">Another one I want to put a banana in there</font>
+
+139
+00:06:51,647 --> 00:06:52,927
+<font color="#494949">Fancy for</font>
+
+140
+00:06:53,439 --> 00:06:53,951
+<font color="#3d3d3d">Sports</font>
+
+141
+00:06:54,975 --> 00:06:56,511
+<font color="#d4d4d4">Show a list of fruits here</font>
+
+142
+00:06:56,767 --> 00:06:59,327
+<font color="#d8d8d8">And now I want to look through them I'm going to say 4</font>
+
+143
+00:07:00,095 --> 00:07:01,375
+<font color="#f4f4f4">Fruit</font>
+
+144
+00:07:01,631 --> 00:07:02,399
+<font color="#d4d4d4">Fruits</font>
+
+145
+00:07:03,679 --> 00:07:08,031
+<font color="#e9e9e9">But it doesn't make sense but it does is</font>
+
+146
+00:07:08,287 --> 00:07:09,055
+<font color="#e6e6e6">It takes</font>
+
+147
+00:07:09,823 --> 00:07:13,407
+<font color="#e7e7e7">Each item one time and runs through the loop so for example it will look</font>
+
+148
+00:07:13,919 --> 00:07:20,063
+<font color="#e3e3e3">For the first time he turns it takes apple and the value of fruit is Apple in this case in the second run when</font>
+
+149
+00:07:20,319 --> 00:07:23,391
+<font color="#d9d9d9">Runs through it again it will take banana and assign it to fruit</font>
+
+150
+00:07:23,647 --> 00:07:26,719
+<font color="#b5b5b5">Cherry and assign it to fruit</font>
+
+151
+00:07:26,975 --> 00:07:29,023
+<font color="#d8d8d8">What I'm going to do here is I'm going to say paint</font>
+
+152
+00:07:31,583 --> 00:07:32,607
+<font color="#e1e1e1">So this</font>
+
+153
+00:07:33,119 --> 00:07:34,143
+<font color="#dfdfdf">Let's run it</font>
+
+154
+00:07:35,679 --> 00:07:38,751
+<font color="#d5d5d5">Andrea apple banana and Cherry that's what is printed out here</font>
+
+155
+00:07:39,263 --> 00:07:45,407
+<font color="#d4d4d4">I can do look through a range which I mentioned earlier the way to do it let me just try to calm</font>
+
+156
+00:07:47,455 --> 00:07:48,223
+<font color="#b0b0b0">Change</font>
+
+157
+00:07:52,063 --> 00:07:53,087
+<font color="#b4b4b4">Range of</font>
+
+158
+00:07:55,391 --> 00:07:56,415
+<font color="#ececec">So what this does is</font>
+
+159
+00:07:56,671 --> 00:08:00,767
+<font color="#b9b9b9">It will it will create a list of 1 to 5 it</font>
+
+160
+00:08:02,559 --> 00:08:06,399
+<font color="#dfdfdf">It will assign each item once inside this range from 1 to 5</font>
+
+161
+00:08:09,215 --> 00:08:15,359
+<font color="#dadada">It will say 01234 so it does is here it creates let me just add a comment</font>
+
+162
+00:08:15,615 --> 00:08:16,383
+<font color="#929292">Create a</font>
+
+163
+00:08:16,639 --> 00:08:19,199
+<font color="#7b7b7b">40122 sequence</font>
+
+164
+00:08:21,503 --> 00:08:27,135
+<font color="#d0d0d0">So when you say number the range of 5 it will create these five items and assign it each</font>
+
+165
+00:08:27,391 --> 00:08:30,975
+<font color="#d3d3d3">Every time it runs through the loop so I'm going to say first time it will take zero</font>
+
+166
+00:08:35,071 --> 00:08:37,631
+<font color="#e5e5e5">What's so clear this out so you can see it properly</font>
+
+167
+00:08:37,887 --> 00:08:42,751
+<font color="#eaeaea">So first it goes through the first item in the range which is 0 it printed out</font>
+
+168
+00:08:43,007 --> 00:08:44,031
+<font color="#f5f5f5">Next</font>
+
+169
+00:08:44,287 --> 00:08:47,359
+<font color="#c2c2c2">Two three and four these five items are printed one at a time</font>
+
+170
+00:08:47,615 --> 00:08:48,383
+<font color="#f5f5f5">If I say</font>
+
+171
+00:08:49,407 --> 00:08:49,919
+<font color="#5b5b5b">10</font>
+
+172
+00:08:50,175 --> 00:08:52,735
+<font color="#b8b8b8">Put on this again 01234 all the way</font>
+
+173
+00:08:52,991 --> 00:08:57,599
+<font color="#d8d8d8">Until 9:00 the 10 items if we can display here so this can be used for a bunch of different</font>
+
+174
+00:08:57,855 --> 00:09:00,927
+<font color="#c4c4c4">Thanks so that's for Loop for you I'm going to comment it out</font>
+
+175
+00:09:01,951 --> 00:09:05,023
+<font color="#dcdcdc">The next Loop that we're going to look at is while</font>
+
+176
+00:09:05,279 --> 00:09:06,303
+<font color="#292929">Naval</font>
+
+177
+00:09:06,559 --> 00:09:09,375
+<font color="#f5f5f5">Execute as long as the condition is true</font>
+
+178
+00:09:09,887 --> 00:09:15,519
+<font color="#e6e6e6">So what I mean by that is you write a condition with wild for example let me show you the same text</font>
+
+179
+00:09:18,591 --> 00:09:19,359
+<font color="#bdbdbd">Send text</font>
+
+180
+00:09:20,127 --> 00:09:21,663
+<font color="#a9a9a9">For while</font>
+
+181
+00:09:22,175 --> 00:09:23,711
+<font color="#c9c9c9">Is something like this while</font>
+
+182
+00:09:24,223 --> 00:09:25,247
+<font color="#d9d9d9">A condition</font>
+
+183
+00:09:26,271 --> 00:09:27,295
+<font color="#fafafa">So this is</font>
+
+184
+00:09:27,551 --> 00:09:33,695
+<font color="#eeeeee">It can be a variable name which is a Boolean can be a particular you can equate things and check if</font>
+
+185
+00:09:33,951 --> 00:09:34,463
+<font color="#eaeaea">This particular</font>
+
+186
+00:09:34,719 --> 00:09:35,743
+<font color="#e9e9e9">Condition is true</font>
+
+187
+00:09:35,999 --> 00:09:40,607
+<font color="#f9f9f9">And if that is true then this is the code that it will run</font>
+
+188
+00:09:40,863 --> 00:09:44,447
+<font color="#f4f4f4">Until this condition keeps on staying true so if I say</font>
+
+189
+00:09:44,703 --> 00:09:45,727
+<font color="#cfcfcf">If true</font>
+
+190
+00:09:46,239 --> 00:09:51,871
+<font color="#e1e1e1">This is how you can write an infinite Loop so it will keep on running forever unless you add some papers</font>
+
+191
+00:09:52,127 --> 00:09:55,199
+<font color="#e4e4e4">Something inside it but will cover that later</font>
+
+192
+00:09:55,455 --> 00:09:56,991
+<font color="#cdcdcd">Show comment this out right now</font>
+
+193
+00:09:57,247 --> 00:09:58,271
+<font color="#f8f8f8">And let's go ahead</font>
+
+194
+00:09:58,527 --> 00:10:00,063
+<font color="#f6f6f6">And create an example</font>
+
+195
+00:10:00,831 --> 00:10:01,599
+<font color="#d9d9d9">I'm going to say</font>
+
+196
+00:10:02,367 --> 00:10:07,487
+<font color="#d8d8d8">Create a calendar I want to create a countdown I'm going to call it countdown from 5:00</font>
+
+197
+00:10:08,255 --> 00:10:11,839
+<font color="#e2e2e2">So I am going to create a variables account equal to 5</font>
+
+198
+00:10:12,351 --> 00:10:14,143
+<font color="#dedede">And then I'm going to survive</font>
+
+199
+00:10:20,031 --> 00:10:21,311
+<font color="#e3e3e3">Greater than zero</font>
+
+200
+00:10:22,591 --> 00:10:24,383
+<font color="#f1f1f1">I want to print</font>
+
+201
+00:10:25,407 --> 00:10:25,919
+<font color="#9c9c9c">Count</font>
+
+202
+00:10:26,431 --> 00:10:29,247
+<font color="#f1f1f1">What will happen in this case is if I run this</font>
+
+203
+00:10:29,503 --> 00:10:33,087
+<font color="#d9d9d9">Discount greater than 0 count value is 5 so it is greater than 0</font>
+
+204
+00:10:33,343 --> 00:10:39,487
+<font color="#c7c7c7">She's going to print five again it will come again and check out greater than 0 it is 5:00 has changed this value</font>
+
+205
+00:10:39,743 --> 00:10:42,303
+<font color="#e2e2e2">7555 and keep on going forever</font>
+
+206
+00:10:42,559 --> 00:10:43,839
+<font color="#d9d9d9">So so that</font>
+
+207
+00:10:44,095 --> 00:10:46,655
+<font color="#e8e8e8">Does a proper countdown I am going to say</font>
+
+208
+00:10:47,167 --> 00:10:48,447
+<font color="#dfdfdf">Reduce</font>
+
+209
+00:10:48,703 --> 00:10:51,263
+<font color="#e5e5e5">The count by one so what I'm doing here is</font>
+
+210
+00:10:51,519 --> 00:10:53,567
+<font color="#f2f2f2">I'm using the decrement operator here</font>
+
+211
+00:10:53,823 --> 00:10:56,127
+<font color="#ababab">Well it's same as saying count</font>
+
+212
+00:10:57,663 --> 00:10:58,431
+<font color="#353535">-1</font>
+
+213
+00:10:58,943 --> 00:11:05,087
+<font color="#e6e6e6">Instead of doing this there's a shortcut which is a decrement operator is also an increment operator or a multiplication</font>
+
+214
+00:11:09,695 --> 00:11:14,303
+<font color="#d8d8d8">I will reduce the count by one every time this prints out so 5:00</font>
+
+215
+00:11:14,815 --> 00:11:17,119
+<font color="#dedede">Reduce the value of count to four</font>
+
+216
+00:11:17,375 --> 00:11:20,191
+<font color="#c0c0c0">This account is greater than 0 yes it is so four</font>
+
+217
+00:11:21,215 --> 00:11:22,495
+<font color="#4d4d4d">21</font>
+
+218
+00:11:22,751 --> 00:11:28,127
+<font color="#c6c6c6">The most sign value 0 is crowned greater than 0 know it will come out and come</font>
+
+219
+00:11:28,383 --> 00:11:29,663
+<font color="#d8d8d8">Here but I'm going to say</font>
+
+220
+00:11:30,431 --> 00:11:31,455
+<font color="#e5e5e5">Outside</font>
+
+221
+00:11:35,039 --> 00:11:37,599
+<font color="#f2f2f2">So that's what will happen so let's go ahead and play with it</font>
+
+222
+00:11:38,367 --> 00:11:39,135
+<font color="#e5e5e5">Clear this out</font>
+
+223
+00:11:40,927 --> 00:11:41,439
+<font color="#585858">Granite</font>
+
+224
+00:11:41,695 --> 00:11:45,023
+<font color="#bebebe">-54321 and outside while loop</font>
+
+225
+00:11:45,279 --> 00:11:47,071
+<font color="#d1d1d1">So that's how my Loop works</font>
+
+226
+00:11:47,583 --> 00:11:48,863
+<font color="#bcbcbc">I'm going to clear this out</font>
+
+227
+00:11:49,631 --> 00:11:50,655
+<font color="#c9c9c9">Commented out</font>
+
+228
+00:11:55,775 --> 00:11:57,823
+<font color="#e8e8e8">And go back to my slides</font>
+
+229
+00:11:58,335 --> 00:12:00,127
+<font color="#d9d9d9">So next Google look at</font>
+
+230
+00:12:00,383 --> 00:12:06,527
+<font color="#e8e8e8">Using brake and continue for control flow so I mentioned these before a little bit but let's go ahead</font>
+
+231
+00:12:06,783 --> 00:12:10,623
+<font color="#c4c4c4">Go ahead and more details of what break and continue does so first break</font>
+
+232
+00:12:10,879 --> 00:12:12,671
+<font color="#cacaca">Brick terminates the loop</font>
+
+233
+00:12:12,927 --> 00:12:16,767
+<font color="#ececec">Prematurely when a condition is met so if a loop is going on</font>
+
+234
+00:12:17,023 --> 00:12:20,607
+<font color="#f6f6f6">And you want to stop because a particular condition is met you can use</font>
+
+235
+00:12:20,863 --> 00:12:21,631
+<font color="#dbdbdb">For that</font>
+
+236
+00:12:21,887 --> 00:12:24,959
+<font color="#e6e6e6">So an example for that can be let me just</font>
+
+237
+00:12:25,727 --> 00:12:28,543
+<font color="#b1b1b1">Create here let's create a formula for I</font>
+
+238
+00:12:29,823 --> 00:12:30,847
+<font color="#cfcfcf">Range of</font>
+
+239
+00:12:32,639 --> 00:12:33,663
+<font color="#f8f8f8">I want to</font>
+
+240
+00:12:36,223 --> 00:12:39,039
+<font color="#efefef">So what this will do right now is if I run this</font>
+
+241
+00:12:40,575 --> 00:12:46,207
+<font color="#bfbfbf">012-345-6789 because I've seen range of 10 I want to print I should go through that</font>
+
+242
+00:12:46,463 --> 00:12:47,999
+<font color="#e6e6e6">But I want to stop it after 5</font>
+
+243
+00:12:48,767 --> 00:12:50,303
+<font color="#efefef">So I can see if</font>
+
+244
+00:12:53,119 --> 00:12:54,911
+<font color="#dcdcdc">Equal to 5</font>
+
+245
+00:12:55,423 --> 00:12:57,727
+<font color="#d2d2d2">Some adding a conditional statement here</font>
+
+246
+00:12:57,983 --> 00:12:58,495
+<font color="#ededed">Sing</font>
+
+247
+00:12:58,751 --> 00:13:03,359
+<font color="#e1e1e1">If the value of is 5 just break out of this for loop I don't want to run this anymore</font>
+
+248
+00:13:03,615 --> 00:13:05,407
+<font color="#f8f8f8">And I can always</font>
+
+249
+00:13:06,431 --> 00:13:07,967
+<font color="#b8b8b8">Put this year outside</font>
+
+250
+00:13:08,991 --> 00:13:09,503
+<font color="#848484">For</font>
+
+251
+00:13:11,807 --> 00:13:12,575
+<font color="#676767">Run this</font>
+
+252
+00:13:13,087 --> 00:13:18,207
+<font color="#dddddd">You see 01234 because when the value of 5 it will break out from this for Loop</font>
+
+253
+00:13:18,463 --> 00:13:22,559
+<font color="#d2d2d2">And come outside and bring this if I similarly I can say 7</font>
+
+254
+00:13:23,327 --> 00:13:27,935
+<font color="#ececec">It will print all the way till 6:00 and then come outside the loop</font>
+
+255
+00:13:28,191 --> 00:13:34,335
+<font color="#f1f1f1">So that's how you can break a particular Loop it maybe it's four or while anything you can break out of the loop by using</font>
+
+256
+00:13:36,383 --> 00:13:37,919
+<font color="#f5f5f5">We have continued</font>
+
+257
+00:13:38,175 --> 00:13:44,063
+<font color="#dedede">Now continue skip the current iteration and proceed to the next one so what happens is it</font>
+
+258
+00:13:44,319 --> 00:13:45,599
+<font color="#e7e7e7">If you're running a loop</font>
+
+259
+00:13:45,855 --> 00:13:51,999
+<font color="#fbfbfb">It will skip that particular operation and run to the next one so for example in this particular</font>
+
+260
+00:13:52,255 --> 00:13:54,303
+<font color="#d1d1d1">Make a Sim case I can give you an example</font>
+
+261
+00:13:55,327 --> 00:13:55,839
+<font color="#e0e0e0">Continue</font>
+
+262
+00:13:56,095 --> 00:13:59,423
+<font color="#f6f6f6">So what will happen is in this case when the value of i7</font>
+
+263
+00:13:59,679 --> 00:14:00,959
+<font color="#f0f0f0">It will skip that</font>
+
+264
+00:14:01,471 --> 00:14:05,567
+<font color="#e8e8e8">Print and go back here so it will say 01234</font>
+
+265
+00:14:05,823 --> 00:14:06,591
+<font color="#757575">5</font>
+
+266
+00:14:06,847 --> 00:14:11,967
+<font color="#d5d5d5">And then skip seven and go 8910 so it's continues to the next Loop</font>
+
+267
+00:14:12,735 --> 00:14:14,783
+<font color="#f6f6f6">So if I run this let's go ahead</font>
+
+268
+00:14:16,575 --> 00:14:21,695
+<font color="#bebebe">Since you don't want to 3456 the 7 is missing 899 similarly if I want to miss let's say</font>
+
+269
+00:14:24,767 --> 00:14:30,911
+<font color="#e4e4e4">Run it 01234 I can skip something and run can still continue running the loop so that's</font>
+
+270
+00:14:31,167 --> 00:14:32,191
+<font color="#d2d2d2">What continues used for</font>
+
+271
+00:14:36,799 --> 00:14:38,079
+<font color="#e1e1e1">I'm going to comment this out</font>
+
+272
+00:14:38,591 --> 00:14:40,383
+<font color="#d4d4d4">And I'm going to say for I</font>
+
+273
+00:14:40,895 --> 00:14:43,199
+<font color="#cdcdcd">In a range of</font>
+
+274
+00:14:43,711 --> 00:14:46,015
+<font color="#ececec">And in here I am checking if</font>
+
+275
+00:14:48,319 --> 00:14:54,463
+<font color="#dadada">More I'm not sure if you use the more operator but it gives you if it's divisible by two or not if it's divey</font>
+
+276
+00:14:54,719 --> 00:14:55,487
+<font color="#ababab">Visible by two</font>
+
+277
+00:14:55,743 --> 00:14:58,559
+<font color="#d8d8d8">I want to sorry continue not break</font>
+
+278
+00:14:59,327 --> 00:15:01,375
+<font color="#f1f1f1">And go to the next one so this will print</font>
+
+279
+00:15:02,143 --> 00:15:03,935
+<font color="#909090">Only odd numbers</font>
+
+280
+00:15:05,471 --> 00:15:06,751
+<font color="#c3c3c3">So if I run this</font>
+
+281
+00:15:08,799 --> 00:15:13,919
+<font color="#d0d0d0">13579 so what's happening is it's going through this life range 0 to 10</font>
+
+282
+00:15:14,175 --> 00:15:19,295
+<font color="#d4d4d4">But when it takes 0 it will say 0 divisible by 2 is</font>
+
+283
+00:15:19,551 --> 00:15:21,343
+<font color="#dbdbdb">Where is 1 / 2 is 1</font>
+
+284
+00:15:21,599 --> 00:15:23,391
+<font color="#b1b1b1">Schedule print one it will not</font>
+
+285
+00:15:23,647 --> 00:15:24,671
+<font color="#d9d9d9">Go inside the slope</font>
+
+286
+00:15:24,927 --> 00:15:27,999
+<font color="#e3e3e3">But for 2 / 2 is 0 so it will</font>
+
+287
+00:15:28,767 --> 00:15:30,047
+<font color="#fafafa">Skip this and</font>
+
+288
+00:15:30,303 --> 00:15:31,327
+<font color="#8f8f8f">Turtle run through</font>
+
+289
+00:15:31,583 --> 00:15:32,607
+<font color="#c4c4c4">0 to 10</font>
+
+290
+00:15:32,863 --> 00:15:39,007
+<font color="#eaeaea">And it will only look for odd numbers because even numbers are divisible by 2 and the value is 0 so</font>
+
+291
+00:15:39,775 --> 00:15:42,847
+<font color="#ededed">Continue and skip that particular loose so that's why I see</font>
+
+292
+00:15:43,103 --> 00:15:44,383
+<font color="#cfcfcf">All odd numbers here</font>
+
+293
+00:15:45,919 --> 00:15:48,991
+<font color="#e6e6e6">So now that you've completed all the different</font>
+
+294
+00:15:49,247 --> 00:15:52,319
+<font color="#e6e6e6">Conditional statements and Loops control flow</font>
+
+295
+00:15:52,575 --> 00:15:56,671
+<font color="#dbdbdb">Types so now we can jump into our hands on exercise</font>
+
+296
+00:15:56,927 --> 00:15:58,207
+<font color="#ababab">Are first exercise</font>
+
+297
+00:15:58,463 --> 00:16:01,023
+<font color="#eaeaea">Is to check if a number is prime</font>
+
+298
+00:16:01,279 --> 00:16:04,607
+<font color="#e4e4e4">So here are the main objective is to write a Python program</font>
+
+299
+00:16:04,863 --> 00:16:07,935
+<font color="#f1f1f1">To determine if a given number is a prime number</font>
+
+300
+00:16:08,191 --> 00:16:14,335
+<font color="#f1f1f1">So for this first you need to know what a prime number is a prime number is only divisible by one and</font>
+
+301
+00:16:15,359 --> 00:16:21,503
+<font color="#e4e4e4">We can use a loop to check divisibility for numbers between 2 and the square root of</font>
+
+302
+00:16:21,759 --> 00:16:22,783
+<font color="#c5c5c5">Does the given number</font>
+
+303
+00:16:23,039 --> 00:16:29,183
+<font color="#f4f4f4">That's what we can do and we can break the loop if a divisor if a divisor is found in this particular case</font>
+
+304
+00:16:29,439 --> 00:16:30,463
+<font color="#fbfbfb">So that's how you can</font>
+
+305
+00:16:30,719 --> 00:16:33,023
+<font color="#f9f9f9">Get prime numbers so let's go ahead</font>
+
+306
+00:16:34,303 --> 00:16:37,375
+<font color="#e4e4e4">And I'm going to leave it as it is this one I'm going to create a new file</font>
+
+307
+00:16:37,631 --> 00:16:38,911
+<font color="#f0f0f0">Save it as</font>
+
+308
+00:16:42,239 --> 00:16:43,263
+<font color="#e1e1e1">Exercise</font>
+
+309
+00:16:44,543 --> 00:16:45,311
+<font color="#4f4f4f">Dot TV</font>
+
+310
+00:16:47,615 --> 00:16:51,199
+<font color="#dddddd">First let's get the number number equal to 8</font>
+
+311
+00:16:52,991 --> 00:16:57,599
+<font color="#dedede">Instead of me giving a number here giving the setting a variable</font>
+
+312
+00:16:57,855 --> 00:17:00,415
+<font color="#d3d3d3">With the number what I'm going to do is I'm going to ask the user</font>
+
+313
+00:17:00,671 --> 00:17:02,463
+<font color="#f7f7f7">Who is going to run the</font>
+
+314
+00:17:02,719 --> 00:17:03,743
+<font color="#bebebe">Command prompt</font>
+
+315
+00:17:03,999 --> 00:17:07,327
+<font color="#f4f4f4">Give me that number so I can use input</font>
+
+316
+00:17:08,351 --> 00:17:09,887
+<font color="#f1f1f1">And I can ask the user</font>
+
+317
+00:17:10,143 --> 00:17:10,911
+<font color="#f5f5f5">Enter</font>
+
+318
+00:17:12,703 --> 00:17:13,471
+<font color="#aeaeae">So there you</font>
+
+319
+00:17:14,239 --> 00:17:15,007
+<font color="#949494">And now</font>
+
+320
+00:17:15,263 --> 00:17:16,543
+<font color="#c7c7c7">I'm going to say if</font>
+
+321
+00:17:17,311 --> 00:17:18,079
+<font color="#dfdfdf">Number</font>
+
+322
+00:17:18,591 --> 00:17:20,639
+<font color="#e0e0e0">Is greater than one first of all</font>
+
+323
+00:17:21,663 --> 00:17:22,687
+<font color="#eeeeee">Inside here</font>
+
+324
+00:17:22,943 --> 00:17:23,967
+<font color="#e7e7e7">I'm going to check</font>
+
+325
+00:17:28,063 --> 00:17:28,831
+<font color="#272727">Arranged</font>
+
+326
+00:17:29,343 --> 00:17:30,879
+<font color="#7e7e7e">Of 2</font>
+
+327
+00:17:31,391 --> 00:17:32,159
+<font color="#ababab">Integers</font>
+
+328
+00:17:33,951 --> 00:17:34,719
+<font color="#d9d9d9">Number</font>
+
+329
+00:17:36,255 --> 00:17:37,279
+<font color="#959595">Race</font>
+
+330
+00:17:37,535 --> 00:17:38,559
+<font color="#626262">0</font>
+
+331
+00:17:41,119 --> 00:17:42,399
+<font color="#9b9b9b">Plus one</font>
+
+332
+00:17:44,447 --> 00:17:45,471
+<font color="#c4c4c4">If numb</font>
+
+333
+00:17:49,311 --> 00:17:50,591
+<font color="#eaeaea">Equal to 0</font>
+
+334
+00:17:51,359 --> 00:17:52,639
+<font color="#f9f9f9">Then in this case</font>
+
+335
+00:17:53,151 --> 00:17:54,687
+<font color="#fdfdfd">This is not a prime number</font>
+
+336
+00:17:55,199 --> 00:17:58,271
+<font color="#f2f2f2">So just to go over it again just to understand better</font>
+
+337
+00:17:58,527 --> 00:18:00,063
+<font color="#f6f6f6">What I'm doing here in the first</font>
+
+338
+00:18:01,087 --> 00:18:04,159
+<font color="#dfdfdf">Is amtech I'm asking the user to enter the number</font>
+
+339
+00:18:04,415 --> 00:18:10,559
+<font color="#f4f4f4">And I'm converting that number into an end right over here and that number I'm saving</font>
+
+340
+00:18:10,815 --> 00:18:11,583
+<font color="#eeeeee">Inside the variable</font>
+
+341
+00:18:12,095 --> 00:18:12,607
+<font color="#dddddd">Next</font>
+
+342
+00:18:12,863 --> 00:18:19,007
+<font color="#e2e2e2">I'm checking if the number is greater than one you know this text if the input number that I have saved here is greater than 1</font>
+
+343
+00:18:19,519 --> 00:18:20,543
+<font color="#f1f1f1">But why am I doing it</font>
+
+344
+00:18:20,799 --> 00:18:26,943
+<font color="#e9e9e9">Prime numbers are defined as integers greater than 1 that are divisible only by one and themselves</font>
+
+345
+00:18:27,199 --> 00:18:29,503
+<font color="#ececec">So that's why I am checking if the number is greater than 1</font>
+
+346
+00:18:30,015 --> 00:18:35,647
+<font color="#ebebeb">If not it will skip the program and and then proceeded to check if its prime</font>
+
+347
+00:18:36,159 --> 00:18:37,695
+<font color="#f3f3f3">So if not</font>
+
+348
+00:18:38,463 --> 00:18:44,607
+<font color="#e0e0e0">If not then it will skip to the else block at the end which will write in a little while but</font>
+
+349
+00:18:44,863 --> 00:18:47,935
+<font color="#dddddd">Right now here once said the number is 13</font>
+
+350
+00:18:48,191 --> 00:18:54,335
+<font color="#d8d8d8">It's going to check here in line number 327 what does this is range to comma</font>
+
+351
+00:18:54,591 --> 00:18:55,615
+<font color="#3b3b3b">Integer Nam</font>
+
+352
+00:18:55,871 --> 00:19:00,991
+<font color="#dddddd">Einstein * 5 what it does is it generates numbers</font>
+
+353
+00:19:01,503 --> 00:19:04,575
+<font color="#d7d7d7">Starting from 2 up to the square root of</font>
+
+354
+00:19:05,855 --> 00:19:07,391
+<font color="#eeeeee">So this is how you get the square root</font>
+
+355
+00:19:07,647 --> 00:19:10,463
+<font color="#f5f5f5">Rounded up to the nearest integer</font>
+
+356
+00:19:11,231 --> 00:19:13,535
+<font color="#e7e7e7">Plus one so that's what's Happening Here</font>
+
+357
+00:19:13,791 --> 00:19:19,935
+<font color="#f4f4f4">Now why am I doing square root here if a number is not divisible by any number less than</font>
+
+358
+00:19:20,191 --> 00:19:22,239
+<font color="#d9d9d9">Equal to its square root it's Prime</font>
+
+359
+00:19:22,495 --> 00:19:25,311
+<font color="#eeeeee">This optimization reduces the number of checks</font>
+
+360
+00:19:25,823 --> 00:19:27,871
+<font color="#dddddd">So for I in this thing</font>
+
+361
+00:19:28,127 --> 00:19:30,687
+<font color="#c7c7c7">It is through each number I</font>
+
+362
+00:19:30,943 --> 00:19:37,087
+<font color="#efefef">In the generated range to check if number is divisible by I so that's what he's doing here</font>
+
+363
+00:19:37,599 --> 00:19:43,743
+<font color="#eaeaea">So next in this particular line if not I equal to 0 it checks if the number is</font>
+
+364
+00:19:43,999 --> 00:19:50,143
+<font color="#e3e3e3">Invisible by I using the modulus operator if not I equal to zero it means</font>
+
+365
+00:19:50,399 --> 00:19:51,935
+<font color="#b6b6b6">Nam is divisible by I</font>
+
+366
+00:19:52,191 --> 00:19:53,471
+<font color="#f6f6f6">So it's not Prime</font>
+
+367
+00:19:53,983 --> 00:19:54,495
+<font color="#d0d0d0">Next</font>
+
+368
+00:19:55,775 --> 00:19:58,591
+<font color="#d2d2d2">To let the user know that so I'm going to say print</font>
+
+369
+00:19:59,359 --> 00:20:02,175
+<font color="#f4f4f4">And since I'm going to add a variable you start with F</font>
+
+370
+00:20:02,431 --> 00:20:08,063
+<font color="#e7e7e7">And then here is what you pass the variable inside the curly brackets is not</font>
+
+371
+00:20:08,575 --> 00:20:09,855
+<font color="#dedede">Prime numbers</font>
+
+372
+00:20:10,367 --> 00:20:11,647
+<font color="#d9d9d9">So this will show</font>
+
+373
+00:20:12,671 --> 00:20:15,231
+<font color="#f4f4f4">And I'm going to go and break out of it here</font>
+
+374
+00:20:15,487 --> 00:20:16,767
+<font color="#c9c9c9">Break out of</font>
+
+375
+00:20:17,791 --> 00:20:18,815
+<font color="#bebebe">Current look</font>
+
+376
+00:20:19,583 --> 00:20:21,631
+<font color="#b0b0b0">Else now else is</font>
+
+377
+00:20:23,167 --> 00:20:25,983
+<font color="#f8f8f8">This particular case I am going to say</font>
+
+378
+00:20:28,287 --> 00:20:29,567
+<font color="#eaeaea">I'm going to print</font>
+
+379
+00:20:34,431 --> 00:20:35,199
+<font color="#d8d8d8">Number</font>
+
+380
+00:20:38,783 --> 00:20:39,295
+<font color="#dbdbdb">Number</font>
+
+381
+00:20:39,551 --> 00:20:44,927
+<font color="#dbdbdb">No I have one more if let's make sure we are all aligned on which if I'm writing that too</font>
+
+382
+00:20:45,439 --> 00:20:47,743
+<font color="#e9e9e9">And I have one more if on the top</font>
+
+383
+00:20:47,999 --> 00:20:49,535
+<font color="#b9b9b9">For that I'm going to else</font>
+
+384
+00:20:51,839 --> 00:20:52,607
+<font color="#323232">Are</font>
+
+385
+00:20:54,911 --> 00:20:55,679
+<font color="#d9d9d9">Number</font>
+
+386
+00:20:55,935 --> 00:20:57,215
+<font color="#a3a3a3">Is not a</font>
+
+387
+00:21:05,407 --> 00:21:06,175
+<font color="#c0c0c0">Is</font>
+
+388
+00:21:06,431 --> 00:21:07,711
+<font color="#f1f1f1">Prime number</font>
+
+389
+00:21:07,967 --> 00:21:10,783
+<font color="#dfdfdf">Outside so what's happening here is in the else loops</font>
+
+390
+00:21:12,319 --> 00:21:16,416
+<font color="#f1f1f1">Once I break out of here if it's not a prime number that's done</font>
+
+391
+00:21:16,928 --> 00:21:19,744
+<font color="#f0f0f0">Next what I'm doing in the following lines is</font>
+
+392
+00:21:20,000 --> 00:21:24,864
+<font color="#ececec">I am printing so if if it's not a prime number and if it doesn't mod this</font>
+
+393
+00:21:25,120 --> 00:21:27,680
+<font color="#e6e6e6">So I'm saying else it's a prime number</font>
+
+394
+00:21:27,936 --> 00:21:28,960
+<font color="#f4f4f4">That's what I'm saying here</font>
+
+395
+00:21:29,216 --> 00:21:32,800
+<font color="#ededed">And finally the last else block is associated with the</font>
+
+396
+00:21:33,056 --> 00:21:33,824
+<font color="#3c3c3c">Food</font>
+
+397
+00:21:35,104 --> 00:21:37,920
+<font color="#d8d8d8">So when does this execute if the for Loop</font>
+
+398
+00:21:38,176 --> 00:21:40,224
+<font color="#cbcbcb">Complete without encountering a break</font>
+
+399
+00:21:40,480 --> 00:21:44,064
+<font color="#e7e7e7">No divisor was found that's when this will run</font>
+
+400
+00:21:44,576 --> 00:21:45,856
+<font color="#f0f0f0">So it has to be</font>
+
+401
+00:21:47,648 --> 00:21:49,440
+<font color="#e8e8e8">Kind of given right outside</font>
+
+402
+00:21:50,464 --> 00:21:54,560
+<font color="#efefef">And then the final one it prints so what happens in the end is</font>
+
+403
+00:21:54,816 --> 00:22:00,448
+<font color="#e3e3e3">This is block belongs to if number is greater than one statement which means if it's</font>
+
+404
+00:22:00,960 --> 00:22:02,496
+<font color="#ececec">If this will execute</font>
+
+405
+00:22:02,752 --> 00:22:08,640
+<font color="#e2e2e2">Sing the number is not greater than one so for example if it's 01 or negative numbers this will run</font>
+
+406
+00:22:08,896 --> 00:22:10,688
+<font color="#f7f7f7">From here so let's go ahead</font>
+
+407
+00:22:11,200 --> 00:22:12,224
+<font color="#eeeeee">Save this</font>
+
+408
+00:22:12,480 --> 00:22:14,528
+<font color="#e5e5e5">And run this particular code</font>
+
+409
+00:22:15,040 --> 00:22:16,064
+<font color="#f0f0f0">I'm going to say</font>
+
+410
+00:22:16,832 --> 00:22:19,392
+<font color="#a2a2a2">Lights on day two underscore</font>
+
+411
+00:22:19,648 --> 00:22:22,720
+<font color="#c2c2c2">Exercise 1.2 device is asking me first line</font>
+
+412
+00:22:22,976 --> 00:22:27,584
+<font color="#ebebeb">And the number so let's say I will enter 10 which I know is not a prime number</font>
+
+413
+00:22:28,096 --> 00:22:29,632
+<font color="#eeeeee">Satan is not a prime number</font>
+
+414
+00:22:29,888 --> 00:22:32,448
+<font color="#ebebeb">I am going to go and run it again</font>
+
+415
+00:22:32,704 --> 00:22:35,264
+<font color="#c2c2c2">And this time I'll give you 30 in which I know is a prime number</font>
+
+416
+00:22:35,520 --> 00:22:37,056
+<font color="#d6d6d6">And it says 13 is a prime number</font>
+
+417
+00:22:37,568 --> 00:22:38,592
+<font color="#c8c8c8">Should go to the loop</font>
+
+418
+00:22:38,848 --> 00:22:40,384
+<font color="#ebebeb">Find sound that</font>
+
+419
+00:22:40,640 --> 00:22:44,736
+<font color="#f9f9f9">It is not divisible by any of these numbers and that's why</font>
+
+420
+00:22:44,992 --> 00:22:47,552
+<font color="#f7f7f7">It's going to go and say it's a prime number here</font>
+
+421
+00:22:48,576 --> 00:22:50,112
+<font color="#f2f2f2">So that kind of completes are</font>
+
+422
+00:22:50,368 --> 00:22:52,160
+<font color="#ececec">First exercise where</font>
+
+423
+00:22:52,416 --> 00:22:55,744
+<font color="#f7f7f7">Have created the code to find out if a number is prime or not</font>
+
+424
+00:22:56,768 --> 00:22:58,048
+<font color="#aeaeae">Are next exercise</font>
+
+425
+00:22:59,840 --> 00:23:02,144
+<font color="#dfdfdf">To create a menu-driven calculator</font>
+
+426
+00:23:02,912 --> 00:23:06,240
+<font color="#f3f3f3">The objective here is to create a Python program</font>
+
+427
+00:23:06,496 --> 00:23:10,848
+<font color="#f5f5f5">That takes user input to display a menu with simple math operations</font>
+
+428
+00:23:11,104 --> 00:23:14,944
+<font color="#d4d4d4">Weather be doing addition subtraction multiplication and division</font>
+
+429
+00:23:15,456 --> 00:23:18,528
+<font color="#e3e3e3">So the instructions that I would want to give you before we started</font>
+
+430
+00:23:18,784 --> 00:23:24,928
+<font color="#ededed">We'll have to present a menu with options just like how we did before but before we asked user to exercise</font>
+
+431
+00:23:27,232 --> 00:23:31,840
+<font color="#c2c2c2">Material will give them a menu of addition subtraction multiplication and division</font>
+
+432
+00:23:32,096 --> 00:23:36,192
+<font color="#ececec">When will allow the user to select an option and input numbers</font>
+
+433
+00:23:36,448 --> 00:23:40,800
+<font color="#f1f1f1">Then perform the selected operation that user wants and display the result</font>
+
+434
+00:23:41,056 --> 00:23:44,896
+<font color="#ededed">Will use a loop to repeat the menu until the user exits</font>
+
+435
+00:23:45,152 --> 00:23:46,688
+<font color="#f8f8f8">So first let's go ahead</font>
+
+436
+00:23:47,712 --> 00:23:50,784
+<font color="#ececec">And create a new file I'm going to save this</font>
+
+437
+00:23:51,040 --> 00:23:54,624
+<font color="#b6b6b6">And I'm going to say that to exercise 2.0</font>
+
+438
+00:23:55,904 --> 00:23:59,488
+<font color="#eaeaea">Let's start with the functions we have not yet covered functions but it's better</font>
+
+439
+00:23:59,744 --> 00:24:05,120
+<font color="#e1e1e1">We go through it as and when we learn it so what I'm going to do is I'm going to create a function called an ad</font>
+
+440
+00:24:05,632 --> 00:24:11,776
+<font color="#e7e7e7">Which adds to numbers I'm going to give to parameters CNB now if you don't understand what I'm doing here just follow along and in the next</font>
+
+441
+00:24:12,032 --> 00:24:13,824
+<font color="#e4e4e4">Section will learn more on this</font>
+
+442
+00:24:14,336 --> 00:24:16,384
+<font color="#aeaeae">And here I'm going to say return a</font>
+
+443
+00:24:16,896 --> 00:24:19,968
+<font color="#c8c8c8">Plus b because that's how you add two numbers</font>
+
+444
+00:24:20,480 --> 00:24:20,992
+<font color="#d0d0d0">Next</font>
+
+445
+00:24:21,248 --> 00:24:22,784
+<font color="#b1b1b1">I'm going to say subtract</font>
+
+446
+00:24:25,600 --> 00:24:28,672
+<font color="#cdcdcd">And that again takes two numbers a comma</font>
+
+447
+00:24:30,208 --> 00:24:34,048
+<font color="#e1e1e1">And this one returns to this function will return a</font>
+
+448
+00:24:34,304 --> 00:24:35,328
+<font color="#b5b5b5">Minus</font>
+
+449
+00:24:36,352 --> 00:24:39,680
+<font color="#cccccc">Next I want to do a multiplication and say multiply</font>
+
+450
+00:24:41,472 --> 00:24:43,776
+<font color="#cccccc">And I'll take two numbers a comma B</font>
+
+451
+00:24:44,800 --> 00:24:46,080
+<font color="#a7a7a7">And I will return</font>
+
+452
+00:24:49,664 --> 00:24:51,456
+<font color="#ebebeb">Next I'm going to do divide</font>
+
+453
+00:24:53,504 --> 00:24:57,088
+<font color="#e1e1e1">And this again will take two parameters</font>
+
+454
+00:24:57,856 --> 00:24:59,392
+<font color="#c9c9c9">And this will</font>
+
+455
+00:24:59,904 --> 00:25:06,048
+<font color="#e3e3e3">First in division sometimes you to check if its not equal to 0 so I'm going to say not divisible by</font>
+
+456
+00:25:06,816 --> 00:25:12,960
+<font color="#dfdfdf">B is not equal to 0 so I'll have to make sure that a division by 0 is not</font>
+
+457
+00:25:13,216 --> 00:25:13,728
+<font color="#b6b6b6">You're loud here</font>
+
+458
+00:25:13,984 --> 00:25:20,128
+<font color="#e3e3e3">So I'm going to check if is not equal to 0 because a divided by B and in this case</font>
+
+459
+00:25:20,384 --> 00:25:22,176
+<font color="#d0d0d0">Is the second argument if it's zero</font>
+
+460
+00:25:22,944 --> 00:25:24,992
+<font color="#c7c7c7">I will say return</font>
+
+461
+00:25:25,248 --> 00:25:27,040
+<font color="#aaaaaa">A / B</font>
+
+462
+00:25:28,064 --> 00:25:31,392
+<font color="#e3e3e3">If the user gives me a zero I am going to print out</font>
+
+463
+00:25:31,904 --> 00:25:33,952
+<font color="#b6b6b6">Sing or return back sing</font>
+
+464
+00:25:34,976 --> 00:25:36,512
+<font color="#f0f0f0">Division by</font>
+
+465
+00:25:37,280 --> 00:25:38,816
+<font color="#bcbcbc">Zero is</font>
+
+466
+00:25:39,328 --> 00:25:39,840
+<font color="#818181">Alarm</font>
+
+467
+00:25:40,864 --> 00:25:41,888
+<font color="#dbdbdb">Just an extra</font>
+
+468
+00:25:42,144 --> 00:25:43,168
+<font color="#313131">Precautions</font>
+
+469
+00:25:43,424 --> 00:25:47,520
+<font color="#e3e3e3">So these are my four functions to add subtract multiply and divide</font>
+
+470
+00:25:47,776 --> 00:25:53,152
+<font color="#d7d7d7">No I'm going to write a loop here I'm going to say wild true again as I mentioned you know when you say wild true</font>
+
+471
+00:25:53,408 --> 00:25:54,176
+<font color="#efefef">It will run</font>
+
+472
+00:25:54,432 --> 00:25:55,712
+<font color="#a7a7a7">When a constant Loop</font>
+
+473
+00:25:55,968 --> 00:25:58,528
+<font color="#e3e3e3">How to break out of it you can just say break</font>
+
+474
+00:25:58,784 --> 00:25:59,552
+<font color="#9f9f9f">But</font>
+
+475
+00:26:00,064 --> 00:26:06,208
+<font color="#dddddd">Where should I say break so first as I mentioned you we need to give a user a menu option so I'm going to say print</font>
+
+476
+00:26:08,256 --> 00:26:09,280
+<font color="#bababa">I didn't hear</font>
+
+477
+00:26:10,048 --> 00:26:13,888
+<font color="#d2d2d2">Next line slashing at the next line in the in the in the terminal</font>
+
+478
+00:26:14,400 --> 00:26:15,424
+<font color="#595959">What are common prom</font>
+
+479
+00:26:15,680 --> 00:26:16,704
+<font color="#b1b1b1">I'm going to see menu</font>
+
+480
+00:26:16,960 --> 00:26:17,728
+<font color="#c9c9c9">No the menu</font>
+
+481
+00:26:18,240 --> 00:26:19,776
+<font color="#c5c5c5">I will give you the options</font>
+
+482
+00:26:21,824 --> 00:26:27,200
+<font color="#f0f0f0">So this one is for addition subtraction multiplication division and</font>
+
+483
+00:26:27,456 --> 00:26:27,968
+<font color="#dddddd">Exit</font>
+
+484
+00:26:28,736 --> 00:26:33,344
+<font color="#c7c7c7">Something out all of them the number one so if you just says number one</font>
+
+485
+00:26:34,112 --> 00:26:37,440
+<font color="#bbbbbb">Bits and edition if the user says press is number two</font>
+
+486
+00:26:37,696 --> 00:26:38,464
+<font color="#d2d2d2">I will say</font>
+
+487
+00:26:41,024 --> 00:26:41,536
+<font color="#6a6a6a">Traction</font>
+
+488
+00:26:43,072 --> 00:26:45,120
+<font color="#c4c4c4">If the users presses number 3</font>
+
+489
+00:26:45,376 --> 00:26:46,912
+<font color="#b6b6b6">How to say multiplication</font>
+
+490
+00:26:47,936 --> 00:26:50,240
+<font color="#d5d5d5">If the user presses number four</font>
+
+491
+00:26:50,752 --> 00:26:52,032
+<font color="#c5c5c5">It's division</font>
+
+492
+00:26:52,800 --> 00:26:54,080
+<font color="#cfcfcf">Number five</font>
+
+493
+00:26:54,336 --> 00:26:55,616
+<font color="#b8b8b8">Is to exit</font>
+
+494
+00:26:55,872 --> 00:26:56,640
+<font color="#a1a1a1">Switch music</font>
+
+495
+00:26:56,896 --> 00:26:58,176
+<font color="#828282">This is the prices</font>
+
+496
+00:26:58,432 --> 00:27:00,736
+<font color="#e0e0e0">Five I will just exit out of the loop</font>
+
+497
+00:27:01,248 --> 00:27:03,296
+<font color="#f9f9f9">So if you want to see how that is done</font>
+
+498
+00:27:03,552 --> 00:27:05,600
+<font color="#f3f3f3">I can just say if</font>
+
+499
+00:27:09,952 --> 00:27:12,768
+<font color="#c5c5c5">Equal to input I'm going to ask user</font>
+
+500
+00:27:16,608 --> 00:27:18,912
+<font color="#ebebeb">Choice based on the Above menu</font>
+
+501
+00:27:20,448 --> 00:27:23,264
+<font color="#e3e3e3">So based on the bar menu I'm going to ask the user to enter something</font>
+
+502
+00:27:23,520 --> 00:27:25,312
+<font color="#f9f9f9">And if the user</font>
+
+503
+00:27:29,920 --> 00:27:32,480
+<font color="#f1f1f1">What I'm going to do is I'm going to say print</font>
+
+504
+00:27:34,016 --> 00:27:35,552
+<font color="#cbcbcb">Exiting</font>
+
+505
+00:27:35,808 --> 00:27:36,832
+<font color="#d6d6d6">Program</font>
+
+506
+00:27:39,904 --> 00:27:41,440
+<font color="#ececec">I will break out of this</font>
+
+507
+00:27:42,976 --> 00:27:46,560
+<font color="#dadada">Break out of my Loop which is end of end of this function there's nothing else outside</font>
+
+508
+00:27:47,584 --> 00:27:51,680
+<font color="#e2e2e2">Or else I lost the user to enter the two numbers I'm going to say number one</font>
+
+509
+00:27:51,936 --> 00:27:55,776
+<font color="#cfcfcf">I think it is float because user might enter decimal point values</font>
+
+510
+00:27:56,288 --> 00:27:58,336
+<font color="#cfcfcf">And I lost the user to input something</font>
+
+511
+00:27:58,848 --> 00:27:59,872
+<font color="#adadad">I'll say enter</font>
+
+512
+00:28:00,128 --> 00:28:01,152
+<font color="#fafafa">The</font>
+
+513
+00:28:01,664 --> 00:28:02,432
+<font color="#b4b4b4">Numbers</font>
+
+514
+00:28:03,200 --> 00:28:05,504
+<font color="#eeeeee">And I let user enter his first number</font>
+
+515
+00:28:05,760 --> 00:28:08,576
+<font color="#b9b9b9">Is it her first number number 2</font>
+
+516
+00:28:09,856 --> 00:28:15,232
+<font color="#ececec">Second number this is where the user will enter the second number now I have both the numbers</font>
+
+517
+00:28:15,488 --> 00:28:17,280
+<font color="#e3e3e3">What I'm going to do is I'm going to check</font>
+
+518
+00:28:19,584 --> 00:28:22,144
+<font color="#bebebe">Equal to one if the user clicked</font>
+
+519
+00:28:22,400 --> 00:28:25,216
+<font color="#dadada">Selected one as his choice which is Edition</font>
+
+520
+00:28:25,472 --> 00:28:27,008
+<font color="#f0f0f0">So what I'm going to do is print</font>
+
+521
+00:28:28,800 --> 00:28:29,568
+<font color="#c0c0c0">Result</font>
+
+522
+00:28:31,360 --> 00:28:32,128
+<font color="#e2e2e2">Is</font>
+
+523
+00:28:34,176 --> 00:28:35,968
+<font color="#e1e1e1">I'm going to call the function at</font>
+
+524
+00:28:36,224 --> 00:28:37,504
+<font color="#fbfbfb">Which is right here</font>
+
+525
+00:28:38,016 --> 00:28:40,576
+<font color="#eaeaea">And it needs two parameters which are my</font>
+
+526
+00:28:40,832 --> 00:28:41,856
+<font color="#ececec">Number one</font>
+
+527
+00:28:42,368 --> 00:28:43,392
+<font color="#b0b0b0">And number</font>
+
+528
+00:28:43,648 --> 00:28:48,000
+<font color="#c6c6c6">2 South Boston what it does is if the user picked one here</font>
+
+529
+00:28:48,256 --> 00:28:52,096
+<font color="#d7d7d7">And then entered two and then enter the second number is 4 and I'm going to</font>
+
+530
+00:28:52,352 --> 00:28:57,472
+<font color="#cbcbcb">Pause this 2 and 4 to this ad which is 6 and it will show me the response the result</font>
+
+531
+00:28:57,728 --> 00:28:59,520
+<font color="#dfdfdf">Equal to 6 in this particular case</font>
+
+532
+00:29:00,032 --> 00:29:02,080
+<font color="#d3d3d3">So that's the first one so I'm going to copy this</font>
+
+533
+00:29:03,872 --> 00:29:04,640
+<font color="#696969">Showtimes</font>
+
+534
+00:29:05,920 --> 00:29:11,296
+<font color="#e5e5e5">No I can't do if it's because what it will do is it will go through each and every one</font>
+
+535
+00:29:11,552 --> 00:29:14,112
+<font color="#e0e0e0">4 * 1,234 so this is</font>
+
+536
+00:29:16,672 --> 00:29:18,208
+<font color="#e6e6e6">What if I leave it like this</font>
+
+537
+00:29:18,464 --> 00:29:20,768
+<font color="#e9e9e9">And add the functions subtract</font>
+
+538
+00:29:21,792 --> 00:29:23,072
+<font color="#cdcdcd">Third one was</font>
+
+539
+00:29:23,328 --> 00:29:24,352
+<font color="#e5e5e5">Multiplication</font>
+
+540
+00:29:24,864 --> 00:29:31,008
+<font color="#dddddd">The last one was subtract so these are the different options now if I run it through here it will check</font>
+
+541
+00:29:31,264 --> 00:29:35,104
+<font color="#f1f1f1">Each and every time but I want to see like if I check one if it's not one</font>
+
+542
+00:29:35,616 --> 00:29:37,408
+<font color="#f4f4f4">Then I want to check the second one</font>
+
+543
+00:29:37,920 --> 00:29:43,296
+<font color="#e5e5e5">What else what it will happen is even if the choice is one it will go through each and every statement</font>
+
+544
+00:29:46,368 --> 00:29:48,672
+<font color="#9d9d9d">Types anything other than one two three four five</font>
+
+545
+00:29:49,184 --> 00:29:51,488
+<font color="#dddddd">So for that I will say else</font>
+
+546
+00:29:57,888 --> 00:29:58,656
+<font color="#b3b3b3">Joyce</font>
+
+547
+00:30:01,728 --> 00:30:07,872
+<font color="#dadada">Try again so for example if the user presses 9 we don't have anything to do with 9 so I'll say invalid choice</font>
+
+548
+00:30:08,128 --> 00:30:09,152
+<font color="#cacaca">And I lost the user</font>
+
+549
+00:30:10,432 --> 00:30:10,944
+<font color="#8e8e8e">Try again</font>
+
+550
+00:30:11,200 --> 00:30:11,968
+<font color="#c5c5c5">So go ahead</font>
+
+551
+00:30:12,224 --> 00:30:14,272
+<font color="#dfdfdf">And run this let me clear this out</font>
+
+552
+00:30:14,784 --> 00:30:15,808
+<font color="#f2f2f2">This is called</font>
+
+553
+00:30:16,832 --> 00:30:18,880
+<font color="#a6a6a6">Did you exercise too so here is my menu</font>
+
+554
+00:30:19,392 --> 00:30:21,184
+<font color="#dddddd">Addition so this printed out</font>
+
+555
+00:30:21,440 --> 00:30:26,560
+<font color="#e8e8e8">Addition subtraction multiplication division exit so I am going to say one</font>
+
+556
+00:30:27,584 --> 00:30:29,888
+<font color="#a6a6a6">Access enter your first number I said three</font>
+
+557
+00:30:30,144 --> 00:30:33,472
+<font color="#d3d3d3">And the second number 5 now 5 + 3</font>
+
+558
+00:30:33,728 --> 00:30:38,592
+<font color="#e5e5e5">As you saw that I took the input as floors it will take it as 3.0 and 5.0</font>
+
+559
+00:30:38,848 --> 00:30:39,616
+<font color="#cdcdcd">And print</font>
+
+560
+00:30:39,872 --> 00:30:42,176
+<font color="#e9e9e9">8.0 for me similarly</font>
+
+561
+00:30:46,272 --> 00:30:48,576
+<font color="#c5c5c5">Since I'm not exited the loop to</font>
+
+562
+00:30:49,344 --> 00:30:50,368
+<font color="#676767">I said five</font>
+
+563
+00:30:50,624 --> 00:30:51,392
+<font color="#929292">And</font>
+
+564
+00:30:51,648 --> 00:30:53,440
+<font color="#b6b6b6">What's a 4.2 is the result</font>
+
+565
+00:30:53,952 --> 00:30:55,232
+<font color="#acacac">Similarly if I pick 3</font>
+
+566
+00:30:55,744 --> 00:30:56,512
+<font color="#595959">It's a</font>
+
+567
+00:30:58,816 --> 00:31:00,096
+<font color="#e9e9e9">Should be 20</font>
+
+568
+00:31:00,608 --> 00:31:01,888
+<font color="#bbbbbb">No</font>
+
+569
+00:31:02,400 --> 00:31:04,192
+<font color="#e9e9e9">I want to divide 4</font>
+
+570
+00:31:04,960 --> 00:31:05,984
+<font color="#979797">By zero</font>
+
+571
+00:31:06,496 --> 00:31:10,080
+<font color="#e5e5e5">It looks like here in the court instead of calling the Divide</font>
+
+572
+00:31:10,336 --> 00:31:13,152
+<font color="#f6f6f6">I was calling the subtract so I'm going to fix that</font>
+
+573
+00:31:13,408 --> 00:31:14,432
+<font color="#f5f5f5">And go ahead</font>
+
+574
+00:31:14,944 --> 00:31:16,480
+<font color="#f0f0f0">And run my code again</font>
+
+575
+00:31:16,736 --> 00:31:18,016
+<font color="#d4d4d4">Give the option for</font>
+
+576
+00:31:18,528 --> 00:31:19,552
+<font color="#272727">94</font>
+
+577
+00:31:19,808 --> 00:31:23,648
+<font color="#dbdbdb">Second number zero and it's a division by 0 is not allowed</font>
+
+578
+00:31:23,904 --> 00:31:29,024
+<font color="#e8e8e8">Let's go ahead and pick five</font>
+
+579
+00:31:29,280 --> 00:31:34,144
+<font color="#fbfbfb">I hope you were able to get through it if you have any questions or any problems let me know</font>
+
+580
+00:31:34,400 --> 00:31:37,984
+<font color="#f1f1f1">And for the next things what you can do is for additional practice</font>
+
+581
+00:31:38,240 --> 00:31:42,080
+<font color="#f6f6f6">I have a couple of more programs for you what you can do is you can write a program</font>
+
+582
+00:31:42,336 --> 00:31:44,384
+<font color="#f7f7f7">To calculate the factorial of a number</font>
+
+583
+00:31:44,640 --> 00:31:50,528
+<font color="#e0e0e0">Using a while loop now if you don't know what a factorial go ahead and look up look it up and then write this</font>
+
+584
+00:31:50,784 --> 00:31:51,296
+<font color="#f1f1f1">To create</font>
+
+585
+00:31:51,552 --> 00:31:54,880
+<font color="#cdcdcd">To get to calculate the factorial of a number using a while loop</font>
+
+586
+00:31:55,136 --> 00:31:57,696
+<font color="#fcfcfc">Next you can try to create a program</font>
+
+587
+00:31:57,952 --> 00:32:01,536
+<font color="#d8d8d8">To find the largest number in the list using a for Loop</font>
+
+588
+00:32:01,792 --> 00:32:02,816
+<font color="#efefef">So you can try that out</font>
+
+589
+00:32:03,072 --> 00:32:09,216
+<font color="#e8e8e8">So if you have a list of items to create a list of items and add some numbers inside there and use a for Loop</font>
+
+590
+00:32:09,728 --> 00:32:12,800
+<font color="#f9f9f9">Go through each and every item in that particular list and</font>
+
+591
+00:32:13,056 --> 00:32:15,616
+<font color="#fcfcfc">Find the largest number in the list</font>
+
+592
+00:32:16,128 --> 00:32:17,664
+<font color="#d6d6d6">So that's it for day two</font>
+
+593
+00:32:17,920 --> 00:32:24,064
+<font color="#ebebeb">Where you learned the foundation foundational control flow constructs in Python including conditional</font>
+
+594
+00:32:24,320 --> 00:32:28,160
+<font color="#e6e6e6">Statements loops and flow control keywords like brake and continue</font>
+
+595
+00:32:28,416 --> 00:32:30,720
+<font color="#e8e8e8">The handsome exercise probably helped you</font>
+
+596
+00:32:30,976 --> 00:32:34,048
+<font color="#c7c7c7">With the concepts with real world programming task</font>
+
+597
+00:32:34,304 --> 00:32:39,936
+<font color="#f9f9f9">Preparing you for more complex logical challenges and try to do these additional practice</font>
+
+598
+00:32:40,448 --> 00:32:44,032
+<font color="#f5f5f5">Sessions on your own if you had any problems or have any questions</font>

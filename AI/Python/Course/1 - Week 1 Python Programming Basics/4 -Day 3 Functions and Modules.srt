@@ -1,0 +1,1771 @@
+﻿1
+00:00:00,256 --> 00:00:05,120
+<font color="#e6e6e6">Welcome to day 3 where we will be covering functions and modules in Python</font>
+
+2
+00:00:05,888 --> 00:00:06,912
+<font color="#cdcdcd">Will start with</font>
+
+3
+00:00:07,168 --> 00:00:13,312
+<font color="#dddddd">Define functions with deaf have you already done this in the previous day or yesterday</font>
+
+4
+00:00:14,080 --> 00:00:17,664
+<font color="#ececec">But you're going to go in more details about what are functions</font>
+
+5
+00:00:17,920 --> 00:00:20,480
+<font color="#e9e9e9">Malfunction is a reusable block of code</font>
+
+6
+00:00:20,736 --> 00:00:22,528
+<font color="#e6e6e6">That performs a specific task</font>
+
+7
+00:00:23,040 --> 00:00:27,392
+<font color="#e5e5e5">Functions improve modularity and code reusability it helps you</font>
+
+8
+00:00:27,648 --> 00:00:32,000
+<font color="#e7e7e7">You said for example if you see somewhere that you're repeating the same code over and over again</font>
+
+9
+00:00:32,256 --> 00:00:36,352
+<font color="#e9e9e9">Just create a function out of it and call that function from one single place</font>
+
+10
+00:00:36,608 --> 00:00:42,752
+<font color="#dedede">Send future if you have to change something and change on the other one place and don't have to change every single place</font>
+
+11
+00:00:43,008 --> 00:00:44,544
+<font color="#e1e1e1">Did you have the same functionality</font>
+
+12
+00:00:45,824 --> 00:00:47,104
+<font color="#e4e4e4">Defining a function</font>
+
+13
+00:00:47,360 --> 00:00:53,504
+<font color="#e9e9e9">Did you find a function you use the def keyword as you saw in our calculator example</font>
+
+14
+00:00:53,760 --> 00:00:55,552
+<font color="#b7b7b7">In yesterday's video</font>
+
+15
+00:00:56,064 --> 00:00:59,136
+<font color="#f1f1f1">So you use the DF keyboard to define a particular function</font>
+
+16
+00:01:00,160 --> 00:01:02,464
+<font color="#c3c3c3">No and it's at the Syntax for that</font>
+
+17
+00:01:02,720 --> 00:01:04,768
+<font color="#eeeeee">Might look like I'm going to create</font>
+
+18
+00:01:05,792 --> 00:01:08,096
+<font color="#efefef">File save it inside</font>
+
+19
+00:01:08,352 --> 00:01:09,632
+<font color="#454545">RD3</font>
+
+20
+00:01:13,472 --> 00:01:13,984
+<font color="#b9b9b9">Call it</font>
+
+21
+00:01:17,568 --> 00:01:18,848
+<font color="#d2d2d2">Samples</font>
+
+22
+00:01:19,616 --> 00:01:20,384
+<font color="#252525">30</font>
+
+23
+00:01:20,640 --> 00:01:24,224
+<font color="#e4e4e4">And here if I want to create a function you say start by saying def</font>
+
+24
+00:01:24,480 --> 00:01:30,368
+<font color="#f5f5f5">Then comes the function name so here is the function name whatever name you want you feel like you give here</font>
+
+25
+00:01:30,624 --> 00:01:31,392
+<font color="#e3e3e3">And then</font>
+
+26
+00:01:31,648 --> 00:01:34,720
+<font color="#dfdfdf">The parameters so whoever is calling this particular</font>
+
+27
+00:01:34,976 --> 00:01:37,536
+<font color="#ededed">Function needs to send parameters</font>
+
+28
+00:01:37,792 --> 00:01:43,936
+<font color="#efefef">If it can be empty too if you don't want to send anything it's just like say print hello for example you don't need</font>
+
+29
+00:01:44,704 --> 00:01:48,288
+<font color="#e4e4e4">Any parameters in here but if you want to add two numbers then you add</font>
+
+30
+00:01:48,544 --> 00:01:51,616
+<font color="#eeeeee">Two different parameters here that are passed and below it</font>
+
+31
+00:01:51,872 --> 00:01:52,896
+<font color="#dedede">The next line</font>
+
+32
+00:01:53,152 --> 00:01:55,200
+<font color="#b1b1b1">It goes well code block goes</font>
+
+33
+00:01:55,968 --> 00:02:00,320
+<font color="#f3f3f3">Malfunction can return or not return something if you want to return something back</font>
+
+34
+00:02:00,576 --> 00:02:03,648
+<font color="#e2e2e2">Whoever called it like how we did in our calculator example</font>
+
+35
+00:02:03,904 --> 00:02:05,184
+<font color="#e9e9e9">You can use the return keyword</font>
+
+36
+00:02:05,440 --> 00:02:07,232
+<font color="#c6c6c6">And pass a result back</font>
+
+37
+00:02:07,488 --> 00:02:09,024
+<font color="#cacaca">Do the calling calling variable</font>
+
+38
+00:02:09,792 --> 00:02:15,424
+<font color="#dfdfdf">Parameters are values passed to the function for processing</font>
+
+39
+00:02:15,680 --> 00:02:16,960
+<font color="#f0f0f0">The return values</font>
+
+40
+00:02:17,216 --> 00:02:20,544
+<font color="#eaeaea">Are values returned by the function after the processor</font>
+
+41
+00:02:21,568 --> 00:02:25,152
+<font color="#f9f9f9">Let's look at some examples in this case so we already created</font>
+
+42
+00:02:25,408 --> 00:02:27,456
+<font color="#d6d6d6">That's fine I am going to</font>
+
+43
+00:02:27,968 --> 00:02:28,736
+<font color="#b1b1b1">Comment this out</font>
+
+44
+00:02:29,760 --> 00:02:30,528
+<font color="#c5c5c5">And here</font>
+
+45
+00:02:31,040 --> 00:02:31,552
+<font color="#e9e9e9">Create</font>
+
+46
+00:02:32,576 --> 00:02:33,600
+<font color="#efefef">A function</font>
+
+47
+00:02:36,672 --> 00:02:37,696
+<font color="#8b8b8b">Parameters</font>
+
+48
+00:02:41,280 --> 00:02:42,048
+<font color="#dfdfdf">Return</font>
+
+49
+00:02:43,840 --> 00:02:47,424
+<font color="#bababa">732 function to create a function as I mentioned you use def</font>
+
+50
+00:02:47,680 --> 00:02:51,008
+<font color="#dddddd">And then I'll say this is for my addition I'm going to say add</font>
+
+51
+00:02:51,520 --> 00:02:57,664
+<font color="#d5d5d5">Add numbers</font>
+
+52
+00:02:57,920 --> 00:03:04,064
+<font color="#f4f4f4">And I need to send two parameters because I want to add two numbers you can also add three numbers if you want</font>
+
+53
+00:03:06,368 --> 00:03:07,648
+<font color="#f1f1f1">But I want to make it simple</font>
+
+54
+00:03:09,184 --> 00:03:12,000
+<font color="#b9b9b9">Add two numbers A&D and returns it back</font>
+
+55
+00:03:12,512 --> 00:03:15,584
+<font color="#e9e9e9">Now I can return it directly like this you can also do</font>
+
+56
+00:03:15,840 --> 00:03:16,608
+<font color="#f2f2f2">Is</font>
+
+57
+00:03:16,864 --> 00:03:17,888
+<font color="#efefef">Inside here</font>
+
+58
+00:03:18,144 --> 00:03:21,216
+<font color="#e4e4e4">I can create a variable C and say a + b</font>
+
+59
+00:03:21,472 --> 00:03:27,616
+<font color="#dfdfdf">Ninja Turtle C so that is also possible but less lines is always better so I always like to say</font>
+
+60
+00:03:27,872 --> 00:03:29,408
+<font color="#bababa">A + b</font>
+
+61
+00:03:29,920 --> 00:03:32,480
+<font color="#dedede">Instead of doing this I'm going to comment this out</font>
+
+62
+00:03:33,504 --> 00:03:36,320
+<font color="#ededed">And now to call it let's say a variable result</font>
+
+63
+00:03:36,832 --> 00:03:39,904
+<font color="#d9d9d9">Wants to add two numbers can you add numbers</font>
+
+64
+00:03:40,160 --> 00:03:43,232
+<font color="#d8d8d8">And pass two numbers for example 5 and</font>
+
+65
+00:03:43,744 --> 00:03:45,024
+<font color="#d9d9d9">Three in this case</font>
+
+66
+00:03:45,792 --> 00:03:47,840
+<font color="#f6f6f6">And I want to print that</font>
+
+67
+00:03:48,352 --> 00:03:51,168
+<font color="#ededed">Summation of addition of those two numbers</font>
+
+68
+00:03:51,424 --> 00:03:52,448
+<font color="#e6e6e6">I can just</font>
+
+69
+00:03:52,704 --> 00:03:53,472
+<font color="#848484">Put in that</font>
+
+70
+00:03:53,728 --> 00:03:54,752
+<font color="#ababab">Result variable</font>
+
+71
+00:03:56,032 --> 00:03:57,568
+<font color="#f7f7f7">If I go to my</font>
+
+72
+00:03:59,104 --> 00:04:00,896
+<font color="#5c5c5c">Kansas City today</font>
+
+73
+00:04:02,432 --> 00:04:06,016
+<font color="#b2b2b2">And here I have the three samples so I'm going to say python</font>
+
+74
+00:04:07,808 --> 00:04:09,856
+<font color="#5f5f5f">Three samples dot pivot and some music</font>
+
+75
+00:04:12,416 --> 00:04:13,952
+<font color="#868686">45 minutes</font>
+
+76
+00:04:14,208 --> 00:04:15,488
+<font color="#949494">Lexus 48</font>
+
+77
+00:04:16,000 --> 00:04:17,280
+<font color="#9e9e9e">645 + 3</font>
+
+78
+00:04:17,536 --> 00:04:21,375
+<font color="#e1e1e1">Get it out so that this is how you can create a function again</font>
+
+79
+00:04:22,399 --> 00:04:25,215
+<font color="#e0e0e0">Function is created by the keyword def</font>
+
+80
+00:04:25,471 --> 00:04:27,007
+<font color="#c4c4c4">Radio defining a function</font>
+
+81
+00:04:27,263 --> 00:04:29,823
+<font color="#f2f2f2">Then the function name whatever name you want to give</font>
+
+82
+00:04:30,335 --> 00:04:36,223
+<font color="#f7f7f7">The parameters that it has or if you don't want to pass any parameters you can just skip it for example in this particular case</font>
+
+83
+00:04:36,735 --> 00:04:38,015
+<font color="#f4f4f4">I can just say</font>
+
+84
+00:04:39,039 --> 00:04:41,343
+<font color="#ececec">Add two numbers and I can just</font>
+
+85
+00:04:42,111 --> 00:04:42,879
+<font color="#c4c4c4">Return</font>
+
+86
+00:04:43,135 --> 00:04:44,415
+<font color="#fbfbfb">Two numbers like this</font>
+
+87
+00:04:45,439 --> 00:04:45,951
+<font color="#747474">Run</font>
+
+88
+00:04:47,231 --> 00:04:50,047
+<font color="#d3d3d3">Add two numbers and return it back but you have to</font>
+
+89
+00:04:50,303 --> 00:04:54,143
+<font color="#f9f9f9">Change the variables here which doesn't make any sense but</font>
+
+90
+00:04:54,399 --> 00:04:58,239
+<font color="#e0e0e0">This is how you can create call a function with no parameters in there</font>
+
+91
+00:04:58,751 --> 00:04:59,775
+<font color="#e0e0e0">Next</font>
+
+92
+00:05:00,031 --> 00:05:01,311
+<font color="#d1d1d1">How did you know functions</font>
+
+93
+00:05:01,567 --> 00:05:02,335
+<font color="#fafafa">Let's look at</font>
+
+94
+00:05:03,359 --> 00:05:05,151
+<font color="#dbdbdb">And lifetime of variables</font>
+
+95
+00:05:05,663 --> 00:05:06,943
+<font color="#727272">No scope</font>
+
+96
+00:05:07,199 --> 00:05:10,015
+<font color="#e6e6e6">Has two different types of scope one is called as a local scope</font>
+
+97
+00:05:10,527 --> 00:05:16,671
+<font color="#e1e1e1">Weather variables defined in the function are only accessible without within that function which means for</font>
+
+98
+00:05:16,927 --> 00:05:19,231
+<font color="#e5e5e5">Example if I create a variable C here</font>
+
+99
+00:05:21,279 --> 00:05:27,423
+<font color="#f0f0f0">The scope of this variable C is only for this particular function if I use see here it will not know</font>
+
+100
+00:05:27,679 --> 00:05:33,823
+<font color="#d6d6d6">What sea is and it will probably say nothing I don't know what she is so that is called as a local scope Within</font>
+
+101
+00:05:34,079 --> 00:05:34,591
+<font color="#dfdfdf">Particular function</font>
+
+102
+00:05:34,847 --> 00:05:37,407
+<font color="#efefef">We also have something called as a global scope</font>
+
+103
+00:05:37,663 --> 00:05:41,503
+<font color="#cfcfcf">Bad videos defined outside functions are accessible</font>
+
+104
+00:05:41,759 --> 00:05:44,063
+<font color="#e0e0e0">Throughout the program so that's the global scope</font>
+
+105
+00:05:44,831 --> 00:05:46,623
+<font color="#d9d9d9">Lifetime</font>
+
+106
+00:05:46,879 --> 00:05:48,927
+<font color="#e3e3e3">Where local variables exist</font>
+
+107
+00:05:49,183 --> 00:05:51,743
+<font color="#f5f5f5">Only as long as the function executes</font>
+
+108
+00:05:51,999 --> 00:05:53,791
+<font color="#e9e9e9">So it means is the</font>
+
+109
+00:05:54,047 --> 00:05:58,143
+<font color="#e0e0e0">Is the local variable that I created for example to see that I've created here</font>
+
+110
+00:05:58,399 --> 00:06:04,543
+<font color="#f5f5f5">Only exist as long as the function executes as soon as the function is done executing those variables do not exist</font>
+
+111
+00:06:05,055 --> 00:06:08,383
+<font color="#cecece">Global a variables versus throughout the program</font>
+
+112
+00:06:08,639 --> 00:06:12,735
+<font color="#f7f7f7">Unless it's modified within a function using the global keyword</font>
+
+113
+00:06:13,247 --> 00:06:18,623
+<font color="#ebebeb">I can show you some examples for it to run into examples let's first go ahead</font>
+
+114
+00:06:19,135 --> 00:06:20,159
+<font color="#cdcdcd">And commented out</font>
+
+115
+00:06:22,207 --> 00:06:24,255
+<font color="#e7e7e7">Let's start with the local scope</font>
+
+116
+00:06:25,535 --> 00:06:29,375
+<font color="#f1f1f1">So for local scope I am going to create a function called as</font>
+
+117
+00:06:29,887 --> 00:06:30,655
+<font color="#a4a4a4">Greet</font>
+
+118
+00:06:31,935 --> 00:06:33,215
+<font color="#dedede">An inside here</font>
+
+119
+00:06:33,471 --> 00:06:35,007
+<font color="#f2f2f2">I am going to say message</font>
+
+120
+00:06:35,519 --> 00:06:36,287
+<font color="#ededed">Equal to</font>
+
+121
+00:06:37,567 --> 00:06:38,079
+<font color="#c3c3c3">Hello</font>
+
+122
+00:06:39,103 --> 00:06:42,431
+<font color="#e2e2e2">Now this is a local variable inside this Greek function</font>
+
+123
+00:06:42,687 --> 00:06:48,831
+<font color="#fafafa">Which means if I try to use that outside it will not know what is the value of this variable</font>
+
+124
+00:06:49,087 --> 00:06:50,879
+<font color="#c4c4c4">Now if I call the Greet</font>
+
+125
+00:06:51,135 --> 00:06:51,903
+<font color="#b1b1b1">Function here</font>
+
+126
+00:06:52,159 --> 00:06:54,207
+<font color="#d8d8d8">Bishop call this this</font>
+
+127
+00:06:54,719 --> 00:06:57,279
+<font color="#f8f8f8">Call this function and print the message but</font>
+
+128
+00:06:57,535 --> 00:06:59,071
+<font color="#f5f5f5">If I try to print</font>
+
+129
+00:06:59,583 --> 00:07:00,607
+<font color="#f6f6f6">Something like</font>
+
+130
+00:07:00,863 --> 00:07:01,887
+<font color="#f4f4f4">Message here</font>
+
+131
+00:07:02,143 --> 00:07:08,287
+<font color="#f4f4f4">It will not know because this function this message variable is local scope only to this</font>
+
+132
+00:07:08,543 --> 00:07:10,079
+<font color="#cecece">Next function it's not available</font>
+
+133
+00:07:10,335 --> 00:07:15,967
+<font color="#ebebeb">Outside that's why you invented just so that we better understand this I can go back</font>
+
+134
+00:07:17,759 --> 00:07:18,527
+<font color="#dbdbdb">Clear it out</font>
+
+135
+00:07:18,783 --> 00:07:24,927
+<font color="#dfdfdf">And run that and you see it gives me a racist name message is not defined it doesn't know where it's defined what are you trying to do</font>
+
+136
+00:07:25,183 --> 00:07:26,463
+<font color="#f2f2f2">So this gives you another</font>
+
+137
+00:07:26,719 --> 00:07:27,487
+<font color="#696969">The remote</font>
+
+138
+00:07:28,511 --> 00:07:34,655
+<font color="#f2f2f2">It will just work as same as before but doesn't try to run this and it will not give you a message so if</font>
+
+139
+00:07:34,911 --> 00:07:39,519
+<font color="#f1f1f1">Play if you want to use this outside one thing that you can do is you can use Global scope so</font>
+
+140
+00:07:41,311 --> 00:07:42,591
+<font color="#c3c3c3">Comment these out</font>
+
+141
+00:07:45,151 --> 00:07:45,919
+<font color="#d0d0d0">Let's look</font>
+
+142
+00:07:46,943 --> 00:07:47,711
+<font color="#808080">Global SC</font>
+
+143
+00:07:48,991 --> 00:07:50,015
+<font color="#8a8a8a">No cancel Google</font>
+
+144
+00:07:50,527 --> 00:07:51,295
+<font color="#7c7c7c">Costco</font>
+
+145
+00:07:51,551 --> 00:07:53,599
+<font color="#e6e6e6">I'm creating a variable called as greeting</font>
+
+146
+00:07:54,111 --> 00:07:55,903
+<font color="#eaeaea">Equal to let's call it hi</font>
+
+147
+00:07:57,439 --> 00:07:59,999
+<font color="#dfdfdf">And I'm creating a function</font>
+
+148
+00:08:00,511 --> 00:08:02,303
+<font color="#b2b2b2">Call Desi hello</font>
+
+149
+00:08:04,863 --> 00:08:05,887
+<font color="#ececec">And inside here</font>
+
+150
+00:08:06,143 --> 00:08:07,679
+<font color="#e3e3e3">I am going to say print</font>
+
+151
+00:08:09,727 --> 00:08:10,495
+<font color="#c9c9c9">Greeting</font>
+
+152
+00:08:10,751 --> 00:08:14,335
+<font color="#ececec">So what's happening is the the message that I created here I</font>
+
+153
+00:08:14,847 --> 00:08:18,943
+<font color="#e7e7e7">Created that variable outside which means it's available here</font>
+
+154
+00:08:19,967 --> 00:08:21,247
+<font color="#fcfcfc">Inside the function</font>
+
+155
+00:08:21,759 --> 00:08:23,039
+<font color="#f1f1f1">As well as</font>
+
+156
+00:08:23,295 --> 00:08:24,831
+<font color="#dbdbdb">I can just say print</font>
+
+157
+00:08:25,599 --> 00:08:26,367
+<font color="#1c1c1c">Greet</font>
+
+158
+00:08:26,623 --> 00:08:32,767
+<font color="#ececec">Outside the function two and it will not give me another because if you see where the variable is defined is</font>
+
+159
+00:08:33,023 --> 00:08:38,655
+<font color="#eaeaea">Outside the function and is also accessible to the Sprint statement right here now if I run this year</font>
+
+160
+00:08:39,935 --> 00:08:40,959
+<font color="#f2f2f2">I will not have any</font>
+
+161
+00:08:41,215 --> 00:08:42,495
+<font color="#999999">I don't even say hi</font>
+
+162
+00:08:43,519 --> 00:08:45,567
+<font color="#cfcfcf">Here and then hide from here just say</font>
+
+163
+00:08:45,823 --> 00:08:47,615
+<font color="#e4e4e4">I can just concatenated</font>
+
+164
+00:08:49,919 --> 00:08:50,687
+<font color="#dedede">Inside</font>
+
+165
+00:08:51,199 --> 00:08:52,223
+<font color="#f9f9f9">The function</font>
+
+166
+00:08:55,039 --> 00:08:57,343
+<font color="#e4e4e4">And this one I can say from</font>
+
+167
+00:08:57,855 --> 00:08:59,647
+<font color="#ededed">Outside the</font>
+
+168
+00:09:00,415 --> 00:09:00,927
+<font color="#222222">Fun</font>
+
+169
+00:09:02,207 --> 00:09:08,351
+<font color="#dbdbdb">Granite high from inside the function because it called this it will print it and then it will print this</font>
+
+170
+00:09:08,607 --> 00:09:14,495
+<font color="#f2f2f2">Send hi message from both inside and outside the function so that's how you can create a global scope for this</font>
+
+171
+00:09:15,775 --> 00:09:21,919
+<font color="#f0f0f0">Next let's look at importing and using modules now what are modules modules are</font>
+
+172
+00:09:22,175 --> 00:09:22,687
+<font color="#c4c4c4">Python files</font>
+
+173
+00:09:22,943 --> 00:09:29,087
+<font color="#f6f6f6">Containing a collection of functions and variables that can be used so instead of creating functions if there are</font>
+
+174
+00:09:29,343 --> 00:09:33,183
+<font color="#ebebeb">A lot of things that you are doing and want to reuse among different teams</font>
+
+175
+00:09:33,439 --> 00:09:39,583
+<font color="#f0f0f0">Python files containing a collection of functions and variables that can be</font>
+
+176
+00:09:40,607 --> 00:09:43,167
+<font color="#f0f0f0">Building modules can include something like</font>
+
+177
+00:09:43,423 --> 00:09:49,567
+<font color="#e5e5e5">Python is already given you some modules like math module OS module and random module</font>
+
+178
+00:09:50,847 --> 00:09:53,663
+<font color="#cdcdcd">First let's look at importing modules</font>
+
+179
+00:09:53,919 --> 00:09:58,271
+<font color="#ededed">There are different ways you can import modules you can import an entire module</font>
+
+180
+00:09:58,527 --> 00:10:00,831
+<font color="#e2e2e2">Read I can give you an example</font>
+
+181
+00:10:02,367 --> 00:10:03,903
+<font color="#e2e2e2">Just comment this out</font>
+
+182
+00:10:04,415 --> 00:10:07,231
+<font color="#e9e9e9">So if you want to import an entire module you do</font>
+
+183
+00:10:07,743 --> 00:10:10,815
+<font color="#dbdbdb">For example I want to import the math module so I'm going to say import</font>
+
+184
+00:10:11,839 --> 00:10:12,607
+<font color="#cacaca">And in here</font>
+
+185
+00:10:12,863 --> 00:10:15,935
+<font color="#f9f9f9">No I can use that module by saying math</font>
+
+186
+00:10:16,191 --> 00:10:18,751
+<font color="#c0c0c0">Dot there's a function called a square root in there</font>
+
+187
+00:10:19,263 --> 00:10:21,311
+<font color="#959595">Is it called that √16</font>
+
+188
+00:10:22,079 --> 00:10:24,383
+<font color="#e7e7e7">If I run this so I don't have to write the code</font>
+
+189
+00:10:24,639 --> 00:10:25,919
+<font color="#afafaf">To actually</font>
+
+190
+00:10:26,431 --> 00:10:30,783
+<font color="#d4d4d4">Get a square root of a particular number I can just say Maddox square root</font>
+
+191
+00:10:31,551 --> 00:10:32,831
+<font color="#b3b3b3">And if I run this it will say</font>
+
+192
+00:10:33,087 --> 00:10:34,623
+<font color="#a1a1a1">4 is the square root of 16</font>
+
+193
+00:10:35,391 --> 00:10:36,159
+<font color="#e6e6e6">Next is</font>
+
+194
+00:10:36,927 --> 00:10:42,047
+<font color="#f4f4f4">Importing specific functions now math has a lot of different functions but if you want to only</font>
+
+195
+00:10:42,303 --> 00:10:44,607
+<font color="#e8e8e8">Import a particular functions in this case</font>
+
+196
+00:10:44,863 --> 00:10:47,423
+<font color="#e0e0e0">I want to from</font>
+
+197
+00:10:49,215 --> 00:10:50,751
+<font color="#fafafa">I want to import</font>
+
+198
+00:10:51,007 --> 00:10:52,031
+<font color="#878787">Square root</font>
+
+199
+00:10:53,055 --> 00:10:59,199
+<font color="#f1f1f1">So that way I don't have to write this I can just say √16 and it will know what I want to do</font>
+
+200
+00:10:59,455 --> 00:11:00,479
+<font color="#f0f0f0">So go ahead</font>
+
+201
+00:11:01,759 --> 00:11:03,807
+<font color="#e0e0e0">And it gives me the same result because of course</font>
+
+202
+00:11:04,063 --> 00:11:05,087
+<font color="#ededed">Instead of</font>
+
+203
+00:11:05,855 --> 00:11:09,695
+<font color="#f7f7f7">Importing an entire module I'm just importing a particular function</font>
+
+204
+00:11:09,951 --> 00:11:10,719
+<font color="#a0a0a0">From that mod</font>
+
+205
+00:11:11,999 --> 00:11:17,119
+<font color="#d0d0d0">Another thing that you want to know about importing modules is using aliases</font>
+
+206
+00:11:17,375 --> 00:11:18,399
+<font color="#f6f6f6">So here</font>
+
+207
+00:11:19,167 --> 00:11:20,191
+<font color="#ededed">Instead of</font>
+
+208
+00:11:21,727 --> 00:11:23,007
+<font color="#d8d8d8">Calling it Matt</font>
+
+209
+00:11:23,263 --> 00:11:25,823
+<font color="#ededed">I can call it sometime the module names are really big</font>
+
+210
+00:11:26,079 --> 00:11:28,127
+<font color="#d9d9d9">So I can just imagine</font>
+
+211
+00:11:28,895 --> 00:11:35,039
+<font color="#d9d9d9">So I can use an alias here and then I can say m dot square root sometimes let's say I create a module</font>
+
+212
+00:11:35,807 --> 00:11:39,135
+<font color="#f6f6f6">Vivian is dancing on the mountain</font>
+
+213
+00:11:40,159 --> 00:11:41,951
+<font color="#f9f9f9">So I can just say</font>
+
+214
+00:11:42,207 --> 00:11:44,511
+<font color="#d7d7d7">Import viviani dancing on a mountain</font>
+
+215
+00:11:46,303 --> 00:11:52,447
+<font color="#bebebe">As Viv something like that so there are some functions that there will be some modules that you'll see which have really long</font>
+
+216
+00:11:52,703 --> 00:11:57,055
+<font color="#dddddd">Turn names and if you want to use a shorter version of it this is how you can use aliases</font>
+
+217
+00:11:57,311 --> 00:11:58,591
+<font color="#f2f2f2">To create this</font>
+
+218
+00:11:59,103 --> 00:12:00,895
+<font color="#f5f5f5">No another option is</font>
+
+219
+00:12:01,151 --> 00:12:02,943
+<font color="#efefef">Creating your own custom modules</font>
+
+220
+00:12:03,199 --> 00:12:09,343
+<font color="#efefef">Know sometimes what will happen is you'll have a lot of functionality that is available in your code and your multiple files</font>
+
+221
+00:12:09,599 --> 00:12:11,391
+<font color="#f2f2f2">And you want to reuse this modules</font>
+
+222
+00:12:11,647 --> 00:12:17,023
+<font color="#dddddd">Different different files so what you can do is you can create a py file</font>
+
+223
+00:12:17,535 --> 00:12:21,375
+<font color="#e4e4e4">Bed custom functions and variables inside that particular python file</font>
+
+224
+00:12:21,631 --> 00:12:25,983
+<font color="#f5f5f5">And you can import that into another script using import</font>
+
+225
+00:12:26,239 --> 00:12:27,775
+<font color="#cbcbcb">And the name of the mod</font>
+
+226
+00:12:28,031 --> 00:12:32,895
+<font color="#eeeeee">Directly we'll see those in future but that's how you can create your own custom modules</font>
+
+227
+00:12:33,151 --> 00:12:36,991
+<font color="#ededed">Man you have a lot of code which might be needed in different</font>
+
+228
+00:12:37,247 --> 00:12:42,879
+<font color="#f3f3f3">Different places that you can use that one example I can give you is for example let's say you have</font>
+
+229
+00:12:44,159 --> 00:12:45,439
+<font color="#e0e0e0">Organization</font>
+
+230
+00:12:45,695 --> 00:12:51,071
+<font color="#e7e7e7">Which has five different departments and they have the same login because the organization is the same login</font>
+
+231
+00:12:51,327 --> 00:12:52,607
+<font color="#f0f0f0">Behind it</font>
+
+232
+00:12:52,863 --> 00:12:53,631
+<font color="#cdcdcd">So instead of</font>
+
+233
+00:12:54,143 --> 00:12:58,495
+<font color="#f4f4f4">Creating the login functionality every single time for five different departments</font>
+
+234
+00:12:58,751 --> 00:13:01,823
+<font color="#dfdfdf">You just create that component or a module one time</font>
+
+235
+00:13:02,079 --> 00:13:06,687
+<font color="#d2d2d2">And then get let all these five different departments import that module</font>
+
+236
+00:13:06,943 --> 00:13:07,967
+<font color="#9b9b9b">Into that code</font>
+
+237
+00:13:08,223 --> 00:13:14,367
+<font color="#dddddd">That every time a user comes in they can log in so that's can be a good use case of creating</font>
+
+238
+00:13:14,623 --> 00:13:15,391
+<font color="#dbdbdb">Custom modules</font>
+
+239
+00:13:17,439 --> 00:13:19,743
+<font color="#c5c5c5">Let's jump into hands on exercise</font>
+
+240
+00:13:20,255 --> 00:13:21,791
+<font color="#989898">My first exercise today</font>
+
+241
+00:13:22,047 --> 00:13:23,327
+<font color="#fbfbfb">Is creating a function</font>
+
+242
+00:13:23,583 --> 00:13:29,727
+<font color="#e3e3e3">To calculate factorials now I've given you something similar as an exercise in the yesterday</font>
+
+243
+00:13:29,983 --> 00:13:30,751
+<font color="#868686">What is a video</font>
+
+244
+00:13:31,007 --> 00:13:33,311
+<font color="#c8c8c8">But here are objective is to write</font>
+
+245
+00:13:33,567 --> 00:13:34,335
+<font color="#f2f2f2">A function</font>
+
+246
+00:13:34,591 --> 00:13:36,895
+<font color="#f3f3f3">To calculate the factorial of a number</font>
+
+247
+00:13:37,151 --> 00:13:39,199
+<font color="#fbfbfb">And call it within another function</font>
+
+248
+00:13:39,967 --> 00:13:46,111
+<font color="#eaeaea">So first we will Define a function called as factorial n that calculates the factorial of the number n</font>
+
+249
+00:13:46,879 --> 00:13:49,951
+<font color="#d0d0d0">Then we'll create another function called Sprint factorial</font>
+
+250
+00:13:50,207 --> 00:13:51,487
+<font color="#bfbfbf">And as a parameter</font>
+
+251
+00:13:51,743 --> 00:13:53,535
+<font color="#d1d1d1">That called the factorial</font>
+
+252
+00:13:53,791 --> 00:13:55,839
+<font color="#d7d7d7">Function and print the result</font>
+
+253
+00:13:56,351 --> 00:13:58,399
+<font color="#f2f2f2">Let's go ahead and write the code for it</font>
+
+254
+00:13:58,911 --> 00:14:01,727
+<font color="#dedede">So I'm going to save this and close it</font>
+
+255
+00:14:01,983 --> 00:14:03,007
+<font color="#e5e5e5">Create a new file</font>
+
+256
+00:14:03,263 --> 00:14:04,287
+<font color="#dedede">Python file</font>
+
+257
+00:14:04,543 --> 00:14:06,591
+<font color="#d2d2d2">Save it inside my day 3</font>
+
+258
+00:14:07,871 --> 00:14:08,895
+<font color="#eeeeee">Exercise</font>
+
+259
+00:14:12,223 --> 00:14:15,295
+<font color="#f7f7f7">And here first let's create a function</font>
+
+260
+00:14:15,807 --> 00:14:17,599
+<font color="#bebebe">Call Dez factorial</font>
+
+261
+00:14:18,623 --> 00:14:19,391
+<font color="#a3a3a3">Of</font>
+
+262
+00:14:20,671 --> 00:14:22,719
+<font color="#bababa">I'm here I'm going to see if</font>
+
+263
+00:14:23,743 --> 00:14:24,767
+<font color="#f0f0f0">Equal to</font>
+
+264
+00:14:27,327 --> 00:14:28,863
+<font color="#fafafa">Equal to</font>
+
+265
+00:14:29,631 --> 00:14:32,703
+<font color="#e1e1e1">What happens to factorials if n equal to 0 or</font>
+
+266
+00:14:32,959 --> 00:14:33,983
+<font color="#bbbbbb">N equal to 1</font>
+
+267
+00:14:34,239 --> 00:14:35,775
+<font color="#e4e4e4">That means I just returned</font>
+
+268
+00:14:36,543 --> 00:14:38,079
+<font color="#dadada">One in this particular case</font>
+
+269
+00:14:40,383 --> 00:14:41,407
+<font color="#ededed">I will call</font>
+
+270
+00:14:41,663 --> 00:14:44,223
+<font color="#b4b4b4">The same function so I'm going to return</font>
+
+271
+00:14:48,319 --> 00:14:49,343
+<font color="#dadada">Factorial</font>
+
+272
+00:14:50,623 --> 00:14:52,159
+<font color="#ececec">10 -</font>
+
+273
+00:14:53,439 --> 00:14:57,023
+<font color="#f3f3f3">So what I'm doing is I am reducing that number by one</font>
+
+274
+00:14:57,279 --> 00:15:01,631
+<font color="#e9e9e9">And multiplying whatever the result is from this particular keep on multiply</font>
+
+275
+00:15:01,887 --> 00:15:05,727
+<font color="#eaeaea">If you don't know what factorial is for example</font>
+
+276
+00:15:05,983 --> 00:15:08,031
+<font color="#e7e7e7">If I say what is factorial of</font>
+
+277
+00:15:08,287 --> 00:15:09,311
+<font color="#dedede">Let's give an example</font>
+
+278
+00:15:10,591 --> 00:15:13,407
+<font color="#bfbfbf">5 factorial is 5 * reduce that</font>
+
+279
+00:15:15,455 --> 00:15:16,479
+<font color="#cccccc">Doing something</font>
+
+280
+00:15:17,759 --> 00:15:19,295
+<font color="#fafafa">The first number</font>
+
+281
+00:15:21,599 --> 00:15:24,415
+<font color="#cecece">Reduce that number by 1 for run it here</font>
+
+282
+00:15:24,671 --> 00:15:25,695
+<font color="#c4c4c4">So which means</font>
+
+283
+00:15:27,231 --> 00:15:28,767
+<font color="#b8b8b8">It will call it 3</font>
+
+284
+00:15:30,303 --> 00:15:32,351
+<font color="#dadada">Now the number will be to</font>
+
+285
+00:15:32,607 --> 00:15:34,143
+<font color="#e0e0e0">Again it will call this</font>
+
+286
+00:15:35,423 --> 00:15:36,703
+<font color="#d4d4d4">Now it will be one</font>
+
+287
+00:15:36,959 --> 00:15:41,055
+<font color="#f6f6f6">In that case it will return back one here so this will give me</font>
+
+288
+00:15:41,311 --> 00:15:43,615
+<font color="#ebebeb">5 * 4 * 3 * 2</font>
+
+289
+00:15:43,871 --> 00:15:45,151
+<font color="#f3f3f3">Equal to 120</font>
+
+290
+00:15:45,663 --> 00:15:51,551
+<font color="#e6e6e6">You can do the math and check it out but that's what factorial of 5 is or we can run the function and check it out</font>
+
+291
+00:15:51,807 --> 00:15:55,903
+<font color="#dbdbdb">A little while so what I can do here is I'm going to say create another one</font>
+
+292
+00:15:56,415 --> 00:15:57,439
+<font color="#e9e9e9">One function</font>
+
+293
+00:15:58,975 --> 00:16:01,023
+<font color="#cccccc">And this one is to print a factorial</font>
+
+294
+00:16:02,047 --> 00:16:03,327
+<font color="#b3b3b3">Print underscore</font>
+
+295
+00:16:03,583 --> 00:16:04,607
+<font color="#a9a9a9">Factorial</font>
+
+296
+00:16:07,423 --> 00:16:08,447
+<font color="#ededed">And here</font>
+
+297
+00:16:09,983 --> 00:16:11,007
+<font color="#c1c1c1">Result</font>
+
+298
+00:16:11,263 --> 00:16:12,031
+<font color="#ededed">Equal to</font>
+
+299
+00:16:12,799 --> 00:16:14,079
+<font color="#ececec">Factorial of</font>
+
+300
+00:16:16,383 --> 00:16:17,407
+<font color="#d5d5d5">And this will</font>
+
+301
+00:16:17,663 --> 00:16:19,199
+<font color="#ededed">This is used to print</font>
+
+302
+00:16:20,223 --> 00:16:21,503
+<font color="#e4e4e4">The factorial</font>
+
+303
+00:16:25,855 --> 00:16:26,623
+<font color="#222222">Toriel</font>
+
+304
+00:16:30,463 --> 00:16:31,231
+<font color="#f0f0f0">Is</font>
+
+305
+00:16:35,327 --> 00:16:36,607
+<font color="#f5f5f5">So that looks good</font>
+
+306
+00:16:36,863 --> 00:16:40,447
+<font color="#e0e0e0">And now let's test this function I can call it I can say print</font>
+
+307
+00:16:40,703 --> 00:16:41,983
+<font color="#737373">Underscore</font>
+
+308
+00:16:42,495 --> 00:16:43,263
+<font color="#c6c6c6">Factorial</font>
+
+309
+00:16:43,775 --> 00:16:48,127
+<font color="#dddddd">And pass the number five is what you wanted to test so this will call this function</font>
+
+310
+00:16:48,383 --> 00:16:51,967
+<font color="#ebebeb">Can you get the result from this particular function which is just</font>
+
+311
+00:16:52,223 --> 00:16:56,575
+<font color="#dedede">Only doing what I'm doing is I'm kind of separating these two step here here</font>
+
+312
+00:16:56,831 --> 00:16:58,111
+<font color="#ececec">The reason is</font>
+
+313
+00:16:58,367 --> 00:17:00,159
+<font color="#f3f3f3">So I can kind of</font>
+
+314
+00:17:00,415 --> 00:17:06,303
+<font color="#e9e9e9">Separate the functionality of finding a factorial and printing of factorial separately in two different functions</font>
+
+315
+00:17:06,559 --> 00:17:07,327
+<font color="#c4c4c4">I can save it</font>
+
+316
+00:17:08,095 --> 00:17:09,119
+<font color="#b7b7b7">Go here</font>
+
+317
+00:17:09,375 --> 00:17:10,143
+<font color="#a0a0a0">Clear this</font>
+
+318
+00:17:10,399 --> 00:17:11,167
+<font color="#ececec">Lights on</font>
+
+319
+00:17:12,447 --> 00:17:13,727
+<font color="#ececec">Exercise</font>
+
+320
+00:17:14,239 --> 00:17:18,335
+<font color="#a2a2a2">1.56 factorial of 5 is 120</font>
+
+321
+00:17:18,591 --> 00:17:19,871
+<font color="#fbfbfb">I can change the number</font>
+
+322
+00:17:21,663 --> 00:17:23,967
+<font color="#d7d7d7">Factorial of tennis 362</font>
+
+323
+00:17:24,223 --> 00:17:25,503
+<font color="#d2d2d2">You're something simple</font>
+
+324
+00:17:28,575 --> 00:17:30,623
+<font color="#a8a8a8">* 1 * 2</font>
+
+325
+00:17:31,647 --> 00:17:37,791
+<font color="#b4b4b4">2 * 1 is 2 so that's why factorial of 2 is 2 in this particular case so this is success</font>
+
+326
+00:17:38,559 --> 00:17:42,911
+<font color="#d7d7d7">Completing our exercise where we are printing of factorial of a given number</font>
+
+327
+00:17:43,423 --> 00:17:44,703
+<font color="#f4f4f4">My second exercise</font>
+
+328
+00:17:45,215 --> 00:17:46,751
+<font color="#f6f6f6">Is to build a custom</font>
+
+329
+00:17:47,007 --> 00:17:48,031
+<font color="#a9a9a9">Python module</font>
+
+330
+00:17:48,543 --> 00:17:50,847
+<font color="#e4e4e4">No objective here is to create a module</font>
+
+331
+00:17:51,103 --> 00:17:52,895
+<font color="#d5d5d5">The basic math operations</font>
+
+332
+00:17:53,151 --> 00:17:55,711
+<font color="#efefef">And use it in a main script</font>
+
+333
+00:17:55,967 --> 00:18:00,063
+<font color="#eaeaea">So let's create a python file called as math operations</font>
+
+334
+00:18:00,319 --> 00:18:06,463
+<font color="#e1e1e1">With functions for addition subtraction multiplication and division something that you've done in a previous day and</font>
+
+335
+00:18:06,719 --> 00:18:10,303
+<font color="#e0e0e0">Will import and use this module in another script will create two different files</font>
+
+336
+00:18:10,559 --> 00:18:11,327
+<font color="#f6f6f6">So first</font>
+
+337
+00:18:11,839 --> 00:18:13,631
+<font color="#dbdbdb">For this let's go ahead here</font>
+
+338
+00:18:14,143 --> 00:18:15,679
+<font color="#f5f5f5">I am going to call it</font>
+
+339
+00:18:15,935 --> 00:18:19,519
+<font color="#e3e3e3">Since it's a module I am going to call it Matt</font>
+
+340
+00:18:20,031 --> 00:18:21,055
+<font color="#747474">Underscore</font>
+
+341
+00:18:21,567 --> 00:18:22,591
+<font color="#e0e0e0">Operations</font>
+
+342
+00:18:24,127 --> 00:18:24,639
+<font color="#656565">B</font>
+
+343
+00:18:25,919 --> 00:18:27,711
+<font color="#d6d6d6">And save it inside day 3</font>
+
+344
+00:18:27,967 --> 00:18:29,759
+<font color="#d5d5d5">Not here I'm going to create</font>
+
+345
+00:18:30,271 --> 00:18:33,599
+<font color="#e4e4e4">A bunch of functions let me do that a comma B</font>
+
+346
+00:18:35,391 --> 00:18:37,439
+<font color="#e3e3e3">Tradition will return back</font>
+
+347
+00:18:37,695 --> 00:18:39,231
+<font color="#b4b4b4">A + b</font>
+
+348
+00:18:42,047 --> 00:18:42,815
+<font color="#dedede">Next is</font>
+
+349
+00:18:43,071 --> 00:18:44,095
+<font color="#dbdbdb">Subtract</font>
+
+350
+00:18:48,191 --> 00:18:49,215
+<font color="#838383">Comma</font>
+
+351
+00:18:49,983 --> 00:18:51,007
+<font color="#d2d2d2">And this will</font>
+
+352
+00:18:51,775 --> 00:18:52,543
+<font color="#dadada">Return</font>
+
+353
+00:18:53,823 --> 00:18:55,103
+<font color="#a2a2a2">Minus B</font>
+
+354
+00:18:56,127 --> 00:18:57,151
+<font color="#f0f0f0">Next one</font>
+
+355
+00:18:57,407 --> 00:18:59,199
+<font color="#d6d6d6">Is to multiply</font>
+
+356
+00:19:02,015 --> 00:19:03,295
+<font color="#8f8f8f">Comma</font>
+
+357
+00:19:04,063 --> 00:19:05,087
+<font color="#f7f7f7">And then here</font>
+
+358
+00:19:05,343 --> 00:19:06,623
+<font color="#d9d9d9">I can see a return</font>
+
+359
+00:19:08,159 --> 00:19:09,439
+<font color="#e6e6e6">Times</font>
+
+360
+00:19:10,463 --> 00:19:11,743
+<font color="#e7e7e7">Next is</font>
+
+361
+00:19:11,999 --> 00:19:12,767
+<font color="#c6c6c6">Divide</font>
+
+362
+00:19:15,071 --> 00:19:16,351
+<font color="#999999">Comma</font>
+
+363
+00:19:16,863 --> 00:19:18,399
+<font color="#ededed">Hear it again I will check</font>
+
+364
+00:19:19,679 --> 00:19:21,983
+<font color="#dcdcdc">He is not equal to zero</font>
+
+365
+00:19:24,799 --> 00:19:26,335
+<font color="#dedede">I will say return</font>
+
+366
+00:19:26,847 --> 00:19:28,383
+<font color="#c8c8c8">8 / B</font>
+
+367
+00:19:31,711 --> 00:19:32,735
+<font color="#dfdfdf">I will say</font>
+
+368
+00:19:33,759 --> 00:19:34,527
+<font color="#c7c7c7">Return</font>
+
+369
+00:19:36,063 --> 00:19:36,831
+<font color="#e2e2e2">Division</font>
+
+370
+00:19:38,367 --> 00:19:39,903
+<font color="#cbcbcb">Zero is</font>
+
+371
+00:19:40,415 --> 00:19:41,183
+<font color="#8c8c8c">Allowed</font>
+
+372
+00:19:41,951 --> 00:19:42,975
+<font color="#f5f5f5">So I have</font>
+
+373
+00:19:43,231 --> 00:19:44,767
+<font color="#f7f7f7">Four different functions here</font>
+
+374
+00:19:45,023 --> 00:19:49,887
+<font color="#d5d5d5">Inside my Mac dot operation where it does addition subtraction multiplication</font>
+
+375
+00:19:50,143 --> 00:19:52,703
+<font color="#c9c9c9">And division now I will create a mean script</font>
+
+376
+00:19:53,471 --> 00:19:55,263
+<font color="#cacaca">I'm going to call it</font>
+
+377
+00:19:56,031 --> 00:19:57,823
+<font color="#aeaeae">Exercise 2</font>
+
+378
+00:19:58,079 --> 00:19:58,847
+<font color="#9f9f9f">EBay</font>
+
+379
+00:19:59,615 --> 00:20:00,639
+<font color="#d3d3d3">And inside here</font>
+
+380
+00:20:00,895 --> 00:20:03,199
+<font color="#e9e9e9">I am going to import that math</font>
+
+381
+00:20:03,711 --> 00:20:04,991
+<font color="#7f7f7f">Underscore</font>
+
+382
+00:20:05,759 --> 00:20:06,783
+<font color="#c9c9c9">Operations</font>
+
+383
+00:20:08,575 --> 00:20:09,087
+<font color="#222222">Am</font>
+
+384
+00:20:10,111 --> 00:20:11,135
+<font color="#bcbcbc">I'm going to use the AL</font>
+
+385
+00:20:11,391 --> 00:20:12,159
+<font color="#808080">Navigate</font>
+
+386
+00:20:12,927 --> 00:20:13,695
+<font color="#c2c2c2">Next</font>
+
+387
+00:20:13,951 --> 00:20:15,743
+<font color="#e2e2e2">I'm going to say number one</font>
+
+388
+00:20:16,255 --> 00:20:17,535
+<font color="#e7e7e7">Equal to 10</font>
+
+389
+00:20:18,047 --> 00:20:19,583
+<font color="#b5b5b5">And I'm going to say number two</font>
+
+390
+00:20:19,839 --> 00:20:20,863
+<font color="#efefef">Equal to</font>
+
+391
+00:20:22,911 --> 00:20:24,447
+<font color="#d9d9d9">And then I'll say print</font>
+
+392
+00:20:26,495 --> 00:20:27,263
+<font color="#454545">Addition</font>
+
+393
+00:20:32,383 --> 00:20:34,687
+<font color="#e3e3e3">Add is a function that we have there</font>
+
+394
+00:20:34,943 --> 00:20:36,735
+<font color="#c4c4c4">And I'm going to pass number one</font>
+
+395
+00:20:37,503 --> 00:20:39,039
+<font color="#b4b4b4">Comma number</font>
+
+396
+00:20:40,575 --> 00:20:44,415
+<font color="#e4e4e4">So we can do more</font>
+
+397
+00:20:45,695 --> 00:20:46,463
+<font color="#bdbdbd">Clear this</font>
+
+398
+00:20:46,975 --> 00:20:48,255
+<font color="#8d8d8d">Is it python</font>
+
+399
+00:20:49,023 --> 00:20:50,047
+<font color="#e6e6e6">Exercise</font>
+
+400
+00:20:51,071 --> 00:20:56,191
+<font color="#b5b5b5">Dot pyre Texas edition is 15 so what I did was since it's in the same file</font>
+
+401
+00:20:56,447 --> 00:20:59,519
+<font color="#dfdfdf">It picked up a same folder he picked up this file</font>
+
+402
+00:20:59,775 --> 00:21:04,639
+<font color="#d8d8d8">Call this function to add</font>
+
+403
+00:21:04,895 --> 00:21:05,407
+<font color="#eaeaea">And then</font>
+
+404
+00:21:06,687 --> 00:21:08,991
+<font color="#efefef">So similarly now I can add</font>
+
+405
+00:21:09,247 --> 00:21:11,039
+<font color="#e7e7e7">The other four which is</font>
+
+406
+00:21:12,831 --> 00:21:13,599
+<font color="#535353">Traction</font>
+
+407
+00:21:14,879 --> 00:21:17,184
+<font color="#cacaca">Multiplication</font>
+
+408
+00:21:19,488 --> 00:21:20,256
+<font color="#dedede">Division</font>
+
+409
+00:21:21,024 --> 00:21:22,560
+<font color="#e4e4e4">And here I'm going to say</font>
+
+410
+00:21:23,328 --> 00:21:24,096
+<font color="#cecece">Divide</font>
+
+411
+00:21:25,376 --> 00:21:26,400
+<font color="#dadada">Multiply</font>
+
+412
+00:21:31,008 --> 00:21:31,776
+<font color="#9d9d9d">And</font>
+
+413
+00:21:32,288 --> 00:21:33,568
+<font color="#bfbfbf">So now if I run this</font>
+
+414
+00:21:35,872 --> 00:21:37,920
+<font color="#cecece">10 + 515</font>
+
+415
+00:21:38,432 --> 00:21:39,712
+<font color="#adadad">10 - 55</font>
+
+416
+00:21:39,968 --> 00:21:41,504
+<font color="#d3d3d3">10 * 550</font>
+
+417
+00:21:42,016 --> 00:21:45,600
+<font color="#d1d1d1">10 / 52.0 we have</font>
+
+418
+00:21:45,856 --> 00:21:46,880
+<font color="#e6e6e6">Function here</font>
+
+419
+00:21:47,136 --> 00:21:49,952
+<font color="#cecece">Or we have our main code here</font>
+
+420
+00:21:50,208 --> 00:21:55,072
+<font color="#c9c9c9">Exercise to dot by where we are printing out all the different</font>
+
+421
+00:21:55,328 --> 00:21:56,608
+<font color="#eaeaea">Functions</font>
+
+422
+00:21:56,864 --> 00:21:57,376
+<font color="#bababa">From</font>
+
+423
+00:21:59,680 --> 00:22:04,800
+<font color="#ebebeb">Module that we created which was called math operations here which has all the functions in there</font>
+
+424
+00:22:05,056 --> 00:22:09,920
+<font color="#f3f3f3">Now I can use the same thing in this exercise too I can call it an exercise one</font>
+
+425
+00:22:10,176 --> 00:22:13,760
+<font color="#f4f4f4">I can create another file and have them</font>
+
+426
+00:22:14,016 --> 00:22:16,832
+<font color="#eaeaea">Import this particular module and use it over there</font>
+
+427
+00:22:17,856 --> 00:22:22,208
+<font color="#fafafa">So I hope you were able to follow along if not let me know if you had any problems</font>
+
+428
+00:22:22,464 --> 00:22:23,232
+<font color="#f4f4f4">But next</font>
+
+429
+00:22:23,488 --> 00:22:27,072
+<font color="#eeeeee">For additional practice I would say that you can write try to create</font>
+
+430
+00:22:28,352 --> 00:22:31,424
+<font color="#e6e6e6">Function to check if a number is even or odd</font>
+
+431
+00:22:31,680 --> 00:22:33,216
+<font color="#e5e5e5">And call it with another function</font>
+
+432
+00:22:33,984 --> 00:22:39,104
+<font color="#f8f8f8">And then try to create a module for string operations including functions</font>
+
+433
+00:22:39,360 --> 00:22:42,176
+<font color="#c5c5c5">To reverse the string count the vowels in</font>
+
+434
+00:22:42,432 --> 00:22:43,968
+<font color="#c4c4c4">And check for palindromes</font>
+
+435
+00:22:44,480 --> 00:22:50,624
+<font color="#e5e5e5">Imported into a script and test the functions so you create a module and then import it in another script</font>
+
+436
+00:22:50,880 --> 00:22:52,672
+<font color="#dbdbdb">And test if it works for you</font>
+
+437
+00:22:53,184 --> 00:22:58,048
+<font color="#e6e6e6">So today in day 3 you had some Hands-On experiencing defining functions</font>
+
+438
+00:22:58,304 --> 00:23:00,352
+<font color="#ededed">Understanding variable scopes</font>
+
+439
+00:23:00,608 --> 00:23:01,888
+<font color="#e2e2e2">And working with modules</font>
+
+440
+00:23:02,144 --> 00:23:04,192
+<font color="#cdcdcd">By practicing with built-in</font>
+
+441
+00:23:04,448 --> 00:23:08,800
+<font color="#efefef">And custom modules are you developed reusable modular code</font>
+
+442
+00:23:09,056 --> 00:23:15,200
+<font color="#e0e0e0">The critical skill in Ai and software development so this will be very much helpful in our future future</font>
+
+443
+00:23:15,456 --> 00:23:21,344
+<font color="#f4f4f4">Reduce so I hope you follow this along nicely and if you had any problems or questions let me know and I'll get back to you</font>

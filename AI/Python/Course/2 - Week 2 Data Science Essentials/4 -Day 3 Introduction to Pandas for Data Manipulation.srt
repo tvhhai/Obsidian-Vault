@@ -1,0 +1,1543 @@
+﻿1
+00:00:00,256 --> 00:00:01,024
+<font color="#565656">Deity</font>
+
+2
+00:00:01,280 --> 00:00:06,912
+<font color="#c9c9c9">Introduction to pandas for data manipulation we already completed number and some Advanced number</font>
+
+3
+00:00:07,168 --> 00:00:08,192
+<font color="#f9f9f9">Now let's look at</font>
+
+4
+00:00:08,448 --> 00:00:09,728
+<font color="#eeeeee">The second favorite</font>
+
+5
+00:00:09,984 --> 00:00:12,032
+<font color="#cfcfcf">Library which is pandas</font>
+
+6
+00:00:12,544 --> 00:00:15,360
+<font color="#d4d4d4">First we're going to look at introduction to pandas data structure</font>
+
+7
+00:00:15,616 --> 00:00:18,432
+<font color="#c9c9c9">Where we going to talk about what is pandas</font>
+
+8
+00:00:18,944 --> 00:00:21,760
+<font color="#ececec">Pandas is a powerful python Library</font>
+
+9
+00:00:22,016 --> 00:00:24,320
+<font color="#f0f0f0">For data manipulation and Analysis</font>
+
+10
+00:00:24,576 --> 00:00:27,136
+<font color="#e5e5e5">It provides a easy to use data structure</font>
+
+11
+00:00:27,648 --> 00:00:29,440
+<font color="#cacaca">Which is series and data friends</font>
+
+12
+00:00:29,952 --> 00:00:32,256
+<font color="#e1e1e1">Let's look at those pandas data structures</font>
+
+13
+00:00:32,768 --> 00:00:33,792
+<font color="#d2d2d2">First series</font>
+
+14
+00:00:34,304 --> 00:00:36,096
+<font color="#c3c3c3">Series is a one-dimensional</font>
+
+15
+00:00:36,352 --> 00:00:37,376
+<font color="#c9c9c9">Labeled</font>
+
+16
+00:00:37,632 --> 00:00:39,680
+<font color="#f5f5f5">Capable of holding data of any</font>
+
+17
+00:00:39,936 --> 00:00:41,472
+<font color="#c1c1c1">And we have data frame</font>
+
+18
+00:00:41,728 --> 00:00:45,056
+<font color="#d5d5d5">Data frame is a two-dimensional labeled data structure</font>
+
+19
+00:00:45,312 --> 00:00:46,336
+<font color="#ededed">Like a table</font>
+
+20
+00:00:46,592 --> 00:00:48,640
+<font color="#ececec">Let's look at the Syntax for both of these</font>
+
+21
+00:00:48,896 --> 00:00:49,920
+<font color="#c1c1c1">I'm going to go ahead</font>
+
+22
+00:00:50,176 --> 00:00:52,224
+<font color="#e0e0e0">And create a new file python file</font>
+
+23
+00:00:52,736 --> 00:00:55,296
+<font color="#e1e1e1">Save it on my day 3 I'll call it</font>
+
+24
+00:00:55,808 --> 00:00:58,368
+<font color="#ababab">Did three underscore samples</font>
+
+25
+00:00:59,904 --> 00:01:00,928
+<font color="#cbcbcb">Let's start with</font>
+
+26
+00:01:01,440 --> 00:01:05,280
+<font color="#cbcbcb">Importing pandas to import you say import pandas as</font>
+
+27
+00:01:05,792 --> 00:01:07,840
+<font color="#bdbdbd">Edie is what it is with use</font>
+
+28
+00:01:08,608 --> 00:01:09,632
+<font color="#d5d5d5">Is equal to</font>
+
+29
+00:01:10,400 --> 00:01:11,680
+<font color="#545454">BD</font>
+
+30
+00:01:13,984 --> 00:01:15,008
+<font color="#b5b5b5">And to this</font>
+
+31
+00:01:15,264 --> 00:01:16,032
+<font color="#a1a1a1">I'll pass</font>
+
+32
+00:01:17,312 --> 00:01:18,336
+<font color="#8e8e8e">Convert 20</font>
+
+33
+00:01:19,104 --> 00:01:21,920
+<font color="#bcbcbc">Comma 30 list of three items which is 102030</font>
+
+34
+00:01:22,432 --> 00:01:23,712
+<font color="#e1e1e1">And I'm going to say index</font>
+
+35
+00:01:24,224 --> 00:01:25,248
+<font color="#eeeeee">Equal to</font>
+
+36
+00:01:32,672 --> 00:01:35,488
+<font color="#f0f0f0">So now if I print this series</font>
+
+37
+00:01:37,280 --> 00:01:43,424
+<font color="#f2f2f2">How does it look like so this will create kind of like a dictionary where each one of these is indexed at</font>
+
+38
+00:01:43,680 --> 00:01:45,216
+<font color="#c0c0c0">What kind of converts</font>
+
+39
+00:01:45,728 --> 00:01:47,520
+<font color="#f9f9f9">You can think of it as</font>
+
+40
+00:01:47,776 --> 00:01:48,544
+<font color="#c6c6c6">List</font>
+
+41
+00:01:49,056 --> 00:01:50,336
+<font color="#989898">Into a diction</font>
+
+42
+00:01:51,616 --> 00:01:56,992
+<font color="#dedede">So let's go ahead and run this I'm going to go ahead here I mean week 23 perfect</font>
+
+43
+00:01:57,248 --> 00:01:58,528
+<font color="#8a8a8a">Say python</font>
+
+44
+00:01:59,040 --> 00:01:59,808
+<font color="#d3d3d3">Day</font>
+
+45
+00:02:00,064 --> 00:02:00,832
+<font color="#a4a4a4">Diego</font>
+
+46
+00:02:03,392 --> 00:02:05,440
+<font color="#848484">Is 10 East 20 C is</font>
+
+47
+00:02:06,464 --> 00:02:12,608
+<font color="#cacaca">So that's how the series work at one dimensional labeled array capable of holding data</font>
+
+48
+00:02:14,912 --> 00:02:19,776
+<font color="#dedede">The data in this particular type you can see is integer 64 it also specifies that</font>
+
+49
+00:02:21,056 --> 00:02:24,128
+<font color="#bcbcbc">As I mentioned date of frame is a two-dimensional label data structure</font>
+
+50
+00:02:24,384 --> 00:02:25,408
+<font color="#ececec">Like a table</font>
+
+51
+00:02:25,664 --> 00:02:28,736
+<font color="#ebebeb">So for that I am going to see data equal to</font>
+
+52
+00:02:29,248 --> 00:02:31,808
+<font color="#bebebe">Create a dictionary of name</font>
+
+53
+00:02:33,344 --> 00:02:34,368
+<font color="#e9e9e9">Is</font>
+
+54
+00:02:35,392 --> 00:02:38,464
+<font color="#d8d8d8">Create a list inside the names actually Alice</font>
+
+55
+00:02:38,976 --> 00:02:40,512
+<font color="#d4d4d4">And Bob</font>
+
+56
+00:02:41,792 --> 00:02:43,328
+<font color="#c8c8c8">And I'll create</font>
+
+57
+00:02:44,352 --> 00:02:45,120
+<font color="#d9d9d9">Another key</font>
+
+58
+00:02:46,656 --> 00:02:47,936
+<font color="#b5b5b5">And this age</font>
+
+59
+00:02:49,472 --> 00:02:50,752
+<font color="#ededed">A list of numbers</font>
+
+60
+00:02:51,008 --> 00:02:53,312
+<font color="#e3e3e3">Which is the richest 25 and 30</font>
+
+61
+00:02:54,336 --> 00:02:56,128
+<font color="#d2d2d2">Now I can say DF</font>
+
+62
+00:02:56,640 --> 00:02:57,408
+<font color="#e5e5e5">Equal to</font>
+
+63
+00:02:59,968 --> 00:03:01,504
+<font color="#d5d5d5">Data frame</font>
+
+64
+00:03:02,272 --> 00:03:04,320
+<font color="#888888">This is how you create a data Frame data</font>
+
+65
+00:03:05,344 --> 00:03:06,112
+<font color="#dadada">And</font>
+
+66
+00:03:07,392 --> 00:03:09,440
+<font color="#bebebe">DSLR comment this out</font>
+
+67
+00:03:09,696 --> 00:03:10,976
+<font color="#cacaca">Cuz you already saw how</font>
+
+68
+00:03:11,488 --> 00:03:13,280
+<font color="#cacaca">How's the series looks like but</font>
+
+69
+00:03:14,048 --> 00:03:14,816
+<font color="#f7f7f7">How does</font>
+
+70
+00:03:15,328 --> 00:03:17,888
+<font color="#cfcfcf">Adidas frame look like so I'm going to clear this out</font>
+
+71
+00:03:18,400 --> 00:03:18,912
+<font color="#7a7a7a">Run</font>
+
+72
+00:03:19,424 --> 00:03:22,240
+<font color="#9c9c9c">0 and 1/0</font>
+
+73
+00:03:22,752 --> 00:03:28,896
+<font color="#d2d2d2">We have named Alice and Bob age is 25 and 30 so it's kind of creates a two-dimensional lab</font>
+
+74
+00:03:29,152 --> 00:03:29,664
+<font color="#828282">Play data struct</font>
+
+75
+00:03:29,920 --> 00:03:31,456
+<font color="#f3f3f3">Which looks like a table</font>
+
+76
+00:03:32,736 --> 00:03:33,504
+<font color="#c6c6c6">Next</font>
+
+77
+00:03:33,760 --> 00:03:39,904
+<font color="#e9e9e9">Let's look at loading data from CSV Excel and other sources the kind of pandas is</font>
+
+78
+00:03:40,160 --> 00:03:41,440
+<font color="#c7c7c7">News for that quite a lot</font>
+
+79
+00:03:41,696 --> 00:03:44,512
+<font color="#e0e0e0">And it automatically converts them into Data frames</font>
+
+80
+00:03:44,768 --> 00:03:47,328
+<font color="#ececec">So first Common data loading methods is</font>
+
+81
+00:03:47,584 --> 00:03:50,656
+<font color="#e8e8e8">First we can look at how to do this from a CSV file</font>
+
+82
+00:03:50,912 --> 00:03:52,704
+<font color="#c8c8c8">We can see from an Excel file</font>
+
+83
+00:03:52,960 --> 00:03:55,520
+<font color="#f8f8f8">And you can also do that from a dictionary</font>
+
+84
+00:03:55,776 --> 00:03:58,848
+<font color="#e5e5e5">You already saw a dictionary which is right here</font>
+
+85
+00:03:59,104 --> 00:04:04,480
+<font color="#f1f1f1">But we have a dictionary think of it you have a bigger dictionary with all the different things and you can pick</font>
+
+86
+00:04:04,736 --> 00:04:06,016
+<font color="#b6b6b6">Adidas from there</font>
+
+87
+00:04:07,040 --> 00:04:08,064
+<font color="#f4f4f4">If I wanted to</font>
+
+88
+00:04:08,576 --> 00:04:12,160
+<font color="#d5d5d5">Big Data from Excel I would probably say let me comment this out</font>
+
+89
+00:04:12,928 --> 00:04:14,720
+<font color="#dfdfdf">The way to pick from a CSV</font>
+
+90
+00:04:14,976 --> 00:04:16,768
+<font color="#e7e7e7">Is data frame equal to</font>
+
+91
+00:04:20,095 --> 00:04:22,399
+<font color="#e4e4e4">CSV that's the function that we call</font>
+
+92
+00:04:22,655 --> 00:04:24,447
+<font color="#f4f4f4">And you give the part of the file</font>
+
+93
+00:04:24,703 --> 00:04:28,799
+<font color="#cbcbcb">Well that CSV file is so I'm going to say CSV something like this</font>
+
+94
+00:04:29,311 --> 00:04:32,639
+<font color="#f8f8f8">Next if you want to do similar with Excel</font>
+
+95
+00:04:32,895 --> 00:04:34,431
+<font color="#626262">Google read</font>
+
+96
+00:04:35,199 --> 00:04:35,967
+<font color="#bcbcbc">Excel</font>
+
+97
+00:04:36,479 --> 00:04:37,247
+<font color="#e6e6e6">And then</font>
+
+98
+00:04:38,527 --> 00:04:41,855
+<font color="#d0d0d0">You give your XLS or xlsx file</font>
+
+99
+00:04:42,111 --> 00:04:45,439
+<font color="#c6c6c6">What are the days you give that part here so these are three different ways</font>
+
+100
+00:04:45,695 --> 00:04:46,975
+<font color="#fcfcfc">You can</font>
+
+101
+00:04:47,231 --> 00:04:49,791
+<font color="#e4e4e4">Load data from a CSV file directly</font>
+
+102
+00:04:50,303 --> 00:04:51,583
+<font color="#c2c2c2">All from an Excel file</font>
+
+103
+00:04:53,119 --> 00:04:58,751
+<font color="#bfbfbf">From a dictionary that is available we look at them in our hands on but for now this probably is very helpful</font>
+
+104
+00:04:59,007 --> 00:05:05,151
+<font color="#e9e9e9">And it's used quite a lot because there are a lot of different websites these days like hugging face that</font>
+
+105
+00:05:05,407 --> 00:05:06,943
+<font color="#bdbdbd">Flight to data sets that are available</font>
+
+106
+00:05:07,199 --> 00:05:09,503
+<font color="#ececec">And you can use those data sets</font>
+
+107
+00:05:09,759 --> 00:05:13,855
+<font color="#c3c3c3">Do I get the CSV file and import them inside here Direct</font>
+
+108
+00:05:14,623 --> 00:05:15,135
+<font color="#e3e3e3">Next</font>
+
+109
+00:05:15,391 --> 00:05:16,159
+<font color="#f6f6f6">We have</font>
+
+110
+00:05:16,415 --> 00:05:17,183
+<font color="#898989">Saving dat</font>
+
+111
+00:05:17,695 --> 00:05:23,071
+<font color="#e5e5e5">Now we can save to CSV and save to Excel how just how we loaded</font>
+
+112
+00:05:23,327 --> 00:05:26,911
+<font color="#f5f5f5">The data there are similar functions so for example if I</font>
+
+113
+00:05:27,423 --> 00:05:30,751
+<font color="#e6e6e6">Loaded this I read this files now if I want to save it</font>
+
+114
+00:05:31,007 --> 00:05:31,519
+<font color="#e8e8e8">You</font>
+
+115
+00:05:32,543 --> 00:05:35,103
+<font color="#f9f9f9">You will say let's remove this</font>
+
+116
+00:05:36,639 --> 00:05:41,503
+<font color="#d0d0d0">Since is the date of frame that I'm saving not so I said DF data frame</font>
+
+117
+00:05:42,271 --> 00:05:44,831
+<font color="#c4c4c4">And then I'll say two underscore</font>
+
+118
+00:05:45,343 --> 00:05:45,855
+<font color="#242424">CS</font>
+
+119
+00:05:46,623 --> 00:05:47,903
+<font color="#fbfbfb">So this is how you can</font>
+
+120
+00:05:48,159 --> 00:05:49,183
+<font color="#e7e7e7">Save the file</font>
+
+121
+00:05:49,695 --> 00:05:51,999
+<font color="#adadad">Adidas or CSV save the data</font>
+
+122
+00:05:52,255 --> 00:05:53,791
+<font color="#cdcdcd">Frame into a CSV file</font>
+
+123
+00:05:54,815 --> 00:05:55,583
+<font color="#a2a2a2">Similarly</font>
+
+124
+00:05:55,839 --> 00:05:58,143
+<font color="#cfcfcf">I can just say DF Dot</font>
+
+125
+00:05:59,423 --> 00:06:00,447
+<font color="#7e7e7e">Underscore</font>
+
+126
+00:06:01,471 --> 00:06:01,983
+<font color="#1a1a1a">EXC</font>
+
+127
+00:06:03,519 --> 00:06:06,847
+<font color="#f3f3f3">To save the data frame into an Excel file that you have</font>
+
+128
+00:06:07,103 --> 00:06:12,991
+<font color="#e6e6e6">Also if you don't want the indexing because it also has index of 0123 in the data frame</font>
+
+129
+00:06:13,247 --> 00:06:17,087
+<font color="#f6f6f6">You can set index equal to false and it will not add that</font>
+
+130
+00:06:17,343 --> 00:06:18,111
+<font color="#9f9f9f">Additional</font>
+
+131
+00:06:18,879 --> 00:06:23,487
+<font color="#bdbdbd">Call me if you've seen this column is 0 and 1 if you don't want that you just say index</font>
+
+132
+00:06:23,999 --> 00:06:25,279
+<font color="#efefef">Equal to false</font>
+
+133
+00:06:26,047 --> 00:06:27,839
+<font color="#ededed">Hey this is how you can save it now</font>
+
+134
+00:06:28,351 --> 00:06:29,119
+<font color="#e9e9e9">When you</font>
+
+135
+00:06:30,143 --> 00:06:33,215
+<font color="#e0e0e0">Imported download the data from a particular</font>
+
+136
+00:06:33,471 --> 00:06:39,615
+<font color="#f5f5f5">CSV file you can you can load it the similar way and it will automatically index it for you</font>
+
+137
+00:06:40,895 --> 00:06:41,407
+<font color="#d2d2d2">So next</font>
+
+138
+00:06:41,919 --> 00:06:44,991
+<font color="#d2d2d2">Basic data frame operations let's look at some of them</font>
+
+139
+00:06:45,247 --> 00:06:46,015
+<font color="#c8c8c8">We</font>
+
+140
+00:06:46,271 --> 00:06:49,087
+<font color="#d9d9d9">First viewing data so if you want to view the data</font>
+
+141
+00:06:49,599 --> 00:06:50,879
+<font color="#dbdbdb">I am going to go in</font>
+
+142
+00:06:51,647 --> 00:06:52,415
+<font color="#656565">Common Dez</font>
+
+143
+00:06:53,439 --> 00:06:54,975
+<font color="#d5d5d5">So I'm going to stay here</font>
+
+144
+00:06:56,767 --> 00:06:58,047
+<font color="#e6e6e6">Data to do that</font>
+
+145
+00:06:58,303 --> 00:07:00,351
+<font color="#e7e7e7">Let's say you have a data frame</font>
+
+146
+00:07:01,631 --> 00:07:03,935
+<font color="#eeeeee">And if you want to see the first five rows</font>
+
+147
+00:07:04,191 --> 00:07:06,495
+<font color="#acacac">You call a function called a DF dot head</font>
+
+148
+00:07:08,031 --> 00:07:08,799
+<font color="#949494">It's a</font>
+
+149
+00:07:09,311 --> 00:07:11,615
+<font color="#b3b3b3">Give dot head this will print</font>
+
+150
+00:07:11,871 --> 00:07:14,687
+<font color="#dfdfdf">The first five rows of a particular data set</font>
+
+151
+00:07:15,199 --> 00:07:18,015
+<font color="#f0f0f0">If you want to see the last three rows or more</font>
+
+152
+00:07:18,783 --> 00:07:20,575
+<font color="#c8c8c8">You can always say DF Dot</font>
+
+153
+00:07:21,087 --> 00:07:24,927
+<font color="#cfcfcf">Tail which will show you last few days but if you specify how many you want</font>
+
+154
+00:07:25,183 --> 00:07:27,487
+<font color="#dddddd">You can see the last three rows of a data set</font>
+
+155
+00:07:27,999 --> 00:07:31,071
+<font color="#e6e6e6">You can also get information summary of a data frame</font>
+
+156
+00:07:31,327 --> 00:07:33,375
+<font color="#757575">By saying print DF</font>
+
+157
+00:07:34,911 --> 00:07:41,055
+<font color="#dbdbdb">Info it will give you a complete information about the head the column that uses some statistics that is</font>
+
+158
+00:07:41,311 --> 00:07:44,383
+<font color="#e6e6e6">It will give you that but if you want to get details statistics</font>
+
+159
+00:07:44,639 --> 00:07:46,431
+<font color="#acacac">You can use DF Dot</font>
+
+160
+00:07:46,943 --> 00:07:53,087
+<font color="#f2f2f2">Describe function that will give you statistical summary this will give you summary of the data</font>
+
+161
+00:07:53,343 --> 00:07:59,487
+<font color="#d8d8d8">This will give you statistical summary of the date when will try these out when we work with some Hands-On</font>
+
+162
+00:07:59,743 --> 00:08:00,767
+<font color="#b8b8b8">Later on today</font>
+
+163
+00:08:02,559 --> 00:08:04,351
+<font color="#f5f5f5">We have selecting an indexing</font>
+
+164
+00:08:04,607 --> 00:08:07,167
+<font color="#fbfbfb">Now if you want to select a particular column</font>
+
+165
+00:08:07,423 --> 00:08:09,727
+<font color="#f9f9f9">You can directly use</font>
+
+166
+00:08:12,287 --> 00:08:13,311
+<font color="#989898">Data frame</font>
+
+167
+00:08:13,567 --> 00:08:16,639
+<font color="#e8e8e8">And then give for example we had a name</font>
+
+168
+00:08:21,247 --> 00:08:25,343
+<font color="#e8e8e8">Similar if you want to select multiple columns you can say DF</font>
+
+169
+00:08:32,511 --> 00:08:35,583
+<font color="#e4e4e4">Red double square brackets in here so this will give you</font>
+
+170
+00:08:35,839 --> 00:08:38,911
+<font color="#f7f7f7">Multiple columns which is name and age in this particular case</font>
+
+171
+00:08:39,423 --> 00:08:43,263
+<font color="#e2e2e2">We can also look at it so that's for selecting columns now if you want to filter</font>
+
+172
+00:08:43,519 --> 00:08:44,287
+<font color="#848484">Few rows</font>
+
+173
+00:08:45,311 --> 00:08:47,103
+<font color="#dcdcdc">We can do that</font>
+
+174
+00:08:47,871 --> 00:08:49,151
+<font color="#7c7c7c">By saying print</font>
+
+175
+00:08:52,479 --> 00:08:56,831
+<font color="#d7d7d7">Alarm inside my data frame I want to filter rules for age is greater than 25</font>
+
+176
+00:08:57,087 --> 00:08:59,135
+<font color="#dedede">So I can do that by saying d</font>
+
+177
+00:09:04,511 --> 00:09:06,047
+<font color="#fafafa">Is greater than</font>
+
+178
+00:09:06,815 --> 00:09:07,327
+<font color="#777777">25</font>
+
+179
+00:09:08,351 --> 00:09:09,119
+<font color="#f3f3f3">So this</font>
+
+180
+00:09:09,375 --> 00:09:13,983
+<font color="#cacaca">Delta Rose where AJ's greater than 25 so you can get a particular data set</font>
+
+181
+00:09:14,239 --> 00:09:15,775
+<font color="#999999">From a bigger dat</font>
+
+182
+00:09:17,055 --> 00:09:20,127
+<font color="#f3f3f3">Know if you want to next thing that will look at is</font>
+
+183
+00:09:20,383 --> 00:09:22,943
+<font color="#e0e0e0">Selecting by a particular position you can</font>
+
+184
+00:09:23,455 --> 00:09:27,807
+<font color="#d6d6d6">But you can get let's say for first Real by position if you want to get a data</font>
+
+185
+00:09:28,831 --> 00:09:31,647
+<font color="#d1d1d1">From the first drawer I can just say print</font>
+
+186
+00:09:32,159 --> 00:09:33,183
+<font color="#393939">DF</font>
+
+187
+00:09:33,439 --> 00:09:34,207
+<font color="#cacaca">I</font>
+
+188
+00:09:35,487 --> 00:09:36,255
+<font color="#828282">Call Zito</font>
+
+189
+00:09:36,767 --> 00:09:39,071
+<font color="#dfdfdf">So this will give me the first row by position</font>
+
+190
+00:09:39,327 --> 00:09:42,399
+<font color="#ebebeb">If I want to get the First Column by position I</font>
+
+191
+00:09:42,911 --> 00:09:44,191
+<font color="#646464">DSi lock</font>
+
+192
+00:09:46,239 --> 00:09:47,007
+<font color="#7c7c7c">Call my Z</font>
+
+193
+00:09:47,519 --> 00:09:48,543
+<font color="#f5f5f5">This will give me</font>
+
+194
+00:09:48,799 --> 00:09:54,687
+<font color="#ececec">The First Column by position so the first item that is available First Column that is available by position</font>
+
+195
+00:09:55,199 --> 00:09:55,967
+<font color="#ededed">That's what this</font>
+
+196
+00:09:56,991 --> 00:09:57,503
+<font color="#dedede">Next</font>
+
+197
+00:09:58,015 --> 00:10:00,063
+<font color="#c6c6c6">Let's look at selecting by label</font>
+
+198
+00:10:00,575 --> 00:10:02,111
+<font color="#fdfdfd">So I can do that</font>
+
+199
+00:10:02,367 --> 00:10:03,391
+<font color="#afafaf">Bye let me</font>
+
+200
+00:10:04,159 --> 00:10:06,719
+<font color="#626262">Sprint DF dot history of</font>
+
+201
+00:10:06,975 --> 00:10:10,559
+<font color="#dfdfdf">It's locked this will give you the first row by index label</font>
+
+202
+00:10:11,583 --> 00:10:15,423
+<font color="#f6f6f6">And now if you want to get my name column I can use the same thing</font>
+
+203
+00:10:16,191 --> 00:10:19,007
+<font color="#e4e4e4">As before you probably guessed it you just</font>
+
+204
+00:10:21,311 --> 00:10:24,383
+<font color="#d8d8d8">So this will give you the name column data it</font>
+
+205
+00:10:24,639 --> 00:10:25,663
+<font color="#dadada">In this particular case</font>
+
+206
+00:10:26,943 --> 00:10:33,087
+<font color="#f1f1f1">So that kind of summarizes a lot of different basic data frame operations now we want to see them in action so let's go</font>
+
+207
+00:10:33,343 --> 00:10:34,879
+<font color="#bdbdbd">Let's go into hands on exercises</font>
+
+208
+00:10:35,647 --> 00:10:36,927
+<font color="#717171">My first exercise</font>
+
+209
+00:10:37,183 --> 00:10:39,743
+<font color="#dfdfdf">Is to load and explore a sample data</font>
+
+210
+00:10:40,511 --> 00:10:45,119
+<font color="#dbdbdb">So the objective here is to load a sample data set and explore the structure</font>
+
+211
+00:10:45,631 --> 00:10:47,167
+<font color="#f5f5f5">So we are going to get</font>
+
+212
+00:10:47,423 --> 00:10:50,239
+<font color="#b0b0b0">A data set from get up data structures</font>
+
+213
+00:10:50,495 --> 00:10:53,311
+<font color="#d9d9d9">You're going to get the iris data set from there</font>
+
+214
+00:10:53,567 --> 00:10:55,359
+<font color="#e7e7e7">And we are going</font>
+
+215
+00:10:55,615 --> 00:10:59,967
+<font color="#d3d3d3">Use Pandora to load that CSV data set and print the first</font>
+
+216
+00:11:00,479 --> 00:11:01,503
+<font color="#c4c4c4">And the last</font>
+
+217
+00:11:01,759 --> 00:11:02,527
+<font color="#676767">Funeral</font>
+
+218
+00:11:02,783 --> 00:11:05,087
+<font color="#d3d3d3">Somebody information and statistics</font>
+
+219
+00:11:05,855 --> 00:11:07,903
+<font color="#f7f7f7">So now to get that particular</font>
+
+220
+00:11:08,159 --> 00:11:09,439
+<font color="#c8c8c8">Data</font>
+
+221
+00:11:09,695 --> 00:11:12,255
+<font color="#e5e5e5">The URL for that is let's go here</font>
+
+222
+00:11:13,279 --> 00:11:15,071
+<font color="#ebebeb">And create a new file</font>
+
+223
+00:11:15,583 --> 00:11:16,607
+<font color="#eaeaea">I'm going to call it</font>
+
+224
+00:11:19,167 --> 00:11:21,215
+<font color="#404040">Exercise 1.5</font>
+
+225
+00:11:22,239 --> 00:11:24,031
+<font color="#d0d0d0">The URL for that is this one</font>
+
+226
+00:11:24,543 --> 00:11:26,335
+<font color="#f3f3f3">I am going to open a chrome</font>
+
+227
+00:11:26,591 --> 00:11:27,359
+<font color="#404040">Wasted</font>
+
+228
+00:11:27,871 --> 00:11:28,639
+<font color="#e8e8e8">And you see</font>
+
+229
+00:11:28,895 --> 00:11:31,967
+<font color="#ededed">This is the data set that we have about Iris which has the</font>
+
+230
+00:11:32,223 --> 00:11:36,063
+<font color="#a1a1a1">How about Irish flowers simple and simple words simple</font>
+
+231
+00:11:36,575 --> 00:11:41,183
+<font color="#e8e8e8">Petal length petal width and species of flower that it is</font>
+
+232
+00:11:41,695 --> 00:11:42,975
+<font color="#c3c3c3">Which is Sentosa</font>
+
+233
+00:11:43,231 --> 00:11:44,767
+<font color="#858585">Or versicolor</font>
+
+234
+00:11:45,023 --> 00:11:46,047
+<font color="#757575">Are virgin</font>
+
+235
+00:11:46,303 --> 00:11:48,351
+<font color="#e0e0e0">So this is a simple basic data set</font>
+
+236
+00:11:48,607 --> 00:11:49,631
+<font color="#fafafa">That is available</font>
+
+237
+00:11:49,887 --> 00:11:51,423
+<font color="#f9f9f9">So I am going to use that</font>
+
+238
+00:11:54,239 --> 00:11:55,263
+<font color="#eeeeee">As I mentioned</font>
+
+239
+00:11:55,519 --> 00:11:56,287
+<font color="#fdfdfd">The first</font>
+
+240
+00:11:57,311 --> 00:11:58,847
+<font color="#efefef">To import</font>
+
+241
+00:11:59,103 --> 00:12:02,431
+<font color="#d1d1d1">Pandas PD so this is the English that we're going</font>
+
+242
+00:12:02,943 --> 00:12:04,735
+<font color="#fafafa">Next I want to</font>
+
+243
+00:12:04,991 --> 00:12:07,295
+<font color="#eaeaea">Load the data set so for that</font>
+
+244
+00:12:07,807 --> 00:12:10,367
+<font color="#c9c9c9">I am going to press the Lord data set</font>
+
+245
+00:12:11,647 --> 00:12:14,719
+<font color="#d2d2d2">And inside here once the data frame equal to</font>
+
+246
+00:12:17,023 --> 00:12:19,071
+<font color="#c9c9c9">Read underscore CSV</font>
+
+247
+00:12:19,583 --> 00:12:22,399
+<font color="#cfcfcf">Now this part doesn't have to be local but</font>
+
+248
+00:12:22,655 --> 00:12:24,959
+<font color="#f9f9f9">I can give this URL that we have</font>
+
+249
+00:12:28,287 --> 00:12:31,103
+<font color="#d7d7d7">And it will read that CSV inside this data frame</font>
+
+250
+00:12:31,615 --> 00:12:32,127
+<font color="#d9d9d9">Next</font>
+
+251
+00:12:32,383 --> 00:12:33,407
+<font color="#f8f8f8">I am going to say</font>
+
+252
+00:12:33,919 --> 00:12:35,967
+<font color="#f4f4f4">Explore the structure</font>
+
+253
+00:12:37,503 --> 00:12:40,063
+<font color="#dddddd">Have you find all these things but never saw</font>
+
+254
+00:12:40,319 --> 00:12:41,599
+<font color="#bcbcbc">Any of these in action</font>
+
+255
+00:12:41,855 --> 00:12:43,647
+<font color="#f3f3f3">So I am going to say print</font>
+
+256
+00:12:45,183 --> 00:12:46,975
+<font color="#bebebe">Five rules do you remember</font>
+
+257
+00:12:47,743 --> 00:12:49,535
+<font color="#e2e2e2">How do we get the first five rows</font>
+
+258
+00:12:51,839 --> 00:12:52,351
+<font color="#f0f0f0">If not</font>
+
+259
+00:12:52,607 --> 00:12:54,143
+<font color="#bfbfbf">That's DF data frame</font>
+
+260
+00:12:54,655 --> 00:12:55,679
+<font color="#8c8c8c">Dot head</font>
+
+261
+00:12:56,191 --> 00:12:59,775
+<font color="#d9d9d9">Will give you the first five rows so we already saw the data</font>
+
+262
+00:13:00,287 --> 00:13:02,079
+<font color="#dbdbdb">Let's look at the data again</font>
+
+263
+00:13:02,335 --> 00:13:06,175
+<font color="#ededed">I am going to say let's make sure we're in the right folder yes we are</font>
+
+264
+00:13:06,431 --> 00:13:07,455
+<font color="#b1b1b1">Python</font>
+
+265
+00:13:07,711 --> 00:13:11,551
+<font color="#848484">Did three door underscore X underscore 1 Dot py</font>
+
+266
+00:13:12,063 --> 00:13:17,695
+<font color="#d9d9d9">It's going to download the data set and it will show me the first 501234</font>
+
+267
+00:13:17,951 --> 00:13:21,535
+<font color="#c1c1c1">Rose from the data set because I called DF Dot</font>
+
+268
+00:13:22,303 --> 00:13:23,839
+<font color="#f6f6f6">Next I want to do is</font>
+
+269
+00:13:25,119 --> 00:13:27,423
+<font color="#e3e3e3">Last five rows now if you remember</font>
+
+270
+00:13:27,935 --> 00:13:28,959
+<font color="#848484">That is still</font>
+
+271
+00:13:32,287 --> 00:13:33,823
+<font color="#d3d3d3">And we have the first five rows</font>
+
+272
+00:13:34,335 --> 00:13:36,639
+<font color="#d0d0d0">Find the last five rows right</font>
+
+273
+00:13:37,407 --> 00:13:40,735
+<font color="#ebebeb">I am going to comment desert because it's going to just keep on growing</font>
+
+274
+00:13:41,247 --> 00:13:44,063
+<font color="#fbfbfb">Next thing I want to do is I want to get the information about</font>
+
+275
+00:13:44,319 --> 00:13:45,087
+<font color="#8f8f8f">What's the date</font>
+
+276
+00:13:45,599 --> 00:13:49,439
+<font color="#dfdfdf">Said that we have and we mentioned we just we can just say DF</font>
+
+277
+00:13:50,975 --> 00:13:51,999
+<font color="#d9d9d9">To print it out</font>
+
+278
+00:13:53,535 --> 00:13:54,303
+<font color="#d4d4d4">Get it</font>
+
+279
+00:13:56,095 --> 00:13:59,423
+<font color="#e7e7e7">And here you go we have the information about it it says there are</font>
+
+280
+00:13:59,679 --> 00:14:03,519
+<font color="#828282">5 columns supplement separated</font>
+
+281
+00:14:03,775 --> 00:14:09,919
+<font color="#d9d9d9">Memory usage is this much and it tells you what are these the 150 non null</font>
+
+282
+00:14:10,175 --> 00:14:12,991
+<font color="#d4d4d4">Count items data type that it saves</font>
+
+283
+00:14:13,247 --> 00:14:19,391
+<font color="#cecece">Fluid 62 where is the last one is an object because it's just texting so it kind of gives you an expression</font>
+
+284
+00:14:19,647 --> 00:14:20,671
+<font color="#c3c3c3">Explanation about that</font>
+
+285
+00:14:21,183 --> 00:14:23,231
+<font color="#f7f7f7">Next thing I want to do describe</font>
+
+286
+00:14:23,999 --> 00:14:27,071
+<font color="#e4e4e4">Which gives me all the statistical information about that data</font>
+
+287
+00:14:27,583 --> 00:14:28,863
+<font color="#f5f5f5">So I am going to say</font>
+
+288
+00:14:30,399 --> 00:14:30,911
+<font color="#cacaca">And it says</font>
+
+289
+00:14:31,935 --> 00:14:35,007
+<font color="#cdcdcd">Shuffle land is 150 which we know all of them are 150</font>
+
+290
+00:14:35,263 --> 00:14:37,823
+<font color="#f9f9f9">Mean for each one of them what is that</font>
+
+291
+00:14:38,335 --> 00:14:43,455
+<font color="#ebebeb">Standard deviation minimum 75% of 25% of 50% of the data</font>
+
+292
+00:14:43,711 --> 00:14:47,551
+<font color="#e4e4e4">75% of Max of those that gives you all this information</font>
+
+293
+00:14:48,063 --> 00:14:53,951
+<font color="#d5d5d5">From there by just calling the description you don't have to specifically go and find me and Max</font>
+
+294
+00:14:54,207 --> 00:14:58,559
+<font color="#e9e9e9">Standard deviation it does give you all the information in one single place</font>
+
+295
+00:14:59,071 --> 00:14:59,583
+<font color="#d9d9d9">Next</font>
+
+296
+00:14:59,839 --> 00:15:03,167
+<font color="#cacaca">Let's look at exercise 2 are exercise to is</font>
+
+297
+00:15:03,423 --> 00:15:05,471
+<font color="#f6f6f6">Select specific columns</font>
+
+298
+00:15:05,727 --> 00:15:07,263
+<font color="#b6b6b6">End filter rules</font>
+
+299
+00:15:07,519 --> 00:15:10,847
+<font color="#e2e2e2">So we'll use the same data set that we used</font>
+
+300
+00:15:11,871 --> 00:15:16,223
+<font color="#e7e7e7">Will practice selecting columns and filtering rows based on particular conditions</font>
+
+301
+00:15:16,479 --> 00:15:19,807
+<font color="#d9d9d9">So we select specific columns in this case will use</font>
+
+302
+00:15:20,063 --> 00:15:21,343
+<font color="#f8f8f8">Species and</font>
+
+303
+00:15:21,599 --> 00:15:22,367
+<font color="#4e4e4e">Set alarm</font>
+
+304
+00:15:22,623 --> 00:15:28,767
+<font color="#e8e8e8">Will filter Roosevelt length is greater than 5.0 and species is</font>
+
+305
+00:15:29,791 --> 00:15:34,911
+<font color="#e8e8e8">So I am going to just work with the same data set so I'm not going to create another</font>
+
+306
+00:15:35,167 --> 00:15:36,191
+<font color="#fbfbfb">Exercise</font>
+
+307
+00:15:36,703 --> 00:15:40,031
+<font color="#e3e3e3">But here I want to select some columns so I'm going to say selected</font>
+
+308
+00:15:40,799 --> 00:15:41,567
+<font color="#cacaca">Columns</font>
+
+309
+00:15:42,335 --> 00:15:44,127
+<font color="#d4d4d4">Equal to if you remember how do you say</font>
+
+310
+00:15:44,383 --> 00:15:44,895
+<font color="#bdbdbd">Columns</font>
+
+311
+00:15:46,431 --> 00:15:47,711
+<font color="#e9e9e9">Square brackets</font>
+
+312
+00:15:48,223 --> 00:15:51,807
+<font color="#fbfbfb">And here I am interested in species if you remember</font>
+
+313
+00:15:52,319 --> 00:15:53,087
+<font color="#ececec">We have</font>
+
+314
+00:15:53,343 --> 00:15:57,439
+<font color="#dedede">A species which is the last column here I think we did here species</font>
+
+315
+00:15:57,695 --> 00:15:59,743
+<font color="#f3f3f3">Is the last column that's what I'm going to</font>
+
+316
+00:16:00,255 --> 00:16:03,071
+<font color="#d4d4d4">Call always copy pasted because it's easier to</font>
+
+317
+00:16:04,095 --> 00:16:09,727
+<font color="#efefef">Make sure that you don't do any mistakes simple length is what I'm going to select these are the columns that I'm interested in</font>
+
+318
+00:16:09,983 --> 00:16:12,031
+<font color="#ececec">And I am going to print next</font>
+
+319
+00:16:14,079 --> 00:16:15,103
+<font color="#ebebeb">Selected</font>
+
+320
+00:16:15,871 --> 00:16:16,639
+<font color="#d4d4d4">Columns</font>
+
+321
+00:16:16,895 --> 00:16:18,175
+<font color="#727272">Slash n</font>
+
+322
+00:16:19,711 --> 00:16:20,479
+<font color="#f1f1f1">That is</font>
+
+323
+00:16:20,991 --> 00:16:23,551
+<font color="#f0f0f0">Selected columns let's see how does it look like</font>
+
+324
+00:16:26,111 --> 00:16:30,207
+<font color="#d5d5d5">And here is my species and simple length data structure</font>
+
+325
+00:16:30,719 --> 00:16:35,071
+<font color="#ebebeb">Which selected columns have just that nothing else so this is my new data frame which</font>
+
+326
+00:16:35,327 --> 00:16:37,631
+<font color="#eaeaea">Only the two columns in there so I can play around with</font>
+
+327
+00:16:37,887 --> 00:16:39,167
+<font color="#e1e1e1">Now you can think of it as</font>
+
+328
+00:16:39,423 --> 00:16:40,959
+<font color="#f9f9f9">It can be used for</font>
+
+329
+00:16:41,215 --> 00:16:43,007
+<font color="#d9d9d9">Data data modeling</font>
+
+330
+00:16:43,263 --> 00:16:45,055
+<font color="#efefef">You can take all the lens</font>
+
+331
+00:16:45,311 --> 00:16:49,407
+<font color="#e8e8e8">All the different columns except for the ones that you interested in to predict</font>
+
+332
+00:16:49,663 --> 00:16:51,199
+<font color="#e1e1e1">And train the model with</font>
+
+333
+00:16:51,711 --> 00:16:53,503
+<font color="#f0f0f0">So that's what this can be used for</font>
+
+334
+00:16:54,015 --> 00:16:57,343
+<font color="#e1e1e1">Next let's filter the rose so to filter Rose</font>
+
+335
+00:16:57,599 --> 00:16:58,879
+<font color="#f2f2f2">I am going to create</font>
+
+336
+00:16:59,135 --> 00:17:00,927
+<font color="#b8b8b8">Filter underscore Rose</font>
+
+337
+00:17:01,951 --> 00:17:03,231
+<font color="#929292">And I would say DF</font>
+
+338
+00:17:03,999 --> 00:17:05,023
+<font color="#e7e7e7">Now in this case</font>
+
+339
+00:17:08,351 --> 00:17:10,143
+<font color="#595959">Settlement</font>
+
+340
+00:17:14,751 --> 00:17:15,775
+<font color="#b3b3b3">Simple length</font>
+
+341
+00:17:16,287 --> 00:17:17,311
+<font color="#eeeeee">If that is</font>
+
+342
+00:17:17,567 --> 00:17:20,383
+<font color="#f8f8f8">Greater than 5.2 that's what I was interested in</font>
+
+343
+00:17:20,895 --> 00:17:21,663
+<font color="#e8e8e8">And I use</font>
+
+344
+00:17:21,919 --> 00:17:23,455
+<font color="#c3c3c3">Download bracket because I want</font>
+
+345
+00:17:24,735 --> 00:17:25,759
+<font color="#f3f3f3">Another condition</font>
+
+346
+00:17:26,271 --> 00:17:27,295
+<font color="#bdbdbd">Which is DF</font>
+
+347
+00:17:30,367 --> 00:17:31,135
+<font color="#999999">Species</font>
+
+348
+00:17:31,647 --> 00:17:32,927
+<font color="#dcdcdc">Is a particular type</font>
+
+349
+00:17:33,695 --> 00:17:38,303
+<font color="#e6e6e6">In this case I am only interested in I think the first one which is getting Sentosa</font>
+
+350
+00:17:38,815 --> 00:17:40,607
+<font color="#fbfbfb">So I'm only interested in</font>
+
+351
+00:17:44,959 --> 00:17:46,495
+<font color="#cacaca">She's greater than 5.0</font>
+
+352
+00:17:46,751 --> 00:17:47,775
+<font color="#fbfbfb">I can go ahead</font>
+
+353
+00:17:48,287 --> 00:17:50,335
+<font color="#dddddd">Did I make sure to close everything and</font>
+
+354
+00:17:51,103 --> 00:17:52,127
+<font color="#bebebe">Printed out</font>
+
+355
+00:17:54,175 --> 00:17:54,943
+<font color="#393939">Filter</font>
+
+356
+00:17:57,247 --> 00:17:58,271
+<font color="#a7a7a7">Slash</font>
+
+357
+00:18:01,599 --> 00:18:02,879
+<font color="#7a7a7a">Filtered roast</font>
+
+358
+00:18:03,647 --> 00:18:04,415
+<font color="#f0f0f0">I'm going to</font>
+
+359
+00:18:04,671 --> 00:18:06,463
+<font color="#e5e5e5">Comment this out I don't need that</font>
+
+360
+00:18:07,487 --> 00:18:08,255
+<font color="#eaeaea">Clear it</font>
+
+361
+00:18:11,839 --> 00:18:16,959
+<font color="#cdcdcd">We have 0510 1415 these are the ones that simple length is greater than 5</font>
+
+362
+00:18:17,471 --> 00:18:20,031
+<font color="#c4c4c4">And the species is to do so these are the</font>
+
+363
+00:18:20,287 --> 00:18:22,079
+<font color="#eeeeee">All the rules that are available</font>
+
+364
+00:18:22,335 --> 00:18:24,639
+<font color="#a5a5a5">Weather filtered items that we are interested</font>
+
+365
+00:18:25,407 --> 00:18:26,943
+<font color="#e4e4e4">So they go this is pretty awesome</font>
+
+366
+00:18:27,199 --> 00:18:33,343
+<font color="#f2f2f2">I hope you are able to follow along with both exercises that we've done here if not if you had any</font>
+
+367
+00:18:33,599 --> 00:18:35,903
+<font color="#ececec">Problems let me know now you can always look at</font>
+
+368
+00:18:36,159 --> 00:18:37,183
+<font color="#f4f4f4">How this is useful</font>
+
+369
+00:18:37,439 --> 00:18:43,583
+<font color="#e7e7e7">If you've never worked with the data modeling or AI projects before this is probably new for you but will be using</font>
+
+370
+00:18:43,839 --> 00:18:44,351
+<font color="#6f6f6f">Describe the Lord</font>
+
+371
+00:18:44,607 --> 00:18:46,911
+<font color="#c0c0c0">When are in our later weeks</font>
+
+372
+00:18:47,423 --> 00:18:50,751
+<font color="#e5e5e5">The additional exercises for additional practice that I have for you is</font>
+
+373
+00:18:51,007 --> 00:18:55,103
+<font color="#ededed">You can load a local Excel file and explore its structure</font>
+
+374
+00:18:55,615 --> 00:18:59,199
+<font color="#f8f8f8">And then you can create a data frame from a dictionary</font>
+
+375
+00:18:59,455 --> 00:19:01,503
+<font color="#f3f3f3">And add a new calculated column to it</font>
+
+376
+00:19:02,527 --> 00:19:03,551
+<font color="#f2f2f2">Also try to</font>
+
+377
+00:19:03,807 --> 00:19:05,343
+<font color="#a6a6a6">Save filter dat</font>
+
+378
+00:19:05,599 --> 00:19:06,879
+<font color="#cacaca">To a new CSV file</font>
+
+379
+00:19:07,135 --> 00:19:10,719
+<font color="#e3e3e3">Lay down with this and let me know if you have any issues or problems and I'll get back to you</font>
+
+380
+00:19:11,743 --> 00:19:13,023
+<font color="#bfbfbf">Suggest to summarize</font>
+
+381
+00:19:13,279 --> 00:19:18,399
+<font color="#f0f0f0">Today we learned the basics of working with pandas including data structures</font>
+
+382
+00:19:18,655 --> 00:19:22,751
+<font color="#e3e3e3">Loading data sets and Performing essential operations on data frames</font>
+
+383
+00:19:23,263 --> 00:19:29,407
+<font color="#e7e7e7">These skills are crucial for data manipulation in data science and are workflows so I hope you are able to catch up</font>
+
+384
+00:19:29,663 --> 00:19:35,551
+<font color="#e2e2e2">If not I would say repeat these functions and learn them again and again try with different data set</font>
+
+385
+00:19:35,807 --> 00:19:38,111
+<font color="#fafafa">And make yourself more</font>
+
+386
+00:19:38,367 --> 00:19:43,743
+<font color="#f8f8f8">Comfortable with using these functions if you have any issues or problems or questions let me know</font>

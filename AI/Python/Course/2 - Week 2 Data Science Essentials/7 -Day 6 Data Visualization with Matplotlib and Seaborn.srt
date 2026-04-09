@@ -1,0 +1,2071 @@
+﻿1
+00:00:00,256 --> 00:00:01,536
+<font color="#494949">Basics</font>
+
+2
+00:00:01,792 --> 00:00:04,608
+<font color="#bfbfbf">Data visualization with Matt plate</font>
+
+3
+00:00:04,864 --> 00:00:05,632
+<font color="#a7a7a7">NC</font>
+
+4
+00:00:06,144 --> 00:00:10,752
+<font color="#f5f5f5">What's the fun in working with all the data if you can't plot your data</font>
+
+5
+00:00:11,008 --> 00:00:11,776
+<font color="#d6d6d6">So this</font>
+
+6
+00:00:12,032 --> 00:00:14,336
+<font color="#e2e2e2">Day is dedicated to that</font>
+
+7
+00:00:14,592 --> 00:00:18,432
+<font color="#cecece">Let's start with introduction to Matt plot lib for plotting data</font>
+
+8
+00:00:19,200 --> 00:00:20,992
+<font color="#9f9f9f">Now what is Matt plot lip</font>
+
+9
+00:00:21,504 --> 00:00:23,552
+<font color="#eaeaea">Is the foundational python Library</font>
+
+10
+00:00:23,808 --> 00:00:28,416
+<font color="#ededed">For creating static interactive and animated plots</font>
+
+11
+00:00:28,928 --> 00:00:32,000
+<font color="#f0f0f0">It allows for detailed customization of plots</font>
+
+12
+00:00:32,512 --> 00:00:34,560
+<font color="#eeeeee">Let's look at the basic syntax</font>
+
+13
+00:00:35,584 --> 00:00:37,120
+<font color="#a3a3a3">Doing using matplotlib</font>
+
+14
+00:00:37,376 --> 00:00:39,424
+<font color="#d9d9d9">I want to go ahead and create a new file</font>
+
+15
+00:00:39,936 --> 00:00:41,472
+<font color="#959595">Python save</font>
+
+16
+00:00:41,728 --> 00:00:44,544
+<font color="#bcbcbc">In my day 6 I'm going to call your day 6</font>
+
+17
+00:00:45,056 --> 00:00:46,592
+<font color="#cbcbcb">Underscore samples</font>
+
+18
+00:00:47,872 --> 00:00:50,688
+<font color="#f5f5f5">And here I am going to first import</font>
+
+19
+00:00:50,944 --> 00:00:52,224
+<font color="#303030">Matplotlib</font>
+
+20
+00:00:54,272 --> 00:00:55,040
+<font color="#2b2b2b">5 PL</font>
+
+21
+00:01:00,160 --> 00:01:01,440
+<font color="#ededed">Do a basic plot</font>
+
+22
+00:01:01,952 --> 00:01:03,232
+<font color="#8f8f8f">Saginaw College</font>
+
+23
+00:01:03,744 --> 00:01:04,768
+<font color="#c0c0c0">Basic</font>
+
+24
+00:01:05,024 --> 00:01:11,168
+<font color="#dddddd">Not to do that let's see if I have a list of items x equal to 1 comma 2 comma 3</font>
+
+25
+00:01:11,424 --> 00:01:11,936
+<font color="#636363">And four</font>
+
+26
+00:01:12,704 --> 00:01:15,008
+<font color="#eeeeee">Which is</font>
+
+27
+00:01:15,520 --> 00:01:19,104
+<font color="#454545">September</font>
+
+28
+00:01:19,616 --> 00:01:20,640
+<font color="#838383">Comma 30</font>
+
+29
+00:01:20,896 --> 00:01:25,760
+<font color="#d8d8d8">So these are my basic X and Y if I want to plug this I can just say PLT</font>
+
+30
+00:01:26,016 --> 00:01:27,552
+<font color="#909090">Dot Plot</font>
+
+31
+00:01:28,064 --> 00:01:30,880
+<font color="#d0d0d0">An X and Y is what I want to plot</font>
+
+32
+00:01:31,392 --> 00:01:33,696
+<font color="#bebebe">And if I want to see it not that show</font>
+
+33
+00:01:34,208 --> 00:01:35,744
+<font color="#f2f2f2">As simple as that</font>
+
+34
+00:01:36,000 --> 00:01:37,792
+<font color="#e1e1e1">Let's go to our terminal</font>
+
+35
+00:01:39,328 --> 00:01:40,352
+<font color="#ababab">Can you get it out</font>
+
+36
+00:01:40,864 --> 00:01:41,632
+<font color="#dedede">I can say</font>
+
+37
+00:01:42,144 --> 00:01:42,912
+<font color="#8f8f8f">Python</font>
+
+38
+00:01:43,424 --> 00:01:45,984
+<font color="#c3c3c3">Day6 underscore samples</font>
+
+39
+00:01:46,496 --> 00:01:48,288
+<font color="#999999">San Diego VCR</font>
+
+40
+00:01:48,800 --> 00:01:51,360
+<font color="#999999">Laureate x-axis and y-axis</font>
+
+41
+00:01:51,616 --> 00:01:56,480
+<font color="#e1e1e1">And based on the coordinates that I've given it has plotted that</font>
+
+42
+00:01:57,760 --> 00:01:58,784
+<font color="#c5c5c5">Using my plot</font>
+
+43
+00:01:59,808 --> 00:02:02,112
+<font color="#dfdfdf">Next let's look at some basic plots</font>
+
+44
+00:02:02,624 --> 00:02:07,744
+<font color="#ededed">We have the line plot used to visualize Trends over time or sequences</font>
+
+45
+00:02:08,000 --> 00:02:09,792
+<font color="#dedede">We just saw one</font>
+
+46
+00:02:10,048 --> 00:02:11,328
+<font color="#e8e8e8">Which is similar to that</font>
+
+47
+00:02:11,584 --> 00:02:14,656
+<font color="#f8f8f8">But we can create another one what I can do here is</font>
+
+48
+00:02:14,912 --> 00:02:15,936
+<font color="#e6e6e6">I can say</font>
+
+49
+00:02:18,240 --> 00:02:21,312
+<font color="#bbbbbb">TLT I can keep this actually</font>
+
+50
+00:02:21,824 --> 00:02:23,104
+<font color="#ededed">Just for future</font>
+
+51
+00:02:23,616 --> 00:02:24,640
+<font color="#a2a2a2">So for line plot</font>
+
+52
+00:02:24,896 --> 00:02:26,688
+<font color="#838383">What's a line plot</font>
+
+53
+00:02:28,224 --> 00:02:34,368
+<font color="#c4c4c4">PLT Dot Plot I can directly use that instead of creating variables I can say</font>
+
+54
+00:02:35,392 --> 00:02:39,744
+<font color="#d2d2d2">3 here give the first place I want to give the second list which is</font>
+
+55
+00:02:40,000 --> 00:02:42,304
+<font color="#9e9e9e">20 +</font>
+
+56
+00:02:42,816 --> 00:02:46,144
+<font color="#f7f7f7">And I am going to give label equal to</font>
+
+57
+00:02:49,984 --> 00:02:51,520
+<font color="#414141">BLT</font>
+
+58
+00:02:52,032 --> 00:02:53,568
+<font color="#f0f0f0">Title I'll give it a title</font>
+
+59
+00:02:54,336 --> 00:02:56,640
+<font color="#d0d0d0">The previous one we didn't give title so this will</font>
+
+60
+00:02:56,896 --> 00:02:57,664
+<font color="#f7f7f7">Give you an idea</font>
+
+61
+00:02:57,920 --> 00:03:01,504
+<font color="#c8c8c8">Over the title shows up I'm going to call it line plot</font>
+
+62
+00:03:01,760 --> 00:03:04,320
+<font color="#cdcdcd">I can give up the attributes like</font>
+
+63
+00:03:04,576 --> 00:03:05,344
+<font color="#949494">Next level</font>
+
+64
+00:03:06,368 --> 00:03:09,696
+<font color="#d2d2d2">Which will give a label to the x-axis I'm going to just call it X</font>
+
+65
+00:03:10,208 --> 00:03:10,976
+<font color="#7e7e7e">Access</font>
+
+66
+00:03:12,512 --> 00:03:15,328
+<font color="#979797">All right next I'll say Lord Dot</font>
+
+67
+00:03:15,584 --> 00:03:16,352
+<font color="#606060">Why lab</font>
+
+68
+00:03:16,864 --> 00:03:18,656
+<font color="#cfcfcf">Again as you probably guessed it</font>
+
+69
+00:03:18,912 --> 00:03:20,704
+<font color="#a7a7a7">They call it my access</font>
+
+70
+00:03:22,752 --> 00:03:25,824
+<font color="#d7d7d7">And then next I am going to support Dot</font>
+
+71
+00:03:26,080 --> 00:03:28,384
+<font color="#c1c1c1">Legend create a legend for this</font>
+
+72
+00:03:29,920 --> 00:03:31,456
+<font color="#444444">Mplt</font>
+
+73
+00:03:31,968 --> 00:03:34,272
+<font color="#e6e6e6">Sure so now if I run this</font>
+
+74
+00:03:36,064 --> 00:03:38,880
+<font color="#b5b5b5">I have a straight line because 1 2 3</font>
+
+75
+00:03:39,136 --> 00:03:45,280
+<font color="#c2c2c2">10:20 will be a straight line you see x-axis you see the line plot y-axis all those lab</font>
+
+76
+00:03:48,864 --> 00:03:49,888
+<font color="#d4d4d4">Let's look at</font>
+
+77
+00:03:50,144 --> 00:03:50,912
+<font color="#adadad">Bar chart</font>
+
+78
+00:03:51,424 --> 00:03:53,728
+<font color="#bbbbbb">The birth chart as you probably have seen is a bar</font>
+
+79
+00:03:54,240 --> 00:03:56,288
+<font color="#6d6d6d">Alarm for bus displayed</font>
+
+80
+00:03:56,544 --> 00:03:57,824
+<font color="#d1d1d1">So for that</font>
+
+81
+00:03:58,080 --> 00:03:59,104
+<font color="#a9a9a9">No comment</font>
+
+82
+00:03:59,616 --> 00:04:00,384
+<font color="#7c7c7c">This</font>
+
+83
+00:04:00,896 --> 00:04:02,176
+<font color="#868686">Go up here</font>
+
+84
+00:04:04,224 --> 00:04:05,248
+<font color="#dddddd">Go up here</font>
+
+85
+00:04:06,016 --> 00:04:07,552
+<font color="#999999">NC bar</font>
+
+86
+00:04:08,064 --> 00:04:08,832
+<font color="#797979">Chart</font>
+
+87
+00:04:09,600 --> 00:04:11,648
+<font color="#bbbbbb">At this what it does is used for</font>
+
+88
+00:04:11,904 --> 00:04:14,720
+<font color="#eaeaea">Categorical data comparison that's what</font>
+
+89
+00:04:14,976 --> 00:04:21,119
+<font color="#bababa">Bar charts are usually used for where is line plots were used for to use to visual</font>
+
+90
+00:04:21,375 --> 00:04:23,679
+<font color="#bfbfbf">Strands overtime or sequences</font>
+
+91
+00:04:23,935 --> 00:04:25,983
+<font color="#cbcbcb">I'm going to say Carter</font>
+
+92
+00:04:26,495 --> 00:04:30,335
+<font color="#c1c1c1">Gold is equal to how many credit list of categories</font>
+
+93
+00:04:30,591 --> 00:04:33,151
+<font color="#e5e5e5">And just to make it simple I'll call it a</font>
+
+94
+00:04:35,711 --> 00:04:36,735
+<font color="#a9a9a9">Category</font>
+
+95
+00:04:38,783 --> 00:04:40,063
+<font color="#cfcfcf">Next I will</font>
+
+96
+00:04:40,319 --> 00:04:41,855
+<font color="#9c9c9c">Give me the values</font>
+
+97
+00:04:42,111 --> 00:04:46,207
+<font color="#bebebe">List which will have let's call it 10:15</font>
+
+98
+00:04:46,719 --> 00:04:47,743
+<font color="#808080">And 7</font>
+
+99
+00:04:48,511 --> 00:04:49,791
+<font color="#cccccc">Can probably already</font>
+
+100
+00:04:50,047 --> 00:04:52,607
+<font color="#9f9f9f">Draw the bar chart in your</font>
+
+101
+00:04:54,143 --> 00:04:56,447
+<font color="#bababa">So I can say PLT or bar</font>
+
+102
+00:04:56,703 --> 00:05:01,823
+<font color="#c8c8c8">And here I'm going to say categories of pass categories I'll pass the values</font>
+
+103
+00:05:02,079 --> 00:05:03,871
+<font color="#fcfcfc">And I can also pass</font>
+
+104
+00:05:04,383 --> 00:05:04,895
+<font color="#cfcfcf">Colors</font>
+
+105
+00:05:05,407 --> 00:05:08,735
+<font color="#f0f0f0">In this case I am going to use let's use blue color</font>
+
+106
+00:05:08,991 --> 00:05:10,783
+<font color="#484848">BLT Dot</font>
+
+107
+00:05:11,039 --> 00:05:13,087
+<font color="#fafafa">Title for title I will give</font>
+
+108
+00:05:14,367 --> 00:05:15,903
+<font color="#bbbbbb">Bar chart</font>
+
+109
+00:05:16,671 --> 00:05:17,695
+<font color="#7b7b7b">How old is</font>
+
+110
+00:05:17,951 --> 00:05:18,975
+<font color="#f1f1f1">And then say</font>
+
+111
+00:05:19,487 --> 00:05:20,511
+<font color="#949494">Lord God show</font>
+
+112
+00:05:21,023 --> 00:05:22,047
+<font color="#717171">And on this</font>
+
+113
+00:05:23,071 --> 00:05:25,887
+<font color="#e8e8e8">Okay this is still running I guess</font>
+
+114
+00:05:26,143 --> 00:05:27,423
+<font color="#cccccc">Run this again</font>
+
+115
+00:05:28,191 --> 00:05:30,751
+<font color="#dedede">And does my bar chart with my values which</font>
+
+116
+00:05:31,007 --> 00:05:32,543
+<font color="#cacaca">Abnc categories</font>
+
+117
+00:05:32,799 --> 00:05:38,943
+<font color="#e4e4e4">And I have 1015 and 7:00 displayed right here and the color is blue you can change that to whatever you want</font>
+
+118
+00:05:39,199 --> 00:05:40,735
+<font color="#e5e5e5">Customize it to however you want</font>
+
+119
+00:05:41,247 --> 00:05:43,295
+<font color="#dfdfdf">Next one that you're going to look at</font>
+
+120
+00:05:43,551 --> 00:05:44,319
+<font color="#cdcdcd">Is histogram</font>
+
+121
+00:05:45,087 --> 00:05:47,391
+<font color="#d2d2d2">No histogram shows the distribution</font>
+
+122
+00:05:47,647 --> 00:05:49,695
+<font color="#d6d6d6">Offer data set so for that</font>
+
+123
+00:05:50,975 --> 00:05:52,767
+<font color="#8d8d8d">Comedy South First</font>
+
+124
+00:05:54,047 --> 00:05:57,631
+<font color="#d4d4d4">The thing that we want here is histogram</font>
+
+125
+00:05:58,143 --> 00:06:00,447
+<font color="#cfcfcf">For Instagram I'll give a data set</font>
+
+126
+00:06:01,215 --> 00:06:03,263
+<font color="#9d9d9d">I use one</font>
+
+127
+00:06:03,519 --> 00:06:04,799
+<font color="#565656">2</font>
+
+128
+00:06:05,055 --> 00:06:08,127
+<font color="#515151">3344</font>
+
+129
+00:06:08,639 --> 00:06:09,663
+<font color="#8e8e8e">4 +</font>
+
+130
+00:06:09,919 --> 00:06:11,967
+<font color="#9b9b9b">Bunch of data set point</font>
+
+131
+00:06:12,479 --> 00:06:15,039
+<font color="#c6c6c6">For plotting histogram you say</font>
+
+132
+00:06:15,295 --> 00:06:17,087
+<font color="#5f5f5f">Plot dot Heist</font>
+
+133
+00:06:17,343 --> 00:06:19,647
+<font color="#dddddd">And inside here I have to give the data</font>
+
+134
+00:06:20,159 --> 00:06:21,951
+<font color="#fbfbfb">Next I need to get</font>
+
+135
+00:06:22,207 --> 00:06:27,839
+<font color="#e1e1e1">How many bins I need to create for this Instagram I'm going to say I'll create four bins</font>
+
+136
+00:06:28,607 --> 00:06:31,423
+<font color="#f3f3f3">Color that I want to use equal to</font>
+
+137
+00:06:32,959 --> 00:06:34,495
+<font color="#b7b7b7">Since we use blue last time</font>
+
+138
+00:06:34,751 --> 00:06:37,055
+<font color="#d6d6d6">And there's also something called an edge color</font>
+
+139
+00:06:37,311 --> 00:06:39,359
+<font color="#8e8e8e">Reuse Black Friday</font>
+
+140
+00:06:40,639 --> 00:06:44,223
+<font color="#f7f7f7">So that's how you created now I can give the same all</font>
+
+141
+00:06:44,479 --> 00:06:47,551
+<font color="#dadada">Parameters and just give title for this again</font>
+
+142
+00:06:48,063 --> 00:06:49,599
+<font color="#525252">Histogram</font>
+
+143
+00:06:49,855 --> 00:06:52,927
+<font color="#a6a6a6">And then I'll see plot that show</font>
+
+144
+00:06:53,695 --> 00:06:54,719
+<font color="#e1e1e1">Save</font>
+
+145
+00:07:02,911 --> 00:07:03,679
+<font color="#303030">11</font>
+
+146
+00:07:04,191 --> 00:07:05,727
+<font color="#717171">23 and 4</font>
+
+147
+00:07:05,983 --> 00:07:08,543
+<font color="#bbbbbb">Displayed right here in the histogram format</font>
+
+148
+00:07:09,055 --> 00:07:11,103
+<font color="#e3e3e3">And we have four bins and</font>
+
+149
+00:07:11,359 --> 00:07:14,175
+<font color="#ececec">It has color green and the edge color</font>
+
+150
+00:07:14,431 --> 00:07:16,991
+<font color="#b9b9b9">Which is black is displayed that so</font>
+
+151
+00:07:17,247 --> 00:07:19,039
+<font color="#aaaaaa">That's it I close this app</font>
+
+152
+00:07:20,063 --> 00:07:22,111
+<font color="#b9b9b9">Make sure this is closed clear</font>
+
+153
+00:07:23,391 --> 00:07:25,695
+<font color="#f5f5f5">Next thing that I want to talk about is</font>
+
+154
+00:07:25,951 --> 00:07:26,975
+<font color="#8e8e8e">Scatter plot</font>
+
+155
+00:07:27,231 --> 00:07:33,375
+<font color="#cfcfcf">Does scatter plot visualizes the relationship between two continuous variables and you've got a lot in</font>
+
+156
+00:07:33,631 --> 00:07:34,143
+<font color="#969696">Nearby project</font>
+
+157
+00:07:34,399 --> 00:07:36,703
+<font color="#f3f3f3">So I am going to go back here</font>
+
+158
+00:07:37,727 --> 00:07:38,751
+<font color="#787878">Common desert</font>
+
+159
+00:07:40,031 --> 00:07:42,079
+<font color="#aeaeae">Pixel just say this is</font>
+
+160
+00:07:42,591 --> 00:07:44,127
+<font color="#7f7f7f">Scatter plot</font>
+
+161
+00:07:44,895 --> 00:07:47,967
+<font color="#e2e2e2">X equal to let's give it some numbers 1</font>
+
+162
+00:07:48,223 --> 00:07:51,039
+<font color="#979797">234 and 5</font>
+
+163
+00:07:53,087 --> 00:07:55,391
+<font color="#f6f6f6">I want to give some numbers to why</font>
+
+164
+00:07:56,159 --> 00:07:58,463
+<font color="#747474">Probably 10:12</font>
+
+165
+00:07:58,975 --> 00:08:00,255
+<font color="#a8a8a8">25</font>
+
+166
+00:08:02,047 --> 00:08:03,839
+<font color="#d1d1d1">945 some random numbers</font>
+
+167
+00:08:04,607 --> 00:08:06,143
+<font color="#aaaaaa">How to create</font>
+
+168
+00:08:06,399 --> 00:08:12,031
+<font color="#aaaaaa">Catapult I call PLT dot schedule for schedule give X and Y</font>
+
+169
+00:08:12,287 --> 00:08:15,615
+<font color="#c7c7c7">And the colors for the schedule I'll give</font>
+
+170
+00:08:17,919 --> 00:08:18,943
+<font color="#747474">Lord God</font>
+
+171
+00:08:19,711 --> 00:08:20,223
+<font color="#1a1a1a">Tit</font>
+
+172
+00:08:21,247 --> 00:08:23,551
+<font color="#aaaaaa">I'll call it scatter plot</font>
+
+173
+00:08:24,063 --> 00:08:26,111
+<font color="#c9c9c9">Next finally</font>
+
+174
+00:08:26,367 --> 00:08:27,647
+<font color="#363636">The Ziploc</font>
+
+175
+00:08:29,695 --> 00:08:31,743
+<font color="#c4c4c4">Let's look at how the scatter plot look like</font>
+
+176
+00:08:33,279 --> 00:08:34,559
+<font color="#cbcbcb">Good on this project</font>
+
+177
+00:08:34,815 --> 00:08:40,959
+<font color="#d3d3d3">And they got a scatter plot so think of it if you have like a big data set how it will look and that's what you</font>
+
+178
+00:08:41,215 --> 00:08:42,239
+<font color="#dddddd">Be quite a lot these days</font>
+
+179
+00:08:42,495 --> 00:08:48,639
+<font color="#c4c4c4">When data scientist talk about the Scatter Plots are the items or how it's scattered and how they are</font>
+
+180
+00:08:48,895 --> 00:08:53,759
+<font color="#e2e2e2">Play classified into different places and so this is very useful for building things in future</font>
+
+181
+00:08:55,039 --> 00:08:58,367
+<font color="#e1e1e1">So go ahead clear this out that's all that I have here</font>
+
+182
+00:08:58,623 --> 00:09:04,767
+<font color="#d6d6d6">Next let's talk about customizing plots now we saw that we can add title X label</font>
+
+183
+00:09:05,023 --> 00:09:11,167
+<font color="#dddddd">Available Legends all those things what are the different things we can do in here so we can add a dimension tit</font>
+
+184
+00:09:11,679 --> 00:09:13,983
+<font color="#d7d7d7">Access labels we can give Legends</font>
+
+185
+00:09:14,239 --> 00:09:17,311
+<font color="#f5f5f5">We can adjust the colors and styles</font>
+
+186
+00:09:17,567 --> 00:09:23,711
+<font color="#f6f6f6">So let's look at some of those things that we can do I'm going to use this exact same thing</font>
+
+187
+00:09:23,967 --> 00:09:24,991
+<font color="#e6e6e6">Here that we have here</font>
+
+188
+00:09:25,247 --> 00:09:26,527
+<font color="#e3e3e3">You wanted to give a title</font>
+
+189
+00:09:26,783 --> 00:09:28,063
+<font color="#e9e9e9">We can give</font>
+
+190
+00:09:28,319 --> 00:09:29,087
+<font color="#3a3a3a">Text lab</font>
+
+191
+00:09:32,159 --> 00:09:33,951
+<font color="#9a9a9a">Next level</font>
+
+192
+00:09:36,511 --> 00:09:38,047
+<font color="#7b7b7b">Access lab</font>
+
+193
+00:09:38,815 --> 00:09:41,119
+<font color="#e6e6e6">I can give you the same thing for</font>
+
+194
+00:09:41,375 --> 00:09:42,399
+<font color="#7d7d7d">Why label</font>
+
+195
+00:09:43,679 --> 00:09:44,959
+<font color="#7d7d7d">Y-axis label</font>
+
+196
+00:09:45,471 --> 00:09:47,519
+<font color="#fdfdfd">And I can also give</font>
+
+197
+00:09:47,775 --> 00:09:48,799
+<font color="#d8d8d8">A legend</font>
+
+198
+00:09:50,079 --> 00:09:53,151
+<font color="#ececec">For now I don't have any Legend so I'm just going to create</font>
+
+199
+00:09:53,407 --> 00:09:55,711
+<font color="#d1d1d1">Empty list and call it</font>
+
+200
+00:09:55,967 --> 00:09:58,527
+<font color="#d3d3d3">Data set one something like this</font>
+
+201
+00:09:59,039 --> 00:10:00,831
+<font color="#d4d4d4">Go back run it</font>
+
+202
+00:10:01,599 --> 00:10:05,439
+<font color="#ededed">And we have this year you see the legend on the top I can give multiple Legends</font>
+
+203
+00:10:05,695 --> 00:10:09,535
+<font color="#dcdcdc">Find the list and you see the entire x-axis and y-axis</font>
+
+204
+00:10:09,791 --> 00:10:12,351
+<font color="#c3c3c3">Title is already given scatter plot</font>
+
+205
+00:10:12,863 --> 00:10:14,911
+<font color="#fafafa">I can also change the colors</font>
+
+206
+00:10:15,167 --> 00:10:15,935
+<font color="#f3f3f3">So when I</font>
+
+207
+00:10:16,191 --> 00:10:19,263
+<font color="#f2f2f2">Plot a particular thing for example if I want to</font>
+
+208
+00:10:21,823 --> 00:10:23,103
+<font color="#c5c5c5">Now let's use</font>
+
+209
+00:10:23,359 --> 00:10:24,895
+<font color="#7d7d7d">1300 earlier</font>
+
+210
+00:10:25,151 --> 00:10:26,943
+<font color="#dddddd">Someone comment this out</font>
+
+211
+00:10:28,735 --> 00:10:29,759
+<font color="#b0b0b0">Go ahead</font>
+
+212
+00:10:31,551 --> 00:10:33,599
+<font color="#dedede">And when I plotted here X and Y</font>
+
+213
+00:10:33,855 --> 00:10:36,927
+<font color="#bebebe">We gave the label a strength</font>
+
+214
+00:10:37,183 --> 00:10:39,231
+<font color="#fbfbfb">And then we can also give</font>
+
+215
+00:10:39,999 --> 00:10:40,511
+<font color="#4b4b4b">Color</font>
+
+216
+00:10:43,839 --> 00:10:44,607
+<font color="#8d8d8d">Orange</font>
+
+217
+00:10:45,375 --> 00:10:47,167
+<font color="#fdfdfd">I can give</font>
+
+218
+00:10:47,679 --> 00:10:51,263
+<font color="#d6d6d6">What is going to do I can give line style because it's a line</font>
+
+219
+00:10:51,775 --> 00:10:55,615
+<font color="#d2d2d2">Does equal to if I want to give daughter I can just say Dash and dash</font>
+
+220
+00:10:56,383 --> 00:10:57,663
+<font color="#fbfbfb">And I can give</font>
+
+221
+00:10:58,175 --> 00:10:58,943
+<font color="#272727">Mark</font>
+
+222
+00:10:59,455 --> 00:11:00,223
+<font color="#efefef">Equal to</font>
+
+223
+00:11:00,735 --> 00:11:03,295
+<font color="#d8d8d8">Small or something like this</font>
+
+224
+00:11:03,551 --> 00:11:04,575
+<font color="#8e8e8e">Put on this now</font>
+
+225
+00:11:04,831 --> 00:11:06,111
+<font color="#f9f9f9">Let's make sure that</font>
+
+226
+00:11:06,879 --> 00:11:07,903
+<font color="#585858">What is closed</font>
+
+227
+00:11:09,439 --> 00:11:12,511
+<font color="#bababa">Run it again and there you go I dotted lines</font>
+
+228
+00:11:12,767 --> 00:11:13,791
+<font color="#adadad">Are orange</font>
+
+229
+00:11:14,047 --> 00:11:19,423
+<font color="#dbdbdb">We have color orange nice lifestyle dashed because of this</font>
+
+230
+00:11:19,679 --> 00:11:22,751
+<font color="#d1d1d1">San Marcos zero that's what I've given here you can also use</font>
+
+231
+00:11:23,263 --> 00:11:24,287
+<font color="#313131">Expertise</font>
+
+232
+00:11:27,103 --> 00:11:30,687
+<font color="#b9b9b9">San Diego now we have X points over there that's how it looks like</font>
+
+233
+00:11:30,943 --> 00:11:33,503
+<font color="#eeeeee">So these are different customization that you can do</font>
+
+234
+00:11:33,759 --> 00:11:35,807
+<font color="#373737">2 + 2000</font>
+
+235
+00:11:37,087 --> 00:11:37,855
+<font color="#cacaca">Next</font>
+
+236
+00:11:38,111 --> 00:11:42,719
+<font color="#e8e8e8">Let's get introduction to Seaborn for advanced visualization</font>
+
+237
+00:11:42,975 --> 00:11:44,511
+<font color="#cfcfcf">Now what is Seaborn</font>
+
+238
+00:11:45,023 --> 00:11:47,327
+<font color="#bcbcbc">Built on top of Matt plot lib</font>
+
+239
+00:11:47,583 --> 00:11:53,727
+<font color="#e9e9e9">For easier and more visually appealing plots Seaborn was born to bring some more</font>
+
+240
+00:11:53,983 --> 00:11:55,263
+<font color="#a0a0a0">Customization to Mad plot live</font>
+
+241
+00:11:55,519 --> 00:11:57,823
+<font color="#f1f1f1">It provides a high level interfaces</font>
+
+242
+00:11:58,079 --> 00:11:59,871
+<font color="#e9e9e9">For statistical graphics</font>
+
+243
+00:12:00,383 --> 00:12:04,479
+<font color="#e8e8e8">Some of the common Seaborn plots include we have the heat map</font>
+
+244
+00:12:04,735 --> 00:12:07,295
+<font color="#d4d4d4">Which visualizes a matrix of data</font>
+
+245
+00:12:07,551 --> 00:12:08,831
+<font color="#acacac">We have Airport</font>
+
+246
+00:12:09,087 --> 00:12:13,439
+<font color="#a8a8a8">Which shows are wise relationship in a data set we can kind of</font>
+
+247
+00:12:13,695 --> 00:12:14,719
+<font color="#7e7e7e">SDS out</font>
+
+248
+00:12:14,975 --> 00:12:17,791
+<font color="#f8f8f8">What I'm going to do is I am going to take this</font>
+
+249
+00:12:18,559 --> 00:12:20,351
+<font color="#c6c6c6">Same project</font>
+
+250
+00:12:21,119 --> 00:12:22,143
+<font color="#cecece">Import</font>
+
+251
+00:12:22,655 --> 00:12:25,215
+<font color="#9d9d9d">Seaborn as SNS</font>
+
+252
+00:12:25,727 --> 00:12:26,751
+<font color="#cccccc">Next</font>
+
+253
+00:12:27,007 --> 00:12:28,543
+<font color="#f8f8f8">I am going to</font>
+
+254
+00:12:28,799 --> 00:12:30,847
+<font color="#cdcdcd">Import numpy</font>
+
+255
+00:12:31,103 --> 00:12:32,639
+<font color="#6b6b6b">As NB</font>
+
+256
+00:12:33,151 --> 00:12:36,735
+<font color="#f2f2f2">So now let's get some data data equal to</font>
+
+257
+00:12:37,247 --> 00:12:40,063
+<font color="#d4d4d4">MP dot I'm going to just create some random</font>
+
+258
+00:12:40,831 --> 00:12:43,391
+<font color="#b3b3b3">Integers Sears random numbers</font>
+
+259
+00:12:43,647 --> 00:12:45,695
+<font color="#797979">Will fly by 5</font>
+
+260
+00:12:46,719 --> 00:12:48,511
+<font color="#b1b1b1">And then I said SMS</font>
+
+261
+00:12:49,279 --> 00:12:55,423
+<font color="#e2e2e2">Dot heat map this is for the heat map that visualizes the Matrix of data so you can give</font>
+
+262
+00:12:55,679 --> 00:12:58,495
+<font color="#dedede">Give the data to that since you created that Matrix data above</font>
+
+263
+00:12:58,751 --> 00:13:01,311
+<font color="#dedede">Annotations equal to</font>
+
+264
+00:13:03,103 --> 00:13:05,151
+<font color="#dddddd">And then see</font>
+
+265
+00:13:05,663 --> 00:13:08,479
+<font color="#efefef">Equal to it has bunch of different</font>
+
+266
+00:13:10,015 --> 00:13:13,599
+<font color="#e9e9e9">Things that you can use for colors and for that I'm using cmap</font>
+
+267
+00:13:13,855 --> 00:13:17,695
+<font color="#e3e3e3">Which has bunch of different options I'm going to use cool warm</font>
+
+268
+00:13:18,463 --> 00:13:20,767
+<font color="#818181">Next I'm going to say blood Dot</font>
+
+269
+00:13:21,791 --> 00:13:22,303
+<font color="#a8a8a8">Title</font>
+
+270
+00:13:24,863 --> 00:13:25,631
+<font color="#b9b9b9">Heat</font>
+
+271
+00:13:28,191 --> 00:13:30,239
+<font color="#949494">As usual not that show</font>
+
+272
+00:13:30,751 --> 00:13:33,055
+<font color="#f2f2f2">Save this and I'll run it here</font>
+
+273
+00:13:36,383 --> 00:13:38,175
+<font color="#898989">San Diego on heat map</font>
+
+274
+00:13:38,687 --> 00:13:43,551
+<font color="#c9c9c9">Pretty cool right so based on the Matrix that it created of 5 by 5 Matrix</font>
+
+275
+00:13:43,807 --> 00:13:49,951
+<font color="#bdbdbd">It has this one two three four five one two three four five items here and it shows the heat based on where</font>
+
+276
+00:13:50,207 --> 00:13:56,095
+<font color="#e9e9e9">The numbers have been randomly created of course every time you run this it will look different because I'm not given a seed</font>
+
+277
+00:13:56,351 --> 00:14:02,495
+<font color="#e9e9e9">Cincinnati again it will look a little different from the previous one because it randomly generates these numbers and then</font>
+
+278
+00:14:03,007 --> 00:14:04,799
+<font color="#9b9b9b">Make this heat map out here</font>
+
+279
+00:14:05,311 --> 00:14:06,591
+<font color="#b6b6b6">Next for Fairport</font>
+
+280
+00:14:06,847 --> 00:14:09,663
+<font color="#b9b9b9">Which shows where is relationship in Adidas set</font>
+
+281
+00:14:10,175 --> 00:14:12,735
+<font color="#aeaeae">You'll have to say instead of saying this</font>
+
+282
+00:14:13,759 --> 00:14:15,039
+<font color="#787878">Please comment this</font>
+
+283
+00:14:16,319 --> 00:14:17,343
+<font color="#bbbbbb">SMS</font>
+
+284
+00:14:21,951 --> 00:14:28,095
+<font color="#e1e1e1">And then to that you'll give DF which is the data frame which I don't have</font>
+
+285
+00:14:28,351 --> 00:14:31,679
+<font color="#c4c4c4">Is it right now but we'll see in one of our hands on example and then</font>
+
+286
+00:14:31,935 --> 00:14:33,471
+<font color="#737373">You said that's</font>
+
+287
+00:14:33,727 --> 00:14:39,871
+<font color="#dedede">That will give you a show the pairwise relationship in this particular data set and we'll look at those in our</font>
+
+288
+00:14:40,127 --> 00:14:46,271
+<font color="#dfdfdf">Hands on but that's those are the two different heat maps and their plots that you can do using so these</font>
+
+289
+00:14:46,527 --> 00:14:48,319
+<font color="#c1c1c1">What are the common C1 plots that you can build</font>
+
+290
+00:14:50,367 --> 00:14:54,207
+<font color="#d8d8d8">Let's run to our hands on exercise so based on whatever you learned</font>
+
+291
+00:14:54,463 --> 00:14:58,303
+<font color="#d3d3d3">First exercise we're going to create basic plots with matplotlib</font>
+
+292
+00:14:58,559 --> 00:14:59,839
+<font color="#c5c5c5">The objective here</font>
+
+293
+00:15:00,095 --> 00:15:04,447
+<font color="#d9d9d9">Is to plot a line graph a bar chart and a scatter plot</font>
+
+294
+00:15:04,959 --> 00:15:07,007
+<font color="#d4d4d4">So what are you going to do is we're going to create</font>
+
+295
+00:15:07,263 --> 00:15:11,615
+<font color="#f0f0f0">Data for Trends categorical comparisons and relationships</font>
+
+296
+00:15:11,871 --> 00:15:13,919
+<font color="#eaeaea">And then we're going to customize</font>
+
+297
+00:15:14,175 --> 00:15:19,039
+<font color="#d5d5d5">Plots with titles labels and legends let's get started with exercise 1</font>
+
+298
+00:15:20,063 --> 00:15:22,623
+<font color="#f6f6f6">I'm going to close this and create a new file</font>
+
+299
+00:15:23,391 --> 00:15:24,415
+<font color="#fafafa">Save it</font>
+
+300
+00:15:26,207 --> 00:15:28,767
+<font color="#c0c0c0">6 underscore exercise 1</font>
+
+301
+00:15:29,023 --> 00:15:30,303
+<font color="#4c4c4c">Dot py</font>
+
+302
+00:15:31,839 --> 00:15:34,143
+<font color="#f4f4f4">And make sure my other projects are</font>
+
+303
+00:15:35,167 --> 00:15:37,471
+<font color="#c0c0c0">Close all close this</font>
+
+304
+00:15:37,983 --> 00:15:40,543
+<font color="#d2d2d2">Go back to hear clear this out</font>
+
+305
+00:15:42,335 --> 00:15:45,663
+<font color="#d3d3d3">To start with first we need math problem import</font>
+
+306
+00:15:47,199 --> 00:15:48,735
+<font color="#222222">Rockledge</font>
+
+307
+00:15:51,807 --> 00:15:52,831
+<font color="#232323">ESPN</font>
+
+308
+00:15:53,599 --> 00:15:54,879
+<font color="#e7e7e7">So first step</font>
+
+309
+00:15:55,135 --> 00:15:56,927
+<font color="#e3e3e3">Is to create a line plot</font>
+
+310
+00:15:57,439 --> 00:15:58,463
+<font color="#e3e3e3">But for that</font>
+
+311
+00:15:58,719 --> 00:16:02,047
+<font color="#cccccc">We need some data so create an object variable called as years</font>
+
+312
+00:16:02,303 --> 00:16:05,119
+<font color="#d7d7d7">And inside this I'll say 2010</font>
+
+313
+00:16:05,887 --> 00:16:07,167
+<font color="#dadada">2011</font>
+
+314
+00:16:07,423 --> 00:16:09,983
+<font color="#c0c0c0">2012 2013</font>
+
+315
+00:16:10,751 --> 00:16:14,079
+<font color="#afafaf">I didn't say sales number for these years include</font>
+
+316
+00:16:14,335 --> 00:16:16,383
+<font color="#333333">100 12</font>
+
+317
+00:16:16,639 --> 00:16:20,223
+<font color="#d4d4d4">140 and 160 good sales numbers increasing</font>
+
+318
+00:16:20,479 --> 00:16:21,503
+<font color="#eaeaea">Of course</font>
+
+319
+00:16:21,759 --> 00:16:22,783
+<font color="#5e5e5e">Elt dog</font>
+
+320
+00:16:24,319 --> 00:16:25,855
+<font color="#cdcdcd">I'll pass the years</font>
+
+321
+00:16:27,903 --> 00:16:29,439
+<font color="#8d8d8d">NCL says why</font>
+
+322
+00:16:29,951 --> 00:16:31,487
+<font color="#d2d2d2">And then I'll say label</font>
+
+323
+00:16:31,999 --> 00:16:33,023
+<font color="#ececec">Equal to</font>
+
+324
+00:16:33,535 --> 00:16:34,303
+<font color="#c6c6c6">Sales</font>
+
+325
+00:16:34,815 --> 00:16:35,583
+<font color="#afafaf">Trend</font>
+
+326
+00:16:36,607 --> 00:16:37,887
+<font color="#f5f5f5">I will give a color</font>
+
+327
+00:16:38,399 --> 00:16:39,935
+<font color="#9a9a9a">Off blue</font>
+
+328
+00:16:40,959 --> 00:16:41,983
+<font color="#d3d3d3">Windows</font>
+
+329
+00:16:43,519 --> 00:16:45,311
+<font color="#f1f1f1">I'll use the marker of</font>
+
+330
+00:16:47,615 --> 00:16:50,431
+<font color="#b2b2b2">And then I said give a lot of title</font>
+
+331
+00:16:52,223 --> 00:16:54,783
+<font color="#dfdfdf">Sales over years</font>
+
+332
+00:16:55,295 --> 00:16:58,367
+<font color="#4b4b4b">Next how to plot Dot xlabel</font>
+
+333
+00:16:59,391 --> 00:17:02,975
+<font color="#9b9b9b">I'll give X labeled as is our ears so I'm going to say</font>
+
+334
+00:17:03,231 --> 00:17:04,255
+<font color="#a4a4a4">Yes</font>
+
+335
+00:17:04,511 --> 00:17:07,327
+<font color="#424242">BLT dot while label</font>
+
+336
+00:17:08,095 --> 00:17:11,167
+<font color="#8d8d8d">Is over the sales someone says sales</font>
+
+337
+00:17:12,447 --> 00:17:15,775
+<font color="#f2f2f2">And then let's just play The Legend</font>
+
+338
+00:17:17,055 --> 00:17:19,615
+<font color="#d0d0d0">And display the plot</font>
+
+339
+00:17:20,383 --> 00:17:22,687
+<font color="#fcfcfc">Do this go back here</font>
+
+340
+00:17:23,199 --> 00:17:26,527
+<font color="#afafaf">Well it's only cleared I'm going to say python day</font>
+
+341
+00:17:26,783 --> 00:17:29,855
+<font color="#808080">6 underscore ex-1 running</font>
+
+342
+00:17:30,111 --> 00:17:34,463
+<font color="#d4d4d4">And we have a line plot here based on the say yes and the sales</font>
+
+343
+00:17:34,975 --> 00:17:38,047
+<font color="#d3d3d3">So that's pretty cool we have the legend of wood displayed perfect</font>
+
+344
+00:17:38,303 --> 00:17:41,375
+<font color="#e9e9e9">Next thing that I want to do is a bar chart so I can say bar</font>
+
+345
+00:17:43,423 --> 00:17:45,983
+<font color="#b5b5b5">How to create different categories</font>
+
+346
+00:17:47,007 --> 00:17:48,799
+<font color="#e0e0e0">For this let's use</font>
+
+347
+00:17:49,823 --> 00:17:51,103
+<font color="#f2f2f2">Electronics</font>
+
+348
+00:17:51,871 --> 00:17:54,175
+<font color="#e2e2e2">Another category is clothing</font>
+
+349
+00:17:56,735 --> 00:18:01,087
+<font color="#f9f9f9">And another one is groceries you can pick whatever you want</font>
+
+350
+00:18:03,391 --> 00:18:04,927
+<font color="#d1d1d1">I'm just using randomly</font>
+
+351
+00:18:05,695 --> 00:18:07,487
+<font color="#bdbdbd">Revenue for this</font>
+
+352
+00:18:07,743 --> 00:18:10,815
+<font color="#bfbfbf">Is let's say 250</font>
+
+353
+00:18:11,071 --> 00:18:12,095
+<font color="#f3f3f3">For electronics</font>
+
+354
+00:18:14,143 --> 00:18:15,167
+<font color="#d0d0d0">For clothing</font>
+
+355
+00:18:15,423 --> 00:18:17,727
+<font color="#e3e3e3">And 150 for groceries</font>
+
+356
+00:18:18,495 --> 00:18:22,079
+<font color="#b7b7b7">No I'm going to say plot dot bar because I want to see a bar chart</font>
+
+357
+00:18:22,591 --> 00:18:24,383
+<font color="#9c9c9c">I'll pass it categories</font>
+
+358
+00:18:25,151 --> 00:18:26,687
+<font color="#c8c8c8">And Revenue</font>
+
+359
+00:18:27,455 --> 00:18:28,735
+<font color="#f9f9f9">And give a color</font>
+
+360
+00:18:29,759 --> 00:18:30,783
+<font color="#9f9f9f">Off green</font>
+
+361
+00:18:32,063 --> 00:18:34,367
+<font color="#f7f7f7">Then I can say</font>
+
+362
+00:18:34,879 --> 00:18:36,159
+<font color="#767676">Lord Dot</font>
+
+363
+00:18:36,415 --> 00:18:38,719
+<font color="#dedede">Title I'll give it a title I'll say</font>
+
+364
+00:18:39,487 --> 00:18:41,279
+<font color="#d1d1d1">Revenue by</font>
+
+365
+00:18:41,791 --> 00:18:42,559
+<font color="#2e2e2e">Kate</font>
+
+366
+00:18:44,095 --> 00:18:45,887
+<font color="#a9a9a9">And show this a lot</font>
+
+367
+00:18:47,167 --> 00:18:48,447
+<font color="#c8c8c8">Now if I run this</font>
+
+368
+00:18:53,055 --> 00:18:54,335
+<font color="#cbcbcb">I have my line plot</font>
+
+369
+00:18:55,103 --> 00:18:56,127
+<font color="#e3e3e3">Close this</font>
+
+370
+00:18:56,383 --> 00:18:57,151
+<font color="#efefef">I have</font>
+
+371
+00:18:57,407 --> 00:19:02,271
+<font color="#dddddd">Bar chart I had to I should have commented that but if you close that the next one will run</font>
+
+372
+00:19:02,527 --> 00:19:07,391
+<font color="#dfdfdf">I'll show you your categories you'll show your Revenue here</font>
+
+373
+00:19:07,647 --> 00:19:13,791
+<font color="#d0d0d0">And if you have three different numbers to 5400 and 150 depending on what it is and that's why it is open</font>
+
+374
+00:19:14,047 --> 00:19:16,351
+<font color="#818181">Connect to bar chart</font>
+
+375
+00:19:16,863 --> 00:19:18,399
+<font color="#fcfcfc">Next thing that I want to do</font>
+
+376
+00:19:19,423 --> 00:19:20,447
+<font color="#f5f5f5">Is</font>
+
+377
+00:19:20,703 --> 00:19:22,239
+<font color="#ababab">The scatter plot</font>
+
+378
+00:19:22,751 --> 00:19:24,799
+<font color="#eeeeee">So for this</font>
+
+379
+00:19:26,335 --> 00:19:27,615
+<font color="#686868">Scatter plot</font>
+
+380
+00:19:27,871 --> 00:19:31,967
+<font color="#e5e5e5">What do you need to do is first use let's say our study of how many hours</font>
+
+381
+00:19:32,479 --> 00:19:33,247
+<font color="#1a1a1a">Stud</font>
+
+382
+00:19:35,295 --> 00:19:39,903
+<font color="#d8d8d8">If I study 1 Hour 2 hours 3 hours 4 hour and 5 hours what's the difference</font>
+
+383
+00:19:40,415 --> 00:19:43,487
+<font color="#e0e0e0">Exam scores based on how much are study</font>
+
+384
+00:19:44,255 --> 00:19:46,559
+<font color="#8d8d8d">Say 531 hours I get</font>
+
+385
+00:19:47,327 --> 00:19:48,351
+<font color="#cecece">55</font>
+
+386
+00:19:48,863 --> 00:19:50,399
+<font color="#d7d7d7">65</font>
+
+387
+00:19:50,911 --> 00:19:56,799
+<font color="#cfcfcf">7085 just on the graph you can say depending on how much you study better use code</font>
+
+388
+00:19:57,055 --> 00:19:58,079
+<font color="#dddddd">In your exams</font>
+
+389
+00:19:58,591 --> 00:20:01,151
+<font color="#818181">Next episode</font>
+
+390
+00:20:02,687 --> 00:20:04,735
+<font color="#9b9b9b">I passed this our studies</font>
+
+391
+00:20:05,759 --> 00:20:07,551
+<font color="#c1c1c1">What's this exam scores</font>
+
+392
+00:20:08,063 --> 00:20:09,855
+<font color="#ededed">And I want to display</font>
+
+393
+00:20:11,903 --> 00:20:15,231
+<font color="#b1b1b1">Nice color for these products not the status</font>
+
+394
+00:20:15,487 --> 00:20:17,279
+<font color="#8c8c8c">Lord dot title</font>
+
+395
+00:20:22,911 --> 00:20:25,215
+<font color="#d4d4d4">Exam scores</font>
+
+396
+00:20:26,495 --> 00:20:28,543
+<font color="#3d3d3d">What's a plot Dot xlabel</font>
+
+397
+00:20:35,455 --> 00:20:38,015
+<font color="#cecece">I want to use a viable to</font>
+
+398
+00:20:39,551 --> 00:20:40,831
+<font color="#e6e6e6">I'll call it</font>
+
+399
+00:20:41,599 --> 00:20:43,647
+<font color="#c8c8c8">Exam scores</font>
+
+400
+00:20:44,927 --> 00:20:47,231
+<font color="#cecece">Then finally show me this plot</font>
+
+401
+00:20:47,743 --> 00:20:48,767
+<font color="#9a9a9a">Run this</font>
+
+402
+00:20:50,815 --> 00:20:53,631
+<font color="#f0f0f0">And I have my exam plots based on how much</font>
+
+403
+00:20:53,887 --> 00:20:55,679
+<font color="#787878">What are study more High School</font>
+
+404
+00:20:56,191 --> 00:20:57,727
+<font color="#ececec">So these are the</font>
+
+405
+00:20:58,239 --> 00:21:02,591
+<font color="#979797">Three jobs that is greater recruiter line graph showing</font>
+
+406
+00:21:02,847 --> 00:21:05,407
+<font color="#c5c5c5">Sales Trend we did a bar chart</font>
+
+407
+00:21:05,663 --> 00:21:11,807
+<font color="#c8c8c8">Showing Revenue comparisons and then we just got the plot showing the relationship between study hours and ex</font>
+
+408
+00:21:13,343 --> 00:21:17,952
+<font color="#f0f0f0">So I hope you are able to follow along if not let me know and I can help you out</font>
+
+409
+00:21:18,208 --> 00:21:20,512
+<font color="#c5c5c5">But let's move on to exercise to</font>
+
+410
+00:21:21,024 --> 00:21:24,096
+<font color="#cdcdcd">But we will be creating a heat map with Seaborn</font>
+
+411
+00:21:24,608 --> 00:21:30,240
+<font color="#d0d0d0">So the objective here is will you see born to create a heat map from a correlation Matrix</font>
+
+412
+00:21:30,752 --> 00:21:36,896
+<font color="#e4e4e4">Instructions that I can follow here is first I load a data set and calculate the</font>
+
+413
+00:21:37,152 --> 00:21:38,176
+<font color="#d6d6d6">Correlation Matrix</font>
+
+414
+00:21:38,432 --> 00:21:40,992
+<font color="#eeeeee">Then I'm going to visualize the correlation Matrix</font>
+
+415
+00:21:41,248 --> 00:21:42,272
+<font color="#e7e7e7">Using a heat map</font>
+
+416
+00:21:42,784 --> 00:21:44,064
+<font color="#f2f2f2">In this particular case</font>
+
+417
+00:21:44,320 --> 00:21:47,648
+<font color="#f0f0f0">I will be loading up that same Irish database</font>
+
+418
+00:21:47,904 --> 00:21:51,488
+<font color="#f6f6f6">That we loaded earlier in one of the days this week</font>
+
+419
+00:21:51,744 --> 00:21:54,560
+<font color="#d9d9d9">So I am going to go here to create one</font>
+
+420
+00:21:57,120 --> 00:21:59,168
+<font color="#5e5e5e">Day6</font>
+
+421
+00:21:59,424 --> 00:22:02,496
+<font color="#666666">Underscore exercise 2.0 by</font>
+
+422
+00:22:03,776 --> 00:22:05,312
+<font color="#f9f9f9">And this is the URL</font>
+
+423
+00:22:06,336 --> 00:22:07,616
+<font color="#e0e0e0">We're going to get the data from</font>
+
+424
+00:22:07,872 --> 00:22:10,432
+<font color="#e8e8e8">So first let's get pandas</font>
+
+425
+00:22:10,944 --> 00:22:11,968
+<font color="#636363">SPD</font>
+
+426
+00:22:12,736 --> 00:22:14,784
+<font color="#f3f3f3">Next we need</font>
+
+427
+00:22:16,064 --> 00:22:17,088
+<font color="#474747">Seabourn</font>
+
+428
+00:22:17,856 --> 00:22:19,648
+<font color="#c1c1c1">As SMS</font>
+
+429
+00:22:20,416 --> 00:22:22,464
+<font color="#fbfbfb">Next I want to use</font>
+
+430
+00:22:22,720 --> 00:22:24,768
+<font color="#a3a3a3">The Mad plot live</font>
+
+431
+00:22:25,536 --> 00:22:27,840
+<font color="#686868">Lauderdale.by</font>
+
+432
+00:22:32,704 --> 00:22:33,984
+<font color="#555555">Southeast 3</font>
+
+433
+00:22:34,240 --> 00:22:39,616
+<font color="#e7e7e7">Next let's load the data set that we have so I'm going to say pound</font>
+
+434
+00:22:40,384 --> 00:22:41,920
+<font color="#d6d6d6">Copy this from here</font>
+
+435
+00:22:44,480 --> 00:22:46,272
+<font color="#a3a3a3">Load data set</font>
+
+436
+00:22:46,528 --> 00:22:49,088
+<font color="#dddddd">And I'm going to say DF equal to</font>
+
+437
+00:22:49,344 --> 00:22:50,880
+<font color="#3a3a3a">DD</font>
+
+438
+00:22:51,392 --> 00:22:52,928
+<font color="#cfcfcf">Read CSV</font>
+
+439
+00:22:53,696 --> 00:22:56,256
+<font color="#b8b8b8">In this series is coming from this URL</font>
+
+440
+00:22:57,024 --> 00:22:58,048
+<font color="#e4e4e4">So I have my</font>
+
+441
+00:22:58,304 --> 00:22:59,072
+<font color="#afafaf">Data set</font>
+
+442
+00:23:03,680 --> 00:23:04,704
+<font color="#c9c9c9">Calculate</font>
+
+443
+00:23:06,496 --> 00:23:07,520
+<font color="#b0b0b0">Relation</font>
+
+444
+00:23:08,800 --> 00:23:09,824
+<font color="#b9b9b9">Matrix</font>
+
+445
+00:23:10,592 --> 00:23:11,360
+<font color="#ededed">To do that</font>
+
+446
+00:23:11,616 --> 00:23:12,384
+<font color="#afafaf">I want to see</font>
+
+447
+00:23:13,408 --> 00:23:19,040
+<font color="#c9c9c9">Correlation this is just a variable so it doesn't matter if it is a typo</font>
+
+448
+00:23:19,296 --> 00:23:20,832
+<font color="#383838">CDF</font>
+
+449
+00:23:21,088 --> 00:23:27,232
+<font color="#f3f3f3">Corr that's the function that will give us the correlation Matrix for the data that we have which is the</font>
+
+450
+00:23:27,488 --> 00:23:28,512
+<font color="#dadada">Types of petals</font>
+
+451
+00:23:28,768 --> 00:23:30,048
+<font color="#8d8d8d">Open this we have</font>
+
+452
+00:23:30,560 --> 00:23:31,584
+<font color="#d8d8d8">Next</font>
+
+453
+00:23:31,840 --> 00:23:33,120
+<font color="#f7f7f7">I am going to say</font>
+
+454
+00:23:34,144 --> 00:23:35,168
+<font color="#d5d5d5">The Heat</font>
+
+455
+00:23:36,704 --> 00:23:40,032
+<font color="#8a8a8a">SNS</font>
+
+456
+00:23:40,288 --> 00:23:41,312
+<font color="#b4b4b4">Heat map</font>
+
+457
+00:23:41,824 --> 00:23:43,872
+<font color="#d9d9d9">Unpause the correlation</font>
+
+458
+00:23:45,152 --> 00:23:46,176
+<font color="#e2e2e2">Where is it</font>
+
+459
+00:23:47,712 --> 00:23:48,992
+<font color="#e5e5e5">Correlation Matrix</font>
+
+460
+00:23:49,504 --> 00:23:51,808
+<font color="#d8d8d8">Next I will hope I have</font>
+
+461
+00:23:52,064 --> 00:23:53,088
+<font color="#525252">2007 equal</font>
+
+462
+00:23:53,856 --> 00:23:57,696
+<font color="#ebebeb">Next I want to give annotation equal to</font>
+
+463
+00:23:58,208 --> 00:23:59,744
+<font color="#898989">Drew annotated</font>
+
+464
+00:24:00,000 --> 00:24:01,024
+<font color="#9e9e9e">Fancy</font>
+
+465
+00:24:01,280 --> 00:24:05,120
+<font color="#e8e8e8">If you like the previous School warm I'm going to use that same</font>
+
+466
+00:24:05,632 --> 00:24:07,936
+<font color="#a2a2a2">The same heat map</font>
+
+467
+00:24:08,192 --> 00:24:09,472
+<font color="#7e7e7e">Lord God</font>
+
+468
+00:24:09,728 --> 00:24:10,752
+<font color="#c1c1c1">Title</font>
+
+469
+00:24:11,008 --> 00:24:12,288
+<font color="#f0f0f0">Equal to</font>
+
+470
+00:24:13,312 --> 00:24:15,104
+<font color="#a4a4a4">Correlation</font>
+
+471
+00:24:15,872 --> 00:24:17,152
+<font color="#898989">Heat map</font>
+
+472
+00:24:17,920 --> 00:24:20,992
+<font color="#a0a0a0">Next I'm going to see plot dot show</font>
+
+473
+00:24:22,016 --> 00:24:28,160
+<font color="#eaeaea">So this should show me a heat map with annotation showing correlation between numerical columns in the data set which is</font>
+
+474
+00:24:28,416 --> 00:24:28,928
+<font color="#999999">What is</font>
+
+475
+00:24:29,184 --> 00:24:30,976
+<font color="#f9f9f9">If you remember this I can</font>
+
+476
+00:24:31,232 --> 00:24:32,768
+<font color="#f3f3f3">Open this up again</font>
+
+477
+00:24:33,024 --> 00:24:34,304
+<font color="#c4c4c4">In Chrome</font>
+
+478
+00:24:34,560 --> 00:24:39,424
+<font color="#b1b1b1">Indigo supplements separate battle length battle with and species</font>
+
+479
+00:24:40,448 --> 00:24:43,520
+<font color="#fafafa">So I will run this up in my</font>
+
+480
+00:24:44,544 --> 00:24:48,128
+<font color="#cdcdcd">Okay I think we have a good grass running clothes this</font>
+
+481
+00:24:49,408 --> 00:24:50,944
+<font color="#efefef">Lights on</font>
+
+482
+00:24:51,968 --> 00:24:55,040
+<font color="#989898">Day 6 underscore EX</font>
+
+483
+00:24:55,552 --> 00:25:01,696
+<font color="#b9b9b9">2.3 run this bill pull the data could not convert string to</font>
+
+484
+00:25:02,208 --> 00:25:06,560
+<font color="#f2f2f2">Foster the last column that we have over there is</font>
+
+485
+00:25:06,816 --> 00:25:12,960
+<font color="#e0e0e0">Is is not is not numbers is not numerical so it will cause problems for that so what I'm going to do</font>
+
+486
+00:25:13,216 --> 00:25:14,496
+<font color="#e1e1e1">I'm going to drop that</font>
+
+487
+00:25:14,752 --> 00:25:16,800
+<font color="#d0d0d0">Column from my data frame</font>
+
+488
+00:25:17,056 --> 00:25:20,384
+<font color="#cccccc">So to do that I can just say d e l</font>
+
+489
+00:25:22,688 --> 00:25:23,456
+<font color="#989898">And that</font>
+
+490
+00:25:23,712 --> 00:25:24,736
+<font color="#c2c2c2">Column was</font>
+
+491
+00:25:25,248 --> 00:25:26,016
+<font color="#616161">Call</font>
+
+492
+00:25:27,552 --> 00:25:28,576
+<font color="#ebebeb">Let's open that</font>
+
+493
+00:25:28,832 --> 00:25:29,856
+<font color="#8d8d8d">Data set again</font>
+
+494
+00:25:30,368 --> 00:25:31,392
+<font color="#e1e1e1">It was called</font>
+
+495
+00:25:31,648 --> 00:25:33,696
+<font color="#f4f4f4">Species go back</font>
+
+496
+00:25:36,256 --> 00:25:37,536
+<font color="#b1b1b1">Jose drop that</font>
+
+497
+00:25:38,304 --> 00:25:39,328
+<font color="#f7f7f7">Let's go back</font>
+
+498
+00:25:40,096 --> 00:25:41,120
+<font color="#ababab">Clear it out</font>
+
+499
+00:25:41,632 --> 00:25:42,400
+<font color="#767676">Run it</font>
+
+500
+00:25:44,192 --> 00:25:50,336
+<font color="#cacaca">And now we have it based on the other items that we have better pedal and petals settled with</font>
+
+501
+00:25:50,592 --> 00:25:56,736
+<font color="#d6d6d6">What's the length in Federal Way it has the heat map depending on how the correlation Matrix shows up</font>
+
+502
+00:25:57,248 --> 00:26:03,392
+<font color="#f1f1f1">So if I hope you were able to follow along with this if you have any questions or had any other issues not something that I'm</font>
+
+503
+00:26:03,648 --> 00:26:04,672
+<font color="#b4b4b4">Can you sing let me know</font>
+
+504
+00:26:05,440 --> 00:26:05,952
+<font color="#cecece">For now</font>
+
+505
+00:26:06,208 --> 00:26:08,256
+<font color="#e2e2e2">For additional practice you can look at</font>
+
+506
+00:26:08,512 --> 00:26:11,072
+<font color="#fcfcfc">How to create a histogram with multiple</font>
+
+507
+00:26:11,328 --> 00:26:14,400
+<font color="#e7e7e7">Data sets overlaid that's one thing that you can try</font>
+
+508
+00:26:14,656 --> 00:26:16,704
+<font color="#eaeaea">Next you can try is</font>
+
+509
+00:26:16,960 --> 00:26:18,240
+<font color="#464646">Seabourn</font>
+
+510
+00:26:18,496 --> 00:26:21,824
+<font color="#f1f1f1">To create a violin plot or box plot</font>
+
+511
+00:26:22,080 --> 00:26:23,872
+<font color="#ececec">For visualizing distributions</font>
+
+512
+00:26:25,152 --> 00:26:27,968
+<font color="#f5f5f5">Try to combine multiple plots in a single figure</font>
+
+513
+00:26:28,224 --> 00:26:30,272
+<font color="#8f8f8f">Using matte black lips</font>
+
+514
+00:26:30,528 --> 00:26:34,112
+<font color="#efefef">Subplot so try this out and let me know if you have any issues or problems</font>
+
+515
+00:26:35,648 --> 00:26:41,792
+<font color="#e4e4e4">We learned how to visualize data using matplotlib and Seaborn focusing on basic plot</font>
+
+516
+00:26:42,048 --> 00:26:46,912
+<font color="#d2d2d2">Asian and advanced statistical visualizations are these skills are crucial for presenting data</font>
+
+517
+00:26:47,168 --> 00:26:53,312
+<font color="#ededed">And uncovering insights in data science and are projects that will be working on in the future weeks so</font>
+
+518
+00:26:53,568 --> 00:26:59,712
+<font color="#f8f8f8">Let me know if you are able to follow along if you had any questions or problems let me know and we can move to the next day see you tomorrow</font>

@@ -1,0 +1,47 @@
+﻿1
+00:00:00,768 --> 00:00:01,792
+<font color="#c2c2c2">Welcome to week one</font>
+
+2
+00:00:02,048 --> 00:00:04,096
+<font color="#e1e1e1">Python Programming basics</font>
+
+3
+00:00:04,608 --> 00:00:09,216
+<font color="#d7d7d7">Are they one we will cover introduction to Python and development set</font>
+
+4
+00:00:09,984 --> 00:00:13,056
+<font color="#dcdcdc">Day two will be looking at some control flow in Python</font>
+
+5
+00:00:14,080 --> 00:00:14,848
+<font color="#b9b9b9">Day</font>
+
+6
+00:00:15,104 --> 00:00:17,152
+<font color="#d6d6d6">We'll be looking at functions and modules</font>
+
+7
+00:00:18,176 --> 00:00:22,016
+<font color="#e1e1e1">Therefore will cover data structures which will Encompass list</font>
+
+8
+00:00:23,040 --> 00:00:24,320
+<font color="#bebebe">Dictionaries and sets</font>
+
+9
+00:00:25,088 --> 00:00:27,648
+<font color="#d7d7d7">Day five will be looking at working with strings</font>
+
+10
+00:00:28,672 --> 00:00:30,464
+<font color="#c3c3c3">Day6 will be file handling</font>
+
+11
+00:00:30,976 --> 00:00:32,256
+<font color="#b2b2b2">Followed by day 7</font>
+
+12
+00:00:32,512 --> 00:00:35,840
+<font color="#d8d8d8">They'll be looking at pythonic code and project work</font>

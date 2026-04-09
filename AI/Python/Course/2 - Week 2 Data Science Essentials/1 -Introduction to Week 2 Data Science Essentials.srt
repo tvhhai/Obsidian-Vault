@@ -1,0 +1,63 @@
+﻿1
+00:00:00,256 --> 00:00:01,280
+<font color="#dcdcdc">Welcome to week 2</font>
+
+2
+00:00:01,536 --> 00:00:03,072
+<font color="#f6f6f6">Data science Essentials</font>
+
+3
+00:00:03,840 --> 00:00:04,352
+<font color="#fafafa">This week</font>
+
+4
+00:00:04,864 --> 00:00:09,472
+<font color="#cbcbcb">On day one will cover introduction to numpy for numerical computing</font>
+
+5
+00:00:10,240 --> 00:00:11,008
+<font color="#cecece">Followed</font>
+
+6
+00:00:12,032 --> 00:00:14,848
+<font color="#cacaca">Are you looking at Advanced numpy operations</font>
+
+7
+00:00:15,616 --> 00:00:16,896
+<font color="#b8b8b8">Dietary will cover</font>
+
+8
+00:00:17,152 --> 00:00:18,688
+<font color="#e6e6e6">Introduction to pandas</font>
+
+9
+00:00:18,944 --> 00:00:19,968
+<font color="#dedede">For data manipulation</font>
+
+10
+00:00:20,736 --> 00:00:21,504
+<font color="#363636">There</font>
+
+11
+00:00:21,760 --> 00:00:25,344
+<font color="#ececec">We will be looking at data cleaning and preparation with pandas</font>
+
+12
+00:00:26,368 --> 00:00:28,672
+<font color="#cacaca">J5 will be data aggregation</font>
+
+13
+00:00:28,928 --> 00:00:30,720
+<font color="#e8e8e8">And grouping in pandas</font>
+
+14
+00:00:32,512 --> 00:00:35,840
+<font color="#bebebe">Will be data visualization with Matt Butler and sea</font>
+
+15
+00:00:36,352 --> 00:00:37,632
+<font color="#cecece">Followed by day 7</font>
+
+16
+00:00:37,888 --> 00:00:41,984
+<font color="#e5e5e5">Where will we be looking at an exploratory data analysis or Eda project</font>
