@@ -4,42 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "69657b3a75a477e2",
+        "id": "f063625554e58d53",
         "type": "tabs",
         "children": [
           {
-            "id": "299bdc2cb875b4b2",
-            "type": "leaf",
-            "state": {
-              "type": "mx-file",
-              "state": {
-                "file": "AI/Agentic AI/Course/1 - Introduction/1. Introduction.mp4",
-                "mx": {
-                  "json": {
-                    "hash": {}
-                  }
-                }
-              },
-              "icon": "lucide-file-video",
-              "title": "1. Introduction"
-            }
-          },
-          {
-            "id": "e3c2a280d8b06fb0",
+            "id": "c71c923c8861c4ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Agentic AI/Sum/07. Design Patterns.md",
-                "mode": "source",
+                "file": "AI/Agentic AI/Agent Testing & Evaluation.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07. Design Patterns"
+              "title": "Agent Testing & Evaluation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 572.5
+    "width": 273.5
   },
   "right": {
     "id": "3e6a1deb67589e3b",
@@ -213,26 +195,32 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "e3c2a280d8b06fb0",
+  "active": "c71c923c8861c4ae",
   "lastOpenFiles": [
-    "AI/Agentic AI/Sum/06. AI Agent Frameworks.md",
+    "AI/Agentic AI/MCP Protocol Chi tiết.md",
+    "AI/Agentic AI/Production Agent Deployment.md",
+    "AI/Agentic AI/Multi-Agent Implementation.md",
+    "AI/Agentic AI/Agentic AI Architecture Với Pattern, Framework & MCP.md",
+    "AI/Agentic AI/Agent Testing & Evaluation.md",
     "AI/Agentic AI/Sum/05. Agentic Workflows.md",
+    "AI/Python",
+    "AI/Agentic AI/Sum/00. Learning Plan.md",
+    "AI/Agentic AI/Course/1 - Introduction/1. Introduction.mp4",
+    "AI/Agentic AI/Sum/07. Design Patterns.md",
+    "AI/Agentic AI/Course/1 - Introduction/1. Introduction.srt",
+    "AI/Agentic AI/Eng/1. Introduction.srt",
+    "AI/Agentic AI/Eng",
+    "AI/Agentic AI/New folder",
+    "AI/Agentic AI/Sum/06. AI Agent Frameworks.md",
     "AI/Agentic AI/Sum/04. Multi-Agent Architecture.md",
     "AI/Agentic AI/Sum/03. AI Agent Components.md",
     "AI/Agentic AI/Sum/02. Use Cases and Challenges.md",
     "AI/Agentic AI/Sum/01. Introduction.md",
     "AI/Windsturf/05-AI-Agent-Comparison-Complete.md",
-    "AI/Agentic AI/Sum/07. Design Patterns.md",
     "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/23. Introduction What is Agentic AI.mp4",
     "training_details.txt",
     "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/23. Introduction What is Agentic AI.srt",
     "AI/Agentic AI/Course/1 - Introduction/4. The Evolution From Generative AI to Agentic AI.srt",
-    "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/28. The Hard Parts Challenges of Agentic AI Systems.mp4",
-    "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/27. [DESIGN] Orchestration and Choreography of Agentic AI Architectures.mp4",
-    "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/26. How Agentic AI Works System Level Architectures (Orchestration or Choreography).srt",
-    "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/26. How Agentic AI Works System Level Architectures (Orchestration or Choreography).mp4",
-    "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/25. What is Agentic Architecture (Multi Agent System (MAS)).mp4",
-    "AI/Agentic AI/Course/4 - What is Agentic AI Multi Agent Architectures/24. AI Agent vs Agentic AI The Critical Difference.mp4",
     "AI/Agentic AI/Sum/Các Design Patterns Trong AI Agentic.md",
     "AI/Agentic AI/Sum/Ứng Dụng Thực Tế và Thách Thức.md",
     "AI/Agentic AI/Sum/Tổng Quan Khóa Học AI Agentic.md",
@@ -243,7 +231,6 @@
     "AI/Windsturf/01-Overview.md",
     "AI/Windsturf/02-Best-Practices.md",
     "AI/Windsturf/03-Practical-Examples.md",
-    "AI/Windsturf/04-Presentation-Summary.md",
-    "AI/Windsturf/Use.md"
+    "AI/Windsturf/04-Presentation-Summary.md"
   ]
 }
