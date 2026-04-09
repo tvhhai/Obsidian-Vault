@@ -1,86 +1,107 @@
 ﻿1
 00:00:00,256 --> 00:00:05,120
 <font color="#e6e6e6">Welcome to day 3 where we will be covering functions and modules in Python</font>
+<font color="#ffff00">Chào mừng đến với ngày thứ 3, nơi chúng ta sẽ đề cập đến các hàm và mô-đun trong Python</font>
 
 2
 00:00:05,888 --> 00:00:06,912
 <font color="#cdcdcd">Will start with</font>
+<font color="#ffff00">Sẽ bắt đầu với</font>
 
 3
 00:00:07,168 --> 00:00:13,312
 <font color="#dddddd">Define functions with deaf have you already done this in the previous day or yesterday</font>
+<font color="#ffff00">Xác định chức năng với người khiếm thính bạn đã thực hiện việc này vào ngày hôm trước hay ngày hôm qua</font>
 
 4
 00:00:14,080 --> 00:00:17,664
 <font color="#ececec">But you're going to go in more details about what are functions</font>
+<font color="#ffff00">Nhưng bạn sẽ đi vào chi tiết hơn về chức năng là gì</font>
 
 5
 00:00:17,920 --> 00:00:20,480
 <font color="#e9e9e9">Malfunction is a reusable block of code</font>
+<font color="#ffff00">Sự cố là khối mã có thể tái sử dụng</font>
 
 6
 00:00:20,736 --> 00:00:22,528
 <font color="#e6e6e6">That performs a specific task</font>
+<font color="#ffff00">Điều đó thực hiện một nhiệm vụ cụ thể</font>
 
 7
 00:00:23,040 --> 00:00:27,392
 <font color="#e5e5e5">Functions improve modularity and code reusability it helps you</font>
+<font color="#ffff00">Các chức năng cải thiện tính mô-đun và khả năng sử dụng lại mã, nó giúp bạn</font>
 
 8
 00:00:27,648 --> 00:00:32,000
 <font color="#e7e7e7">You said for example if you see somewhere that you're repeating the same code over and over again</font>
+<font color="#ffff00">Bạn đã nói ví dụ nếu bạn thấy ở đâu đó bạn đang lặp đi lặp lại cùng một mã</font>
 
 9
 00:00:32,256 --> 00:00:36,352
 <font color="#e9e9e9">Just create a function out of it and call that function from one single place</font>
+<font color="#ffff00">Chỉ cần tạo một hàm từ nó và gọi hàm đó từ một nơi duy nhất</font>
 
 10
 00:00:36,608 --> 00:00:42,752
 <font color="#dedede">Send future if you have to change something and change on the other one place and don't have to change every single place</font>
+<font color="#ffff00">Gửi tương lai nếu bạn phải thay đổi điều gì đó và thay đổi ở một nơi khác và không phải thay đổi từng nơi</font>
 
 11
 00:00:43,008 --> 00:00:44,544
 <font color="#e1e1e1">Did you have the same functionality</font>
+<font color="#ffff00">Bạn có chức năng tương tự không</font>
 
 12
 00:00:45,824 --> 00:00:47,104
 <font color="#e4e4e4">Defining a function</font>
+<font color="#ffff00">Xác định hàm</font>
 
 13
 00:00:47,360 --> 00:00:53,504
 <font color="#e9e9e9">Did you find a function you use the def keyword as you saw in our calculator example</font>
+<font color="#ffff00">Bạn có tìm thấy một hàm sử dụng từ khóa def như bạn đã thấy trong ví dụ về máy tính của chúng tôi không?</font>
 
 14
 00:00:53,760 --> 00:00:55,552
 <font color="#b7b7b7">In yesterday's video</font>
+<font color="#ffff00">Trong video ngày hôm qua</font>
 
 15
 00:00:56,064 --> 00:00:59,136
 <font color="#f1f1f1">So you use the DF keyboard to define a particular function</font>
+<font color="#ffff00">Vì vậy, bạn sử dụng bàn phím DF để xác định một chức năng cụ thể</font>
 
 16
 00:01:00,160 --> 00:01:02,464
 <font color="#c3c3c3">No and it's at the Syntax for that</font>
+<font color="#ffff00">Không và đó là Cú pháp cho điều đó</font>
 
 17
 00:01:02,720 --> 00:01:04,768
 <font color="#eeeeee">Might look like I'm going to create</font>
+<font color="#ffff00">Có thể trông giống như tôi sắp tạo ra</font>
 
 18
 00:01:05,792 --> 00:01:08,096
 <font color="#efefef">File save it inside</font>
+<font color="#ffff00">Tập tin lưu nó bên trong</font>
 
 19
 00:01:08,352 --> 00:01:09,632
 <font color="#454545">RD3</font>
+<font color="#ffff00">RD3</font>
 
 20
 00:01:13,472 --> 00:01:13,984
 <font color="#b9b9b9">Call it</font>
+<font color="#ffff00">Gọi nó</font>
 
 21
 00:01:17,568 --> 00:01:18,848
 <font color="#d2d2d2">Samples</font>
+<font color="#ffff00">Mẫu</font>
 
 22
 00:01:19,616 --> 00:01:20,384
@@ -89,218 +110,272 @@
 23
 00:01:20,640 --> 00:01:24,224
 <font color="#e4e4e4">And here if I want to create a function you say start by saying def</font>
+<font color="#ffff00">Và ở đây nếu tôi muốn tạo một hàm, bạn nói hãy bắt đầu bằng cách nói def</font>
 
 24
 00:01:24,480 --> 00:01:30,368
 <font color="#f5f5f5">Then comes the function name so here is the function name whatever name you want you feel like you give here</font>
+<font color="#ffff00">Sau đó là tên hàm nên đây là tên hàm bất cứ tên nào bạn muốn mà bạn cảm thấy thích khi đặt ở đây</font>
 
 25
 00:01:30,624 --> 00:01:31,392
 <font color="#e3e3e3">And then</font>
+<font color="#ffff00">Và sau đó</font>
 
 26
 00:01:31,648 --> 00:01:34,720
 <font color="#dfdfdf">The parameters so whoever is calling this particular</font>
+<font color="#ffff00">Các tham số nên bất cứ ai đang gọi cái này cụ thể</font>
 
 27
 00:01:34,976 --> 00:01:37,536
 <font color="#ededed">Function needs to send parameters</font>
+<font color="#ffff00">Hàm cần gửi tham số</font>
 
 28
 00:01:37,792 --> 00:01:43,936
 <font color="#efefef">If it can be empty too if you don't want to send anything it's just like say print hello for example you don't need</font>
+<font color="#ffff00">Nếu nó cũng có thể trống nếu bạn không muốn gửi bất cứ thứ gì thì cũng giống như nói in xin chào chẳng hạn bạn không cần</font>
 
 29
 00:01:44,704 --> 00:01:48,288
 <font color="#e4e4e4">Any parameters in here but if you want to add two numbers then you add</font>
+<font color="#ffff00">Tham số nào cũng có ở đây nhưng nếu muốn cộng 2 số thì bạn cộng</font>
 
 30
 00:01:48,544 --> 00:01:51,616
 <font color="#eeeeee">Two different parameters here that are passed and below it</font>
+<font color="#ffff00">Hai tham số khác nhau ở đây được truyền và ở dưới nó</font>
 
 31
 00:01:51,872 --> 00:01:52,896
 <font color="#dedede">The next line</font>
+<font color="#ffff00">Dòng tiếp theo</font>
 
 32
 00:01:53,152 --> 00:01:55,200
 <font color="#b1b1b1">It goes well code block goes</font>
+<font color="#ffff00">Nó hoạt động tốt khối mã đi</font>
 
 33
 00:01:55,968 --> 00:02:00,320
 <font color="#f3f3f3">Malfunction can return or not return something if you want to return something back</font>
+<font color="#ffff00">Sự cố có thể trả lại hoặc không trả lại thứ gì đó nếu bạn muốn trả lại thứ gì đó</font>
 
 34
 00:02:00,576 --> 00:02:03,648
 <font color="#e2e2e2">Whoever called it like how we did in our calculator example</font>
+<font color="#ffff00">Bất cứ ai gọi nó giống như cách chúng tôi đã làm trong ví dụ về máy tính của mình</font>
 
 35
 00:02:03,904 --> 00:02:05,184
 <font color="#e9e9e9">You can use the return keyword</font>
+<font color="#ffff00">Bạn có thể sử dụng từ khóa return</font>
 
 36
 00:02:05,440 --> 00:02:07,232
 <font color="#c6c6c6">And pass a result back</font>
+<font color="#ffff00">Và trả lại kết quả</font>
 
 37
 00:02:07,488 --> 00:02:09,024
 <font color="#cacaca">Do the calling calling variable</font>
+<font color="#ffff00">Thực hiện biến gọi cuộc gọi</font>
 
 38
 00:02:09,792 --> 00:02:15,424
 <font color="#dfdfdf">Parameters are values passed to the function for processing</font>
+<font color="#ffff00">Tham số là các giá trị được truyền vào hàm để xử lý</font>
 
 39
 00:02:15,680 --> 00:02:16,960
 <font color="#f0f0f0">The return values</font>
+<font color="#ffff00">Các giá trị trả về</font>
 
 40
 00:02:17,216 --> 00:02:20,544
 <font color="#eaeaea">Are values returned by the function after the processor</font>
+<font color="#ffff00">Các giá trị có được hàm trả về sau bộ xử lý không</font>
 
 41
 00:02:21,568 --> 00:02:25,152
 <font color="#f9f9f9">Let's look at some examples in this case so we already created</font>
+<font color="#ffff00">Hãy xem xét một số ví dụ trong trường hợp này vì chúng tôi đã tạo</font>
 
 42
 00:02:25,408 --> 00:02:27,456
 <font color="#d6d6d6">That's fine I am going to</font>
+<font color="#ffff00">được thôi tôi sẽ đi</font>
 
 43
 00:02:27,968 --> 00:02:28,736
 <font color="#b1b1b1">Comment this out</font>
+<font color="#ffff00">Bình luận điều này ra</font>
 
 44
 00:02:29,760 --> 00:02:30,528
 <font color="#c5c5c5">And here</font>
+<font color="#ffff00">Và đây</font>
 
 45
 00:02:31,040 --> 00:02:31,552
 <font color="#e9e9e9">Create</font>
+<font color="#ffff00">Tạo nên</font>
 
 46
 00:02:32,576 --> 00:02:33,600
 <font color="#efefef">A function</font>
+<font color="#ffff00">một chức năng</font>
 
 47
 00:02:36,672 --> 00:02:37,696
 <font color="#8b8b8b">Parameters</font>
+<font color="#ffff00">Thông số</font>
 
 48
 00:02:41,280 --> 00:02:42,048
 <font color="#dfdfdf">Return</font>
+<font color="#ffff00">Trở lại</font>
 
 49
 00:02:43,840 --> 00:02:47,424
 <font color="#bababa">732 function to create a function as I mentioned you use def</font>
+<font color="#ffff00">Hàm 732 để tạo hàm như tôi đã đề cập bạn sử dụng def</font>
 
 50
 00:02:47,680 --> 00:02:51,008
 <font color="#dddddd">And then I'll say this is for my addition I'm going to say add</font>
+<font color="#ffff00">Và sau đó tôi sẽ nói đây là phần bổ sung của tôi. Tôi sẽ nói thêm</font>
 
 51
 00:02:51,520 --> 00:02:57,664
 <font color="#d5d5d5">Add numbers</font>
+<font color="#ffff00">Thêm số</font>
 
 52
 00:02:57,920 --> 00:03:04,064
 <font color="#f4f4f4">And I need to send two parameters because I want to add two numbers you can also add three numbers if you want</font>
+<font color="#ffff00">Và tôi cần gửi hai tham số vì tôi muốn cộng hai số bạn cũng có thể cộng ba số nếu muốn</font>
 
 53
 00:03:06,368 --> 00:03:07,648
 <font color="#f1f1f1">But I want to make it simple</font>
+<font color="#ffff00">Nhưng tôi muốn làm cho nó đơn giản</font>
 
 54
 00:03:09,184 --> 00:03:12,000
 <font color="#b9b9b9">Add two numbers A&D and returns it back</font>
+<font color="#ffff00">Cộng hai số A&D và trả về</font>
 
 55
 00:03:12,512 --> 00:03:15,584
 <font color="#e9e9e9">Now I can return it directly like this you can also do</font>
+<font color="#ffff00">Bây giờ tôi có thể trả lại trực tiếp như thế này bạn cũng có thể làm</font>
 
 56
 00:03:15,840 --> 00:03:16,608
 <font color="#f2f2f2">Is</font>
+<font color="#ffff00">Là</font>
 
 57
 00:03:16,864 --> 00:03:17,888
 <font color="#efefef">Inside here</font>
+<font color="#ffff00">Bên trong đây</font>
 
 58
 00:03:18,144 --> 00:03:21,216
 <font color="#e4e4e4">I can create a variable C and say a + b</font>
+<font color="#ffff00">Tôi có thể tạo một biến C và nói a + b</font>
 
 59
 00:03:21,472 --> 00:03:27,616
 <font color="#dfdfdf">Ninja Turtle C so that is also possible but less lines is always better so I always like to say</font>
+<font color="#ffff00">Ninja Turtle C thì điều đó cũng được nhưng ít dòng luôn tốt hơn nên tôi luôn muốn nói</font>
 
 60
 00:03:27,872 --> 00:03:29,408
 <font color="#bababa">A + b</font>
+<font color="#ffff00">A + b</font>
 
 61
 00:03:29,920 --> 00:03:32,480
 <font color="#dedede">Instead of doing this I'm going to comment this out</font>
+<font color="#ffff00">Thay vì làm điều này tôi sẽ bình luận điều này</font>
 
 62
 00:03:33,504 --> 00:03:36,320
 <font color="#ededed">And now to call it let's say a variable result</font>
+<font color="#ffff00">Và bây giờ gọi nó là một kết quả có thể thay đổi</font>
 
 63
 00:03:36,832 --> 00:03:39,904
 <font color="#d9d9d9">Wants to add two numbers can you add numbers</font>
+<font color="#ffff00">Muốn cộng hai số bạn có thể cộng số được không</font>
 
 64
 00:03:40,160 --> 00:03:43,232
 <font color="#d8d8d8">And pass two numbers for example 5 and</font>
+<font color="#ffff00">Và chuyển hai số ví dụ 5 và</font>
 
 65
 00:03:43,744 --> 00:03:45,024
 <font color="#d9d9d9">Three in this case</font>
+<font color="#ffff00">Ba trong trường hợp này</font>
 
 66
 00:03:45,792 --> 00:03:47,840
 <font color="#f6f6f6">And I want to print that</font>
+<font color="#ffff00">Và tôi muốn in nó</font>
 
 67
 00:03:48,352 --> 00:03:51,168
 <font color="#ededed">Summation of addition of those two numbers</font>
+<font color="#ffff00">Tổng của phép cộng hai số đó</font>
 
 68
 00:03:51,424 --> 00:03:52,448
 <font color="#e6e6e6">I can just</font>
+<font color="#ffff00">tôi có thể chỉ</font>
 
 69
 00:03:52,704 --> 00:03:53,472
 <font color="#848484">Put in that</font>
+<font color="#ffff00">Đặt vào đó</font>
 
 70
 00:03:53,728 --> 00:03:54,752
 <font color="#ababab">Result variable</font>
+<font color="#ffff00">Biến kết quả</font>
 
 71
 00:03:56,032 --> 00:03:57,568
 <font color="#f7f7f7">If I go to my</font>
+<font color="#ffff00">Nếu tôi đi đến chỗ của tôi</font>
 
 72
 00:03:59,104 --> 00:04:00,896
 <font color="#5c5c5c">Kansas City today</font>
+<font color="#ffff00">Thành phố Kansas ngày nay</font>
 
 73
 00:04:02,432 --> 00:04:06,016
 <font color="#b2b2b2">And here I have the three samples so I'm going to say python</font>
+<font color="#ffff00">Và ở đây tôi có ba mẫu nên tôi sẽ nói python</font>
 
 74
 00:04:07,808 --> 00:04:09,856
 <font color="#5f5f5f">Three samples dot pivot and some music</font>
+<font color="#ffff00">Ba mẫu chấm xoay và một số bản nhạc</font>
 
 75
 00:04:12,416 --> 00:04:13,952
 <font color="#868686">45 minutes</font>
+<font color="#ffff00">45 phút</font>
 
 76
 00:04:14,208 --> 00:04:15,488
 <font color="#949494">Lexus 48</font>
+<font color="#ffff00">Lexus 48</font>
 
 77
 00:04:16,000 --> 00:04:17,280
@@ -309,778 +384,972 @@
 78
 00:04:17,536 --> 00:04:21,375
 <font color="#e1e1e1">Get it out so that this is how you can create a function again</font>
+<font color="#ffff00">Lấy nó ra để đây là cách bạn có thể tạo lại một chức năng</font>
 
 79
 00:04:22,399 --> 00:04:25,215
 <font color="#e0e0e0">Function is created by the keyword def</font>
+<font color="#ffff00">Hàm được tạo bởi từ khóa def</font>
 
 80
 00:04:25,471 --> 00:04:27,007
 <font color="#c4c4c4">Radio defining a function</font>
+<font color="#ffff00">Radio xác định một chức năng</font>
 
 81
 00:04:27,263 --> 00:04:29,823
 <font color="#f2f2f2">Then the function name whatever name you want to give</font>
+<font color="#ffff00">Sau đó, tên hàm bất cứ tên nào bạn muốn đặt</font>
 
 82
 00:04:30,335 --> 00:04:36,223
 <font color="#f7f7f7">The parameters that it has or if you don't want to pass any parameters you can just skip it for example in this particular case</font>
+<font color="#ffff00">Các tham số mà nó có hoặc nếu bạn không muốn chuyển bất kỳ tham số nào, bạn có thể bỏ qua nó chẳng hạn trong trường hợp cụ thể này</font>
 
 83
 00:04:36,735 --> 00:04:38,015
 <font color="#f4f4f4">I can just say</font>
+<font color="#ffff00">Tôi chỉ có thể nói</font>
 
 84
 00:04:39,039 --> 00:04:41,343
 <font color="#ececec">Add two numbers and I can just</font>
+<font color="#ffff00">Cộng hai số và tôi chỉ có thể</font>
 
 85
 00:04:42,111 --> 00:04:42,879
 <font color="#c4c4c4">Return</font>
+<font color="#ffff00">Trở lại</font>
 
 86
 00:04:43,135 --> 00:04:44,415
 <font color="#fbfbfb">Two numbers like this</font>
+<font color="#ffff00">Hai số như thế này</font>
 
 87
 00:04:45,439 --> 00:04:45,951
 <font color="#747474">Run</font>
+<font color="#ffff00">Chạy</font>
 
 88
 00:04:47,231 --> 00:04:50,047
 <font color="#d3d3d3">Add two numbers and return it back but you have to</font>
+<font color="#ffff00">Thêm hai số và trả lại nhưng bạn phải</font>
 
 89
 00:04:50,303 --> 00:04:54,143
 <font color="#f9f9f9">Change the variables here which doesn't make any sense but</font>
+<font color="#ffff00">Thay đổi các biến ở đây không có ý nghĩa gì nhưng</font>
 
 90
 00:04:54,399 --> 00:04:58,239
 <font color="#e0e0e0">This is how you can create call a function with no parameters in there</font>
+<font color="#ffff00">Đây là cách bạn có thể tạo lệnh gọi một hàm không có tham số trong đó</font>
 
 91
 00:04:58,751 --> 00:04:59,775
 <font color="#e0e0e0">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 92
 00:05:00,031 --> 00:05:01,311
 <font color="#d1d1d1">How did you know functions</font>
+<font color="#ffff00">Làm sao bạn biết được chức năng</font>
 
 93
 00:05:01,567 --> 00:05:02,335
 <font color="#fafafa">Let's look at</font>
+<font color="#ffff00">Hãy nhìn vào</font>
 
 94
 00:05:03,359 --> 00:05:05,151
 <font color="#dbdbdb">And lifetime of variables</font>
+<font color="#ffff00">Và thời gian tồn tại của các biến</font>
 
 95
 00:05:05,663 --> 00:05:06,943
 <font color="#727272">No scope</font>
+<font color="#ffff00">Không có phạm vi</font>
 
 96
 00:05:07,199 --> 00:05:10,015
 <font color="#e6e6e6">Has two different types of scope one is called as a local scope</font>
+<font color="#ffff00">Có hai loại phạm vi khác nhau, một loại được gọi là phạm vi cục bộ</font>
 
 97
 00:05:10,527 --> 00:05:16,671
 <font color="#e1e1e1">Weather variables defined in the function are only accessible without within that function which means for</font>
+<font color="#ffff00">Các biến thời tiết được xác định trong hàm chỉ có thể truy cập được mà không có trong hàm đó, điều đó có nghĩa là đối với</font>
 
 98
 00:05:16,927 --> 00:05:19,231
 <font color="#e5e5e5">Example if I create a variable C here</font>
+<font color="#ffff00">Ví dụ nếu tôi tạo biến C ở đây</font>
 
 99
 00:05:21,279 --> 00:05:27,423
 <font color="#f0f0f0">The scope of this variable C is only for this particular function if I use see here it will not know</font>
+<font color="#ffff00">Phạm vi của biến C này chỉ dành riêng cho hàm này thôi nếu mình dùng thấy ở đây nó sẽ không biết</font>
 
 100
 00:05:27,679 --> 00:05:33,823
 <font color="#d6d6d6">What sea is and it will probably say nothing I don't know what she is so that is called as a local scope Within</font>
+<font color="#ffff00">Biển là gì và có lẽ nó sẽ không nói gì. Tôi không biết biển là gì nên nó được gọi là phạm vi địa phương Bên trong</font>
 
 101
 00:05:34,079 --> 00:05:34,591
 <font color="#dfdfdf">Particular function</font>
+<font color="#ffff00">Chức năng đặc biệt</font>
 
 102
 00:05:34,847 --> 00:05:37,407
 <font color="#efefef">We also have something called as a global scope</font>
+<font color="#ffff00">Chúng tôi cũng có một thứ gọi là phạm vi toàn cầu</font>
 
 103
 00:05:37,663 --> 00:05:41,503
 <font color="#cfcfcf">Bad videos defined outside functions are accessible</font>
+<font color="#ffff00">Các video xấu được xác định chức năng bên ngoài có thể truy cập được</font>
 
 104
 00:05:41,759 --> 00:05:44,063
 <font color="#e0e0e0">Throughout the program so that's the global scope</font>
+<font color="#ffff00">Xuyên suốt chương trình nên đó là phạm vi toàn cầu</font>
 
 105
 00:05:44,831 --> 00:05:46,623
 <font color="#d9d9d9">Lifetime</font>
+<font color="#ffff00">Trọn đời</font>
 
 106
 00:05:46,879 --> 00:05:48,927
 <font color="#e3e3e3">Where local variables exist</font>
+<font color="#ffff00">Nơi tồn tại các biến cục bộ</font>
 
 107
 00:05:49,183 --> 00:05:51,743
 <font color="#f5f5f5">Only as long as the function executes</font>
+<font color="#ffff00">Chỉ khi chức năng này thực thi</font>
 
 108
 00:05:51,999 --> 00:05:53,791
 <font color="#e9e9e9">So it means is the</font>
+<font color="#ffff00">Vì vậy nó có nghĩa là</font>
 
 109
 00:05:54,047 --> 00:05:58,143
 <font color="#e0e0e0">Is the local variable that I created for example to see that I've created here</font>
+<font color="#ffff00">Là biến cục bộ mà tôi đã tạo chẳng hạn để thấy rằng tôi đã tạo ở đây</font>
 
 110
 00:05:58,399 --> 00:06:04,543
 <font color="#f5f5f5">Only exist as long as the function executes as soon as the function is done executing those variables do not exist</font>
+<font color="#ffff00">Chỉ tồn tại miễn là hàm thực thi ngay khi hàm thực thi xong các biến đó không tồn tại</font>
 
 111
 00:06:05,055 --> 00:06:08,383
 <font color="#cecece">Global a variables versus throughout the program</font>
+<font color="#ffff00">Các biến toàn cục so với toàn bộ chương trình</font>
 
 112
 00:06:08,639 --> 00:06:12,735
 <font color="#f7f7f7">Unless it's modified within a function using the global keyword</font>
+<font color="#ffff00">Trừ khi nó được sửa đổi trong một hàm bằng từ khóa toàn cầu</font>
 
 113
 00:06:13,247 --> 00:06:18,623
 <font color="#ebebeb">I can show you some examples for it to run into examples let's first go ahead</font>
+<font color="#ffff00">Tôi có thể chỉ cho bạn một số ví dụ để bạn có thể chạy thành ví dụ trước tiên hãy tiếp tục</font>
 
 114
 00:06:19,135 --> 00:06:20,159
 <font color="#cdcdcd">And commented out</font>
+<font color="#ffff00">Và đã bình luận</font>
 
 115
 00:06:22,207 --> 00:06:24,255
 <font color="#e7e7e7">Let's start with the local scope</font>
+<font color="#ffff00">Hãy bắt đầu với phạm vi địa phương</font>
 
 116
 00:06:25,535 --> 00:06:29,375
 <font color="#f1f1f1">So for local scope I am going to create a function called as</font>
+<font color="#ffff00">Vì vậy, đối với phạm vi cục bộ, tôi sẽ tạo một hàm gọi là</font>
 
 117
 00:06:29,887 --> 00:06:30,655
 <font color="#a4a4a4">Greet</font>
+<font color="#ffff00">Chào hỏi</font>
 
 118
 00:06:31,935 --> 00:06:33,215
 <font color="#dedede">An inside here</font>
+<font color="#ffff00">Bên trong đây</font>
 
 119
 00:06:33,471 --> 00:06:35,007
 <font color="#f2f2f2">I am going to say message</font>
+<font color="#ffff00">Tôi định nói tin nhắn</font>
 
 120
 00:06:35,519 --> 00:06:36,287
 <font color="#ededed">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 121
 00:06:37,567 --> 00:06:38,079
 <font color="#c3c3c3">Hello</font>
+<font color="#ffff00">Xin chào</font>
 
 122
 00:06:39,103 --> 00:06:42,431
 <font color="#e2e2e2">Now this is a local variable inside this Greek function</font>
+<font color="#ffff00">Bây giờ đây là một biến cục bộ bên trong hàm Hy Lạp này</font>
 
 123
 00:06:42,687 --> 00:06:48,831
 <font color="#fafafa">Which means if I try to use that outside it will not know what is the value of this variable</font>
+<font color="#ffff00">Nghĩa là nếu mình thử sử dụng nó ở bên ngoài thì nó sẽ không biết giá trị của biến này là bao nhiêu</font>
 
 124
 00:06:49,087 --> 00:06:50,879
 <font color="#c4c4c4">Now if I call the Greet</font>
+<font color="#ffff00">Bây giờ nếu tôi gọi lời chào</font>
 
 125
 00:06:51,135 --> 00:06:51,903
 <font color="#b1b1b1">Function here</font>
+<font color="#ffff00">Chức năng ở đây</font>
 
 126
 00:06:52,159 --> 00:06:54,207
 <font color="#d8d8d8">Bishop call this this</font>
+<font color="#ffff00">Bishop gọi đây là</font>
 
 127
 00:06:54,719 --> 00:06:57,279
 <font color="#f8f8f8">Call this function and print the message but</font>
+<font color="#ffff00">Gọi hàm này và in thông báo nhưng</font>
 
 128
 00:06:57,535 --> 00:06:59,071
 <font color="#f5f5f5">If I try to print</font>
+<font color="#ffff00">Nếu tôi cố gắng in</font>
 
 129
 00:06:59,583 --> 00:07:00,607
 <font color="#f6f6f6">Something like</font>
+<font color="#ffff00">Một cái gì đó giống như</font>
 
 130
 00:07:00,863 --> 00:07:01,887
 <font color="#f4f4f4">Message here</font>
+<font color="#ffff00">Tin nhắn ở đây</font>
 
 131
 00:07:02,143 --> 00:07:08,287
 <font color="#f4f4f4">It will not know because this function this message variable is local scope only to this</font>
+<font color="#ffff00">Nó sẽ không biết vì chức năng này biến thông báo này chỉ có phạm vi cục bộ đối với điều này</font>
 
 132
 00:07:08,543 --> 00:07:10,079
 <font color="#cecece">Next function it's not available</font>
+<font color="#ffff00">Chức năng tiếp theo không có sẵn</font>
 
 133
 00:07:10,335 --> 00:07:15,967
 <font color="#ebebeb">Outside that's why you invented just so that we better understand this I can go back</font>
+<font color="#ffff00">Bên ngoài đó là lý do tại sao bạn phát minh ra chỉ để chúng ta hiểu rõ hơn về điều này Tôi có thể quay lại</font>
 
 134
 00:07:17,759 --> 00:07:18,527
 <font color="#dbdbdb">Clear it out</font>
+<font color="#ffff00">Xóa nó đi</font>
 
 135
 00:07:18,783 --> 00:07:24,927
 <font color="#dfdfdf">And run that and you see it gives me a racist name message is not defined it doesn't know where it's defined what are you trying to do</font>
+<font color="#ffff00">Và chạy nó và bạn thấy nó đưa cho tôi một thông báo tên phân biệt chủng tộc không được xác định nó không biết nó được xác định ở đâu bạn đang cố gắng làm gì</font>
 
 136
 00:07:25,183 --> 00:07:26,463
 <font color="#f2f2f2">So this gives you another</font>
+<font color="#ffff00">Vì vậy, điều này mang lại cho bạn một cái khác</font>
 
 137
 00:07:26,719 --> 00:07:27,487
 <font color="#696969">The remote</font>
+<font color="#ffff00">Điều khiển từ xa</font>
 
 138
 00:07:28,511 --> 00:07:34,655
 <font color="#f2f2f2">It will just work as same as before but doesn't try to run this and it will not give you a message so if</font>
+<font color="#ffff00">Nó sẽ vẫn hoạt động giống như trước nhưng không cố chạy cái này và nó sẽ không gửi cho bạn một thông báo nào, vì vậy nếu</font>
 
 139
 00:07:34,911 --> 00:07:39,519
 <font color="#f1f1f1">Play if you want to use this outside one thing that you can do is you can use Global scope so</font>
+<font color="#ffff00">Chơi nếu bạn muốn sử dụng điều này bên ngoài một điều bạn có thể làm là bạn có thể sử dụng phạm vi Toàn cầu để</font>
 
 140
 00:07:41,311 --> 00:07:42,591
 <font color="#c3c3c3">Comment these out</font>
+<font color="#ffff00">Bình luận những điều này</font>
 
 141
 00:07:45,151 --> 00:07:45,919
 <font color="#d0d0d0">Let's look</font>
+<font color="#ffff00">Hãy nhìn</font>
 
 142
 00:07:46,943 --> 00:07:47,711
 <font color="#808080">Global SC</font>
+<font color="#ffff00">SC toàn cầu</font>
 
 143
 00:07:48,991 --> 00:07:50,015
 <font color="#8a8a8a">No cancel Google</font>
+<font color="#ffff00">Không hủy Google</font>
 
 144
 00:07:50,527 --> 00:07:51,295
 <font color="#7c7c7c">Costco</font>
+<font color="#ffff00">Costco</font>
 
 145
 00:07:51,551 --> 00:07:53,599
 <font color="#e6e6e6">I'm creating a variable called as greeting</font>
+<font color="#ffff00">Tôi đang tạo một biến gọi là lời chào</font>
 
 146
 00:07:54,111 --> 00:07:55,903
 <font color="#eaeaea">Equal to let's call it hi</font>
+<font color="#ffff00">Tương đương hãy gọi nó là xin chào</font>
 
 147
 00:07:57,439 --> 00:07:59,999
 <font color="#dfdfdf">And I'm creating a function</font>
+<font color="#ffff00">Và tôi đang tạo một chức năng</font>
 
 148
 00:08:00,511 --> 00:08:02,303
 <font color="#b2b2b2">Call Desi hello</font>
+<font color="#ffff00">Gọi cho Desi xin chào</font>
 
 149
 00:08:04,863 --> 00:08:05,887
 <font color="#ececec">And inside here</font>
+<font color="#ffff00">Và bên trong đây</font>
 
 150
 00:08:06,143 --> 00:08:07,679
 <font color="#e3e3e3">I am going to say print</font>
+<font color="#ffff00">Tôi định nói là in</font>
 
 151
 00:08:09,727 --> 00:08:10,495
 <font color="#c9c9c9">Greeting</font>
+<font color="#ffff00">Lời chào</font>
 
 152
 00:08:10,751 --> 00:08:14,335
 <font color="#ececec">So what's happening is the the message that I created here I</font>
+<font color="#ffff00">Vậy điều đang xảy ra là thông điệp mà tôi đã tạo ra ở đây</font>
 
 153
 00:08:14,847 --> 00:08:18,943
 <font color="#e7e7e7">Created that variable outside which means it's available here</font>
+<font color="#ffff00">Đã tạo biến đó bên ngoài có nghĩa là nó có sẵn ở đây</font>
 
 154
 00:08:19,967 --> 00:08:21,247
 <font color="#fcfcfc">Inside the function</font>
+<font color="#ffff00">Bên trong hàm</font>
 
 155
 00:08:21,759 --> 00:08:23,039
 <font color="#f1f1f1">As well as</font>
+<font color="#ffff00">Cũng như</font>
 
 156
 00:08:23,295 --> 00:08:24,831
 <font color="#dbdbdb">I can just say print</font>
+<font color="#ffff00">Tôi chỉ có thể nói in</font>
 
 157
 00:08:25,599 --> 00:08:26,367
 <font color="#1c1c1c">Greet</font>
+<font color="#ffff00">Chào hỏi</font>
 
 158
 00:08:26,623 --> 00:08:32,767
 <font color="#ececec">Outside the function two and it will not give me another because if you see where the variable is defined is</font>
+<font color="#ffff00">Bên ngoài hàm hai và nó sẽ không cung cấp cho tôi hàm khác vì nếu bạn thấy biến được xác định ở đâu</font>
 
 159
 00:08:33,023 --> 00:08:38,655
 <font color="#eaeaea">Outside the function and is also accessible to the Sprint statement right here now if I run this year</font>
+<font color="#ffff00">Bên ngoài chức năng và cũng có thể truy cập được câu lệnh Sprint ngay tại đây nếu tôi chạy trong năm nay</font>
 
 160
 00:08:39,935 --> 00:08:40,959
 <font color="#f2f2f2">I will not have any</font>
+<font color="#ffff00">Tôi sẽ không có bất kỳ</font>
 
 161
 00:08:41,215 --> 00:08:42,495
 <font color="#999999">I don't even say hi</font>
+<font color="#ffff00">Tôi thậm chí không nói xin chào</font>
 
 162
 00:08:43,519 --> 00:08:45,567
 <font color="#cfcfcf">Here and then hide from here just say</font>
+<font color="#ffff00">Ở đây và sau đó trốn khỏi đây chỉ cần nói</font>
 
 163
 00:08:45,823 --> 00:08:47,615
 <font color="#e4e4e4">I can just concatenated</font>
+<font color="#ffff00">Tôi chỉ có thể nối</font>
 
 164
 00:08:49,919 --> 00:08:50,687
 <font color="#dedede">Inside</font>
+<font color="#ffff00">Bên trong</font>
 
 165
 00:08:51,199 --> 00:08:52,223
 <font color="#f9f9f9">The function</font>
+<font color="#ffff00">chức năng</font>
 
 166
 00:08:55,039 --> 00:08:57,343
 <font color="#e4e4e4">And this one I can say from</font>
+<font color="#ffff00">Và điều này tôi có thể nói từ</font>
 
 167
 00:08:57,855 --> 00:08:59,647
 <font color="#ededed">Outside the</font>
+<font color="#ffff00">Bên ngoài</font>
 
 168
 00:09:00,415 --> 00:09:00,927
 <font color="#222222">Fun</font>
+<font color="#ffff00">Vui vẻ</font>
 
 169
 00:09:02,207 --> 00:09:08,351
 <font color="#dbdbdb">Granite high from inside the function because it called this it will print it and then it will print this</font>
+<font color="#ffff00">Granite cao từ bên trong hàm vì nó gọi thế này nó sẽ in ra rồi nó sẽ in ra cái này</font>
 
 170
 00:09:08,607 --> 00:09:14,495
 <font color="#f2f2f2">Send hi message from both inside and outside the function so that's how you can create a global scope for this</font>
+<font color="#ffff00">Gửi tin nhắn xin chào từ cả bên trong và bên ngoài chức năng để đó là cách bạn có thể tạo phạm vi toàn cầu cho việc này</font>
 
 171
 00:09:15,775 --> 00:09:21,919
 <font color="#f0f0f0">Next let's look at importing and using modules now what are modules modules are</font>
+<font color="#ffff00">Tiếp theo, chúng ta hãy xem việc nhập và sử dụng các mô-đun mô-đun mô-đun là gì</font>
 
 172
 00:09:22,175 --> 00:09:22,687
 <font color="#c4c4c4">Python files</font>
+<font color="#ffff00">Tệp Python</font>
 
 173
 00:09:22,943 --> 00:09:29,087
 <font color="#f6f6f6">Containing a collection of functions and variables that can be used so instead of creating functions if there are</font>
+<font color="#ffff00">Chứa một tập hợp các hàm và biến có thể được sử dụng thay vì tạo các hàm nếu có</font>
 
 174
 00:09:29,343 --> 00:09:33,183
 <font color="#ebebeb">A lot of things that you are doing and want to reuse among different teams</font>
+<font color="#ffff00">Rất nhiều thứ bạn đang làm và muốn sử dụng lại giữa các nhóm khác nhau</font>
 
 175
 00:09:33,439 --> 00:09:39,583
 <font color="#f0f0f0">Python files containing a collection of functions and variables that can be</font>
+<font color="#ffff00">Các tệp Python chứa tập hợp các hàm và biến có thể được</font>
 
 176
 00:09:40,607 --> 00:09:43,167
 <font color="#f0f0f0">Building modules can include something like</font>
+<font color="#ffff00">Xây dựng các mô-đun có thể bao gồm một cái gì đó như</font>
 
 177
 00:09:43,423 --> 00:09:49,567
 <font color="#e5e5e5">Python is already given you some modules like math module OS module and random module</font>
+<font color="#ffff00">Python đã cung cấp cho bạn một số mô-đun như mô-đun toán học mô-đun hệ điều hành và mô-đun ngẫu nhiên</font>
 
 178
 00:09:50,847 --> 00:09:53,663
 <font color="#cdcdcd">First let's look at importing modules</font>
+<font color="#ffff00">Trước tiên hãy xem việc nhập mô-đun</font>
 
 179
 00:09:53,919 --> 00:09:58,271
 <font color="#ededed">There are different ways you can import modules you can import an entire module</font>
+<font color="#ffff00">Có nhiều cách khác nhau để bạn có thể nhập mô-đun, bạn có thể nhập toàn bộ mô-đun</font>
 
 180
 00:09:58,527 --> 00:10:00,831
 <font color="#e2e2e2">Read I can give you an example</font>
+<font color="#ffff00">Đọc tôi có thể cho bạn một ví dụ</font>
 
 181
 00:10:02,367 --> 00:10:03,903
 <font color="#e2e2e2">Just comment this out</font>
+<font color="#ffff00">Chỉ cần bình luận điều này</font>
 
 182
 00:10:04,415 --> 00:10:07,231
 <font color="#e9e9e9">So if you want to import an entire module you do</font>
+<font color="#ffff00">Vì vậy, nếu bạn muốn nhập toàn bộ mô-đun, bạn làm</font>
 
 183
 00:10:07,743 --> 00:10:10,815
 <font color="#dbdbdb">For example I want to import the math module so I'm going to say import</font>
+<font color="#ffff00">Ví dụ: tôi muốn nhập mô-đun toán học nên tôi sẽ nói nhập</font>
 
 184
 00:10:11,839 --> 00:10:12,607
 <font color="#cacaca">And in here</font>
+<font color="#ffff00">Và ở đây</font>
 
 185
 00:10:12,863 --> 00:10:15,935
 <font color="#f9f9f9">No I can use that module by saying math</font>
+<font color="#ffff00">Không, tôi có thể sử dụng mô-đun đó bằng cách nói toán</font>
 
 186
 00:10:16,191 --> 00:10:18,751
 <font color="#c0c0c0">Dot there's a function called a square root in there</font>
+<font color="#ffff00">Chấm có một hàm gọi là căn bậc hai trong đó</font>
 
 187
 00:10:19,263 --> 00:10:21,311
 <font color="#959595">Is it called that √16</font>
+<font color="#ffff00">Nó có được gọi là √16 không</font>
 
 188
 00:10:22,079 --> 00:10:24,383
 <font color="#e7e7e7">If I run this so I don't have to write the code</font>
+<font color="#ffff00">Nếu tôi chạy cái này thì tôi không phải viết mã</font>
 
 189
 00:10:24,639 --> 00:10:25,919
 <font color="#afafaf">To actually</font>
+<font color="#ffff00">Để thực sự</font>
 
 190
 00:10:26,431 --> 00:10:30,783
 <font color="#d4d4d4">Get a square root of a particular number I can just say Maddox square root</font>
+<font color="#ffff00">Lấy căn bậc hai của một số cụ thể. Tôi chỉ có thể nói căn bậc hai Maddox</font>
 
 191
 00:10:31,551 --> 00:10:32,831
 <font color="#b3b3b3">And if I run this it will say</font>
+<font color="#ffff00">Và nếu tôi chạy cái này nó sẽ nói</font>
 
 192
 00:10:33,087 --> 00:10:34,623
 <font color="#a1a1a1">4 is the square root of 16</font>
+<font color="#ffff00">4 là căn bậc hai của 16</font>
 
 193
 00:10:35,391 --> 00:10:36,159
 <font color="#e6e6e6">Next is</font>
+<font color="#ffff00">Tiếp theo là</font>
 
 194
 00:10:36,927 --> 00:10:42,047
 <font color="#f4f4f4">Importing specific functions now math has a lot of different functions but if you want to only</font>
+<font color="#ffff00">Nhập các hàm cụ thể bây giờ toán có rất nhiều hàm khác nhau nhưng nếu bạn muốn chỉ</font>
 
 195
 00:10:42,303 --> 00:10:44,607
 <font color="#e8e8e8">Import a particular functions in this case</font>
+<font color="#ffff00">Nhập một hàm cụ thể trong trường hợp này</font>
 
 196
 00:10:44,863 --> 00:10:47,423
 <font color="#e0e0e0">I want to from</font>
+<font color="#ffff00">tôi muốn từ</font>
 
 197
 00:10:49,215 --> 00:10:50,751
 <font color="#fafafa">I want to import</font>
+<font color="#ffff00">Tôi muốn nhập khẩu</font>
 
 198
 00:10:51,007 --> 00:10:52,031
 <font color="#878787">Square root</font>
+<font color="#ffff00">Căn bậc hai</font>
 
 199
 00:10:53,055 --> 00:10:59,199
 <font color="#f1f1f1">So that way I don't have to write this I can just say √16 and it will know what I want to do</font>
+<font color="#ffff00">Vì vậy, theo cách đó tôi không cần phải viết cái này tôi chỉ cần nói √16 và nó sẽ biết tôi muốn làm gì</font>
 
 200
 00:10:59,455 --> 00:11:00,479
 <font color="#f0f0f0">So go ahead</font>
+<font color="#ffff00">Vì vậy hãy tiếp tục</font>
 
 201
 00:11:01,759 --> 00:11:03,807
 <font color="#e0e0e0">And it gives me the same result because of course</font>
+<font color="#ffff00">Và tất nhiên nó mang lại cho tôi kết quả tương tự vì</font>
 
 202
 00:11:04,063 --> 00:11:05,087
 <font color="#ededed">Instead of</font>
+<font color="#ffff00">Thay vì</font>
 
 203
 00:11:05,855 --> 00:11:09,695
 <font color="#f7f7f7">Importing an entire module I'm just importing a particular function</font>
+<font color="#ffff00">Nhập toàn bộ mô-đun Tôi chỉ nhập một chức năng cụ thể</font>
 
 204
 00:11:09,951 --> 00:11:10,719
 <font color="#a0a0a0">From that mod</font>
+<font color="#ffff00">Từ mod đó</font>
 
 205
 00:11:11,999 --> 00:11:17,119
 <font color="#d0d0d0">Another thing that you want to know about importing modules is using aliases</font>
+<font color="#ffff00">Một điều khác mà bạn muốn biết về việc nhập mô-đun là sử dụng bí danh</font>
 
 206
 00:11:17,375 --> 00:11:18,399
 <font color="#f6f6f6">So here</font>
+<font color="#ffff00">Vì vậy ở đây</font>
 
 207
 00:11:19,167 --> 00:11:20,191
 <font color="#ededed">Instead of</font>
+<font color="#ffff00">Thay vì</font>
 
 208
 00:11:21,727 --> 00:11:23,007
 <font color="#d8d8d8">Calling it Matt</font>
+<font color="#ffff00">Gọi nó là Matt</font>
 
 209
 00:11:23,263 --> 00:11:25,823
 <font color="#ededed">I can call it sometime the module names are really big</font>
+<font color="#ffff00">Đôi khi tôi có thể gọi nó là tên mô-đun thực sự lớn</font>
 
 210
 00:11:26,079 --> 00:11:28,127
 <font color="#d9d9d9">So I can just imagine</font>
+<font color="#ffff00">Vì thế tôi chỉ có thể tưởng tượng</font>
 
 211
 00:11:28,895 --> 00:11:35,039
 <font color="#d9d9d9">So I can use an alias here and then I can say m dot square root sometimes let's say I create a module</font>
+<font color="#ffff00">Vì vậy, tôi có thể sử dụng bí danh ở đây và sau đó tôi có thể nói m chấm căn bậc hai đôi khi giả sử tôi tạo một mô-đun</font>
 
 212
 00:11:35,807 --> 00:11:39,135
 <font color="#f6f6f6">Vivian is dancing on the mountain</font>
+<font color="#ffff00">Vivian đang nhảy múa trên núi</font>
 
 213
 00:11:40,159 --> 00:11:41,951
 <font color="#f9f9f9">So I can just say</font>
+<font color="#ffff00">Vì thế tôi chỉ có thể nói</font>
 
 214
 00:11:42,207 --> 00:11:44,511
 <font color="#d7d7d7">Import viviani dancing on a mountain</font>
+<font color="#ffff00">Nhập khẩu Viviani nhảy múa trên núi</font>
 
 215
 00:11:46,303 --> 00:11:52,447
 <font color="#bebebe">As Viv something like that so there are some functions that there will be some modules that you'll see which have really long</font>
+<font color="#ffff00">Vì Viv giống như vậy nên có một số chức năng sẽ có một số mô-đun mà bạn sẽ thấy có rất lâu</font>
 
 216
 00:11:52,703 --> 00:11:57,055
 <font color="#dddddd">Turn names and if you want to use a shorter version of it this is how you can use aliases</font>
+<font color="#ffff00">Bật tên và nếu bạn muốn sử dụng phiên bản ngắn hơn của nó thì đây là cách bạn có thể sử dụng bí danh</font>
 
 217
 00:11:57,311 --> 00:11:58,591
 <font color="#f2f2f2">To create this</font>
+<font color="#ffff00">Để tạo ra cái này</font>
 
 218
 00:11:59,103 --> 00:12:00,895
 <font color="#f5f5f5">No another option is</font>
+<font color="#ffff00">Không có lựa chọn nào khác là</font>
 
 219
 00:12:01,151 --> 00:12:02,943
 <font color="#efefef">Creating your own custom modules</font>
+<font color="#ffff00">Tạo các mô-đun tùy chỉnh của riêng bạn</font>
 
 220
 00:12:03,199 --> 00:12:09,343
 <font color="#efefef">Know sometimes what will happen is you'll have a lot of functionality that is available in your code and your multiple files</font>
+<font color="#ffff00">Đôi khi hãy biết điều gì sẽ xảy ra là bạn sẽ có rất nhiều chức năng có sẵn trong mã và nhiều tệp của mình</font>
 
 221
 00:12:09,599 --> 00:12:11,391
 <font color="#f2f2f2">And you want to reuse this modules</font>
+<font color="#ffff00">Và bạn muốn sử dụng lại mô-đun này</font>
 
 222
 00:12:11,647 --> 00:12:17,023
 <font color="#dddddd">Different different files so what you can do is you can create a py file</font>
+<font color="#ffff00">Các tệp khác nhau khác nhau, vì vậy điều bạn có thể làm là tạo một tệp py</font>
 
 223
 00:12:17,535 --> 00:12:21,375
 <font color="#e4e4e4">Bed custom functions and variables inside that particular python file</font>
+<font color="#ffff00">Các hàm và biến tùy chỉnh bên trong tệp python cụ thể đó</font>
 
 224
 00:12:21,631 --> 00:12:25,983
 <font color="#f5f5f5">And you can import that into another script using import</font>
+<font color="#ffff00">Và bạn có thể nhập tập lệnh đó vào tập lệnh khác bằng cách sử dụng import</font>
 
 225
 00:12:26,239 --> 00:12:27,775
 <font color="#cbcbcb">And the name of the mod</font>
+<font color="#ffff00">Và tên của mod</font>
 
 226
 00:12:28,031 --> 00:12:32,895
 <font color="#eeeeee">Directly we'll see those in future but that's how you can create your own custom modules</font>
+<font color="#ffff00">Chúng ta sẽ trực tiếp thấy những điều đó trong tương lai nhưng đó là cách bạn có thể tạo các mô-đun tùy chỉnh của riêng mình</font>
 
 227
 00:12:33,151 --> 00:12:36,991
 <font color="#ededed">Man you have a lot of code which might be needed in different</font>
+<font color="#ffff00">Bạn ơi, bạn có rất nhiều mã có thể cần thiết trong các cách khác nhau</font>
 
 228
 00:12:37,247 --> 00:12:42,879
 <font color="#f3f3f3">Different places that you can use that one example I can give you is for example let's say you have</font>
+<font color="#ffff00">Những nơi khác nhau mà bạn có thể sử dụng ví dụ mà tôi có thể cung cấp cho bạn là giả sử bạn có</font>
 
 229
 00:12:44,159 --> 00:12:45,439
 <font color="#e0e0e0">Organization</font>
+<font color="#ffff00">Tổ chức</font>
 
 230
 00:12:45,695 --> 00:12:51,071
 <font color="#e7e7e7">Which has five different departments and they have the same login because the organization is the same login</font>
+<font color="#ffff00">Có năm phòng ban khác nhau và họ có cùng thông tin đăng nhập vì tổ chức có cùng thông tin đăng nhập</font>
 
 231
 00:12:51,327 --> 00:12:52,607
 <font color="#f0f0f0">Behind it</font>
+<font color="#ffff00">Đằng sau nó</font>
 
 232
 00:12:52,863 --> 00:12:53,631
 <font color="#cdcdcd">So instead of</font>
+<font color="#ffff00">Vì vậy thay vì</font>
 
 233
 00:12:54,143 --> 00:12:58,495
 <font color="#f4f4f4">Creating the login functionality every single time for five different departments</font>
+<font color="#ffff00">Tạo chức năng đăng nhập mỗi lần cho năm phòng ban khác nhau</font>
 
 234
 00:12:58,751 --> 00:13:01,823
 <font color="#dfdfdf">You just create that component or a module one time</font>
+<font color="#ffff00">Bạn chỉ cần tạo thành phần hoặc mô-đun đó một lần</font>
 
 235
 00:13:02,079 --> 00:13:06,687
 <font color="#d2d2d2">And then get let all these five different departments import that module</font>
+<font color="#ffff00">Và sau đó hãy để tất cả năm bộ phận khác nhau nhập mô-đun đó</font>
 
 236
 00:13:06,943 --> 00:13:07,967
 <font color="#9b9b9b">Into that code</font>
+<font color="#ffff00">Vào mã đó</font>
 
 237
 00:13:08,223 --> 00:13:14,367
 <font color="#dddddd">That every time a user comes in they can log in so that's can be a good use case of creating</font>
+<font color="#ffff00">Rằng mỗi khi người dùng truy cập, họ có thể đăng nhập nên đó có thể là một trường hợp sử dụng tốt để tạo</font>
 
 238
 00:13:14,623 --> 00:13:15,391
 <font color="#dbdbdb">Custom modules</font>
+<font color="#ffff00">Mô-đun tùy chỉnh</font>
 
 239
 00:13:17,439 --> 00:13:19,743
 <font color="#c5c5c5">Let's jump into hands on exercise</font>
+<font color="#ffff00">Hãy bắt tay vào tập thể dục</font>
 
 240
 00:13:20,255 --> 00:13:21,791
 <font color="#989898">My first exercise today</font>
+<font color="#ffff00">Bài tập đầu tiên của tôi ngày hôm nay</font>
 
 241
 00:13:22,047 --> 00:13:23,327
 <font color="#fbfbfb">Is creating a function</font>
+<font color="#ffff00">Đang tạo một chức năng</font>
 
 242
 00:13:23,583 --> 00:13:29,727
 <font color="#e3e3e3">To calculate factorials now I've given you something similar as an exercise in the yesterday</font>
+<font color="#ffff00">Để tính giai thừa bây giờ tôi đã cho bạn một bài tập tương tự như bài tập ngày hôm qua.</font>
 
 243
 00:13:29,983 --> 00:13:30,751
 <font color="#868686">What is a video</font>
+<font color="#ffff00">Video là gì</font>
 
 244
 00:13:31,007 --> 00:13:33,311
 <font color="#c8c8c8">But here are objective is to write</font>
+<font color="#ffff00">Nhưng đây là mục tiêu là viết</font>
 
 245
 00:13:33,567 --> 00:13:34,335
 <font color="#f2f2f2">A function</font>
+<font color="#ffff00">một chức năng</font>
 
 246
 00:13:34,591 --> 00:13:36,895
 <font color="#f3f3f3">To calculate the factorial of a number</font>
+<font color="#ffff00">Để tính giai thừa của một số</font>
 
 247
 00:13:37,151 --> 00:13:39,199
 <font color="#fbfbfb">And call it within another function</font>
+<font color="#ffff00">Và gọi nó trong một chức năng khác</font>
 
 248
 00:13:39,967 --> 00:13:46,111
 <font color="#eaeaea">So first we will Define a function called as factorial n that calculates the factorial of the number n</font>
+<font color="#ffff00">Vì vậy, trước tiên chúng ta sẽ Xác định một hàm gọi là giai thừa n để tính giai thừa của số n</font>
 
 249
 00:13:46,879 --> 00:13:49,951
 <font color="#d0d0d0">Then we'll create another function called Sprint factorial</font>
+<font color="#ffff00">Sau đó, chúng ta sẽ tạo một hàm khác gọi là Sprint giai thừa</font>
 
 250
 00:13:50,207 --> 00:13:51,487
 <font color="#bfbfbf">And as a parameter</font>
+<font color="#ffff00">Và như một tham số</font>
 
 251
 00:13:51,743 --> 00:13:53,535
 <font color="#d1d1d1">That called the factorial</font>
+<font color="#ffff00">Cái đó gọi là giai thừa</font>
 
 252
 00:13:53,791 --> 00:13:55,839
 <font color="#d7d7d7">Function and print the result</font>
+<font color="#ffff00">Chức năng và in kết quả</font>
 
 253
 00:13:56,351 --> 00:13:58,399
 <font color="#f2f2f2">Let's go ahead and write the code for it</font>
+<font color="#ffff00">Hãy tiếp tục và viết mã cho nó</font>
 
 254
 00:13:58,911 --> 00:14:01,727
 <font color="#dedede">So I'm going to save this and close it</font>
+<font color="#ffff00">Vì vậy tôi sẽ lưu cái này và đóng nó lại</font>
 
 255
 00:14:01,983 --> 00:14:03,007
 <font color="#e5e5e5">Create a new file</font>
+<font color="#ffff00">Tạo một tập tin mới</font>
 
 256
 00:14:03,263 --> 00:14:04,287
 <font color="#dedede">Python file</font>
+<font color="#ffff00">tập tin Python</font>
 
 257
 00:14:04,543 --> 00:14:06,591
 <font color="#d2d2d2">Save it inside my day 3</font>
+<font color="#ffff00">Lưu nó trong ngày thứ 3 của tôi</font>
 
 258
 00:14:07,871 --> 00:14:08,895
 <font color="#eeeeee">Exercise</font>
+<font color="#ffff00">Bài tập</font>
 
 259
 00:14:12,223 --> 00:14:15,295
 <font color="#f7f7f7">And here first let's create a function</font>
+<font color="#ffff00">Và ở đây trước tiên hãy tạo một hàm</font>
 
 260
 00:14:15,807 --> 00:14:17,599
 <font color="#bebebe">Call Dez factorial</font>
+<font color="#ffff00">Gọi giai thừa Dez</font>
 
 261
 00:14:18,623 --> 00:14:19,391
 <font color="#a3a3a3">Of</font>
+<font color="#ffff00">Của</font>
 
 262
 00:14:20,671 --> 00:14:22,719
 <font color="#bababa">I'm here I'm going to see if</font>
+<font color="#ffff00">Tôi ở đây tôi sẽ xem liệu</font>
 
 263
 00:14:23,743 --> 00:14:24,767
 <font color="#f0f0f0">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 264
 00:14:27,327 --> 00:14:28,863
 <font color="#fafafa">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 265
 00:14:29,631 --> 00:14:32,703
 <font color="#e1e1e1">What happens to factorials if n equal to 0 or</font>
+<font color="#ffff00">Điều gì xảy ra với giai thừa nếu n bằng 0 hoặc</font>
 
 266
 00:14:32,959 --> 00:14:33,983
 <font color="#bbbbbb">N equal to 1</font>
+<font color="#ffff00">N bằng 1</font>
 
 267
 00:14:34,239 --> 00:14:35,775
 <font color="#e4e4e4">That means I just returned</font>
+<font color="#ffff00">Nghĩa là tôi vừa trở về</font>
 
 268
 00:14:36,543 --> 00:14:38,079
 <font color="#dadada">One in this particular case</font>
+<font color="#ffff00">Một trong trường hợp cụ thể này</font>
 
 269
 00:14:40,383 --> 00:14:41,407
 <font color="#ededed">I will call</font>
+<font color="#ffff00">tôi sẽ gọi</font>
 
 270
 00:14:41,663 --> 00:14:44,223
 <font color="#b4b4b4">The same function so I'm going to return</font>
+<font color="#ffff00">Chức năng tương tự nên tôi sẽ quay lại</font>
 
 271
 00:14:48,319 --> 00:14:49,343
 <font color="#dadada">Factorial</font>
+<font color="#ffff00">giai thừa</font>
 
 272
 00:14:50,623 --> 00:14:52,159
@@ -1089,62 +1358,77 @@
 273
 00:14:53,439 --> 00:14:57,023
 <font color="#f3f3f3">So what I'm doing is I am reducing that number by one</font>
+<font color="#ffff00">Vì vậy điều tôi đang làm là giảm con số đó đi một</font>
 
 274
 00:14:57,279 --> 00:15:01,631
 <font color="#e9e9e9">And multiplying whatever the result is from this particular keep on multiply</font>
+<font color="#ffff00">Và nhân bất kể kết quả là gì từ điều này, hãy tiếp tục nhân lên</font>
 
 275
 00:15:01,887 --> 00:15:05,727
 <font color="#eaeaea">If you don't know what factorial is for example</font>
+<font color="#ffff00">Ví dụ: nếu bạn không biết giai thừa là gì</font>
 
 276
 00:15:05,983 --> 00:15:08,031
 <font color="#e7e7e7">If I say what is factorial of</font>
+<font color="#ffff00">Nếu tôi nói giai thừa của là gì</font>
 
 277
 00:15:08,287 --> 00:15:09,311
 <font color="#dedede">Let's give an example</font>
+<font color="#ffff00">Hãy đưa ra một ví dụ</font>
 
 278
 00:15:10,591 --> 00:15:13,407
 <font color="#bfbfbf">5 factorial is 5 * reduce that</font>
+<font color="#ffff00">5 giai thừa là 5* rút gọn</font>
 
 279
 00:15:15,455 --> 00:15:16,479
 <font color="#cccccc">Doing something</font>
+<font color="#ffff00">Làm điều gì đó</font>
 
 280
 00:15:17,759 --> 00:15:19,295
 <font color="#fafafa">The first number</font>
+<font color="#ffff00">Số đầu tiên</font>
 
 281
 00:15:21,599 --> 00:15:24,415
 <font color="#cecece">Reduce that number by 1 for run it here</font>
+<font color="#ffff00">Giảm số đó đi 1 để chạy nó ở đây</font>
 
 282
 00:15:24,671 --> 00:15:25,695
 <font color="#c4c4c4">So which means</font>
+<font color="#ffff00">Vậy điều đó có nghĩa là</font>
 
 283
 00:15:27,231 --> 00:15:28,767
 <font color="#b8b8b8">It will call it 3</font>
+<font color="#ffff00">Nó sẽ gọi nó là 3</font>
 
 284
 00:15:30,303 --> 00:15:32,351
 <font color="#dadada">Now the number will be to</font>
+<font color="#ffff00">Bây giờ con số sẽ là</font>
 
 285
 00:15:32,607 --> 00:15:34,143
 <font color="#e0e0e0">Again it will call this</font>
+<font color="#ffff00">Một lần nữa nó sẽ gọi đây</font>
 
 286
 00:15:35,423 --> 00:15:36,703
 <font color="#d4d4d4">Now it will be one</font>
+<font color="#ffff00">Bây giờ nó sẽ là một</font>
 
 287
 00:15:36,959 --> 00:15:41,055
 <font color="#f6f6f6">In that case it will return back one here so this will give me</font>
+<font color="#ffff00">Trong trường hợp đó nó sẽ trả về một cái ở đây nên cái này sẽ cho tôi</font>
 
 288
 00:15:41,311 --> 00:15:43,615
@@ -1153,142 +1437,177 @@
 289
 00:15:43,871 --> 00:15:45,151
 <font color="#f3f3f3">Equal to 120</font>
+<font color="#ffff00">Bằng 120</font>
 
 290
 00:15:45,663 --> 00:15:51,551
 <font color="#e6e6e6">You can do the math and check it out but that's what factorial of 5 is or we can run the function and check it out</font>
+<font color="#ffff00">Bạn có thể làm phép tính và kiểm tra nhưng đó là giai thừa của 5 hoặc chúng ta có thể chạy hàm và kiểm tra.</font>
 
 291
 00:15:51,807 --> 00:15:55,903
 <font color="#dbdbdb">A little while so what I can do here is I'm going to say create another one</font>
+<font color="#ffff00">Một lát nữa điều tôi có thể làm ở đây là tôi sẽ nói tạo một cái khác</font>
 
 292
 00:15:56,415 --> 00:15:57,439
 <font color="#e9e9e9">One function</font>
+<font color="#ffff00">Một chức năng</font>
 
 293
 00:15:58,975 --> 00:16:01,023
 <font color="#cccccc">And this one is to print a factorial</font>
+<font color="#ffff00">Và cái này là để in một giai thừa</font>
 
 294
 00:16:02,047 --> 00:16:03,327
 <font color="#b3b3b3">Print underscore</font>
+<font color="#ffff00">In dấu gạch dưới</font>
 
 295
 00:16:03,583 --> 00:16:04,607
 <font color="#a9a9a9">Factorial</font>
+<font color="#ffff00">giai thừa</font>
 
 296
 00:16:07,423 --> 00:16:08,447
 <font color="#ededed">And here</font>
+<font color="#ffff00">Và đây</font>
 
 297
 00:16:09,983 --> 00:16:11,007
 <font color="#c1c1c1">Result</font>
+<font color="#ffff00">Kết quả</font>
 
 298
 00:16:11,263 --> 00:16:12,031
 <font color="#ededed">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 299
 00:16:12,799 --> 00:16:14,079
 <font color="#ececec">Factorial of</font>
+<font color="#ffff00">Giai thừa của</font>
 
 300
 00:16:16,383 --> 00:16:17,407
 <font color="#d5d5d5">And this will</font>
+<font color="#ffff00">Và điều này sẽ</font>
 
 301
 00:16:17,663 --> 00:16:19,199
 <font color="#ededed">This is used to print</font>
+<font color="#ffff00">Cái này dùng để in</font>
 
 302
 00:16:20,223 --> 00:16:21,503
 <font color="#e4e4e4">The factorial</font>
+<font color="#ffff00">Giai thừa</font>
 
 303
 00:16:25,855 --> 00:16:26,623
 <font color="#222222">Toriel</font>
+<font color="#ffff00">Toriel</font>
 
 304
 00:16:30,463 --> 00:16:31,231
 <font color="#f0f0f0">Is</font>
+<font color="#ffff00">Là</font>
 
 305
 00:16:35,327 --> 00:16:36,607
 <font color="#f5f5f5">So that looks good</font>
+<font color="#ffff00">Vì vậy, điều đó có vẻ tốt</font>
 
 306
 00:16:36,863 --> 00:16:40,447
 <font color="#e0e0e0">And now let's test this function I can call it I can say print</font>
+<font color="#ffff00">Và bây giờ hãy kiểm tra chức năng này Tôi có thể gọi nó là in</font>
 
 307
 00:16:40,703 --> 00:16:41,983
 <font color="#737373">Underscore</font>
+<font color="#ffff00">gạch dưới</font>
 
 308
 00:16:42,495 --> 00:16:43,263
 <font color="#c6c6c6">Factorial</font>
+<font color="#ffff00">giai thừa</font>
 
 309
 00:16:43,775 --> 00:16:48,127
 <font color="#dddddd">And pass the number five is what you wanted to test so this will call this function</font>
+<font color="#ffff00">Và vượt qua số năm là điều bạn muốn kiểm tra nên cái này sẽ gọi hàm này</font>
 
 310
 00:16:48,383 --> 00:16:51,967
 <font color="#ebebeb">Can you get the result from this particular function which is just</font>
+<font color="#ffff00">Bạn có thể nhận được kết quả từ hàm cụ thể này không?</font>
 
 311
 00:16:52,223 --> 00:16:56,575
 <font color="#dedede">Only doing what I'm doing is I'm kind of separating these two step here here</font>
+<font color="#ffff00">Chỉ làm những gì tôi đang làm là tôi đang tách biệt hai bước này ở đây</font>
 
 312
 00:16:56,831 --> 00:16:58,111
 <font color="#ececec">The reason is</font>
+<font color="#ffff00">Lý do là</font>
 
 313
 00:16:58,367 --> 00:17:00,159
 <font color="#f3f3f3">So I can kind of</font>
+<font color="#ffff00">Vì thế tôi có thể</font>
 
 314
 00:17:00,415 --> 00:17:06,303
 <font color="#e9e9e9">Separate the functionality of finding a factorial and printing of factorial separately in two different functions</font>
+<font color="#ffff00">Tách riêng chức năng tìm giai thừa và in giai thừa ở 2 chức năng khác nhau</font>
 
 315
 00:17:06,559 --> 00:17:07,327
 <font color="#c4c4c4">I can save it</font>
+<font color="#ffff00">Tôi có thể cứu nó</font>
 
 316
 00:17:08,095 --> 00:17:09,119
 <font color="#b7b7b7">Go here</font>
+<font color="#ffff00">Tới đây</font>
 
 317
 00:17:09,375 --> 00:17:10,143
 <font color="#a0a0a0">Clear this</font>
+<font color="#ffff00">Xóa cái này</font>
 
 318
 00:17:10,399 --> 00:17:11,167
 <font color="#ececec">Lights on</font>
+<font color="#ffff00">Đèn bật</font>
 
 319
 00:17:12,447 --> 00:17:13,727
 <font color="#ececec">Exercise</font>
+<font color="#ffff00">Bài tập</font>
 
 320
 00:17:14,239 --> 00:17:18,335
 <font color="#a2a2a2">1.56 factorial of 5 is 120</font>
+<font color="#ffff00">1,56 giai thừa của 5 là 120</font>
 
 321
 00:17:18,591 --> 00:17:19,871
 <font color="#fbfbfb">I can change the number</font>
+<font color="#ffff00">Tôi có thể thay đổi số</font>
 
 322
 00:17:21,663 --> 00:17:23,967
 <font color="#d7d7d7">Factorial of tennis 362</font>
+<font color="#ffff00">Hệ số tennis 362</font>
 
 323
 00:17:24,223 --> 00:17:25,503
 <font color="#d2d2d2">You're something simple</font>
+<font color="#ffff00">Bạn là một cái gì đó đơn giản</font>
 
 324
 00:17:28,575 --> 00:17:30,623
@@ -1297,358 +1616,447 @@
 325
 00:17:31,647 --> 00:17:37,791
 <font color="#b4b4b4">2 * 1 is 2 so that's why factorial of 2 is 2 in this particular case so this is success</font>
+<font color="#ffff00">2 * 1 là 2 vì vậy đó là lý do tại sao giai thừa của 2 là 2 trong trường hợp cụ thể này nên đây là thành công</font>
 
 326
 00:17:38,559 --> 00:17:42,911
 <font color="#d7d7d7">Completing our exercise where we are printing of factorial of a given number</font>
+<font color="#ffff00">Hoàn thành bài tập in giai thừa của một số cho trước</font>
 
 327
 00:17:43,423 --> 00:17:44,703
 <font color="#f4f4f4">My second exercise</font>
+<font color="#ffff00">Bài tập thứ hai của tôi</font>
 
 328
 00:17:45,215 --> 00:17:46,751
 <font color="#f6f6f6">Is to build a custom</font>
+<font color="#ffff00">Là để xây dựng một tùy chỉnh</font>
 
 329
 00:17:47,007 --> 00:17:48,031
 <font color="#a9a9a9">Python module</font>
+<font color="#ffff00">Mô-đun Python</font>
 
 330
 00:17:48,543 --> 00:17:50,847
 <font color="#e4e4e4">No objective here is to create a module</font>
+<font color="#ffff00">Không có mục tiêu nào ở đây là tạo ra một mô-đun</font>
 
 331
 00:17:51,103 --> 00:17:52,895
 <font color="#d5d5d5">The basic math operations</font>
+<font color="#ffff00">Các phép toán cơ bản</font>
 
 332
 00:17:53,151 --> 00:17:55,711
 <font color="#efefef">And use it in a main script</font>
+<font color="#ffff00">Và sử dụng nó trong một kịch bản chính</font>
 
 333
 00:17:55,967 --> 00:18:00,063
 <font color="#eaeaea">So let's create a python file called as math operations</font>
+<font color="#ffff00">Vì vậy, hãy tạo một tệp python có tên là các phép toán</font>
 
 334
 00:18:00,319 --> 00:18:06,463
 <font color="#e1e1e1">With functions for addition subtraction multiplication and division something that you've done in a previous day and</font>
+<font color="#ffff00">Với các hàm cộng trừ nhân chia một số việc bạn đã làm ngày hôm trước và</font>
 
 335
 00:18:06,719 --> 00:18:10,303
 <font color="#e0e0e0">Will import and use this module in another script will create two different files</font>
+<font color="#ffff00">Sẽ nhập và sử dụng mô-đun này trong tập lệnh khác sẽ tạo hai tệp khác nhau</font>
 
 336
 00:18:10,559 --> 00:18:11,327
 <font color="#f6f6f6">So first</font>
+<font color="#ffff00">Vì vậy trước tiên</font>
 
 337
 00:18:11,839 --> 00:18:13,631
 <font color="#dbdbdb">For this let's go ahead here</font>
+<font color="#ffff00">Vì điều này chúng ta hãy tiếp tục ở đây</font>
 
 338
 00:18:14,143 --> 00:18:15,679
 <font color="#f5f5f5">I am going to call it</font>
+<font color="#ffff00">Tôi sẽ gọi nó</font>
 
 339
 00:18:15,935 --> 00:18:19,519
 <font color="#e3e3e3">Since it's a module I am going to call it Matt</font>
+<font color="#ffff00">Vì nó là một mô-đun nên tôi sẽ gọi nó là Matt</font>
 
 340
 00:18:20,031 --> 00:18:21,055
 <font color="#747474">Underscore</font>
+<font color="#ffff00">gạch dưới</font>
 
 341
 00:18:21,567 --> 00:18:22,591
 <font color="#e0e0e0">Operations</font>
+<font color="#ffff00">Hoạt động</font>
 
 342
 00:18:24,127 --> 00:18:24,639
 <font color="#656565">B</font>
+<font color="#ffff00">B</font>
 
 343
 00:18:25,919 --> 00:18:27,711
 <font color="#d6d6d6">And save it inside day 3</font>
+<font color="#ffff00">Và lưu nó vào ngày thứ 3</font>
 
 344
 00:18:27,967 --> 00:18:29,759
 <font color="#d5d5d5">Not here I'm going to create</font>
+<font color="#ffff00">Không phải ở đây tôi sẽ tạo</font>
 
 345
 00:18:30,271 --> 00:18:33,599
 <font color="#e4e4e4">A bunch of functions let me do that a comma B</font>
+<font color="#ffff00">Một loạt các chức năng cho phép tôi làm điều đó một dấu phẩy B</font>
 
 346
 00:18:35,391 --> 00:18:37,439
 <font color="#e3e3e3">Tradition will return back</font>
+<font color="#ffff00">Truyền thống sẽ trở lại</font>
 
 347
 00:18:37,695 --> 00:18:39,231
 <font color="#b4b4b4">A + b</font>
+<font color="#ffff00">A + b</font>
 
 348
 00:18:42,047 --> 00:18:42,815
 <font color="#dedede">Next is</font>
+<font color="#ffff00">Tiếp theo là</font>
 
 349
 00:18:43,071 --> 00:18:44,095
 <font color="#dbdbdb">Subtract</font>
+<font color="#ffff00">Trừ</font>
 
 350
 00:18:48,191 --> 00:18:49,215
 <font color="#838383">Comma</font>
+<font color="#ffff00">Dấu phẩy</font>
 
 351
 00:18:49,983 --> 00:18:51,007
 <font color="#d2d2d2">And this will</font>
+<font color="#ffff00">Và điều này sẽ</font>
 
 352
 00:18:51,775 --> 00:18:52,543
 <font color="#dadada">Return</font>
+<font color="#ffff00">Trở lại</font>
 
 353
 00:18:53,823 --> 00:18:55,103
 <font color="#a2a2a2">Minus B</font>
+<font color="#ffff00">Trừ B</font>
 
 354
 00:18:56,127 --> 00:18:57,151
 <font color="#f0f0f0">Next one</font>
+<font color="#ffff00">Tiếp theo</font>
 
 355
 00:18:57,407 --> 00:18:59,199
 <font color="#d6d6d6">Is to multiply</font>
+<font color="#ffff00">Là nhân lên</font>
 
 356
 00:19:02,015 --> 00:19:03,295
 <font color="#8f8f8f">Comma</font>
+<font color="#ffff00">Dấu phẩy</font>
 
 357
 00:19:04,063 --> 00:19:05,087
 <font color="#f7f7f7">And then here</font>
+<font color="#ffff00">Và sau đó ở đây</font>
 
 358
 00:19:05,343 --> 00:19:06,623
 <font color="#d9d9d9">I can see a return</font>
+<font color="#ffff00">Tôi có thể thấy sự trở lại</font>
 
 359
 00:19:08,159 --> 00:19:09,439
 <font color="#e6e6e6">Times</font>
+<font color="#ffff00">lần</font>
 
 360
 00:19:10,463 --> 00:19:11,743
 <font color="#e7e7e7">Next is</font>
+<font color="#ffff00">Tiếp theo là</font>
 
 361
 00:19:11,999 --> 00:19:12,767
 <font color="#c6c6c6">Divide</font>
+<font color="#ffff00">Chia</font>
 
 362
 00:19:15,071 --> 00:19:16,351
 <font color="#999999">Comma</font>
+<font color="#ffff00">Dấu phẩy</font>
 
 363
 00:19:16,863 --> 00:19:18,399
 <font color="#ededed">Hear it again I will check</font>
+<font color="#ffff00">Nghe lại tôi sẽ kiểm tra</font>
 
 364
 00:19:19,679 --> 00:19:21,983
 <font color="#dcdcdc">He is not equal to zero</font>
+<font color="#ffff00">Anh ấy không bằng 0</font>
 
 365
 00:19:24,799 --> 00:19:26,335
 <font color="#dedede">I will say return</font>
+<font color="#ffff00">Tôi sẽ nói trở lại</font>
 
 366
 00:19:26,847 --> 00:19:28,383
 <font color="#c8c8c8">8 / B</font>
+<font color="#ffff00">8/B</font>
 
 367
 00:19:31,711 --> 00:19:32,735
 <font color="#dfdfdf">I will say</font>
+<font color="#ffff00">tôi sẽ nói</font>
 
 368
 00:19:33,759 --> 00:19:34,527
 <font color="#c7c7c7">Return</font>
+<font color="#ffff00">Trở lại</font>
 
 369
 00:19:36,063 --> 00:19:36,831
 <font color="#e2e2e2">Division</font>
+<font color="#ffff00">Phân công</font>
 
 370
 00:19:38,367 --> 00:19:39,903
 <font color="#cbcbcb">Zero is</font>
+<font color="#ffff00">số không là</font>
 
 371
 00:19:40,415 --> 00:19:41,183
 <font color="#8c8c8c">Allowed</font>
+<font color="#ffff00">Cho phép</font>
 
 372
 00:19:41,951 --> 00:19:42,975
 <font color="#f5f5f5">So I have</font>
+<font color="#ffff00">Vì vậy tôi có</font>
 
 373
 00:19:43,231 --> 00:19:44,767
 <font color="#f7f7f7">Four different functions here</font>
+<font color="#ffff00">Bốn chức năng khác nhau ở đây</font>
 
 374
 00:19:45,023 --> 00:19:49,887
 <font color="#d5d5d5">Inside my Mac dot operation where it does addition subtraction multiplication</font>
+<font color="#ffff00">Bên trong thao tác dấu chấm trên máy Mac của tôi, nơi nó thực hiện phép cộng trừ nhân</font>
 
 375
 00:19:50,143 --> 00:19:52,703
 <font color="#c9c9c9">And division now I will create a mean script</font>
+<font color="#ffff00">Và chia bây giờ tôi sẽ tạo một kịch bản trung bình</font>
 
 376
 00:19:53,471 --> 00:19:55,263
 <font color="#cacaca">I'm going to call it</font>
+<font color="#ffff00">Tôi sẽ gọi nó</font>
 
 377
 00:19:56,031 --> 00:19:57,823
 <font color="#aeaeae">Exercise 2</font>
+<font color="#ffff00">Bài tập 2</font>
 
 378
 00:19:58,079 --> 00:19:58,847
 <font color="#9f9f9f">EBay</font>
+<font color="#ffff00">eBay</font>
 
 379
 00:19:59,615 --> 00:20:00,639
 <font color="#d3d3d3">And inside here</font>
+<font color="#ffff00">Và bên trong đây</font>
 
 380
 00:20:00,895 --> 00:20:03,199
 <font color="#e9e9e9">I am going to import that math</font>
+<font color="#ffff00">Tôi sẽ nhập phép toán đó</font>
 
 381
 00:20:03,711 --> 00:20:04,991
 <font color="#7f7f7f">Underscore</font>
+<font color="#ffff00">gạch dưới</font>
 
 382
 00:20:05,759 --> 00:20:06,783
 <font color="#c9c9c9">Operations</font>
+<font color="#ffff00">Hoạt động</font>
 
 383
 00:20:08,575 --> 00:20:09,087
 <font color="#222222">Am</font>
+<font color="#ffff00">Là</font>
 
 384
 00:20:10,111 --> 00:20:11,135
 <font color="#bcbcbc">I'm going to use the AL</font>
+<font color="#ffff00">Tôi sẽ sử dụng AL</font>
 
 385
 00:20:11,391 --> 00:20:12,159
 <font color="#808080">Navigate</font>
+<font color="#ffff00">Điều hướng</font>
 
 386
 00:20:12,927 --> 00:20:13,695
 <font color="#c2c2c2">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 387
 00:20:13,951 --> 00:20:15,743
 <font color="#e2e2e2">I'm going to say number one</font>
+<font color="#ffff00">Tôi sẽ nói số một</font>
 
 388
 00:20:16,255 --> 00:20:17,535
 <font color="#e7e7e7">Equal to 10</font>
+<font color="#ffff00">Bằng 10</font>
 
 389
 00:20:18,047 --> 00:20:19,583
 <font color="#b5b5b5">And I'm going to say number two</font>
+<font color="#ffff00">Và tôi sẽ nói điều thứ hai</font>
 
 390
 00:20:19,839 --> 00:20:20,863
 <font color="#efefef">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 391
 00:20:22,911 --> 00:20:24,447
 <font color="#d9d9d9">And then I'll say print</font>
+<font color="#ffff00">Và sau đó tôi sẽ nói in</font>
 
 392
 00:20:26,495 --> 00:20:27,263
 <font color="#454545">Addition</font>
+<font color="#ffff00">Phép cộng</font>
 
 393
 00:20:32,383 --> 00:20:34,687
 <font color="#e3e3e3">Add is a function that we have there</font>
+<font color="#ffff00">Thêm là một chức năng mà chúng tôi có ở đó</font>
 
 394
 00:20:34,943 --> 00:20:36,735
 <font color="#c4c4c4">And I'm going to pass number one</font>
+<font color="#ffff00">Và tôi sẽ vượt qua số một</font>
 
 395
 00:20:37,503 --> 00:20:39,039
 <font color="#b4b4b4">Comma number</font>
+<font color="#ffff00">Số dấu phẩy</font>
 
 396
 00:20:40,575 --> 00:20:44,415
 <font color="#e4e4e4">So we can do more</font>
+<font color="#ffff00">Vì vậy chúng ta có thể làm nhiều hơn nữa</font>
 
 397
 00:20:45,695 --> 00:20:46,463
 <font color="#bdbdbd">Clear this</font>
+<font color="#ffff00">Xóa cái này</font>
 
 398
 00:20:46,975 --> 00:20:48,255
 <font color="#8d8d8d">Is it python</font>
+<font color="#ffff00">Có phải con trăn</font>
 
 399
 00:20:49,023 --> 00:20:50,047
 <font color="#e6e6e6">Exercise</font>
+<font color="#ffff00">Bài tập</font>
 
 400
 00:20:51,071 --> 00:20:56,191
 <font color="#b5b5b5">Dot pyre Texas edition is 15 so what I did was since it's in the same file</font>
+<font color="#ffff00">Phiên bản Dot pyre Texas là 15 nên điều tôi làm là vì nó nằm trong cùng một tập tin</font>
 
 401
 00:20:56,447 --> 00:20:59,519
 <font color="#dfdfdf">It picked up a same folder he picked up this file</font>
+<font color="#ffff00">Nó chọn cùng một thư mục anh ấy đã chọn tập tin này</font>
 
 402
 00:20:59,775 --> 00:21:04,639
 <font color="#d8d8d8">Call this function to add</font>
+<font color="#ffff00">Gọi hàm này để thêm</font>
 
 403
 00:21:04,895 --> 00:21:05,407
 <font color="#eaeaea">And then</font>
+<font color="#ffff00">Và sau đó</font>
 
 404
 00:21:06,687 --> 00:21:08,991
 <font color="#efefef">So similarly now I can add</font>
+<font color="#ffff00">Vì vậy, tương tự bây giờ tôi có thể thêm</font>
 
 405
 00:21:09,247 --> 00:21:11,039
 <font color="#e7e7e7">The other four which is</font>
+<font color="#ffff00">Bốn cái còn lại là</font>
 
 406
 00:21:12,831 --> 00:21:13,599
 <font color="#535353">Traction</font>
+<font color="#ffff00">Lực kéo</font>
 
 407
 00:21:14,879 --> 00:21:17,184
 <font color="#cacaca">Multiplication</font>
+<font color="#ffff00">Phép nhân</font>
 
 408
 00:21:19,488 --> 00:21:20,256
 <font color="#dedede">Division</font>
+<font color="#ffff00">Phân công</font>
 
 409
 00:21:21,024 --> 00:21:22,560
 <font color="#e4e4e4">And here I'm going to say</font>
+<font color="#ffff00">Và ở đây tôi sẽ nói</font>
 
 410
 00:21:23,328 --> 00:21:24,096
 <font color="#cecece">Divide</font>
+<font color="#ffff00">Chia</font>
 
 411
 00:21:25,376 --> 00:21:26,400
 <font color="#dadada">Multiply</font>
+<font color="#ffff00">nhân</font>
 
 412
 00:21:31,008 --> 00:21:31,776
 <font color="#9d9d9d">And</font>
+<font color="#ffff00">Và</font>
 
 413
 00:21:32,288 --> 00:21:33,568
 <font color="#bfbfbf">So now if I run this</font>
+<font color="#ffff00">Vì vậy bây giờ nếu tôi chạy cái này</font>
 
 414
 00:21:35,872 --> 00:21:37,920
@@ -1665,107 +2073,134 @@
 417
 00:21:42,016 --> 00:21:45,600
 <font color="#d1d1d1">10 / 52.0 we have</font>
+<font color="#ffff00">10 / 52.0 chúng ta có</font>
 
 418
 00:21:45,856 --> 00:21:46,880
 <font color="#e6e6e6">Function here</font>
+<font color="#ffff00">Chức năng ở đây</font>
 
 419
 00:21:47,136 --> 00:21:49,952
 <font color="#cecece">Or we have our main code here</font>
+<font color="#ffff00">Hoặc chúng tôi có mã chính ở đây</font>
 
 420
 00:21:50,208 --> 00:21:55,072
 <font color="#c9c9c9">Exercise to dot by where we are printing out all the different</font>
+<font color="#ffff00">Bài tập chấm theo nơi chúng tôi in ra tất cả các điểm khác nhau</font>
 
 421
 00:21:55,328 --> 00:21:56,608
 <font color="#eaeaea">Functions</font>
+<font color="#ffff00">Chức năng</font>
 
 422
 00:21:56,864 --> 00:21:57,376
 <font color="#bababa">From</font>
+<font color="#ffff00">Từ</font>
 
 423
 00:21:59,680 --> 00:22:04,800
 <font color="#ebebeb">Module that we created which was called math operations here which has all the functions in there</font>
+<font color="#ffff00">Mô-đun mà chúng tôi đã tạo ở đây được gọi là các phép toán có tất cả các hàm trong đó</font>
 
 424
 00:22:05,056 --> 00:22:09,920
 <font color="#f3f3f3">Now I can use the same thing in this exercise too I can call it an exercise one</font>
+<font color="#ffff00">Bây giờ tôi cũng có thể sử dụng điều tương tự trong bài tập này. Tôi có thể gọi nó là bài tập</font>
 
 425
 00:22:10,176 --> 00:22:13,760
 <font color="#f4f4f4">I can create another file and have them</font>
+<font color="#ffff00">Tôi có thể tạo một tập tin khác và có chúng</font>
 
 426
 00:22:14,016 --> 00:22:16,832
 <font color="#eaeaea">Import this particular module and use it over there</font>
+<font color="#ffff00">Nhập mô-đun cụ thể này và sử dụng nó ở đó</font>
 
 427
 00:22:17,856 --> 00:22:22,208
 <font color="#fafafa">So I hope you were able to follow along if not let me know if you had any problems</font>
+<font color="#ffff00">Vì vậy, tôi hy vọng bạn có thể theo dõi nếu không hãy cho tôi biết nếu bạn có bất kỳ vấn đề gì</font>
 
 428
 00:22:22,464 --> 00:22:23,232
 <font color="#f4f4f4">But next</font>
+<font color="#ffff00">Nhưng tiếp theo</font>
 
 429
 00:22:23,488 --> 00:22:27,072
 <font color="#eeeeee">For additional practice I would say that you can write try to create</font>
+<font color="#ffff00">Để thực hành thêm, tôi khuyên bạn có thể viết try to create</font>
 
 430
 00:22:28,352 --> 00:22:31,424
 <font color="#e6e6e6">Function to check if a number is even or odd</font>
+<font color="#ffff00">Hàm kiểm tra số chẵn hay số lẻ</font>
 
 431
 00:22:31,680 --> 00:22:33,216
 <font color="#e5e5e5">And call it with another function</font>
+<font color="#ffff00">Và gọi nó bằng chức năng khác</font>
 
 432
 00:22:33,984 --> 00:22:39,104
 <font color="#f8f8f8">And then try to create a module for string operations including functions</font>
+<font color="#ffff00">Và sau đó thử tạo một mô-đun cho các thao tác chuỗi bao gồm các hàm</font>
 
 433
 00:22:39,360 --> 00:22:42,176
 <font color="#c5c5c5">To reverse the string count the vowels in</font>
+<font color="#ffff00">Để đảo ngược chuỗi, hãy đếm các nguyên âm trong</font>
 
 434
 00:22:42,432 --> 00:22:43,968
 <font color="#c4c4c4">And check for palindromes</font>
+<font color="#ffff00">Và kiểm tra palindromes</font>
 
 435
 00:22:44,480 --> 00:22:50,624
 <font color="#e5e5e5">Imported into a script and test the functions so you create a module and then import it in another script</font>
+<font color="#ffff00">Được nhập vào tập lệnh và kiểm tra các chức năng để bạn tạo mô-đun rồi nhập mô-đun đó vào tập lệnh khác</font>
 
 436
 00:22:50,880 --> 00:22:52,672
 <font color="#dbdbdb">And test if it works for you</font>
+<font color="#ffff00">Và kiểm tra xem nó có hiệu quả với bạn không</font>
 
 437
 00:22:53,184 --> 00:22:58,048
 <font color="#e6e6e6">So today in day 3 you had some Hands-On experiencing defining functions</font>
+<font color="#ffff00">Như vậy hôm nay trong ngày thứ 3, các bạn đã có một số trải nghiệm thực hành khi xác định hàm</font>
 
 438
 00:22:58,304 --> 00:23:00,352
 <font color="#ededed">Understanding variable scopes</font>
+<font color="#ffff00">Hiểu phạm vi biến</font>
 
 439
 00:23:00,608 --> 00:23:01,888
 <font color="#e2e2e2">And working with modules</font>
+<font color="#ffff00">Và làm việc với các module</font>
 
 440
 00:23:02,144 --> 00:23:04,192
 <font color="#cdcdcd">By practicing with built-in</font>
+<font color="#ffff00">Bằng cách thực hành với phần mềm tích hợp sẵn</font>
 
 441
 00:23:04,448 --> 00:23:08,800
 <font color="#efefef">And custom modules are you developed reusable modular code</font>
+<font color="#ffff00">Và các mô-đun tùy chỉnh là do bạn phát triển mã mô-đun có thể tái sử dụng</font>
 
 442
 00:23:09,056 --> 00:23:15,200
 <font color="#e0e0e0">The critical skill in Ai and software development so this will be very much helpful in our future future</font>
+<font color="#ffff00">Kỹ năng quan trọng trong Ai và phát triển phần mềm nên điều này sẽ rất hữu ích trong tương lai của chúng ta</font>
 
 443
 00:23:15,456 --> 00:23:21,344
 <font color="#f4f4f4">Reduce so I hope you follow this along nicely and if you had any problems or questions let me know and I'll get back to you</font>
+<font color="#ffff00">Giảm bớt vì vậy tôi hy vọng bạn làm theo điều này một cách tốt đẹp và nếu bạn có bất kỳ vấn đề hoặc câu hỏi nào, hãy cho tôi biết và tôi sẽ liên hệ lại với bạn</font>

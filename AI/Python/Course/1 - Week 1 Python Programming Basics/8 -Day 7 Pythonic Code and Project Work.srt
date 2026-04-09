@@ -1,278 +1,347 @@
 ﻿1
 00:00:01,024 --> 00:00:01,792
 <font color="#969696">Day 7</font>
+<font color="#ffff00">Ngày 7</font>
 
 2
 00:00:02,304 --> 00:00:03,328
 <font color="#d5d5d5">Titanic code</font>
+<font color="#ffff00">Mã Titanic</font>
 
 3
 00:00:03,840 --> 00:00:05,376
 <font color="#d1d1d1">And project work</font>
+<font color="#ffff00">Và công trình dự án</font>
 
 4
 00:00:06,144 --> 00:00:06,656
 <font color="#dbdbdb">Today</font>
+<font color="#ffff00">Hôm nay</font>
 
 5
 00:00:06,912 --> 00:00:08,704
 <font color="#cecece">Do not cover different topics</font>
+<font color="#ffff00">Không bao gồm các chủ đề khác nhau</font>
 
 6
 00:00:08,960 --> 00:00:12,032
 <font color="#e3e3e3">Including writing clean pythonic code</font>
+<font color="#ffff00">Bao gồm cả việc viết mã Pythonic sạch</font>
 
 7
 00:00:12,800 --> 00:00:14,336
 <font color="#e3e3e3">Now what is pythonic code</font>
+<font color="#ffff00">Bây giờ mã Pythonic là gì</font>
 
 8
 00:00:14,848 --> 00:00:20,992
 <font color="#dddddd">Pythonic code at hears the best practices and idiomatic expressions in</font>
+<font color="#ffff00">Mã Pythonic nghe các cách thực hành tốt nhất và các biểu thức thành ngữ trong</font>
 
 9
 00:00:22,016 --> 00:00:23,296
 <font color="#e0e0e0">It focuses on</font>
+<font color="#ffff00">Nó tập trung vào</font>
 
 10
 00:00:23,808 --> 00:00:24,832
 <font color="#dfdfdf">Simplicity</font>
+<font color="#ffff00">Đơn giản</font>
 
 11
 00:00:25,088 --> 00:00:28,928
 <font color="#ededed">Readability and leveraging pythons built-in features</font>
+<font color="#ffff00">Khả năng đọc và tận dụng các tính năng tích hợp của python</font>
 
 12
 00:00:29,696 --> 00:00:35,840
 <font color="#f4f4f4">So when you're writing code you have to make sure that you write something where you have to ask yourself</font>
+<font color="#ffff00">Vì vậy, khi bạn viết mã, bạn phải đảm bảo rằng bạn viết điều gì đó mà bạn phải tự hỏi mình</font>
 
 13
 00:00:36,608 --> 00:00:38,656
 <font color="#f7f7f7">Will I understand what I'm writing</font>
+<font color="#ffff00">Liệu tôi có hiểu những gì tôi đang viết không?</font>
 
 14
 00:00:38,912 --> 00:00:40,960
 <font color="#e2e2e2">If I come back after a year</font>
+<font color="#ffff00">Nếu tôi quay lại sau một năm</font>
 
 15
 00:00:41,472 --> 00:00:47,360
 <font color="#e7e7e7">So that this helps with sharing the code with your peers with other friends</font>
+<font color="#ffff00">Vì vậy, điều này giúp chia sẻ mã với đồng nghiệp của bạn với những người bạn khác</font>
 
 16
 00:00:47,616 --> 00:00:49,152
 <font color="#b1b1b1">Weather online anyone</font>
+<font color="#ffff00">Thời tiết trực tuyến bất cứ ai</font>
 
 17
 00:00:49,408 --> 00:00:51,712
 <font color="#f5f5f5">So if you can understand your code</font>
+<font color="#ffff00">Vì vậy, nếu bạn có thể hiểu được mã của mình</font>
 
 18
 00:00:51,968 --> 00:00:52,736
 <font color="#d8d8d8">After</font>
+<font color="#ffff00">Sau đó</font>
 
 19
 00:00:52,992 --> 00:00:55,552
 <font color="#f9f9f9">I feel like anybody can understand it but again</font>
+<font color="#ffff00">Tôi cảm thấy như ai cũng có thể hiểu được nhưng một lần nữa</font>
 
 20
 00:00:56,320 --> 00:01:00,928
 <font color="#eeeeee">Focus on Simplicity readability and leveraging pythons built-in features</font>
+<font color="#ffff00">Tập trung vào khả năng đọc Đơn giản và tận dụng các tính năng tích hợp của python</font>
 
 21
 00:01:01,184 --> 00:01:03,744
 <font color="#f5f5f5">Some of the best practices that we follow are</font>
+<font color="#ffff00">Một số phương pháp hay nhất mà chúng tôi tuân theo là</font>
 
 22
 00:01:04,000 --> 00:01:10,144
 <font color="#f2f2f2">Use of descriptive variable names as you've seen that you've done every time you create a variable make it very</font>
+<font color="#ffff00">Việc sử dụng các tên biến mang tính mô tả như bạn đã thấy mỗi khi tạo một biến sẽ khiến nó trở nên rất thú vị.</font>
 
 23
 00:01:10,400 --> 00:01:16,544
 <font color="#f7f7f7">No matter how long it is or how stupid it sounds like but it's always good to use descriptive</font>
+<font color="#ffff00">Cho dù nó dài bao nhiêu hay nghe có vẻ ngu ngốc đến mức nào thì việc sử dụng mô tả luôn là điều tốt</font>
 
 24
 00:01:17,824 --> 00:01:23,968
 <font color="#d9d9d9">Write modular codes with function in classes as we will practice every time we try to implement</font>
+<font color="#ffff00">Viết mã mô-đun có chức năng trong các lớp vì chúng tôi sẽ thực hành mỗi khi cố gắng triển khai</font>
 
 25
 00:01:24,224 --> 00:01:26,272
 <font color="#e0e0e0">Functionality we start with the function</font>
+<font color="#ffff00">Chức năng chúng ta bắt đầu với chức năng</font>
 
 26
 00:01:26,528 --> 00:01:29,600
 <font color="#e5e5e5">Rewrite function we try to make it modular and</font>
+<font color="#ffff00">Chức năng viết lại chúng tôi cố gắng biến nó thành mô-đun và</font>
 
 27
 00:01:29,856 --> 00:01:31,648
 <font color="#e8e8e8">Make sure that it's more readable</font>
+<font color="#ffff00">Đảm bảo rằng nó dễ đọc hơn</font>
 
 28
 00:01:32,160 --> 00:01:33,184
 <font color="#adadad">Buffalo</font>
+<font color="#ffff00">Trâu</font>
 
 29
 00:01:34,464 --> 00:01:36,000
 <font color="#b0b0b0">8 Style Guidelines</font>
+<font color="#ffff00">8 nguyên tắc về phong cách</font>
 
 30
 00:01:36,256 --> 00:01:37,792
 <font color="#d7d7d7">Now this is a python</font>
+<font color="#ffff00">Bây giờ đây là một con trăn</font>
 
 31
 00:01:38,048 --> 00:01:44,192
 <font color="#f6f6f6">Related guidelines which you can look at look it up but what it says is all about writing</font>
+<font color="#ffff00">Các hướng dẫn liên quan mà bạn có thể xem, nhưng những gì nó nói đều là về cách viết</font>
 
 32
 00:01:44,448 --> 00:01:46,496
 <font color="#f3f3f3">That is very simple that is easy to read</font>
+<font color="#ffff00">Điều đó rất đơn giản và dễ đọc</font>
 
 33
 00:01:46,752 --> 00:01:50,336
 <font color="#efefef">And using most of the pythons built-in features</font>
+<font color="#ffff00">Và sử dụng hầu hết các tính năng tích hợp của pythons</font>
 
 34
 00:01:51,616 --> 00:01:52,896
 <font color="#a5a5a5">Avoid redundancy</font>
+<font color="#ffff00">Tránh dư thừa</font>
 
 35
 00:01:53,152 --> 00:01:55,712
 <font color="#e7e7e7">Leverage pythons powerful buildings</font>
+<font color="#ffff00">Tận dụng các tòa nhà mạnh mẽ của trăn</font>
 
 36
 00:01:56,224 --> 00:01:59,552
 <font color="#e1e1e1">So make sure that if you are writing something over and over again</font>
+<font color="#ffff00">Vì vậy hãy chắc chắn rằng nếu bạn viết đi viết lại một cái gì đó</font>
 
 37
 00:01:59,808 --> 00:02:02,368
 <font color="#ececec">Try to use functions</font>
+<font color="#ffff00">Hãy thử sử dụng các chức năng</font>
 
 38
 00:02:03,392 --> 00:02:09,536
 <font color="#f4f4f4">Also remember that python has a bunch of built-in functions available so if you're trying to write something for example</font>
+<font color="#ffff00">Cũng nên nhớ rằng python có sẵn rất nhiều hàm dựng sẵn, vì vậy nếu bạn đang cố gắng viết một cái gì đó chẳng hạn</font>
 
 39
 00:02:09,792 --> 00:02:11,840
 <font color="#f3f3f3">Getting time</font>
+<font color="#ffff00">Bắt thời gian</font>
 
 40
 00:02:12,096 --> 00:02:16,960
 <font color="#d1d1d1">I'm trying to split something some split a particular string into different characters this</font>
+<font color="#ffff00">Tôi đang cố gắng chia một cái gì đó bằng cách chia một chuỗi cụ thể thành các ký tự khác nhau</font>
 
 41
 00:02:17,216 --> 00:02:21,824
 <font color="#e8e8e8">Functions that are available by python use those don't rewrite all these functionalities</font>
+<font color="#ffff00">Các hàm có sẵn của python sử dụng những chức năng đó không viết lại tất cả các chức năng này</font>
 
 42
 00:02:23,104 --> 00:02:25,152
 <font color="#c5c5c5">Let's look at list comprehensions</font>
+<font color="#ffff00">Chúng ta hãy nhìn vào sự hiểu biết danh sách</font>
 
 43
 00:02:25,664 --> 00:02:27,712
 <font color="#f1f1f1">So what are list comprehensions</font>
+<font color="#ffff00">Vậy hiểu danh sách là gì</font>
 
 44
 00:02:28,224 --> 00:02:29,760
 <font color="#b2b2b2">It's a concise way</font>
+<font color="#ffff00">Đó là một cách ngắn gọn</font>
 
 45
 00:02:30,016 --> 00:02:33,600
 <font color="#e9e9e9">To create list using a single line of code</font>
+<font color="#ffff00">Để tạo danh sách bằng một dòng mã</font>
 
 46
 00:02:34,112 --> 00:02:38,720
 <font color="#f2f2f2">What do I mean by that let's look at the percentage and some examples</font>
+<font color="#ffff00">Ý tôi là gì, hãy xem tỷ lệ phần trăm và một số ví dụ</font>
 
 47
 00:02:38,976 --> 00:02:41,280
 <font color="#d2d2d2">Sony start with an empty file</font>
+<font color="#ffff00">Sony bắt đầu với một tập tin trống</font>
 
 48
 00:02:42,560 --> 00:02:45,632
 <font color="#d0d0d0">Save it in Rd 7 I'm going to call it</font>
+<font color="#ffff00">Lưu nó vào đường số 7 Tôi sẽ gọi nó là</font>
 
 49
 00:02:45,888 --> 00:02:48,448
 <font color="#9b9b9b">Is 7 underscore samples</font>
+<font color="#ffff00">Là 7 mẫu gạch dưới</font>
 
 50
 00:02:49,472 --> 00:02:51,520
 <font color="#eeeeee">And inside here let's look at the</font>
+<font color="#ffff00">Và bên trong đây chúng ta hãy nhìn vào</font>
 
 51
 00:02:51,776 --> 00:02:52,544
 <font color="#cccccc">Send text</font>
+<font color="#ffff00">Gửi văn bản</font>
 
 52
 00:02:53,568 --> 00:02:55,104
 <font color="#dddddd">List comprehensions</font>
+<font color="#ffff00">Danh sách hiểu</font>
 
 53
 00:02:55,360 --> 00:02:58,688
 <font color="#dbdbdb">So you write your expression and you have used it couple of times before</font>
+<font color="#ffff00">Vì vậy, bạn viết biểu thức của mình và bạn đã sử dụng nó vài lần trước đây</font>
 
 54
 00:02:59,200 --> 00:03:02,016
 <font color="#f5f5f5">And for each and every item</font>
+<font color="#ffff00">Và đối với mỗi mặt hàng</font>
 
 55
 00:03:02,272 --> 00:03:03,040
 <font color="#ececec">In</font>
+<font color="#ffff00">TRONG</font>
 
 56
 00:03:03,552 --> 00:03:04,320
 <font color="#555555">A travel</font>
+<font color="#ffff00">một chuyến du lịch</font>
 
 57
 00:03:05,088 --> 00:03:06,368
 <font color="#b6b6b6">Use if condition</font>
+<font color="#ffff00">Sử dụng điều kiện if</font>
 
 58
 00:03:07,904 --> 00:03:09,696
 <font color="#f1f1f1">So if condition is satisfied</font>
+<font color="#ffff00">Vì vậy nếu điều kiện được thỏa mãn</font>
 
 59
 00:03:10,720 --> 00:03:16,864
 <font color="#e2e2e2">Item in a triple then the expression follows along now this is a little bit difficult to understand</font>
+<font color="#ffff00">Mục trong bộ ba thì biểu thức tiếp theo bây giờ điều này hơi khó hiểu một chút</font>
 
 60
 00:03:17,120 --> 00:03:18,400
 <font color="#f4f4f4">So let's look at some examples</font>
+<font color="#ffff00">Vì vậy hãy xem xét một số ví dụ</font>
 
 61
 00:03:18,656 --> 00:03:21,216
 <font color="#f7f7f7">So first let's create</font>
+<font color="#ffff00">Vì vậy trước tiên hãy tạo</font>
 
 62
 00:03:21,472 --> 00:03:22,496
 <font color="#dcdcdc">A list</font>
+<font color="#ffff00">Một danh sách</font>
 
 63
 00:03:22,752 --> 00:03:24,288
 <font color="#797979">Off squares</font>
+<font color="#ffff00">Tắt hình vuông</font>
 
 64
 00:03:25,312 --> 00:03:27,104
 <font color="#f0f0f0">To do that I can say</font>
+<font color="#ffff00">Để làm điều đó tôi có thể nói</font>
 
 65
 00:03:27,360 --> 00:03:28,640
 <font color="#686868">Squares</font>
+<font color="#ffff00">Hình vuông</font>
 
 66
 00:03:28,896 --> 00:03:29,920
 <font color="#ececec">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 67
 00:03:30,432 --> 00:03:32,992
 <font color="#7d7d7d">X square root of</font>
+<font color="#ffff00">X căn bậc hai của</font>
 
 68
 00:03:34,784 --> 00:03:36,064
 <font color="#a9a9a9">4X</font>
+<font color="#ffff00">4X</font>
 
 69
 00:03:36,320 --> 00:03:38,368
 <font color="#b7b7b7">In range of</font>
+<font color="#ffff00">Trong phạm vi của</font>
 
 70
 00:03:38,880 --> 00:03:39,392
@@ -281,74 +350,92 @@
 71
 00:03:40,672 --> 00:03:43,744
 <font color="#ededed">So what this will do is it will give me</font>
+<font color="#ffff00">Vì vậy, điều này sẽ làm là nó sẽ cho tôi</font>
 
 72
 00:03:45,024 --> 00:03:46,560
 <font color="#fbfbfb">For each and every item</font>
+<font color="#ffff00">Đối với mỗi mặt hàng</font>
 
 73
 00:03:46,816 --> 00:03:49,888
 <font color="#c3c3c3">From starting from 1:30 to 9</font>
+<font color="#ffff00">Bắt đầu từ 1h30 đến 9h</font>
 
 74
 00:03:50,144 --> 00:03:54,496
 <font color="#cecece">Because range goes from 0 to 9 so x square of 2</font>
+<font color="#ffff00">Vì phạm vi đi từ 0 đến 9 nên x bình phương của 2</font>
 
 75
 00:03:54,752 --> 00:04:00,384
 <font color="#dbdbdb">What it does is it will give me to go to the first item so if I offend this out just to test it out</font>
+<font color="#ffff00">Những gì nó làm là nó sẽ cho phép tôi đi đến mục đầu tiên vì vậy nếu tôi vi phạm điều này chỉ để kiểm tra nó</font>
 
 76
 00:04:00,640 --> 00:04:02,432
 <font color="#bcbcbc">I can see squares</font>
+<font color="#ffff00">Tôi có thể nhìn thấy các hình vuông</font>
 
 77
 00:04:03,456 --> 00:04:04,992
 <font color="#f8f8f8">Go to my terminal</font>
+<font color="#ffff00">Đi đến thiết bị đầu cuối của tôi</font>
 
 78
 00:04:06,016 --> 00:04:10,368
 <font color="#c7c7c7">Let me make sure I have the score python D7 samples</font>
+<font color="#ffff00">Hãy để tôi đảm bảo rằng tôi có điểm mẫu python D7</font>
 
 79
 00:04:10,880 --> 00:04:13,952
 <font color="#ededed">And if you see it took the first number in range zero</font>
+<font color="#ffff00">Và nếu bạn thấy nó lấy số đầu tiên trong phạm vi 0</font>
 
 80
 00:04:15,488 --> 00:04:21,631
 <font color="#b9b9b9">0 ^ 2 * 0 1/2 is 1/2 squared is 4 3/94 squared</font>
+<font color="#ffff00">0^2 * 0 1/2 là 1/2 bình phương là 4 3/94 bình phương</font>
 
 81
 00:04:21,887 --> 00:04:28,031
 <font color="#d8d8d8">Play CNN song so that's what this gave you but you wrote that in one single line as a list comprehension</font>
+<font color="#ffff00">Phát bài hát CNN để đó là những gì nó mang lại cho bạn nhưng bạn đã viết nó trong một dòng duy nhất dưới dạng hiểu danh sách</font>
 
 82
 00:04:28,287 --> 00:04:29,567
 <font color="#aeaeae">Then</font>
+<font color="#ffff00">Sau đó</font>
 
 83
 00:04:29,823 --> 00:04:31,103
 <font color="#dbdbdb">Kind of create</font>
+<font color="#ffff00">Kiểu tạo ra</font>
 
 84
 00:04:31,359 --> 00:04:37,503
 <font color="#d9d9d9">A table for multiple lines here so this is something that you should probably use get used to another thing</font>
+<font color="#ffff00">Ở đây có một bảng cho nhiều dòng nên đây là thứ mà bạn có thể nên sử dụng để làm quen với thứ khác</font>
 
 85
 00:04:37,759 --> 00:04:39,551
 <font color="#d2d2d2">I think I can do is let's filter</font>
+<font color="#ffff00">Tôi nghĩ tôi có thể làm là hãy lọc</font>
 
 86
 00:04:41,343 --> 00:04:42,367
 <font color="#ececec">Numbers</font>
+<font color="#ffff00">số</font>
 
 87
 00:04:43,391 --> 00:04:45,695
 <font color="#e5e5e5">To do that I am going to say Evans</font>
+<font color="#ffff00">Để làm điều đó tôi sẽ nói Evans</font>
 
 88
 00:04:45,951 --> 00:04:47,743
 <font color="#eaeaea">Equal to X</font>
+<font color="#ffff00">Bằng X</font>
 
 89
 00:04:47,999 --> 00:04:49,023
@@ -357,2427 +444,3034 @@
 90
 00:04:50,303 --> 00:04:51,583
 <font color="#dbdbdb">Range of</font>
+<font color="#ffff00">Phạm vi của</font>
 
 91
 00:04:54,655 --> 00:04:56,191
 <font color="#4d4d4d">Xmod</font>
+<font color="#ffff00">Xmod</font>
 
 92
 00:04:57,215 --> 00:04:58,239
 <font color="#d4d4d4">Equal to zero</font>
+<font color="#ffff00">Bằng 0</font>
 
 93
 00:04:58,495 --> 00:05:04,639
 <font color="#e5e5e5">So what it does is it goes from each and every number in this rain and checks the expression if x mod 2</font>
+<font color="#ffff00">Vì vậy, những gì nó làm là đi từ từng số trong cơn mưa này và kiểm tra biểu thức if x mod 2</font>
 
 94
 00:05:04,895 --> 00:05:05,919
 <font color="#e1e1e1">Equal to 0</font>
+<font color="#ffff00">Bằng 0</font>
 
 95
 00:05:06,175 --> 00:05:08,223
 <font color="#f3f3f3">Which means it's an even number</font>
+<font color="#ffff00">nghĩa là đó là số chẵn</font>
 
 96
 00:05:08,479 --> 00:05:11,295
 <font color="#efefef">So I can just go ahead and print evens here</font>
+<font color="#ffff00">Vì vậy tôi có thể tiếp tục và in các sự kiện ở đây</font>
 
 97
 00:05:12,063 --> 00:05:13,087
 <font color="#737373">Is it on this</font>
+<font color="#ffff00">Có phải trên này không</font>
 
 98
 00:05:13,343 --> 00:05:19,487
 <font color="#ebebeb">And you have this is the first is the squares the second one is the even numbers now I can give it all the</font>
+<font color="#ffff00">Và bạn có cái này cái đầu tiên là hình vuông cái thứ hai là số chẵn bây giờ tôi có thể cho nó tất cả</font>
 
 99
 00:05:19,743 --> 00:05:20,255
 <font color="#848484">Level 100</font>
+<font color="#ffff00">Cấp 100</font>
 
 100
 00:05:20,767 --> 00:05:22,559
 <font color="#efefef">Make sure this is commented</font>
+<font color="#ffff00">Hãy chắc chắn rằng điều này được nhận xét</font>
 
 101
 00:05:25,119 --> 00:05:28,191
 <font color="#e3e3e3">And you'll see all the even numbers from 0 to 100</font>
+<font color="#ffff00">Và bạn sẽ thấy tất cả các số chẵn từ 0 đến 100</font>
 
 102
 00:05:28,447 --> 00:05:29,215
 <font color="#b1b1b1">Similarly</font>
+<font color="#ffff00">Tương tự</font>
 
 103
 00:05:29,471 --> 00:05:31,263
 <font color="#eeeeee">You can do a</font>
+<font color="#ffff00">Bạn có thể làm một</font>
 
 104
 00:05:31,519 --> 00:05:32,543
 <font color="#bfbfbf">Odd numbers</font>
+<font color="#ffff00">Số lẻ</font>
 
 105
 00:05:34,335 --> 00:05:38,175
 <font color="#d6d6d6">Just by saying not equal to zero and there you go you have the odd numbers here</font>
+<font color="#ffff00">Chỉ cần nói không bằng 0 và thế là bạn có số lẻ ở đây</font>
 
 106
 00:05:38,687 --> 00:05:41,247
 <font color="#f4f4f4">So this is how you can create list comprehensions</font>
+<font color="#ffff00">Vì vậy, đây là cách bạn có thể hiểu danh sách</font>
 
 107
 00:05:41,503 --> 00:05:47,135
 <font color="#dadada">Radio consolidating multiple lines into one single line so that's how this comprehension work</font>
+<font color="#ffff00">Radio hợp nhất nhiều dòng thành một dòng duy nhất để đó là cách hiểu này hoạt động</font>
 
 108
 00:05:47,647 --> 00:05:49,183
 <font color="#ededed">Next let's look at</font>
+<font color="#ffff00">Tiếp theo chúng ta hãy nhìn vào</font>
 
 109
 00:05:49,439 --> 00:05:50,463
 <font color="#d9d9d9">Lambda functions</font>
+<font color="#ffff00">Hàm Lambda</font>
 
 110
 00:05:50,719 --> 00:05:52,255
 <font color="#d0d0d0">Now what are Lambda functions</font>
+<font color="#ffff00">Bây giờ chức năng Lambda là gì</font>
 
 111
 00:05:52,511 --> 00:05:55,839
 <font color="#ebebeb">These are Anonymous single expression functions</font>
+<font color="#ffff00">Đây là các hàm biểu thức đơn ẩn danh</font>
 
 112
 00:05:56,095 --> 00:05:59,935
 <font color="#dcdcdc">Define using the Lambda Chi word it's used in a lot of programming languages</font>
+<font color="#ffff00">Xác định bằng từ Lambda Chi, nó được sử dụng trong nhiều ngôn ngữ lập trình</font>
 
 113
 00:06:00,191 --> 00:06:06,335
 <font color="#e4e4e4">Are also called Anonymous functions or Lambda somewhere else but in Python is used the</font>
+<font color="#ffff00">Còn được gọi là Hàm ẩn danh hoặc Lambda ở nơi khác nhưng trong Python được sử dụng</font>
 
 114
 00:06:06,591 --> 00:06:07,103
 <font color="#808080">I'm the key</font>
+<font color="#ffff00">Tôi là chìa khóa</font>
 
 115
 00:06:08,895 --> 00:06:14,015
 <font color="#e0e0e0">Anonymous single expression functions Define using the Lambda keyword</font>
+<font color="#ffff00">Hàm biểu thức đơn ẩn danh Xác định bằng từ khóa Lambda</font>
 
 116
 00:06:14,271 --> 00:06:17,343
 <font color="#fbfbfb">So let's look at some syntax and examples</font>
+<font color="#ffff00">Vì vậy, hãy xem xét một số cú pháp và ví dụ</font>
 
 117
 00:06:17,599 --> 00:06:19,135
 <font color="#d4d4d4">For Lambda functions</font>
+<font color="#ffff00">Đối với các hàm Lambda</font>
 
 118
 00:06:19,391 --> 00:06:21,183
 <font color="#d6d6d6">So I'm going to go ahead here</font>
+<font color="#ffff00">Vì vậy tôi sẽ tiếp tục ở đây</font>
 
 119
 00:06:21,439 --> 00:06:22,463
 <font color="#b7b7b7">Comment this out</font>
+<font color="#ffff00">Bình luận điều này ra</font>
 
 120
 00:06:22,719 --> 00:06:23,999
 <font color="#d3d3d3">And in here</font>
+<font color="#ffff00">Và ở đây</font>
 
 121
 00:06:24,255 --> 00:06:26,303
 <font color="#f3f3f3">First let's look at the</font>
+<font color="#ffff00">Đầu tiên chúng ta hãy nhìn vào</font>
 
 122
 00:06:27,071 --> 00:06:27,839
 <font color="#898989">Send text</font>
+<font color="#ffff00">Gửi văn bản</font>
 
 123
 00:06:28,095 --> 00:06:29,887
 <font color="#a9a9a9">The way it goes as you say Lambda</font>
+<font color="#ffff00">Cách nó diễn ra như bạn nói Lambda</font>
 
 124
 00:06:31,423 --> 00:06:32,959
 <font color="#5d5d5d">Lambda</font>
+<font color="#ffff00">Lambda</font>
 
 125
 00:06:33,215 --> 00:06:35,519
 <font color="#fcfcfc">And then give your arguments</font>
+<font color="#ffff00">Và sau đó đưa ra lập luận của bạn</font>
 
 126
 00:06:35,775 --> 00:06:41,919
 <font color="#efefef">So it's like giving a function but you don't have to give the name of this particular function that's what's called</font>
+<font color="#ffff00">Vì vậy, nó giống như đưa ra một chức năng nhưng bạn không cần phải cung cấp tên của chức năng cụ thể này, cái được gọi là</font>
 
 127
 00:06:42,175 --> 00:06:48,319
 <font color="#ececec">Anonymous you just give the arguments and the expression so for example if I'm writing a function</font>
+<font color="#ffff00">Ẩn danh, bạn chỉ cần đưa ra các đối số và biểu thức, ví dụ như nếu tôi đang viết một hàm</font>
 
 128
 00:06:48,575 --> 00:06:49,599
 <font color="#d9d9d9">I'm going to say</font>
+<font color="#ffff00">tôi định nói</font>
 
 129
 00:06:50,111 --> 00:06:51,391
 <font color="#e7e7e7">The function name</font>
+<font color="#ffff00">Tên chức năng</font>
 
 130
 00:06:52,415 --> 00:06:55,231
 <font color="#f9f9f9">And then give the arguments here</font>
+<font color="#ffff00">Và sau đó đưa ra các lập luận ở đây</font>
 
 131
 00:06:55,743 --> 00:06:56,767
 <font color="#e9e9e9">And then</font>
+<font color="#ffff00">Và sau đó</font>
 
 132
 00:06:57,279 --> 00:07:02,655
 <font color="#f4f4f4">My expression on my function code inside here but think of it as it doesn't have a name</font>
+<font color="#ffff00">Biểu thức của tôi trên mã chức năng của tôi ở đây nhưng hãy nghĩ về nó vì nó không có tên</font>
 
 133
 00:07:03,167 --> 00:07:04,447
 <font color="#e2e2e2">Just arguments</font>
+<font color="#ffff00">Chỉ là lý lẽ</font>
 
 134
 00:07:04,703 --> 00:07:05,983
 <font color="#d7d7d7">And expressions</font>
+<font color="#ffff00">Và biểu thức</font>
 
 135
 00:07:06,239 --> 00:07:07,007
 <font color="#cfcfcf">Next to it</font>
+<font color="#ffff00">Bên cạnh nó</font>
 
 136
 00:07:07,263 --> 00:07:09,055
 <font color="#dedede">So let's look at some examples</font>
+<font color="#ffff00">Vì vậy hãy xem xét một số ví dụ</font>
 
 137
 00:07:09,311 --> 00:07:11,103
 <font color="#cccccc">I'm going to say add</font>
+<font color="#ffff00">Tôi sẽ nói thêm</font>
 
 138
 00:07:11,359 --> 00:07:12,639
 <font color="#878787">Lambda</font>
+<font color="#ffff00">Lambda</font>
 
 139
 00:07:15,455 --> 00:07:17,759
 <font color="#f8f8f8">And why these are my two arguments</font>
+<font color="#ffff00">Và tại sao đây là hai lập luận của tôi</font>
 
 140
 00:07:18,271 --> 00:07:19,295
 <font color="#6f6f6f">Analysis EX</font>
+<font color="#ffff00">Phân tích EX</font>
 
 141
 00:07:21,087 --> 00:07:27,231
 <font color="#f1f1f1">Usually you would create a function and then put this inside the curly brackets and these are the arguments but using</font>
+<font color="#ffff00">Thông thường, bạn sẽ tạo một hàm rồi đặt hàm này vào trong dấu ngoặc nhọn và đây là các đối số nhưng sử dụng</font>
 
 142
 00:07:27,487 --> 00:07:29,535
 <font color="#e0e0e0">Remember you can put everything in one single line</font>
+<font color="#ffff00">Hãy nhớ rằng bạn có thể đặt mọi thứ trong một dòng duy nhất</font>
 
 143
 00:07:29,791 --> 00:07:31,327
 <font color="#dedede">And I can say print</font>
+<font color="#ffff00">Và tôi có thể nói in</font>
 
 144
 00:07:34,655 --> 00:07:38,239
 <font color="#d9d9d9">And give the arguments 3 comma 5 it looks like</font>
+<font color="#ffff00">Và đưa ra các đối số 3 dấu phẩy 5 có vẻ như</font>
 
 145
 00:07:38,495 --> 00:07:39,775
 <font color="#fcfcfc">As you can see it looks like</font>
+<font color="#ffff00">Như bạn có thể thấy nó trông giống như</font>
 
 146
 00:07:40,031 --> 00:07:40,799
 <font color="#e4e4e4">A function</font>
+<font color="#ffff00">một chức năng</font>
 
 147
 00:07:41,823 --> 00:07:46,175
 <font color="#dbdbdb">And what is it output let's go ahead and see if it works 83 + 5</font>
+<font color="#ffff00">Và đầu ra của nó là gì, chúng ta hãy tiếp tục xem nó có hoạt động không 83 + 5</font>
 
 148
 00:07:46,431 --> 00:07:52,575
 <font color="#dbdbdb">It passes these values as 3 and 5 here and runs this expression here and use the</font>
+<font color="#ffff00">Nó chuyển các giá trị này thành 3 và 5 ở đây và chạy biểu thức này ở đây và sử dụng</font>
 
 149
 00:07:52,831 --> 00:07:57,183
 <font color="#d8d8d8">Because it's inline functions Anonymous functions whatever you want to call it</font>
+<font color="#ffff00">Bởi vì đó là các hàm nội tuyến. Các hàm ẩn danh bất kể bạn muốn gọi nó là gì</font>
 
 150
 00:07:57,439 --> 00:07:58,975
 <font color="#bebebe">That's what Lambda is</font>
+<font color="#ffff00">Lambda là vậy đó</font>
 
 151
 00:07:59,999 --> 00:08:02,815
 <font color="#e2e2e2">What's next look at some of the very common</font>
+<font color="#ffff00">Điều gì tiếp theo hãy nhìn vào một số điều rất phổ biến</font>
 
 152
 00:08:03,071 --> 00:08:05,119
 <font color="#cacaca">Function that will be using quite a lot</font>
+<font color="#ffff00">Chức năng sẽ được sử dụng khá nhiều</font>
 
 153
 00:08:05,375 --> 00:08:07,679
 <font color="#dddddd">So we have a map filter and reduce</font>
+<font color="#ffff00">Vì vậy, chúng tôi có một bộ lọc bản đồ và giảm</font>
 
 154
 00:08:08,191 --> 00:08:09,215
 <font color="#e7e7e7">First map</font>
+<font color="#ffff00">Bản đồ đầu tiên</font>
 
 155
 00:08:09,471 --> 00:08:15,615
 <font color="#dbdbdb">Is applies to apply for function to each item in an iterable so it keeps on looping</font>
+<font color="#ffff00">Được áp dụng để áp dụng chức năng cho từng mục trong một lần lặp để nó tiếp tục lặp</font>
 
 156
 00:08:16,383 --> 00:08:19,455
 <font color="#dddddd">A tribal item and applies the function to it</font>
+<font color="#ffff00">Một vật phẩm bộ lạc và áp dụng chức năng cho nó</font>
 
 157
 00:08:19,711 --> 00:08:22,271
 <font color="#fbfbfb">What do I mean by that let's look at an example</font>
+<font color="#ffff00">Ý tôi là gì, hãy xem một ví dụ</font>
 
 158
 00:08:24,319 --> 00:08:26,111
 <font color="#f5f5f5">Go to the top of this</font>
+<font color="#ffff00">Đi đến đầu này</font>
 
 159
 00:08:26,367 --> 00:08:29,439
 <font color="#eaeaea">And create a list of item called as numbers</font>
+<font color="#ffff00">Và tạo một danh sách mục được gọi là số</font>
 
 160
 00:08:31,487 --> 00:08:32,511
 <font color="#b6b6b6">3 and 4</font>
+<font color="#ffff00">3 và 4</font>
 
 161
 00:08:32,767 --> 00:08:34,559
 <font color="#fcfcfc">So this is my list of items</font>
+<font color="#ffff00">Vì vậy, đây là danh sách các mục của tôi</font>
 
 162
 00:08:36,351 --> 00:08:37,631
 <font color="#e7e7e7">And next</font>
+<font color="#ffff00">Và tiếp theo</font>
 
 163
 00:08:37,887 --> 00:08:38,911
 <font color="#e0e0e0">I am going to say</font>
+<font color="#ffff00">tôi định nói</font>
 
 164
 00:08:39,423 --> 00:08:40,703
 <font color="#464646">Squares</font>
+<font color="#ffff00">Hình vuông</font>
 
 165
 00:08:41,215 --> 00:08:43,007
 <font color="#e9e9e9">Equal to map</font>
+<font color="#ffff00">Tương đương với bản đồ</font>
 
 166
 00:08:44,543 --> 00:08:50,687
 <font color="#bdbdbd">Lambda some creating a function here Anonymous function and I'm seeing x x x</font>
+<font color="#ffff00">Lambda đang tạo một hàm ở đây Hàm ẩn danh và tôi đang thấy x x x</font>
 
 167
 00:08:53,247 --> 00:08:54,015
 <font color="#dedede">Numbers</font>
+<font color="#ffff00">số</font>
 
 168
 00:08:54,527 --> 00:08:58,111
 <font color="#f8f8f8">So what I'm doing is I am taking this list of items</font>
+<font color="#ffff00">Vì vậy điều tôi đang làm là lấy danh sách các mục này</font>
 
 169
 00:08:58,623 --> 00:09:00,927
 <font color="#fbfbfb">And I'm saying that I want to run</font>
+<font color="#ffff00">Và tôi đang nói rằng tôi muốn chạy</font>
 
 170
 00:09:01,183 --> 00:09:02,719
 <font color="#f6f6f6">This expression</font>
+<font color="#ffff00">Biểu thức này</font>
 
 171
 00:09:02,975 --> 00:09:05,279
 <font color="#fbfbfb">On this particular list of items</font>
+<font color="#ffff00">Trên danh sách các mục cụ thể này</font>
 
 172
 00:09:06,047 --> 00:09:12,191
 <font color="#e9e9e9">I'm mapping it to it so that's how Maps work so this is actually function and this is the argument that is</font>
+<font color="#ffff00">Tôi đang ánh xạ nó tới nó để đó là cách Maps hoạt động nên đây thực sự là chức năng và đây là đối số</font>
 
 173
 00:09:12,447 --> 00:09:14,495
 <font color="#bebebe">What does X each item at a time</font>
+<font color="#ffff00">Mỗi mục X làm gì tại một thời điểm</font>
 
 174
 00:09:14,751 --> 00:09:16,799
 <font color="#d2d2d2">And it will Square the items and give it to me</font>
+<font color="#ffff00">Và nó sẽ bình phương các vật phẩm và đưa nó cho tôi</font>
 
 175
 00:09:17,055 --> 00:09:18,591
 <font color="#d9d9d9">I can just say print</font>
+<font color="#ffff00">Tôi chỉ có thể nói in</font>
 
 176
 00:09:21,151 --> 00:09:22,431
 <font color="#808080">The square</font>
+<font color="#ffff00">Quảng trường</font>
 
 177
 00:09:24,223 --> 00:09:24,991
 <font color="#4e4e4e">My favorite</font>
+<font color="#ffff00">yêu thích của tôi</font>
 
 178
 00:09:25,759 --> 00:09:27,807
 <font color="#e0e0e0">Hope all the print statements are not</font>
+<font color="#ffff00">Hy vọng tất cả các báo cáo in không</font>
 
 179
 00:09:28,319 --> 00:09:34,463
 <font color="#929292">And run it I have 149 and 6149 and 161 Square 2 square 3</font>
+<font color="#ffff00">Và chạy nó tôi có 149 và 6149 và 161 Square 2 vuông 3</font>
 
 180
 00:09:34,719 --> 00:09:37,279
 <font color="#cccccc">Square foot square it took each and every number</font>
+<font color="#ffff00">Foot vuông vuông nó lấy từng con số</font>
 
 181
 00:09:37,535 --> 00:09:41,375
 <font color="#e3e3e3">Square them and then I see the list output right here</font>
+<font color="#ffff00">Bình phương chúng và sau đó tôi thấy danh sách đầu ra ngay tại đây</font>
 
 182
 00:09:42,655 --> 00:09:45,471
 <font color="#eaeaea">Next that you want to look at is filter</font>
+<font color="#ffff00">Tiếp theo bạn muốn xem xét là bộ lọc</font>
 
 183
 00:09:47,263 --> 00:09:49,567
 <font color="#d5d5d5">Introduces for filters</font>
+<font color="#ffff00">Giới thiệu về bộ lọc</font>
 
 184
 00:09:49,823 --> 00:09:52,639
 <font color="#fcfcfc">Items based on a condition</font>
+<font color="#ffff00">Các mục dựa trên một điều kiện</font>
 
 185
 00:09:54,943 --> 00:09:55,711
 <font color="#4f4f4f">Filter</font>
+<font color="#ffff00">Lọc</font>
 
 186
 00:09:56,223 --> 00:09:56,991
 <font color="#e5e5e5">Items</font>
+<font color="#ffff00">Mặt hàng</font>
 
 187
 00:09:59,039 --> 00:10:01,087
 <font color="#ececec">Next let's look at the filter function</font>
+<font color="#ffff00">Tiếp theo hãy xem chức năng lọc</font>
 
 188
 00:10:01,599 --> 00:10:04,159
 <font color="#e5e5e5">Is Filters items based on a condition</font>
+<font color="#ffff00">Lọc các mục dựa trên một điều kiện</font>
 
 189
 00:10:04,671 --> 00:10:08,511
 <font color="#ececec">So let's look at an example here I'm going to comment this out</font>
+<font color="#ffff00">Vì vậy, hãy xem một ví dụ ở đây. Tôi sẽ bình luận điều này</font>
 
 190
 00:10:10,047 --> 00:10:13,631
 <font color="#c2c2c2">And he is based on our previous event</font>
+<font color="#ffff00">Và anh ấy dựa trên sự kiện trước đó của chúng tôi</font>
 
 191
 00:10:13,887 --> 00:10:15,679
 <font color="#eaeaea">Function I'm going to say even</font>
+<font color="#ffff00">Chức năng tôi sẽ nói thậm chí</font>
 
 192
 00:10:17,471 --> 00:10:18,751
 <font color="#b3b3b3">List</font>
+<font color="#ffff00">Danh sách</font>
 
 193
 00:10:19,007 --> 00:10:20,031
 <font color="#e2e2e2">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 194
 00:10:22,079 --> 00:10:22,847
 <font color="#525252">Filter</font>
+<font color="#ffff00">Lọc</font>
 
 195
 00:10:23,615 --> 00:10:25,407
 <font color="#bebebe">And here I'm going to say Lambda</font>
+<font color="#ffff00">Và ở đây tôi sẽ nói Lambda</font>
 
 196
 00:10:27,455 --> 00:10:30,527
 <font color="#e3e3e3">X is the argument</font>
+<font color="#ffff00">X là đối số</font>
 
 197
 00:10:34,879 --> 00:10:35,903
 <font color="#eaeaea">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 198
 00:10:37,183 --> 00:10:40,767
 <font color="#e2e2e2">Write it properly follow the pythonic coding structure</font>
+<font color="#ffff00">Viết nó đúng theo cấu trúc mã hóa Pythonic</font>
 
 199
 00:10:41,279 --> 00:10:42,047
 <font color="#afafaf">And</font>
+<font color="#ffff00">Và</font>
 
 200
 00:10:42,303 --> 00:10:43,327
 <font color="#e0e0e0">Numbers</font>
+<font color="#ffff00">số</font>
 
 201
 00:10:43,839 --> 00:10:47,679
 <font color="#d9d9d9">B**** I have right here someone take this year and put it here</font>
+<font color="#ffff00">B**** Tôi có ngay đây ai đó lấy năm nay và đặt nó ở đây</font>
 
 202
 00:10:48,959 --> 00:10:52,031
 <font color="#ededed">So what it does it goes through each and every item here</font>
+<font color="#ffff00">Vì vậy, những gì nó làm sẽ đi qua từng mục ở đây</font>
 
 203
 00:10:52,287 --> 00:10:55,359
 <font color="#ececec">And more that and check if that</font>
+<font color="#ffff00">Và hơn thế nữa và kiểm tra xem liệu điều đó</font>
 
 204
 00:10:55,615 --> 00:11:00,223
 <font color="#eeeeee">Item is a even number or not and that is assigned</font>
+<font color="#ffff00">Mục có phải là số chẵn hay không và được chỉ định</font>
 
 205
 00:11:00,479 --> 00:11:02,015
 <font color="#b9b9b9">To even less</font>
+<font color="#ffff00">Thậm chí còn ít hơn</font>
 
 206
 00:11:02,527 --> 00:11:04,063
 <font color="#cbcbcb">And I can say print</font>
+<font color="#ffff00">Và tôi có thể nói in</font>
 
 207
 00:11:07,391 --> 00:11:08,159
 <font color="#6c6c6c">Heathens</font>
+<font color="#ffff00">ngoại đạo</font>
 
 208
 00:11:09,439 --> 00:11:10,463
 <font color="#e5e5e5">When I run this</font>
+<font color="#ffff00">Khi tôi chạy cái này</font>
 
 209
 00:11:13,279 --> 00:11:15,327
 <font color="#cbcbcb">I think even list so</font>
+<font color="#ffff00">Tôi nghĩ thậm chí liệt kê như vậy</font>
 
 210
 00:11:17,375 --> 00:11:23,519
 <font color="#bfbfbf">I have two and four sort of these the even numbers are 2 and 4 and that's what filter does it filters to an item</font>
+<font color="#ffff00">Tôi có hai và bốn loại trong số này, các số chẵn là 2 và 4 và đó là bộ lọc mà nó lọc cho một mục</font>
 
 211
 00:11:23,775 --> 00:11:26,847
 <font color="#e0e0e0">And goes to NRA filters based on the</font>
+<font color="#ffff00">Và đi tới các bộ lọc NRA dựa trên</font>
 
 212
 00:11:27,103 --> 00:11:28,127
 <font color="#f3f3f3">Associated</font>
+<font color="#ffff00">Có liên quan</font>
 
 213
 00:11:28,383 --> 00:11:32,479
 <font color="#e8e8e8">Lambda that you provided here and gives me a list of even numbers</font>
+<font color="#ffff00">Lambda mà bạn đã cung cấp ở đây và đưa cho tôi danh sách các số chẵn</font>
 
 214
 00:11:33,503 --> 00:11:34,271
 <font color="#cbcbcb">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 215
 00:11:34,527 --> 00:11:35,807
 <font color="#bbbbbb">We have reduced</font>
+<font color="#ffff00">Chúng tôi đã giảm</font>
 
 216
 00:11:36,319 --> 00:11:40,159
 <font color="#c5c5c5">It's from Funk tools and it reduces an edible</font>
+<font color="#ffff00">Đó là từ các công cụ Funk và nó làm giảm lượng ăn được</font>
 
 217
 00:11:40,415 --> 00:11:44,767
 <font color="#e8e8e8">Do a single value so it takes like you have a dribble item it will reduce it</font>
+<font color="#ffff00">Thực hiện một giá trị duy nhất để giống như bạn có một vật phẩm rê bóng, nó sẽ giảm nó</font>
 
 218
 00:11:45,023 --> 00:11:46,303
 <font color="#dadada">Do a single number</font>
+<font color="#ffff00">Làm một số duy nhất</font>
 
 219
 00:11:46,559 --> 00:11:48,095
 <font color="#fdfdfd">So what I can do is</font>
+<font color="#ffff00">Vì vậy điều tôi có thể làm là</font>
 
 220
 00:11:48,607 --> 00:11:49,631
 <font color="#8a8a8a">Do you use radius</font>
+<font color="#ffff00">Bạn có sử dụng bán kính không</font>
 
 221
 00:11:51,935 --> 00:11:53,471
 <font color="#ededed">I'll have to</font>
+<font color="#ffff00">tôi sẽ phải</font>
 
 222
 00:11:53,727 --> 00:11:55,263
 <font color="#c5c5c5">Keep your numbers is dead</font>
+<font color="#ffff00">Giữ số của bạn đã chết</font>
 
 223
 00:11:55,519 --> 00:11:56,799
 <font color="#dedede">I am</font>
+<font color="#ffff00">Tôi là</font>
 
 224
 00:11:57,055 --> 00:11:58,335
 <font color="#ececec">Get the module</font>
+<font color="#ffff00">Lấy mô-đun</font>
 
 225
 00:11:59,871 --> 00:12:01,151
 <font color="#4e4e4e">Funk tool</font>
+<font color="#ffff00">Công cụ Funk</font>
 
 226
 00:12:01,919 --> 00:12:05,759
 <font color="#ededed">Import from there I want to import the reduced function</font>
+<font color="#ffff00">Nhập từ đó tôi muốn nhập hàm rút gọn</font>
 
 227
 00:12:06,271 --> 00:12:07,551
 <font color="#f7f7f7">I have my numbers here</font>
+<font color="#ffff00">Tôi có số của tôi ở đây</font>
 
 228
 00:12:08,063 --> 00:12:14,207
 <font color="#e2e2e2">I want to see a product of all these numbers so if multiplication of all these numbers I can say reduce</font>
+<font color="#ffff00">Tôi muốn xem tích của tất cả những con số này vì vậy nếu nhân tất cả những con số này tôi có thể nói là giảm</font>
 
 229
 00:12:14,975 --> 00:12:17,791
 <font color="#d6d6d6">I use a Lambda give X</font>
+<font color="#ffff00">Tôi sử dụng Lambda cho X</font>
 
 230
 00:12:18,047 --> 00:12:20,095
 <font color="#e9e9e9">Comma why because there will be</font>
+<font color="#ffff00">Dấu phẩy tại sao vì sẽ có</font>
 
 231
 00:12:20,351 --> 00:12:23,167
 <font color="#e8e8e8">Two numbers that I want to multiply x *</font>
+<font color="#ffff00">Hai số mà tôi muốn nhân x *</font>
 
 232
 00:12:24,959 --> 00:12:26,751
 <font color="#e1e1e1">For a list which is</font>
+<font color="#ffff00">Đối với một danh sách đó là</font>
 
 233
 00:12:27,007 --> 00:12:31,359
 <font color="#e8e8e8">Numbers so it does is it takes one number at a time</font>
+<font color="#ffff00">Số lượng như vậy là phải mất một số tại một thời điểm</font>
 
 234
 00:12:31,871 --> 00:12:38,015
 <font color="#b8b8b8">10242 numbers in time pass at passes arguments here and multiply them and</font>
+<font color="#ffff00">10242 số theo thời gian chuyển qua các đối số ở đây và nhân chúng và</font>
 
 235
 00:12:38,271 --> 00:12:44,159
 <font color="#e6e6e6">What are the solution comes out it will take the next number do the multiplication take the next number to the multiplication</font>
+<font color="#ffff00">Giải pháp được đưa ra là gì nó sẽ lấy số tiếp theo làm phép nhân lấy số tiếp theo cho phép nhân</font>
 
 236
 00:12:44,415 --> 00:12:45,695
 <font color="#f8f8f8">And finally</font>
+<font color="#ffff00">Và cuối cùng</font>
 
 237
 00:12:47,487 --> 00:12:50,303
 <font color="#efefef">The product as one single number</font>
+<font color="#ffff00">Sản phẩm là một số duy nhất</font>
 
 238
 00:12:51,071 --> 00:12:54,655
 <font color="#eaeaea">Instead of a list of items so if I go ahead</font>
+<font color="#ffff00">Thay vì một danh sách các mục nên nếu tôi tiếp tục</font>
 
 239
 00:12:54,911 --> 00:12:55,935
 <font color="#e0e0e0">And run it</font>
+<font color="#ffff00">Và chạy nó</font>
 
 240
 00:12:56,447 --> 00:13:02,079
 <font color="#ebebeb">I will get the output 24 because 1 * 2 * 3 * 4 is 24</font>
+<font color="#ffff00">Tôi sẽ nhận được đầu ra 24 vì 1 * 2 * 3 * 4 là 24</font>
 
 241
 00:13:04,895 --> 00:13:05,663
 <font color="#d9d9d9">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 242
 00:13:06,175 --> 00:13:06,943
 <font color="#efefef">Let's look at</font>
+<font color="#ffff00">Hãy nhìn vào</font>
 
 243
 00:13:07,199 --> 00:13:09,759
 <font color="#929292">Pythons OS and 6 modulo</font>
+<font color="#ffff00">Hệ điều hành Pythons và 6 modulo</font>
 
 244
 00:13:10,271 --> 00:13:12,063
 <font color="#ababab">So first what is module</font>
+<font color="#ffff00">Vậy đầu tiên mô-đun là gì</font>
 
 245
 00:13:12,575 --> 00:13:16,671
 <font color="#f0f0f0">This provides functions to interact with the operating system itself</font>
+<font color="#ffff00">Điều này cung cấp các chức năng để tương tác với chính hệ điều hành</font>
 
 246
 00:13:17,439 --> 00:13:21,535
 <font color="#f7f7f7">Some of the common functions include how to create a new directory</font>
+<font color="#ffff00">Một số chức năng phổ biến bao gồm cách tạo thư mục mới</font>
 
 247
 00:13:21,791 --> 00:13:26,911
 <font color="#f7f7f7">How to remove a particular file and we can see those examples here I can just quickly run through it</font>
+<font color="#ffff00">Cách xóa một tệp cụ thể và chúng ta có thể xem các ví dụ đó ở đây. Tôi có thể nhanh chóng xem qua nó</font>
 
 248
 00:13:28,191 --> 00:13:29,983
 <font color="#f0f0f0">I am going to go all the way to the top</font>
+<font color="#ffff00">Tôi sẽ đi đến tận đỉnh cao</font>
 
 249
 00:13:30,751 --> 00:13:32,287
 <font color="#d1d1d1">Remove everything</font>
+<font color="#ffff00">Xóa mọi thứ</font>
 
 250
 00:13:32,543 --> 00:13:33,567
 <font color="#d8d8d8">And first</font>
+<font color="#ffff00">Và đầu tiên</font>
 
 251
 00:13:34,079 --> 00:13:37,151
 <font color="#c7c7c7">Do you use the West model module here to say</font>
+<font color="#ffff00">Bạn dùng mô-đun mô hình phương Tây ở đây để nói</font>
 
 252
 00:13:37,407 --> 00:13:38,687
 <font color="#b1b1b1">Import OS</font>
+<font color="#ffff00">Nhập hệ điều hành</font>
 
 253
 00:13:38,943 --> 00:13:41,503
 <font color="#ededed">Then I can see print</font>
+<font color="#ffff00">Sau đó tôi có thể thấy bản in</font>
 
 254
 00:13:42,015 --> 00:13:43,295
 <font color="#6a6a6a">West do</font>
+<font color="#ffff00">Tây làm</font>
 
 255
 00:13:45,855 --> 00:13:46,879
 <font color="#676767">WD</font>
+<font color="#ffff00">WD</font>
 
 256
 00:13:47,391 --> 00:13:50,207
 <font color="#eaeaea">This will get you the current working directory that you are in</font>
+<font color="#ffff00">Điều này sẽ giúp bạn có được thư mục làm việc hiện tại mà bạn đang ở</font>
 
 257
 00:13:50,463 --> 00:13:51,487
 <font color="#ededed">It's a function</font>
+<font color="#ffff00">Đó là một chức năng</font>
 
 258
 00:13:51,999 --> 00:13:57,887
 <font color="#b1b1b1">Also you can see OS Dot MK directory in 3D directly inside that let's call it</font>
+<font color="#ffff00">Ngoài ra, bạn có thể xem trực tiếp thư mục OS Dot MK ở dạng 3D bên trong, hãy gọi nó là</font>
 
 259
 00:13:58,399 --> 00:14:00,703
 <font color="#b2b2b2">Best underscore directory</font>
+<font color="#ffff00">Thư mục gạch dưới tốt nhất</font>
 
 260
 00:14:01,215 --> 00:14:03,263
 <font color="#c5c5c5">This will create a new directory called us</font>
+<font color="#ffff00">Điều này sẽ tạo một thư mục mới gọi là chúng tôi</font>
 
 261
 00:14:03,519 --> 00:14:04,287
 <font color="#5b5b5b">History</font>
+<font color="#ffff00">Lịch sử</font>
 
 262
 00:14:04,543 --> 00:14:06,079
 <font color="#b4b4b4">You can see always Dot</font>
+<font color="#ffff00">Bạn có thể thấy luôn Chấm</font>
 
 263
 00:14:06,335 --> 00:14:07,359
 <font color="#f1f1f1">Remove</font>
+<font color="#ffff00">Di dời</font>
 
 264
 00:14:08,639 --> 00:14:13,247
 <font color="#f9f9f9">And you can delete a particular file let's see what do we have in this particular folder</font>
+<font color="#ffff00">Và bạn có thể xóa một tệp cụ thể, hãy xem chúng ta có gì trong thư mục cụ thể này</font>
 
 265
 00:14:14,783 --> 00:14:17,343
 <font color="#ededed">I don't have any files so let's create a file</font>
+<font color="#ffff00">Tôi không có bất kỳ tập tin nào vì vậy hãy tạo một tập tin</font>
 
 266
 00:14:18,623 --> 00:14:20,415
 <font color="#f9f9f9">I am going to call this file</font>
+<font color="#ffff00">Tôi sẽ gọi tập tin này</font>
 
 267
 00:14:20,927 --> 00:14:21,951
 <font color="#b4b4b4">File</font>
+<font color="#ffff00">Tài liệu</font>
 
 268
 00:14:22,207 --> 00:14:22,975
 <font color="#515151">Txt</font>
+<font color="#ffff00">văn bản</font>
 
 269
 00:14:23,487 --> 00:14:26,815
 <font color="#c6c6c6">And save it there and say test file</font>
+<font color="#ffff00">Và lưu nó ở đó và nói tập tin kiểm tra</font>
 
 270
 00:14:27,583 --> 00:14:28,863
 <font color="#eaeaea">Let's make sure it's there</font>
+<font color="#ffff00">Hãy chắc chắn rằng nó ở đó</font>
 
 271
 00:14:30,143 --> 00:14:32,447
 <font color="#bebebe">There you go you have the file.txt file</font>
+<font color="#ffff00">Thế là bạn đã có file file.txt</font>
 
 272
 00:14:32,703 --> 00:14:33,983
 <font color="#8e8e8e">And that's fine</font>
+<font color="#ffff00">Và điều đó ổn thôi</font>
 
 273
 00:14:35,007 --> 00:14:37,055
 <font color="#ebebeb">I am going to remove using this</font>
+<font color="#ffff00">Tôi sẽ loại bỏ bằng cách sử dụng này</font>
 
 274
 00:14:37,567 --> 00:14:38,591
 <font color="#e9e9e9">So let's run it now</font>
+<font color="#ffff00">Vì vậy hãy chạy nó ngay bây giờ</font>
 
 275
 00:14:40,639 --> 00:14:43,199
 <font color="#b6b6b6">Python and if you see there's no folders inside this too</font>
+<font color="#ffff00">Python và nếu bạn thấy không có thư mục nào bên trong này</font>
 
 276
 00:14:43,967 --> 00:14:44,991
 <font color="#9b9b9b">Day 7</font>
+<font color="#ffff00">Ngày 7</font>
 
 277
 00:14:46,527 --> 00:14:47,807
 <font color="#efefef">And let's look at it</font>
+<font color="#ffff00">Và chúng ta hãy nhìn vào nó</font>
 
 278
 00:14:48,319 --> 00:14:49,855
 <font color="#656565">Has</font>
+<font color="#ffff00">Có</font>
 
 279
 00:14:50,111 --> 00:14:51,647
 <font color="#adadad">Text text directory over here</font>
+<font color="#ffff00">Thư mục văn bản văn bản ở đây</font>
 
 280
 00:14:52,159 --> 00:14:53,951
 <font color="#f8f8f8">But it doesn't have any</font>
+<font color="#ffff00">Nhưng nó không có bất kỳ</font>
 
 281
 00:14:54,207 --> 00:14:54,719
 <font color="#a5a5a5">Files</font>
+<font color="#ffff00">Tập tin</font>
 
 282
 00:14:55,231 --> 00:15:00,351
 <font color="#d3d3d3">So what happened to that it got removed it got deleted by this way dot remove function</font>
+<font color="#ffff00">Vì vậy, những gì đã xảy ra với nó đã bị xóa nó đã bị xóa bằng cách này chức năng xóa dấu chấm</font>
 
 283
 00:15:00,607 --> 00:15:05,471
 <font color="#efefef">And as you can see here it has the new directory that was created by this MK directory</font>
+<font color="#ffff00">Và như bạn thấy ở đây nó có thư mục mới được tạo bởi thư mục MK này</font>
 
 284
 00:15:05,727 --> 00:15:06,751
 <font color="#e5e5e5">Command or function</font>
+<font color="#ffff00">Lệnh hoặc chức năng</font>
 
 285
 00:15:07,007 --> 00:15:13,151
 <font color="#f3f3f3">And then this is also if you see here I said get CWD and as you saw here it</font>
+<font color="#ffff00">Và đây cũng là nếu bạn thấy ở đây tôi đã nói lấy CWD và như bạn đã thấy ở đây</font>
 
 286
 00:15:13,407 --> 00:15:14,175
 <font color="#fdfdfd">Give me the</font>
+<font color="#ffff00">Đưa cho tôi</font>
 
 287
 00:15:14,687 --> 00:15:20,831
 <font color="#bfbfbf">Users within Runner desktop EI boot camp Week 1 day 7 so I mean this particular folder so</font>
+<font color="#ffff00">Người dùng trong chương trình đào tạo EI dành cho máy tính để bàn của Runner Tuần 1 ngày 7, ý tôi là thư mục cụ thể này</font>
 
 288
 00:15:21,087 --> 00:15:24,671
 <font color="#e0e0e0">God give me the current weather so this is pretty useful</font>
+<font color="#ffff00">Chúa cho tôi biết thời tiết hiện tại nên cái này khá hữu ích</font>
 
 289
 00:15:25,439 --> 00:15:28,255
 <font color="#b2b2b2">Next we have the 6 modulo</font>
+<font color="#ffff00">Tiếp theo chúng ta có 6 modulo</font>
 
 290
 00:15:28,511 --> 00:15:30,047
 <font color="#f7f7f7">This provides access</font>
+<font color="#ffff00">Điều này cung cấp quyền truy cập</font>
 
 291
 00:15:30,303 --> 00:15:36,447
 <font color="#e7e7e7">Do system specific parameters and functions like you can write some get some command line arguments</font>
+<font color="#ffff00">Thực hiện các tham số và chức năng cụ thể của hệ thống như bạn có thể viết một số đối số dòng lệnh</font>
 
 292
 00:15:36,703 --> 00:15:42,079
 <font color="#f1f1f1">Conversion that you have so all those options you can get using this system specific</font>
+<font color="#ffff00">Chuyển đổi mà bạn có để tất cả các tùy chọn đó bạn có thể nhận được bằng cách sử dụng hệ thống cụ thể này</font>
 
 293
 00:15:42,591 --> 00:15:45,663
 <font color="#bfbfbf">Sys module let's run that and check it out</font>
+<font color="#ffff00">Mô-đun Sys hãy chạy nó và kiểm tra nó</font>
 
 294
 00:15:45,919 --> 00:15:47,967
 <font color="#fcfcfc">I am going to remove this</font>
+<font color="#ffff00">Tôi sẽ loại bỏ cái này</font>
 
 295
 00:15:48,735 --> 00:15:52,831
 <font color="#d9d9d9">I don't need this anymore so I'm going to say import sys that's the module</font>
+<font color="#ffff00">Tôi không cần cái này nữa nên tôi sẽ nói import sys đó là mô-đun</font>
 
 296
 00:15:53,087 --> 00:15:55,903
 <font color="#e9e9e9">And then I can see print</font>
+<font color="#ffff00">Và sau đó tôi có thể thấy bản in</font>
 
 297
 00:15:56,415 --> 00:16:01,535
 <font color="#c3c3c3">Sys dot a RGB this will give me the command line arguments</font>
+<font color="#ffff00">Sys chấm RGB cái này sẽ cho tôi các đối số dòng lệnh</font>
 
 298
 00:16:03,583 --> 00:16:04,607
 <font color="#bbbbbb">Sys</font>
+<font color="#ffff00">hệ thống</font>
 
 299
 00:16:04,863 --> 00:16:11,007
 <font color="#dfdfdf">Dart version now since I'm using python it will give me python version here I can run this</font>
+<font color="#ffff00">Phiên bản phi tiêu bây giờ vì tôi đang sử dụng python nên nó sẽ cung cấp cho tôi phiên bản python ở đây tôi có thể chạy cái này</font>
 
 300
 00:16:13,311 --> 00:16:14,591
 <font color="#d3d3d3">Let's clear it out first</font>
+<font color="#ffff00">Hãy làm rõ nó trước</font>
 
 301
 00:16:15,103 --> 00:16:16,383
 <font color="#dadada">And then say python</font>
+<font color="#ffff00">Và sau đó nói con trăn</font>
 
 302
 00:16:17,407 --> 00:16:22,783
 <font color="#c0c0c0">B7 dot samples and you see here day 7 dot this is the argument that was passed</font>
+<font color="#ffff00">Mẫu dấu chấm B7 và bạn thấy ở đây ngày 7 dấu chấm đây là đối số đã được thông qua</font>
 
 303
 00:16:23,039 --> 00:16:29,183
 <font color="#ececec">Which is the name of the file here and then it gave me the version I'm running python 3.12 7</font>
+<font color="#ffff00">Tên file ở đây là gì rồi nó đưa cho mình phiên bản mình đang chạy python 3.12 7</font>
 
 304
 00:16:29,439 --> 00:16:35,583
 <font color="#e0e0e0">As for this and it gives me some details about that depending on what it gives me when I write python</font>
+<font color="#ffff00">Về điều này và nó cung cấp cho tôi một số chi tiết về điều đó tùy thuộc vào những gì nó mang lại cho tôi khi tôi viết python</font>
 
 305
 00:16:37,887 --> 00:16:40,191
 <font color="#c2c2c2">Python 312 plus a little bit more details here</font>
+<font color="#ffff00">Python 312 cộng thêm một chút chi tiết tại đây</font>
 
 306
 00:16:40,447 --> 00:16:41,471
 <font color="#ededed">So that's what</font>
+<font color="#ffff00">Vì vậy đó là những gì</font>
 
 307
 00:16:41,727 --> 00:16:43,263
 <font color="#5b5b5b">This is modulus</font>
+<font color="#ffff00">Đây là mô-đun</font>
 
 308
 00:16:43,775 --> 00:16:49,919
 <font color="#d5d5d5">There's a lot of different things that we learn to</font>
+<font color="#ffff00">Có rất nhiều điều khác nhau mà chúng ta học được</font>
 
 309
 00:16:50,175 --> 00:16:53,503
 <font color="#f3f3f3">This day so let's go ahead and put them to use</font>
+<font color="#ffff00">Ngày này nên chúng ta hãy tiếp tục và sử dụng chúng</font>
 
 310
 00:16:53,759 --> 00:16:59,903
 <font color="#dfdfdf">By creating a Hands-On project and this Hands-On project will be a command line task manager</font>
+<font color="#ffff00">Bằng cách tạo một dự án Thực hành và dự án Thực hành này sẽ là một trình quản lý tác vụ dòng lệnh</font>
 
 311
 00:17:00,159 --> 00:17:01,695
 <font color="#dfdfdf">We have only one this time</font>
+<font color="#ffff00">Lần này chúng ta chỉ có một</font>
 
 312
 00:17:01,951 --> 00:17:08,095
 <font color="#dcdcdc">How about this is quite a detailed project that you're going to work on the objective here is to build a</font>
+<font color="#ffff00">Thế còn đây là một dự án khá chi tiết mà bạn sẽ thực hiện với mục tiêu ở đây là xây dựng một</font>
 
 313
 00:17:08,351 --> 00:17:09,631
 <font color="#efefef">Online application</font>
+<font color="#ffff00">Ứng dụng trực tuyến</font>
 
 314
 00:17:09,887 --> 00:17:10,911
 <font color="#cbcbcb">To manage task</font>
+<font color="#ffff00">Để quản lý tác vụ</font>
 
 315
 00:17:11,167 --> 00:17:13,215
 <font color="#f5f5f5">Using pythonic practices</font>
+<font color="#ffff00">Sử dụng thực hành Pythonic</font>
 
 316
 00:17:13,471 --> 00:17:19,615
 <font color="#f6f6f6">So some of the features that will be adding to this particular task manager is you can add tasks you can view</font>
+<font color="#ffff00">Vì vậy, một số tính năng sẽ được thêm vào trình quản lý tác vụ cụ thể này là bạn có thể thêm các tác vụ mà bạn có thể xem</font>
 
 317
 00:17:25,247 --> 00:17:27,295
 <font color="#b6b6b6">So to go to step by step</font>
+<font color="#ffff00">Vì vậy, phải đi từng bước</font>
 
 318
 00:17:27,807 --> 00:17:30,111
 <font color="#f7f7f7">First step is always to plan the structure</font>
+<font color="#ffff00">Bước đầu tiên luôn là lập kế hoạch kết cấu</font>
 
 319
 00:17:30,623 --> 00:17:34,719
 <font color="#efefef">You want to store task in a dictionary or a text file with unique IDs</font>
+<font color="#ffff00">Bạn muốn lưu trữ tác vụ trong từ điển hoặc tệp văn bản có ID duy nhất</font>
 
 320
 00:17:35,231 --> 00:17:37,535
 <font color="#eeeeee">And each task has a title</font>
+<font color="#ffff00">Và mỗi nhiệm vụ đều có một tiêu đề</font>
 
 321
 00:17:37,791 --> 00:17:40,095
 <font color="#d8d8d8">And the status which will either be</font>
+<font color="#ffff00">Và trạng thái sẽ là</font>
 
 322
 00:17:40,351 --> 00:17:41,119
 <font color="#9a9a9a">Incomplete</font>
+<font color="#ffff00">Chưa hoàn thành</font>
 
 323
 00:17:41,375 --> 00:17:43,679
 <font color="#d9d9d9">All complete so let's go ahead</font>
+<font color="#ffff00">Tất cả đã hoàn tất nên chúng ta hãy tiếp tục</font>
 
 324
 00:17:44,447 --> 00:17:48,031
 <font color="#cfcfcf">And create a new file I'm going to close all these other projects</font>
+<font color="#ffff00">Và tạo một tệp mới. Tôi sẽ đóng tất cả các dự án khác này</font>
 
 325
 00:17:49,567 --> 00:17:51,103
 <font color="#f0f0f0">Let's save it as</font>
+<font color="#ffff00">Hãy lưu nó dưới dạng</font>
 
 326
 00:17:51,871 --> 00:17:53,919
 <font color="#f8f8f8">I'm going to just call it</font>
+<font color="#ffff00">Tôi sẽ chỉ gọi nó</font>
 
 327
 00:18:02,111 --> 00:18:02,879
 <font color="#8d8d8d">Manager</font>
+<font color="#ffff00">Giám đốc</font>
 
 328
 00:18:05,695 --> 00:18:11,839
 <font color="#cfcfcf">So now that we have named it as I mentioned some things that we had need first is the</font>
+<font color="#ffff00">Vì vậy, bây giờ chúng ta đã đặt tên cho nó như tôi đã đề cập đến một số thứ mà chúng ta cần đầu tiên là</font>
 
 329
 00:18:12,095 --> 00:18:13,887
 <font color="#cecece">What's the OS module import</font>
+<font color="#ffff00">Nhập mô-đun hệ điều hành là gì</font>
 
 330
 00:18:17,215 --> 00:18:22,591
 <font color="#dedede">I'm going to create a file that I'm going to store all the tasks so I'm going to call it let's comment it out to</font>
+<font color="#ffff00">Tôi sẽ tạo một tệp để lưu trữ tất cả các tác vụ vì vậy tôi sẽ gọi nó là chúng ta hãy bình luận về nó</font>
 
 331
 00:18:22,847 --> 00:18:24,639
 <font color="#bcbcbc">File to</font>
+<font color="#ffff00">Tập tin vào</font>
 
 332
 00:18:26,431 --> 00:18:29,503
 <font color="#f9f9f9">And this file I can give a file name</font>
+<font color="#ffff00">Và tập tin này tôi có thể đặt tên tập tin</font>
 
 333
 00:18:30,527 --> 00:18:32,063
 <font color="#e0e0e0">Let's call it tasks</font>
+<font color="#ffff00">Hãy gọi nó là nhiệm vụ</font>
 
 334
 00:18:33,343 --> 00:18:34,111
 <font color="#4f4f4f">DxD</font>
+<font color="#ffff00">DxD</font>
 
 335
 00:18:35,391 --> 00:18:38,463
 <font color="#e2e2e2">And then let's load all these tasks</font>
+<font color="#ffff00">Và sau đó hãy tải tất cả các nhiệm vụ này</font>
 
 336
 00:18:38,719 --> 00:18:39,743
 <font color="#efefef">From the file</font>
+<font color="#ffff00">Từ tập tin</font>
 
 337
 00:18:39,999 --> 00:18:45,119
 <font color="#d3d3d3">So the reason I'm importing Oasis I'm going to tell you in one second load underscore</font>
+<font color="#ffff00">Vì vậy lý do tôi nhập Oasis tôi sẽ cho bạn biết sau một giây tải dưới đây</font>
 
 338
 00:18:46,655 --> 00:18:49,727
 <font color="#e4e4e4">So this always like to write comments</font>
+<font color="#ffff00">Thế nên cái này thích viết bình luận luôn</font>
 
 339
 00:18:49,983 --> 00:18:52,799
 <font color="#cdcdcd">Lord task from file</font>
+<font color="#ffff00">Nhiệm vụ của Chúa từ tập tin</font>
 
 340
 00:18:53,311 --> 00:18:55,615
 <font color="#e2e2e2">And inside this function</font>
+<font color="#ffff00">Và bên trong chức năng này</font>
 
 341
 00:18:56,127 --> 00:18:59,711
 <font color="#d5d5d5">I'm going to say create a dictionary task equal to empty task</font>
+<font color="#ffff00">Tôi sẽ nói tạo một tác vụ từ điển bằng tác vụ trống</font>
 
 342
 00:19:00,479 --> 00:19:02,783
 <font color="#cdcdcd">Now I'm going to check if OS</font>
+<font color="#ffff00">Bây giờ tôi sẽ kiểm tra xem hệ điều hành</font>
 
 343
 00:19:03,039 --> 00:19:04,831
 <font color="#f3f3f3">The module that we imported</font>
+<font color="#ffff00">Mô-đun mà chúng tôi đã nhập</font>
 
 344
 00:19:05,343 --> 00:19:06,623
 <font color="#6d6d6d">Dot pot</font>
+<font color="#ffff00">chấm nồi</font>
 
 345
 00:19:07,135 --> 00:19:10,207
 <font color="#dfdfdf">Dot exist so it also helps you</font>
+<font color="#ffff00">Dot tồn tại nên nó cũng giúp ích cho bạn</font>
 
 346
 00:19:10,463 --> 00:19:13,279
 <font color="#e9e9e9">To check if a particular task exists</font>
+<font color="#ffff00">Để kiểm tra xem một nhiệm vụ cụ thể có tồn tại không</font>
 
 347
 00:19:13,535 --> 00:19:17,375
 <font color="#f7f7f7">File name so does this file exists is what I'm trying to do here</font>
+<font color="#ffff00">Tên tệp để tệp này tồn tại là điều tôi đang cố gắng thực hiện ở đây</font>
 
 348
 00:19:17,887 --> 00:19:20,703
 <font color="#afafaf">If it does exist I want to say with</font>
+<font color="#ffff00">Nếu nó tồn tại tôi muốn nói với</font>
 
 349
 00:19:21,215 --> 00:19:21,983
 <font color="#ebebeb">Open</font>
+<font color="#ffff00">Mở</font>
 
 350
 00:19:23,519 --> 00:19:24,287
 <font color="#ebebeb">File name</font>
+<font color="#ffff00">Tên tập tin</font>
 
 351
 00:19:26,847 --> 00:19:27,871
 <font color="#b6b6b6">Readable file</font>
+<font color="#ffff00">Tập tin có thể đọc được</font>
 
 352
 00:19:29,919 --> 00:19:32,991
 <font color="#cfcfcf">File so we already saw how to open files this is</font>
+<font color="#ffff00">File nên chúng ta đã biết cách mở file này rồi</font>
 
 353
 00:19:33,247 --> 00:19:36,575
 <font color="#e1e1e1">What you're done here and then for that I'll say for</font>
+<font color="#ffff00">Những gì bạn đã làm ở đây và sau đó tôi sẽ nói cho</font>
 
 354
 00:19:37,343 --> 00:19:38,367
 <font color="#c3c3c3">Each line</font>
+<font color="#ffff00">Mỗi dòng</font>
 
 355
 00:19:38,623 --> 00:19:44,767
 <font color="#dcdcdc">In file now this file is called task dot txt so I would assume that each line is a</font>
+<font color="#ffff00">Trong tệp bây giờ, tệp này được gọi là task dot txt vì vậy tôi giả định rằng mỗi dòng là một</font>
 
 356
 00:19:45,023 --> 00:19:47,071
 <font color="#fcfcfc">So that's what I'm trying to</font>
+<font color="#ffff00">Vì thế đó là điều tôi đang cố gắng</font>
 
 357
 00:19:47,583 --> 00:19:50,911
 <font color="#b2b2b2">Get here unless you ask underscore ID</font>
+<font color="#ffff00">Đến đây trừ khi bạn hỏi ID gạch dưới</font>
 
 358
 00:19:52,703 --> 00:19:53,471
 <font color="#c8c8c8">Title</font>
+<font color="#ffff00">Tiêu đề</font>
 
 359
 00:19:53,983 --> 00:19:58,591
 <font color="#dadada">Comma starter these are the three things that will save in a task</font>
+<font color="#ffff00">Dấu phẩy bắt đầu, đây là ba thứ sẽ lưu trong một nhiệm vụ</font>
 
 360
 00:19:59,359 --> 00:20:04,223
 <font color="#d9d9d9">And this is the saved in the file I'm going to say for each line</font>
+<font color="#ffff00">Và đây là file được lưu trong file tôi sẽ nói cho mỗi dòng</font>
 
 361
 00:20:05,247 --> 00:20:06,271
 <font color="#939393">Strip it</font>
+<font color="#ffff00">Lột nó</font>
 
 362
 00:20:07,551 --> 00:20:10,879
 <font color="#f8f8f8">And I'm going to use a special character</font>
+<font color="#ffff00">Và tôi sẽ sử dụng một ký tự đặc biệt</font>
 
 363
 00:20:15,487 --> 00:20:21,631
 <font color="#e1e1e1">So each other task ID title and Status will be separated by a pipe that's how I create my</font>
+<font color="#ffff00">Vì vậy, tiêu đề và Trạng thái ID nhiệm vụ của nhau sẽ được phân tách bằng một dấu gạch ngang, đó là cách tôi tạo</font>
 
 364
 00:20:23,935 --> 00:20:25,727
 <font color="#cfcfcf">And then I said task</font>
+<font color="#ffff00">Và sau đó tôi nói nhiệm vụ</font>
 
 365
 00:20:28,543 --> 00:20:29,823
 <font color="#919191">Off task ID</font>
+<font color="#ffff00">ID tác vụ tắt</font>
 
 366
 00:20:30,079 --> 00:20:35,199
 <font color="#e7e7e7">I'm converting the task ID into it and getting an index and I'm saying</font>
+<font color="#ffff00">Tôi đang chuyển đổi ID tác vụ thành nó và lấy chỉ mục và tôi đang nói</font>
 
 367
 00:20:36,223 --> 00:20:37,759
 <font color="#f0f0f0">That inside this</font>
+<font color="#ffff00">Bên trong này</font>
 
 368
 00:20:38,015 --> 00:20:39,039
 <font color="#eeeeee">The title</font>
+<font color="#ffff00">tiêu đề</font>
 
 369
 00:20:42,111 --> 00:20:43,903
 <font color="#e0e0e0">Of this particular</font>
+<font color="#ffff00">Đặc biệt này</font>
 
 370
 00:20:44,671 --> 00:20:45,951
 <font color="#c2c2c2">Tusk is this</font>
+<font color="#ffff00">Ngà là cái này</font>
 
 371
 00:20:46,463 --> 00:20:50,815
 <font color="#f5f5f5">And the status is whatever status we got</font>
+<font color="#ffff00">Và trạng thái là bất cứ trạng thái nào chúng ta có</font>
 
 372
 00:20:51,583 --> 00:20:57,727
 <font color="#e1e1e1">So we have this task ID title and Status so I'm creating task inside this empty dictionary here</font>
+<font color="#ffff00">Vì vậy, chúng tôi có tiêu đề và Trạng thái ID nhiệm vụ này nên tôi đang tạo nhiệm vụ bên trong từ điển trống này tại đây</font>
 
 373
 00:20:57,983 --> 00:21:02,079
 <font color="#e0e0e0">What I'm saying that's the first task in there has a title</font>
+<font color="#ffff00">Điều tôi đang nói là nhiệm vụ đầu tiên trong đó có tiêu đề</font>
 
 374
 00:21:02,335 --> 00:21:04,895
 <font color="#dbdbdb">Off title whatever we got from the file</font>
+<font color="#ffff00">Tắt tiêu đề bất cứ điều gì chúng tôi nhận được từ tập tin</font>
 
 375
 00:21:05,151 --> 00:21:11,295
 <font color="#e9e9e9">Status status so I'm creating my database here I'm loading all the tasks inside this dictionary</font>
+<font color="#ffff00">Trạng thái trạng thái nên tôi đang tạo cơ sở dữ liệu của mình ở đây Tôi đang tải tất cả các tác vụ bên trong từ điển này</font>
 
 376
 00:21:12,063 --> 00:21:16,159
 <font color="#cdcdcd">Once I have done that I'm going to go here and say return</font>
+<font color="#ffff00">Sau khi làm xong việc đó tôi sẽ đến đây và nói quay lại</font>
 
 377
 00:21:16,416 --> 00:21:22,560
 <font color="#f3f3f3">If the file doesn't exist which means there's no task it will return back an empty dictionary which</font>
+<font color="#ffff00">Nếu tệp không tồn tại, điều đó có nghĩa là không có tác vụ nào, nó sẽ trả về một từ điển trống.</font>
 
 378
 00:21:22,816 --> 00:21:25,632
 <font color="#ededed">This is what's going to happen the first time when I run it because there is</font>
+<font color="#ffff00">Đây là điều sẽ xảy ra lần đầu tiên khi tôi chạy nó vì có</font>
 
 379
 00:21:25,888 --> 00:21:28,192
 <font color="#afafaf">No task dot txt file right now</font>
+<font color="#ffff00">Hiện tại không có tệp txt dấu chấm tác vụ nào</font>
 
 380
 00:21:30,240 --> 00:21:34,848
 <font color="#dedede">You can see right here I'm going to delete this folder which you have created in a previous project</font>
+<font color="#ffff00">Bạn có thể thấy ngay ở đây tôi sẽ xóa thư mục này mà bạn đã tạo trong dự án trước</font>
 
 381
 00:21:35,360 --> 00:21:37,664
 <font color="#888888">So go to trash</font>
+<font color="#ffff00">Vì vậy hãy đi vào thùng rác</font>
 
 382
 00:21:38,432 --> 00:21:39,456
 <font color="#9f9f9f">Yep so</font>
+<font color="#ffff00">ừ vậy</font>
 
 383
 00:21:39,712 --> 00:21:40,736
 <font color="#ebebeb">Next is</font>
+<font color="#ffff00">Tiếp theo là</font>
 
 384
 00:21:43,552 --> 00:21:44,064
 <font color="#2e2e2e">Task</font>
+<font color="#ffff00">Nhiệm vụ</font>
 
 385
 00:21:44,576 --> 00:21:50,720
 <font color="#cecece">257 creates a task I want to save those tasks into a particular into that</font>
+<font color="#ffff00">257 tạo một tác vụ Tôi muốn lưu các tác vụ đó vào một tác vụ cụ thể</font>
 
 386
 00:21:50,976 --> 00:21:51,488
 <font color="#8b8b8b">That's fine</font>
+<font color="#ffff00">Không sao đâu</font>
 
 387
 00:21:54,816 --> 00:21:56,864
 <font color="#7b7b7b">Underscore task</font>
+<font color="#ffff00">Nhiệm vụ gạch dưới</font>
 
 388
 00:22:01,984 --> 00:22:02,752
 <font color="#ebebeb">Open</font>
+<font color="#ffff00">Mở</font>
 
 389
 00:22:04,288 --> 00:22:05,568
 <font color="#ebebeb">So take the file name</font>
+<font color="#ffff00">Vì vậy, lấy tên tập tin</font>
 
 390
 00:22:05,824 --> 00:22:06,592
 <font color="#b3b3b3">Of the task</font>
+<font color="#ffff00">Của nhiệm vụ</font>
 
 391
 00:22:07,104 --> 00:22:08,896
 <font color="#ababab">I'll say write mode</font>
+<font color="#ffff00">Tôi sẽ nói chế độ viết</font>
 
 392
 00:22:09,664 --> 00:22:11,200
 <font color="#b1b1b1">As file</font>
+<font color="#ffff00">Dưới dạng tập tin</font>
 
 393
 00:22:11,968 --> 00:22:15,040
 <font color="#e1e1e1">I want to save for task underscore</font>
+<font color="#ffff00">Tôi muốn lưu lại để làm nhiệm vụ gạch dưới</font>
 
 394
 00:22:15,552 --> 00:22:16,832
 <font color="#a1a1a1">ID comma</font>
+<font color="#ffff00">dấu phẩy ID</font>
 
 395
 00:22:17,344 --> 00:22:18,112
 <font color="#313131">Tusk</font>
+<font color="#ffff00">Răng nanh</font>
 
 396
 00:22:18,624 --> 00:22:20,160
 <font color="#a0a0a0">In task</font>
+<font color="#ffff00">Trong nhiệm vụ</font>
 
 397
 00:22:22,208 --> 00:22:22,976
 <font color="#e9e9e9">Items</font>
+<font color="#ffff00">Mặt hàng</font>
 
 398
 00:22:27,328 --> 00:22:30,144
 <font color="#ebebeb">From in this particular task whatever tasks are there</font>
+<font color="#ffff00">Từ trong nhiệm vụ cụ thể này, có bất kỳ nhiệm vụ nào</font>
 
 399
 00:22:30,400 --> 00:22:33,984
 <font color="#f1f1f1">For each one of them I want to save them to file so</font>
+<font color="#ffff00">Đối với mỗi người trong số họ tôi muốn lưu chúng vào tập tin</font>
 
 400
 00:22:34,240 --> 00:22:35,776
 <font color="#d0d0d0">To do that I'll save file</font>
+<font color="#ffff00">Để làm điều đó tôi sẽ lưu tập tin</font>
 
 401
 00:22:36,288 --> 00:22:37,824
 <font color="#808080">Dot right</font>
+<font color="#ffff00">Chấm bên phải</font>
 
 402
 00:22:41,152 --> 00:22:44,224
 <font color="#dadada">Find as I mentioned how do we write this I'll say</font>
+<font color="#ffff00">Tìm như tôi đã đề cập làm thế nào để chúng ta viết cái này tôi sẽ nói</font>
 
 403
 00:22:44,480 --> 00:22:45,760
 <font color="#969696">Tuscan school ID</font>
+<font color="#ffff00">ID trường Tuscan</font>
 
 404
 00:22:46,272 --> 00:22:48,576
 <font color="#bdbdbd">Space pipe space</font>
+<font color="#ffff00">Không gian ống không gian</font>
 
 405
 00:22:49,088 --> 00:22:50,880
 <font color="#d2d2d2">The formatting that you've mentioned</font>
+<font color="#ffff00">Định dạng mà bạn đã đề cập</font>
 
 406
 00:22:55,488 --> 00:22:56,000
 <font color="#1a1a1a">Tit</font>
+<font color="#ffff00">Tit</font>
 
 407
 00:22:59,072 --> 00:23:00,352
 <font color="#b7b7b7">Pipe space</font>
+<font color="#ffff00">Không gian ống</font>
 
 408
 00:23:00,864 --> 00:23:02,656
 <font color="#dcdcdc">And finally task</font>
+<font color="#ffff00">Và cuối cùng là nhiệm vụ</font>
 
 409
 00:23:03,680 --> 00:23:05,216
 <font color="#868686">Off</font>
+<font color="#ffff00">Tắt</font>
 
 410
 00:23:06,496 --> 00:23:07,520
 <font color="#e6e6e6">Status</font>
+<font color="#ffff00">Trạng thái</font>
 
 411
 00:23:08,544 --> 00:23:12,896
 <font color="#ebebeb">That's my third one let me see everything is closed properly slash</font>
+<font color="#ffff00">Đó là cái thứ ba của tôi, hãy để tôi xem mọi thứ đã được đóng lại đúng cách chưa</font>
 
 412
 00:23:13,408 --> 00:23:19,552
 <font color="#eeeeee">And I'm also giving a new line character so it adds one task and goes to the next line and keeps on</font>
+<font color="#ffff00">Và tôi cũng đang đưa ra một ký tự dòng mới để nó thêm một nhiệm vụ và chuyển sang dòng tiếp theo và tiếp tục</font>
 
 413
 00:23:19,808 --> 00:23:24,160
 <font color="#dfdfdf">Writing for each and every task that is available is save the to the file</font>
+<font color="#ffff00">Viết cho mỗi tác vụ có sẵn là lưu vào tệp</font>
 
 414
 00:23:24,416 --> 00:23:26,208
 <font color="#fcfcfc">So that looks good</font>
+<font color="#ffff00">Vì vậy, điều đó có vẻ tốt</font>
 
 415
 00:23:26,464 --> 00:23:29,536
 <font color="#e6e6e6">Are next thing that you want to do so this will save the task</font>
+<font color="#ffff00">Việc tiếp theo bạn muốn làm là việc này sẽ lưu nhiệm vụ</font>
 
 416
 00:23:29,792 --> 00:23:32,352
 <font color="#e3e3e3">Not if I want to add new task</font>
+<font color="#ffff00">Không nếu tôi muốn thêm nhiệm vụ mới</font>
 
 417
 00:23:32,608 --> 00:23:33,888
 <font color="#e4e4e4">Add a new</font>
+<font color="#ffff00">Thêm một cái mới</font>
 
 418
 00:23:35,680 --> 00:23:38,752
 <font color="#d0d0d0">Want to create another function called as add task</font>
+<font color="#ffff00">Muốn tạo một chức năng khác gọi là thêm tác vụ</font>
 
 419
 00:23:40,032 --> 00:23:41,824
 <font color="#c2c2c2">And what's the task</font>
+<font color="#ffff00">Và nhiệm vụ là gì</font>
 
 420
 00:23:42,080 --> 00:23:42,848
 <font color="#d3d3d3">Object</font>
+<font color="#ffff00">Sự vật</font>
 
 421
 00:23:43,616 --> 00:23:44,896
 <font color="#777777">How do you say title</font>
+<font color="#ffff00">Bạn nói tiêu đề như thế nào</font>
 
 422
 00:23:45,408 --> 00:23:47,200
 <font color="#f9f9f9">Equal to input</font>
+<font color="#ffff00">Tương đương với đầu vào</font>
 
 423
 00:23:48,736 --> 00:23:50,016
 <font color="#868686">I want to ask the user</font>
+<font color="#ffff00">Tôi muốn hỏi người dùng</font>
 
 424
 00:23:51,552 --> 00:23:52,832
 <font color="#d6d6d6">Task title</font>
+<font color="#ffff00">Tiêu đề nhiệm vụ</font>
 
 425
 00:23:53,600 --> 00:23:56,416
 <font color="#c7c7c7">So you said will enter a task title for this</font>
+<font color="#ffff00">Vì vậy, bạn đã nói sẽ nhập tiêu đề nhiệm vụ cho việc này</font>
 
 426
 00:23:58,464 --> 00:23:59,744
 <font color="#d1d1d1">Underscore ID</font>
+<font color="#ffff00">ID gạch dưới</font>
 
 427
 00:24:00,256 --> 00:24:01,024
 <font color="#e8e8e8">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 428
 00:24:01,536 --> 00:24:02,816
 <font color="#e6e6e6">Max off</font>
+<font color="#ffff00">Tắt tối đa</font>
 
 429
 00:24:09,216 --> 00:24:11,264
 <font color="#aaaaaa">Comma default</font>
+<font color="#ffff00">Dấu phẩy mặc định</font>
 
 430
 00:24:12,544 --> 00:24:14,592
 <font color="#e6e6e6">Equal to 0</font>
+<font color="#ffff00">Bằng 0</font>
 
 431
 00:24:15,360 --> 00:24:18,432
 <font color="#b4b4b4">Last ones what I'm doing here is I am taking</font>
+<font color="#ffff00">Điều cuối cùng tôi đang làm ở đây là tôi đang dùng</font>
 
 432
 00:24:18,688 --> 00:24:24,832
 <font color="#eeeeee">The task and looking at the keys and getting the max value from the car so I'm getting the max ID that is</font>
+<font color="#ffff00">Nhiệm vụ và xem chìa khóa và nhận giá trị tối đa từ chiếc xe nên tôi nhận được ID tối đa đó là</font>
 
 433
 00:24:25,088 --> 00:24:31,232
 <font color="#e5e5e5">Is it available right now if it doesn't exist then I'll use the default zero which means my first ID will be one</font>
+<font color="#ffff00">Hiện tại nó có sẵn không nếu nó không tồn tại thì tôi sẽ sử dụng số 0 mặc định, nghĩa là ID đầu tiên của tôi sẽ là một</font>
 
 434
 00:24:31,488 --> 00:24:37,632
 <font color="#c8c8c8">If not it will let's see if there's four task and one two three four is the task IDs so it will take get</font>
+<font color="#ffff00">Nếu không, hãy xem liệu có bốn nhiệm vụ không và một hai ba bốn là ID nhiệm vụ nên nó sẽ lấy</font>
 
 435
 00:24:37,888 --> 00:24:41,728
 <font color="#c4c4c4">I'm not here 4 + 1/5 that will be the new task ID</font>
+<font color="#ffff00">Tôi không ở đây 4 + 1/5 sẽ là ID nhiệm vụ mới</font>
 
 436
 00:24:42,752 --> 00:24:44,544
 <font color="#dbdbdb">Next I'm going to say tasks</font>
+<font color="#ffff00">Tiếp theo tôi sẽ nói nhiệm vụ</font>
 
 437
 00:24:45,312 --> 00:24:47,360
 <font color="#dadada">For that particular task ID</font>
+<font color="#ffff00">Đối với ID nhiệm vụ cụ thể đó</font>
 
 438
 00:24:48,384 --> 00:24:49,664
 <font color="#fafafa">I will have to give</font>
+<font color="#ffff00">Tôi sẽ phải đưa</font>
 
 439
 00:24:49,920 --> 00:24:51,456
 <font color="#ededed">The title</font>
+<font color="#ffff00">tiêu đề</font>
 
 440
 00:24:51,968 --> 00:24:55,552
 <font color="#efefef">Which in this case is whatever user entered which comes from</font>
+<font color="#ffff00">Trong trường hợp này là bất cứ điều gì người dùng đã nhập đến từ</font>
 
 441
 00:24:55,808 --> 00:24:56,576
 <font color="#b9b9b9">Title Here</font>
+<font color="#ffff00">Tiêu đề ở đây</font>
 
 442
 00:24:57,344 --> 00:24:58,112
 <font color="#e5e5e5">And then</font>
+<font color="#ffff00">Và sau đó</font>
 
 443
 00:24:59,136 --> 00:25:00,160
 <font color="#c9c9c9">Status</font>
+<font color="#ffff00">Trạng thái</font>
 
 444
 00:25:00,928 --> 00:25:02,464
 <font color="#cccccc">Since I just created</font>
+<font color="#ffff00">Vì tôi mới tạo</font>
 
 445
 00:25:02,976 --> 00:25:05,024
 <font color="#eeeeee">I would think of it as</font>
+<font color="#ffff00">Tôi sẽ nghĩ về nó như</font>
 
 446
 00:25:05,536 --> 00:25:06,304
 <font color="#d8d8d8">Incomplete</font>
+<font color="#ffff00">Chưa hoàn thành</font>
 
 447
 00:25:07,840 --> 00:25:08,608
 <font color="#dbdbdb">There you go</font>
+<font color="#ffff00">Thế đấy</font>
 
 448
 00:25:09,376 --> 00:25:11,168
 <font color="#dbdbdb">So I am going to at the end of it</font>
+<font color="#ffff00">Vì vậy tôi sẽ đi đến phần cuối của nó</font>
 
 449
 00:25:11,424 --> 00:25:12,960
 <font color="#d5d5d5">I'm going to say f</font>
+<font color="#ffff00">Tôi định nói f</font>
 
 450
 00:25:13,728 --> 00:25:16,288
 <font color="#dedede">Ask whatever the task is</font>
+<font color="#ffff00">Hãy hỏi bất kể nhiệm vụ là gì</font>
 
 451
 00:25:17,568 --> 00:25:19,104
 <font color="#b5b5b5">Title that user enter</font>
+<font color="#ffff00">Tiêu đề mà người dùng nhập</font>
 
 452
 00:25:21,408 --> 00:25:21,920
 <font color="#1a1a1a">Tit</font>
+<font color="#ffff00">Tit</font>
 
 453
 00:25:23,968 --> 00:25:26,016
 <font color="#f3f3f3">So we give this message to the user</font>
+<font color="#ffff00">Vì vậy chúng tôi gửi thông báo này cho người dùng</font>
 
 454
 00:25:26,528 --> 00:25:27,552
 <font color="#b0b0b0">Nexus</font>
+<font color="#ffff00">Nexus</font>
 
 455
 00:25:28,320 --> 00:25:30,880
 <font color="#e5e5e5">Let's write a function to view all the</font>
+<font color="#ffff00">Hãy viết một hàm để xem tất cả các</font>
 
 456
 00:25:32,928 --> 00:25:34,208
 <font color="#575757">Saudi</font>
+<font color="#ffff00">Ả Rập Saudi</font>
 
 457
 00:25:37,280 --> 00:25:39,840
 <font color="#d6d6d6">And inside that I'll pass that test</font>
+<font color="#ffff00">Và bên trong đó tôi sẽ vượt qua bài kiểm tra đó</font>
 
 458
 00:25:41,888 --> 00:25:44,192
 <font color="#e1e1e1">And here I'm going to say if not</font>
+<font color="#ffff00">Và ở đây tôi sẽ nói nếu không</font>
 
 459
 00:25:44,704 --> 00:25:47,520
 <font color="#dedede">Ask what I'm doing here is I'm checking if</font>
+<font color="#ffff00">Hỏi tôi đang làm gì ở đây là tôi đang kiểm tra xem</font>
 
 460
 00:25:47,776 --> 00:25:51,360
 <font color="#e6e6e6">Task values are there or not if not if there's nothing in there</font>
+<font color="#ffff00">Giá trị nhiệm vụ có ở đó hay không nếu không có gì trong đó</font>
 
 461
 00:25:57,248 --> 00:25:58,016
 <font color="#ededed">Available</font>
+<font color="#ffff00">Có sẵn</font>
 
 462
 00:26:00,064 --> 00:26:05,184
 <font color="#dfdfdf">Else there are some things inside this dictionary what do I do I'm going to say for</font>
+<font color="#ffff00">Ngoài ra, có một số thứ trong từ điển này, tôi phải làm gì và sẽ nói gì</font>
 
 463
 00:26:05,696 --> 00:26:09,024
 <font color="#e0e0e0">Ask underscore idea monetary through all of them</font>
+<font color="#ffff00">Hỏi ý tưởng nhấn mạnh về tiền tệ thông qua tất cả chúng</font>
 
 464
 00:26:10,304 --> 00:26:11,584
 <font color="#ebebeb">And get the</font>
+<font color="#ffff00">Và nhận được</font>
 
 465
 00:26:12,352 --> 00:26:14,656
 <font color="#c1c1c1">Task idea and task in</font>
+<font color="#ffff00">Ý tưởng nhiệm vụ và nhiệm vụ trong</font>
 
 466
 00:26:14,912 --> 00:26:16,192
 <font color="#e8e8e8">Ask</font>
+<font color="#ffff00">Hỏi</font>
 
 467
 00:26:16,448 --> 00:26:17,472
 <font color="#c1c1c1">Items</font>
+<font color="#ffff00">Mặt hàng</font>
 
 468
 00:26:18,496 --> 00:26:21,568
 <font color="#e4e4e4">So I'm going to go through each and every item inside task</font>
+<font color="#ffff00">Vì vậy, tôi sẽ đi qua từng mục bên trong nhiệm vụ</font>
 
 469
 00:26:21,824 --> 00:26:23,616
 <font color="#e5e5e5">And get the task ID and tasks</font>
+<font color="#ffff00">Và nhận ID nhiệm vụ và nhiệm vụ</font>
 
 470
 00:26:25,664 --> 00:26:27,200
 <font color="#dadada">Bring that to our user</font>
+<font color="#ffff00">Mang điều đó đến với người dùng của chúng tôi</font>
 
 471
 00:26:29,760 --> 00:26:31,552
 <font color="#c9c9c9">Let's say bracket</font>
+<font color="#ffff00">Hãy nói dấu ngoặc</font>
 
 472
 00:26:32,064 --> 00:26:37,952
 <font color="#e0e0e0">Underscore ID so we'll give that ID inside a bracket</font>
+<font color="#ffff00">ID gạch dưới để chúng tôi sẽ cung cấp ID đó trong dấu ngoặc</font>
 
 473
 00:26:38,464 --> 00:26:39,488
 <font color="#b1b1b1">NC</font>
+<font color="#ffff00">NC</font>
 
 474
 00:26:43,072 --> 00:26:45,376
 <font color="#f3f3f3">Whatever the title is</font>
+<font color="#ffff00">Dù tiêu đề là gì</font>
 
 475
 00:26:48,704 --> 00:26:51,008
 <font color="#e1e1e1">Task I have to provide the status</font>
+<font color="#ffff00">Nhiệm vụ tôi phải cung cấp trạng thái</font>
 
 476
 00:26:51,520 --> 00:26:53,824
 <font color="#b7b7b7">Sunset status is this</font>
+<font color="#ffff00">Trạng thái hoàng hôn là thế này</font>
 
 477
 00:26:54,592 --> 00:26:58,688
 <font color="#e5e5e5">So that's what I'm printing it out to the user if they want to view all the tasks</font>
+<font color="#ffff00">Đó là những gì tôi sẽ in ra cho người dùng nếu họ muốn xem tất cả các tác vụ</font>
 
 478
 00:26:59,456 --> 00:27:00,480
 <font color="#b5b5b5">No next</font>
+<font color="#ffff00">Không tiếp theo</font>
 
 479
 00:27:00,992 --> 00:27:02,784
 <font color="#e3e3e3">From whatever you've done let's</font>
+<font color="#ffff00">Từ bất cứ điều gì bạn đã làm, hãy</font>
 
 480
 00:27:06,368 --> 00:27:09,440
 <font color="#cfcfcf">The Mazda task is complete so this is</font>
+<font color="#ffff00">Nhiệm vụ của Mazda đã hoàn thành nên đây là</font>
 
 481
 00:27:12,000 --> 00:27:15,584
 <font color="#c8c8c8">Costco's complete from incomplete status</font>
+<font color="#ffff00">Costco hoàn thành từ trạng thái chưa hoàn thành</font>
 
 482
 00:27:16,096 --> 00:27:17,120
 <font color="#a1a1a1">Someone said</font>
+<font color="#ffff00">Có người nói</font>
 
 483
 00:27:17,376 --> 00:27:18,656
 <font color="#e8e8e8">Define</font>
+<font color="#ffff00">Định nghĩa</font>
 
 484
 00:27:19,936 --> 00:27:22,496
 <font color="#e6e6e6">Mark dusk complete function</font>
+<font color="#ffff00">Đánh dấu hoàng hôn hoàn thành chức năng</font>
 
 485
 00:27:23,264 --> 00:27:25,824
 <font color="#ededed">It takes the area of task</font>
+<font color="#ffff00">Nó chiếm lĩnh vực nhiệm vụ</font>
 
 486
 00:27:26,848 --> 00:27:32,992
 <font color="#e3e3e3">Now first thing I have to do is I love to get the task ID for which I want to change it so I'm going to say ask ID</font>
+<font color="#ffff00">Bây giờ điều đầu tiên tôi phải làm là tôi muốn lấy ID nhiệm vụ mà tôi muốn thay đổi vì vậy tôi sẽ nói hãy hỏi ID</font>
 
 487
 00:27:33,248 --> 00:27:34,784
 <font color="#c8c8c8">Equal to end</font>
+<font color="#ffff00">Tương đương với kết thúc</font>
 
 488
 00:27:36,320 --> 00:27:38,624
 <font color="#e0e0e0">Input I'm going to ask the user</font>
+<font color="#ffff00">Đầu vào Tôi sẽ hỏi người dùng</font>
 
 489
 00:27:39,904 --> 00:27:40,928
 <font color="#e5e5e5">Enter</font>
+<font color="#ffff00">Đi vào</font>
 
 490
 00:27:41,184 --> 00:27:42,720
 <font color="#d8d8d8">Ask ID</font>
+<font color="#ffff00">Hỏi ID</font>
 
 491
 00:27:43,232 --> 00:27:44,768
 <font color="#cbcbcb">To mark</font>
+<font color="#ffff00">Để đánh dấu</font>
 
 492
 00:27:45,280 --> 00:27:51,424
 <font color="#bbbbbb">Complete when asked to use it now we just displaying the task identity user which one do you want to mark</font>
+<font color="#ffff00">Hoàn thành khi được yêu cầu sử dụng ngay bây giờ, chúng tôi chỉ hiển thị người dùng nhận dạng tác vụ mà bạn muốn đánh dấu cái nào</font>
 
 493
 00:27:51,680 --> 00:27:52,704
 <font color="#9f9f9f">Complete that you completed</font>
+<font color="#ffff00">Hoàn thành mà bạn đã hoàn thành</font>
 
 494
 00:27:55,264 --> 00:27:58,592
 <font color="#a7a7a7">First time check task underscore ID in</font>
+<font color="#ffff00">Lần đầu tiên kiểm tra ID gạch dưới của tác vụ trong</font>
 
 495
 00:27:59,872 --> 00:28:01,664
 <font color="#f7f7f7">If it exists in that</font>
+<font color="#ffff00">Nếu nó tồn tại trong đó</font>
 
 496
 00:28:02,688 --> 00:28:04,480
 <font color="#b3b3b3">Task objects</font>
+<font color="#ffff00">Đối tượng nhiệm vụ</font>
 
 497
 00:28:04,736 --> 00:28:06,528
 <font color="#f1f1f1">What I'm going to do is I'm going to say</font>
+<font color="#ffff00">Điều tôi sắp làm là tôi sẽ nói</font>
 
 498
 00:28:09,088 --> 00:28:11,136
 <font color="#d4d4d4">Task ID I'm going to get that item</font>
+<font color="#ffff00">ID nhiệm vụ Tôi sẽ lấy vật phẩm đó</font>
 
 499
 00:28:12,416 --> 00:28:13,440
 <font color="#cdcdcd">Into that</font>
+<font color="#ffff00">Vào đó</font>
 
 500
 00:28:14,208 --> 00:28:15,488
 <font color="#c1c1c1">Status</font>
+<font color="#ffff00">Trạng thái</font>
 
 501
 00:28:16,512 --> 00:28:18,048
 <font color="#d4d4d4">I'm going to Marcos</font>
+<font color="#ffff00">Tôi sẽ đến Marcos</font>
 
 502
 00:28:18,816 --> 00:28:19,584
 <font color="#f1f1f1">Complete</font>
+<font color="#ffff00">Hoàn thành</font>
 
 503
 00:28:20,096 --> 00:28:21,120
 <font color="#e1e1e1">So if it was it</font>
+<font color="#ffff00">Vậy nếu là nó</font>
 
 504
 00:28:21,376 --> 00:28:23,168
 <font color="#eeeeee">Incomplete when it was created</font>
+<font color="#ffff00">Chưa đầy đủ khi nó được tạo ra</font>
 
 505
 00:28:23,424 --> 00:28:24,704
 <font color="#f7f7f7">No it's complete</font>
+<font color="#ffff00">Không, nó đã hoàn thành</font>
 
 506
 00:28:25,216 --> 00:28:30,080
 <font color="#f1f1f1">So that's good I'm going to say print just to display a message to the user</font>
+<font color="#ffff00">Vậy là tốt rồi, tôi sẽ nói in chỉ để hiển thị thông báo cho người dùng</font>
 
 507
 00:28:38,528 --> 00:28:39,808
 <font color="#b5b5b5">Task ID</font>
+<font color="#ffff00">ID nhiệm vụ</font>
 
 508
 00:28:41,856 --> 00:28:44,416
 <font color="#d1d1d1">Whatever the title of that is</font>
+<font color="#ffff00">Dù tiêu đề của nó là gì</font>
 
 509
 00:28:46,720 --> 00:28:49,280
 <font color="#e1e1e1">And it closes here</font>
+<font color="#ffff00">Và nó đóng cửa ở đây</font>
 
 510
 00:28:51,584 --> 00:28:52,864
 <font color="#bababa">Marked</font>
+<font color="#ffff00">Đã đánh dấu</font>
 
 511
 00:28:53,376 --> 00:28:57,472
 <font color="#dfdfdf">Complete that's what I'm going to say to user and that will be displayed</font>
+<font color="#ffff00">Hoàn thành đó là những gì tôi sẽ nói với người dùng và nó sẽ được hiển thị</font>
 
 512
 00:28:57,728 --> 00:28:59,008
 <font color="#b8b8b8">Do the user</font>
+<font color="#ffff00">Làm người dùng</font>
 
 513
 00:29:00,800 --> 00:29:04,640
 <font color="#9d9d9d">What is the task doesn't exist</font>
+<font color="#ffff00">Nhiệm vụ là gì không tồn tại</font>
 
 514
 00:29:04,896 --> 00:29:06,944
 <font color="#f4f4f4">I'm just going to say print</font>
+<font color="#ffff00">Tôi chỉ định nói là in</font>
 
 515
 00:29:10,528 --> 00:29:12,064
 <font color="#787878">ID not</font>
+<font color="#ffff00">ID không</font>
 
 516
 00:29:12,576 --> 00:29:17,440
 <font color="#d8d8d8">Song so they can give you call view all task and check if the task is there or not</font>
+<font color="#ffff00">Song để họ có thể cung cấp cho bạn cuộc gọi xem tất cả nhiệm vụ và kiểm tra xem nhiệm vụ có ở đó hay không</font>
 
 517
 00:29:17,952 --> 00:29:19,488
 <font color="#aeaeae">Next thing</font>
+<font color="#ffff00">Điều tiếp theo</font>
 
 518
 00:29:19,744 --> 00:29:22,048
 <font color="#c0c0c0">Meaning we forgot to</font>
+<font color="#ffff00">Nghĩa là chúng ta đã quên</font>
 
 519
 00:29:23,072 --> 00:29:27,936
 <font color="#d6d6d6">Delete I guess in this case so we have this mentioned we also going to delete so I'm going to say</font>
+<font color="#ffff00">Xóa Tôi đoán là trong trường hợp này nên chúng tôi đã đề cập đến điều này, chúng tôi cũng sẽ xóa nên tôi sẽ nói</font>
 
 520
 00:29:28,192 --> 00:29:29,216
 <font color="#fdfdfd">Delete</font>
+<font color="#ffff00">Xóa bỏ</font>
 
 521
 00:29:29,728 --> 00:29:32,288
 <font color="#c8c8c8">Tusk it'll be something similar to this</font>
+<font color="#ffff00">Tusk nó sẽ giống như thế này</font>
 
 522
 00:29:33,056 --> 00:29:34,848
 <font color="#d1d1d1">Someone just copy that up here</font>
+<font color="#ffff00">Ai đó hãy sao chép nó lên đây</font>
 
 523
 00:29:35,360 --> 00:29:36,896
 <font color="#fafafa">And I am going to say</font>
+<font color="#ffff00">Và tôi sẽ nói</font>
 
 524
 00:29:40,736 --> 00:29:42,016
 <font color="#e9e9e9">Delete task</font>
+<font color="#ffff00">Xóa tác vụ</font>
 
 525
 00:29:44,320 --> 00:29:46,624
 <font color="#f7f7f7">And I'm going to get the ID</font>
+<font color="#ffff00">Và tôi sẽ lấy ID</font>
 
 526
 00:29:46,880 --> 00:29:48,672
 <font color="#f2f2f2">Enter task ID</font>
+<font color="#ffff00">Nhập ID nhiệm vụ</font>
 
 527
 00:29:49,952 --> 00:29:50,976
 <font color="#d5d5d5">To delete</font>
+<font color="#ffff00">Để xóa</font>
 
 528
 00:29:51,744 --> 00:29:53,280
 <font color="#8d8d8d">Ask ID in task</font>
+<font color="#ffff00">Hỏi ID trong nhiệm vụ</font>
 
 529
 00:29:53,792 --> 00:29:56,864
 <font color="#f2f2f2">I am going to I'm not going to mark this</font>
+<font color="#ffff00">Tôi sẽ không đánh dấu cái này</font>
 
 530
 00:29:57,376 --> 00:29:59,424
 <font color="#bebebe">Deleted underscore tasks</font>
+<font color="#ffff00">Đã xóa tác vụ gạch dưới</font>
 
 531
 00:29:59,936 --> 00:30:01,216
 <font color="#efefef">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 532
 00:30:02,240 --> 00:30:04,800
 <font color="#989898">Tasks dot I just pop it</font>
+<font color="#ffff00">Nhiệm vụ chấm tôi chỉ cần bật nó lên</font>
 
 533
 00:30:05,312 --> 00:30:06,336
 <font color="#f2f2f2">Depending on the</font>
+<font color="#ffff00">Tùy thuộc vào</font>
 
 534
 00:30:06,592 --> 00:30:07,616
 <font color="#a0a0a0">Task Heidi</font>
+<font color="#ffff00">Nhiệm vụ Heidi</font>
 
 535
 00:30:08,384 --> 00:30:09,920
 <font color="#c3c3c3">There you go so that will</font>
+<font color="#ffff00">Thế đấy, thế là được rồi</font>
 
 536
 00:30:10,176 --> 00:30:12,224
 <font color="#d0d0d0">The latest so that I can say task</font>
+<font color="#ffff00">Mới nhất để tôi có thể nói nhiệm vụ</font>
 
 537
 00:30:13,248 --> 00:30:14,272
 <font color="#d7d7d7">Deleted</font>
+<font color="#ffff00">Đã xóa</font>
 
 538
 00:30:15,808 --> 00:30:16,832
 <font color="#adadad">I do not want perfect</font>
+<font color="#ffff00">Tôi không muốn hoàn hảo</font>
 
 539
 00:30:17,088 --> 00:30:18,368
 <font color="#e8e8e8">Next Step</font>
+<font color="#ffff00">Bước tiếp theo</font>
 
 540
 00:30:18,624 --> 00:30:19,648
 <font color="#dddddd">What is the main menu</font>
+<font color="#ffff00">Thực đơn chính là gì</font>
 
 541
 00:30:21,696 --> 00:30:22,976
 <font color="#b6b6b6">Which weather display</font>
+<font color="#ffff00">Hiển thị thời tiết nào</font>
 
 542
 00:30:23,232 --> 00:30:25,280
 <font color="#d8d8d8">All the options for a user</font>
+<font color="#ffff00">Tất cả các tùy chọn cho người dùng</font>
 
 543
 00:30:25,536 --> 00:30:27,584
 <font color="#878787">Some quality of Maine</font>
+<font color="#ffff00">Một số chất lượng của Maine</font>
 
 544
 00:30:29,376 --> 00:30:31,424
 <font color="#f9f9f9">And inside my main function</font>
+<font color="#ffff00">Và bên trong chức năng chính của tôi</font>
 
 545
 00:30:31,680 --> 00:30:34,752
 <font color="#d8d8d8">I'll probably first say task equal to</font>
+<font color="#ffff00">Có lẽ trước tiên tôi sẽ nói nhiệm vụ bằng</font>
 
 546
 00:30:35,264 --> 00:30:40,640
 <font color="#dddddd">Lotus can I want to see all the get all the tasks as soon as the program runs</font>
+<font color="#ffff00">Lotus tôi có thể muốn xem tất cả các nhiệm vụ ngay khi chương trình chạy không</font>
 
 547
 00:30:44,224 --> 00:30:48,576
 <font color="#f5f5f5">If you remember why Loops it will keep on running until the user</font>
+<font color="#ffff00">Nếu bạn nhớ tại sao Vòng lặp thì nó sẽ tiếp tục chạy cho đến khi người dùng</font>
 
 548
 00:30:48,832 --> 00:30:50,624
 <font color="#e0e0e0">Specifically says Exit</font>
+<font color="#ffff00">Cụ thể là Thoát</font>
 
 549
 00:30:51,136 --> 00:30:53,952
 <font color="#d1d1d1">I want to give the users some access first I'll say</font>
+<font color="#ffff00">Trước tiên tôi muốn cấp cho người dùng một số quyền truy cập</font>
 
 550
 00:30:54,464 --> 00:30:56,256
 <font color="#a5a5a5">Slash in next line</font>
+<font color="#ffff00">Gạch chéo ở dòng tiếp theo</font>
 
 551
 00:30:57,024 --> 00:30:58,816
 <font color="#e8e8e8">Task manager</font>
+<font color="#ffff00">Trình quản lý tác vụ</font>
 
 552
 00:30:59,328 --> 00:30:59,840
 <font color="#e6e6e6">Menu</font>
+<font color="#ffff00">Thực đơn</font>
 
 553
 00:31:01,376 --> 00:31:02,400
 <font color="#c1c1c1">That's my first</font>
+<font color="#ffff00">Đó là lần đầu tiên của tôi</font>
 
 554
 00:31:02,656 --> 00:31:04,704
 <font color="#e0e0e0">Next I'm going to say print</font>
+<font color="#ffff00">Tiếp theo tôi sẽ nói in</font>
 
 555
 00:31:05,472 --> 00:31:07,776
 <font color="#f7f7f7">First option that I want to give user is</font>
+<font color="#ffff00">Tùy chọn đầu tiên mà tôi muốn cung cấp cho người dùng là</font>
 
 556
 00:31:08,032 --> 00:31:09,568
 <font color="#e7e7e7">Add a task</font>
+<font color="#ffff00">Thêm nhiệm vụ</font>
 
 557
 00:31:11,616 --> 00:31:13,408
 <font color="#f9f9f9">Next option that I want to give</font>
+<font color="#ffff00">Tùy chọn tiếp theo mà tôi muốn đưa ra</font>
 
 558
 00:31:13,664 --> 00:31:16,736
 <font color="#e7e7e7">User is view all the tasks</font>
+<font color="#ffff00">Người dùng được xem tất cả các nhiệm vụ</font>
 
 559
 00:31:18,528 --> 00:31:24,672
 <font color="#d5d5d5">Next option that we want to give three is we said add view mark</font>
+<font color="#ffff00">Tùy chọn tiếp theo mà chúng tôi muốn cung cấp ba là chúng tôi đã nói thêm dấu xem</font>
 
 560
 00:31:24,928 --> 00:31:25,440
 <font color="#a6a6a6">Is complete</font>
+<font color="#ffff00">Đã hoàn tất</font>
 
 561
 00:31:25,952 --> 00:31:27,488
 <font color="#8e8e8e">Mark task as</font>
+<font color="#ffff00">Đánh dấu nhiệm vụ là</font>
 
 562
 00:31:28,256 --> 00:31:29,024
 <font color="#fafafa">Complete</font>
+<font color="#ffff00">Hoàn thành</font>
 
 563
 00:31:29,536 --> 00:31:32,608
 <font color="#f4f4f4">Next option that I want to give user is</font>
+<font color="#ffff00">Tùy chọn tiếp theo mà tôi muốn cung cấp cho người dùng là</font>
 
 564
 00:31:33,120 --> 00:31:36,192
 <font color="#d4d4d4">The fourth one let's delete a task</font>
+<font color="#ffff00">Điều thứ tư hãy xóa một nhiệm vụ</font>
 
 565
 00:31:38,496 --> 00:31:44,128
 <font color="#f5f5f5">And next one that I want to give you the fifth one is to exit out of this program</font>
+<font color="#ffff00">Và điều tiếp theo tôi muốn nói với bạn là điều thứ năm là thoát khỏi chương trình này</font>
 
 566
 00:31:44,640 --> 00:31:50,784
 <font color="#c2c2c2">35 exit 12345 so all my five options now let's get users choice</font>
+<font color="#ffff00">35 exit 12345 vì vậy tất cả năm lựa chọn của tôi bây giờ hãy để người dùng lựa chọn</font>
 
 567
 00:31:51,296 --> 00:31:52,576
 <font color="#fafafa">Equal to input</font>
+<font color="#ffff00">Tương đương với đầu vào</font>
 
 568
 00:31:54,624 --> 00:31:55,904
 <font color="#fdfdfd">Enter</font>
+<font color="#ffff00">Đi vào</font>
 
 569
 00:31:56,928 --> 00:31:57,696
 <font color="#d1d1d1">Choice</font>
+<font color="#ffff00">Sự lựa chọn</font>
 
 570
 00:31:58,720 --> 00:32:00,512
 <font color="#e4e4e4">So be asking the user to enter something</font>
+<font color="#ffff00">Vì vậy, hãy yêu cầu người dùng nhập nội dung nào đó</font>
 
 571
 00:32:01,280 --> 00:32:03,584
 <font color="#e9e9e9">And now we run through all those if</font>
+<font color="#ffff00">Và bây giờ chúng ta sẽ lướt qua tất cả những điều đó nếu</font>
 
 572
 00:32:04,096 --> 00:32:04,864
 <font color="#bfbfbf">Choice</font>
+<font color="#ffff00">Sự lựa chọn</font>
 
 573
 00:32:05,376 --> 00:32:08,192
 <font color="#f0f0f0">Equal to 1 what do I want to do</font>
+<font color="#ffff00">Bằng 1 tôi muốn làm gì</font>
 
 574
 00:32:08,448 --> 00:32:11,776
 <font color="#f9f9f9">I want to add a particular task</font>
+<font color="#ffff00">Tôi muốn thêm một nhiệm vụ cụ thể</font>
 
 575
 00:32:12,544 --> 00:32:14,080
 <font color="#aeaeae">To the tasks</font>
+<font color="#ffff00">Đến các nhiệm vụ</font>
 
 576
 00:32:18,176 --> 00:32:19,200
 <font color="#d9d9d9">Okay perfect</font>
+<font color="#ffff00">Được rồi hoàn hảo</font>
 
 577
 00:32:19,712 --> 00:32:22,784
 <font color="#cecece">Add task next one else's</font>
+<font color="#ffff00">Thêm nhiệm vụ tiếp theo của người khác</font>
 
 578
 00:32:24,576 --> 00:32:26,368
 <font color="#eaeaea">The choice</font>
+<font color="#ffff00">Sự lựa chọn</font>
 
 579
 00:32:26,624 --> 00:32:27,648
 <font color="#eeeeee">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 580
 00:32:27,904 --> 00:32:33,280
 <font color="#d3d3d3">In this particular case I want to view tasks</font>
+<font color="#ffff00">Trong trường hợp cụ thể này tôi muốn xem nhiệm vụ</font>
 
 581
 00:32:33,536 --> 00:32:36,864
 <font color="#ececec">So I can just say view task and pass the task</font>
+<font color="#ffff00">Vì vậy tôi chỉ có thể nói xem nhiệm vụ và chuyển nhiệm vụ</font>
 
 582
 00:32:37,120 --> 00:32:38,400
 <font color="#b1b1b1">Object to it</font>
+<font color="#ffff00">Phản đối nó</font>
 
 583
 00:32:39,936 --> 00:32:43,776
 <font color="#d6d6d6">Next let's say there might be a problem in the court but let's see</font>
+<font color="#ffff00">Tiếp theo, giả sử có thể có vấn đề ở tòa án nhưng hãy xem</font>
 
 584
 00:32:44,288 --> 00:32:46,080
 <font color="#aeaeae">As and when we run this</font>
+<font color="#ffff00">Và khi chúng tôi chạy cái này</font>
 
 585
 00:32:47,616 --> 00:32:50,944
 <font color="#cacaca">If the user picks 3 I'm going to say Mark task complete</font>
+<font color="#ffff00">Nếu người dùng chọn 3 tôi sẽ nói Đánh dấu nhiệm vụ đã hoàn thành</font>
 
 586
 00:32:51,456 --> 00:32:55,296
 <font color="#d4d4d4">Now for that I will give us because everything happens inside there</font>
+<font color="#ffff00">Bây giờ tôi sẽ cung cấp cho chúng tôi điều đó vì mọi thứ diễn ra bên trong đó</font>
 
 587
 00:32:56,832 --> 00:32:57,856
 <font color="#f2f2f2">Next option</font>
+<font color="#ffff00">Tùy chọn tiếp theo</font>
 
 588
 00:32:58,112 --> 00:33:00,160
 <font color="#b2b2b2">Is if the user picks for</font>
+<font color="#ffff00">Là nếu người dùng chọn</font>
 
 589
 00:33:00,416 --> 00:33:03,488
 <font color="#bcbcbc">That is to delete tasks I'm going to say delete tasks</font>
+<font color="#ffff00">Đó là xóa nhiệm vụ tôi sẽ nói xóa nhiệm vụ</font>
 
 590
 00:33:03,744 --> 00:33:04,512
 <font color="#bbbbbb">Perfect</font>
+<font color="#ffff00">Hoàn hảo</font>
 
 591
 00:33:07,072 --> 00:33:09,120
 <font color="#fdfdfd">Next thing that I want to do</font>
+<font color="#ffff00">Điều tiếp theo tôi muốn làm</font>
 
 592
 00:33:09,376 --> 00:33:12,960
 <font color="#f4f4f4">Delete task if the user says that they want to</font>
+<font color="#ffff00">Xóa tác vụ nếu người dùng nói rằng họ muốn</font>
 
 593
 00:33:13,216 --> 00:33:15,008
 <font color="#cbcbcb">Quit which is choice</font>
+<font color="#ffff00">Bỏ đi đó là sự lựa chọn</font>
 
 594
 00:33:15,520 --> 00:33:17,056
 <font color="#d7d7d7">Equal to 5</font>
+<font color="#ffff00">Bằng 5</font>
 
 595
 00:33:17,568 --> 00:33:19,616
 <font color="#e5e5e5">Since the user is getting out of the</font>
+<font color="#ffff00">Vì người dùng sắp thoát khỏi</font>
 
 596
 00:33:20,896 --> 00:33:23,968
 <font color="#cbcbcb">I want to see the tasks someone to save the task</font>
+<font color="#ffff00">Tôi muốn xem nhiệm vụ của ai đó để lưu nhiệm vụ</font>
 
 597
 00:33:24,224 --> 00:33:29,856
 <font color="#e3e3e3">So I want to make sure that it's persist on the hard disk</font>
+<font color="#ffff00">Vì vậy tôi muốn chắc chắn rằng nó vẫn tồn tại trên đĩa cứng</font>
 
 598
 00:33:30,112 --> 00:33:32,672
 <font color="#808080">Sunset task as a print</font>
+<font color="#ffff00">Nhiệm vụ hoàng hôn dưới dạng bản in</font>
 
 599
 00:33:33,696 --> 00:33:36,768
 <font color="#ebebeb">Give a goodbye message to the user always good</font>
+<font color="#ffff00">Gửi tin nhắn tạm biệt tới người dùng luôn tốt</font>
 
 600
 00:33:37,024 --> 00:33:38,304
 <font color="#b5b5b5">Siri goodbye</font>
+<font color="#ffff00">Tạm biệt Siri</font>
 
 601
 00:33:38,816 --> 00:33:40,352
 <font color="#e0e0e0">And break out of</font>
+<font color="#ffff00">Và thoát ra khỏi</font>
 
 602
 00:33:41,376 --> 00:33:44,192
 <font color="#d4d4d4">While up here so that's what we're doing here</font>
+<font color="#ffff00">Trong khi ở đây đó là những gì chúng tôi đang làm ở đây</font>
 
 603
 00:33:44,704 --> 00:33:48,800
 <font color="#e7e7e7">Also what is user enter something else and none of these options</font>
+<font color="#ffff00">Ngoài ra, người dùng nhập cái gì khác và không có tùy chọn nào trong số này</font>
 
 604
 00:33:51,616 --> 00:33:52,384
 <font color="#595959">Hi Google</font>
+<font color="#ffff00">Xin chào Google</font>
 
 605
 00:33:55,200 --> 00:33:57,248
 <font color="#909090">Like what if user says 6</font>
+<font color="#ffff00">Giống như nếu người dùng nói 6</font>
 
 606
 00:33:57,504 --> 00:33:59,040
 <font color="#f5f5f5">Then I'm going to say</font>
+<font color="#ffff00">Sau đó tôi sẽ nói</font>
 
 607
 00:33:59,808 --> 00:34:02,624
 <font color="#f2f2f2">Invalid choice will try this first</font>
+<font color="#ffff00">Lựa chọn không hợp lệ sẽ thử điều này trước</font>
 
 608
 00:34:03,136 --> 00:34:05,184
 <font color="#f3f3f3">Please try again</font>
+<font color="#ffff00">Vui lòng thử lại</font>
 
 609
 00:34:06,720 --> 00:34:11,584
 <font color="#ededed">Okay now in Python if you want to run the main function you have to say</font>
+<font color="#ffff00">Được rồi bây giờ bằng Python nếu bạn muốn chạy chức năng chính, bạn phải nói</font>
 
 610
 00:34:12,096 --> 00:34:14,400
 <font color="#d3d3d3">Name name underscore underscore name</font>
+<font color="#ffff00">Tên tên gạch dưới tên gạch dưới</font>
 
 611
 00:34:14,912 --> 00:34:16,192
 <font color="#f3f3f3">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 612
 00:34:16,448 --> 00:34:18,752
 <font color="#9c9c9c">Underscore underscore Main</font>
+<font color="#ffff00">Gạch dưới gạch dưới Chính</font>
 
 613
 00:34:19,008 --> 00:34:21,056
 <font color="#878787">Underscore underscore</font>
+<font color="#ffff00">Gạch dưới gạch dưới</font>
 
 614
 00:34:22,336 --> 00:34:23,872
 <font color="#eeeeee">I want to run the main function</font>
+<font color="#ffff00">Tôi muốn chạy chức năng chính</font>
 
 615
 00:34:24,128 --> 00:34:29,760
 <font color="#d4d4d4">That's how you run the main function when the application starts and that's our main over there</font>
+<font color="#ffff00">Đó là cách bạn chạy chức năng chính khi ứng dụng khởi động và đó là chức năng chính của chúng tôi ở đằng kia</font>
 
 616
 00:34:30,784 --> 00:34:35,648
 <font color="#ededed">So it looks like we have everything in place I want to just check if you have somewhere</font>
+<font color="#ffff00">Có vẻ như chúng ta đã chuẩn bị xong mọi thứ. Tôi chỉ muốn kiểm tra xem bạn có chỗ nào không</font>
 
 617
 00:34:35,904 --> 00:34:37,440
 <font color="#cfcfcf">Task equal to</font>
+<font color="#ffff00">Nhiệm vụ tương đương</font>
 
 618
 00:34:38,976 --> 00:34:40,000
 <font color="#dfdfdf">Okay perfect</font>
+<font color="#ffff00">Được rồi hoàn hảo</font>
 
 619
 00:34:40,256 --> 00:34:43,328
 <font color="#ececec">So this looks good but let's see if it runs properly</font>
+<font color="#ffff00">Vì vậy, điều này có vẻ tốt nhưng hãy xem nó có chạy đúng không</font>
 
 620
 00:34:43,840 --> 00:34:46,400
 <font color="#bebebe">So first I want to clear this out</font>
+<font color="#ffff00">Vì vậy, trước tiên tôi muốn làm rõ điều này</font>
 
 621
 00:34:46,912 --> 00:34:48,192
 <font color="#a1a1a1">Unless I have my</font>
+<font color="#ffff00">Trừ khi tôi có</font>
 
 622
 00:34:49,216 --> 00:34:50,496
 <font color="#6d6d6d">Call Father Day</font>
+<font color="#ffff00">Gọi Ngày của Cha</font>
 
 623
 00:34:50,752 --> 00:34:52,288
 <font color="#e8e8e8">Seven I don't have any files</font>
+<font color="#ffff00">Bảy Tôi không có bất kỳ tập tin nào</font>
 
 624
 00:34:53,568 --> 00:34:54,848
 <font color="#ededed">Task manager</font>
+<font color="#ffff00">Trình quản lý tác vụ</font>
 
 625
 00:34:55,360 --> 00:34:56,896
 <font color="#f8f8f8">Give me options here</font>
+<font color="#ffff00">Cung cấp cho tôi các lựa chọn ở đây</font>
 
 626
 00:34:57,408 --> 00:35:02,272
 <font color="#e0e0e0">If I say 9 in valid Choice please try again because that was</font>
+<font color="#ffff00">Nếu tôi nói 9 trong Lựa chọn hợp lệ, vui lòng thử lại vì đó là</font>
 
 627
 00:35:02,528 --> 00:35:03,808
 <font color="#ececec">Choice that doesn't exist</font>
+<font color="#ffff00">Lựa chọn không tồn tại</font>
 
 628
 00:35:04,064 --> 00:35:08,928
 <font color="#d9d9d9">I want to view all the tasks since there's no task available it will say no task available</font>
+<font color="#ffff00">Tôi muốn xem tất cả các nhiệm vụ vì không có nhiệm vụ nào, nó sẽ báo là không có nhiệm vụ nào</font>
 
 629
 00:35:09,184 --> 00:35:15,328
 <font color="#b6b6b6">Buy milk</font>
+<font color="#ffff00">Mua sữa</font>
 
 630
 00:35:17,120 --> 00:35:20,704
 <font color="#c7c7c7">Okay so that's the best buy milk at it let's look at it if it's there</font>
+<font color="#ffff00">Được rồi, đó là loại sữa tốt nhất để mua ở đó, hãy xem nó có ở đó không</font>
 
 631
 00:35:21,472 --> 00:35:23,520
 <font color="#c4c4c4">Okay I have one buy milk</font>
+<font color="#ffff00">Được rồi tôi có một cái mua sữa</font>
 
 632
 00:35:24,032 --> 00:35:25,056
 <font color="#c5c5c5">Incomplete</font>
+<font color="#ffff00">Chưa hoàn thành</font>
 
 633
 00:35:25,312 --> 00:35:27,104
 <font color="#e7e7e7">Let's add a couple of more of them</font>
+<font color="#ffff00">Hãy thêm một vài trong số chúng</font>
 
 634
 00:35:27,872 --> 00:35:29,408
 <font color="#888888">Let's say</font>
+<font color="#ffff00">Hãy nói</font>
 
 635
 00:35:35,552 --> 00:35:36,576
 <font color="#eaeaea">Car wash</font>
+<font color="#ffff00">Rửa xe</font>
 
 636
 00:35:37,600 --> 00:35:40,672
 <font color="#e0e0e0">Okay let's look at these tasks and I see all the three tasks</font>
+<font color="#ffff00">Được rồi, hãy nhìn vào những nhiệm vụ này và tôi thấy cả ba nhiệm vụ</font>
 
 637
 00:35:41,184 --> 00:35:47,328
 <font color="#d0d0d0">Buy milk buy eggs get car wash so we can view the task let's mark something as complete as a Pick 3</font>
+<font color="#ffff00">Mua sữa mua trứng nhận rửa xe để chúng ta có thể xem nhiệm vụ hãy đánh dấu phần nào đó hoàn thành là Pick 3</font>
 
 638
 00:35:48,096 --> 00:35:52,192
 <font color="#e4e4e4">Can I say I already got done with buying eggs</font>
+<font color="#ffff00">Tôi có thể nói rằng tôi đã hoàn tất việc mua trứng không</font>
 
 639
 00:35:52,704 --> 00:35:56,800
 <font color="#d2d2d2">And it says task by X Market complete let's see if it's true</font>
+<font color="#ffff00">Và nó báo là nhiệm vụ của X Market đã hoàn tất, hãy xem điều đó có đúng không</font>
 
 640
 00:35:57,312 --> 00:35:58,336
 <font color="#979797">Music task</font>
+<font color="#ffff00">Nhiệm vụ âm nhạc</font>
 
 641
 00:35:58,848 --> 00:36:02,432
 <font color="#e7e7e7">And if you see incomplete complete and incomplete perfect so that worked</font>
+<font color="#ffff00">Và nếu bạn thấy hoàn thành không đầy đủ và hoàn hảo không đầy đủ thì điều đó đã hoạt động</font>
 
 642
 00:36:02,944 --> 00:36:06,272
 <font color="#b0b0b0">I will delete it off let me delete my milk task so I'm going to say 4</font>
+<font color="#ffff00">Mình sẽ xóa nó đi để mình xóa nhiệm vụ sữa của mình nên mình sẽ nói 4</font>
 
 643
 00:36:07,040 --> 00:36:09,344
 <font color="#d1d1d1">Enter the task ID 1</font>
+<font color="#ffff00">Nhập ID nhiệm vụ 1</font>
 
 644
 00:36:10,112 --> 00:36:12,928
 <font color="#b9b9b9">And it gave me another I knew there was some problem somewhere</font>
+<font color="#ffff00">Và nó lại cho tôi một cái khác. Tôi biết có vấn đề gì đó ở đâu đó</font>
 
 645
 00:36:13,184 --> 00:36:15,232
 <font color="#fbfbfb">So this happened in the delete function</font>
+<font color="#ffff00">Vì vậy, điều này đã xảy ra trong chức năng xóa</font>
 
 646
 00:36:16,512 --> 00:36:17,280
 <font color="#bcbcbc">And delete</font>
+<font color="#ffff00">Và xóa</font>
 
 647
 00:36:17,536 --> 00:36:18,816
 <font color="#bcbcbc">Ask ask</font>
+<font color="#ffff00">Hỏi hỏi</font>
 
 648
 00:36:19,328 --> 00:36:21,120
 <font color="#bbbbbb">Task ID it says there is some</font>
+<font color="#ffff00">ID nhiệm vụ nó báo có một số</font>
 
 649
 00:36:21,376 --> 00:36:22,144
 <font color="#d2d2d2">Problem</font>
+<font color="#ffff00">Vấn đề</font>
 
 650
 00:36:22,656 --> 00:36:27,520
 <font color="#c9c9c9">Sears looks like it says this I copied from here that makes sense</font>
+<font color="#ffff00">Sears có vẻ như nó nói điều này tôi đã sao chép từ đây có ý nghĩa</font>
 
 651
 00:36:28,032 --> 00:36:29,312
 <font color="#bbbbbb">Because</font>
+<font color="#ffff00">Bởi vì</font>
 
 652
 00:36:30,080 --> 00:36:32,128
 <font color="#f5f5f5">This is not true so this is</font>
+<font color="#ffff00">Điều này không đúng nên đây là</font>
 
 653
 00:36:33,152 --> 00:36:34,944
 <font color="#ececec">Deleted task</font>
+<font color="#ffff00">Nhiệm vụ đã xóa</font>
 
 654
 00:36:36,736 --> 00:36:37,760
 <font color="#dbdbdb">Deleted</font>
+<font color="#ffff00">Đã xóa</font>
 
 655
 00:36:40,832 --> 00:36:42,880
 <font color="#fbfbfb">And then inside that</font>
+<font color="#ffff00">Và sau đó bên trong đó</font>
 
 656
 00:36:45,696 --> 00:36:47,488
 <font color="#868686">Title makes sense</font>
+<font color="#ffff00">Tiêu đề có ý nghĩa</font>
 
 657
 00:36:48,000 --> 00:36:52,096
 <font color="#e6e6e6">Perfect clear I'm very sure nothing of this is saved</font>
+<font color="#ffff00">Hoàn toàn rõ ràng Tôi rất chắc chắn rằng không có gì trong số này được lưu lại</font>
 
 658
 00:36:52,352 --> 00:36:53,120
 <font color="#7c7c7c">That's it</font>
+<font color="#ffff00">Thế thôi</font>
 
 659
 00:36:53,632 --> 00:36:59,520
 <font color="#e2e2e2">No tasks available of course that means I have to go through the entire process again add a task by milk</font>
+<font color="#ffff00">Tất nhiên là không có nhiệm vụ nào, điều đó có nghĩa là tôi phải thực hiện lại toàn bộ quá trình thêm nhiệm vụ bằng sữa</font>
 
 660
 00:37:00,544 --> 00:37:02,592
 <font color="#cecece">Add a task by</font>
+<font color="#ffff00">Thêm nhiệm vụ bằng cách</font>
 
 661
 00:37:04,640 --> 00:37:05,920
 <font color="#dbdbdb">Add a task</font>
+<font color="#ffff00">Thêm nhiệm vụ</font>
 
 662
 00:37:10,016 --> 00:37:15,392
 <font color="#cdcdcd">Let's view the task I have all the three tasks here let's go ahead directly delete myself for</font>
+<font color="#ffff00">Hãy xem nhiệm vụ Tôi có cả ba nhiệm vụ ở đây hãy tiếp tục trực tiếp xóa chính mình cho</font>
 
 663
 00:37:15,648 --> 00:37:17,440
 <font color="#cbcbcb">And I will delete buy eggs again</font>
+<font color="#ffff00">Và tôi sẽ xóa mua trứng lần nữa</font>
 
 664
 00:37:18,464 --> 00:37:21,024
 <font color="#eeeeee">And let's see now to view task</font>
+<font color="#ffff00">Và chúng ta hãy xem ngay bây giờ để xem nhiệm vụ</font>
 
 665
 00:37:21,280 --> 00:37:23,584
 <font color="#cbcbcb">I only two tasks buy milk and</font>
+<font color="#ffff00">Tôi chỉ có hai nhiệm vụ mua sữa và</font>
 
 666
 00:37:23,840 --> 00:37:29,984
 <font color="#c6c6c6">Get car wash so only option left to test is 5:00 it says goodbye perfect so there you go</font>
+<font color="#ffff00">Đi rửa xe nên lựa chọn duy nhất còn lại để kiểm tra là 5:00, nó nói lời tạm biệt hoàn hảo nên bạn đi thôi</font>
 
 667
 00:37:30,240 --> 00:37:31,520
 <font color="#d0d0d0">So we have our completed</font>
+<font color="#ffff00">Vậy là chúng ta đã hoàn thành</font>
 
 668
 00:37:31,776 --> 00:37:35,872
 <font color="#cdcdcd">Are project which is creating a task manager step by step task</font>
+<font color="#ffff00">Là dự án đang tạo một trình quản lý tác vụ từng bước</font>
 
 669
 00:37:36,128 --> 00:37:38,688
 <font color="#e3e3e3">Now you can create an API out of it or something to use it</font>
+<font color="#ffff00">Bây giờ bạn có thể tạo một API từ nó hoặc thứ gì đó để sử dụng nó</font>
 
 670
 00:37:38,944 --> 00:37:45,088
 <font color="#ececec">But this is a basic command line interface task manager that you've created if you have any questions or had any issues</font>
+<font color="#ffff00">Nhưng đây là trình quản lý tác vụ giao diện dòng lệnh cơ bản mà bạn đã tạo nếu bạn có bất kỳ câu hỏi nào hoặc gặp bất kỳ vấn đề nào</font>
 
 671
 00:37:45,600 --> 00:37:47,136
 <font color="#fafafa">Let me know and I'll get back to you</font>
+<font color="#ffff00">Hãy cho tôi biết và tôi sẽ liên lạc lại với bạn</font>
 
 672
 00:37:48,928 --> 00:37:53,792
 <font color="#ececec">Some additional features to add I'll give you some tasks to add some additional features you can</font>
+<font color="#ffff00">Một số tính năng bổ sung cần thêm Tôi sẽ giao cho bạn một số nhiệm vụ để thêm một số tính năng bổ sung mà bạn có thể</font>
 
 673
 00:37:54,048 --> 00:37:57,120
 <font color="#f2f2f2">Add deadlines for priorities for task</font>
+<font color="#ffff00">Thêm thời hạn cho các ưu tiên cho nhiệm vụ</font>
 
 674
 00:37:57,632 --> 00:37:58,656
 <font color="#f8f8f8">Next thing you can do is</font>
+<font color="#ffff00">Điều tiếp theo bạn có thể làm là</font>
 
 675
 00:37:58,912 --> 00:38:01,728
 <font color="#cacaca">Export task to a Json or CSV</font>
+<font color="#ffff00">Xuất tác vụ sang Json hoặc CSV</font>
 
 676
 00:38:02,240 --> 00:38:04,032
 <font color="#f5f5f5">Something that we didn't test here</font>
+<font color="#ffff00">Một cái gì đó mà chúng tôi chưa thử nghiệm ở đây</font>
 
 677
 00:38:04,288 --> 00:38:05,824
 <font color="#e4e4e4">Was received</font>
+<font color="#ffff00">Đã nhận được</font>
 
 678
 00:38:07,104 --> 00:38:12,736
 <font color="#cdcdcd">File did they get saved let's look at it so here is my task dot txt when I pressed exit</font>
+<font color="#ffff00">Tệp họ đã được lưu chưa, hãy xem nó vì vậy đây là nhiệm vụ của tôi dot txt khi tôi nhấn thoát</font>
 
 679
 00:38:13,248 --> 00:38:14,016
 <font color="#6d6d6d">It save</font>
+<font color="#ffff00">Nó lưu</font>
 
 680
 00:38:14,272 --> 00:38:20,416
 <font color="#e5e5e5">Whatever was left in the task into this particular file and next time when I run this now it will open those</font>
+<font color="#ffff00">Bất cứ thứ gì còn lại trong tác vụ sẽ được đưa vào tệp cụ thể này và lần sau khi tôi chạy nó, nó sẽ mở những tệp đó</font>
 
 681
 00:38:20,672 --> 00:38:23,232
 <font color="#e4e4e4">Ask and show me the address so I can always go here</font>
+<font color="#ffff00">Hỏi và cho địa chỉ để mình qua đây luôn</font>
 
 682
 00:38:23,488 --> 00:38:24,512
 <font color="#e6e6e6">Clear it out</font>
+<font color="#ffff00">Xóa nó đi</font>
 
 683
 00:38:25,024 --> 00:38:26,816
 <font color="#f9f9f9">I can run that project again</font>
+<font color="#ffff00">Tôi có thể chạy lại dự án đó</font>
 
 684
 00:38:27,584 --> 00:38:32,960
 <font color="#e1e1e1">And I can see you tasks and you see those tasks are persisted to my hard disk in this particular folder</font>
+<font color="#ffff00">Và tôi có thể thấy các nhiệm vụ của bạn và bạn thấy các nhiệm vụ đó được lưu vào đĩa cứng của tôi trong thư mục cụ thể này</font>
 
 685
 00:38:33,216 --> 00:38:35,520
 <font color="#f6f6f6">Because we have saved the task</font>
+<font color="#ffff00">Vì chúng ta đã lưu nhiệm vụ</font>
 
 686
 00:38:36,288 --> 00:38:37,824
 <font color="#c0c0c0">Using this OS</font>
+<font color="#ffff00">Sử dụng hệ điều hành này</font>
 
 687
 00:38:38,336 --> 00:38:39,872
 <font color="#e3e3e3">OS module function</font>
+<font color="#ffff00">Chức năng mô-đun hệ điều hành</font>
 
 688
 00:38:41,920 --> 00:38:47,552
 <font color="#dddddd">Okay that's so try to export the task to a Jason or CSV file give that as an option to the user</font>
+<font color="#ffff00">Được rồi, vậy hãy thử xuất tác vụ sang tệp Jason hoặc CSV, cung cấp tùy chọn đó cho người dùng</font>
 
 689
 00:38:48,064 --> 00:38:54,208
 <font color="#e8e8e8">And then support command line Arguments for quicker task management so try this out and let me</font>
+<font color="#ffff00">Và sau đó hỗ trợ Đối số dòng lệnh để quản lý tác vụ nhanh hơn, vì vậy hãy thử cái này và để tôi</font>
 
 690
 00:38:54,464 --> 00:38:55,232
 <font color="#fafafa">Let me know how it goes</font>
+<font color="#ffff00">Hãy cho tôi biết mọi chuyện diễn ra như thế nào</font>
 
 691
 00:38:56,000 --> 00:39:02,144
 <font color="#cfcfcf">So today on day 7 we learned how to write clean pythonic code use Advanced python</font>
+<font color="#ffff00">Vậy là hôm nay vào ngày thứ 7 chúng ta đã học cách viết mã Pythonic sạch bằng cách sử dụng Python nâng cao</font>
 
 692
 00:39:02,400 --> 00:39:08,544
 <font color="#e3e3e3">Some features and build a real world project integrating your knowledge of functions data structures</font>
+<font color="#ffff00">Một số tính năng và xây dựng một dự án trong thế giới thực tích hợp kiến ​​thức của bạn về cấu trúc dữ liệu chức năng</font>
 
 693
 00:39:08,800 --> 00:39:12,384
 <font color="#e2e2e2">Recent file handling whatever we did in the entire week we kind of put</font>
+<font color="#ffff00">Việc xử lý tệp gần đây bất cứ điều gì chúng tôi đã làm trong cả tuần, chúng tôi gần như đã thực hiện</font>
 
 694
 00:39:12,640 --> 00:39:18,784
 <font color="#dcdcdc">I tried to put everything together into one single project the task manager product helped you reinforce</font>
+<font color="#ffff00">Tôi đã cố gắng kết hợp mọi thứ lại với nhau thành một dự án duy nhất, sản phẩm quản lý tác vụ đã giúp bạn củng cố</font>
 
 695
 00:39:19,040 --> 00:39:23,648
 <font color="#dddddd">Where's this Concepts through practical application so if you had any questions or any problems</font>
+<font color="#ffff00">Khái niệm này được ứng dụng thực tế ở đâu vậy nên nếu bạn có thắc mắc hay vấn đề gì</font>
 
 696
 00:39:23,904 --> 00:39:26,976
 <font color="#e9e9e9">Let me know and we can start with a week</font>
+<font color="#ffff00">Hãy cho tôi biết và chúng ta có thể bắt đầu sau một tuần</font>

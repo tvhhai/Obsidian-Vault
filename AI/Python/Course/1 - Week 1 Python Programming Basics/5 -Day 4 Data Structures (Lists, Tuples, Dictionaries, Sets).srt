@@ -1,162 +1,202 @@
 ﻿1
 00:00:01,024 --> 00:00:01,792
 <font color="#595959">Day</font>
+<font color="#ffff00">Ngày</font>
 
 2
 00:00:02,304 --> 00:00:05,632
 <font color="#aeaeae">Data structures here we're going to cover list</font>
+<font color="#ffff00">Cấu trúc dữ liệu ở đây chúng tôi sẽ đề cập đến danh sách</font>
 
 3
 00:00:05,888 --> 00:00:06,656
 <font color="#5e5e5e">Doubles</font>
+<font color="#ffff00">Đôi</font>
 
 4
 00:00:06,912 --> 00:00:10,240
 <font color="#c3c3c3">Dictionaries and sets now we probably have used some of them before</font>
+<font color="#ffff00">Từ điển và bộ từ điển bây giờ có lẽ chúng ta đã từng sử dụng một số trong số chúng trước đây</font>
 
 5
 00:00:10,496 --> 00:00:12,800
 <font color="#f4f4f4">But let's go deep dive into each one of them</font>
+<font color="#ffff00">Nhưng hãy đi sâu vào từng vấn đề</font>
 
 6
 00:00:13,312 --> 00:00:15,104
 <font color="#d2d2d2">Let's start with list</font>
+<font color="#ffff00">Hãy bắt đầu với danh sách</font>
 
 7
 00:00:15,616 --> 00:00:16,640
 <font color="#c7c7c7">So what are list</font>
+<font color="#ffff00">Vậy danh sách là gì</font>
 
 8
 00:00:16,896 --> 00:00:19,968
 <font color="#f2f2f2">List are ordered mutable collections</font>
+<font color="#ffff00">Danh sách được sắp xếp các bộ sưu tập có thể thay đổi</font>
 
 9
 00:00:20,224 --> 00:00:25,088
 <font color="#ebebeb">That can hold a variety of data types when I say mutable that means they can be changed</font>
+<font color="#ffff00">Điều đó có thể chứa nhiều loại dữ liệu khác nhau khi tôi nói có thể thay đổi có nghĩa là chúng có thể được thay đổi</font>
 
 10
 00:00:25,344 --> 00:00:27,392
 <font color="#d0d0d0">And upended deleted</font>
+<font color="#ffff00">Và đã xóa</font>
 
 11
 00:00:27,648 --> 00:00:31,232
 <font color="#cfcfcf">Edited all those things when is this immutable that means once you create them</font>
+<font color="#ffff00">Đã chỉnh sửa tất cả những thứ đó khi điều này là bất biến, điều đó có nghĩa là một khi bạn tạo chúng</font>
 
 12
 00:00:31,488 --> 00:00:33,024
 <font color="#d6d6d6">It stays as there</font>
+<font color="#ffff00">Nó vẫn ở đó</font>
 
 13
 00:00:33,536 --> 00:00:35,072
 <font color="#cccccc">So let's start again ordered</font>
+<font color="#ffff00">Vậy hãy bắt đầu lại đặt hàng</font>
 
 14
 00:00:35,328 --> 00:00:38,656
 <font color="#f5f5f5">Mutable collections that can hold a variety of</font>
+<font color="#ffff00">Các bộ sưu tập có thể thay đổi có thể chứa nhiều loại</font>
 
 15
 00:00:38,912 --> 00:00:41,728
 <font color="#dfdfdf">Data types let's see how do you create a list</font>
+<font color="#ffff00">Các kiểu dữ liệu hãy xem cách bạn tạo danh sách</font>
 
 16
 00:00:41,984 --> 00:00:44,288
 <font color="#d4d4d4">Someone start with an empty project</font>
+<font color="#ffff00">Ai đó bắt đầu với một dự án trống</font>
 
 17
 00:00:44,800 --> 00:00:46,848
 <font color="#c5c5c5">Create a new file python file</font>
+<font color="#ffff00">Tạo một tập tin mới tập tin python</font>
 
 18
 00:00:47,360 --> 00:00:48,896
 <font color="#dddddd">Save it inside</font>
+<font color="#ffff00">Lưu nó vào bên trong</font>
 
 19
 00:00:50,176 --> 00:00:52,480
 <font color="#cfcfcf">AI boot camp Week 1</font>
+<font color="#ffff00">Chương trình đào tạo AI Tuần 1</font>
 
 20
 00:00:52,992 --> 00:00:55,040
 <font color="#c5c5c5">Clear new folder for rd4</font>
+<font color="#ffff00">Xóa thư mục mới cho rd4</font>
 
 21
 00:00:56,320 --> 00:00:57,344
 <font color="#d6d6d6">And</font>
+<font color="#ffff00">Và</font>
 
 22
 00:00:58,112 --> 00:00:59,136
 <font color="#909090">I'm going to sit there</font>
+<font color="#ffff00">Tôi sẽ ngồi đó</font>
 
 23
 00:01:00,928 --> 00:01:01,440
 <font color="#1a1a1a">Dat</font>
+<font color="#ffff00">Đạt</font>
 
 24
 00:01:02,976 --> 00:01:03,744
 <font color="#bfbfbf">Structures</font>
+<font color="#ffff00">Cấu trúc</font>
 
 25
 00:01:06,560 --> 00:01:10,400
 <font color="#c0c0c0">I'm here not to create a list of let's say I want to create a list of numbers</font>
+<font color="#ffff00">Tôi ở đây không phải để tạo một danh sách, chẳng hạn như tôi muốn tạo một danh sách các số</font>
 
 26
 00:01:10,656 --> 00:01:12,448
 <font color="#ababab">Show me some numbers equal to</font>
+<font color="#ffff00">Chỉ cho tôi một số số bằng</font>
 
 27
 00:01:13,216 --> 00:01:17,056
 <font color="#bababa">Create this number one to three and four so this is a list</font>
+<font color="#ffff00">Tạo số từ một đến ba và bốn để đây là danh sách</font>
 
 28
 00:01:17,312 --> 00:01:20,640
 <font color="#bebebe">A phone numbers 1 2 3 and 4</font>
+<font color="#ffff00">Một số điện thoại 1 2 3 và 4</font>
 
 29
 00:01:21,152 --> 00:01:23,200
 <font color="#fdfdfd">I can create a list of fruits</font>
+<font color="#ffff00">Tôi có thể tạo danh sách các loại trái cây</font>
 
 30
 00:01:23,968 --> 00:01:25,504
 <font color="#e9e9e9">Where I can say</font>
+<font color="#ffff00">Nơi tôi có thể nói</font>
 
 31
 00:01:25,760 --> 00:01:27,296
 <font color="#cecece">So again square brackets</font>
+<font color="#ffff00">Vì vậy, một lần nữa dấu ngoặc vuông</font>
 
 32
 00:01:31,648 --> 00:01:32,416
 <font color="#cfcfcf">Banana</font>
+<font color="#ffff00">Chuối</font>
 
 33
 00:01:36,768 --> 00:01:42,656
 <font color="#f4f4f4">So this is my list of fruits which are list of strings inside here this was list of integers</font>
+<font color="#ffff00">Vì vậy, đây là danh sách các loại trái cây của tôi, danh sách các chuỗi bên trong đây là danh sách các số nguyên</font>
 
 34
 00:01:42,912 --> 00:01:44,192
 <font color="#a4a4a4">This is list of strings</font>
+<font color="#ffff00">Đây là danh sách các chuỗi</font>
 
 35
 00:01:44,704 --> 00:01:45,984
 <font color="#fafafa">I can have a mixed</font>
+<font color="#ffff00">Tôi có thể có một hỗn hợp</font>
 
 36
 00:01:46,240 --> 00:01:47,264
 <font color="#c7c7c7">List</font>
+<font color="#ffff00">Danh sách</font>
 
 37
 00:01:47,520 --> 00:01:49,568
 <font color="#f3f3f3">Which has combination of both</font>
+<font color="#ffff00">Mà có sự kết hợp của cả hai</font>
 
 38
 00:01:49,824 --> 00:01:52,384
 <font color="#cbcbcb">Or more so one is the number</font>
+<font color="#ffff00">Hoặc nhiều hơn một là số</font>
 
 39
 00:01:52,640 --> 00:01:53,920
 <font color="#ebebeb">I can have apple</font>
+<font color="#ffff00">Tôi có thể ăn táo</font>
 
 40
 00:01:54,432 --> 00:01:57,760
 <font color="#dadada">And I can also have volume in here the third element is true</font>
+<font color="#ffff00">Và tôi cũng có thể có âm lượng ở đây phần tử thứ ba là đúng</font>
 
 41
 00:01:58,016 --> 00:01:58,784
@@ -165,258 +205,322 @@
 42
 00:01:59,040 --> 00:02:01,856
 <font color="#f8f8f8">So that's how you can create a mixed list</font>
+<font color="#ffff00">Đó là cách bạn có thể tạo một danh sách hỗn hợp</font>
 
 43
 00:02:02,880 --> 00:02:05,696
 <font color="#c1c1c1">The next time I want to talk about accessing these elements</font>
+<font color="#ffff00">Lần tới tôi muốn nói về việc truy cập những yếu tố này</font>
 
 44
 00:02:05,952 --> 00:02:11,072
 <font color="#ebebeb">Now you can access this Elements by index so what I mean by that is</font>
+<font color="#ffff00">Bây giờ bạn có thể truy cập Phần tử này theo chỉ mục, vì vậy ý ​​tôi là</font>
 
 45
 00:02:11,328 --> 00:02:13,376
 <font color="#fbfbfb">So for example if I want to print</font>
+<font color="#ffff00">Vì vậy, ví dụ nếu tôi muốn in</font>
 
 46
 00:02:14,912 --> 00:02:15,936
 <font color="#e8e8e8">Numbers</font>
+<font color="#ffff00">số</font>
 
 47
 00:02:16,448 --> 00:02:17,728
 <font color="#fafafa">And I want to print</font>
+<font color="#ffff00">Và tôi muốn in</font>
 
 48
 00:02:17,984 --> 00:02:24,128
 <font color="#d2d2d2">The this is the zeroth element first and second element and this is the third element so the 0 the IND</font>
+<font color="#ffff00">Đây là phần tử thứ 0, phần tử thứ nhất và phần tử thứ hai và đây là phần tử thứ ba nên 0 là IND</font>
 
 49
 00:02:24,384 --> 00:02:28,480
 <font color="#bcbcbc">Exit 0123 again for this is 0 1 and 2</font>
+<font color="#ffff00">Thoát 0123 lần nữa vì đây là 0 1 và 2</font>
 
 50
 00:02:28,992 --> 00:02:31,040
 <font color="#888888">01 and 2</font>
+<font color="#ffff00">01 và 2</font>
 
 51
 00:02:31,296 --> 00:02:34,368
 <font color="#f8f8f8">So if I want to access the third number which is</font>
+<font color="#ffff00">Vì vậy, nếu tôi muốn truy cập vào số thứ ba</font>
 
 52
 00:02:34,624 --> 00:02:38,208
 <font color="#e0e0e0">01 and 2 so that's the index and that's what I'll pass here</font>
+<font color="#ffff00">01 và 2 đó là chỉ mục và đó là những gì tôi sẽ chuyển ở đây</font>
 
 53
 00:02:38,464 --> 00:02:40,768
 <font color="#f7f7f7">Similarly if I want to</font>
+<font color="#ffff00">Tương tự nếu tôi muốn</font>
 
 54
 00:02:42,048 --> 00:02:45,376
 <font color="#e7e7e7">Access the first fruit I'm going to say fruits of zero</font>
+<font color="#ffff00">Truy cập trái cây đầu tiên tôi sẽ nói trái cây bằng không</font>
 
 55
 00:02:45,632 --> 00:02:49,216
 <font color="#fafafa">If I want to access inside this mixed</font>
+<font color="#ffff00">Nếu tôi muốn truy cập vào bên trong hỗn hợp này</font>
 
 56
 00:02:49,984 --> 00:02:51,264
 <font color="#a9a9a9">How to access the</font>
+<font color="#ffff00">Làm thế nào để truy cập</font>
 
 57
 00:02:51,520 --> 00:02:53,056
 <font color="#e2e2e2">Second element which is Apple</font>
+<font color="#ffff00">Yếu tố thứ hai là Apple</font>
 
 58
 00:02:53,312 --> 00:02:57,152
 <font color="#c9c9c9">Melissa zero and one so this is first element 01 index</font>
+<font color="#ffff00">Melissa 0 và 1 nên đây là chỉ số phần tử đầu tiên 01</font>
 
 59
 00:02:57,920 --> 00:02:58,688
 <font color="#cacaca">I save</font>
+<font color="#ffff00">tôi lưu</font>
 
 60
 00:03:01,248 --> 00:03:03,808
 <font color="#6b6b6b">Cancel this CD day for</font>
+<font color="#ffff00">Hủy ngày CD này vì</font>
 
 61
 00:03:04,320 --> 00:03:06,112
 <font color="#d8d8d8">And I'm going to say python</font>
+<font color="#ffff00">Và tôi sẽ nói con trăn</font>
 
 62
 00:03:06,880 --> 00:03:09,184
 <font color="#cacaca">Before data structures and if you see</font>
+<font color="#ffff00">Trước cấu trúc dữ liệu và nếu bạn thấy</font>
 
 63
 00:03:09,440 --> 00:03:11,744
 <font color="#eaeaea">This is two which is this one</font>
+<font color="#ffff00">Đây là hai cái này là cái này</font>
 
 64
 00:03:12,000 --> 00:03:15,328
 <font color="#dcdcdc">Apple and apple games I can change this</font>
+<font color="#ffff00">Apple và trò chơi của Apple Tôi có thể thay đổi điều này</font>
 
 65
 00:03:15,584 --> 00:03:18,912
 <font color="#b8b8b8">201 and 2 which is Cherry so index 2</font>
+<font color="#ffff00">201 và 2 là Cherry nên chỉ số 2</font>
 
 66
 00:03:19,680 --> 00:03:20,704
 <font color="#a0a0a0">Can print it</font>
+<font color="#ffff00">Có thể in nó</font>
 
 67
 00:03:20,960 --> 00:03:22,752
 <font color="#848484">3 cherry and Apple</font>
+<font color="#ffff00">3 quả anh đào và táo</font>
 
 68
 00:03:23,776 --> 00:03:28,896
 <font color="#e1e1e1">So that's how you can access this element by accessing through the index that's what it's called</font>
+<font color="#ffff00">Vì vậy, đó là cách bạn có thể truy cập phần tử này bằng cách truy cập thông qua chỉ mục được gọi là</font>
 
 69
 00:03:29,152 --> 00:03:33,760
 <font color="#e0e0e0">We also have something called as negative indexing what happens here is so for example</font>
+<font color="#ffff00">Chúng tôi cũng có một thứ gọi là lập chỉ mục tiêu cực, những gì xảy ra ở đây chẳng hạn</font>
 
 70
 00:03:34,016 --> 00:03:37,088
 <font color="#dcdcdc">If I say that fruits of -1</font>
+<font color="#ffff00">Nếu tôi nói rằng thành quả của -1</font>
 
 71
 00:03:37,600 --> 00:03:41,184
 <font color="#e5e5e5">So what will happen is this is the index 01 and 2</font>
+<font color="#ffff00">Vậy điều gì sẽ xảy ra đây là chỉ số 01 và 2</font>
 
 72
 00:03:41,440 --> 00:03:45,024
 <font color="#c1c1c1">Now if you go in the opposite direction from here 0 - 1</font>
+<font color="#ffff00">Bây giờ nếu bạn đi theo hướng ngược lại từ đây 0 - 1</font>
 
 73
 00:03:45,280 --> 00:03:48,608
 <font color="#d2d2d2">Will be the last item here -2 - 3</font>
+<font color="#ffff00">Sẽ là món đồ cuối cùng ở đây -2 - 3</font>
 
 74
 00:03:48,864 --> 00:03:51,168
 <font color="#dddddd">So if I say fruits of -1</font>
+<font color="#ffff00">Vì vậy, nếu tôi nói kết quả của -1</font>
 
 75
 00:03:51,424 --> 00:03:53,728
 <font color="#ececec">It should give me Jerry so if I go here</font>
+<font color="#ffff00">Nó sẽ cho tôi Jerry nên nếu tôi đến đây</font>
 
 76
 00:03:54,752 --> 00:03:55,520
 <font color="#a8a8a8">And print</font>
+<font color="#ffff00">Và in</font>
 
 77
 00:03:55,776 --> 00:03:57,568
 <font color="#c4c4c4">It'll give me cherry because</font>
+<font color="#ffff00">Nó sẽ mang lại cho tôi quả anh đào vì</font>
 
 78
 00:03:57,824 --> 00:04:01,920
 <font color="#eaeaea">Index of -1 is this is 0 so the previous the last one</font>
+<font color="#ffff00">Chỉ số -1 là đây là 0 nên cái trước là cái cuối cùng</font>
 
 79
 00:04:02,176 --> 00:04:05,760
 <font color="#e0e0e0">Is -1 so that's how you can use negative indexing</font>
+<font color="#ffff00">Là -1 vậy đó là cách bạn có thể sử dụng lập chỉ mục phủ định</font>
 
 80
 00:04:06,528 --> 00:04:07,808
 <font color="#f1f1f1">You also can</font>
+<font color="#ffff00">Bạn cũng có thể</font>
 
 81
 00:04:08,064 --> 00:04:10,880
 <font color="#e6e6e6">Next we going to talk about modifying this list</font>
+<font color="#ffff00">Tiếp theo chúng ta sẽ nói về việc sửa đổi danh sách này</font>
 
 82
 00:04:11,136 --> 00:04:14,464
 <font color="#e6e6e6">Is two different ways you can modify a list that you can add items</font>
+<font color="#ffff00">Có hai cách khác nhau để bạn có thể sửa đổi danh sách mà bạn có thể thêm các mục</font>
 
 83
 00:04:14,720 --> 00:04:17,536
 <font color="#f0f0f0">And you can remove items now if I want to add items</font>
+<font color="#ffff00">Và bạn có thể xóa các mục ngay bây giờ nếu tôi muốn thêm các mục</font>
 
 84
 00:04:18,047 --> 00:04:21,375
 <font color="#f7f7f7">For example in my fruits I want to add more items</font>
+<font color="#ffff00">Ví dụ: trong trái cây của tôi, tôi muốn thêm nhiều mặt hàng hơn</font>
 
 85
 00:04:21,631 --> 00:04:25,471
 <font color="#e6e6e6">I can just sit here let me comment these print statements out</font>
+<font color="#ffff00">Tôi chỉ có thể ngồi đây để tôi nhận xét những bản in này</font>
 
 86
 00:04:26,495 --> 00:04:28,287
 <font color="#e3e3e3">And I can say fruits</font>
+<font color="#ffff00">Và tôi có thể nói trái cây</font>
 
 87
 00:04:29,823 --> 00:04:34,175
 <font color="#d7d7d7">Append so that's the key word and add to the end of a particular</font>
+<font color="#ffff00">Nối để đó là từ khóa và thêm vào cuối một từ cụ thể</font>
 
 88
 00:04:34,431 --> 00:04:38,015
 <font color="#dfdfdf">And it's in this particular list I have apple banana and orange</font>
+<font color="#ffff00">Và trong danh sách cụ thể này tôi có táo chuối và cam</font>
 
 89
 00:04:38,271 --> 00:04:41,087
 <font color="#efefef">I want to open another one I can see orange</font>
+<font color="#ffff00">Tôi muốn mở một cái khác tôi có thể thấy màu cam</font>
 
 90
 00:04:41,599 --> 00:04:45,695
 <font color="#e8e8e8">Another way of attending or adding items is I can see fruits</font>
+<font color="#ffff00">Một cách khác để tham dự hoặc thêm vật phẩm là tôi có thể nhìn thấy trái cây</font>
 
 91
 00:04:46,207 --> 00:04:47,743
 <font color="#adadad">Dot insert</font>
+<font color="#ffff00">Dấu chấm chèn</font>
 
 92
 00:04:48,767 --> 00:04:52,607
 <font color="#e6e6e6">In this case I want to insert a particular index let's index one</font>
+<font color="#ffff00">Trong trường hợp này tôi muốn chèn một chỉ mục cụ thể, hãy lập chỉ mục một</font>
 
 93
 00:04:52,863 --> 00:04:55,167
 <font color="#d9d9d9">I want to insert grip</font>
+<font color="#ffff00">Tôi muốn chèn tay cầm</font>
 
 94
 00:04:59,263 --> 00:05:02,591
 <font color="#dddddd">So this is index one right now so this will insert grape</font>
+<font color="#ffff00">Vì vậy, đây là chỉ mục một ngay bây giờ nên nó sẽ chèn nho</font>
 
 95
 00:05:02,847 --> 00:05:04,383
 <font color="#f6f6f6">In between apple and banana</font>
+<font color="#ffff00">Giữa táo và chuối</font>
 
 96
 00:05:08,735 --> 00:05:10,783
 <font color="#cdcdcd">Fruits right now the entire day</font>
+<font color="#ffff00">Trái cây ngay bây giờ cả ngày</font>
 
 97
 00:05:13,087 --> 00:05:14,879
 <font color="#f1f1f1">Look something like this apple</font>
+<font color="#ffff00">Nhìn giống quả táo này</font>
 
 98
 00:05:15,135 --> 00:05:16,415
 <font color="#c5c5c5">In grape was inserted</font>
+<font color="#ffff00">Trong nho đã được chèn</font>
 
 99
 00:05:16,927 --> 00:05:18,463
 <font color="#cfcfcf">Add banana and Cherry are there</font>
+<font color="#ffff00">Thêm chuối và Cherry nữa là có</font>
 
 100
 00:05:18,719 --> 00:05:21,535
 <font color="#d9d9d9">Orange orange showed up at the end</font>
+<font color="#ffff00">Màu cam cam xuất hiện ở cuối</font>
 
 101
 00:05:21,791 --> 00:05:23,327
 <font color="#f8f8f8">If I don't do this here</font>
+<font color="#ffff00">Nếu tôi không làm điều này ở đây</font>
 
 102
 00:05:24,863 --> 00:05:25,631
 <font color="#8a8a8a">Running again</font>
+<font color="#ffff00">Chạy lại</font>
 
 103
 00:05:25,887 --> 00:05:27,935
 <font color="#f4f4f4">I have apple banana cherry and orange</font>
+<font color="#ffff00">Tôi có táo chuối anh đào và cam</font>
 
 104
 00:05:28,447 --> 00:05:29,727
 <font color="#fdfdfd">If I don't do this</font>
+<font color="#ffff00">Nếu tôi không làm điều này</font>
 
 105
 00:05:31,519 --> 00:05:37,663
 <font color="#ebebeb">I have apple grape inserted at one and then banana and Cherry move one index to the right and that's why we</font>
+<font color="#ffff00">Tôi chèn nho táo vào một rồi chuối và Cherry di chuyển một chỉ số sang bên phải và đó là lý do tại sao chúng tôi</font>
 
 106
 00:05:37,919 --> 00:05:38,943
@@ -425,238 +529,297 @@
 107
 00:05:39,199 --> 00:05:42,271
 <font color="#b3b3b3">The grape is in translated and index number one</font>
+<font color="#ffff00">Nho được dịch và chỉ mục số một</font>
 
 108
 00:05:47,135 --> 00:05:48,159
 <font color="#cacaca">Clear this out</font>
+<font color="#ffff00">Xóa cái này đi</font>
 
 109
 00:05:49,183 --> 00:05:50,719
 <font color="#e0e0e0">Not want to remove something</font>
+<font color="#ffff00">Không muốn loại bỏ một cái gì đó</font>
 
 110
 00:05:51,231 --> 00:05:53,535
 <font color="#f4f4f4">What I can do is I can say fruits</font>
+<font color="#ffff00">Những gì tôi có thể làm là tôi có thể nói trái cây</font>
 
 111
 00:05:55,327 --> 00:05:56,351
 <font color="#ededed">Remove</font>
+<font color="#ffff00">Di dời</font>
 
 112
 00:05:56,607 --> 00:06:01,215
 <font color="#f0f0f0">And I can specify what I want to remove so for example if I want a banana remove banana</font>
+<font color="#ffff00">Và tôi có thể chỉ định những gì tôi muốn loại bỏ, ví dụ như nếu tôi muốn một quả chuối, hãy loại bỏ chuối</font>
 
 113
 00:06:01,471 --> 00:06:04,031
 <font color="#f3f3f3">So I can just say remove banana so if I</font>
+<font color="#ffff00">Vì vậy tôi chỉ có thể nói loại bỏ chuối để nếu tôi</font>
 
 114
 00:06:04,287 --> 00:06:05,055
 <font color="#eeeeee">Do that</font>
+<font color="#ffff00">Làm điều đó</font>
 
 115
 00:06:05,311 --> 00:06:06,079
 <font color="#c0c0c0">Run it</font>
+<font color="#ffff00">Chạy nó</font>
 
 116
 00:06:06,847 --> 00:06:08,127
 <font color="#999999">It was a apple</font>
+<font color="#ffff00">Đó là một quả táo</font>
 
 117
 00:06:08,383 --> 00:06:10,943
 <font color="#d8d8d8">Grape okay I didn't print it again let's go ahead</font>
+<font color="#ffff00">Nho được rồi tôi không in lại, chúng ta tiếp tục nhé</font>
 
 118
 00:06:11,455 --> 00:06:14,015
 <font color="#dedede">And then this after the removal of how it looks like</font>
+<font color="#ffff00">Và đây là sau khi loại bỏ nó trông như thế nào</font>
 
 119
 00:06:14,527 --> 00:06:15,807
 <font color="#eaeaea">So before and after</font>
+<font color="#ffff00">Vì thế trước và sau</font>
 
 120
 00:06:17,343 --> 00:06:21,183
 <font color="#e4e4e4">So before I have apple grape banana cherry and orange but after I remove it</font>
+<font color="#ffff00">Vì vậy trước đây tôi có táo nho chuối anh đào và cam nhưng sau khi tôi loại bỏ nó</font>
 
 121
 00:06:21,439 --> 00:06:27,071
 <font color="#dbdbdb">It removed banana from here and move everything one index to the left so Jerry came here orange came here</font>
+<font color="#ffff00">Nó đã loại bỏ chuối khỏi đây và di chuyển mọi thứ sang trái một chỉ số nên Jerry đến đây màu cam đến đây</font>
 
 122
 00:06:27,327 --> 00:06:29,119
 <font color="#676767">Send text to 0123</font>
+<font color="#ffff00">Gửi tin nhắn tới 0123</font>
 
 123
 00:06:29,887 --> 00:06:31,679
 <font color="#f9f9f9">You can also delete</font>
+<font color="#ffff00">Bạn cũng có thể xóa</font>
 
 124
 00:06:31,935 --> 00:06:33,471
 <font color="#919191">By saying delete</font>
+<font color="#ffff00">Bằng cách nói xóa</font>
 
 125
 00:06:34,495 --> 00:06:35,263
 <font color="#c6c6c6">Fruits</font>
+<font color="#ffff00">trái cây</font>
 
 126
 00:06:36,543 --> 00:06:38,079
 <font color="#8f8f8f">Index that says zero</font>
+<font color="#ffff00">Chỉ số cho biết số không</font>
 
 127
 00:06:39,103 --> 00:06:41,919
 <font color="#f7f7f7">You can print it out just to show you how this works</font>
+<font color="#ffff00">Bạn có thể in nó ra chỉ để cho bạn thấy nó hoạt động như thế nào</font>
 
 128
 00:06:43,455 --> 00:06:44,223
 <font color="#afafaf">Go ahead</font>
+<font color="#ffff00">Hãy tiếp tục</font>
 
 129
 00:06:44,479 --> 00:06:47,295
 <font color="#e1e1e1">So if you see apple grape banana Cherry Orange</font>
+<font color="#ffff00">Vì vậy nếu bạn nhìn thấy táo nho chuối Cherry Orange</font>
 
 130
 00:06:47,807 --> 00:06:51,135
 <font color="#d7d7d7">Then I deleted the mood bananas it became Apple grape</font>
+<font color="#ffff00">Sau đó tôi xóa tâm trạng chuối nó trở thành nho Apple</font>
 
 131
 00:06:51,647 --> 00:06:52,671
 <font color="#9d9d9d">Teddy and orange</font>
+<font color="#ffff00">Teddy và trái cam</font>
 
 132
 00:06:53,183 --> 00:06:58,559
 <font color="#dcdcdc">Then I said delete fruit and index 0 should remove apple and move everything one index to the left</font>
+<font color="#ffff00">Sau đó tôi nói xóa trái cây và chỉ số 0 nên xóa táo và di chuyển mọi thứ sang trái một chỉ mục</font>
 
 133
 00:06:58,815 --> 00:07:00,351
 <font color="#f4f4f4">That's why we have</font>
+<font color="#ffff00">Đó là lý do tại sao chúng tôi có</font>
 
 134
 00:07:00,607 --> 00:07:02,143
 <font color="#a6a6a6">Jerry and orange juice</font>
+<font color="#ffff00">Jerry và nước cam</font>
 
 135
 00:07:02,655 --> 00:07:05,215
 <font color="#f3f3f3">Another option is if you want to remove something from the top</font>
+<font color="#ffff00">Một tùy chọn khác là nếu bạn muốn xóa nội dung nào đó ở trên cùng</font>
 
 136
 00:07:05,727 --> 00:07:06,495
 <font color="#ececec">You can say</font>
+<font color="#ffff00">Bạn có thể nói</font>
 
 137
 00:07:07,263 --> 00:07:08,031
 <font color="#dadada">Fruits</font>
+<font color="#ffff00">trái cây</font>
 
 138
 00:07:12,127 --> 00:07:15,711
 <font color="#eaeaea">What this does is it removes the last element so if I go ahead</font>
+<font color="#ffff00">Điều này có nghĩa là nó loại bỏ phần tử cuối cùng nên nếu tôi tiếp tục</font>
 
 139
 00:07:16,223 --> 00:07:17,759
 <font color="#aeaeae">And print it now</font>
+<font color="#ffff00">Và in nó ngay bây giờ</font>
 
 140
 00:07:18,527 --> 00:07:19,295
 <font color="#b1b1b1">Clear this</font>
+<font color="#ffff00">Xóa cái này</font>
 
 141
 00:07:20,319 --> 00:07:21,343
 <font color="#dedede">And now you have</font>
+<font color="#ffff00">Và bây giờ bạn có</font>
 
 142
 00:07:21,599 --> 00:07:27,743
 <font color="#dedede">If you see the video this apple grape banana Cherry orange we removed banana so we had Apple grape cherry and orange</font>
+<font color="#ffff00">Nếu các bạn xem video này táo nho chuối Cam anh đào chúng tôi đã loại bỏ chuối nên chúng tôi có táo nho anh đào và cam</font>
 
 143
 00:07:27,999 --> 00:07:31,583
 <font color="#eeeeee">Then remove the first item which is Apple so we got grape cherry and orange</font>
+<font color="#ffff00">Sau đó loại bỏ mục đầu tiên là Apple để chúng ta có nho anh đào và cam</font>
 
 144
 00:07:31,839 --> 00:07:32,863
 <font color="#d8d8d8">Now when I said pop</font>
+<font color="#ffff00">Bây giờ khi tôi nói pop</font>
 
 145
 00:07:33,119 --> 00:07:35,935
 <font color="#dedede">It popped the last item which is orange if I call it</font>
+<font color="#ffff00">Nó hiện ra mục cuối cùng có màu cam nếu tôi gọi nó</font>
 
 146
 00:07:36,447 --> 00:07:37,471
 <font color="#f9f9f9">One more time</font>
+<font color="#ffff00">Một lần nữa</font>
 
 147
 00:07:38,239 --> 00:07:39,007
 <font color="#e9e9e9">It will remove</font>
+<font color="#ffff00">Nó sẽ loại bỏ</font>
 
 148
 00:07:39,263 --> 00:07:43,359
 <font color="#d6d6d6">Even the Cherry so it pops two of the items one is orange and one is</font>
+<font color="#ffff00">Ngay cả Cherry nên nó hiện lên hai món một là màu cam và một là</font>
 
 149
 00:07:43,615 --> 00:07:48,991
 <font color="#dadada">Charitable pop items from the last from the last elements from the last indexes</font>
+<font color="#ffff00">Các mục nhạc pop từ thiện từ cuối cùng từ các yếu tố cuối cùng từ các chỉ mục cuối cùng</font>
 
 150
 00:07:51,807 --> 00:07:52,575
 <font color="#fcfcfc">Let's look at</font>
+<font color="#ffff00">Hãy nhìn vào</font>
 
 151
 00:07:52,831 --> 00:07:53,855
 <font color="#d6d6d6">Slicing list</font>
+<font color="#ffff00">Danh sách cắt lát</font>
 
 152
 00:07:54,111 --> 00:07:55,903
 <font color="#ededed">Now slicing is kind of</font>
+<font color="#ffff00">Bây giờ việc cắt lát là một loại</font>
 
 153
 00:07:56,159 --> 00:07:58,463
 <font color="#fafafa">Getting elements from a particular</font>
+<font color="#ffff00">Lấy các phần tử từ một cụ thể</font>
 
 154
 00:07:58,719 --> 00:08:02,815
 <font color="#f6f6f6">Play so for example I just want to get grape and Cherry from this particular</font>
+<font color="#ffff00">Chơi vậy chẳng hạn tôi chỉ muốn lấy nho và Cherry từ cái này</font>
 
 155
 00:08:03,071 --> 00:08:06,399
 <font color="#f6f6f6">So how do I do that so I am going to first remove</font>
+<font color="#ffff00">Vậy làm cách nào để thực hiện điều đó vì vậy trước tiên tôi sẽ xóa</font>
 
 156
 00:08:06,911 --> 00:08:08,703
 <font color="#ebebeb">My delete statements from here</font>
+<font color="#ffff00">Tuyên bố xóa của tôi từ đây</font>
 
 157
 00:08:09,727 --> 00:08:11,007
 <font color="#e6e6e6">Still display this</font>
+<font color="#ffff00">Vẫn hiển thị cái này</font>
 
 158
 00:08:11,775 --> 00:08:12,799
 <font color="#f9f9f9">So I have</font>
+<font color="#ffff00">Vì vậy tôi có</font>
 
 159
 00:08:13,311 --> 00:08:15,359
 <font color="#ebebeb">Apple grape banana cherry and orange</font>
+<font color="#ffff00">Táo nho chuối anh đào và cam</font>
 
 160
 00:08:15,871 --> 00:08:17,151
 <font color="#f9f9f9">No I want to get</font>
+<font color="#ffff00">Không, tôi muốn có được</font>
 
 161
 00:08:17,407 --> 00:08:18,175
 <font color="#e8e8e8">Let's call it</font>
+<font color="#ffff00">Hãy gọi nó là</font>
 
 162
 00:08:18,943 --> 00:08:20,223
 <font color="#afafaf">Sliced</font>
+<font color="#ffff00">cắt lát</font>
 
 163
 00:08:20,735 --> 00:08:21,503
 <font color="#202020">Fruit</font>
+<font color="#ffff00">Hoa quả</font>
 
 164
 00:08:22,527 --> 00:08:25,343
 <font color="#efefef">And here I am going to say I want fruits</font>
+<font color="#ffff00">Và ở đây tôi sẽ nói rằng tôi muốn trái cây</font>
 
 165
 00:08:25,599 --> 00:08:26,623
 <font color="#b0b0b0">From index</font>
+<font color="#ffff00">Từ chỉ mục</font>
 
 166
 00:08:28,159 --> 00:08:28,671
@@ -665,42 +828,52 @@
 167
 00:08:29,695 --> 00:08:31,231
 <font color="#aaaaaa">NetSpend this print</font>
+<font color="#ffff00">NetChi tiêu bản in này</font>
 
 168
 00:08:32,255 --> 00:08:33,279
 <font color="#bcbcbc">Sliced</font>
+<font color="#ffff00">cắt lát</font>
 
 169
 00:08:34,559 --> 00:08:36,607
 <font color="#ededed">So this is how you can slice a particular</font>
+<font color="#ffff00">Đây là cách bạn có thể cắt một lát cụ thể</font>
 
 170
 00:08:36,863 --> 00:08:37,887
 <font color="#f7f7f7">List of items</font>
+<font color="#ffff00">Danh sách các mục</font>
 
 171
 00:08:39,679 --> 00:08:44,543
 <font color="#cbcbcb">It's like what is printing is 1 to 3 so 01 so this is the first one</font>
+<font color="#ffff00">Kiểu như in là 1 đến 3 nên 01 nên đây là cái đầu tiên</font>
 
 172
 00:08:45,311 --> 00:08:51,199
 <font color="#e9e9e9">Do banana and it doesn't take Cherry because I said one but before 3 that's what it means</font>
+<font color="#ffff00">Làm chuối và nó không lấy Cherry vì tôi đã nói một nhưng trước 3 đó là ý nghĩa của nó</font>
 
 173
 00:08:51,455 --> 00:08:53,503
 <font color="#cecece">If I said one before</font>
+<font color="#ffff00">Nếu trước đây tôi đã nói một điều</font>
 
 174
 00:08:54,015 --> 00:08:55,807
 <font color="#cecece">It will display grape</font>
+<font color="#ffff00">Nó sẽ hiển thị nho</font>
 
 175
 00:08:56,063 --> 00:08:57,343
 <font color="#ececec">Banana and</font>
+<font color="#ffff00">chuối và</font>
 
 176
 00:08:57,855 --> 00:08:59,135
 <font color="#f6f6f6">I can just say</font>
+<font color="#ffff00">Tôi chỉ có thể nói</font>
 
 177
 00:08:59,391 --> 00:09:00,415
@@ -709,930 +882,1162 @@
 178
 00:09:01,951 --> 00:09:05,279
 <font color="#e6e6e6">So depending on which items you want so 0122</font>
+<font color="#ffff00">Vậy tùy vào món đồ nào bạn muốn vậy 0122</font>
 
 179
 00:09:05,791 --> 00:09:06,815
 <font color="#c3c3c3">And before 4</font>
+<font color="#ffff00">Và trước 4</font>
 
 180
 00:09:07,071 --> 00:09:09,375
 <font color="#c0c0c0">So that is banana and Cherry so you can kind of</font>
+<font color="#ffff00">Đó là chuối và quả anh đào nên bạn có thể</font>
 
 181
 00:09:09,631 --> 00:09:15,775
 <font color="#f2f2f2">Slice a particular list into a smaller list and use that for some other operation you want you can probably</font>
+<font color="#ffff00">Cắt một danh sách cụ thể thành một danh sách nhỏ hơn và sử dụng danh sách đó cho một số thao tác khác mà bạn muốn.</font>
 
 182
 00:09:16,287 --> 00:09:20,127
 <font color="#fbfbfb">Think of thousands of different operations that you can do with this right now</font>
+<font color="#ffff00">Hãy nghĩ đến hàng ngàn thao tác khác nhau mà bạn có thể thực hiện với điều này ngay bây giờ</font>
 
 183
 00:09:20,383 --> 00:09:21,407
 <font color="#f9f9f9">But that's what</font>
+<font color="#ffff00">Nhưng đó là những gì</font>
 
 184
 00:09:21,663 --> 00:09:25,247
 <font color="#efefef">That's how you kind of slice a particular</font>
+<font color="#ffff00">Đó là cách bạn cắt một phần cụ thể</font>
 
 185
 00:09:25,503 --> 00:09:27,551
 <font color="#f9f9f9">List of items by giving this</font>
+<font color="#ffff00">Danh sách các mục bằng cách đưa ra điều này</font>
 
 186
 00:09:27,807 --> 00:09:29,343
 <font color="#dadada">Index colon index</font>
+<font color="#ffff00">Chỉ mục chỉ mục dấu hai chấm</font>
 
 187
 00:09:29,599 --> 00:09:30,623
 <font color="#bababa">Send text</font>
+<font color="#ffff00">Gửi văn bản</font>
 
 188
 00:09:33,183 --> 00:09:34,719
 <font color="#a3a3a3">Now that you completed list</font>
+<font color="#ffff00">Bây giờ bạn đã hoàn thành danh sách</font>
 
 189
 00:09:34,975 --> 00:09:35,743
 <font color="#f9f9f9">Let's look at</font>
+<font color="#ffff00">Hãy nhìn vào</font>
 
 190
 00:09:35,999 --> 00:09:40,863
 <font color="#bbbbbb">Couples no doubles are similar to list but what exactly are supposed to</font>
+<font color="#ffff00">Cặp đôi không đôi giống danh sách nhưng chính xác thì phải làm gì</font>
 
 191
 00:09:41,119 --> 00:09:41,887
 <font color="#bebebe">Ordered</font>
+<font color="#ffff00">Đã đặt hàng</font>
 
 192
 00:09:42,143 --> 00:09:44,191
 <font color="#ededed">Immutable collection of items</font>
+<font color="#ffff00">Bộ sưu tập vật phẩm bất biến</font>
 
 193
 00:09:44,447 --> 00:09:46,495
 <font color="#b9b9b9">Unlike list</font>
+<font color="#ffff00">Danh sách không thích</font>
 
 194
 00:09:46,751 --> 00:09:49,055
 <font color="#ececec">Which were ordered mutable collection</font>
+<font color="#ffff00">Đã được đặt hàng bộ sưu tập có thể thay đổi</font>
 
 195
 00:09:49,311 --> 00:09:52,383
 <font color="#ededed">Apples are immutable which means you can't change them</font>
+<font color="#ffff00">Táo là bất biến, có nghĩa là bạn không thể thay đổi chúng</font>
 
 196
 00:09:52,639 --> 00:09:56,223
 <font color="#dedede">Let's look at how to create apples so I'm going to go back here again</font>
+<font color="#ffff00">Hãy xem cách tạo ra những quả táo nên tôi sẽ quay lại đây một lần nữa</font>
 
 197
 00:09:58,527 --> 00:10:00,575
 <font color="#fcfcfc">Go ahead and comment everything</font>
+<font color="#ffff00">Hãy tiếp tục và bình luận mọi thứ</font>
 
 198
 00:10:01,599 --> 00:10:02,623
 <font color="#b1b1b1">Go all the way to the top</font>
+<font color="#ffff00">Đi đến tận cùng</font>
 
 199
 00:10:03,903 --> 00:10:07,231
 <font color="#ebebeb">And first let's create a couple of colors</font>
+<font color="#ffff00">Và đầu tiên hãy tạo một vài màu sắc</font>
 
 200
 00:10:07,999 --> 00:10:11,327
 <font color="#ececec">I'm going to create a couple by giving the rounded brackets</font>
+<font color="#ffff00">Tôi sẽ tạo một cặp bằng cách đưa ra dấu ngoặc tròn</font>
 
 201
 00:10:11,583 --> 00:10:13,631
 <font color="#e3e3e3">And here first is red</font>
+<font color="#ffff00">Và đây đầu tiên là màu đỏ</font>
 
 202
 00:10:14,143 --> 00:10:16,959
 <font color="#d6d6d6">My favorite three colors red green</font>
+<font color="#ffff00">Ba màu yêu thích của tôi là đỏ xanh</font>
 
 203
 00:10:17,471 --> 00:10:19,519
 <font color="#ececec">And I guess you guessed it blue</font>
+<font color="#ffff00">Và tôi đoán bạn đoán nó có màu xanh</font>
 
 204
 00:10:20,031 --> 00:10:21,311
 <font color="#eeeeee">So these are three colors</font>
+<font color="#ffff00">Vậy đây là ba màu</font>
 
 205
 00:10:21,567 --> 00:10:23,615
 <font color="#d9d9d9">Now in here I want to</font>
+<font color="#ffff00">Bây giờ ở đây tôi muốn</font>
 
 206
 00:10:24,383 --> 00:10:26,175
 <font color="#e4e4e4">Create a single item couple</font>
+<font color="#ffff00">Tạo một cặp mục duy nhất</font>
 
 207
 00:10:31,039 --> 00:10:32,575
 <font color="#f7f7f7">What do you have to do is</font>
+<font color="#ffff00">Bạn phải làm gì</font>
 
 208
 00:10:33,343 --> 00:10:35,391
 <font color="#b7b7b7">Let's say I would say glass</font>
+<font color="#ffff00">Hãy nói rằng tôi sẽ nói kính</font>
 
 209
 00:10:35,903 --> 00:10:42,047
 <font color="#eaeaea">And if you want to create a single item Temple you need to put a comma at the end of it or else it will not take it as</font>
+<font color="#ffff00">Và nếu bạn muốn tạo một vật phẩm duy nhất là Temple bạn cần đặt dấu phẩy ở cuối nó nếu không nó sẽ không coi đó là</font>
 
 210
 00:10:43,583 --> 00:10:46,399
 <font color="#f4f4f4">Make sure that if it's only single item you have to give</font>
+<font color="#ffff00">Hãy chắc chắn rằng nếu đó chỉ là một món đồ duy nhất bạn phải đưa</font>
 
 211
 00:10:46,655 --> 00:10:52,799
 <font color="#f6f6f6">The name of the first element of the first element that is either a string or maybe</font>
+<font color="#ffff00">Tên phần tử đầu tiên của phần tử đầu tiên là chuỗi hoặc có thể</font>
 
 212
 00:10:53,055 --> 00:10:58,175
 <font color="#f8f8f8">Specifying that this is a single item</font>
+<font color="#ffff00">Chỉ định rằng đây là một mục duy nhất</font>
 
 213
 00:10:59,199 --> 00:11:01,247
 <font color="#e8e8e8">And this is a three item top</font>
+<font color="#ffff00">Và đây là ba món hàng đầu</font>
 
 214
 00:11:02,527 --> 00:11:03,807
 <font color="#e1e1e1">Next thing that will look at</font>
+<font color="#ffff00">Điều tiếp theo sẽ xem xét</font>
 
 215
 00:11:04,063 --> 00:11:07,903
 <font color="#eaeaea">How to access elements in a table it's very similar to</font>
+<font color="#ffff00">Cách truy cập các phần tử trong bảng rất giống với</font>
 
 216
 00:11:08,159 --> 00:11:10,207
 <font color="#c9c9c9">List census ordered list</font>
+<font color="#ffff00">Danh sách điều tra dân số theo thứ tự</font>
 
 217
 00:11:11,231 --> 00:11:12,767
 <font color="#d5d5d5">It's an ordered item</font>
+<font color="#ffff00">Đó là một mặt hàng được đặt hàng</font>
 
 218
 00:11:13,023 --> 00:11:15,071
 <font color="#d3d3d3">Order the data structure</font>
+<font color="#ffff00">Sắp xếp cấu trúc dữ liệu</font>
 
 219
 00:11:15,327 --> 00:11:16,607
 <font color="#f0f0f0">So you can just say print</font>
+<font color="#ffff00">Vì vậy bạn chỉ có thể nói in</font>
 
 220
 00:11:16,863 --> 00:11:17,375
 <font color="#dddddd">Colors</font>
+<font color="#ffff00">Màu sắc</font>
 
 221
 00:11:17,887 --> 00:11:19,935
 <font color="#ebebeb">And you can just say zero</font>
+<font color="#ffff00">Và bạn chỉ có thể nói không</font>
 
 222
 00:11:20,703 --> 00:11:22,239
 <font color="#f4f4f4">And get the first color</font>
+<font color="#ffff00">Và lấy màu đầu tiên</font>
 
 223
 00:11:22,495 --> 00:11:25,311
 <font color="#fafafa">You can also use the negative indexing</font>
+<font color="#ffff00">Bạn cũng có thể sử dụng lập chỉ mục tiêu cực</font>
 
 224
 00:11:25,567 --> 00:11:27,871
 <font color="#fafafa">As I mentioned and it will give me</font>
+<font color="#ffff00">Như tôi đã đề cập và nó sẽ cho tôi</font>
 
 225
 00:11:28,127 --> 00:11:29,663
 <font color="#e1e1e1">Blue the last element over</font>
+<font color="#ffff00">Màu xanh ở phần tử cuối cùng</font>
 
 226
 00:11:30,175 --> 00:11:31,455
 <font color="#a9a9a9">Can clear it here</font>
+<font color="#ffff00">Có thể xóa nó ở đây</font>
 
 227
 00:11:31,711 --> 00:11:33,503
 <font color="#6c6c6c">Columbus and you see red</font>
+<font color="#ffff00">Columbus và bạn thấy màu đỏ</font>
 
 228
 00:11:33,759 --> 00:11:35,039
 <font color="#c5c5c5">For index at zero</font>
+<font color="#ffff00">Đối với chỉ số bằng 0</font>
 
 229
 00:11:35,295 --> 00:11:37,855
 <font color="#d5d5d5">And -1 which goes the other way around</font>
+<font color="#ffff00">Và -1 thì ngược lại</font>
 
 230
 00:11:38,111 --> 00:11:41,695
 <font color="#e3e3e3">And that's why we get blue here now again something that</font>
+<font color="#ffff00">Và đó là lý do tại sao bây giờ chúng ta lại có màu xanh ở đây</font>
 
 231
 00:11:41,951 --> 00:11:44,511
 <font color="#e3e3e3">Do you want to remember is immutability</font>
+<font color="#ffff00">Bạn có muốn nhớ là bất biến</font>
 
 232
 00:11:44,767 --> 00:11:47,839
 <font color="#e6e6e6">Doubles cannot be modified after you create them</font>
+<font color="#ffff00">Không thể sửa đổi nhân đôi sau khi bạn tạo chúng</font>
 
 233
 00:11:48,095 --> 00:11:53,471
 <font color="#ededed">However they can contain mutable items like list inside them so we have strings here</font>
+<font color="#ffff00">Tuy nhiên, chúng có thể chứa các mục có thể thay đổi như danh sách bên trong chúng nên chúng tôi có các chuỗi ở đây</font>
 
 234
 00:11:53,983 --> 00:11:59,359
 <font color="#dcdcdc">In this particular case but you can have left inside there which and list can be mutable so that</font>
+<font color="#ffff00">Trong trường hợp cụ thể này nhưng bạn có thể để lại bên trong đó và danh sách có thể thay đổi được để</font>
 
 235
 00:11:59,615 --> 00:12:01,919
 <font color="#ececec">How you can create a mutable</font>
+<font color="#ffff00">Làm thế nào bạn có thể tạo một biến thể</font>
 
 236
 00:12:02,175 --> 00:12:03,711
 <font color="#ececec">List of couples</font>
+<font color="#ffff00">Danh sách các cặp đôi</font>
 
 237
 00:12:04,735 --> 00:12:05,247
 <font color="#d4d4d4">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 238
 00:12:05,503 --> 00:12:07,039
 <font color="#e1e1e1">Let's look at dictionaries</font>
+<font color="#ffff00">Chúng ta hãy tra cứu từ điển</font>
 
 239
 00:12:07,295 --> 00:12:08,831
 <font color="#cacaca">So first what are dictionaries</font>
+<font color="#ffff00">Vậy đầu tiên từ điển là gì</font>
 
 240
 00:12:09,087 --> 00:12:10,367
 <font color="#e3e3e3">Dictionary store</font>
+<font color="#ffff00">Kho từ điển</font>
 
 241
 00:12:10,623 --> 00:12:11,903
 <font color="#ebebeb">Key value pairs for</font>
+<font color="#ffff00">Cặp giá trị khóa cho</font>
 
 242
 00:12:12,159 --> 00:12:15,743
 <font color="#b2b2b2">Fast lookups now in case of list it was order</font>
+<font color="#ffff00">Tra cứu nhanh bây giờ trong trường hợp danh sách đã được đặt hàng</font>
 
 243
 00:12:15,999 --> 00:12:20,095
 <font color="#dddddd">In case of couples they were also ordered so you can access them using 0123</font>
+<font color="#ffff00">Trong trường hợp các cặp đôi, họ cũng đã đặt hàng nên bạn có thể truy cập bằng 0123</font>
 
 244
 00:12:20,351 --> 00:12:24,447
 <font color="#e5e5e5">But in dictionaries you access items using the key value pair</font>
+<font color="#ffff00">Nhưng trong từ điển bạn truy cập các mục bằng cặp giá trị khóa</font>
 
 245
 00:12:24,703 --> 00:12:26,239
 <font color="#eaeaea">So you can assess the value</font>
+<font color="#ffff00">Vì vậy, bạn có thể đánh giá giá trị</font>
 
 246
 00:12:26,495 --> 00:12:27,519
 <font color="#f0f0f0">Using the key item</font>
+<font color="#ffff00">Sử dụng mục chính</font>
 
 247
 00:12:28,031 --> 00:12:29,567
 <font color="#d1d1d1">So let's see how we create dictionaries</font>
+<font color="#ffff00">Vậy hãy xem cách chúng tôi tạo từ điển</font>
 
 248
 00:12:29,823 --> 00:12:31,615
 <font color="#b2b2b2">738 a dictionary here</font>
+<font color="#ffff00">738 một từ điển ở đây</font>
 
 249
 00:12:32,127 --> 00:12:33,407
 <font color="#b3b3b3">Get commented out</font>
+<font color="#ffff00">Nhận nhận xét</font>
 
 250
 00:12:34,431 --> 00:12:35,455
 <font color="#d4d4d4">And move it down</font>
+<font color="#ffff00">Và di chuyển nó xuống</font>
 
 251
 00:12:36,479 --> 00:12:37,247
 <font color="#626262">For dictionaries</font>
+<font color="#ffff00">Dành cho từ điển</font>
 
 252
 00:12:37,503 --> 00:12:40,575
 <font color="#efefef">I am going to create let's create a student dictionary</font>
+<font color="#ffff00">Tôi sẽ tạo, hãy tạo một từ điển dành cho sinh viên</font>
 
 253
 00:12:41,343 --> 00:12:42,623
 <font color="#a8a8a8">And to the student</font>
+<font color="#ffff00">Và với sinh viên</font>
 
 254
 00:12:43,135 --> 00:12:44,415
 <font color="#efefef">I'll give a name</font>
+<font color="#ffff00">Tôi sẽ đặt tên</font>
 
 255
 00:12:44,927 --> 00:12:46,463
 <font color="#8e8e8e">And then I'll give</font>
+<font color="#ffff00">Và sau đó tôi sẽ đưa</font>
 
 256
 00:12:50,303 --> 00:12:51,327
 <font color="#868686">I'll give</font>
+<font color="#ffff00">tôi sẽ cho</font>
 
 257
 00:12:51,839 --> 00:12:53,119
 <font color="#d8d8d8">Let's say 25</font>
+<font color="#ffff00">Giả sử 25</font>
 
 258
 00:12:56,703 --> 00:12:59,007
 <font color="#d8d8d8">I will give as let's agree</font>
+<font color="#ffff00">Tôi sẽ cho đi khi chúng ta đồng ý</font>
 
 259
 00:13:00,287 --> 00:13:01,823
 <font color="#fbfbfb">So this is how you can create</font>
+<font color="#ffff00">Vì vậy, đây là cách bạn có thể tạo</font>
 
 260
 00:13:02,079 --> 00:13:08,223
 <font color="#d6d6d6">Key value pair where the key is in this particular case name is and great these are different keys and</font>
+<font color="#ffff00">Cặp giá trị khóa trong đó khóa nằm trong tên trường hợp cụ thể này và đây là các khóa khác nhau và</font>
 
 261
 00:13:08,479 --> 00:13:10,527
 <font color="#cbcbcb">And values are Alice 25 and</font>
+<font color="#ffff00">Và giá trị là Alice 25 và</font>
 
 262
 00:13:10,783 --> 00:13:16,927
 <font color="#dadada">So unlike list where you have like in order to 01 and 2 here you don't have an order but you have</font>
+<font color="#ffff00">Vì vậy, không giống như danh sách nơi bạn có thứ tự 01 và 2 ở đây bạn không có thứ tự nhưng bạn có</font>
 
 263
 00:13:17,183 --> 00:13:17,695
 <font color="#767676">Increase volume</font>
+<font color="#ffff00">Tăng âm lượng</font>
 
 264
 00:13:17,951 --> 00:13:19,487
 <font color="#dedede">If I bring the student</font>
+<font color="#ffff00">Nếu tôi mang học sinh</font>
 
 265
 00:13:22,047 --> 00:13:22,815
 <font color="#e9e9e9">Go back</font>
+<font color="#ffff00">Quay lại</font>
 
 266
 00:13:24,095 --> 00:13:24,863
 <font color="#909090">And print it</font>
+<font color="#ffff00">Và in nó</font>
 
 267
 00:13:25,119 --> 00:13:29,215
 <font color="#a4a4a4">Is the name Alice age and grade you'll probably see the way it is specified year</font>
+<font color="#ffff00">Là tên Alice tuổi và lớp có lẽ bạn sẽ thấy cách nó được chỉ định năm</font>
 
 268
 00:13:29,471 --> 00:13:34,079
 <font color="#d7d7d7">It's not it's not an order item so it might be saved in any order the way it's access</font>
+<font color="#ffff00">Nó không phải là một mục đặt hàng nên nó có thể được lưu theo bất kỳ thứ tự nào theo cách truy cập</font>
 
 269
 00:13:34,335 --> 00:13:35,871
 <font color="#e4e4e4">Is through the key value</font>
+<font color="#ffff00">Là thông qua giá trị khóa</font>
 
 270
 00:13:36,639 --> 00:13:39,711
 <font color="#f0f0f0">Let's talk about that accessing and modifying data</font>
+<font color="#ffff00">Hãy nói về việc truy cập và sửa đổi dữ liệu</font>
 
 271
 00:13:41,247 --> 00:13:42,783
 <font color="#c5c5c5">Do access first</font>
+<font color="#ffff00">Hãy truy cập trước</font>
 
 272
 00:13:43,039 --> 00:13:47,391
 <font color="#d7d7d7">You'll probably can access this key with the values inside here</font>
+<font color="#ffff00">Có thể bạn sẽ có thể truy cập khóa này bằng các giá trị bên trong đây</font>
 
 273
 00:13:47,647 --> 00:13:49,951
 <font color="#f7f7f7">From the key so I can say what is</font>
+<font color="#ffff00">Từ chìa khóa để tôi có thể nói những gì</font>
 
 274
 00:13:50,207 --> 00:13:51,743
 <font color="#eaeaea">The name of the student</font>
+<font color="#ffff00">Tên của học sinh</font>
 
 275
 00:13:53,279 --> 00:13:57,119
 <font color="#e5e5e5">When I bring that it says Alice so that's how you access so you can see age</font>
+<font color="#ffff00">Khi tôi mang nó đến, nó nói Alice nên đó là cách bạn truy cập để bạn có thể xem tuổi</font>
 
 276
 00:13:58,399 --> 00:13:59,423
 <font color="#f4f4f4">And you can get</font>
+<font color="#ffff00">Và bạn có thể nhận được</font>
 
 277
 00:13:59,679 --> 00:14:01,215
 <font color="#cecece">Age or you can say</font>
+<font color="#ffff00">Tuổi hoặc bạn có thể nói</font>
 
 278
 00:14:01,727 --> 00:14:02,495
 <font color="#898989">Grade</font>
+<font color="#ffff00">Cấp</font>
 
 279
 00:14:02,751 --> 00:14:03,519
 <font color="#989898">And assess</font>
+<font color="#ffff00">Và đánh giá</font>
 
 280
 00:14:03,775 --> 00:14:05,311
 <font color="#dfdfdf">The grid of this particular student</font>
+<font color="#ffff00">Lưới của sinh viên đặc biệt này</font>
 
 281
 00:14:06,079 --> 00:14:08,127
 <font color="#d1d1d1">Do the next thing that we don't talk about is</font>
+<font color="#ffff00">Làm điều tiếp theo mà chúng ta không nói đến là</font>
 
 282
 00:14:08,383 --> 00:14:11,455
 <font color="#dedede">Adding and updating so what if I want to add something</font>
+<font color="#ffff00">Thêm và cập nhật vậy nếu muốn thêm gì đó thì sao</font>
 
 283
 00:14:11,711 --> 00:14:13,247
 <font color="#d2d2d2">To this particular</font>
+<font color="#ffff00">Đặc biệt này</font>
 
 284
 00:14:13,503 --> 00:14:14,271
 <font color="#7a7a7a">Two particular</font>
+<font color="#ffff00">Hai điều đặc biệt</font>
 
 285
 00:14:14,527 --> 00:14:16,063
 <font color="#f9f9f9">So I can just say</font>
+<font color="#ffff00">Vì thế tôi chỉ có thể nói</font>
 
 286
 00:14:16,319 --> 00:14:17,599
 <font color="#bfbfbf">It's over here</font>
+<font color="#ffff00">Nó ở đằng này</font>
 
 287
 00:14:18,111 --> 00:14:19,391
 <font color="#aaaaaa">Print entire student</font>
+<font color="#ffff00">In toàn bộ học sinh</font>
 
 288
 00:14:20,927 --> 00:14:23,743
 <font color="#e9e9e9">And then do the student I want to add a stop subject</font>
+<font color="#ffff00">Và sau đó học sinh tôi muốn thêm một chủ đề dừng</font>
 
 289
 00:14:24,255 --> 00:14:26,815
 <font color="#c9c9c9">I can see student inside square brackets</font>
+<font color="#ffff00">Tôi có thể nhìn thấy học sinh bên trong dấu ngoặc vuông</font>
 
 290
 00:14:27,327 --> 00:14:29,119
 <font color="#cccccc">Little square brackets are used for</font>
+<font color="#ffff00">Dấu ngoặc vuông nhỏ được dùng để</font>
 
 291
 00:14:30,655 --> 00:14:33,215
 <font color="#d8d8d8">List but when you are assigning a key</font>
+<font color="#ffff00">Danh sách nhưng khi bạn đang gán một phím</font>
 
 292
 00:14:33,727 --> 00:14:37,311
 <font color="#dcdcdc">And a value you can do it using this I can say</font>
+<font color="#ffff00">Và một giá trị bạn có thể làm được bằng cách sử dụng cái này tôi có thể nói</font>
 
 293
 00:14:37,567 --> 00:14:42,175
 <font color="#dbdbdb">Subject that I want to add to the student is math so this creates a key value pair</font>
+<font color="#ffff00">Môn học mà tôi muốn thêm cho học sinh là toán nên điều này tạo ra một cặp giá trị khóa</font>
 
 294
 00:14:42,431 --> 00:14:43,711
 <font color="#fbfbfb">If I print this out</font>
+<font color="#ffff00">Nếu tôi in cái này ra</font>
 
 295
 00:14:44,735 --> 00:14:48,063
 <font color="#c3c3c3">What is the name is great and subject or discretion</font>
+<font color="#ffff00">Tên gì là lớn và tùy ý hay tùy ý</font>
 
 296
 00:14:48,319 --> 00:14:49,087
 <font color="#cecece">Clear it out</font>
+<font color="#ffff00">Xóa nó đi</font>
 
 297
 00:14:49,855 --> 00:14:53,439
 <font color="#f3f3f3">And again now if I want to update something you can again do it similarly</font>
+<font color="#ffff00">Và một lần nữa bây giờ nếu tôi muốn cập nhật một cái gì đó bạn có thể làm lại tương tự</font>
 
 298
 00:14:53,695 --> 00:14:54,463
 <font color="#424242">Consider</font>
+<font color="#ffff00">Coi như</font>
 
 299
 00:14:54,719 --> 00:14:56,255
 <font color="#ececec">I want to update the age</font>
+<font color="#ffff00">Tôi muốn cập nhật tuổi</font>
 
 300
 00:14:56,767 --> 00:14:58,815
 <font color="#cccccc">From 26 to 32</font>
+<font color="#ffff00">Từ 26 đến 32</font>
 
 301
 00:14:59,583 --> 00:15:01,119
 <font color="#e5e5e5">Now if I print it out</font>
+<font color="#ffff00">Bây giờ nếu tôi in nó ra</font>
 
 302
 00:15:02,655 --> 00:15:08,799
 <font color="#cfcfcf">You'll see name is Alice a just got updated to 32 grade is a and subject is math so this is how</font>
+<font color="#ffff00">Bạn sẽ thấy tên là Alice a vừa mới cập nhật lên lớp 32 là a và môn học là toán nên đây là cách thực hiện</font>
 
 303
 00:15:09,055 --> 00:15:10,591
 <font color="#d7d7d7">How do you add and update items</font>
+<font color="#ffff00">Làm cách nào để bạn thêm và cập nhật các mục</font>
 
 304
 00:15:10,847 --> 00:15:12,639
 <font color="#fafafa">Inside a particular dictionary</font>
+<font color="#ffff00">Bên trong một từ điển cụ thể</font>
 
 305
 00:15:13,407 --> 00:15:13,919
 <font color="#dbdbdb">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 306
 00:15:14,175 --> 00:15:15,967
 <font color="#f4f4f4">Let's look at how do you remove items</font>
+<font color="#ffff00">Hãy xem cách bạn loại bỏ các mục</font>
 
 307
 00:15:16,223 --> 00:15:18,271
 <font color="#e6e6e6">Again something similar to list</font>
+<font color="#ffff00">Một lần nữa một cái gì đó tương tự như danh sách</font>
 
 308
 00:15:18,527 --> 00:15:20,319
 <font color="#e2e2e2">You can just use DL</font>
+<font color="#ffff00">Bạn chỉ có thể sử dụng DL</font>
 
 309
 00:15:20,831 --> 00:15:21,599
 <font color="#e7e7e7">Student</font>
+<font color="#ffff00">Học sinh</font>
 
 310
 00:15:21,855 --> 00:15:24,415
 <font color="#c1c1c1">Send a picture of the item you want to delete for example</font>
+<font color="#ffff00">Gửi ảnh món đồ bạn muốn xóa chẳng hạn</font>
 
 311
 00:15:24,671 --> 00:15:26,207
 <font color="#e8e8e8">I want to delete the grid</font>
+<font color="#ffff00">Tôi muốn xóa lưới</font>
 
 312
 00:15:26,719 --> 00:15:27,999
 <font color="#d4d4d4">That's how you can remove</font>
+<font color="#ffff00">Đó là cách bạn có thể loại bỏ</font>
 
 313
 00:15:28,255 --> 00:15:30,303
 <font color="#dedede">Also let's print it out first</font>
+<font color="#ffff00">Ngoài ra, hãy in nó ra trước</font>
 
 314
 00:15:31,839 --> 00:15:34,655
 <font color="#fcfcfc">And then you can also use the</font>
+<font color="#ffff00">Và sau đó bạn cũng có thể sử dụng</font>
 
 315
 00:15:35,167 --> 00:15:36,447
 <font color="#adadad">I can say student</font>
+<font color="#ffff00">Có thể nói sinh viên</font>
 
 316
 00:15:37,727 --> 00:15:42,591
 <font color="#ebebeb">Pop but in this case you can't give empty you'll have to specify what you want to</font>
+<font color="#ffff00">Bật nhưng trong trường hợp này bạn không thể để trống, bạn sẽ phải chỉ định những gì bạn muốn</font>
 
 317
 00:15:42,847 --> 00:15:45,407
 <font color="#d5d5d5">Popsicle subject is what I want to pop</font>
+<font color="#ffff00">Chủ đề kem que là thứ tôi muốn làm</font>
 
 318
 00:15:45,919 --> 00:15:47,455
 <font color="#bcbcbc">Take this printed out</font>
+<font color="#ffff00">Lấy bản in này ra</font>
 
 319
 00:15:48,223 --> 00:15:51,551
 <font color="#e8e8e8">Let's display it so first one this is the original one</font>
+<font color="#ffff00">Hãy hiển thị nó để cái đầu tiên đây là cái gốc</font>
 
 320
 00:15:51,807 --> 00:15:55,903
 <font color="#f7f7f7">And then I said delete the grade and if you see grade is missing here</font>
+<font color="#ffff00">Và sau đó tôi nói xóa lớp và nếu bạn thấy thiếu lớp ở đây</font>
 
 321
 00:15:56,159 --> 00:15:57,439
 <font color="#cacaca">And I said pop subject</font>
+<font color="#ffff00">Và tôi đã nói chủ đề nhạc pop</font>
 
 322
 00:15:57,951 --> 00:16:01,023
 <font color="#efefef">And if you see it popped subject out of this particular</font>
+<font color="#ffff00">Và nếu bạn thấy chủ đề đó bật ra khỏi chủ đề cụ thể này</font>
 
 323
 00:16:01,279 --> 00:16:04,351
 <font color="#e2e2e2">Dictionary and now I only have name and age here</font>
+<font color="#ffff00">Từ điển và bây giờ tôi chỉ có tên và tuổi ở đây</font>
 
 324
 00:16:05,631 --> 00:16:07,935
 <font color="#cccccc">Next thing that we're going to talk about is</font>
+<font color="#ffff00">Điều tiếp theo chúng ta sẽ nói đến là</font>
 
 325
 00:16:08,191 --> 00:16:14,335
 <font color="#ececec">Iteration now how do you iterate through a particular dictionary the way to do it is because</font>
+<font color="#ffff00">Lặp lại bây giờ làm thế nào để bạn lặp qua một từ điển cụ thể, cách thực hiện là bởi vì</font>
 
 326
 00:16:14,591 --> 00:16:15,871
 <font color="#c7c7c7">For list</font>
+<font color="#ffff00">Đối với danh sách</font>
 
 327
 00:16:16,127 --> 00:16:18,175
 <font color="#c8c8c8">Search is easy because they are indexed</font>
+<font color="#ffff00">Tìm kiếm dễ dàng vì chúng được lập chỉ mục</font>
 
 328
 00:16:18,431 --> 00:16:19,711
 <font color="#f9f9f9">But if I want to</font>
+<font color="#ffff00">Nhưng nếu tôi muốn</font>
 
 329
 00:16:20,479 --> 00:16:20,991
 <font color="#1a1a1a">Rhett</font>
+<font color="#ffff00">Rhett</font>
 
 330
 00:16:21,247 --> 00:16:24,063
 <font color="#e2e2e2">Over a particular dictionary in the way to do it is</font>
+<font color="#ffff00">Qua một từ điển cụ thể trong cách thực hiện là</font>
 
 331
 00:16:24,319 --> 00:16:25,599
 <font color="#a2a2a2">For key</font>
+<font color="#ffff00">Đối với chìa khóa</font>
 
 332
 00:16:26,623 --> 00:16:27,647
 <font color="#9b9b9b">Add value</font>
+<font color="#ffff00">Thêm giá trị</font>
 
 333
 00:16:29,439 --> 00:16:30,207
 <font color="#cbcbcb">Student</font>
+<font color="#ffff00">Học sinh</font>
 
 334
 00:16:31,743 --> 00:16:32,511
 <font color="#ececec">Items</font>
+<font color="#ffff00">Mặt hàng</font>
 
 335
 00:16:33,535 --> 00:16:34,559
 <font color="#ededed">So what it does is</font>
+<font color="#ffff00">Vì vậy, những gì nó làm là</font>
 
 336
 00:16:35,839 --> 00:16:37,375
 <font color="#d5d5d5">Everything inside student</font>
+<font color="#ffff00">Mọi thứ bên trong sinh viên</font>
 
 337
 00:16:38,143 --> 00:16:40,191
 <font color="#d3d3d3">With the calling this function student or items</font>
+<font color="#ffff00">Với cách gọi hàm này là sinh viên hoặc vật phẩm</font>
 
 338
 00:16:40,447 --> 00:16:41,727
 <font color="#c8c8c8">Put them in a list</font>
+<font color="#ffff00">Đặt chúng vào một danh sách</font>
 
 339
 00:16:42,239 --> 00:16:44,031
 <font color="#dddddd">This is what this function does item</font>
+<font color="#ffff00">Đây là chức năng của chức năng này</font>
 
 340
 00:16:44,287 --> 00:16:45,823
 <font color="#fcfcfc">And now you can access</font>
+<font color="#ffff00">Và bây giờ bạn có thể truy cập</font>
 
 341
 00:16:46,079 --> 00:16:46,847
 <font color="#676767">Each</font>
+<font color="#ffff00">Mỗi</font>
 
 342
 00:16:47,103 --> 00:16:51,711
 <font color="#e5e5e5">And its value from the student dot items items</font>
+<font color="#ffff00">Và giá trị của nó từ các mục mục chấm của sinh viên</font>
 
 343
 00:16:51,967 --> 00:16:52,479
 <font color="#d4d4d4">Function</font>
+<font color="#ffff00">Chức năng</font>
 
 344
 00:16:52,991 --> 00:16:54,783
 <font color="#e6e6e6">So I can just say print here</font>
+<font color="#ffff00">Vì vậy tôi chỉ có thể nói in ở đây</font>
 
 345
 00:16:57,087 --> 00:16:58,111
 <font color="#b5b5b5">And value</font>
+<font color="#ffff00">Và giá trị</font>
 
 346
 00:16:58,367 --> 00:17:01,183
 <font color="#f8f8f8">So this will show me what will I get when I do this</font>
+<font color="#ffff00">Vì vậy, điều này sẽ cho tôi thấy tôi sẽ nhận được gì khi làm điều này</font>
 
 347
 00:17:02,207 --> 00:17:06,559
 <font color="#c6c6c6">So is his name is Alice age is 25 grade is it so it created a list of</font>
+<font color="#ffff00">Vậy tên anh ấy là Alice tuổi 25 phải không nên nó đã tạo ra một danh sách</font>
 
 348
 00:17:06,815 --> 00:17:07,839
 <font color="#9c9c9c">Key value pair</font>
+<font color="#ffff00">Cặp giá trị khóa</font>
 
 349
 00:17:08,351 --> 00:17:09,631
 <font color="#c9c9c9">From a dictionary</font>
+<font color="#ffff00">Từ một cuốn từ điển</font>
 
 350
 00:17:09,887 --> 00:17:14,239
 <font color="#eaeaea">And then I can trade over them one at a time and display those values</font>
+<font color="#ffff00">Và sau đó tôi có thể giao dịch từng cái một và hiển thị những giá trị đó</font>
 
 351
 00:17:14,495 --> 00:17:15,007
 <font color="#d6d6d6">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 352
 00:17:15,263 --> 00:17:16,031
 <font color="#f5f5f5">Let's look at</font>
+<font color="#ffff00">Hãy nhìn vào</font>
 
 353
 00:17:17,567 --> 00:17:20,383
 <font color="#dddddd">Now what are sets sets</font>
+<font color="#ffff00">Bây giờ bộ là gì</font>
 
 354
 00:17:20,639 --> 00:17:23,199
 <font color="#f5f5f5">Unordered collections of unique items</font>
+<font color="#ffff00">Bộ sưu tập không có thứ tự các mặt hàng độc đáo</font>
 
 355
 00:17:23,455 --> 00:17:29,599
 <font color="#e0e0e0">So the one thing that you would remember and said says you can't have repetitive items like for example if your numbers</font>
+<font color="#ffff00">Vì vậy, một điều bạn sẽ nhớ và nói rằng bạn không thể có các mục lặp đi lặp lại, chẳng hạn như nếu số của bạn</font>
 
 356
 00:17:29,855 --> 00:17:33,951
 <font color="#c3c3c3">Set of numbers 1 2 3 4 that's fine but what if you have</font>
+<font color="#ffff00">Bộ số 1 2 3 4 thì được nhưng nếu có thì sao</font>
 
 357
 00:17:34,207 --> 00:17:36,511
 <font color="#6b6b6b">11223344 then it will</font>
+<font color="#ffff00">11223344 thì nó sẽ như vậy</font>
 
 358
 00:17:36,767 --> 00:17:40,607
 <font color="#bfbfbf">Kind of drop those duplicates and it will give you a set of 1,234</font>
+<font color="#ffff00">Hãy loại bỏ những bản sao đó và nó sẽ cung cấp cho bạn một bộ 1.234</font>
 
 359
 00:17:40,863 --> 00:17:42,143
 <font color="#e0e0e0">So I</font>
+<font color="#ffff00">Vì vậy tôi</font>
 
 360
 00:17:42,655 --> 00:17:44,703
 <font color="#d0d0d0">Warheads are unordered collection</font>
+<font color="#ffff00">Đầu đạn là bộ sưu tập không có thứ tự</font>
 
 361
 00:17:44,959 --> 00:17:46,495
 <font color="#cbcbcb">Off unique items</font>
+<font color="#ffff00">Tắt các mặt hàng độc đáo</font>
 
 362
 00:17:46,751 --> 00:17:48,031
 <font color="#f9f9f9">So how do you</font>
+<font color="#ffff00">Vậy làm sao bạn</font>
 
 363
 00:17:48,287 --> 00:17:49,311
 <font color="#cbcbcb">Create sets</font>
+<font color="#ffff00">Tạo bộ</font>
 
 364
 00:17:49,567 --> 00:17:50,591
 <font color="#a6a6a6">Create search</font>
+<font color="#ffff00">Tạo tìm kiếm</font>
 
 365
 00:17:50,847 --> 00:17:51,615
 <font color="#dddddd">Just</font>
+<font color="#ffff00">Chỉ</font>
 
 366
 00:17:52,895 --> 00:17:54,943
 <font color="#f8f8f8">Make sure that this is commented</font>
+<font color="#ffff00">Hãy chắc chắn rằng điều này được nhận xét</font>
 
 367
 00:17:55,967 --> 00:17:57,247
 <font color="#e5e5e5">And go down here</font>
+<font color="#ffff00">Và đi xuống đây</font>
 
 368
 00:17:57,759 --> 00:17:59,295
 <font color="#f5f5f5">Create numbers</font>
+<font color="#ffff00">Tạo số</font>
 
 369
 00:17:59,807 --> 00:18:02,367
 <font color="#f0f0f0">Equal to again angular brackets</font>
+<font color="#ffff00">Dấu ngoặc nhọn bằng nhau</font>
 
 370
 00:18:04,159 --> 00:18:05,695
 <font color="#c4c4c4">3 and 4</font>
+<font color="#ffff00">3 và 4</font>
 
 371
 00:18:05,951 --> 00:18:10,303
 <font color="#a6a6a6">She's not key Value Place because inside angle brackets keep all your studies</font>
+<font color="#ffff00">Cô ấy không phải là Nơi Giá trị quan trọng vì bên trong dấu ngoặc nhọn giữ tất cả việc học của bạn</font>
 
 372
 00:18:10,559 --> 00:18:16,191
 <font color="#f9f9f9">But if you use angle brackets with items inside here that's an unordered collection of unique items</font>
+<font color="#ffff00">Nhưng nếu bạn sử dụng dấu ngoặc nhọn với các vật phẩm bên trong thì đó là một bộ sưu tập các vật phẩm độc đáo không có thứ tự</font>
 
 373
 00:18:16,447 --> 00:18:17,215
 <font color="#606060">Which are set</font>
+<font color="#ffff00">được thiết lập</font>
 
 374
 00:18:17,983 --> 00:18:19,775
 <font color="#e9e9e9">You can also create a empty set</font>
+<font color="#ffff00">Bạn cũng có thể tạo một bộ trống</font>
 
 375
 00:18:20,031 --> 00:18:23,615
 <font color="#cdcdcd">For example I create just a variable name called an empty set</font>
+<font color="#ffff00">Ví dụ: tôi chỉ tạo một tên biến gọi là tập hợp trống</font>
 
 376
 00:18:23,871 --> 00:18:25,919
 <font color="#dbdbdb">And to create an empty set you can just set</font>
+<font color="#ffff00">Và để tạo một bộ trống bạn chỉ cần đặt</font>
 
 377
 00:18:27,199 --> 00:18:28,735
 <font color="#f5f5f5">That's how you can create an empty</font>
+<font color="#ffff00">Đó là cách bạn có thể tạo một khoảng trống</font>
 
 378
 00:18:29,247 --> 00:18:31,551
 <font color="#f3f3f3">Now how do you add</font>
+<font color="#ffff00">Bây giờ làm thế nào để bạn thêm</font>
 
 379
 00:18:31,807 --> 00:18:32,575
 <font color="#dddddd">Remove</font>
+<font color="#ffff00">Di dời</font>
 
 380
 00:18:32,831 --> 00:18:34,111
 <font color="#aeaeae">Elements from a set</font>
+<font color="#ffff00">Các phần tử từ một tập hợp</font>
 
 381
 00:18:35,647 --> 00:18:38,719
 <font color="#f3f3f3">I think that's the next topic adding and removing elements</font>
+<font color="#ffff00">Tôi nghĩ đó là chủ đề tiếp theo về việc thêm và loại bỏ các phần tử</font>
 
 382
 00:18:38,975 --> 00:18:39,743
 <font color="#e6e6e6">To do that</font>
+<font color="#ffff00">Để làm điều đó</font>
 
 383
 00:18:39,999 --> 00:18:41,791
 <font color="#ededed">First I can just say inside</font>
+<font color="#ffff00">Đầu tiên tôi chỉ có thể nói bên trong</font>
 
 384
 00:18:42,303 --> 00:18:43,071
 <font color="#ebebeb">Numbers</font>
+<font color="#ffff00">số</font>
 
 385
 00:18:43,327 --> 00:18:44,607
 <font color="#f7f7f7">I want to add</font>
+<font color="#ffff00">tôi muốn thêm</font>
 
 386
 00:18:46,655 --> 00:18:47,423
 <font color="#ededed">So let's</font>
+<font color="#ffff00">Vậy hãy</font>
 
 387
 00:18:48,703 --> 00:18:49,727
 <font color="#c3c3c3">Numbers here first</font>
+<font color="#ffff00">Số ở đây đầu tiên</font>
 
 388
 00:18:53,567 --> 00:18:54,079
 <font color="#494949">Sonic</font>
+<font color="#ffff00">âm thanh</font>
 
 389
 00:18:57,663 --> 00:19:01,759
 <font color="#aeaeae">I said 1234 and if you see one two three four five so I did one more item</font>
+<font color="#ffff00">Tôi nói 1234 và nếu bạn thấy một hai ba bốn năm thì tôi làm thêm một mục nữa</font>
 
 390
 00:19:02,015 --> 00:19:03,551
 <font color="#fafafa">What if I want to add</font>
+<font color="#ffff00">Nếu tôi muốn thêm thì sao</font>
 
 391
 00:19:03,807 --> 00:19:05,343
 <font color="#dddddd">What if I try to add four</font>
+<font color="#ffff00">Điều gì sẽ xảy ra nếu tôi cố gắng cộng bốn</font>
 
 392
 00:19:05,855 --> 00:19:11,743
 <font color="#b0b0b0">57234 and output is again 1 2 3 4 5 because 4 already exists so you can't add duplicates</font>
+<font color="#ffff00">57234 và đầu ra lại là 1 2 3 4 5 vì 4 đã tồn tại nên bạn không thể thêm các bản sao</font>
 
 393
 00:19:11,999 --> 00:19:13,791
 <font color="#fcfcfc">You can add some other numbers</font>
+<font color="#ffff00">Bạn có thể thêm một số số khác</font>
 
 394
 00:19:14,559 --> 00:19:17,887
 <font color="#e1e1e1">But no duplicate as long as there's no duplicates it all works fine</font>
+<font color="#ffff00">Nhưng không trùng lặp miễn là không có trùng lặp thì tất cả đều hoạt động tốt</font>
 
 395
 00:19:18,399 --> 00:19:19,423
 <font color="#f7f7f7">Now what if I want to</font>
+<font color="#ffff00">Bây giờ nếu tôi muốn thì sao</font>
 
 396
 00:19:19,679 --> 00:19:23,263
 <font color="#fcfcfc">Remove something so I can just use something similar</font>
+<font color="#ffff00">Xóa thứ gì đó để tôi có thể sử dụng thứ gì đó tương tự</font>
 
 397
 00:19:24,799 --> 00:19:25,823
 <font color="#5a5a5a">Answer the movie</font>
+<font color="#ffff00">Trả lời phim</font>
 
 398
 00:19:26,079 --> 00:19:28,127
 <font color="#d5d5d5">And I want to remove the tattoo</font>
+<font color="#ffff00">Và tôi muốn xóa hình xăm</font>
 
 399
 00:19:31,967 --> 00:19:36,319
 <font color="#c2c2c2">So I want to 348 and if you see here 13482 got removed</font>
+<font color="#ffff00">Vì vậy tôi muốn 348 và nếu bạn thấy ở đây 13482 đã bị xóa</font>
 
 400
 00:19:36,575 --> 00:19:39,647
 <font color="#f7f7f7">When I call the remove function on a particular</font>
+<font color="#ffff00">Khi tôi gọi hàm xóa trên một mục cụ thể</font>
 
 401
 00:19:40,927 --> 00:19:42,719
 <font color="#f7f7f7">Next thing that I want to talk about</font>
+<font color="#ffff00">Điều tiếp theo tôi muốn nói đến</font>
 
 402
 00:19:42,975 --> 00:19:49,119
 <font color="#d3d3d3">Is set operations are you probably have learned about this before but set as three different operations first is Union</font>
+<font color="#ffff00">Là thao tác thiết lập có thể bạn đã biết về điều này trước đây nhưng thiết lập là 3 thao tác khác nhau đầu tiên là Union</font>
 
 403
 00:19:49,375 --> 00:19:49,887
 <font color="#e3e3e3">Which</font>
+<font color="#ffff00">Cái mà</font>
 
 404
 00:19:50,143 --> 00:19:56,287
 <font color="#f3f3f3">Union of two different sets when you try to so for example I have this let's create a new one</font>
+<font color="#ffff00">Sự kết hợp của hai bộ khác nhau khi bạn cố gắng, ví dụ như tôi có cái này, hãy tạo một bộ mới</font>
 
 405
 00:19:56,799 --> 00:19:57,823
 <font color="#717171">How to move this</font>
+<font color="#ffff00">Làm thế nào để di chuyển cái này</font>
 
 406
 00:19:58,079 --> 00:19:59,871
 <font color="#d6d6d6">Set one equal to</font>
+<font color="#ffff00">Đặt một bằng</font>
 
 407
 00:20:00,639 --> 00:20:03,455
 <font color="#b3b3b3">I have one comma two comma three</font>
+<font color="#ffff00">Tôi có một dấu phẩy hai dấu phẩy ba</font>
 
 408
 00:20:03,967 --> 00:20:04,735
 <font color="#f9f9f9">And I have</font>
+<font color="#ffff00">Và tôi có</font>
 
 409
 00:20:07,807 --> 00:20:08,831
 <font color="#d3d3d3">Which has</font>
+<font color="#ffff00">Cái nào có</font>
 
 410
 00:20:09,855 --> 00:20:11,135
@@ -1641,282 +2046,352 @@
 411
 00:20:12,415 --> 00:20:13,439
 <font color="#747474">Call Mom</font>
+<font color="#ffff00">Gọi cho mẹ</font>
 
 412
 00:20:13,695 --> 00:20:16,255
 <font color="#ebebeb">Now if you seen this particular case if I try to</font>
+<font color="#ffff00">Bây giờ nếu bạn thấy trường hợp cụ thể này nếu tôi cố gắng</font>
 
 413
 00:20:16,511 --> 00:20:19,327
 <font color="#d6d6d6">Union or put both the sets together</font>
+<font color="#ffff00">Liên kết hoặc đặt cả hai bộ lại với nhau</font>
 
 414
 00:20:19,839 --> 00:20:20,863
 <font color="#f3f3f3">Set</font>
+<font color="#ffff00">Bộ</font>
 
 415
 00:20:23,167 --> 00:20:28,287
 <font color="#e2e2e2">And Union is done using the pipe symbol so I'm saying set one</font>
+<font color="#ffff00">Và Union đã hoàn tất việc sử dụng biểu tượng ống nên tôi sẽ nói là đặt một</font>
 
 416
 00:20:28,543 --> 00:20:29,311
 <font color="#aeaeae">Set</font>
+<font color="#ffff00">Bộ</font>
 
 417
 00:20:29,567 --> 00:20:31,615
 <font color="#e6e6e6">In this case let's look at the output</font>
+<font color="#ffff00">Trong trường hợp này, hãy nhìn vào đầu ra</font>
 
 418
 00:20:33,663 --> 00:20:34,687
 <font color="#525252">Coastal cleared out</font>
+<font color="#ffff00">Bờ biển đã được dọn sạch</font>
 
 419
 00:20:34,943 --> 00:20:39,295
 <font color="#bababa">And then done it again 1 2 3 4 5 what happened by Union them</font>
+<font color="#ffff00">Và sau đó thực hiện lại 1 2 3 4 5 chuyện gì đã xảy ra với Liên minh họ</font>
 
 420
 00:20:39,551 --> 00:20:43,647
 <font color="#dadada">It took both of them put them together but since there is three that is duplicate</font>
+<font color="#ffff00">Phải mất cả hai người mới ghép chúng lại với nhau nhưng vì có ba cái trùng lặp</font>
 
 421
 00:20:43,903 --> 00:20:47,743
 <font color="#bfbfbf">It used to be only once 1 to 3:45 that's what union is</font>
+<font color="#ffff00">Trước đây chỉ có một lần từ 1 đến 3:45 đó là sự đoàn kết</font>
 
 422
 00:20:48,255 --> 00:20:51,839
 <font color="#e0e0e0">Next that you want to talk about is intersection which is</font>
+<font color="#ffff00">Tiếp theo mà bạn muốn nói đến là giao lộ</font>
 
 423
 00:20:52,095 --> 00:20:53,887
 <font color="#f3f3f3">Intersection between two different</font>
+<font color="#ffff00">Giao điểm giữa hai khác nhau</font>
 
 424
 00:20:54,143 --> 00:20:56,191
 <font color="#bbbbbb">I said so in that particular case</font>
+<font color="#ffff00">Tôi đã nói như vậy trong trường hợp cụ thể đó</font>
 
 425
 00:20:56,447 --> 00:20:58,495
 <font color="#dcdcdc">You can use the and sign</font>
+<font color="#ffff00">Bạn có thể sử dụng và ký tên</font>
 
 426
 00:20:59,263 --> 00:21:02,591
 <font color="#ebebeb">Something like this know the intersection between these two</font>
+<font color="#ffff00">Một cái gì đó như thế này biết sự giao nhau giữa hai điều này</font>
 
 427
 00:21:02,847 --> 00:21:06,687
 <font color="#d0d0d0">Search is 1,200 exist but three exist in both of them</font>
+<font color="#ffff00">Tìm kiếm là 1.200 tồn tại nhưng có ba tồn tại ở cả hai</font>
 
 428
 00:21:06,943 --> 00:21:08,735
 <font color="#dadada">So three is the intersection point</font>
+<font color="#ffff00">Vậy ba là giao điểm</font>
 
 429
 00:21:08,991 --> 00:21:10,271
 <font color="#f7f7f7">So if I run it</font>
+<font color="#ffff00">Vì vậy, nếu tôi chạy nó</font>
 
 430
 00:21:10,527 --> 00:21:11,807
 <font color="#b3b3b3">I get only a</font>
+<font color="#ffff00">Tôi chỉ nhận được một</font>
 
 431
 00:21:12,063 --> 00:21:14,623
 <font color="#b6b6b6">Orbit value of 3 so that's intersection</font>
+<font color="#ffff00">Giá trị quỹ đạo là 3 nên đó là giao điểm</font>
 
 432
 00:21:16,159 --> 00:21:17,696
 <font color="#e4e4e4">Talk about difference</font>
+<font color="#ffff00">Nói về sự khác biệt</font>
 
 433
 00:21:17,952 --> 00:21:18,720
 <font color="#c6c6c6">Differences</font>
+<font color="#ffff00">Sự khác biệt</font>
 
 434
 00:21:18,976 --> 00:21:22,816
 <font color="#f4f4f4">From first set what is difference as compared to the second one</font>
+<font color="#ffff00">Bộ đầu tiên có gì khác biệt so với bộ thứ hai</font>
 
 435
 00:21:23,328 --> 00:21:25,888
 <font color="#f8f8f8">That is done by using the minus symbol</font>
+<font color="#ffff00">Điều đó được thực hiện bằng cách sử dụng ký hiệu dấu trừ</font>
 
 436
 00:21:26,400 --> 00:21:32,288
 <font color="#ececec">Look at the first set and the second set the second set will only check the difference for</font>
+<font color="#ffff00">Nhìn vào tập đầu tiên và tập thứ hai, tập thứ hai sẽ chỉ kiểm tra sự khác biệt</font>
 
 437
 00:21:32,544 --> 00:21:34,848
 <font color="#d0d0d0">What is there not there in set</font>
+<font color="#ffff00">Có gì không có trong bộ</font>
 
 438
 00:21:35,104 --> 00:21:37,408
 <font color="#e1e1e1">So that is 1 and 2 so this will give me</font>
+<font color="#ffff00">Vậy đó là 1 và 2 nên cái này sẽ cho tôi</font>
 
 439
 00:21:37,664 --> 00:21:40,224
 <font color="#e2e2e2">Difference of set 1 and set 2 which is 1 and 2</font>
+<font color="#ffff00">Sự khác biệt của bộ 1 và bộ 2 là 1 và 2</font>
 
 440
 00:21:40,736 --> 00:21:41,760
 <font color="#cbcbcb">So if I run</font>
+<font color="#ffff00">Vì vậy, nếu tôi chạy</font>
 
 441
 00:21:42,784 --> 00:21:48,160
 <font color="#d4d4d4">Baby I have an output which is one too so that's the difference between set one and set two</font>
+<font color="#ffff00">Em yêu, anh cũng có một đầu ra là một nên đó là sự khác biệt giữa tập một và tập hai</font>
 
 442
 00:21:48,416 --> 00:21:49,440
 <font color="#eaeaea">So we created</font>
+<font color="#ffff00">Vì vậy chúng tôi đã tạo ra</font>
 
 443
 00:21:49,696 --> 00:21:51,232
 <font color="#f9f9f9">Union using the pipe</font>
+<font color="#ffff00">Liên minh sử dụng đường ống</font>
 
 444
 00:21:51,744 --> 00:21:55,072
 <font color="#e1e1e1">We created the intersection using and</font>
+<font color="#ffff00">Chúng tôi đã tạo giao lộ bằng cách sử dụng và</font>
 
 445
 00:21:55,328 --> 00:21:59,168
 <font color="#c9c9c9">And we created a difference using minus so that those are basic</font>
+<font color="#ffff00">Và chúng tôi đã tạo ra sự khác biệt bằng cách sử dụng dấu trừ để đó là những điều cơ bản</font>
 
 446
 00:21:59,424 --> 00:22:00,960
 <font color="#eeeeee">Set operations that we have</font>
+<font color="#ffff00">Đặt các hoạt động mà chúng tôi có</font>
 
 447
 00:22:01,728 --> 00:22:03,008
 <font color="#919191">I'm going to come in this out</font>
+<font color="#ffff00">Tôi sẽ đi vào đây</font>
 
 448
 00:22:03,264 --> 00:22:04,544
 <font color="#878787">Save it close it</font>
+<font color="#ffff00">Lưu nó đóng nó lại</font>
 
 449
 00:22:04,800 --> 00:22:05,824
 <font color="#f1f1f1">Because next</font>
+<font color="#ffff00">Bởi vì tiếp theo</font>
 
 450
 00:22:06,080 --> 00:22:08,640
 <font color="#a8a8a8">You're going to jump into our hands on exercise</font>
+<font color="#ffff00">Bạn sẽ tham gia vào bài tập thể dục của chúng tôi</font>
 
 451
 00:22:09,664 --> 00:22:10,688
 <font color="#d3d3d3">Exercise one</font>
+<font color="#ffff00">Bài tập một</font>
 
 452
 00:22:10,944 --> 00:22:13,760
 <font color="#dedede">Is the manipulate data in a dictionary</font>
+<font color="#ffff00">Là dữ liệu thao tác trong từ điển</font>
 
 453
 00:22:14,272 --> 00:22:15,552
 <font color="#dedede">The objective here</font>
+<font color="#ffff00">Mục tiêu ở đây</font>
 
 454
 00:22:15,808 --> 00:22:21,184
 <font color="#efefef">Is practice adding removing and modifying key value pairs in a dictionary</font>
+<font color="#ffff00">Là thực hành thêm việc xóa và sửa đổi các cặp giá trị khóa trong từ điển</font>
 
 455
 00:22:21,696 --> 00:22:26,304
 <font color="#e4e4e4">So first what we'll do is we'll create a dictionary to store information about a person</font>
+<font color="#ffff00">Vì vậy, đầu tiên điều chúng ta sẽ làm là tạo một từ điển để lưu trữ thông tin về một người</font>
 
 456
 00:22:26,816 --> 00:22:30,656
 <font color="#e4e4e4">Will perform different operations like adding a new key value pair</font>
+<font color="#ffff00">Sẽ thực hiện các hoạt động khác nhau như thêm một cặp giá trị khóa mới</font>
 
 457
 00:22:30,912 --> 00:22:32,448
 <font color="#f4f4f4">For the person's address</font>
+<font color="#ffff00">Đối với địa chỉ của người đó</font>
 
 458
 00:22:32,704 --> 00:22:35,008
 <font color="#bebebe">Danville modify the</font>
+<font color="#ffff00">Danville sửa đổi</font>
 
 459
 00:22:35,264 --> 00:22:39,104
 <font color="#b1b1b1">Lucky today and will remove the great key</font>
+<font color="#ffff00">Hôm nay may mắn và sẽ lấy được chiếc chìa khóa tuyệt vời</font>
 
 460
 00:22:39,360 --> 00:22:40,128
 <font color="#c4c4c4">If it exists</font>
+<font color="#ffff00">Nếu nó tồn tại</font>
 
 461
 00:22:40,640 --> 00:22:41,408
 <font color="#fafafa">So let's go ahead</font>
+<font color="#ffff00">Vậy chúng ta hãy tiếp tục</font>
 
 462
 00:22:42,944 --> 00:22:43,968
 <font color="#d3d3d3">Create a new file</font>
+<font color="#ffff00">Tạo một tập tin mới</font>
 
 463
 00:22:44,480 --> 00:22:45,760
 <font color="#a9a9a9">Colorado python file</font>
+<font color="#ffff00">Tập tin trăn Colorado</font>
 
 464
 00:22:46,016 --> 00:22:47,808
 <font color="#c2c2c2">Save it inside day for</font>
+<font color="#ffff00">Lưu nó trong ngày cho</font>
 
 465
 00:22:48,320 --> 00:22:50,112
 <font color="#969696">Call it exercise one</font>
+<font color="#ffff00">Gọi nó là bài tập một</font>
 
 466
 00:22:51,648 --> 00:22:52,416
 <font color="#d1d1d1">And here</font>
+<font color="#ffff00">Và đây</font>
 
 467
 00:22:52,672 --> 00:22:54,464
 <font color="#909090">473 dead person</font>
+<font color="#ffff00">473 người chết</font>
 
 468
 00:22:54,720 --> 00:22:55,744
 <font color="#7a7a7a">Do you value pear</font>
+<font color="#ffff00">Bạn có coi trọng quả lê không</font>
 
 469
 00:22:58,560 --> 00:22:59,328
 <font color="#f0f0f0">Is</font>
+<font color="#ffff00">Là</font>
 
 470
 00:23:00,352 --> 00:23:00,864
 <font color="#1a1a1a">Al</font>
+<font color="#ffff00">Al</font>
 
 471
 00:23:01,888 --> 00:23:04,704
 <font color="#f6f6f6">Next I'm going to say the age of this person</font>
+<font color="#ffff00">Tiếp theo tôi sẽ nói tuổi của người này</font>
 
 472
 00:23:05,216 --> 00:23:06,496
 <font color="#e7e7e7">Is 25</font>
+<font color="#ffff00">Là 25</font>
 
 473
 00:23:07,520 --> 00:23:09,056
 <font color="#d7d7d7">Next time I want to give a grade</font>
+<font color="#ffff00">Lần sau tôi muốn cho điểm</font>
 
 474
 00:23:10,592 --> 00:23:12,384
 <font color="#dfdfdf">And the grid is a grade</font>
+<font color="#ffff00">Và lưới là một lớp</font>
 
 475
 00:23:12,896 --> 00:23:15,712
 <font color="#e9e9e9">So this is my personal the first thing that I want to do</font>
+<font color="#ffff00">Vì vậy, đây là điều cá nhân đầu tiên tôi muốn làm</font>
 
 476
 00:23:16,736 --> 00:23:17,760
 <font color="#e7e7e7">Add</font>
+<font color="#ffff00">Thêm vào</font>
 
 477
 00:23:21,600 --> 00:23:24,672
 <font color="#e5e5e5">So as I mentioned you know first thing that I want to do is add an address</font>
+<font color="#ffff00">Như tôi đã đề cập, bạn biết điều đầu tiên tôi muốn làm là thêm địa chỉ</font>
 
 478
 00:23:24,928 --> 00:23:26,208
 <font color="#a8a8a8">Sexy person</font>
+<font color="#ffff00">Người gợi cảm</font>
 
 479
 00:23:28,768 --> 00:23:29,536
 <font color="#c8c8c8">Address</font>
+<font color="#ffff00">Địa chỉ</font>
 
 480
 00:23:30,304 --> 00:23:31,328
 <font color="#ececec">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 481
 00:23:31,840 --> 00:23:32,864
@@ -1925,583 +2400,729 @@
 482
 00:23:33,120 --> 00:23:34,144
 <font color="#dfdfdf">Main Street</font>
+<font color="#ffff00">Đường chính</font>
 
 483
 00:23:35,168 --> 00:23:37,216
 <font color="#e6e6e6">So that's the address for Alice</font>
+<font color="#ffff00">Vậy đó là địa chỉ của Alice</font>
 
 484
 00:23:37,728 --> 00:23:39,520
 <font color="#fafafa">Next I want to update</font>
+<font color="#ffff00">Tiếp theo tôi muốn cập nhật</font>
 
 485
 00:23:40,800 --> 00:23:41,568
 <font color="#3c3c3c">Call</font>
+<font color="#ffff00">Gọi</font>
 
 486
 00:23:41,824 --> 00:23:43,360
 <font color="#8a8a8a">San Jose update is</font>
+<font color="#ffff00">Cập nhật San Jose là</font>
 
 487
 00:23:43,872 --> 00:23:45,664
 <font color="#e3e3e3">So I'm going to say person</font>
+<font color="#ffff00">Vì vậy tôi sẽ nói người</font>
 
 488
 00:23:48,736 --> 00:23:52,064
 <font color="#cdcdcd">From 25 I'm going to change her age to 32</font>
+<font color="#ffff00">Từ 25 tôi sẽ đổi tuổi cô ấy thành 32</font>
 
 489
 00:23:53,088 --> 00:23:56,160
 <font color="#ececec">Next if there's any grade I want to remove those</font>
+<font color="#ffff00">Tiếp theo nếu có điểm nào tôi muốn xóa chúng</font>
 
 490
 00:23:56,416 --> 00:23:58,464
 <font color="#e8e8e8">Grades from the</font>
+<font color="#ffff00">Điểm số từ</font>
 
 491
 00:23:58,720 --> 00:24:01,024
 <font color="#cdcdcd">Use the so I'm going to check if</font>
+<font color="#ffff00">Sử dụng vì vậy tôi sẽ kiểm tra xem</font>
 
 492
 00:24:03,840 --> 00:24:04,864
 <font color="#cfcfcf">The different way of doing</font>
+<font color="#ffff00">Cách làm khác nhau</font>
 
 493
 00:24:05,632 --> 00:24:08,192
 <font color="#cdcdcd">In person just checking if the key exists</font>
+<font color="#ffff00">Trực tiếp chỉ kiểm tra xem chìa khóa có tồn tại không</font>
 
 494
 00:24:08,448 --> 00:24:09,216
 <font color="#808080">With grade</font>
+<font color="#ffff00">Với lớp</font>
 
 495
 00:24:09,472 --> 00:24:10,496
 <font color="#dcdcdc">What do I want to do</font>
+<font color="#ffff00">Tôi muốn làm gì</font>
 
 496
 00:24:10,752 --> 00:24:11,776
 <font color="#f5f5f5">I want to delete</font>
+<font color="#ffff00">tôi muốn xóa</font>
 
 497
 00:24:12,800 --> 00:24:13,568
 <font color="#d4d4d4">Person</font>
+<font color="#ffff00">Người</font>
 
 498
 00:24:17,408 --> 00:24:18,176
 <font color="#dadada">So next</font>
+<font color="#ffff00">Vậy tiếp theo</font>
 
 499
 00:24:18,432 --> 00:24:20,992
 <font color="#f2f2f2">I am going to say so once I'm done with</font>
+<font color="#ffff00">Tôi sẽ nói như vậy sau khi tôi làm xong việc</font>
 
 500
 00:24:21,248 --> 00:24:24,064
 <font color="#e8e8e8">Deleting this let's print this person out</font>
+<font color="#ffff00">Xóa cái này hãy in người này ra</font>
 
 501
 00:24:24,576 --> 00:24:30,720
 <font color="#e0e0e0">What kind of completes are in dark exercise where we have created a dictionary with three keys with</font>
+<font color="#ffff00">Loại hoàn thành nào trong bài tập tối trong đó chúng ta đã tạo một từ điển có ba phím với</font>
 
 502
 00:24:30,976 --> 00:24:31,488
 <font color="#aeaeae">Share values</font>
+<font color="#ffff00">Chia sẻ giá trị</font>
 
 503
 00:24:31,744 --> 00:24:35,328
 <font color="#c0c0c0">And we added a new key value pair and address to</font>
+<font color="#ffff00">Và chúng tôi đã thêm một cặp giá trị khóa và địa chỉ mới vào</font>
 
 504
 00:24:35,584 --> 00:24:36,352
 <font color="#e5e5e5">This person</font>
+<font color="#ffff00">Người này</font>
 
 505
 00:24:36,608 --> 00:24:39,680
 <font color="#c5c5c5">You get the age of Alice to 32 from 25</font>
+<font color="#ffff00">Bạn nhận được tuổi của Alice từ 25 lên 32</font>
 
 506
 00:24:39,936 --> 00:24:44,800
 <font color="#dbdbdb">And then we saw this great that is existing we removed it from The Weeknd</font>
+<font color="#ffff00">Và sau đó chúng tôi thấy điều tuyệt vời này đang tồn tại, chúng tôi đã xóa nó khỏi The Weeknd</font>
 
 507
 00:24:45,568 --> 00:24:49,408
 <font color="#eaeaea">Print this here first to check and then after our operations</font>
+<font color="#ffff00">In cái này ở đây trước để kiểm tra và sau đó là các hoạt động của chúng tôi</font>
 
 508
 00:24:49,664 --> 00:24:50,688
 <font color="#ececec">Let's check it again</font>
+<font color="#ffff00">Hãy kiểm tra lại lần nữa</font>
 
 509
 00:24:50,944 --> 00:24:51,968
 <font color="#fafafa">So let's go ahead</font>
+<font color="#ffff00">Vậy chúng ta hãy tiếp tục</font>
 
 510
 00:24:52,736 --> 00:24:53,760
 <font color="#858585">Clear this out</font>
+<font color="#ffff00">Xóa cái này đi</font>
 
 511
 00:24:54,272 --> 00:24:54,784
 <font color="#c8c8c8">And say</font>
+<font color="#ffff00">Và nói</font>
 
 512
 00:24:55,040 --> 00:24:55,808
 <font color="#585858">Lights</font>
+<font color="#ffff00">đèn</font>
 
 513
 00:24:56,832 --> 00:24:59,648
 <font color="#737373">Exercise 1.54</font>
+<font color="#ffff00">Bài tập 1.54</font>
 
 514
 00:24:59,904 --> 00:25:00,928
 <font color="#828282">Your name Al</font>
+<font color="#ffff00">Tên của bạn là Al</font>
 
 515
 00:25:01,184 --> 00:25:02,976
 <font color="#c0c0c0">Is 25 grade A</font>
+<font color="#ffff00">Là 25 hạng A</font>
 
 516
 00:25:03,232 --> 00:25:04,512
 <font color="#f4f4f4">Then we added</font>
+<font color="#ffff00">Sau đó chúng tôi đã thêm</font>
 
 517
 00:25:05,024 --> 00:25:08,096
 <font color="#f2f2f2">Address 123 Main Street is there</font>
+<font color="#ffff00">Địa chỉ 123 Main Street ở đó</font>
 
 518
 00:25:08,352 --> 00:25:11,936
 <font color="#e6e6e6">Updated the age from 25 to 32 so that's there</font>
+<font color="#ffff00">Cập nhật tuổi từ 25 lên 32 là thế đó</font>
 
 519
 00:25:12,192 --> 00:25:16,032
 <font color="#e7e7e7">And then we removed grade if it exists so</font>
+<font color="#ffff00">Và sau đó chúng tôi loại bỏ lớp nếu nó tồn tại</font>
 
 520
 00:25:16,288 --> 00:25:18,592
 <font color="#dcdcdc">Remove that grade here so that's our</font>
+<font color="#ffff00">Hãy xóa điểm đó ở đây để đó là điểm của chúng tôi</font>
 
 521
 00:25:18,848 --> 00:25:24,480
 <font color="#e5e5e5">Great exercise one if you had any issues or problems let me know and I'll get back to you and let's get to</font>
+<font color="#ffff00">Bài tập tuyệt vời nếu bạn gặp bất kỳ vấn đề hoặc vấn đề nào, hãy cho tôi biết và tôi sẽ liên hệ lại với bạn và chúng ta hãy bắt đầu</font>
 
 522
 00:25:24,992 --> 00:25:26,016
 <font color="#cacaca">Exercise 2</font>
+<font color="#ffff00">Bài tập 2</font>
 
 523
 00:25:26,272 --> 00:25:29,088
 <font color="#cccccc">Which is the frequency counter</font>
+<font color="#ffff00">Bộ đếm tần số là gì</font>
 
 524
 00:25:29,600 --> 00:25:32,416
 <font color="#efefef">The objective here is to write a program</font>
+<font color="#ffff00">Mục tiêu ở đây là viết một chương trình</font>
 
 525
 00:25:32,672 --> 00:25:33,952
 <font color="#f1f1f1">That takes a sentence</font>
+<font color="#ffff00">Điều đó cần một câu</font>
 
 526
 00:25:34,208 --> 00:25:35,744
 <font color="#c2c2c2">And returns a dictionary</font>
+<font color="#ffff00">Và trả về một từ điển</font>
 
 527
 00:25:36,000 --> 00:25:38,304
 <font color="#f3f3f3">With the frequency count of each word</font>
+<font color="#ffff00">Với số tần số của mỗi từ</font>
 
 528
 00:25:38,816 --> 00:25:42,400
 <font color="#ebebeb">So what we do is we'll take a user input for a sentence here</font>
+<font color="#ffff00">Vì vậy, những gì chúng tôi làm là lấy thông tin đầu vào của người dùng cho một câu ở đây</font>
 
 529
 00:25:42,656 --> 00:25:44,960
 <font color="#e2e2e2">Then we'll split the sentence into words</font>
+<font color="#ffff00">Sau đó chúng ta sẽ chia câu thành các từ</font>
 
 530
 00:25:45,472 --> 00:25:49,824
 <font color="#e2e2e2">And then we'll count the occurrence of each word and store the counts in a dictionary</font>
+<font color="#ffff00">Sau đó chúng ta sẽ đếm số lần xuất hiện của mỗi từ và lưu số đếm vào từ điển</font>
 
 531
 00:25:50,592 --> 00:25:51,360
 <font color="#f7f7f7">So let's go ahead</font>
+<font color="#ffff00">Vậy chúng ta hãy tiếp tục</font>
 
 532
 00:25:51,616 --> 00:25:52,640
 <font color="#f0f0f0">And you can follow along</font>
+<font color="#ffff00">Và bạn có thể làm theo</font>
 
 533
 00:25:52,896 --> 00:25:55,712
 <font color="#fafafa">If you had any problems let me know in between but</font>
+<font color="#ffff00">Nếu bạn gặp bất kỳ vấn đề gì hãy cho tôi biết ở giữa nhưng</font>
 
 534
 00:25:55,968 --> 00:25:56,992
 <font color="#cacaca">I'm going to start</font>
+<font color="#ffff00">tôi sẽ bắt đầu</font>
 
 535
 00:25:58,528 --> 00:26:00,832
 <font color="#696969">Exercise 2.0 Ty</font>
+<font color="#ffff00">Bài tập 2.0 Tý</font>
 
 536
 00:26:01,856 --> 00:26:02,624
 <font color="#3b3b3b">NC</font>
+<font color="#ffff00">NC</font>
 
 537
 00:26:02,880 --> 00:26:04,416
 <font color="#949494">First let's take</font>
+<font color="#ffff00">Đầu tiên chúng ta hãy lấy</font>
 
 538
 00:26:06,208 --> 00:26:07,232
 <font color="#d1d1d1">Sentence</font>
+<font color="#ffff00">Câu</font>
 
 539
 00:26:08,000 --> 00:26:11,328
 <font color="#c9c9c9">As input from our user I'm going to say</font>
+<font color="#ffff00">Với tư cách là thông tin đầu vào từ người dùng của chúng tôi, tôi sẽ nói</font>
 
 540
 00:26:14,656 --> 00:26:16,448
 <font color="#f2f2f2">Sentence to the user</font>
+<font color="#ffff00">Câu gửi người dùng</font>
 
 541
 00:26:16,960 --> 00:26:19,008
 <font color="#e8e8e8">Let them enter give us the input</font>
+<font color="#ffff00">Hãy để họ vào cung cấp cho chúng tôi thông tin đầu vào</font>
 
 542
 00:26:19,520 --> 00:26:23,104
 <font color="#dadada">Then I want to just write this down split</font>
+<font color="#ffff00">Sau đó tôi muốn viết điều này ra</font>
 
 543
 00:26:30,528 --> 00:26:32,576
 <font color="#e5e5e5">Now that can be done by</font>
+<font color="#ffff00">Bây giờ điều đó có thể được thực hiện bởi</font>
 
 544
 00:26:33,344 --> 00:26:37,184
 <font color="#9f9f9f">Creating an office first apparently of the variable</font>
+<font color="#ffff00">Tạo một văn phòng đầu tiên rõ ràng là có biến</font>
 
 545
 00:26:37,440 --> 00:26:38,976
 <font color="#d6d6d6">Words which is a list</font>
+<font color="#ffff00">Những từ là một danh sách</font>
 
 546
 00:26:39,488 --> 00:26:40,512
 <font color="#bcbcbc">Not to this list</font>
+<font color="#ffff00">Không có trong danh sách này</font>
 
 547
 00:26:40,768 --> 00:26:42,560
 <font color="#f4f4f4">I'm going to call the split function</font>
+<font color="#ffff00">Tôi sẽ gọi hàm phân chia</font>
 
 548
 00:26:43,072 --> 00:26:46,400
 <font color="#ececec">So what this does is split function it will take a particular sentence</font>
+<font color="#ffff00">Vì vậy, chức năng này thực hiện là chức năng phân chia, nó sẽ lấy một câu cụ thể</font>
 
 549
 00:26:46,656 --> 00:26:49,472
 <font color="#cacaca">And split it and put it inside this words</font>
+<font color="#ffff00">Và chia nó ra và đặt nó vào trong dòng chữ này</font>
 
 550
 00:26:49,728 --> 00:26:52,032
 <font color="#bfbfbf">What's left so that's what it will do</font>
+<font color="#ffff00">Những gì còn lại thì đó là điều nó sẽ làm</font>
 
 551
 00:26:52,544 --> 00:26:54,848
 <font color="#bcbcbc">Next let's initialize the dictionary</font>
+<font color="#ffff00">Tiếp theo hãy khởi tạo từ điển</font>
 
 552
 00:26:56,896 --> 00:26:58,176
 <font color="#5c5c5c">Initialize</font>
+<font color="#ffff00">Khởi tạo</font>
 
 553
 00:26:59,712 --> 00:27:01,760
 <font color="#f1f1f1">Empty dictionary to do that</font>
+<font color="#ffff00">Từ điển trống để làm điều đó</font>
 
 554
 00:27:02,016 --> 00:27:05,344
 <font color="#cccccc">I am going to say word underscore count</font>
+<font color="#ffff00">Tôi sẽ nói số gạch dưới từ</font>
 
 555
 00:27:05,856 --> 00:27:07,392
 <font color="#dfdfdf">Equal to mg dictionary</font>
+<font color="#ffff00">Tương đương với từ điển mg</font>
 
 556
 00:27:08,928 --> 00:27:10,720
 <font color="#f2f2f2">Next now I want to count</font>
+<font color="#ffff00">Tiếp theo bây giờ tôi muốn đếm</font>
 
 557
 00:27:11,488 --> 00:27:12,256
 <font color="#e1e1e1">The word</font>
+<font color="#ffff00">từ</font>
 
 558
 00:27:13,024 --> 00:27:13,792
 <font color="#dedede">Frequency</font>
+<font color="#ffff00">Tính thường xuyên</font>
 
 559
 00:27:16,352 --> 00:27:19,168
 <font color="#e3e3e3">So do that do that I am going to say for</font>
+<font color="#ffff00">Vì vậy, hãy làm điều đó tôi sẽ nói cho</font>
 
 560
 00:27:22,240 --> 00:27:24,544
 <font color="#d1d1d1">In our words list</font>
+<font color="#ffff00">Trong danh sách từ của chúng tôi</font>
 
 561
 00:27:24,800 --> 00:27:26,592
 <font color="#d8d8d8">I'm going to go through each and every word</font>
+<font color="#ffff00">Tôi sẽ đọc kỹ từng từ</font>
 
 562
 00:27:26,848 --> 00:27:28,896
 <font color="#adadad">And I was a word equal to</font>
+<font color="#ffff00">Và tôi là một từ tương đương với</font>
 
 563
 00:27:29,920 --> 00:27:34,272
 <font color="#d8d8d8">Dark Lord because the user might have entered the same word for example</font>
+<font color="#ffff00">Chúa tể bóng tối vì người dùng có thể đã nhập cùng một từ chẳng hạn</font>
 
 564
 00:27:34,528 --> 00:27:35,552
 <font color="#eeeeee">I can say</font>
+<font color="#ffff00">tôi có thể nói</font>
 
 565
 00:27:36,832 --> 00:27:41,440
 <font color="#e5e5e5">AI in Capital Area in small couple of times and then it would</font>
+<font color="#ffff00">AI ở Khu vực Thủ đô trong một vài lần và sau đó nó sẽ</font>
 
 566
 00:27:41,696 --> 00:27:42,976
 <font color="#b3b3b3">Take the match to different words</font>
+<font color="#ffff00">Đưa sự phù hợp với các từ khác nhau</font>
 
 567
 00:27:43,232 --> 00:27:46,560
 <font color="#c5c5c5">So I'm converting to lowercase for case insensitivity here</font>
+<font color="#ffff00">Vì vậy, tôi đang chuyển đổi sang chữ thường để phân biệt chữ hoa chữ thường ở đây</font>
 
 568
 00:27:47,328 --> 00:27:48,608
 <font color="#efefef">Next I'm going to check</font>
+<font color="#ffff00">Tiếp theo tôi sẽ kiểm tra</font>
 
 569
 00:27:48,864 --> 00:27:49,888
 <font color="#a3a3a3">If</font>
+<font color="#ffff00">Nếu như</font>
 
 570
 00:27:50,144 --> 00:27:53,216
 <font color="#bdbdbd">Invert underscore Council checking if this</font>
+<font color="#ffff00">Đảo ngược dấu gạch dưới của Hội đồng kiểm tra nếu điều này</font>
 
 571
 00:27:53,472 --> 00:27:56,032
 <font color="#f2f2f2">What has been counted before if it has been</font>
+<font color="#ffff00">Những gì đã được tính trước đó nếu nó đã được</font>
 
 572
 00:27:56,288 --> 00:27:57,312
 <font color="#d2d2d2">Counted before</font>
+<font color="#ffff00">Tính trước</font>
 
 573
 00:27:57,568 --> 00:27:58,848
 <font color="#f9f9f9">I am going to say</font>
+<font color="#ffff00">tôi định nói</font>
 
 574
 00:28:00,384 --> 00:28:01,664
 <font color="#7f7f7f">Underscore</font>
+<font color="#ffff00">gạch dưới</font>
 
 575
 00:28:03,712 --> 00:28:05,504
 <font color="#f1f1f1">For that particular word</font>
+<font color="#ffff00">Đối với từ cụ thể đó</font>
 
 576
 00:28:05,760 --> 00:28:07,040
 <font color="#f0f0f0">I want to increment</font>
+<font color="#ffff00">Tôi muốn tăng</font>
 
 577
 00:28:07,296 --> 00:28:08,832
 <font color="#f4f4f4">The number to</font>
+<font color="#ffff00">Số để</font>
 
 578
 00:28:11,904 --> 00:28:12,928
 <font color="#f4f4f4">I'm going to say</font>
+<font color="#ffff00">tôi định nói</font>
 
 579
 00:28:15,488 --> 00:28:17,024
 <font color="#a7a7a7">Underscore count</font>
+<font color="#ffff00">Số dấu gạch dưới</font>
 
 580
 00:28:17,792 --> 00:28:19,584
 <font color="#f0f0f0">For this new word that we</font>
+<font color="#ffff00">Đối với từ mới này mà chúng tôi</font>
 
 581
 00:28:20,096 --> 00:28:21,120
 <font color="#c6c6c6">Came across</font>
+<font color="#ffff00">Đi ngang qua</font>
 
 582
 00:28:21,632 --> 00:28:23,680
 <font color="#bbbbbb">I am going to see if equal to 1</font>
+<font color="#ffff00">Tôi sẽ xem nếu bằng 1</font>
 
 583
 00:28:24,704 --> 00:28:25,728
 <font color="#eeeeee">And that's it</font>
+<font color="#ffff00">Và thế là xong</font>
 
 584
 00:28:25,984 --> 00:28:26,752
 <font color="#f9f9f9">So let's go ahead</font>
+<font color="#ffff00">Vậy chúng ta hãy tiếp tục</font>
 
 585
 00:28:27,008 --> 00:28:28,544
 <font color="#d4d4d4">And print</font>
+<font color="#ffff00">Và in</font>
 
 586
 00:28:29,056 --> 00:28:30,592
 <font color="#dcdcdc">Word count at the end</font>
+<font color="#ffff00">Đếm từ ở cuối</font>
 
 587
 00:28:31,360 --> 00:28:32,640
 <font color="#919191">So there you go so we have</font>
+<font color="#ffff00">Vì vậy, bạn đi vậy nên chúng tôi có</font>
 
 588
 00:28:32,896 --> 00:28:33,920
 <font color="#9e9e9e">Code ready here</font>
+<font color="#ffff00">Mã đã sẵn sàng ở đây</font>
 
 589
 00:28:34,176 --> 00:28:34,688
 <font color="#bdbdbd">Let's run</font>
+<font color="#ffff00">Hãy chạy đi</font>
 
 590
 00:28:34,944 --> 00:28:37,760
 <font color="#efefef">And play with it so I am going to clear this out</font>
+<font color="#ffff00">Và chơi với nó nên tôi sẽ làm rõ điều này</font>
 
 591
 00:28:38,784 --> 00:28:39,552
 <font color="#262626">Pyth</font>
+<font color="#ffff00">Pyth</font>
 
 592
 00:28:40,064 --> 00:28:42,624
 <font color="#919191">Exercise 2.0</font>
+<font color="#ffff00">Bài tập 2.0</font>
 
 593
 00:28:42,880 --> 00:28:44,672
 <font color="#d3d3d3">Enter the sentence so I'm going to say</font>
+<font color="#ffff00">Nhập câu để tôi định nói</font>
 
 594
 00:28:45,440 --> 00:28:46,720
 <font color="#b6b6b6">The AI</font>
+<font color="#ffff00">AI</font>
 
 595
 00:28:47,488 --> 00:28:48,512
 <font color="#d0d0d0">Engineer</font>
+<font color="#ffff00">Kỹ sư</font>
 
 596
 00:28:49,024 --> 00:28:50,048
 <font color="#f1f1f1">Is the</font>
+<font color="#ffff00">là</font>
 
 597
 00:28:50,560 --> 00:28:51,072
 <font color="#c2c2c2">Future</font>
+<font color="#ffff00">Tương lai</font>
 
 598
 00:28:52,096 --> 00:28:57,216
 <font color="#c8c8c8">It says the comes twice because one with capitalized one without capitalized</font>
+<font color="#ffff00">Nó nói rằng xuất hiện hai lần bởi vì một có viết hoa một không có viết hoa</font>
 
 599
 00:28:57,472 --> 00:29:00,800
 <font color="#9a9a9a">Yeah I want engineer ones is Once and Future ones list</font>
+<font color="#ffff00">Vâng, tôi muốn những kỹ sư là danh sách Một lần và Tương lai</font>
 
 600
 00:29:01,056 --> 00:29:02,848
 <font color="#bebebe">Give a bigger one I said</font>
+<font color="#ffff00">Cho một cái lớn hơn tôi đã nói</font>
 
 601
 00:29:04,128 --> 00:29:06,176
 <font color="#f0f0f0">Engineer is the</font>
+<font color="#ffff00">Kỹ sư là</font>
 
 602
 00:29:06,688 --> 00:29:08,480
 <font color="#efefef">Engineer of the</font>
+<font color="#ffff00">Kỹ sư của</font>
 
 603
 00:29:08,992 --> 00:29:10,016
 <font color="#e9e9e9">Future</font>
+<font color="#ffff00">Tương lai</font>
 
 604
 00:29:10,528 --> 00:29:11,808
 <font color="#818181">Who</font>
+<font color="#ffff00">Ai</font>
 
 605
 00:29:12,064 --> 00:29:14,368
 <font color="#f2f2f2">Work on different</font>
+<font color="#ffff00">Làm việc trên khác nhau</font>
 
 606
 00:29:15,904 --> 00:29:16,672
 <font color="#767676">Project</font>
+<font color="#ffff00">Dự án</font>
 
 607
 00:29:17,184 --> 00:29:18,208
 <font color="#adadad">And</font>
+<font color="#ffff00">Và</font>
 
 608
 00:29:18,720 --> 00:29:19,744
 <font color="#e1e1e1">Amazing</font>
+<font color="#ffff00">Tuyệt vời</font>
 
 609
 00:29:21,792 --> 00:29:24,096
 <font color="#bcbcbc">But that's fine so there</font>
+<font color="#ffff00">Nhưng thế thì ổn thôi</font>
 
 610
 00:29:24,352 --> 00:29:27,680
 <font color="#d0d0d0">3 * 8 is twice engineer is twice as you can see</font>
+<font color="#ffff00">3 * 8 gấp đôi kỹ sư gấp đôi như bạn thấy</font>
 
 611
 00:29:27,936 --> 00:29:31,008
 <font color="#e3e3e3">From here to take those things and then give me</font>
+<font color="#ffff00">Từ đây lấy những thứ đó rồi đưa cho tôi</font>
 
 612
 00:29:31,264 --> 00:29:33,568
 <font color="#8b8b8b">Word count are they here</font>
+<font color="#ffff00">Đếm từ họ có ở đây không</font>
 
 613
 00:29:33,824 --> 00:29:39,968
 <font color="#dbdbdb">At work on dictionary which is what we wanted to do so now we have our word frequency counter</font>
+<font color="#ffff00">Khi làm việc về từ điển, đó là điều chúng tôi muốn làm nên giờ đây chúng tôi đã có bộ đếm tần số từ</font>
 
 614
 00:29:40,224 --> 00:29:41,760
 <font color="#e8e8e8">Here I hope you were able to follow along</font>
+<font color="#ffff00">Ở đây tôi hy vọng bạn có thể làm theo</font>
 
 615
 00:29:42,016 --> 00:29:45,088
 <font color="#f6f6f6">If you had any issues or problems let me know and I'll get back to you</font>
+<font color="#ffff00">Nếu bạn có bất kỳ vấn đề hoặc vấn đề nào, hãy cho tôi biết và tôi sẽ liên hệ lại với bạn</font>
 
 616
 00:29:45,600 --> 00:29:50,464
 <font color="#f9f9f9">Next for some additional practice I recommend you can write a program</font>
+<font color="#ffff00">Tiếp theo để thực hành thêm, tôi khuyên bạn nên viết một chương trình</font>
 
 617
 00:29:50,976 --> 00:29:52,512
 <font color="#e5e5e5">Reverse a list of</font>
+<font color="#ffff00">Đảo ngược danh sách</font>
 
 618
 00:29:52,768 --> 00:29:55,328
 <font color="#eaeaea">And remove duplicates using a set</font>
+<font color="#ffff00">Và loại bỏ các bản sao bằng cách sử dụng một bộ</font>
 
 619
 00:29:56,096 --> 00:29:59,936
 <font color="#ebebeb">Then another thing that you can do is create a program that stores</font>
+<font color="#ffff00">Sau đó, một việc khác bạn có thể làm là tạo một chương trình lưu trữ</font>
 
 620
 00:30:00,960 --> 00:30:04,032
 <font color="#e4e4e4">Grades in a dictionary and calculate the average</font>
+<font color="#ffff00">Điểm trong từ điển và tính điểm trung bình</font>
 
 621
 00:30:04,288 --> 00:30:04,800
 <font color="#434343">Tried</font>
+<font color="#ffff00">Đã thử</font>
 
 622
 00:30:05,312 --> 00:30:06,336
 <font color="#f5f5f5">And let me know if you can</font>
+<font color="#ffff00">Và cho tôi biết nếu bạn có thể</font>
 
 623
 00:30:06,592 --> 00:30:10,688
 <font color="#d0d0d0">Get that working now to summarize on day 4</font>
+<font color="#ffff00">Hãy làm việc đó ngay bây giờ để tóm tắt vào ngày thứ 4</font>
 
 624
 00:30:11,968 --> 00:30:18,112
 <font color="#eaeaea">Get some hands-on experience working with python built-in data structures understanding their properties</font>
+<font color="#ffff00">Có được một số kinh nghiệm thực tế khi làm việc với các cấu trúc dữ liệu tích hợp trong python để hiểu các thuộc tính của chúng</font>
 
 625
 00:30:18,368 --> 00:30:19,904
 <font color="#d4d4d4">Please and Performing operations on them</font>
+<font color="#ffff00">Hãy và thực hiện các thao tác trên chúng</font>
 
 626
 00:30:20,160 --> 00:30:26,304
 <font color="#e5e5e5">The handsome exercises insured practical application building a strong foundation for handling</font>
+<font color="#ffff00">Các bài tập đẹp mắt đảm bảo tính ứng dụng thực tế, xây dựng nền tảng vững chắc để xử lý</font>
 
 627
 00:30:26,560 --> 00:30:29,376
 <font color="#d0d0d0">And organizing data effectively in Rye projects</font>
+<font color="#ffff00">Và tổ chức dữ liệu hiệu quả trong các dự án Rye</font>

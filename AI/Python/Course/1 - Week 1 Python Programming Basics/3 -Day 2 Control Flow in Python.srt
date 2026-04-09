@@ -1,682 +1,852 @@
 ﻿1
 00:00:00,512 --> 00:00:01,280
 <font color="#eaeaea">Welcome back</font>
+<font color="#ffff00">Chào mừng trở lại</font>
 
 2
 00:00:01,792 --> 00:00:05,632
 <font color="#dddddd">Today on day two we will be covering control flow in Python</font>
+<font color="#ffff00">Hôm nay vào ngày thứ hai, chúng ta sẽ đề cập đến luồng điều khiển trong Python</font>
 
 3
 00:00:06,144 --> 00:00:07,680
 <font color="#d7d7d7">Control flow is pretty important</font>
+<font color="#ffff00">Luồng điều khiển khá quan trọng</font>
 
 4
 00:00:07,936 --> 00:00:11,264
 <font color="#f8f8f8">So let's get started initially with conditional statements</font>
+<font color="#ffff00">Vì vậy, hãy bắt đầu với các câu lệnh có điều kiện</font>
 
 5
 00:00:11,520 --> 00:00:14,848
 <font color="#e3e3e3">Conditional statements allow a program to execute</font>
+<font color="#ffff00">Câu lệnh có điều kiện cho phép chương trình thực thi</font>
 
 6
 00:00:15,104 --> 00:00:18,432
 <font color="#f9f9f9">Specific blocks of code based on the conditions</font>
+<font color="#ffff00">Các khối mã cụ thể dựa trên các điều kiện</font>
 
 7
 00:00:18,944 --> 00:00:20,224
 <font color="#d1d1d1">Let's look at a syntax</font>
+<font color="#ffff00">Chúng ta hãy xem một cú pháp</font>
 
 8
 00:00:20,480 --> 00:00:23,808
 <font color="#f9f9f9">Of what all different things are available in the</font>
+<font color="#ffff00">Trong số tất cả những thứ khác nhau có sẵn trong</font>
 
 9
 00:00:24,064 --> 00:00:26,112
 <font color="#dedede">Conditional block first we have if</font>
+<font color="#ffff00">Khối điều kiện đầu tiên chúng ta có nếu</font>
 
 10
 00:00:26,368 --> 00:00:29,696
 <font color="#f2f2f2">Which executes code if a condition is true</font>
+<font color="#ffff00">Thực thi mã nếu điều kiện đúng</font>
 
 11
 00:00:30,464 --> 00:00:31,488
 <font color="#bbbbbb">Do you have Elsa</font>
+<font color="#ffff00">Bạn có Elsa không?</font>
 
 12
 00:00:32,256 --> 00:00:35,840
 <font color="#e4e4e4">Add additional conditions after the initial if</font>
+<font color="#ffff00">Thêm điều kiện bổ sung sau if ban đầu</font>
 
 13
 00:00:36,352 --> 00:00:40,192
 <font color="#dcdcdc">And then finally we have else which executes code</font>
+<font color="#ffff00">Và cuối cùng chúng ta có cái khác thực thi mã</font>
 
 14
 00:00:40,448 --> 00:00:42,752
 <font color="#fcfcfc">If none of the previous conditions are</font>
+<font color="#ffff00">Nếu không có điều kiện nào trước đó được đáp ứng</font>
 
 15
 00:00:43,520 --> 00:00:49,664
 <font color="#dbdbdb">Let's look at couple of examples for doing this so I'm going to open my visual studio code I'm going to create a new file</font>
+<font color="#ffff00">Hãy xem một số ví dụ để thực hiện việc này. Tôi sẽ mở mã phòng thu trực quan của mình. Tôi sẽ tạo một tệp mới</font>
 
 16
 00:00:49,920 --> 00:00:51,200
 <font color="#cfcfcf">I'll call it python file</font>
+<font color="#ffff00">Tôi sẽ gọi nó là tập tin python</font>
 
 17
 00:00:51,456 --> 00:00:54,016
 <font color="#f0f0f0">I'll save it on my desktop</font>
+<font color="#ffff00">Tôi sẽ lưu nó trên máy tính để bàn của tôi</font>
 
 18
 00:00:54,528 --> 00:00:55,808
 <font color="#a4a4a4">AI boot camp</font>
+<font color="#ffff00">Chương trình đào tạo AI</font>
 
 19
 00:00:56,320 --> 00:00:57,600
 <font color="#d1d1d1">I create a new folder</font>
+<font color="#ffff00">Tôi tạo một thư mục mới</font>
 
 20
 00:00:57,856 --> 00:01:01,952
 <font color="#a9a9a9">Are inside Week 1 and 3 new folder since this day to inside</font>
+<font color="#ffff00">Có trong thư mục mới của Tuần 1 và 3 kể từ ngày này đến bên trong</font>
 
 21
 00:01:02,464 --> 00:01:03,488
 <font color="#7b7b7b">Are week one</font>
+<font color="#ffff00">Là tuần một</font>
 
 22
 00:01:04,000 --> 00:01:04,768
 <font color="#eaeaea">And here</font>
+<font color="#ffff00">Và đây</font>
 
 23
 00:01:05,024 --> 00:01:06,560
 <font color="#f8f8f8">I am going to save this</font>
+<font color="#ffff00">Tôi sẽ lưu cái này</font>
 
 24
 00:01:07,072 --> 00:01:08,608
 <font color="#ababab">As day</font>
+<font color="#ffff00">Như ngày</font>
 
 25
 00:01:09,120 --> 00:01:10,656
 <font color="#7e7e7e">Underscore one</font>
+<font color="#ffff00">Gạch dưới một</font>
 
 26
 00:01:10,912 --> 00:01:11,680
 <font color="#3f3f3f">Dirty</font>
+<font color="#ffff00">Bẩn thỉu</font>
 
 27
 00:01:13,216 --> 00:01:13,728
 <font color="#d6d6d6">And here</font>
+<font color="#ffff00">Và đây</font>
 
 28
 00:01:13,984 --> 00:01:14,752
 <font color="#f1f1f1">Let's start</font>
+<font color="#ffff00">Hãy bắt đầu</font>
 
 29
 00:01:15,008 --> 00:01:16,288
 <font color="#dfdfdf">With an example</font>
+<font color="#ffff00">Với một ví dụ</font>
 
 30
 00:01:16,800 --> 00:01:18,336
 <font color="#c8c8c8">It's called example one</font>
+<font color="#ffff00">Nó được gọi là ví dụ một</font>
 
 31
 00:01:19,360 --> 00:01:21,152
 <font color="#f3f3f3">We are checking a particular</font>
+<font color="#ffff00">Chúng tôi đang kiểm tra một trường hợp cụ thể</font>
 
 32
 00:01:21,664 --> 00:01:26,272
 <font color="#eaeaea">Condition using control flow so I'm going to create a number variable</font>
+<font color="#ffff00">Điều kiện sử dụng luồng điều khiển nên tôi sẽ tạo một biến số</font>
 
 33
 00:01:26,528 --> 00:01:28,576
 <font color="#d6d6d6">And give it a value of 10</font>
+<font color="#ffff00">Và cho nó giá trị là 10</font>
 
 34
 00:01:29,088 --> 00:01:30,624
 <font color="#eeeeee">Next I'm going to check</font>
+<font color="#ffff00">Tiếp theo tôi sẽ kiểm tra</font>
 
 35
 00:01:31,136 --> 00:01:31,904
 <font color="#cccccc">If number</font>
+<font color="#ffff00">Nếu số</font>
 
 36
 00:01:32,416 --> 00:01:35,232
 <font color="#eeeeee">Is greater than zero which is true in our case</font>
+<font color="#ffff00">Lớn hơn 0, điều này đúng trong trường hợp của chúng tôi</font>
 
 37
 00:01:35,744 --> 00:01:36,768
 <font color="#e4e4e4">It will say</font>
+<font color="#ffff00">Nó sẽ nói</font>
 
 38
 00:01:37,792 --> 00:01:38,560
 <font color="#999999">Or print</font>
+<font color="#ffff00">Hoặc in</font>
 
 39
 00:01:40,352 --> 00:01:41,120
 <font color="#ebebeb">Positive</font>
+<font color="#ffff00">Tích cực</font>
 
 40
 00:01:42,144 --> 00:01:42,656
 <font color="#d0d0d0">Number</font>
+<font color="#ffff00">Con số</font>
 
 41
 00:01:45,216 --> 00:01:51,360
 <font color="#e6e6e6">This is a conditional statement where it will check if a variable is greater than 0 which is in this case is so</font>
+<font color="#ffff00">Đây là một câu lệnh có điều kiện trong đó nó sẽ kiểm tra xem một biến có lớn hơn 0 hay không, trong trường hợp này là như vậy</font>
 
 42
 00:01:51,616 --> 00:01:52,128
 <font color="#a2a2a2">Going to bring this</font>
+<font color="#ffff00">Đang định mang cái này</font>
 
 43
 00:01:53,664 --> 00:01:55,968
 <font color="#fbfbfb">What is I want to check for multiple conditions</font>
+<font color="#ffff00">Tôi muốn kiểm tra nhiều điều kiện là gì</font>
 
 44
 00:01:56,224 --> 00:01:57,760
 <font color="#626262">Elsa</font>
+<font color="#ffff00">Elsa</font>
 
 45
 00:01:58,272 --> 00:01:59,040
 <font color="#dcdcdc">Number</font>
+<font color="#ffff00">Con số</font>
 
 46
 00:01:59,808 --> 00:02:00,576
 <font color="#efefef">Equal to</font>
+<font color="#ffff00">bằng với</font>
 
 47
 00:02:01,600 --> 00:02:03,136
 <font color="#dbdbdb">So let's see if the number is 0</font>
+<font color="#ffff00">Vậy hãy xem số đó có phải là 0 không</font>
 
 48
 00:02:03,392 --> 00:02:05,440
 <font color="#f4f4f4">Then I want to just say print</font>
+<font color="#ffff00">Sau đó tôi chỉ muốn nói in</font>
 
 49
 00:02:05,952 --> 00:02:06,720
 <font color="#636363">Zero</font>
+<font color="#ffff00">số không</font>
 
 50
 00:02:09,536 --> 00:02:11,840
 <font color="#c2c2c2">Finally I also add an else</font>
+<font color="#ffff00">Cuối cùng tôi cũng thêm một cái khác</font>
 
 51
 00:02:12,352 --> 00:02:16,448
 <font color="#f1f1f1">Which means if it's not greater than zero and not equal to 0</font>
+<font color="#ffff00">Có nghĩa là nếu nó không lớn hơn 0 và không bằng 0</font>
 
 52
 00:02:16,704 --> 00:02:20,544
 <font color="#d7d7d7">Then which means is less than 0 which means the negative number so I'm going to say print</font>
+<font color="#ffff00">Vậy thì có nghĩa là nhỏ hơn 0 nghĩa là số âm nên tôi sẽ nói in</font>
 
 53
 00:02:22,336 --> 00:02:23,360
 <font color="#d5d5d5">Negative</font>
+<font color="#ffff00">Tiêu cực</font>
 
 54
 00:02:24,384 --> 00:02:25,152
 <font color="#cacaca">Numbers</font>
+<font color="#ffff00">số</font>
 
 55
 00:02:26,944 --> 00:02:27,968
 <font color="#9d9d9d">Yesterday so</font>
+<font color="#ffff00">Hôm qua vậy</font>
 
 56
 00:02:28,224 --> 00:02:29,248
 <font color="#c1c1c1">Are there positive</font>
+<font color="#ffff00">Có tích cực không</font>
 
 57
 00:02:29,504 --> 00:02:32,320
 <font color="#d6d6d6">What is 0 or a negative number that's what I'm doing here</font>
+<font color="#ffff00">0 hay số âm là gì tôi đang làm ở đây</font>
 
 58
 00:02:32,576 --> 00:02:34,624
 <font color="#eeeeee">I can see if this and go to my</font>
+<font color="#ffff00">Tôi có thể xem nếu điều này và đi đến</font>
 
 59
 00:02:34,880 --> 00:02:35,648
 <font color="#727272">Command prom</font>
+<font color="#ffff00">lệnh vũ hội</font>
 
 60
 00:02:36,416 --> 00:02:39,488
 <font color="#ececec">And see that I am in weak one</font>
+<font color="#ffff00">Và thấy rằng tôi đang yếu đuối</font>
 
 61
 00:02:40,768 --> 00:02:42,304
 <font color="#636363">Elmwood today</font>
+<font color="#ffff00">Elmwood hôm nay</font>
 
 62
 00:02:44,096 --> 00:02:44,864
 <font color="#adadad">Clear this</font>
+<font color="#ffff00">Xóa cái này</font>
 
 63
 00:02:45,376 --> 00:02:48,192
 <font color="#d5d5d5">So I have my day to underscore one I'm going to run this</font>
+<font color="#ffff00">Vì vậy, tôi có ngày để nhấn mạnh một điều. Tôi sẽ thực hiện điều này</font>
 
 64
 00:02:48,448 --> 00:02:49,216
 <font color="#c9c9c9">Python</font>
+<font color="#ffff00">Python</font>
 
 65
 00:02:49,472 --> 00:02:52,288
 <font color="#ababab">Day two underscore one people and it says positive number</font>
+<font color="#ffff00">Ngày thứ hai gạch dưới một người và nó nói số dương</font>
 
 66
 00:02:52,544 --> 00:02:54,848
 <font color="#efefef">If I change this number to 0</font>
+<font color="#ffff00">Nếu tôi thay đổi số này thành 0</font>
 
 67
 00:02:55,616 --> 00:02:57,408
 <font color="#989898">Run this again you'll say zero</font>
+<font color="#ffff00">Chạy lại cái này bạn sẽ nói không</font>
 
 68
 00:02:57,920 --> 00:03:00,736
 <font color="#c7c7c7">If I change it to - that's a 50</font>
+<font color="#ffff00">Nếu tôi đổi nó thành - đó là 50</font>
 
 69
 00:03:01,760 --> 00:03:05,600
 <font color="#f2f2f2">Every time it looks at the number</font>
+<font color="#ffff00">Mỗi lần nhìn vào con số</font>
 
 70
 00:03:05,856 --> 00:03:08,416
 <font color="#fafafa">And depending on which one of these are true</font>
+<font color="#ffff00">Và tùy thuộc vào điều nào trong số này là đúng</font>
 
 71
 00:03:08,672 --> 00:03:11,488
 <font color="#f7f7f7">It will run it will print that particular value</font>
+<font color="#ffff00">Nó sẽ chạy nó sẽ in giá trị cụ thể đó</font>
 
 72
 00:03:11,744 --> 00:03:13,024
 <font color="#d8d8d8">Either if it's greater than</font>
+<font color="#ffff00">Hoặc nếu nó lớn hơn</font>
 
 73
 00:03:13,792 --> 00:03:17,120
 <font color="#cdcdcd">0 which is 50 with print positive if its 0</font>
+<font color="#ffff00">0 là 50 với bản in dương nếu nó là 0</font>
 
 74
 00:03:17,376 --> 00:03:18,656
 <font color="#dddddd">It will print zero</font>
+<font color="#ffff00">Nó sẽ in số không</font>
 
 75
 00:03:19,680 --> 00:03:20,704
 <font color="#cccccc">Finally</font>
+<font color="#ffff00">Cuối cùng</font>
 
 76
 00:03:20,960 --> 00:03:24,800
 <font color="#f4f4f4">If the number is negative something which is less than 0</font>
+<font color="#ffff00">Nếu số âm thì nhỏ hơn 0</font>
 
 77
 00:03:25,056 --> 00:03:26,848
 <font color="#f4f4f4">It will print negative</font>
+<font color="#ffff00">Nó sẽ in âm bản</font>
 
 78
 00:03:27,872 --> 00:03:30,432
 <font color="#e3e3e3">So let's do another example for this just to get</font>
+<font color="#ffff00">Vì vậy, hãy làm một ví dụ khác cho điều này chỉ để có được</font>
 
 79
 00:03:30,944 --> 00:03:33,504
 <font color="#dddddd">Clarity on this I'm going to call it example</font>
+<font color="#ffff00">Rõ ràng về điều này tôi sẽ gọi nó là ví dụ</font>
 
 80
 00:03:35,296 --> 00:03:36,320
 <font color="#f7f7f7">And this one</font>
+<font color="#ffff00">Và cái này</font>
 
 81
 00:03:36,832 --> 00:03:38,368
 <font color="#e2e2e2">I'll call it nested</font>
+<font color="#ffff00">Tôi sẽ gọi nó là lồng nhau</font>
 
 82
 00:03:38,880 --> 00:03:39,904
 <font color="#e4e4e4">Conditions</font>
+<font color="#ffff00">Điều kiện</font>
 
 83
 00:03:40,416 --> 00:03:45,024
 <font color="#e2e2e2">And set it to 25</font>
+<font color="#ffff00">Và đặt nó thành 25</font>
 
 84
 00:03:45,280 --> 00:03:47,072
 <font color="#bcbcbc">And I'm going to check if age</font>
+<font color="#ffff00">Và tôi sẽ kiểm tra xem tuổi</font>
 
 85
 00:03:47,328 --> 00:03:49,120
 <font color="#f6f6f6">Is greater than 18</font>
+<font color="#ffff00">Lớn hơn 18</font>
 
 86
 00:03:51,680 --> 00:03:54,240
 <font color="#e2e2e2">Then I'll put a couple of more conditions in there</font>
+<font color="#ffff00">Sau đó tôi sẽ đặt thêm một vài điều kiện vào đó</font>
 
 87
 00:03:54,752 --> 00:03:56,288
 <font color="#b0b0b0">I'm going to say if it</font>
+<font color="#ffff00">Tôi sẽ nói nếu nó</font>
 
 88
 00:03:58,080 --> 00:03:59,360
 <font color="#e3e3e3">Less than 30</font>
+<font color="#ffff00">Dưới 30</font>
 
 89
 00:04:00,640 --> 00:04:02,432
 <font color="#e8e8e8">Which means the age is in between</font>
+<font color="#ffff00">Nghĩa là độ tuổi nằm ở giữa</font>
 
 90
 00:04:02,688 --> 00:04:06,272
 <font color="#c6c6c6">19 and less than 3229</font>
+<font color="#ffff00">19 và nhỏ hơn 3229</font>
 
 91
 00:04:06,528 --> 00:04:07,808
 <font color="#c3c3c3">Someone said this person</font>
+<font color="#ffff00">Có người đã nói người này</font>
 
 92
 00:04:08,320 --> 00:04:08,832
 <font color="#f3f3f3">Is</font>
+<font color="#ffff00">Là</font>
 
 93
 00:04:09,088 --> 00:04:10,112
 <font color="#b5b5b5">A young adult</font>
+<font color="#ffff00">Một thanh niên trưởng thành</font>
 
 94
 00:04:15,744 --> 00:04:18,047
 <font color="#ececec">If it's not else</font>
+<font color="#ffff00">Nếu không phải là khác</font>
 
 95
 00:04:18,559 --> 00:04:19,839
 <font color="#fbfbfb">I am going to say</font>
+<font color="#ffff00">tôi định nói</font>
 
 96
 00:04:24,703 --> 00:04:25,215
 <font color="#b8b8b8">Adult</font>
+<font color="#ffff00">Người lớn</font>
 
 97
 00:04:27,263 --> 00:04:28,287
 <font color="#ebebeb">Save this</font>
+<font color="#ffff00">Lưu cái này</font>
 
 98
 00:04:28,799 --> 00:04:29,567
 <font color="#eeeeee">I'm going to</font>
+<font color="#ffff00">tôi sẽ</font>
 
 99
 00:04:30,079 --> 00:04:32,639
 <font color="#f2f2f2">Comment this out by putting that</font>
+<font color="#ffff00">Bình luận điều này bằng cách đặt nó</font>
 
 100
 00:04:32,895 --> 00:04:35,455
 <font color="#acacac">Putting the hashtag over there clear this out</font>
+<font color="#ffff00">Đặt hashtag ở đó làm rõ điều này</font>
 
 101
 00:04:35,967 --> 00:04:41,087
 <font color="#cdcdcd">Run this code again it says young adult because the age is 25 but what is the age is 32</font>
+<font color="#ffff00">Chạy lại mã này nó báo thanh niên vì tuổi 25 nhưng tuổi 32 là bao nhiêu</font>
 
 102
 00:04:49,023 --> 00:04:54,911
 <font color="#f0f0f0">I will check if that person is less than 30 then its young adult which means the age is in between</font>
+<font color="#ffff00">Tôi sẽ kiểm tra xem người đó có dưới 30 tuổi hay không thì đó là người trẻ tuổi, nghĩa là độ tuổi ở giữa</font>
 
 103
 00:04:55,423 --> 00:05:01,567
 <font color="#e8e8e8">Between 19 and its between 18 and 30 so it's 1920 up to 29</font>
+<font color="#ffff00">Từ 19 đến 18 đến 30 nên từ 1920 đến 29</font>
 
 104
 00:05:02,079 --> 00:05:04,383
 <font color="#eaeaea">If it's greater than 29 if its 30</font>
+<font color="#ffff00">Nếu nó lớn hơn 29 nếu nó là 30</font>
 
 105
 00:05:04,639 --> 00:05:05,151
 <font color="#4b4b4b">Auto</font>
+<font color="#ffff00">Tự động</font>
 
 106
 00:05:05,407 --> 00:05:10,271
 <font color="#d5d5d5">It will say printable but what if it's 5 it's not even going to run into this so let's see if the age is three</font>
+<font color="#ffff00">Nó sẽ nói có thể in được nhưng nếu là 5 thì sao nó thậm chí không gặp phải vấn đề này nên hãy xem liệu tuổi đó có phải là ba không</font>
 
 107
 00:05:10,783 --> 00:05:14,879
 <font color="#e5e5e5">I run this nothing was printed because it will not even go inside this particular</font>
+<font color="#ffff00">Tôi chạy cái này không có gì được in vì nó thậm chí sẽ không đi vào bên trong cái này</font>
 
 108
 00:05:15,135 --> 00:05:16,671
 <font color="#d3d3d3">Nested conditional statement</font>
+<font color="#ffff00">Câu lệnh điều kiện lồng nhau</font>
 
 109
 00:05:17,183 --> 00:05:20,255
 <font color="#e0e0e0">So that kind of wraps up our control flow in Python</font>
+<font color="#ffff00">Vì vậy, kiểu đó kết thúc luồng điều khiển của chúng ta trong Python</font>
 
 110
 00:05:20,511 --> 00:05:22,303
 <font color="#f2f2f2">Let's go to the next thing that we have to do</font>
+<font color="#ffff00">Hãy chuyển sang việc tiếp theo mà chúng ta phải làm</font>
 
 111
 00:05:22,815 --> 00:05:24,607
 <font color="#ebebeb">Next we have loops</font>
+<font color="#ffff00">Tiếp theo chúng ta có các vòng lặp</font>
 
 112
 00:05:24,863 --> 00:05:26,655
 <font color="#dfdfdf">Know the different types of loops</font>
+<font color="#ffff00">Biết các loại vòng lặp khác nhau</font>
 
 113
 00:05:26,911 --> 00:05:27,935
 <font color="#e0e0e0">You will start with</font>
+<font color="#ffff00">Bạn sẽ bắt đầu với</font>
 
 114
 00:05:28,191 --> 00:05:28,703
 <font color="#2f2f2f">For</font>
+<font color="#ffff00">Vì</font>
 
 115
 00:05:28,959 --> 00:05:29,983
 <font color="#585858">No food</font>
+<font color="#ffff00">Không có thức ăn</font>
 
 116
 00:05:30,239 --> 00:05:36,383
 <font color="#dadada">It reads over a sequence of items it can be a list that you've seen before it can be a double</font>
+<font color="#ffff00">Nó đọc qua một chuỗi các mục, nó có thể là một danh sách mà bạn đã thấy trước đây, nó có thể là một danh sách kép</font>
 
 117
 00:05:36,639 --> 00:05:40,735
 <font color="#f8f8f8">String because string is nothing but</font>
+<font color="#ffff00">Chuỗi vì chuỗi không là gì ngoài</font>
 
 118
 00:05:40,991 --> 00:05:46,367
 <font color="#dfdfdf">Sequence of characters and we also have range and other things which will look</font>
+<font color="#ffff00">Trình tự các ký tự và chúng tôi cũng có phạm vi và những thứ khác sẽ trông như thế nào</font>
 
 119
 00:05:46,623 --> 00:05:51,999
 <font color="#eeeeee">So let's first look at the Syntax for this so if I want to use the same one</font>
+<font color="#ffff00">Vì vậy, trước tiên chúng ta hãy xem Cú pháp của cái này để nếu tôi muốn sử dụng cú pháp tương tự</font>
 
 120
 00:05:53,279 --> 00:05:54,303
 <font color="#cacaca">Commented out</font>
+<font color="#ffff00">Đã nhận xét</font>
 
 121
 00:05:56,095 --> 00:05:56,863
 <font color="#494949">Google</font>
+<font color="#ffff00">Google</font>
 
 122
 00:05:57,375 --> 00:05:58,655
 <font color="#fbfbfb">And I want to look at</font>
+<font color="#ffff00">Và tôi muốn nhìn vào</font>
 
 123
 00:05:59,423 --> 00:06:00,703
 <font color="#d5d5d5">The syntax</font>
+<font color="#ffff00">Cú pháp</font>
 
 124
 00:06:02,751 --> 00:06:03,519
 <font color="#6b6b6b">For Loop</font>
+<font color="#ffff00">Vòng lặp cho</font>
 
 125
 00:06:05,567 --> 00:06:08,127
 <font color="#e0e0e0">And that goes something like that you say for</font>
+<font color="#ffff00">Và điều đó diễn ra giống như những gì bạn nói</font>
 
 126
 00:06:08,383 --> 00:06:08,895
 <font color="#545454">It</font>
+<font color="#ffff00">Nó</font>
 
 127
 00:06:10,431 --> 00:06:12,223
 <font color="#f4f4f4">A particular sequence</font>
+<font color="#ffff00">Một trình tự cụ thể</font>
 
 128
 00:06:12,479 --> 00:06:18,623
 <font color="#e1e1e1">Be it as I mentioned list double string range and or anything else I can write</font>
+<font color="#ffff00">Như tôi đã đề cập, danh sách phạm vi chuỗi kép và hoặc bất cứ điều gì khác tôi có thể viết</font>
 
 129
 00:06:18,879 --> 00:06:19,903
 <font color="#cccccc">My code block</font>
+<font color="#ffff00">Khối mã của tôi</font>
 
 130
 00:06:21,439 --> 00:06:22,207
 <font color="#dedede">Something like that</font>
+<font color="#ffff00">Một cái gì đó như thế</font>
 
 131
 00:06:22,719 --> 00:06:25,791
 <font color="#eaeaea">Now let's go ahead and create an example so what I'm going to do is</font>
+<font color="#ffff00">Bây giờ hãy tiếp tục và tạo một ví dụ để điều tôi sắp làm là</font>
 
 132
 00:06:26,047 --> 00:06:27,839
 <font color="#dedede">I am going to comment this</font>
+<font color="#ffff00">Tôi đang định bình luận điều này</font>
 
 133
 00:06:29,119 --> 00:06:32,447
 <font color="#f9f9f9">And let's create an example where I want to</font>
+<font color="#ffff00">Và hãy tạo một ví dụ mà tôi muốn</font>
 
 134
 00:06:33,727 --> 00:06:35,519
 <font color="#ececec">Through a list of items</font>
+<font color="#ffff00">Thông qua danh sách các mục</font>
 
 135
 00:06:40,127 --> 00:06:43,199
 <font color="#c6c6c6">To do that first let's get that list I'm going to say fruits</font>
+<font color="#ffff00">Để làm điều đó trước tiên hãy lấy danh sách đó Tôi sẽ nói trái cây</font>
 
 136
 00:06:43,711 --> 00:06:45,759
 <font color="#e3e3e3">List of fruits</font>
+<font color="#ffff00">Danh sách trái cây</font>
 
 137
 00:06:46,015 --> 00:06:48,575
 <font color="#fafafa">The first item I want to say apple</font>
+<font color="#ffff00">Mục đầu tiên tôi muốn nói là táo</font>
 
 138
 00:06:49,087 --> 00:06:51,391
 <font color="#ededed">Another one I want to put a banana in there</font>
+<font color="#ffff00">Một cái khác tôi muốn đặt một quả chuối vào đó</font>
 
 139
 00:06:51,647 --> 00:06:52,927
 <font color="#494949">Fancy for</font>
+<font color="#ffff00">ưa thích cho</font>
 
 140
 00:06:53,439 --> 00:06:53,951
 <font color="#3d3d3d">Sports</font>
+<font color="#ffff00">Thể thao</font>
 
 141
 00:06:54,975 --> 00:06:56,511
 <font color="#d4d4d4">Show a list of fruits here</font>
+<font color="#ffff00">Hiển thị danh sách trái cây tại đây</font>
 
 142
 00:06:56,767 --> 00:06:59,327
 <font color="#d8d8d8">And now I want to look through them I'm going to say 4</font>
+<font color="#ffff00">Và bây giờ tôi muốn xem qua chúng tôi sẽ nói 4</font>
 
 143
 00:07:00,095 --> 00:07:01,375
 <font color="#f4f4f4">Fruit</font>
+<font color="#ffff00">Hoa quả</font>
 
 144
 00:07:01,631 --> 00:07:02,399
 <font color="#d4d4d4">Fruits</font>
+<font color="#ffff00">trái cây</font>
 
 145
 00:07:03,679 --> 00:07:08,031
 <font color="#e9e9e9">But it doesn't make sense but it does is</font>
+<font color="#ffff00">Nhưng nó không có ý nghĩa nhưng nó có ý nghĩa</font>
 
 146
 00:07:08,287 --> 00:07:09,055
 <font color="#e6e6e6">It takes</font>
+<font color="#ffff00">Phải mất</font>
 
 147
 00:07:09,823 --> 00:07:13,407
 <font color="#e7e7e7">Each item one time and runs through the loop so for example it will look</font>
+<font color="#ffff00">Mỗi mục một lần và chạy qua vòng lặp, ví dụ như nó sẽ trông</font>
 
 148
 00:07:13,919 --> 00:07:20,063
 <font color="#e3e3e3">For the first time he turns it takes apple and the value of fruit is Apple in this case in the second run when</font>
+<font color="#ffff00">Lần đầu tiên anh ta quay nó lấy quả táo và giá trị của quả là quả táo trong trường hợp này ở lần quay thứ hai khi</font>
 
 149
 00:07:20,319 --> 00:07:23,391
 <font color="#d9d9d9">Runs through it again it will take banana and assign it to fruit</font>
+<font color="#ffff00">Chạy qua nó lại nó sẽ lấy chuối và gán cho quả</font>
 
 150
 00:07:23,647 --> 00:07:26,719
 <font color="#b5b5b5">Cherry and assign it to fruit</font>
+<font color="#ffff00">Cherry và gán nó cho trái cây</font>
 
 151
 00:07:26,975 --> 00:07:29,023
 <font color="#d8d8d8">What I'm going to do here is I'm going to say paint</font>
+<font color="#ffff00">Điều tôi sắp làm ở đây là tôi sẽ nói sơn</font>
 
 152
 00:07:31,583 --> 00:07:32,607
 <font color="#e1e1e1">So this</font>
+<font color="#ffff00">Vậy cái này</font>
 
 153
 00:07:33,119 --> 00:07:34,143
 <font color="#dfdfdf">Let's run it</font>
+<font color="#ffff00">Hãy chạy nó</font>
 
 154
 00:07:35,679 --> 00:07:38,751
 <font color="#d5d5d5">Andrea apple banana and Cherry that's what is printed out here</font>
+<font color="#ffff00">Andrea táo chuối và anh đào đó là những gì được in ra ở đây</font>
 
 155
 00:07:39,263 --> 00:07:45,407
 <font color="#d4d4d4">I can do look through a range which I mentioned earlier the way to do it let me just try to calm</font>
+<font color="#ffff00">Tôi có thể xem qua phạm vi mà tôi đã đề cập trước đó, cách thực hiện hãy để tôi cố gắng bình tĩnh</font>
 
 156
 00:07:47,455 --> 00:07:48,223
 <font color="#b0b0b0">Change</font>
+<font color="#ffff00">Thay đổi</font>
 
 157
 00:07:52,063 --> 00:07:53,087
 <font color="#b4b4b4">Range of</font>
+<font color="#ffff00">Phạm vi của</font>
 
 158
 00:07:55,391 --> 00:07:56,415
 <font color="#ececec">So what this does is</font>
+<font color="#ffff00">Vậy điều này làm là</font>
 
 159
 00:07:56,671 --> 00:08:00,767
 <font color="#b9b9b9">It will it will create a list of 1 to 5 it</font>
+<font color="#ffff00">Nó sẽ tạo ra danh sách từ 1 đến 5 nó</font>
 
 160
 00:08:02,559 --> 00:08:06,399
 <font color="#dfdfdf">It will assign each item once inside this range from 1 to 5</font>
+<font color="#ffff00">Nó sẽ chỉ định từng mục một lần trong phạm vi này từ 1 đến 5</font>
 
 161
 00:08:09,215 --> 00:08:15,359
 <font color="#dadada">It will say 01234 so it does is here it creates let me just add a comment</font>
+<font color="#ffff00">Nó sẽ ghi là 01234 nên nó ở đây nó tạo ra, để tôi thêm nhận xét</font>
 
 162
 00:08:15,615 --> 00:08:16,383
 <font color="#929292">Create a</font>
+<font color="#ffff00">Tạo một</font>
 
 163
 00:08:16,639 --> 00:08:19,199
 <font color="#7b7b7b">40122 sequence</font>
+<font color="#ffff00">Trình tự 40122</font>
 
 164
 00:08:21,503 --> 00:08:27,135
 <font color="#d0d0d0">So when you say number the range of 5 it will create these five items and assign it each</font>
+<font color="#ffff00">Vì vậy, khi bạn nói đánh số trong phạm vi 5, nó sẽ tạo ra năm mục này và gán cho từng mục</font>
 
 165
 00:08:27,391 --> 00:08:30,975
 <font color="#d3d3d3">Every time it runs through the loop so I'm going to say first time it will take zero</font>
+<font color="#ffff00">Mỗi lần nó chạy qua vòng lặp nên tôi sẽ nói lần đầu tiên nó sẽ bằng 0</font>
 
 166
 00:08:35,071 --> 00:08:37,631
 <font color="#e5e5e5">What's so clear this out so you can see it properly</font>
+<font color="#ffff00">Có gì rõ ràng thế này để bạn có thể nhìn rõ nó</font>
 
 167
 00:08:37,887 --> 00:08:42,751
 <font color="#eaeaea">So first it goes through the first item in the range which is 0 it printed out</font>
+<font color="#ffff00">Vì vậy, đầu tiên nó đi qua mục đầu tiên trong phạm vi 0 và nó được in ra</font>
 
 168
 00:08:43,007 --> 00:08:44,031
 <font color="#f5f5f5">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 169
 00:08:44,287 --> 00:08:47,359
 <font color="#c2c2c2">Two three and four these five items are printed one at a time</font>
+<font color="#ffff00">Hai ba và bốn năm mục này được in cùng một lúc</font>
 
 170
 00:08:47,615 --> 00:08:48,383
 <font color="#f5f5f5">If I say</font>
+<font color="#ffff00">Nếu tôi nói</font>
 
 171
 00:08:49,407 --> 00:08:49,919
@@ -685,162 +855,202 @@
 172
 00:08:50,175 --> 00:08:52,735
 <font color="#b8b8b8">Put on this again 01234 all the way</font>
+<font color="#ffff00">Mặc lại cái này đi 01234 luôn</font>
 
 173
 00:08:52,991 --> 00:08:57,599
 <font color="#d8d8d8">Until 9:00 the 10 items if we can display here so this can be used for a bunch of different</font>
+<font color="#ffff00">Cho đến 9:00, 10 mục nếu chúng ta có thể hiển thị ở đây để có thể sử dụng cho nhiều mục đích khác nhau</font>
 
 174
 00:08:57,855 --> 00:09:00,927
 <font color="#c4c4c4">Thanks so that's for Loop for you I'm going to comment it out</font>
+<font color="#ffff00">Cảm ơn vì vậy đó là Loop dành cho bạn Tôi sẽ bình luận nó</font>
 
 175
 00:09:01,951 --> 00:09:05,023
 <font color="#dcdcdc">The next Loop that we're going to look at is while</font>
+<font color="#ffff00">Vòng lặp tiếp theo mà chúng ta sẽ xem xét là while</font>
 
 176
 00:09:05,279 --> 00:09:06,303
 <font color="#292929">Naval</font>
+<font color="#ffff00">hải quân</font>
 
 177
 00:09:06,559 --> 00:09:09,375
 <font color="#f5f5f5">Execute as long as the condition is true</font>
+<font color="#ffff00">Thực hiện miễn là điều kiện còn đúng</font>
 
 178
 00:09:09,887 --> 00:09:15,519
 <font color="#e6e6e6">So what I mean by that is you write a condition with wild for example let me show you the same text</font>
+<font color="#ffff00">Vì vậy, ý tôi là bạn viết một điều kiện với ký tự đại diện chẳng hạn để tôi cho bạn xem văn bản tương tự</font>
 
 179
 00:09:18,591 --> 00:09:19,359
 <font color="#bdbdbd">Send text</font>
+<font color="#ffff00">Gửi văn bản</font>
 
 180
 00:09:20,127 --> 00:09:21,663
 <font color="#a9a9a9">For while</font>
+<font color="#ffff00">Trong một thời gian</font>
 
 181
 00:09:22,175 --> 00:09:23,711
 <font color="#c9c9c9">Is something like this while</font>
+<font color="#ffff00">Có chuyện gì đó như thế này trong khi</font>
 
 182
 00:09:24,223 --> 00:09:25,247
 <font color="#d9d9d9">A condition</font>
+<font color="#ffff00">một điều kiện</font>
 
 183
 00:09:26,271 --> 00:09:27,295
 <font color="#fafafa">So this is</font>
+<font color="#ffff00">Vậy đây là</font>
 
 184
 00:09:27,551 --> 00:09:33,695
 <font color="#eeeeee">It can be a variable name which is a Boolean can be a particular you can equate things and check if</font>
+<font color="#ffff00">Nó có thể là một tên biến là Boolean có thể là một tên cụ thể mà bạn có thể đánh đồng mọi thứ và kiểm tra xem</font>
 
 185
 00:09:33,951 --> 00:09:34,463
 <font color="#eaeaea">This particular</font>
+<font color="#ffff00">Điều đặc biệt này</font>
 
 186
 00:09:34,719 --> 00:09:35,743
 <font color="#e9e9e9">Condition is true</font>
+<font color="#ffff00">Điều kiện là đúng</font>
 
 187
 00:09:35,999 --> 00:09:40,607
 <font color="#f9f9f9">And if that is true then this is the code that it will run</font>
+<font color="#ffff00">Và nếu điều đó đúng thì đây là đoạn mã nó sẽ chạy</font>
 
 188
 00:09:40,863 --> 00:09:44,447
 <font color="#f4f4f4">Until this condition keeps on staying true so if I say</font>
+<font color="#ffff00">Cho đến khi điều kiện này tiếp tục đúng nên nếu tôi nói</font>
 
 189
 00:09:44,703 --> 00:09:45,727
 <font color="#cfcfcf">If true</font>
+<font color="#ffff00">Nếu đúng</font>
 
 190
 00:09:46,239 --> 00:09:51,871
 <font color="#e1e1e1">This is how you can write an infinite Loop so it will keep on running forever unless you add some papers</font>
+<font color="#ffff00">Đây là cách bạn có thể viết một Vòng lặp vô hạn để nó sẽ tiếp tục chạy mãi trừ khi bạn thêm một số giấy tờ</font>
 
 191
 00:09:52,127 --> 00:09:55,199
 <font color="#e4e4e4">Something inside it but will cover that later</font>
+<font color="#ffff00">Có gì đó bên trong nó nhưng sẽ đề cập đến điều đó sau</font>
 
 192
 00:09:55,455 --> 00:09:56,991
 <font color="#cdcdcd">Show comment this out right now</font>
+<font color="#ffff00">Hiển thị bình luận này ngay bây giờ</font>
 
 193
 00:09:57,247 --> 00:09:58,271
 <font color="#f8f8f8">And let's go ahead</font>
+<font color="#ffff00">Và chúng ta hãy tiếp tục</font>
 
 194
 00:09:58,527 --> 00:10:00,063
 <font color="#f6f6f6">And create an example</font>
+<font color="#ffff00">Và tạo một ví dụ</font>
 
 195
 00:10:00,831 --> 00:10:01,599
 <font color="#d9d9d9">I'm going to say</font>
+<font color="#ffff00">tôi định nói</font>
 
 196
 00:10:02,367 --> 00:10:07,487
 <font color="#d8d8d8">Create a calendar I want to create a countdown I'm going to call it countdown from 5:00</font>
+<font color="#ffff00">Tạo lịch Tôi muốn tạo đếm ngược Tôi sẽ gọi nó là đếm ngược từ 5:00</font>
 
 197
 00:10:08,255 --> 00:10:11,839
 <font color="#e2e2e2">So I am going to create a variables account equal to 5</font>
+<font color="#ffff00">Vì vậy tôi sẽ tạo một tài khoản biến bằng 5</font>
 
 198
 00:10:12,351 --> 00:10:14,143
 <font color="#dedede">And then I'm going to survive</font>
+<font color="#ffff00">Và rồi tôi sẽ sống sót</font>
 
 199
 00:10:20,031 --> 00:10:21,311
 <font color="#e3e3e3">Greater than zero</font>
+<font color="#ffff00">Lớn hơn 0</font>
 
 200
 00:10:22,591 --> 00:10:24,383
 <font color="#f1f1f1">I want to print</font>
+<font color="#ffff00">Tôi muốn in</font>
 
 201
 00:10:25,407 --> 00:10:25,919
 <font color="#9c9c9c">Count</font>
+<font color="#ffff00">Đếm</font>
 
 202
 00:10:26,431 --> 00:10:29,247
 <font color="#f1f1f1">What will happen in this case is if I run this</font>
+<font color="#ffff00">Điều gì sẽ xảy ra trong trường hợp này là nếu tôi chạy cái này</font>
 
 203
 00:10:29,503 --> 00:10:33,087
 <font color="#d9d9d9">Discount greater than 0 count value is 5 so it is greater than 0</font>
+<font color="#ffff00">Giảm giá lớn hơn 0 giá trị đếm là 5 nên lớn hơn 0</font>
 
 204
 00:10:33,343 --> 00:10:39,487
 <font color="#c7c7c7">She's going to print five again it will come again and check out greater than 0 it is 5:00 has changed this value</font>
+<font color="#ffff00">Cô ấy định in năm lần nữa, nó sẽ quay lại và kiểm tra lớn hơn 0, lúc đó là 5:00 đã thay đổi giá trị này</font>
 
 205
 00:10:39,743 --> 00:10:42,303
 <font color="#e2e2e2">7555 and keep on going forever</font>
+<font color="#ffff00">7555 và tiếp tục mãi mãi</font>
 
 206
 00:10:42,559 --> 00:10:43,839
 <font color="#d9d9d9">So so that</font>
+<font color="#ffff00">Vì thế mà</font>
 
 207
 00:10:44,095 --> 00:10:46,655
 <font color="#e8e8e8">Does a proper countdown I am going to say</font>
+<font color="#ffff00">Tôi sẽ nói đếm ngược đúng không</font>
 
 208
 00:10:47,167 --> 00:10:48,447
 <font color="#dfdfdf">Reduce</font>
+<font color="#ffff00">Giảm bớt</font>
 
 209
 00:10:48,703 --> 00:10:51,263
 <font color="#e5e5e5">The count by one so what I'm doing here is</font>
+<font color="#ffff00">Đếm từng một nên việc tôi đang làm ở đây là</font>
 
 210
 00:10:51,519 --> 00:10:53,567
 <font color="#f2f2f2">I'm using the decrement operator here</font>
+<font color="#ffff00">Tôi đang sử dụng toán tử giảm dần ở đây</font>
 
 211
 00:10:53,823 --> 00:10:56,127
 <font color="#ababab">Well it's same as saying count</font>
+<font color="#ffff00">Vâng, nó cũng giống như nói đếm</font>
 
 212
 00:10:57,663 --> 00:10:58,431
@@ -849,18 +1059,22 @@
 213
 00:10:58,943 --> 00:11:05,087
 <font color="#e6e6e6">Instead of doing this there's a shortcut which is a decrement operator is also an increment operator or a multiplication</font>
+<font color="#ffff00">Thay vì làm điều này, có một lối tắt là toán tử giảm cũng là toán tử tăng hoặc nhân</font>
 
 214
 00:11:09,695 --> 00:11:14,303
 <font color="#d8d8d8">I will reduce the count by one every time this prints out so 5:00</font>
+<font color="#ffff00">Tôi sẽ giảm số lượng đi một lần mỗi khi bản in này được in ra, tức là 5:00</font>
 
 215
 00:11:14,815 --> 00:11:17,119
 <font color="#dedede">Reduce the value of count to four</font>
+<font color="#ffff00">Giảm giá trị của số đếm xuống còn 4</font>
 
 216
 00:11:17,375 --> 00:11:20,191
 <font color="#c0c0c0">This account is greater than 0 yes it is so four</font>
+<font color="#ffff00">Tài khoản này lớn hơn 0 vâng, nó là bốn</font>
 
 217
 00:11:21,215 --> 00:11:22,495
@@ -869,190 +1083,237 @@
 218
 00:11:22,751 --> 00:11:28,127
 <font color="#c6c6c6">The most sign value 0 is crowned greater than 0 know it will come out and come</font>
+<font color="#ffff00">Giá trị dấu lớn nhất 0 được đăng quang lớn hơn 0 biết sẽ ra và đến</font>
 
 219
 00:11:28,383 --> 00:11:29,663
 <font color="#d8d8d8">Here but I'm going to say</font>
+<font color="#ffff00">Ở đây nhưng tôi sẽ nói</font>
 
 220
 00:11:30,431 --> 00:11:31,455
 <font color="#e5e5e5">Outside</font>
+<font color="#ffff00">Ngoài</font>
 
 221
 00:11:35,039 --> 00:11:37,599
 <font color="#f2f2f2">So that's what will happen so let's go ahead and play with it</font>
+<font color="#ffff00">Vậy đó là điều sẽ xảy ra nên chúng ta hãy tiếp tục và chơi đùa với nó</font>
 
 222
 00:11:38,367 --> 00:11:39,135
 <font color="#e5e5e5">Clear this out</font>
+<font color="#ffff00">Xóa cái này đi</font>
 
 223
 00:11:40,927 --> 00:11:41,439
 <font color="#585858">Granite</font>
+<font color="#ffff00">đá granit</font>
 
 224
 00:11:41,695 --> 00:11:45,023
 <font color="#bebebe">-54321 and outside while loop</font>
+<font color="#ffff00">-54321 và vòng lặp while bên ngoài</font>
 
 225
 00:11:45,279 --> 00:11:47,071
 <font color="#d1d1d1">So that's how my Loop works</font>
+<font color="#ffff00">Vậy đó là cách Vòng lặp của tôi hoạt động</font>
 
 226
 00:11:47,583 --> 00:11:48,863
 <font color="#bcbcbc">I'm going to clear this out</font>
+<font color="#ffff00">Tôi sẽ làm rõ chuyện này</font>
 
 227
 00:11:49,631 --> 00:11:50,655
 <font color="#c9c9c9">Commented out</font>
+<font color="#ffff00">Đã nhận xét</font>
 
 228
 00:11:55,775 --> 00:11:57,823
 <font color="#e8e8e8">And go back to my slides</font>
+<font color="#ffff00">Và quay lại slide của tôi</font>
 
 229
 00:11:58,335 --> 00:12:00,127
 <font color="#d9d9d9">So next Google look at</font>
+<font color="#ffff00">Vì vậy, tiếp theo Google hãy xem xét</font>
 
 230
 00:12:00,383 --> 00:12:06,527
 <font color="#e8e8e8">Using brake and continue for control flow so I mentioned these before a little bit but let's go ahead</font>
+<font color="#ffff00">Sử dụng phanh và tiếp tục điều khiển luồng nên tôi đã đề cập đến những điều này trước một chút nhưng hãy tiếp tục</font>
 
 231
 00:12:06,783 --> 00:12:10,623
 <font color="#c4c4c4">Go ahead and more details of what break and continue does so first break</font>
+<font color="#ffff00">Hãy tiếp tục và biết thêm chi tiết về những gì ngắt và tiếp tục thực hiện như vậy lần nghỉ đầu tiên</font>
 
 232
 00:12:10,879 --> 00:12:12,671
 <font color="#cacaca">Brick terminates the loop</font>
+<font color="#ffff00">Brick kết thúc vòng lặp</font>
 
 233
 00:12:12,927 --> 00:12:16,767
 <font color="#ececec">Prematurely when a condition is met so if a loop is going on</font>
+<font color="#ffff00">Sớm khi một điều kiện được đáp ứng vì vậy nếu một vòng lặp đang diễn ra</font>
 
 234
 00:12:17,023 --> 00:12:20,607
 <font color="#f6f6f6">And you want to stop because a particular condition is met you can use</font>
+<font color="#ffff00">Và bạn muốn dừng lại vì một điều kiện cụ thể được đáp ứng, bạn có thể sử dụng</font>
 
 235
 00:12:20,863 --> 00:12:21,631
 <font color="#dbdbdb">For that</font>
+<font color="#ffff00">Vì điều đó</font>
 
 236
 00:12:21,887 --> 00:12:24,959
 <font color="#e6e6e6">So an example for that can be let me just</font>
+<font color="#ffff00">Vì vậy, một ví dụ cho điều đó có thể để tôi chỉ</font>
 
 237
 00:12:25,727 --> 00:12:28,543
 <font color="#b1b1b1">Create here let's create a formula for I</font>
+<font color="#ffff00">Tạo ở đây hãy tạo một công thức cho tôi</font>
 
 238
 00:12:29,823 --> 00:12:30,847
 <font color="#cfcfcf">Range of</font>
+<font color="#ffff00">Phạm vi của</font>
 
 239
 00:12:32,639 --> 00:12:33,663
 <font color="#f8f8f8">I want to</font>
+<font color="#ffff00">tôi muốn</font>
 
 240
 00:12:36,223 --> 00:12:39,039
 <font color="#efefef">So what this will do right now is if I run this</font>
+<font color="#ffff00">Vì vậy, điều này sẽ làm ngay bây giờ là nếu tôi chạy cái này</font>
 
 241
 00:12:40,575 --> 00:12:46,207
 <font color="#bfbfbf">012-345-6789 because I've seen range of 10 I want to print I should go through that</font>
+<font color="#ffff00">012-345-6789 vì tôi đã nhìn thấy phạm vi 10 Tôi muốn in Tôi nên xem qua điều đó</font>
 
 242
 00:12:46,463 --> 00:12:47,999
 <font color="#e6e6e6">But I want to stop it after 5</font>
+<font color="#ffff00">Nhưng tôi muốn dừng nó sau 5</font>
 
 243
 00:12:48,767 --> 00:12:50,303
 <font color="#efefef">So I can see if</font>
+<font color="#ffff00">Vì vậy tôi có thể xem nếu</font>
 
 244
 00:12:53,119 --> 00:12:54,911
 <font color="#dcdcdc">Equal to 5</font>
+<font color="#ffff00">Bằng 5</font>
 
 245
 00:12:55,423 --> 00:12:57,727
 <font color="#d2d2d2">Some adding a conditional statement here</font>
+<font color="#ffff00">Một số thêm một câu lệnh có điều kiện ở đây</font>
 
 246
 00:12:57,983 --> 00:12:58,495
 <font color="#ededed">Sing</font>
+<font color="#ffff00">Hát</font>
 
 247
 00:12:58,751 --> 00:13:03,359
 <font color="#e1e1e1">If the value of is 5 just break out of this for loop I don't want to run this anymore</font>
+<font color="#ffff00">Nếu giá trị của là 5 thì hãy thoát khỏi vòng lặp for này, tôi không muốn chạy nó nữa</font>
 
 248
 00:13:03,615 --> 00:13:05,407
 <font color="#f8f8f8">And I can always</font>
+<font color="#ffff00">Và tôi luôn có thể</font>
 
 249
 00:13:06,431 --> 00:13:07,967
 <font color="#b8b8b8">Put this year outside</font>
+<font color="#ffff00">Đặt năm nay ở bên ngoài</font>
 
 250
 00:13:08,991 --> 00:13:09,503
 <font color="#848484">For</font>
+<font color="#ffff00">Vì</font>
 
 251
 00:13:11,807 --> 00:13:12,575
 <font color="#676767">Run this</font>
+<font color="#ffff00">Chạy cái này</font>
 
 252
 00:13:13,087 --> 00:13:18,207
 <font color="#dddddd">You see 01234 because when the value of 5 it will break out from this for Loop</font>
+<font color="#ffff00">Bạn thấy 01234 vì khi về giá trị 5 nó sẽ thoát ra khỏi vòng lặp này</font>
 
 253
 00:13:18,463 --> 00:13:22,559
 <font color="#d2d2d2">And come outside and bring this if I similarly I can say 7</font>
+<font color="#ffff00">Và hãy ra ngoài và mang theo cái này nếu tôi cũng vậy, tôi có thể nói 7</font>
 
 254
 00:13:23,327 --> 00:13:27,935
 <font color="#ececec">It will print all the way till 6:00 and then come outside the loop</font>
+<font color="#ffff00">Nó sẽ in hết cho đến 6:00 rồi ra ngoài vòng lặp</font>
 
 255
 00:13:28,191 --> 00:13:34,335
 <font color="#f1f1f1">So that's how you can break a particular Loop it maybe it's four or while anything you can break out of the loop by using</font>
+<font color="#ffff00">Vì vậy, đó là cách bạn có thể phá vỡ một Vòng lặp cụ thể, có thể đó là bốn hoặc trong khi bất cứ điều gì bạn có thể thoát ra khỏi vòng lặp bằng cách sử dụng</font>
 
 256
 00:13:36,383 --> 00:13:37,919
 <font color="#f5f5f5">We have continued</font>
+<font color="#ffff00">Chúng tôi đã tiếp tục</font>
 
 257
 00:13:38,175 --> 00:13:44,063
 <font color="#dedede">Now continue skip the current iteration and proceed to the next one so what happens is it</font>
+<font color="#ffff00">Bây giờ hãy tiếp tục bỏ qua lần lặp hiện tại và chuyển sang lần lặp tiếp theo, vậy chuyện gì sẽ xảy ra</font>
 
 258
 00:13:44,319 --> 00:13:45,599
 <font color="#e7e7e7">If you're running a loop</font>
+<font color="#ffff00">Nếu bạn đang chạy một vòng lặp</font>
 
 259
 00:13:45,855 --> 00:13:51,999
 <font color="#fbfbfb">It will skip that particular operation and run to the next one so for example in this particular</font>
+<font color="#ffff00">Nó sẽ bỏ qua thao tác cụ thể đó và chạy sang thao tác tiếp theo, ví dụ như trong thao tác cụ thể này</font>
 
 260
 00:13:52,255 --> 00:13:54,303
 <font color="#d1d1d1">Make a Sim case I can give you an example</font>
+<font color="#ffff00">Làm một chiếc ốp lưng Sim tôi có thể cho bạn một ví dụ</font>
 
 261
 00:13:55,327 --> 00:13:55,839
 <font color="#e0e0e0">Continue</font>
+<font color="#ffff00">Tiếp tục</font>
 
 262
 00:13:56,095 --> 00:13:59,423
 <font color="#f6f6f6">So what will happen is in this case when the value of i7</font>
+<font color="#ffff00">Vậy điều gì sẽ xảy ra trong trường hợp này khi giá trị của i7</font>
 
 263
 00:13:59,679 --> 00:14:00,959
 <font color="#f0f0f0">It will skip that</font>
+<font color="#ffff00">Nó sẽ bỏ qua điều đó</font>
 
 264
 00:14:01,471 --> 00:14:05,567
 <font color="#e8e8e8">Print and go back here so it will say 01234</font>
+<font color="#ffff00">In ra rồi quay lại đây sẽ là 01234</font>
 
 265
 00:14:05,823 --> 00:14:06,591
@@ -1061,258 +1322,322 @@
 266
 00:14:06,847 --> 00:14:11,967
 <font color="#d5d5d5">And then skip seven and go 8910 so it's continues to the next Loop</font>
+<font color="#ffff00">Sau đó bỏ qua số bảy và chuyển sang số 8910 để tiếp tục đến Vòng lặp tiếp theo</font>
 
 267
 00:14:12,735 --> 00:14:14,783
 <font color="#f6f6f6">So if I run this let's go ahead</font>
+<font color="#ffff00">Vì vậy, nếu tôi chạy cái này, hãy tiếp tục</font>
 
 268
 00:14:16,575 --> 00:14:21,695
 <font color="#bebebe">Since you don't want to 3456 the 7 is missing 899 similarly if I want to miss let's say</font>
+<font color="#ffff00">Vì bạn không muốn 3456 nên số 7 thiếu 899 tương tự nếu tôi muốn trượt hãy nói</font>
 
 269
 00:14:24,767 --> 00:14:30,911
 <font color="#e4e4e4">Run it 01234 I can skip something and run can still continue running the loop so that's</font>
+<font color="#ffff00">Chạy nó 01234 Tôi có thể bỏ qua nội dung nào đó và chạy vẫn có thể tiếp tục chạy vòng lặp nên thế là xong</font>
 
 270
 00:14:31,167 --> 00:14:32,191
 <font color="#d2d2d2">What continues used for</font>
+<font color="#ffff00">Tiếp tục dùng để làm gì</font>
 
 271
 00:14:36,799 --> 00:14:38,079
 <font color="#e1e1e1">I'm going to comment this out</font>
+<font color="#ffff00">Tôi sẽ bình luận điều này</font>
 
 272
 00:14:38,591 --> 00:14:40,383
 <font color="#d4d4d4">And I'm going to say for I</font>
+<font color="#ffff00">Và tôi sẽ nói thay cho tôi</font>
 
 273
 00:14:40,895 --> 00:14:43,199
 <font color="#cdcdcd">In a range of</font>
+<font color="#ffff00">Trong một phạm vi</font>
 
 274
 00:14:43,711 --> 00:14:46,015
 <font color="#ececec">And in here I am checking if</font>
+<font color="#ffff00">Và ở đây tôi đang kiểm tra xem</font>
 
 275
 00:14:48,319 --> 00:14:54,463
 <font color="#dadada">More I'm not sure if you use the more operator but it gives you if it's divisible by two or not if it's divey</font>
+<font color="#ffff00">Hơn nữa Tôi không chắc liệu bạn có sử dụng toán tử more hay không nhưng nó sẽ cho bạn biết liệu nó có chia hết cho hai hay không nếu nó lặn</font>
 
 276
 00:14:54,719 --> 00:14:55,487
 <font color="#ababab">Visible by two</font>
+<font color="#ffff00">Có thể nhìn thấy bởi hai</font>
 
 277
 00:14:55,743 --> 00:14:58,559
 <font color="#d8d8d8">I want to sorry continue not break</font>
+<font color="#ffff00">Tôi muốn xin lỗi tiếp tục không phá vỡ</font>
 
 278
 00:14:59,327 --> 00:15:01,375
 <font color="#f1f1f1">And go to the next one so this will print</font>
+<font color="#ffff00">Và chuyển sang phần tiếp theo để cái này sẽ được in</font>
 
 279
 00:15:02,143 --> 00:15:03,935
 <font color="#909090">Only odd numbers</font>
+<font color="#ffff00">Chỉ có số lẻ</font>
 
 280
 00:15:05,471 --> 00:15:06,751
 <font color="#c3c3c3">So if I run this</font>
+<font color="#ffff00">Vì vậy, nếu tôi chạy cái này</font>
 
 281
 00:15:08,799 --> 00:15:13,919
 <font color="#d0d0d0">13579 so what's happening is it's going through this life range 0 to 10</font>
+<font color="#ffff00">13579 vậy điều đang xảy ra là nó đang trải qua phạm vi cuộc sống từ 0 đến 10</font>
 
 282
 00:15:14,175 --> 00:15:19,295
 <font color="#d4d4d4">But when it takes 0 it will say 0 divisible by 2 is</font>
+<font color="#ffff00">Nhưng khi lấy 0 thì nó báo 0 chia hết cho 2 là</font>
 
 283
 00:15:19,551 --> 00:15:21,343
 <font color="#dbdbdb">Where is 1 / 2 is 1</font>
+<font color="#ffff00">1/2 ở đâu là 1</font>
 
 284
 00:15:21,599 --> 00:15:23,391
 <font color="#b1b1b1">Schedule print one it will not</font>
+<font color="#ffff00">Lên lịch in một cái nó sẽ không</font>
 
 285
 00:15:23,647 --> 00:15:24,671
 <font color="#d9d9d9">Go inside the slope</font>
+<font color="#ffff00">Đi vào bên trong con dốc</font>
 
 286
 00:15:24,927 --> 00:15:27,999
 <font color="#e3e3e3">But for 2 / 2 is 0 so it will</font>
+<font color="#ffff00">Nhưng với 2/2 là 0 nên sẽ như vậy</font>
 
 287
 00:15:28,767 --> 00:15:30,047
 <font color="#fafafa">Skip this and</font>
+<font color="#ffff00">Bỏ qua điều này và</font>
 
 288
 00:15:30,303 --> 00:15:31,327
 <font color="#8f8f8f">Turtle run through</font>
+<font color="#ffff00">Rùa chạy qua</font>
 
 289
 00:15:31,583 --> 00:15:32,607
 <font color="#c4c4c4">0 to 10</font>
+<font color="#ffff00">0 đến 10</font>
 
 290
 00:15:32,863 --> 00:15:39,007
 <font color="#eaeaea">And it will only look for odd numbers because even numbers are divisible by 2 and the value is 0 so</font>
+<font color="#ffff00">Và nó sẽ chỉ tìm số lẻ vì số chẵn chia hết cho 2 và giá trị là 0 nên</font>
 
 291
 00:15:39,775 --> 00:15:42,847
 <font color="#ededed">Continue and skip that particular loose so that's why I see</font>
+<font color="#ffff00">Tiếp tục và bỏ qua sự lỏng lẻo cụ thể đó vì vậy đó là lý do tại sao tôi thấy</font>
 
 292
 00:15:43,103 --> 00:15:44,383
 <font color="#cfcfcf">All odd numbers here</font>
+<font color="#ffff00">Toàn số lẻ ở đây</font>
 
 293
 00:15:45,919 --> 00:15:48,991
 <font color="#e6e6e6">So now that you've completed all the different</font>
+<font color="#ffff00">Vậy là bây giờ bạn đã hoàn thành tất cả những việc khác nhau</font>
 
 294
 00:15:49,247 --> 00:15:52,319
 <font color="#e6e6e6">Conditional statements and Loops control flow</font>
+<font color="#ffff00">Câu lệnh có điều kiện và luồng điều khiển vòng lặp</font>
 
 295
 00:15:52,575 --> 00:15:56,671
 <font color="#dbdbdb">Types so now we can jump into our hands on exercise</font>
+<font color="#ffff00">Các loại để bây giờ chúng ta có thể bắt tay vào tập thể dục</font>
 
 296
 00:15:56,927 --> 00:15:58,207
 <font color="#ababab">Are first exercise</font>
+<font color="#ffff00">Là bài tập đầu tiên</font>
 
 297
 00:15:58,463 --> 00:16:01,023
 <font color="#eaeaea">Is to check if a number is prime</font>
+<font color="#ffff00">Là để kiểm tra xem một số có phải là số nguyên tố không</font>
 
 298
 00:16:01,279 --> 00:16:04,607
 <font color="#e4e4e4">So here are the main objective is to write a Python program</font>
+<font color="#ffff00">Vì vậy, đây là mục tiêu chính là viết chương trình Python</font>
 
 299
 00:16:04,863 --> 00:16:07,935
 <font color="#f1f1f1">To determine if a given number is a prime number</font>
+<font color="#ffff00">Để xác định xem một số đã cho có phải là số nguyên tố hay không</font>
 
 300
 00:16:08,191 --> 00:16:14,335
 <font color="#f1f1f1">So for this first you need to know what a prime number is a prime number is only divisible by one and</font>
+<font color="#ffff00">Vì vậy, trước tiên bạn cần biết số nguyên tố là số nguyên tố chỉ chia hết cho một và</font>
 
 301
 00:16:15,359 --> 00:16:21,503
 <font color="#e4e4e4">We can use a loop to check divisibility for numbers between 2 and the square root of</font>
+<font color="#ffff00">Chúng ta có thể sử dụng vòng lặp để kiểm tra tính chia hết của các số từ 2 đến căn bậc hai của</font>
 
 302
 00:16:21,759 --> 00:16:22,783
 <font color="#c5c5c5">Does the given number</font>
+<font color="#ffff00">Liệu số đã cho</font>
 
 303
 00:16:23,039 --> 00:16:29,183
 <font color="#f4f4f4">That's what we can do and we can break the loop if a divisor if a divisor is found in this particular case</font>
+<font color="#ffff00">Đó là những gì chúng ta có thể làm và chúng ta có thể phá vỡ vòng lặp nếu tìm thấy ước số trong trường hợp cụ thể này</font>
 
 304
 00:16:29,439 --> 00:16:30,463
 <font color="#fbfbfb">So that's how you can</font>
+<font color="#ffff00">Vậy đó là cách bạn có thể</font>
 
 305
 00:16:30,719 --> 00:16:33,023
 <font color="#f9f9f9">Get prime numbers so let's go ahead</font>
+<font color="#ffff00">Nhận số nguyên tố vì vậy hãy tiếp tục</font>
 
 306
 00:16:34,303 --> 00:16:37,375
 <font color="#e4e4e4">And I'm going to leave it as it is this one I'm going to create a new file</font>
+<font color="#ffff00">Và tôi sẽ để nó như thế này. Tôi sẽ tạo một tập tin mới</font>
 
 307
 00:16:37,631 --> 00:16:38,911
 <font color="#f0f0f0">Save it as</font>
+<font color="#ffff00">Lưu nó dưới dạng</font>
 
 308
 00:16:42,239 --> 00:16:43,263
 <font color="#e1e1e1">Exercise</font>
+<font color="#ffff00">Bài tập</font>
 
 309
 00:16:44,543 --> 00:16:45,311
 <font color="#4f4f4f">Dot TV</font>
+<font color="#ffff00">chấm tivi</font>
 
 310
 00:16:47,615 --> 00:16:51,199
 <font color="#dddddd">First let's get the number number equal to 8</font>
+<font color="#ffff00">Đầu tiên hãy lấy số bằng 8</font>
 
 311
 00:16:52,991 --> 00:16:57,599
 <font color="#dedede">Instead of me giving a number here giving the setting a variable</font>
+<font color="#ffff00">Thay vì tôi đưa ra một con số ở đây, hãy đưa ra một biến</font>
 
 312
 00:16:57,855 --> 00:17:00,415
 <font color="#d3d3d3">With the number what I'm going to do is I'm going to ask the user</font>
+<font color="#ffff00">Với con số điều tôi sắp làm là tôi sẽ hỏi người dùng</font>
 
 313
 00:17:00,671 --> 00:17:02,463
 <font color="#f7f7f7">Who is going to run the</font>
+<font color="#ffff00">Ai sẽ điều hành</font>
 
 314
 00:17:02,719 --> 00:17:03,743
 <font color="#bebebe">Command prompt</font>
+<font color="#ffff00">Dấu nhắc lệnh</font>
 
 315
 00:17:03,999 --> 00:17:07,327
 <font color="#f4f4f4">Give me that number so I can use input</font>
+<font color="#ffff00">Cho tôi số đó để tôi có thể sử dụng đầu vào</font>
 
 316
 00:17:08,351 --> 00:17:09,887
 <font color="#f1f1f1">And I can ask the user</font>
+<font color="#ffff00">Và tôi có thể hỏi người dùng</font>
 
 317
 00:17:10,143 --> 00:17:10,911
 <font color="#f5f5f5">Enter</font>
+<font color="#ffff00">Đi vào</font>
 
 318
 00:17:12,703 --> 00:17:13,471
 <font color="#aeaeae">So there you</font>
+<font color="#ffff00">Thế đấy bạn</font>
 
 319
 00:17:14,239 --> 00:17:15,007
 <font color="#949494">And now</font>
+<font color="#ffff00">Và bây giờ</font>
 
 320
 00:17:15,263 --> 00:17:16,543
 <font color="#c7c7c7">I'm going to say if</font>
+<font color="#ffff00">Tôi sẽ nói nếu</font>
 
 321
 00:17:17,311 --> 00:17:18,079
 <font color="#dfdfdf">Number</font>
+<font color="#ffff00">Con số</font>
 
 322
 00:17:18,591 --> 00:17:20,639
 <font color="#e0e0e0">Is greater than one first of all</font>
+<font color="#ffff00">Trước hết lớn hơn một</font>
 
 323
 00:17:21,663 --> 00:17:22,687
 <font color="#eeeeee">Inside here</font>
+<font color="#ffff00">Bên trong đây</font>
 
 324
 00:17:22,943 --> 00:17:23,967
 <font color="#e7e7e7">I'm going to check</font>
+<font color="#ffff00">Tôi sẽ kiểm tra</font>
 
 325
 00:17:28,063 --> 00:17:28,831
 <font color="#272727">Arranged</font>
+<font color="#ffff00">sắp xếp</font>
 
 326
 00:17:29,343 --> 00:17:30,879
 <font color="#7e7e7e">Of 2</font>
+<font color="#ffff00">trong số 2</font>
 
 327
 00:17:31,391 --> 00:17:32,159
 <font color="#ababab">Integers</font>
+<font color="#ffff00">số nguyên</font>
 
 328
 00:17:33,951 --> 00:17:34,719
 <font color="#d9d9d9">Number</font>
+<font color="#ffff00">Con số</font>
 
 329
 00:17:36,255 --> 00:17:37,279
 <font color="#959595">Race</font>
+<font color="#ffff00">Loài</font>
 
 330
 00:17:37,535 --> 00:17:38,559
@@ -1321,982 +1646,1227 @@
 331
 00:17:41,119 --> 00:17:42,399
 <font color="#9b9b9b">Plus one</font>
+<font color="#ffff00">Cộng một</font>
 
 332
 00:17:44,447 --> 00:17:45,471
 <font color="#c4c4c4">If numb</font>
+<font color="#ffff00">Nếu tê</font>
 
 333
 00:17:49,311 --> 00:17:50,591
 <font color="#eaeaea">Equal to 0</font>
+<font color="#ffff00">Bằng 0</font>
 
 334
 00:17:51,359 --> 00:17:52,639
 <font color="#f9f9f9">Then in this case</font>
+<font color="#ffff00">Sau đó trong trường hợp này</font>
 
 335
 00:17:53,151 --> 00:17:54,687
 <font color="#fdfdfd">This is not a prime number</font>
+<font color="#ffff00">Đây không phải là số nguyên tố</font>
 
 336
 00:17:55,199 --> 00:17:58,271
 <font color="#f2f2f2">So just to go over it again just to understand better</font>
+<font color="#ffff00">Vì vậy, chỉ cần xem lại nó để hiểu rõ hơn</font>
 
 337
 00:17:58,527 --> 00:18:00,063
 <font color="#f6f6f6">What I'm doing here in the first</font>
+<font color="#ffff00">Những gì tôi đang làm ở đây đầu tiên</font>
 
 338
 00:18:01,087 --> 00:18:04,159
 <font color="#dfdfdf">Is amtech I'm asking the user to enter the number</font>
+<font color="#ffff00">Có phải amtech không, tôi đang yêu cầu người dùng nhập số</font>
 
 339
 00:18:04,415 --> 00:18:10,559
 <font color="#f4f4f4">And I'm converting that number into an end right over here and that number I'm saving</font>
+<font color="#ffff00">Và tôi đang chuyển số đó thành số cuối ở đây và số đó tôi đang tiết kiệm</font>
 
 340
 00:18:10,815 --> 00:18:11,583
 <font color="#eeeeee">Inside the variable</font>
+<font color="#ffff00">Bên trong biến</font>
 
 341
 00:18:12,095 --> 00:18:12,607
 <font color="#dddddd">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 342
 00:18:12,863 --> 00:18:19,007
 <font color="#e2e2e2">I'm checking if the number is greater than one you know this text if the input number that I have saved here is greater than 1</font>
+<font color="#ffff00">Tôi đang kiểm tra xem số có lớn hơn một không, bạn biết văn bản này nếu số đầu vào tôi đã lưu ở đây lớn hơn 1</font>
 
 343
 00:18:19,519 --> 00:18:20,543
 <font color="#f1f1f1">But why am I doing it</font>
+<font color="#ffff00">Nhưng tại sao tôi lại làm điều đó</font>
 
 344
 00:18:20,799 --> 00:18:26,943
 <font color="#e9e9e9">Prime numbers are defined as integers greater than 1 that are divisible only by one and themselves</font>
+<font color="#ffff00">Số nguyên tố được định nghĩa là số nguyên lớn hơn 1, chỉ chia hết cho một và chính nó</font>
 
 345
 00:18:27,199 --> 00:18:29,503
 <font color="#ececec">So that's why I am checking if the number is greater than 1</font>
+<font color="#ffff00">Đó là lý do tại sao tôi đang kiểm tra xem số đó có lớn hơn 1 không</font>
 
 346
 00:18:30,015 --> 00:18:35,647
 <font color="#ebebeb">If not it will skip the program and and then proceeded to check if its prime</font>
+<font color="#ffff00">Nếu không, nó sẽ bỏ qua chương trình và sau đó tiến hành kiểm tra xem nó có phải là số nguyên tố không</font>
 
 347
 00:18:36,159 --> 00:18:37,695
 <font color="#f3f3f3">So if not</font>
+<font color="#ffff00">Vì vậy nếu không</font>
 
 348
 00:18:38,463 --> 00:18:44,607
 <font color="#e0e0e0">If not then it will skip to the else block at the end which will write in a little while but</font>
+<font color="#ffff00">Nếu không thì nó sẽ chuyển sang khối khác ở cuối và sẽ viết sau một lát nhưng</font>
 
 349
 00:18:44,863 --> 00:18:47,935
 <font color="#dddddd">Right now here once said the number is 13</font>
+<font color="#ffff00">Ngay bây giờ ở đây đã từng nói con số là 13</font>
 
 350
 00:18:48,191 --> 00:18:54,335
 <font color="#d8d8d8">It's going to check here in line number 327 what does this is range to comma</font>
+<font color="#ffff00">Ở đây chúng ta sẽ kiểm tra dòng số 327 xem phạm vi của dấu phẩy là gì</font>
 
 351
 00:18:54,591 --> 00:18:55,615
 <font color="#3b3b3b">Integer Nam</font>
+<font color="#ffff00">số nguyên nam</font>
 
 352
 00:18:55,871 --> 00:19:00,991
 <font color="#dddddd">Einstein * 5 what it does is it generates numbers</font>
+<font color="#ffff00">Einstein * 5 công dụng của nó là tạo ra các con số</font>
 
 353
 00:19:01,503 --> 00:19:04,575
 <font color="#d7d7d7">Starting from 2 up to the square root of</font>
+<font color="#ffff00">Bắt đầu từ 2 đến căn bậc hai của</font>
 
 354
 00:19:05,855 --> 00:19:07,391
 <font color="#eeeeee">So this is how you get the square root</font>
+<font color="#ffff00">Vì vậy, đây là cách bạn có được căn bậc hai</font>
 
 355
 00:19:07,647 --> 00:19:10,463
 <font color="#f5f5f5">Rounded up to the nearest integer</font>
+<font color="#ffff00">Làm tròn đến số nguyên gần nhất</font>
 
 356
 00:19:11,231 --> 00:19:13,535
 <font color="#e7e7e7">Plus one so that's what's Happening Here</font>
+<font color="#ffff00">Thêm một điều đó là những gì đang xảy ra ở đây</font>
 
 357
 00:19:13,791 --> 00:19:19,935
 <font color="#f4f4f4">Now why am I doing square root here if a number is not divisible by any number less than</font>
+<font color="#ffff00">Bây giờ tại sao tôi lại làm căn bậc hai ở đây nếu một số không chia hết cho bất kỳ số nào nhỏ hơn</font>
 
 358
 00:19:20,191 --> 00:19:22,239
 <font color="#d9d9d9">Equal to its square root it's Prime</font>
+<font color="#ffff00">Bằng căn bậc hai của nó là Prime</font>
 
 359
 00:19:22,495 --> 00:19:25,311
 <font color="#eeeeee">This optimization reduces the number of checks</font>
+<font color="#ffff00">Tối ưu hóa này làm giảm số lượng kiểm tra</font>
 
 360
 00:19:25,823 --> 00:19:27,871
 <font color="#dddddd">So for I in this thing</font>
+<font color="#ffff00">Vì vậy đối với tôi trong việc này</font>
 
 361
 00:19:28,127 --> 00:19:30,687
 <font color="#c7c7c7">It is through each number I</font>
+<font color="#ffff00">Chính là qua từng con số tôi</font>
 
 362
 00:19:30,943 --> 00:19:37,087
 <font color="#efefef">In the generated range to check if number is divisible by I so that's what he's doing here</font>
+<font color="#ffff00">Trong phạm vi được tạo để kiểm tra xem số có chia hết cho tôi hay không, đó là những gì anh ấy đang làm ở đây</font>
 
 363
 00:19:37,599 --> 00:19:43,743
 <font color="#eaeaea">So next in this particular line if not I equal to 0 it checks if the number is</font>
+<font color="#ffff00">Vì vậy, tiếp theo trong dòng cụ thể này nếu không phải tôi bằng 0 thì nó sẽ kiểm tra xem số đó có phải không</font>
 
 364
 00:19:43,999 --> 00:19:50,143
 <font color="#e3e3e3">Invisible by I using the modulus operator if not I equal to zero it means</font>
+<font color="#ffff00">Vô hình khi tôi sử dụng toán tử mô đun nếu không tôi bằng 0, điều đó có nghĩa là</font>
 
 365
 00:19:50,399 --> 00:19:51,935
 <font color="#b6b6b6">Nam is divisible by I</font>
+<font color="#ffff00">Nam chia hết cho I</font>
 
 366
 00:19:52,191 --> 00:19:53,471
 <font color="#f6f6f6">So it's not Prime</font>
+<font color="#ffff00">Vậy nó không phải là Prime</font>
 
 367
 00:19:53,983 --> 00:19:54,495
 <font color="#d0d0d0">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 368
 00:19:55,775 --> 00:19:58,591
 <font color="#d2d2d2">To let the user know that so I'm going to say print</font>
+<font color="#ffff00">Để cho người dùng biết điều đó nên tôi sẽ nói in</font>
 
 369
 00:19:59,359 --> 00:20:02,175
 <font color="#f4f4f4">And since I'm going to add a variable you start with F</font>
+<font color="#ffff00">Và vì tôi sẽ thêm một biến nên bạn bắt đầu bằng F</font>
 
 370
 00:20:02,431 --> 00:20:08,063
 <font color="#e7e7e7">And then here is what you pass the variable inside the curly brackets is not</font>
+<font color="#ffff00">Và đây là những gì bạn chuyển biến bên trong dấu ngoặc nhọn không</font>
 
 371
 00:20:08,575 --> 00:20:09,855
 <font color="#dedede">Prime numbers</font>
+<font color="#ffff00">số nguyên tố</font>
 
 372
 00:20:10,367 --> 00:20:11,647
 <font color="#d9d9d9">So this will show</font>
+<font color="#ffff00">Vì vậy, điều này sẽ hiển thị</font>
 
 373
 00:20:12,671 --> 00:20:15,231
 <font color="#f4f4f4">And I'm going to go and break out of it here</font>
+<font color="#ffff00">Và tôi sẽ đi và thoát khỏi nó ở đây</font>
 
 374
 00:20:15,487 --> 00:20:16,767
 <font color="#c9c9c9">Break out of</font>
+<font color="#ffff00">Thoát ra khỏi</font>
 
 375
 00:20:17,791 --> 00:20:18,815
 <font color="#bebebe">Current look</font>
+<font color="#ffff00">Giao diện hiện tại</font>
 
 376
 00:20:19,583 --> 00:20:21,631
 <font color="#b0b0b0">Else now else is</font>
+<font color="#ffff00">Khác bây giờ khác là</font>
 
 377
 00:20:23,167 --> 00:20:25,983
 <font color="#f8f8f8">This particular case I am going to say</font>
+<font color="#ffff00">Trường hợp cụ thể này tôi sắp nói</font>
 
 378
 00:20:28,287 --> 00:20:29,567
 <font color="#eaeaea">I'm going to print</font>
+<font color="#ffff00">Tôi sắp in</font>
 
 379
 00:20:34,431 --> 00:20:35,199
 <font color="#d8d8d8">Number</font>
+<font color="#ffff00">Con số</font>
 
 380
 00:20:38,783 --> 00:20:39,295
 <font color="#dbdbdb">Number</font>
+<font color="#ffff00">Con số</font>
 
 381
 00:20:39,551 --> 00:20:44,927
 <font color="#dbdbdb">No I have one more if let's make sure we are all aligned on which if I'm writing that too</font>
+<font color="#ffff00">Không, tôi còn một cái nữa nếu hãy đảm bảo rằng tất cả chúng ta đều phù hợp với nhau nếu tôi cũng viết nó</font>
 
 382
 00:20:45,439 --> 00:20:47,743
 <font color="#e9e9e9">And I have one more if on the top</font>
+<font color="#ffff00">Và tôi còn một cái nữa nếu ở trên cùng</font>
 
 383
 00:20:47,999 --> 00:20:49,535
 <font color="#b9b9b9">For that I'm going to else</font>
+<font color="#ffff00">Vì điều đó tôi sẽ đi chỗ khác</font>
 
 384
 00:20:51,839 --> 00:20:52,607
 <font color="#323232">Are</font>
+<font color="#ffff00">Là</font>
 
 385
 00:20:54,911 --> 00:20:55,679
 <font color="#d9d9d9">Number</font>
+<font color="#ffff00">Con số</font>
 
 386
 00:20:55,935 --> 00:20:57,215
 <font color="#a3a3a3">Is not a</font>
+<font color="#ffff00">không phải là một</font>
 
 387
 00:21:05,407 --> 00:21:06,175
 <font color="#c0c0c0">Is</font>
+<font color="#ffff00">Là</font>
 
 388
 00:21:06,431 --> 00:21:07,711
 <font color="#f1f1f1">Prime number</font>
+<font color="#ffff00">số nguyên tố</font>
 
 389
 00:21:07,967 --> 00:21:10,783
 <font color="#dfdfdf">Outside so what's happening here is in the else loops</font>
+<font color="#ffff00">Ở bên ngoài nên những gì đang xảy ra ở đây là trong các vòng lặp khác</font>
 
 390
 00:21:12,319 --> 00:21:16,416
 <font color="#f1f1f1">Once I break out of here if it's not a prime number that's done</font>
+<font color="#ffff00">Một khi tôi thoát ra khỏi đây nếu không phải là số nguyên tố thì xong</font>
 
 391
 00:21:16,928 --> 00:21:19,744
 <font color="#f0f0f0">Next what I'm doing in the following lines is</font>
+<font color="#ffff00">Tiếp theo những gì tôi đang làm trong những dòng sau là</font>
 
 392
 00:21:20,000 --> 00:21:24,864
 <font color="#ececec">I am printing so if if it's not a prime number and if it doesn't mod this</font>
+<font color="#ffff00">Tôi đang in vì vậy nếu nó không phải là số nguyên tố và nếu nó không sửa đổi thì</font>
 
 393
 00:21:25,120 --> 00:21:27,680
 <font color="#e6e6e6">So I'm saying else it's a prime number</font>
+<font color="#ffff00">Vậy tôi đang nói khác nó là số nguyên tố</font>
 
 394
 00:21:27,936 --> 00:21:28,960
 <font color="#f4f4f4">That's what I'm saying here</font>
+<font color="#ffff00">Đó là những gì tôi đang nói ở đây</font>
 
 395
 00:21:29,216 --> 00:21:32,800
 <font color="#ededed">And finally the last else block is associated with the</font>
+<font color="#ffff00">Và cuối cùng khối else cuối cùng được liên kết với</font>
 
 396
 00:21:33,056 --> 00:21:33,824
 <font color="#3c3c3c">Food</font>
+<font color="#ffff00">Đồ ăn</font>
 
 397
 00:21:35,104 --> 00:21:37,920
 <font color="#d8d8d8">So when does this execute if the for Loop</font>
+<font color="#ffff00">Vậy khi nào điều này thực thi nếu vòng lặp for</font>
 
 398
 00:21:38,176 --> 00:21:40,224
 <font color="#cbcbcb">Complete without encountering a break</font>
+<font color="#ffff00">Hoàn thành mà không gặp phải sự gián đoạn</font>
 
 399
 00:21:40,480 --> 00:21:44,064
 <font color="#e7e7e7">No divisor was found that's when this will run</font>
+<font color="#ffff00">Không tìm thấy ước số nào khi đó nó sẽ chạy</font>
 
 400
 00:21:44,576 --> 00:21:45,856
 <font color="#f0f0f0">So it has to be</font>
+<font color="#ffff00">Vì vậy nó phải như vậy</font>
 
 401
 00:21:47,648 --> 00:21:49,440
 <font color="#e8e8e8">Kind of given right outside</font>
+<font color="#ffff00">Loại được đưa ra ngay bên ngoài</font>
 
 402
 00:21:50,464 --> 00:21:54,560
 <font color="#efefef">And then the final one it prints so what happens in the end is</font>
+<font color="#ffff00">Và sau đó là bản in cuối cùng nên điều xảy ra cuối cùng là</font>
 
 403
 00:21:54,816 --> 00:22:00,448
 <font color="#e3e3e3">This is block belongs to if number is greater than one statement which means if it's</font>
+<font color="#ffff00">Đây là khối thuộc về nếu số lớn hơn một câu lệnh, có nghĩa là nếu nó</font>
 
 404
 00:22:00,960 --> 00:22:02,496
 <font color="#ececec">If this will execute</font>
+<font color="#ffff00">Nếu điều này sẽ thực thi</font>
 
 405
 00:22:02,752 --> 00:22:08,640
 <font color="#e2e2e2">Sing the number is not greater than one so for example if it's 01 or negative numbers this will run</font>
+<font color="#ffff00">Hát số không lớn hơn một nên ví dụ nếu là 01 hoặc số âm thì số này sẽ chạy</font>
 
 406
 00:22:08,896 --> 00:22:10,688
 <font color="#f7f7f7">From here so let's go ahead</font>
+<font color="#ffff00">Từ đây chúng ta hãy tiếp tục</font>
 
 407
 00:22:11,200 --> 00:22:12,224
 <font color="#eeeeee">Save this</font>
+<font color="#ffff00">Lưu cái này</font>
 
 408
 00:22:12,480 --> 00:22:14,528
 <font color="#e5e5e5">And run this particular code</font>
+<font color="#ffff00">Và chạy mã cụ thể này</font>
 
 409
 00:22:15,040 --> 00:22:16,064
 <font color="#f0f0f0">I'm going to say</font>
+<font color="#ffff00">tôi định nói</font>
 
 410
 00:22:16,832 --> 00:22:19,392
 <font color="#a2a2a2">Lights on day two underscore</font>
+<font color="#ffff00">Đèn chiếu sáng vào ngày thứ hai được gạch dưới</font>
 
 411
 00:22:19,648 --> 00:22:22,720
 <font color="#c2c2c2">Exercise 1.2 device is asking me first line</font>
+<font color="#ffff00">Bài tập 1.2 máy hỏi mình dòng đầu tiên</font>
 
 412
 00:22:22,976 --> 00:22:27,584
 <font color="#ebebeb">And the number so let's say I will enter 10 which I know is not a prime number</font>
+<font color="#ffff00">Và số đó nên giả sử tôi sẽ nhập 10 mà tôi biết không phải là số nguyên tố</font>
 
 413
 00:22:28,096 --> 00:22:29,632
 <font color="#eeeeee">Satan is not a prime number</font>
+<font color="#ffff00">Satan không phải là số nguyên tố</font>
 
 414
 00:22:29,888 --> 00:22:32,448
 <font color="#ebebeb">I am going to go and run it again</font>
+<font color="#ffff00">Tôi sẽ đi và chạy nó một lần nữa</font>
 
 415
 00:22:32,704 --> 00:22:35,264
 <font color="#c2c2c2">And this time I'll give you 30 in which I know is a prime number</font>
+<font color="#ffff00">Và lần này tôi sẽ cho bạn 30 trong đó tôi biết là số nguyên tố</font>
 
 416
 00:22:35,520 --> 00:22:37,056
 <font color="#d6d6d6">And it says 13 is a prime number</font>
+<font color="#ffff00">Và nó nói 13 là số nguyên tố</font>
 
 417
 00:22:37,568 --> 00:22:38,592
 <font color="#c8c8c8">Should go to the loop</font>
+<font color="#ffff00">Nên đi vào vòng lặp</font>
 
 418
 00:22:38,848 --> 00:22:40,384
 <font color="#ebebeb">Find sound that</font>
+<font color="#ffff00">Tìm âm thanh đó</font>
 
 419
 00:22:40,640 --> 00:22:44,736
 <font color="#f9f9f9">It is not divisible by any of these numbers and that's why</font>
+<font color="#ffff00">Nó không chia hết cho bất kỳ số nào trong số này và đó là lý do tại sao</font>
 
 420
 00:22:44,992 --> 00:22:47,552
 <font color="#f7f7f7">It's going to go and say it's a prime number here</font>
+<font color="#ffff00">Nó sẽ đi và nói nó là số nguyên tố ở đây</font>
 
 421
 00:22:48,576 --> 00:22:50,112
 <font color="#f2f2f2">So that kind of completes are</font>
+<font color="#ffff00">Vì vậy, loại hoàn thành đó là</font>
 
 422
 00:22:50,368 --> 00:22:52,160
 <font color="#ececec">First exercise where</font>
+<font color="#ffff00">Bài tập đầu tiên ở đâu</font>
 
 423
 00:22:52,416 --> 00:22:55,744
 <font color="#f7f7f7">Have created the code to find out if a number is prime or not</font>
+<font color="#ffff00">Đã tạo mã để tìm hiểu xem một số có phải là số nguyên tố hay không</font>
 
 424
 00:22:56,768 --> 00:22:58,048
 <font color="#aeaeae">Are next exercise</font>
+<font color="#ffff00">Là bài tập tiếp theo</font>
 
 425
 00:22:59,840 --> 00:23:02,144
 <font color="#dfdfdf">To create a menu-driven calculator</font>
+<font color="#ffff00">Để tạo một máy tính điều khiển bằng menu</font>
 
 426
 00:23:02,912 --> 00:23:06,240
 <font color="#f3f3f3">The objective here is to create a Python program</font>
+<font color="#ffff00">Mục tiêu ở đây là tạo ra một chương trình Python</font>
 
 427
 00:23:06,496 --> 00:23:10,848
 <font color="#f5f5f5">That takes user input to display a menu with simple math operations</font>
+<font color="#ffff00">Điều đó yêu cầu người dùng nhập để hiển thị một menu với các phép toán đơn giản</font>
 
 428
 00:23:11,104 --> 00:23:14,944
 <font color="#d4d4d4">Weather be doing addition subtraction multiplication and division</font>
+<font color="#ffff00">Thời tiết đang làm phép cộng trừ nhân chia</font>
 
 429
 00:23:15,456 --> 00:23:18,528
 <font color="#e3e3e3">So the instructions that I would want to give you before we started</font>
+<font color="#ffff00">Vì vậy, những hướng dẫn mà tôi muốn đưa ra cho bạn trước khi chúng ta bắt đầu</font>
 
 430
 00:23:18,784 --> 00:23:24,928
 <font color="#ededed">We'll have to present a menu with options just like how we did before but before we asked user to exercise</font>
+<font color="#ffff00">Chúng tôi sẽ phải hiển thị một menu với các tùy chọn giống như cách chúng tôi đã làm trước đây nhưng trước khi yêu cầu người dùng thực hiện</font>
 
 431
 00:23:27,232 --> 00:23:31,840
 <font color="#c2c2c2">Material will give them a menu of addition subtraction multiplication and division</font>
+<font color="#ffff00">Tài liệu sẽ cung cấp cho các em một menu cộng trừ nhân chia</font>
 
 432
 00:23:32,096 --> 00:23:36,192
 <font color="#ececec">When will allow the user to select an option and input numbers</font>
+<font color="#ffff00">Khi nào sẽ cho phép người dùng chọn một tùy chọn và nhập số</font>
 
 433
 00:23:36,448 --> 00:23:40,800
 <font color="#f1f1f1">Then perform the selected operation that user wants and display the result</font>
+<font color="#ffff00">Sau đó thực hiện thao tác đã chọn mà người dùng mong muốn và hiển thị kết quả</font>
 
 434
 00:23:41,056 --> 00:23:44,896
 <font color="#ededed">Will use a loop to repeat the menu until the user exits</font>
+<font color="#ffff00">Sẽ sử dụng vòng lặp để lặp lại menu cho đến khi người dùng thoát</font>
 
 435
 00:23:45,152 --> 00:23:46,688
 <font color="#f8f8f8">So first let's go ahead</font>
+<font color="#ffff00">Vì vậy trước tiên chúng ta hãy tiếp tục</font>
 
 436
 00:23:47,712 --> 00:23:50,784
 <font color="#ececec">And create a new file I'm going to save this</font>
+<font color="#ffff00">Và tạo một tập tin mới Tôi sẽ lưu nó</font>
 
 437
 00:23:51,040 --> 00:23:54,624
 <font color="#b6b6b6">And I'm going to say that to exercise 2.0</font>
+<font color="#ffff00">Và tôi sẽ nói điều đó với bài tập 2.0</font>
 
 438
 00:23:55,904 --> 00:23:59,488
 <font color="#eaeaea">Let's start with the functions we have not yet covered functions but it's better</font>
+<font color="#ffff00">Hãy bắt đầu với các chức năng mà chúng ta chưa đề cập đến các chức năng nhưng tốt hơn</font>
 
 439
 00:23:59,744 --> 00:24:05,120
 <font color="#e1e1e1">We go through it as and when we learn it so what I'm going to do is I'm going to create a function called an ad</font>
+<font color="#ffff00">Chúng ta sẽ xem xét nó khi chúng ta tìm hiểu nó nên điều tôi sẽ làm là tạo một chức năng gọi là quảng cáo</font>
 
 440
 00:24:05,632 --> 00:24:11,776
 <font color="#e7e7e7">Which adds to numbers I'm going to give to parameters CNB now if you don't understand what I'm doing here just follow along and in the next</font>
+<font color="#ffff00">Điều này sẽ bổ sung thêm những con số mà tôi sẽ cung cấp cho CNB ngay bây giờ nếu bạn không hiểu những gì tôi đang làm ở đây, hãy làm theo và trong phần tiếp theo</font>
 
 441
 00:24:12,032 --> 00:24:13,824
 <font color="#e4e4e4">Section will learn more on this</font>
+<font color="#ffff00">Phần này sẽ tìm hiểu thêm về điều này</font>
 
 442
 00:24:14,336 --> 00:24:16,384
 <font color="#aeaeae">And here I'm going to say return a</font>
+<font color="#ffff00">Và ở đây tôi sẽ nói trả lại một</font>
 
 443
 00:24:16,896 --> 00:24:19,968
 <font color="#c8c8c8">Plus b because that's how you add two numbers</font>
+<font color="#ffff00">Cộng b vì đó là cách bạn cộng hai số</font>
 
 444
 00:24:20,480 --> 00:24:20,992
 <font color="#d0d0d0">Next</font>
+<font color="#ffff00">Kế tiếp</font>
 
 445
 00:24:21,248 --> 00:24:22,784
 <font color="#b1b1b1">I'm going to say subtract</font>
+<font color="#ffff00">Tôi sẽ nói phép trừ</font>
 
 446
 00:24:25,600 --> 00:24:28,672
 <font color="#cdcdcd">And that again takes two numbers a comma</font>
+<font color="#ffff00">Và điều đó một lần nữa lấy hai số một dấu phẩy</font>
 
 447
 00:24:30,208 --> 00:24:34,048
 <font color="#e1e1e1">And this one returns to this function will return a</font>
+<font color="#ffff00">Và cái này quay lại hàm này sẽ trả về một</font>
 
 448
 00:24:34,304 --> 00:24:35,328
 <font color="#b5b5b5">Minus</font>
+<font color="#ffff00">Điểm trừ</font>
 
 449
 00:24:36,352 --> 00:24:39,680
 <font color="#cccccc">Next I want to do a multiplication and say multiply</font>
+<font color="#ffff00">Tiếp theo tôi muốn thực hiện phép nhân và nói nhân</font>
 
 450
 00:24:41,472 --> 00:24:43,776
 <font color="#cccccc">And I'll take two numbers a comma B</font>
+<font color="#ffff00">Và tôi sẽ lấy hai số một dấu phẩy B</font>
 
 451
 00:24:44,800 --> 00:24:46,080
 <font color="#a7a7a7">And I will return</font>
+<font color="#ffff00">Và tôi sẽ trở lại</font>
 
 452
 00:24:49,664 --> 00:24:51,456
 <font color="#ebebeb">Next I'm going to do divide</font>
+<font color="#ffff00">Tiếp theo tôi sẽ thực hiện phép chia</font>
 
 453
 00:24:53,504 --> 00:24:57,088
 <font color="#e1e1e1">And this again will take two parameters</font>
+<font color="#ffff00">Và điều này một lần nữa sẽ có hai tham số</font>
 
 454
 00:24:57,856 --> 00:24:59,392
 <font color="#c9c9c9">And this will</font>
+<font color="#ffff00">Và điều này sẽ</font>
 
 455
 00:24:59,904 --> 00:25:06,048
 <font color="#e3e3e3">First in division sometimes you to check if its not equal to 0 so I'm going to say not divisible by</font>
+<font color="#ffff00">Đầu tiên trong phép chia đôi khi bạn kiểm tra xem nó có bằng 0 hay không nên tôi sẽ nói là không chia hết cho</font>
 
 456
 00:25:06,816 --> 00:25:12,960
 <font color="#dfdfdf">B is not equal to 0 so I'll have to make sure that a division by 0 is not</font>
+<font color="#ffff00">B không bằng 0 nên tôi phải đảm bảo rằng phép chia cho 0 không phải là</font>
 
 457
 00:25:13,216 --> 00:25:13,728
 <font color="#b6b6b6">You're loud here</font>
+<font color="#ffff00">Ở đây bạn ồn ào quá</font>
 
 458
 00:25:13,984 --> 00:25:20,128
 <font color="#e3e3e3">So I'm going to check if is not equal to 0 because a divided by B and in this case</font>
+<font color="#ffff00">Vì vậy, tôi sẽ kiểm tra xem có bằng 0 vì a chia cho B và trong trường hợp này</font>
 
 459
 00:25:20,384 --> 00:25:22,176
 <font color="#d0d0d0">Is the second argument if it's zero</font>
+<font color="#ffff00">Là đối số thứ hai nếu nó bằng 0</font>
 
 460
 00:25:22,944 --> 00:25:24,992
 <font color="#c7c7c7">I will say return</font>
+<font color="#ffff00">Tôi sẽ nói trở lại</font>
 
 461
 00:25:25,248 --> 00:25:27,040
 <font color="#aaaaaa">A / B</font>
+<font color="#ffff00">A / B</font>
 
 462
 00:25:28,064 --> 00:25:31,392
 <font color="#e3e3e3">If the user gives me a zero I am going to print out</font>
+<font color="#ffff00">Nếu người dùng cho tôi số 0, tôi sẽ in ra</font>
 
 463
 00:25:31,904 --> 00:25:33,952
 <font color="#b6b6b6">Sing or return back sing</font>
+<font color="#ffff00">Hát hay quay lại hát</font>
 
 464
 00:25:34,976 --> 00:25:36,512
 <font color="#f0f0f0">Division by</font>
+<font color="#ffff00">Chia theo</font>
 
 465
 00:25:37,280 --> 00:25:38,816
 <font color="#bcbcbc">Zero is</font>
+<font color="#ffff00">số không là</font>
 
 466
 00:25:39,328 --> 00:25:39,840
 <font color="#818181">Alarm</font>
+<font color="#ffff00">Báo thức</font>
 
 467
 00:25:40,864 --> 00:25:41,888
 <font color="#dbdbdb">Just an extra</font>
+<font color="#ffff00">Chỉ là một phần bổ sung</font>
 
 468
 00:25:42,144 --> 00:25:43,168
 <font color="#313131">Precautions</font>
+<font color="#ffff00">Các biện pháp phòng ngừa</font>
 
 469
 00:25:43,424 --> 00:25:47,520
 <font color="#e3e3e3">So these are my four functions to add subtract multiply and divide</font>
+<font color="#ffff00">Đây là bốn hàm của tôi để cộng trừ nhân và chia</font>
 
 470
 00:25:47,776 --> 00:25:53,152
 <font color="#d7d7d7">No I'm going to write a loop here I'm going to say wild true again as I mentioned you know when you say wild true</font>
+<font color="#ffff00">Không, tôi sẽ viết một vòng lặp ở đây. Tôi sẽ nói lại sự thật hoang dã như tôi đã đề cập, bạn biết đấy khi bạn nói sự thật hoang dã</font>
 
 471
 00:25:53,408 --> 00:25:54,176
 <font color="#efefef">It will run</font>
+<font color="#ffff00">Nó sẽ chạy</font>
 
 472
 00:25:54,432 --> 00:25:55,712
 <font color="#a7a7a7">When a constant Loop</font>
+<font color="#ffff00">Khi một vòng lặp không đổi</font>
 
 473
 00:25:55,968 --> 00:25:58,528
 <font color="#e3e3e3">How to break out of it you can just say break</font>
+<font color="#ffff00">Làm thế nào để thoát ra khỏi nó bạn chỉ có thể nói phá vỡ</font>
 
 474
 00:25:58,784 --> 00:25:59,552
 <font color="#9f9f9f">But</font>
+<font color="#ffff00">Nhưng</font>
 
 475
 00:26:00,064 --> 00:26:06,208
 <font color="#dddddd">Where should I say break so first as I mentioned you we need to give a user a menu option so I'm going to say print</font>
+<font color="#ffff00">Tôi nên nói break ở đâu trước tiên vì tôi đã đề cập đến bạn, chúng tôi cần cung cấp cho người dùng một tùy chọn menu vì vậy tôi sẽ nói in</font>
 
 476
 00:26:08,256 --> 00:26:09,280
 <font color="#bababa">I didn't hear</font>
+<font color="#ffff00">Tôi không nghe thấy</font>
 
 477
 00:26:10,048 --> 00:26:13,888
 <font color="#d2d2d2">Next line slashing at the next line in the in the in the terminal</font>
+<font color="#ffff00">Dòng tiếp theo gạch chéo ở dòng tiếp theo trong trong thiết bị đầu cuối</font>
 
 478
 00:26:14,400 --> 00:26:15,424
 <font color="#595959">What are common prom</font>
+<font color="#ffff00">vũ hội phổ biến là gì</font>
 
 479
 00:26:15,680 --> 00:26:16,704
 <font color="#b1b1b1">I'm going to see menu</font>
+<font color="#ffff00">Tôi sẽ xem thực đơn</font>
 
 480
 00:26:16,960 --> 00:26:17,728
 <font color="#c9c9c9">No the menu</font>
+<font color="#ffff00">Không có thực đơn</font>
 
 481
 00:26:18,240 --> 00:26:19,776
 <font color="#c5c5c5">I will give you the options</font>
+<font color="#ffff00">Tôi sẽ cung cấp cho bạn các lựa chọn</font>
 
 482
 00:26:21,824 --> 00:26:27,200
 <font color="#f0f0f0">So this one is for addition subtraction multiplication division and</font>
+<font color="#ffff00">Đây là cái dành cho phép cộng trừ nhân chia và</font>
 
 483
 00:26:27,456 --> 00:26:27,968
 <font color="#dddddd">Exit</font>
+<font color="#ffff00">Ra</font>
 
 484
 00:26:28,736 --> 00:26:33,344
 <font color="#c7c7c7">Something out all of them the number one so if you just says number one</font>
+<font color="#ffff00">Có điều gì đó tất cả đều là số một nên nếu bạn chỉ nói số một</font>
 
 485
 00:26:34,112 --> 00:26:37,440
 <font color="#bbbbbb">Bits and edition if the user says press is number two</font>
+<font color="#ffff00">Bit và ấn bản nếu người dùng nói báo chí là số hai</font>
 
 486
 00:26:37,696 --> 00:26:38,464
 <font color="#d2d2d2">I will say</font>
+<font color="#ffff00">tôi sẽ nói</font>
 
 487
 00:26:41,024 --> 00:26:41,536
 <font color="#6a6a6a">Traction</font>
+<font color="#ffff00">Lực kéo</font>
 
 488
 00:26:43,072 --> 00:26:45,120
 <font color="#c4c4c4">If the users presses number 3</font>
+<font color="#ffff00">Nếu người dùng nhấn số 3</font>
 
 489
 00:26:45,376 --> 00:26:46,912
 <font color="#b6b6b6">How to say multiplication</font>
+<font color="#ffff00">Cách nói phép nhân</font>
 
 490
 00:26:47,936 --> 00:26:50,240
 <font color="#d5d5d5">If the user presses number four</font>
+<font color="#ffff00">Nếu người dùng nhấn số bốn</font>
 
 491
 00:26:50,752 --> 00:26:52,032
 <font color="#c5c5c5">It's division</font>
+<font color="#ffff00">Đó là phép chia</font>
 
 492
 00:26:52,800 --> 00:26:54,080
 <font color="#cfcfcf">Number five</font>
+<font color="#ffff00">Số năm</font>
 
 493
 00:26:54,336 --> 00:26:55,616
 <font color="#b8b8b8">Is to exit</font>
+<font color="#ffff00">Là để thoát</font>
 
 494
 00:26:55,872 --> 00:26:56,640
 <font color="#a1a1a1">Switch music</font>
+<font color="#ffff00">Chuyển nhạc</font>
 
 495
 00:26:56,896 --> 00:26:58,176
 <font color="#828282">This is the prices</font>
+<font color="#ffff00">Đây là mức giá</font>
 
 496
 00:26:58,432 --> 00:27:00,736
 <font color="#e0e0e0">Five I will just exit out of the loop</font>
+<font color="#ffff00">Năm tôi sẽ thoát ra khỏi vòng lặp</font>
 
 497
 00:27:01,248 --> 00:27:03,296
 <font color="#f9f9f9">So if you want to see how that is done</font>
+<font color="#ffff00">Vì vậy, nếu bạn muốn xem điều đó được thực hiện như thế nào</font>
 
 498
 00:27:03,552 --> 00:27:05,600
 <font color="#f3f3f3">I can just say if</font>
+<font color="#ffff00">Tôi chỉ có thể nói nếu</font>
 
 499
 00:27:09,952 --> 00:27:12,768
 <font color="#c5c5c5">Equal to input I'm going to ask user</font>
+<font color="#ffff00">Tương đương với đầu vào tôi sẽ hỏi người dùng</font>
 
 500
 00:27:16,608 --> 00:27:18,912
 <font color="#ebebeb">Choice based on the Above menu</font>
+<font color="#ffff00">Lựa chọn dựa trên menu trên</font>
 
 501
 00:27:20,448 --> 00:27:23,264
 <font color="#e3e3e3">So based on the bar menu I'm going to ask the user to enter something</font>
+<font color="#ffff00">Vì vậy, dựa trên menu thanh, tôi sẽ yêu cầu người dùng nhập nội dung nào đó</font>
 
 502
 00:27:23,520 --> 00:27:25,312
 <font color="#f9f9f9">And if the user</font>
+<font color="#ffff00">Và nếu người dùng</font>
 
 503
 00:27:29,920 --> 00:27:32,480
 <font color="#f1f1f1">What I'm going to do is I'm going to say print</font>
+<font color="#ffff00">Điều tôi sắp làm là tôi sẽ nói in</font>
 
 504
 00:27:34,016 --> 00:27:35,552
 <font color="#cbcbcb">Exiting</font>
+<font color="#ffff00">Đang thoát</font>
 
 505
 00:27:35,808 --> 00:27:36,832
 <font color="#d6d6d6">Program</font>
+<font color="#ffff00">Chương trình</font>
 
 506
 00:27:39,904 --> 00:27:41,440
 <font color="#ececec">I will break out of this</font>
+<font color="#ffff00">Tôi sẽ thoát khỏi điều này</font>
 
 507
 00:27:42,976 --> 00:27:46,560
 <font color="#dadada">Break out of my Loop which is end of end of this function there's nothing else outside</font>
+<font color="#ffff00">Thoát khỏi Vòng lặp của tôi là phần cuối của chức năng này, không có gì khác ở bên ngoài</font>
 
 508
 00:27:47,584 --> 00:27:51,680
 <font color="#e2e2e2">Or else I lost the user to enter the two numbers I'm going to say number one</font>
+<font color="#ffff00">Hoặc nếu không tôi đã mất người dùng nhập hai số tôi sẽ nói số một</font>
 
 509
 00:27:51,936 --> 00:27:55,776
 <font color="#cfcfcf">I think it is float because user might enter decimal point values</font>
+<font color="#ffff00">Tôi nghĩ nó nổi vì người dùng có thể nhập giá trị dấu thập phân</font>
 
 510
 00:27:56,288 --> 00:27:58,336
 <font color="#cfcfcf">And I lost the user to input something</font>
+<font color="#ffff00">Và tôi đã mất người dùng để nhập nội dung nào đó</font>
 
 511
 00:27:58,848 --> 00:27:59,872
 <font color="#adadad">I'll say enter</font>
+<font color="#ffff00">Tôi sẽ nói hãy vào</font>
 
 512
 00:28:00,128 --> 00:28:01,152
 <font color="#fafafa">The</font>
+<font color="#ffff00">các</font>
 
 513
 00:28:01,664 --> 00:28:02,432
 <font color="#b4b4b4">Numbers</font>
+<font color="#ffff00">số</font>
 
 514
 00:28:03,200 --> 00:28:05,504
 <font color="#eeeeee">And I let user enter his first number</font>
+<font color="#ffff00">Và tôi cho phép người dùng nhập số đầu tiên của mình</font>
 
 515
 00:28:05,760 --> 00:28:08,576
 <font color="#b9b9b9">Is it her first number number 2</font>
+<font color="#ffff00">Có phải số đầu tiên của cô ấy là số 2</font>
 
 516
 00:28:09,856 --> 00:28:15,232
 <font color="#ececec">Second number this is where the user will enter the second number now I have both the numbers</font>
+<font color="#ffff00">Số thứ hai đây là nơi người dùng sẽ nhập số thứ hai bây giờ tôi có cả hai số</font>
 
 517
 00:28:15,488 --> 00:28:17,280
 <font color="#e3e3e3">What I'm going to do is I'm going to check</font>
+<font color="#ffff00">Điều tôi sắp làm là tôi sẽ kiểm tra</font>
 
 518
 00:28:19,584 --> 00:28:22,144
 <font color="#bebebe">Equal to one if the user clicked</font>
+<font color="#ffff00">Bằng một nếu người dùng nhấp vào</font>
 
 519
 00:28:22,400 --> 00:28:25,216
 <font color="#dadada">Selected one as his choice which is Edition</font>
+<font color="#ffff00">Đã chọn một cái theo lựa chọn của mình đó là Phiên bản</font>
 
 520
 00:28:25,472 --> 00:28:27,008
 <font color="#f0f0f0">So what I'm going to do is print</font>
+<font color="#ffff00">Vì vậy điều tôi sắp làm là in</font>
 
 521
 00:28:28,800 --> 00:28:29,568
 <font color="#c0c0c0">Result</font>
+<font color="#ffff00">Kết quả</font>
 
 522
 00:28:31,360 --> 00:28:32,128
 <font color="#e2e2e2">Is</font>
+<font color="#ffff00">Là</font>
 
 523
 00:28:34,176 --> 00:28:35,968
 <font color="#e1e1e1">I'm going to call the function at</font>
+<font color="#ffff00">Tôi sẽ gọi hàm tại</font>
 
 524
 00:28:36,224 --> 00:28:37,504
 <font color="#fbfbfb">Which is right here</font>
+<font color="#ffff00">Cái nào ở ngay đây</font>
 
 525
 00:28:38,016 --> 00:28:40,576
 <font color="#eaeaea">And it needs two parameters which are my</font>
+<font color="#ffff00">Và nó cần hai tham số của tôi</font>
 
 526
 00:28:40,832 --> 00:28:41,856
 <font color="#ececec">Number one</font>
+<font color="#ffff00">Số một</font>
 
 527
 00:28:42,368 --> 00:28:43,392
 <font color="#b0b0b0">And number</font>
+<font color="#ffff00">Và số</font>
 
 528
 00:28:43,648 --> 00:28:48,000
 <font color="#c6c6c6">2 South Boston what it does is if the user picked one here</font>
+<font color="#ffff00">2 Nam Boston sẽ như thế nào nếu người dùng chọn một cái ở đây</font>
 
 529
 00:28:48,256 --> 00:28:52,096
 <font color="#d7d7d7">And then entered two and then enter the second number is 4 and I'm going to</font>
+<font color="#ffff00">Và sau đó nhập hai rồi nhập số thứ hai là 4 và tôi sẽ</font>
 
 530
 00:28:52,352 --> 00:28:57,472
 <font color="#cbcbcb">Pause this 2 and 4 to this ad which is 6 and it will show me the response the result</font>
+<font color="#ffff00">Tạm dừng 2 và 4 này cho quảng cáo này là 6 và nó sẽ hiển thị cho tôi kết quả phản hồi</font>
 
 531
 00:28:57,728 --> 00:28:59,520
 <font color="#dfdfdf">Equal to 6 in this particular case</font>
+<font color="#ffff00">Bằng 6 trong trường hợp cụ thể này</font>
 
 532
 00:29:00,032 --> 00:29:02,080
 <font color="#d3d3d3">So that's the first one so I'm going to copy this</font>
+<font color="#ffff00">Đây là cái đầu tiên nên tôi sẽ sao chép cái này</font>
 
 533
 00:29:03,872 --> 00:29:04,640
 <font color="#696969">Showtimes</font>
+<font color="#ffff00">Lịch chiếu</font>
 
 534
 00:29:05,920 --> 00:29:11,296
 <font color="#e5e5e5">No I can't do if it's because what it will do is it will go through each and every one</font>
+<font color="#ffff00">Không, tôi không thể làm được vì điều nó sẽ làm là nó sẽ xuyên qua từng người một</font>
 
 535
 00:29:11,552 --> 00:29:14,112
 <font color="#e0e0e0">4 * 1,234 so this is</font>
+<font color="#ffff00">4*1,234 là thế này</font>
 
 536
 00:29:16,672 --> 00:29:18,208
 <font color="#e6e6e6">What if I leave it like this</font>
+<font color="#ffff00">Nếu tôi để nó như thế này thì sao</font>
 
 537
 00:29:18,464 --> 00:29:20,768
 <font color="#e9e9e9">And add the functions subtract</font>
+<font color="#ffff00">Và cộng các hàm trừ</font>
 
 538
 00:29:21,792 --> 00:29:23,072
 <font color="#cdcdcd">Third one was</font>
+<font color="#ffff00">Cái thứ ba là</font>
 
 539
 00:29:23,328 --> 00:29:24,352
 <font color="#e5e5e5">Multiplication</font>
+<font color="#ffff00">Phép nhân</font>
 
 540
 00:29:24,864 --> 00:29:31,008
 <font color="#dddddd">The last one was subtract so these are the different options now if I run it through here it will check</font>
+<font color="#ffff00">Cái cuối cùng đã bị trừ nên bây giờ đây là những tùy chọn khác nhau nếu tôi chạy qua đây thì nó sẽ kiểm tra</font>
 
 541
 00:29:31,264 --> 00:29:35,104
 <font color="#f1f1f1">Each and every time but I want to see like if I check one if it's not one</font>
+<font color="#ffff00">Lần nào cũng vậy nhưng tôi muốn xem liệu tôi có kiểm tra một cái không nếu nó không phải là một</font>
 
 542
 00:29:35,616 --> 00:29:37,408
 <font color="#f4f4f4">Then I want to check the second one</font>
+<font color="#ffff00">Sau đó tôi muốn kiểm tra cái thứ hai</font>
 
 543
 00:29:37,920 --> 00:29:43,296
 <font color="#e5e5e5">What else what it will happen is even if the choice is one it will go through each and every statement</font>
+<font color="#ffff00">Điều gì khác sẽ xảy ra là ngay cả khi lựa chọn là một, nó sẽ trải qua từng câu lệnh</font>
 
 544
 00:29:46,368 --> 00:29:48,672
 <font color="#9d9d9d">Types anything other than one two three four five</font>
+<font color="#ffff00">Nhập bất cứ thứ gì ngoài một hai ba bốn năm</font>
 
 545
 00:29:49,184 --> 00:29:51,488
 <font color="#dddddd">So for that I will say else</font>
+<font color="#ffff00">Vì vậy, tôi sẽ nói khác</font>
 
 546
 00:29:57,888 --> 00:29:58,656
 <font color="#b3b3b3">Joyce</font>
+<font color="#ffff00">Joyce</font>
 
 547
 00:30:01,728 --> 00:30:07,872
 <font color="#dadada">Try again so for example if the user presses 9 we don't have anything to do with 9 so I'll say invalid choice</font>
+<font color="#ffff00">Hãy thử lại, ví dụ: nếu người dùng nhấn 9, chúng tôi không liên quan gì đến 9 nên tôi sẽ nói lựa chọn không hợp lệ</font>
 
 548
 00:30:08,128 --> 00:30:09,152
 <font color="#cacaca">And I lost the user</font>
+<font color="#ffff00">Và tôi đã mất người dùng</font>
 
 549
 00:30:10,432 --> 00:30:10,944
 <font color="#8e8e8e">Try again</font>
+<font color="#ffff00">Thử lại</font>
 
 550
 00:30:11,200 --> 00:30:11,968
 <font color="#c5c5c5">So go ahead</font>
+<font color="#ffff00">Vì vậy hãy tiếp tục</font>
 
 551
 00:30:12,224 --> 00:30:14,272
 <font color="#dfdfdf">And run this let me clear this out</font>
+<font color="#ffff00">Và chạy cái này để tôi làm rõ cái này</font>
 
 552
 00:30:14,784 --> 00:30:15,808
 <font color="#f2f2f2">This is called</font>
+<font color="#ffff00">Đây được gọi là</font>
 
 553
 00:30:16,832 --> 00:30:18,880
 <font color="#a6a6a6">Did you exercise too so here is my menu</font>
+<font color="#ffff00">Bạn cũng tập thể dục nên đây là thực đơn của tôi</font>
 
 554
 00:30:19,392 --> 00:30:21,184
 <font color="#dddddd">Addition so this printed out</font>
+<font color="#ffff00">Ngoài ra cái này được in ra</font>
 
 555
 00:30:21,440 --> 00:30:26,560
 <font color="#e8e8e8">Addition subtraction multiplication division exit so I am going to say one</font>
+<font color="#ffff00">Phép cộng trừ nhân chia thoát nên tôi sẽ nói một</font>
 
 556
 00:30:27,584 --> 00:30:29,888
 <font color="#a6a6a6">Access enter your first number I said three</font>
+<font color="#ffff00">Truy cập nhập số đầu tiên của bạn tôi nói ba</font>
 
 557
 00:30:30,144 --> 00:30:33,472
 <font color="#d3d3d3">And the second number 5 now 5 + 3</font>
+<font color="#ffff00">Và số thứ hai 5 bây giờ là 5 + 3</font>
 
 558
 00:30:33,728 --> 00:30:38,592
 <font color="#e5e5e5">As you saw that I took the input as floors it will take it as 3.0 and 5.0</font>
+<font color="#ffff00">Như bạn thấy rằng tôi đã lấy đầu vào là tầng, nó sẽ lấy nó là 3.0 và 5.0</font>
 
 559
 00:30:38,848 --> 00:30:39,616
 <font color="#cdcdcd">And print</font>
+<font color="#ffff00">Và in</font>
 
 560
 00:30:39,872 --> 00:30:42,176
 <font color="#e9e9e9">8.0 for me similarly</font>
+<font color="#ffff00">8.0 đối với tôi cũng tương tự</font>
 
 561
 00:30:46,272 --> 00:30:48,576
 <font color="#c5c5c5">Since I'm not exited the loop to</font>
+<font color="#ffff00">Vì tôi chưa thoát khỏi vòng lặp để</font>
 
 562
 00:30:49,344 --> 00:30:50,368
 <font color="#676767">I said five</font>
+<font color="#ffff00">Tôi nói năm</font>
 
 563
 00:30:50,624 --> 00:30:51,392
 <font color="#929292">And</font>
+<font color="#ffff00">Và</font>
 
 564
 00:30:51,648 --> 00:30:53,440
 <font color="#b6b6b6">What's a 4.2 is the result</font>
+<font color="#ffff00">Kết quả 4.2 là bao nhiêu</font>
 
 565
 00:30:53,952 --> 00:30:55,232
 <font color="#acacac">Similarly if I pick 3</font>
+<font color="#ffff00">Tương tự nếu tôi chọn 3</font>
 
 566
 00:30:55,744 --> 00:30:56,512
 <font color="#595959">It's a</font>
+<font color="#ffff00">Đó là một</font>
 
 567
 00:30:58,816 --> 00:31:00,096
 <font color="#e9e9e9">Should be 20</font>
+<font color="#ffff00">Đáng lẽ phải là 20</font>
 
 568
 00:31:00,608 --> 00:31:01,888
 <font color="#bbbbbb">No</font>
+<font color="#ffff00">KHÔNG</font>
 
 569
 00:31:02,400 --> 00:31:04,192
 <font color="#e9e9e9">I want to divide 4</font>
+<font color="#ffff00">Tôi muốn chia 4</font>
 
 570
 00:31:04,960 --> 00:31:05,984
 <font color="#979797">By zero</font>
+<font color="#ffff00">Bằng 0</font>
 
 571
 00:31:06,496 --> 00:31:10,080
 <font color="#e5e5e5">It looks like here in the court instead of calling the Divide</font>
+<font color="#ffff00">Có vẻ như ở đây tại tòa án thay vì gọi là Chia rẽ</font>
 
 572
 00:31:10,336 --> 00:31:13,152
 <font color="#f6f6f6">I was calling the subtract so I'm going to fix that</font>
+<font color="#ffff00">Tôi đang gọi phép trừ nên tôi sẽ sửa nó</font>
 
 573
 00:31:13,408 --> 00:31:14,432
 <font color="#f5f5f5">And go ahead</font>
+<font color="#ffff00">Và hãy tiếp tục</font>
 
 574
 00:31:14,944 --> 00:31:16,480
 <font color="#f0f0f0">And run my code again</font>
+<font color="#ffff00">Và chạy lại mã của tôi</font>
 
 575
 00:31:16,736 --> 00:31:18,016
 <font color="#d4d4d4">Give the option for</font>
+<font color="#ffff00">Đưa ra lựa chọn cho</font>
 
 576
 00:31:18,528 --> 00:31:19,552
@@ -2305,87 +2875,109 @@
 577
 00:31:19,808 --> 00:31:23,648
 <font color="#dbdbdb">Second number zero and it's a division by 0 is not allowed</font>
+<font color="#ffff00">Số thứ hai bằng 0 và không được phép chia cho 0</font>
 
 578
 00:31:23,904 --> 00:31:29,024
 <font color="#e8e8e8">Let's go ahead and pick five</font>
+<font color="#ffff00">Hãy tiếp tục và chọn năm</font>
 
 579
 00:31:29,280 --> 00:31:34,144
 <font color="#fbfbfb">I hope you were able to get through it if you have any questions or any problems let me know</font>
+<font color="#ffff00">Tôi hy vọng bạn có thể vượt qua nó nếu bạn có bất kỳ câu hỏi hoặc bất kỳ vấn đề nào hãy cho tôi biết</font>
 
 580
 00:31:34,400 --> 00:31:37,984
 <font color="#f1f1f1">And for the next things what you can do is for additional practice</font>
+<font color="#ffff00">Và điều tiếp theo bạn có thể làm là thực hành bổ sung</font>
 
 581
 00:31:38,240 --> 00:31:42,080
 <font color="#f6f6f6">I have a couple of more programs for you what you can do is you can write a program</font>
+<font color="#ffff00">Tôi có thêm một vài chương trình dành cho bạn, điều bạn có thể làm là viết một chương trình</font>
 
 582
 00:31:42,336 --> 00:31:44,384
 <font color="#f7f7f7">To calculate the factorial of a number</font>
+<font color="#ffff00">Để tính giai thừa của một số</font>
 
 583
 00:31:44,640 --> 00:31:50,528
 <font color="#e0e0e0">Using a while loop now if you don't know what a factorial go ahead and look up look it up and then write this</font>
+<font color="#ffff00">Bây giờ hãy sử dụng vòng lặp while nếu bạn không biết giai thừa là gì, hãy tiếp tục tra cứu và viết nó</font>
 
 584
 00:31:50,784 --> 00:31:51,296
 <font color="#f1f1f1">To create</font>
+<font color="#ffff00">Để tạo</font>
 
 585
 00:31:51,552 --> 00:31:54,880
 <font color="#cdcdcd">To get to calculate the factorial of a number using a while loop</font>
+<font color="#ffff00">Để tính giai thừa của một số bằng vòng lặp while</font>
 
 586
 00:31:55,136 --> 00:31:57,696
 <font color="#fcfcfc">Next you can try to create a program</font>
+<font color="#ffff00">Tiếp theo bạn có thể thử tạo một chương trình</font>
 
 587
 00:31:57,952 --> 00:32:01,536
 <font color="#d8d8d8">To find the largest number in the list using a for Loop</font>
+<font color="#ffff00">Để tìm số lớn nhất trong danh sách bằng Vòng lặp for</font>
 
 588
 00:32:01,792 --> 00:32:02,816
 <font color="#efefef">So you can try that out</font>
+<font color="#ffff00">Vì vậy, bạn có thể thử điều đó</font>
 
 589
 00:32:03,072 --> 00:32:09,216
 <font color="#e8e8e8">So if you have a list of items to create a list of items and add some numbers inside there and use a for Loop</font>
+<font color="#ffff00">Vì vậy, nếu bạn có một danh sách các mục, hãy tạo danh sách các mục và thêm một số số vào đó và sử dụng Vòng lặp for</font>
 
 590
 00:32:09,728 --> 00:32:12,800
 <font color="#f9f9f9">Go through each and every item in that particular list and</font>
+<font color="#ffff00">Đi qua từng mục trong danh sách cụ thể đó và</font>
 
 591
 00:32:13,056 --> 00:32:15,616
 <font color="#fcfcfc">Find the largest number in the list</font>
+<font color="#ffff00">Tìm số lớn nhất trong danh sách</font>
 
 592
 00:32:16,128 --> 00:32:17,664
 <font color="#d6d6d6">So that's it for day two</font>
+<font color="#ffff00">Thế là xong ngày thứ hai</font>
 
 593
 00:32:17,920 --> 00:32:24,064
 <font color="#ebebeb">Where you learned the foundation foundational control flow constructs in Python including conditional</font>
+<font color="#ffff00">Nơi bạn đã học các cấu trúc luồng điều khiển nền tảng trong Python bao gồm các điều kiện</font>
 
 594
 00:32:24,320 --> 00:32:28,160
 <font color="#e6e6e6">Statements loops and flow control keywords like brake and continue</font>
+<font color="#ffff00">Các vòng lặp câu lệnh và các từ khóa điều khiển luồng như phanh và tiếp tục</font>
 
 595
 00:32:28,416 --> 00:32:30,720
 <font color="#e8e8e8">The handsome exercise probably helped you</font>
+<font color="#ffff00">Bài tập đẹp trai có lẽ đã giúp ích cho bạn</font>
 
 596
 00:32:30,976 --> 00:32:34,048
 <font color="#c7c7c7">With the concepts with real world programming task</font>
+<font color="#ffff00">Với các khái niệm với nhiệm vụ lập trình thế giới thực</font>
 
 597
 00:32:34,304 --> 00:32:39,936
 <font color="#f9f9f9">Preparing you for more complex logical challenges and try to do these additional practice</font>
+<font color="#ffff00">Chuẩn bị cho bạn những thử thách logic phức tạp hơn và cố gắng thực hành những bài thực hành bổ sung này</font>
 
 598
 00:32:40,448 --> 00:32:44,032
 <font color="#f5f5f5">Sessions on your own if you had any problems or have any questions</font>
+<font color="#ffff00">Tự mình thực hiện các phiên nếu bạn gặp bất kỳ vấn đề hoặc có bất kỳ câu hỏi nào</font>
